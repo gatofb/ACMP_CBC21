@@ -1,0 +1,146 @@
+# Introducción al Pensamiento Científico (40) — exámenes en Arrimo Wiki
+
+118 archivos. Fuente: Arrimo Wiki (UBA XXI).
+
+## Cátedra Buacar · 1er Parcial
+
+Página: https://arrimo.com.ar/wiki/p/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er-parcial
+
+- [1er_Parcial_-_2do_C._2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_1-9abfd3523ded498786c3831aed5677c5.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_2-6fad8bd724b14d2c856c4798f4d94bec.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_3-bc939a8294654d0c992d554fedc27689.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_4-cb57da26503c45468c7c3fffbe66ceed.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_5-a40f3c7fe5bc4823b6976484ceafce20.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_6.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_6-4adbb4fe5d4a402cb89aecde175cda43.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_7.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_7-1a08fd00d0394da38891a5d258637066.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_8.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_8-837d5a7a6d71456b901d6ccf0d9136fb.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_9.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_9-422c7c334a7b4ea784b0bf74c526ca5a.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_10.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_10-257603ef0829439ea743fb5eecc832f0.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_11.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_11-36645e2467bb4ada8cbc46d278f34ce2.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_12.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_12-3cf66c41c2014e2a8bf67e06441638f0.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_13.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2026_-_Tema_13-af2b3db5eaa6448f977d94f65cd09b7a.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_1-f867ce7d10194e8a97c9acdca054272c.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_2-e4bddc7c92e843db898186e30d582da1.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_3-799de94bd3434acb8e975fddd853051b.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_4-7e759672ebfa49589998be383af6f3d3.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_5-1a0a594f010a4f01bf613bbaf0ead1f5.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_6.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_6-88bf0d2ee6fc4777aad8ace69b5188d3.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_7.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_7-b538470c7c504964a8e40196fab8acaf.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_8.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_8-1fb15eda5c2140aeb67e3ca5f0fbf657.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_9.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_9-7f7e2be05c4e44c7b7bcecd7c05c159a.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_10.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_10-5fb54f3cb13a40e28b463c4dc7edd092.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_11.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_11-e15c62d53343466a840c6e1708543a36.pdf)
+- [1er_Parcial_-_1er_C._2026_-_Tema_12.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2026_-_Tema_12-a9e809b44302406ba80fa7cc122fa836.pdf)
+- [Recuperatorio_1er_Parcial_-_1er_C._2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_1er_Parcial_-_1er_C._2026_-_Tema_1-a58c109f74984423ae368b206121b44c.pdf)
+- [Recuperatorio_1er_Parcial_-_1er_C._2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_1er_Parcial_-_1er_C._2026_-_Tema_2-728c765be9f74d4aa87aedff79b487e2.pdf)
+- [1er_Parcial_-_2do_C._2025_-_10_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2025_-_10_Temas-10c0cc3a22e44203adebe5aaee683faf.pdf)
+- [1er_Parcial_-_1er_C._2025_-_12_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2025_-_12_Temas-bf2794d803b441759dcbea29ff8b6c6a.pdf)
+- [1er_Parcial_-_2do_C._2024_-_10_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2024_-_10_Temas-731b5f4425384fa796d2b6a84981ee8c.pdf)
+- [1er_Parcial_-_1er_C._2024_-_12_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2024_-_12_Temas-5def4ddb56714e1ebfec4bddaac8cffe.pdf)
+- [1er_Parcial_-_2do_C._2023_-_10_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_2do_C._2023_-_10_Temas-02fb3e4b2d4a4fb985e516018da95fe1.pdf)
+- [1er_Parcial_-_1er_C._2023_-_12_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/1er_Parcial_-_1er_C._2023_-_12_Temas-b56ed3026c934d84b9b22b3ded02ffdf.pdf)
+- [Recuperatorios_1er_Parcial_-_2do_C._2025_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorios_1er_Parcial_-_2do_C._2025_-_2_Temas-51c5c8869e32423f80ea31c40401a031.pdf)
+- [Recuperatorios_1er_Parcial_-_1er_C._2025_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorios_1er_Parcial_-_1er_C._2025_-_2_Temas-3d799a2f56d345adab3cf682cbf7c927.pdf)
+- [Recuperatorios_1er_Parcial_-_2do_C._2024_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorios_1er_Parcial_-_2do_C._2024_-_2_Temas-2fcafc35a8574506aba813cd83dca596.pdf)
+- [Recuperatorios_1er_Parcial_-_1er_C._2024_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorios_1er_Parcial_-_1er_C._2024_-_2_Temas-f5d8f379218648ac87de202015749ad5.pdf)
+- [Recuperatorios_1er_Parcial_-_2do_C._2023_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorios_1er_Parcial_-_2do_C._2023_-_2_Temas-70f2004b60a64bd2a3b2cadac650d5ca.pdf)
+
+## Cátedra Buacar · 2do Parcial
+
+Página: https://arrimo.com.ar/wiki/p/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do-parcial
+
+- [2do_Parcial_-_1er_C._2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_1-e0066c1098a347ecb5dc4ccfe9e6e6e0.pdf)
+- [2do_Parcial_-_1er_C._2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_2-f7518d67c8704df1bd523e4c7de91a83.pdf)
+- [2do_Parcial_-_1er_C._2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_3-6687df196343460dafbccceef90bd17a.pdf)
+- [2do_Parcial_-_1er_C._2026_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_4-812a9bdb248c4cb38035fe36f335fb1b.pdf)
+- [2do_Parcial_-_1er_C._2026_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_5-fc2885b016354b2f8c17c386a440d9ec.pdf)
+- [2do_Parcial_-_1er_C._2026_-_Tema_6.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_6-def7f7c3b3ba43fd90b0e0327d89c47f.pdf)
+- [2do_Parcial_-_1er_C._2026_-_Tema_7.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_7-04cfbf71d64e41c9a087a8054ca06a9a.pdf)
+- [2do_Parcial_-_1er_C._2026_-_Tema_8.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2026_-_Tema_8-6c3176ffdc8a4e78afa8c8423559eabc.pdf)
+- [Recuperatorio_2do_Parcial_-_1er_C._2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_1er_C._2026_-_Tema_1-54276705d96640ca98aac433f2460970.pdf)
+- [Recuperatorio_2do_Parcial_-_1er_C._2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_1er_C._2026_-_Tema_2-0c59d34610254d39872532404001123d.pdf)
+- [Recuperatorio_2do_Parcial_-_1er_C._2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_1er_C._2026_-_Tema_3-427f7ebd00f74f2290e4dfa1c674235e.pdf)
+- [2do_Parcial_-_2do_C._2025_-_8_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_2do_C._2025_-_8_Temas-390d2543c2834f9588697758c2e730f4.pdf)
+- [2do_Parcial_-_1er_C._2025_-_8_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2025_-_8_Temas-a10ff0c670604961a26e71fbabf59bd8.pdf)
+- [2do_Parcial_-_2do_C._2024_-_8_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_2do_C._2024_-_8_Temas-9583707981dd402eb1236a948b6398d7.pdf)
+- [2do_Parcial_-_1er_C._2024_-_8_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2024_-_8_Temas-0b033a89cc7d4cc1a91f5b49e4cdde6a.pdf)
+- [2do_Parcial_-_2do_C._2023_-_8_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_2do_C._2023_-_8_Temas-1d091f35d16647f8abbe0b420046fd23.pdf)
+- [2do_Parcial_-_1er_C._2023_-_8_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/2do_Parcial_-_1er_C._2023_-_8_Temas-3b6b01f4d4df4f73987669ebfad1434f.pdf)
+- [Recuperatorio_2do_Parcial_-_2do_C._2025_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_2do_C._2025_-_2_Temas-64d56a2fcad04bf8b3bbc6e78932a798.pdf)
+- [Recuperatorio_2do_Parcial_-_1er_C._2025_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_1er_C._2025_-_2_Temas-a697c8e2394b433d92e2d7f52ecc43fc.pdf)
+- [Recuperatorio_2do_Parcial_-_2do_C._2024_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_2do_C._2024_-_2_Temas-a7d4708fd5fd455a9f43017bf19dd9d1.pdf)
+- [Recuperatorio_2do_Parcial_-_1er_C._2024_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_1er_C._2024_-_2_Temas-fbf23304c6e048e7bc370394c2ca6a52.pdf)
+- [Recuperatorio_2do_Parcial_-_2do_C._2023_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Recuperatorio_2do_Parcial_-_2do_C._2023_-_2_Temas-100b2739541f4811848f6e8576a3e716.pdf)
+
+## Cátedra Buacar · Finales
+
+Página: https://arrimo.com.ar/wiki/p/uba/uba-xxi/ipc-40/catedra-buacar/examenes/finales
+
+- [Final_-_Julio_2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2026_-_Tema_1-a23e5e8e31c54cd49bb49b5aa925441f.pdf)
+- [Final_-_Julio_2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2026_-_Tema_2-3b8842b529dd4084ae6333e42d41a6db.pdf)
+- [Final_-_Julio_2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2026_-_Tema_3-854e53de19234d47919978372f491f94.pdf)
+- [Final_-_Julio_2026_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2026_-_Tema_4-a6f94aa525f0464999485d91a5bde862.pdf)
+- [Final_-_Julio_2026_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2026_-_Tema_5-059c943a350245938938845ffbd8bedc.pdf)
+- [Final_-_Febrero_2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Febrero_2026_-_Tema_1-9d166862b8014e7e9fcce70b06e0993c.pdf)
+- [Final_-_Febrero_2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Febrero_2026_-_Tema_2-1ea15f889f98443d96ff70933fc8eb3c.pdf)
+- [Final_-_Diciembre_2025_-_4_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Diciembre_2025_-_4_Temas-c5b234b9c3654fd8a55674b770b9721f.pdf)
+- [Final_-_Julio_2025_-_4_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2025_-_4_Temas-87a52d211325457590c47222d69f4f93.pdf)
+- [Final_-_Febrero_2025_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Febrero_2025_-_2_Temas-225ea9fac61e4d6f89f02237f8a259ef.pdf)
+- [Final_-_Diciembre_2024_-_4_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Diciembre_2024_-_4_Temas-4ad9bc0105fd49e2a1bc69999d7f169b.pdf)
+- [Final_-_Julio_2024_-_4_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2024_-_4_Temas-6710ca7cb7a34c27ad5f5317edd0bbea.pdf)
+- [Final_-_Febrero_2024_-_2_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Febrero_2024_-_2_Temas-378bcdd0961b4642abdf303f21a3b068.pdf)
+- [Final_-_Diciembre_2023_-_6_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Diciembre_2023_-_6_Temas-bf69c85b56f84547bce8723d3afd88a6.pdf)
+- [Final_-_Julio_2023_-_4_Temas.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-buacar/examenes/Final_-_Julio_2023_-_4_Temas-f1a61e32e28d4eda8f18b20ef438dd71.pdf)
+
+## Cátedra Gimeno · 1er Parcial
+
+Página: https://arrimo.com.ar/wiki/p/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er-parcial
+
+- [1er_Parcial_-_2do_C._2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_1-cdf4878618c143a5ad24540651d773d8.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_2-3ab5d8afc6714a899f82c9b0f464ffff.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_3-356c1eb730fd4297aba91743fab821bf.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_4-dcfd315124784e7d93e8749e0c62f55e.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_5-c529c4035d2e4160a8705f54d07b6f31.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_6.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_6-6f1c44de80a7477faad17c1132c76f5f.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_7.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_7-1ac92450ecc6448094d6c37454ac884c.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_8.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_8-d9d1f6eca7484f1c8aa43d34ec73ecfd.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_9.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_9-887075f333184bccaec950c41277cffb.pdf)
+- [1er_Parcial_-_2do_C._2026_-_Tema_10.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_2do_C._2026_-_Tema_10-fa6d16af046b4585b70e2056d57e3f72.pdf)
+- [1er_Parcial_-_1er_C._2025_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_1er_C._2025_-_Tema_1-37f85b56d77a43348d8ad4cccca40ef5.pdf)
+- [1er_Parcial_-_1er_C._2025_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_1er_C._2025_-_Tema_2-384f4e9a93f0489e8e094551bf6c302c.pdf)
+- [1er_Parcial_-_1er_C._2025_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_1er_C._2025_-_Tema_3-5cf1a3374e6647c591d81d5a69a8d516.pdf)
+- [1er_Parcial_-_1er_C._2025_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-gimeno/examenes/1er_Parcial_-_1er_C._2025_-_Tema_4-d2bd548f12db4110b30af65bac3813c1.pdf)
+
+## Cátedra Perot · Intensivos
+
+Página: https://arrimo.com.ar/wiki/p/uba/uba-xxi/ipc-40/catedra-perot/examenes/intensivos
+
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_1-138995ebbe18448ba6c693efbae13150.pdf)
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_2-51662a7e57cc47c8aa3ee3f95d55c8b9.pdf)
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_3-d33b5c4e5c254a5fb1e757ab65d71387.pdf)
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_4-1926e4a919c24744af05d4d4603e4cdb.pdf)
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_5-172d8f0fbaec41cbba8f52b9c78bd55b.pdf)
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_6.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_6-5844a8382cb64781ad4268e2f1499cf8.pdf)
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_7.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_7-abfc81a30ee24eb3a58acedc16eca453.pdf)
+- [Integrador_Intensivo_-_Verano_2026_-_Tema_8.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2026_-_Tema_8-e43eada40f0943a899214c8c2ab052bc.pdf)
+- [Recuperatorio_Integrador_Intensivo_-_Verano_2026_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Recuperatorio_Integrador_Intensivo_-_Verano_2026_-_Tema_1-36f634b164d94618b0cd49f2054d0df5.pdf)
+- [Recuperatorio_Integrador_Intensivo_-_Verano_2026_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Recuperatorio_Integrador_Intensivo_-_Verano_2026_-_Tema_2-56de5f8e5e3d4310afd838f06616bced.pdf)
+- [Recuperatorio_Integrador_Intensivo_-_Verano_2026_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Recuperatorio_Integrador_Intensivo_-_Verano_2026_-_Tema_3-1089742abb984dd1ab6259fd9c9856c5.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_1-dadf1d449ec14c98815fa4fd0c7fdff5.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_2-8752b5a8f53644368b93dc5eeb22479b.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_3-704c291d6c54426bae2dfa16b1d9b2ba.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_4-ba0b114373e84f309de167cffd0cc617.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_5-60a5767d5c2044aebfcb17c852f3d04c.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_6.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_6-531ef76ec572422187e3e6db64e9108a.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_7.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_7-28ebacb1cc8a4b3680c6417a0f65ab48.pdf)
+- [Integrador_Intensivo_-_Invierno_2025_-_Tema_8.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Invierno_2025_-_Tema_8-0b7de2f3bc62470c9561b87b24ffd390.pdf)
+- [Recuperatorio_Integrador_Intensivo_-_Invierno_2025_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Recuperatorio_Integrador_Intensivo_-_Invierno_2025_-_Tema_1-22797d06e4ad4e218134ef2adaaca5ee.pdf)
+- [Recuperatorio_Integrador_Intensivo_-_Invierno_2025_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Recuperatorio_Integrador_Intensivo_-_Invierno_2025_-_Tema_2-7a02eae03d1445a1a0d86f34ec3a9c96.pdf)
+- [Integrador_Intensivo_-_Verano_2025_-_Tema_1.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2025_-_Tema_1-79b8af98b84045edb33a0a41df15a072.pdf)
+- [Integrador_Intensivo_-_Verano_2025_-_Tema_2.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2025_-_Tema_2-4e59411eba644ce5b73ebd9a49ae7def.pdf)
+- [Integrador_Intensivo_-_Verano_2025_-_Tema_3.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2025_-_Tema_3-26d87774a1844191a1e2af617b6c1f90.pdf)
+- [Integrador_Intensivo_-_Verano_2025_-_Tema_4.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2025_-_Tema_4-7f5d52af1dc64797a345bb4371b104eb.pdf)
+- [Integrador_Intensivo_-_Verano_2025_-_Tema_5.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2025_-_Tema_5-2959221bf4124838a9bf49e024fbcfc8.pdf)
+- [Integrador_Intensivo_-_Verano_2025_-_Tema_6.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Integrador_Intensivo_-_Verano_2025_-_Tema_6-b4a31e0ddf7e4e2684459bca97f654d7.pdf)
+- [Recuperatorio_Integrador_Intensivo_-_Verano_2025_-_Tema_7.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Recuperatorio_Integrador_Intensivo_-_Verano_2025_-_Tema_7-aa4d28a7f21c453ea819e04b8fd6d444.pdf)
+- [Recuperatorio_Integrador_Intensivo_-_Verano_2025_-_Tema_8.pdf](https://arrimo.com.ar/wiki/files/view/uba/uba-xxi/ipc-40/catedra-perot/examenes/Recuperatorio_Integrador_Intensivo_-_Verano_2025_-_Tema_8-669ad5d581c143978b6aa194df5af0ab.pdf)

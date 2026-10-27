@@ -1,0 +1,2397 @@
+# Banco de preguntas únicas — generado por scripts/armar_banco.py. No editar a mano.
+# 64 preguntas a partir de 5 exámenes.
+- id: q-aeea6199
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: Max Povse afirma que es muy importante entender que es lo mismo un cambio de gobierno que un cambio
+      de régimen político.
+    opciones:
+      A: Es verdadero, porque no puede haber un mismo gobierno que transite regímenes políticos diferentes.
+      B: Es verdadero, porque cuando cambia el presidente necesariamente cambia el régimen.
+      C: Es falso, porque un régimen puede mantenerse, aunque cambie el gobierno.
+      D: Es falso, porque para que haya un cambio de régimen no debe cambiar el gobierno.
+    clave: C
+    correctas:
+    - Es falso, porque un régimen puede mantenerse, aunque cambie el gobierno.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 1
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 5
+- id: q-17bf5e88
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: Según Patricio Gómez Talavera es necesario observar una distinción importante entre Estado y gobierno.
+    opciones:
+      A: Es falso, porque los miembros del gobierno no tienen un mandato temporalmente determinado, a diferencia
+        de los encargados de administrar la estructura burocrática del Estado que asumen con un mandato fijo de
+        una cierta cantidad de años.
+      B: Es verdadero, porque el Estado es una estructura de existencia permanente, aunque puede cambiar en sus
+        formas.
+      C: Es verdadero, porque el gobierno es una estructura de existencia permanente, aunque puede cambiar en sus
+        formas.
+      D: Es falso, porque los miembros del Estado tienen un mandato temporalmente determinado, tras el cual deberán
+        dejar sus puestos a nuevos encargados de administrar la estructura burocrática del gobierno.
+    clave: B
+    correctas:
+    - Es verdadero, porque el Estado es una estructura de existencia permanente, aunque puede cambiar en sus formas.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 2
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 4
+- id: q-9f2e3ca3
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: Según Nadia Yannuzzi, siguiendo a Hannah Arendt, hay otra forma de entender la ciudadanía abordándola
+      desde una perspectiva conceptual.
+    opciones:
+      A: Es falso, porque la ciudadanía solo es posible entenderla desde una perspectiva jurídica entre el Estado
+        y la sociedad.
+      B: Es falso, porque la ciudadanía es el derecho a tener derechos, lo que implica que es un área de fuertes
+        consensos.
+      C: Es verdadero, porque los derechos se obtienen a través de complejos procesos económicos signados por la
+        lucha de clases y por la redistribución del ingreso.
+      D: Es verdadero, porque los derechos se obtienen a través de complejos procesos históricos signados por la
+        violencia, los intereses diversos y opuestos.
+    clave: D
+    correctas:
+    - Es verdadero, porque los derechos se obtienen a través de complejos procesos históricos signados por la violencia,
+      los intereses diversos y opuestos.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 3
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 1
+- id: q-61539aa3
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: Nicolás Simone afirma que la democracia representativa se alcanza cuando los ciudadanos eligen a
+      un pequeño grupo de personas para que tomen decisiones en su nombre.
+    opciones:
+      A: Es falso, porque la democracia representativa busca oponerse al poder de pequeños grupos sobre el pueblo.
+      B: Es falso, porque la democracia representativa se alcanza cuando los ciudadanos toman en su poder las grandes
+        decisiones del Estado.
+      C: Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen a otros para
+        que diseñen un gobierno que exprese la voluntad de la mayoría.
+      D: Es verdadero, porque la democracia representativa se alcanza cuando un grupo de personas a partir de la
+        democracia directa diseñan un gobierno que exprese la voluntad de la mayoría.
+    clave: C
+    correctas:
+    - Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen a otros para que
+      diseñen un gobierno que exprese la voluntad de la mayoría.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 4
+  - enunciado: Nicolás Simone afirma que la democracia representativa se alcanza cuando los ciudadanos eligen a
+      un pequeño grupo de personas para que tomen decisiones en su nombre.
+    opciones:
+      A: Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen personas para
+        que diseñen un gobierno que exprese la voluntad de la mayoría.
+      B: Es falso, porque la democracia representativa se alcanza cuando los ciudadanos toman en su poder las grandes
+        decisiones del Estado.
+      C: Es verdadero, porque la democracia representativa se alcanza cuando un grupo de personas a partir de la
+        democracia directa diseñan un gobierno que exprese la voluntad de la mayoría.
+      D: Es falso, porque la democracia representativa busca oponerse al poder de pequeños grupos sobre el pueblo.
+    clave: A
+    correctas:
+    - Es verdadero, porque la democracia representativa se alcanza cuando los ciudadanos eligen personas para que
+      diseñen un gobierno que exprese la voluntad de la mayoría.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 6
+- id: q-049e2c30
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 3
+  cuatrimestres:
+  - 1C 2026
+  - 2C 2024
+  versiones:
+  - enunciado: Según Laura Petrino el populismo resulta ser una expresión política intrínsecamente ligada a la historia
+      y el presente europeo.
+    opciones:
+      A: Es verdadero, porque la democracia se origina en Grecia y Roma, que están ubicadas en Europa.
+      B: Es falso, porque ejemplos de esta forma de entender el poder son figuras que han marcado nuestra geografía,
+        como el brasileño Getúlio Vargas o Juan Domingo Perón.
+      C: Es verdadero, porque ejemplos de esta forma de entender el poder son figuras que han marcado la geografía
+        europea, como Benito Mussolini o Adolf Hitler.
+      D: Es falso, porque el populismo no reconoce fronteras a la hora de explicar sus orígenes.
+    clave: B
+    correctas:
+    - Es falso, porque ejemplos de esta forma de entender el poder son figuras que han marcado nuestra geografía,
+      como el brasileño Getúlio Vargas o Juan Domingo Perón.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 5
+  - enunciado: Según Laura Petrino el populismo resulta ser una expresión política intrínsecamente ligada a la historia
+      y el presente europeo.
+    opciones:
+      A: Es verdadero, porque ejemplos de esta forma de entender el poder son figuras que han marcado la geografía
+        europea, como Benito Mussolini o Adolf Hitler.
+      B: Es falso, porque el populismo no reconoce fronteras a la hora de explicar sus orígenes.
+      C: Es falso, porque ejemplos de esta forma de entender el poder son figuras que han marcado nuestra geografía,
+        como el brasileño Getúlio Vargas o Juan Domingo Perón.
+      D: Es verdadero, porque la democracia se origina en Grecia y Roma, que están ubicados en Europa.
+    clave: C
+    correctas:
+    - Es falso, porque ejemplos de esta forma de entender el poder son figuras que han marcado nuestra geografía,
+      como el brasileño Getúlio Vargas o Juan Domingo Perón.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 7
+  - enunciado: Según afirma Laura Petrino, el populismo es una expresión política intrínsecamente ligada a la historia
+      y al presente latinoamericano.
+    opciones:
+      A: Es falso, porque el populismo es más común en Asia y África que en América Latina.
+      B: Es verdadero, porque han sido figuras que marcaron nuestra geografía, como el brasileño Getulio Vargas
+        y Juan Domingo Perón.
+      C: Es verdadero, porque hijos de esta forma de entender el poder, son figuras que han marcado nuestra geografía,
+        como el chileno Augusto Pinochet y Jorge Rafael Videla.
+      D: Es falso, porque el populismo nació en Europa con Hitler y Mussolini, algunos de cuyos aspectos luego fueron
+        imitados en América Latina.
+    clave: B
+    correctas:
+    - Es verdadero, porque han sido figuras que marcaron nuestra geografía, como el brasileño Getulio Vargas y Juan
+      Domingo Perón.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 5
+- id: q-805de77b
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: Luis A. Romero sostiene que para 1975 el gobierno peronista se encaminaba hacia su final. El Rodrigazo
+      —denominado así por el apellido del ministro de Economía del gobierno peronista, Celestino Rodrigo— desató
+      una crisis económica que resultó imposible de controlar.
+    opciones:
+      A: Es verdadero, porque el Rodrigazo implicó "corridas" hacia el dólar, inflación galopante y la aparición
+        de los mecanismos de indexación.
+      B: Es verdadero, porque fue el primer default (suspensión del pago de la deuda externa) y el inicio de un
+        aislamiento internacional del país y fuertes costos judiciales en el exterior.
+      C: Es falso, porque el Rodrigazo fue un movimiento de protesta social surgido en la provincia de Santa Fe
+        basado en los productores agrícolas.
+      D: Es falso, porque en 1975 ya estaban gobernando los militares de la mano del Gral. Jorge R. Videla.
+    clave: A
+    correctas:
+    - Es verdadero, porque el Rodrigazo implicó "corridas" hacia el dólar, inflación galopante y la aparición de
+      los mecanismos de indexación.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 6
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 2
+- id: q-b9eb9f76
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 3
+  cuatrimestres:
+  - 1C 2024
+  - 1C 2026
+  versiones:
+  - enunciado: Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización Nacional”,
+      comenzado en marzo de 1976, era dónde residía realmente el poder.
+    opciones:
+      A: Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas,
+        legislativas y judiciales a lo largo de todo el país.
+      B: Es verdadero, porque el “Proceso de Reorganización Nacional” supuso la existencia de un Estado terrorista,
+        visible y público, encargado tanto de la represión como de las políticas sociales, culturales y hasta económicas.
+      C: Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera
+        eso- resultó controlada y limitada por los jefes de las tres armas.
+      D: Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de
+        mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca
+        fue discutida ni revisada por sus pares militares.
+    clave: C
+    correctas:
+    - Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera
+      eso- resultó controlada y limitada por los jefes de las tres armas.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 7
+  - enunciado: Según Romero, la primera cuestión oscura que abría el llamado “Proceso de Reorganización nacional”,
+      comenzado en marzo de 1976, era dónde residía realmente el poder.
+    opciones:
+      A: Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera
+        eso- resultó controlada y limitada por los jefes de las tres armas.
+      B: Es falso, porque el poder residía en la Junta de comandantes que centralizaba las funciones de ejecutivas,
+        legislativas y judiciales a lo largo de todo el país.
+      C: Es verdadero, porque el “Proceso de Reorganización Nacional” supuso la existencia de un Estado terrorista,
+        visible y público, encargado tanto de la represión como de las políticas económicas.
+      D: Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de
+        mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca
+        fue discutida ni revisada por sus pares militares.
+    clave: A
+    correctas:
+    - Es verdadero, porque la autoridad del presidente –al principio el primero entre sus pares, y luego ni siquiera
+      eso- resultó controlada y limitada por los jefes de las tres armas.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 3
+  - enunciado: Según Romero, la primera cuestión oscura que abrió el Proceso de Reorganización Nacional comenzado
+      en marzo de 1976 era dónde residía realmente el poder.
+    opciones:
+      A: Es falso, porque la tradición política del país era fuertemente presidencialista, y además la unidad de
+        mando fue siempre uno de los principios de las Fuerzas Armadas, por eso la autoridad del presidente nunca
+        fue discutida ni revisada por sus pares militares.
+      B: Es verdadero, porque el Proceso de Reorganización Nacional supuso la existencia sólo de un Estado terrorista,
+        visible y público, encargado de la represión, y que no estaba sujeto ni siquiera a las normas establecidas
+        por las propias autoridades revolucionarias.
+      C: Es falso, porque el poder residía en la Junta de los comandantes, que centralizaba las funciones ejecutivas,
+        legislativas y judiciales.
+      D: Es verdadero, porque supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión,
+        y otro visible, sujeto a las normas establecidas por las propias autoridades revolucionarias.
+    clave: D
+    correctas:
+    - Es verdadero, porque supuso la coexistencia de un Estado terrorista clandestino, encargado de la represión,
+      y otro visible, sujeto a las normas establecidas por las propias autoridades revolucionarias.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 4
+- id: q-c5f34ee0
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón durante
+      su tercera presidencia), tenía objetivos acordes con los cambios ya consolidados en la estructura económica
+      del país, esto implicó que:'
+    opciones:
+      A: A pesar de los relatos predominantes en el peronismo, no había nada en el programa económico de Perón que
+        indicara una orientación hacia el "socialismo nacional".
+      B: Fueran medidas fuertemente intervencionistas y, en menor medida, nacionalistas y distribucionistas.
+      C: El Estado se propuso una gran reducción de gastos, especialmente en el número de empleados públicos y empresas
+        del Estado para reducir el déficit creciente.
+      D: Hubo en ese programa una clara orientación hacia el "socialismo nacional" que era el discurso predominante
+        en el peronismo y especialmente en su juventud.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la C y la D.
+    clave: E
+    correctas:
+    - A pesar de los relatos predominantes en el peronismo, no había nada en el programa económico de Perón que
+      indicara una orientación hacia el "socialismo nacional".
+    - Fueran medidas fuertemente intervencionistas y, en menor medida, nacionalistas y distribucionistas.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 8
+  - enunciado: 'Según Romero, el Programa de Reconstrucción y Liberación Nacional (presentado por Perón durante
+      su tercera presidencia), tenía objetivos acordes con los cambios ya consolidados en la estructura económica
+      del país, esto implicó que:'
+    opciones:
+      A: El Estado se propusiera una gran reducción de gastos, especialmente en el número de empleados públicos
+        y empresas del Estado para reducir el déficit creciente.
+      B: Hubo en ese programa una clara orientación hacia el "socialismo nacional" que era el discurso predominante
+        en el peronismo y especialmente en su juventud.
+      C: A pesar de los relatos predominantes en el peronismo, no había en el programa económico de Perón nada que
+        indicara una orientación hacia el "socialismo nacional".
+      D: Fueran medidas fuertemente intervencionistas y, en menor medida, nacionalistas y distribucionistas.
+      E: Las opciones correctas son la A, y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la C y la D.
+    clave: H
+    correctas:
+    - A pesar de los relatos predominantes en el peronismo, no había en el programa económico de Perón nada que
+      indicara una orientación hacia el "socialismo nacional".
+    - Fueran medidas fuertemente intervencionistas y, en menor medida, nacionalistas y distribucionistas.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 10
+- id: q-d802b9f8
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Según María José Valdez, hablar del Estado implica centrarse en las instituciones políticas, pero
+      cuando nos referimos a la nación, el enfoque cambia y hay que atender otros actores como:'
+    opciones:
+      A: La sociedad.
+      B: Las universidades públicas.
+      C: La ciudadanía.
+      D: Los sindicatos.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la A y la C.
+      G: Las opciones correctas son la A, la B y la C.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: F
+    correctas:
+    - La sociedad.
+    - La ciudadanía.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 9
+  - enunciado: 'Según María José Valdez, hablar del Estado implica centrarse en las instituciones políticas, pero
+      cuando nos referimos a la nación, el enfoque cambia y hay que atender otros actores como:'
+    opciones:
+      A: La sociedad.
+      B: La ciudadanía.
+      C: Las Pymes (pequeñas y medianas empresas).
+      D: Las redes sociales
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la A y la C.
+      G: Las opciones correctas son la A, la B y la C.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: E
+    correctas:
+    - La sociedad.
+    - La ciudadanía.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 13
+- id: q-a9c42bff
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Según Romero, la guerrilla peronista Montoneros era muy hábil en traducir las palabras de Perón
+      cuando estaba exiliado en Madrid, pero debieron enfrentarse con el problema que implicó la vuelta del líder
+      al país. Esto se vio en que:'
+    opciones:
+      A: Los Montoneros elaboraron la teoría del "cerco" o del "entorno" que supuestamente impedía a Perón conocer
+        la verdadera voluntad de su pueblo.
+      B: Perón empezaba a hablar inequívocamente recordando la “ortodoxia peronista”, que poco tenía que ver con
+        la "socialista”.
+      C: Perón empezaba a hablar inequívocamente recordando sus orígenes socialistas que poco tenían que ver con
+        la “ortodoxia peronista”.
+      D: Perón comenzó a abandonar su discurso de derecha tradicional denunciando a los "apresurados" e infiltrados
+        de la Triple A.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la D.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la B y la D.
+    clave: E
+    correctas:
+    - Los Montoneros elaboraron la teoría del "cerco" o del "entorno" que supuestamente impedía a Perón conocer
+      la verdadera voluntad de su pueblo.
+    - Perón empezaba a hablar inequívocamente recordando la “ortodoxia peronista”, que poco tenía que ver con la
+      "socialista”.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 10
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 12
+- id: q-64c6848f
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Según Romero, en el llamado “Cordobazo” de 1969, la movilización social se expresó de maneras diversas,
+      por ejemplo, en que:'
+    opciones:
+      A: Los inmigrantes fueron actores centrales de las protestas, buscando inserción en el mundo laboral y facilitar
+        la nacionalización.
+      B: La multitud, que controló varias horas la ciudad, tenía consignas precisas y líderes que coordinaban las
+        acciones.
+      C: Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales
+        fábricas de automotores.
+      D: El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de
+        ellas fuertemente reprimidas.
+      E: Las opciones correctas son la A y la C
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la C y la D.
+    clave: H
+    correctas:
+    - Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales fábricas
+      de automotores.
+    - El estallido fue precedido de una ola de protestas estudiantiles en diversas universidades, algunas de ellas
+      fuertemente reprimidas.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 11
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 14
+- id: q-0aee3315
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Según Romero, la Iglesia Católica modificó su comportamiento hacia la dictadura a medida que el
+      régimen militar asumido en 1976 empezaba a dar muestras de debilidad. Esto se vio en que:'
+    opciones:
+      A: Desde 1979 las preocupaciones de la Iglesia por las cuestiones morales o por la familia se extendieron
+        hacia los derechos individuales y la política.
+      B: La Iglesia mantuvo desde 1983 una actitud fuertemente opositora liderada por el entonces joven y popular
+        cura Jorge Bergoglio.
+      C: Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones
+        sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente secularizada.
+      D: Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones
+        sociales o políticas y consagrarse a la evangelización de una sociedad que juzgaba excesivamente volcada
+        hacia la izquierda.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la A y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: F
+    correctas:
+    - Desde 1979 las preocupaciones de la Iglesia por las cuestiones morales o por la familia se extendieron hacia
+      los derechos individuales y la política.
+    - Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones
+      sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente secularizada.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 12
+  - enunciado: 'Según Romero, la Iglesia Católica modificó su comportamiento hacia la dictadura a medida que el
+      régimen militar asumido en 1976 empezaba a dar muestras de debilidad. Esto se vio en que:'
+    opciones:
+      A: Desde 1979 las preocupaciones de la iglesia por las cuestiones morales o por la familia se extendieron
+        hacia los derechos individuales y la política.
+      B: La Iglesia mantuvo desde 1983 una actitud fuertemente opositora liderada por el entonces joven y popular
+        cura Jorge Bergoglio.
+      C: Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones
+        sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente secularizada.
+      D: Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones
+        sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente volcada hacia la izquierda.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la A y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: F
+    correctas:
+    - Desde 1979 las preocupaciones de la iglesia por las cuestiones morales o por la familia se extendieron hacia
+      los derechos individuales y la política.
+    - Revisando sus anteriores posiciones, la Iglesia se propuso renunciar a la injerencia directa en las cuestiones
+      sociales o políticas y consagrarse a la evangelización de una sociedad excesivamente secularizada.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 15
+- id: q-fe6feae2
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 3
+  cuatrimestres:
+  - 1C 2024
+  - 1C 2026
+  versiones:
+  - enunciado: 'Romero señala que, durante el primer año del gobierno radical iniciado en 1983, la política económica
+      del ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas. Esto se observa
+      en que:'
+    opciones:
+      A: Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con medidas
+        de acción social.
+      B: Empresarios y sindicalistas convergieron en el apoyo a esta política siguiendo el modelo establecido con
+        el famoso Plan Gelbard, implementado en los años 70.
+      C: Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo
+        histórico.
+      D: Eran medidas similares a las aplicadas entre 1955 y 1958, ya que el radicalismo se oponía a lo que planteaba
+        el peronismo histórico.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la A y la C.
+      G: Las opciones correctas son la B y la C.
+      H: Las opciones correctas son la A, la B, la C y la D.
+    clave: F
+    correctas:
+    - Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con medidas de
+      acción social.
+    - Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo
+      histórico.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 13
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 11
+  - enunciado: 'Romero señala que, durante el primer año del gobierno radical iniciado en 1983, la política económica
+      del Ministro Bernardo Grinspun se ajustó a las fórmulas dirigistas y redistributivas clásicas. Esto se observa
+      en que:'
+    opciones:
+      A: Empresarios y sindicalistas convergieron en el apoyo a esta política.
+      B: Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con importantes
+        medidas de acción social.
+      C: Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo
+        histórico.
+      D: Eran medidas similares a las aplicadas entre 1955 y 1958, ya que el radicalismo se oponía a lo que planteaba
+        el peronismo histórico.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la A y la D.
+      H: Las opciones correctas son la A, la B, la C y la D.
+    clave: F
+    correctas:
+    - Incluía el control estatal del crédito, el mercado de cambios y los precios, y se completaba con importantes
+      medidas de acción social.
+    - Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el peronismo
+      histórico.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 9
+- id: q-68b7e0de
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Romero afirma que, entre 1975 y principios de 1976, diversos factores fueron creando las condiciones
+      para la aceptación de un golpe de Estado que prometía restablecer el orden y asegurar el monopolio estatal
+      de la fuerza. Entre ellos se puede mencionar:'
+    opciones:
+      A: La muerte presente cotidianamente, la acción espectacular de las organizaciones guerrilleras -que habían
+        fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.
+      B: El terror sembrado por la Alianza Anticomunista Argentina (Triple A).
+      C: La presencia constante y pública en el país del Partido Comunista soviético a través de financiamiento,
+        propaganda y una nutrida militancia que hacían suponer la pronta apertura de un frente revolucionario.
+      D: El terror sembrado por diversas bandas del crimen organizado, la mayoría de ellas vinculadas al narcotráfico.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la A y la D.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la C y la D.
+    clave: E
+    correctas:
+    - La muerte presente cotidianamente, la acción espectacular de las organizaciones guerrilleras -que habían fracasado
+      en dos grandes operativos contra unidades militares en el Gran Buenos Aires y en Formosa-.
+    - El terror sembrado por la Alianza Anticomunista Argentina (Triple A).
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 14
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 16
+- id: q-cf935fc6
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 3
+  cuatrimestres:
+  - 1C 2024
+  - 1C 2026
+  versiones:
+  - enunciado: 'Romero afirma que en 1983 cuando Raúl Alfonsín asumió el Gobierno, además de volver a la vida académica,
+      los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:'
+    opciones:
+      A: Alfonsín recurrió a ellos, como asesores o funcionarios técnicos, y su discurso, que traducía en clave
+        política lo que los académicos elaboraban, resultó moderno, complejo y profundo.
+      B: El peronismo logró rápidamente el control de la vida institucional y política en las universidades nacionales
+        que ya mantenían desde los años 70.
+      C: Dirigentes peronistas también recurrieron a ellos y la discusión política luego de finalizada la dictadura
+        adquirió brillo y, en menor medida, profundidad.
+      D: Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales dejando de
+        lado a políticos tradicionales.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la C y la D.
+      G: Las opciones correctas son la A y la C.
+      H: Las opciones correctas son la A, la B y la C.
+    clave: G
+    correctas:
+    - Alfonsín recurrió a ellos, como asesores o funcionarios técnicos, y su discurso, que traducía en clave política
+      lo que los académicos elaboraban, resultó moderno, complejo y profundo.
+    - Dirigentes peronistas también recurrieron a ellos y la discusión política luego de finalizada la dictadura
+      adquirió brillo y, en menor medida, profundidad.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 15
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 9
+  - enunciado: 'Romero afirma que en 1983, cuando Raúl Alfonsín asumió el gobierno, además de volver a la vida académica,
+      los intelectuales se incorporaron a la política, y la política se intelectualizó. Esto se vio en que:'
+    opciones:
+      A: Alfonsín recurrió a intelectuales como asesores o funcionarios técnicos.
+      B: El discurso de Alfonsín traducía en clave política lo que los académicos elaboraban.
+      C: La discusión política adquirió brillo y, en menor medida, profundidad.
+      D: Las listas de concejales, diputados y senadores se repletaron de académicos e intelectuales, dejando de
+        lado a políticos tradicionales.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la C y la D.
+      G: Las opciones correctas son la A y la C.
+      H: Las opciones correctas son la A, la B y la C.
+    clave: H
+    correctas:
+    - Alfonsín recurrió a intelectuales como asesores o funcionarios técnicos.
+    - El discurso de Alfonsín traducía en clave política lo que los académicos elaboraban.
+    - La discusión política adquirió brillo y, en menor medida, profundidad.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 11
+- id: q-531d10b3
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Según Romero, algunos de los acontecimientos más importantes de la transición en Argentina fueron
+      los ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática.
+      Eso fue así porque:'
+    opciones:
+      A: Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados
+        en la represión durante la dictadura militar que había terminado algunos años antes.
+      B: El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por el presidente Alfonsín,
+        sin necesidad de mayores negociaciones.
+      C: Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su
+        mandato.
+      D: Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción
+        de la Ley de Obediencia Debida.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la D.
+      G: Las opciones correctas son la A y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: G
+    correctas:
+    - Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados
+      en la represión durante la dictadura militar que había terminado algunos años antes.
+    - Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción
+      de la Ley de Obediencia Debida.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 16
+  - enunciado: 'Según Romero, uno de los acontecimientos más importantes de la transición en Argentina fueron los
+      ocurridos en la Semana Santa de 1987, cuando un levantamiento militar puso a prueba la estabilidad democrática.
+      Eso fue así porque:'
+    opciones:
+      A: Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados
+        en la represión durante la dictadura militar que había terminado algunos años antes.
+      B: Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción
+        de la Ley de Obediencia Debida.
+      C: Fue un intento de golpe de Estado exitoso que obligó a Raúl Alfonsín a renunciar antes de completar su
+        mandato.
+      D: El levantamiento fue sofocado inmediatamente con una intervención militar ordenada por Alfonsín, sin necesidad
+        de negociaciones.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la D.
+      G: Las opciones correctas son la A y la D.
+      H: Las opciones correctas son la A, la C y la D
+    clave: E
+    correctas:
+    - Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados
+      en la represión durante la dictadura militar que había terminado algunos años antes.
+    - Fue un punto de inflexión en la relación entre el Gobierno y los militares, desembocando luego en la sanción
+      de la Ley de Obediencia Debida.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 8
+- id: q-62902631
+  tipo: combinada
+  puntos: 1.0
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: 'Según Ariel Sribman , algunos de los elementos constitutivos del Estado liberal en sus inicios son:'
+    opciones:
+      A: El gobierno representativo.
+      B: La división de poderes.
+      C: El liberalismo económico.
+      D: Las Fuerzas Armadas.
+      E: Las opciones correctas son la A y la C.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la A, la B y la C.
+    clave: H
+    correctas:
+    - El gobierno representativo.
+    - La división de poderes.
+    - El liberalismo económico.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 17
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 18
+- id: q-fa8d7cb4
+  tipo: combinada
+  puntos: 1.0
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2026
+  versiones:
+  - enunciado: Según Sofía Pirsch, en América Latina, solo hay cuatro países con sistemas federales, entre ellos
+      se encuentran
+    opciones:
+      A: Chile.
+      B: Uruguay.
+      C: México.
+      D: Venezuela.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A y la D.
+    clave: G
+    correctas:
+    - México.
+    - Venezuela.
+    apariciones:
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_1.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 1
+      consigna: 18
+    - archivo: 1er_Parcial_-_1er_C._2026_-_Tema_2.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 1C 2026
+      tema: 2
+      consigna: 17
+- id: q-e7648876
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según Verónica Beyreuther, los regímenes dictatoriales excluyen cualquier posibilidad de división
+      de los poderes del Estado, propios de la democracia o la República: los poderes legislativo, judicial y ejecutivo.'
+    opciones:
+      A: Es verdadero, porque el dictador retoma el modelo de las monarquías constitucionales, ocupando, desde un
+        lugar de fuerza, el lugar del monarca.
+      B: Es verdadero, porque en una dictadura la idea de un poder dividido, es decir compartido y con mecanismos
+        que impidan la suma total en uno de los poderes, resulta inconducente.
+      C: Es falso, porque aún en las dictaduras, el poder tiene que mostrar algunas formas de respeto al control
+        que ejerce el Poder Legislativo sobre el Ejecutivo.
+      D: Es falso, porque aún en las dictaduras, el poder tiene que mostrar respeto al control que ejerce el Poder
+        Judicial sobre el Ejecutivo.
+    clave: B
+    correctas:
+    - Es verdadero, porque en una dictadura la idea de un poder dividido, es decir compartido y con mecanismos que
+      impidan la suma total en uno de los poderes, resulta inconducente.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 1
+- id: q-c6c17dc6
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2024
+  - 2C 2024
+  versiones:
+  - enunciado: En el video sobre la Transición a la Democracia en Sudáfrica, se afirma que la Comisión de Verdad
+      y Reconciliación permitió llegar más lejos en aspectos legales, logrando variadas y ejemplares condenas a
+      los autores de la violación de los Derechos Humanos en ese país africano.
+    opciones:
+      A: Es verdadero, porque las condenas propuestas por la TRC se consideran generalmente suficientes por las
+        víctimas, y llevan a pensar que la búsqueda de la verdad puede alcanzarse en un contexto de transición.
+      B: Es falso, porque en Sudáfrica, como en el resto de los países africanos, no hubo revisiones judiciales
+        de lo ocurrido en la etapa del llamado “apartheid” o en distinto tipo de violaciones de los DD.HH.
+      C: Es falso, porque al privilegiarse el acceso a la información en pos de la búsqueda de la verdad, se sacrificó
+        en gran medida la justicia y la reparación a las víctimas.
+      D: Es verdadero, porque el TRC fue creativo innovando tanto en formas de clasificar el tipo de delito como
+        la manera de castigarlo, sentando de este modo jurisprudencia.
+    clave: C
+    correctas:
+    - Es falso, porque al privilegiarse el acceso a la información en pos de la búsqueda de la verdad, se sacrificó
+      en gran medida la justicia y la reparación a las víctimas.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 2
+  - enunciado: En el video sobre la Transición a la Democracia en Sudáfrica se afirma que la Comisión de Verdad
+      y Reconciliación permitió llegar más lejos en aspectos legales, logrando variadas y ejemplares condenas a
+      los autores del apartheid y la violación de los derechos humanos en ese país.
+    opciones:
+      A: Es falso, porque en Sudáfrica –como en el resto de los países africanos– no hubo revisiones judiciales
+        de lo ocurrido en la etapa del apartheid o en otras instancias de violaciones de derechos humanos.
+      B: Es verdadero, porque las condenas propuestas por la Comisión se consideran generalmente suficientes por
+        las víctimas, y llevan a pensar que la búsqueda de la verdad puede alcanzarse en un contexto de transición.
+      C: Es falso, porque al privilegiarse el acceso a la información en pos de la búsqueda de la verdad, se sacrificó
+        en gran medida la justicia y la reparación a las víctimas.
+      D: Es verdadero, porque la sanción de las Leyes de Obediencia Debida y Punto Final impidió que los condenados
+        cumplieran toda su condena.
+    clave: C
+    correctas:
+    - Es falso, porque al privilegiarse el acceso a la información en pos de la búsqueda de la verdad, se sacrificó
+      en gran medida la justicia y la reparación a las víctimas.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 2
+- id: q-f8411670
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: Según señala Nicolás Simone, en marzo de 1971, el ejército designó presidente al Gral. Agustín Lanusse
+      para pactar una transición a la democracia. Los militares buscaban controlar el proceso y abrieron negociaciones
+      con los partidos políticos, incluyendo al peronismo.
+    opciones:
+      A: Es falso, porque Agustín Lanusse nunca fue presidente ni en dictadura ni en democracia.
+      B: Es falso, porque los militares en el poder no negocian nunca con la oposición y menos con los partidos
+        políticos tradicionales.
+      C: Es verdadero, porque los militares en el poder se sentían muy cercanos al peronismo, debido a que Perón
+        había sido un militar de carrera casi toda su vida.
+      D: Es verdadero, porque la propuesta consistía en que, a cambio de llamar a elecciones, Perón quedara excluido
+        de las mismas. Los partidos rechazaron formalmente la invitación, pero aprovecharon la situación para tejer
+        algunos acuerdos.
+    clave: D
+    correctas:
+    - Es verdadero, porque la propuesta consistía en que, a cambio de llamar a elecciones, Perón quedara excluido
+      de las mismas. Los partidos rechazaron formalmente la invitación, pero aprovecharon la situación para tejer
+      algunos acuerdos.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 3
+- id: q-146be346
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: Según Margarita Batlle, en determinadas circunstancias los funcionarios públicos electos pueden (y
+      deben) ser condicionados por personas sin representación popular electoral.
+    opciones:
+      A: Es falso, porque debe existir una subordinación de los funcionarios públicos no elegidos a aquellos elegidos
+        popularmente.
+      B: Es falso, porque funcionarios políticos no deben rendir cuentas ni ser controlados por instituciones como
+        la justicia o los parlamentos
+      C: Es verdadero, porque debe haber una persona o grupo que posea el poder (o pueda condicionarlo) sin haber
+        sido electo de manera democrática, es decir, a través de elecciones.
+      D: Es verdadero, porque debe existir una subordinación de funcionarios públicos electos a los designados por
+        el presidente o el Congreso.
+    clave: A
+    correctas:
+    - Es falso, porque debe existir una subordinación de los funcionarios públicos no elegidos a aquellos elegidos
+      popularmente.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 4
+- id: q-a587b241
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff, el entrevistado señala que,
+      aunque Raúl Alfonsín dictara el indulto, el hecho de antes haber puesto a los comandantes presos, aunque sea
+      solo por dos años, fue todo un logro de la joven democracia argentina.
+    opciones:
+      A: Es verdadero, porque la sanción de las leyes de Punto Final y Obediencia Debida les permitió a los militares
+        ser liberados luego de la condena en el famoso juicio de 1985 y por ello acceder luego al indulto posterior.
+      B: Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno de Néstor
+        Kirchner en 2003.
+      C: Es verdadero, porque debido a los levantamientos carapintadas y la sanción de las leyes de Punto Final
+        y Obediencia Debida, de 1987, los miembros de las juntas condenados en 1985 abandonaron la prisión al final
+        del mandato del presidente radical.
+      D: Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y éstos recién fueron
+        indultados poco después por el presidente peronista Carlos Menem.
+    clave: D
+    correctas:
+    - Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y éstos recién fueron indultados
+      poco después por el presidente peronista Carlos Menem.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 6
+- id: q-dd5df609
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según Enrique García, el Estado liberal se apoya en la creencia de leyes naturales del mercado (leyes
+      de oferta y demanda y libre competencia) y en la iniciativa individual. Esto es así porque:'
+    opciones:
+      A: Se trata de un Estado interventor en la esfera económica que busca regular para que los mercados sean más
+        eficientes.
+      B: Es un Estado mínimo que concibe al mercado como el único capaz de asignar eficientemente los recursos.
+      C: Los liberales creen que el espíritu de lucro individual promueve el beneficio personal y el mejoramiento
+        del conjunto de la sociedad.
+      D: Los liberales creen que el Estado podría ser un exitoso y eficiente empresario si fuera dirigido por personas
+        que supieran de economía.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la C y la D.
+      G: Las opciones correctas son la B y la C.
+      H: 'Las opciones correctas son la A, la B y la C. DNI:'
+    clave: G
+    correctas:
+    - Es un Estado mínimo que concibe al mercado como el único capaz de asignar eficientemente los recursos.
+    - Los liberales creen que el espíritu de lucro individual promueve el beneficio personal y el mejoramiento del
+      conjunto de la sociedad.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 7
+- id: q-eb51cdff
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según Romero, la gran popularidad alcanzada por el presidente Alfonsín en distintos lugares del
+      mundo, fue utilizada para afianzar y fortalecer las instituciones democráticas locales, todavía precarias.
+      Con esos criterios se encararon algunas de las siguientes cuestiones pendientes a nivel internacional:'
+    opciones:
+      A: Con Chile por un diferendo en el Canal del Beagle.
+      B: Con Uruguay, por el destino de unas papeleras a construirse en la costa del río Uruguay, cerca de la ciudad
+        uruguaya de Fray Bentos y de la argentina Gualeguaychú.
+      C: Con Brasil y Paraguay por la triple frontera y el comercio ilegal, el contrabando y el terrorismo islámico
+        que abundaban en ese lugar.
+      D: Con Gran Bretaña por las Malvinas.
+      E: Las opciones correctas son la A y la D.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: E
+    correctas:
+    - Con Chile por un diferendo en el Canal del Beagle.
+    - Con Gran Bretaña por las Malvinas.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 8
+- id: q-3e52b36d
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según consta en el texto sobre genocidio de Javier Hermo, las Naciones Unidas generaron una definición
+      desde un punto de vista jurídico y político, al igual que años después con la Corte Penal Internacional. Entre
+      los puntos centrales de la definición de “genocidio” se encontraban:'
+    opciones:
+      A: Matanzas donde la cantidad de víctimas sean claramente superiores a las tasas de violencia habituales.
+      B: Lesión grave a la integridad física o mental de los miembros del grupo.
+      C: Medidas destinadas a impedir casamientos en el seno del grupo.
+      D: Sometimiento intencional del grupo a condiciones de existencia que hayan de acarrear su destrucción física,
+        total o parcial.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la D.
+      G: Las opciones correctas son la B, la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: F
+    correctas:
+    - Lesión grave a la integridad física o mental de los miembros del grupo.
+    - Sometimiento intencional del grupo a condiciones de existencia que hayan de acarrear su destrucción física,
+      total o parcial.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 9
+- id: q-e3444683
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Romero señala que, en la dictadura asumida en 1976, se constituyó una facción más fuerte que las
+      demás, pero que distaba de ser dominante, en torno a los generales Videla y Viola –su segundo en el Ejército-.
+      Esto implicó que:'
+    opciones:
+      A: Estos jefes no reconocieran la necesidad de encontrar en el futuro alguna salida política. Así, mantenían
+        fuertes conflictos con los dirigentes de los partidos políticos, que perseguidos día y noche por los militares,
+        veían en ese grupo al sector menos civilizado.
+      B: Estos jefes reconocían la necesidad de encontrar en el futuro alguna salida política. Así, mantenían comunicación
+        con los dirigentes de los partidos políticos, que se ilusionaban creyendo ver en ellos al sector más civilizado.
+      C: Estos jefes respaldaran a Martínez de Hoz, muy criticado por los militares más nacionalistas, que abundaban
+        entre los cuadros jóvenes.
+      D: Estos jefes no respaldaran a Martínez de Hoz, muy apoyado por los militares más liberales, que abundaban
+        entre los cuadros jóvenes.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la C y la B.
+      G: Las opciones correctas son la A y la D.
+      H: Las opciones correctas son la A, la B, la C y la D.
+    clave: F
+    correctas:
+    - Estos jefes respaldaran a Martínez de Hoz, muy criticado por los militares más nacionalistas, que abundaban
+      entre los cuadros jóvenes.
+    - Estos jefes reconocían la necesidad de encontrar en el futuro alguna salida política. Así, mantenían comunicación
+      con los dirigentes de los partidos políticos, que se ilusionaban creyendo ver en ellos al sector más civilizado.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 10
+- id: q-b9349c41
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Romero señala que, en septiembre de 1987, luego de la derrota electoral del presidente Raúl Alfonsín
+      en las elecciones parlamentarias de medio término, la posición del gobierno se debilitó aceleradamente. Esto
+      ocasionó que:'
+    opciones:
+      A: La inestabilidad y la sensación de falta de gobernabilidad fueran crecientes.
+      B: El peronismo, apuntando con nuevo optimismo a las elecciones presidenciales de 1989, se negó a respaldar
+        reformas cuyo costo social era evidente.
+      C: La obligada reconciliación con las corporaciones, si bien supuso un fuerte deterioro de la imagen del gobierno
+        radical ante la civilidad, rindió algunos de los frutos esperados en el terreno económico.
+      D: El sector kirchnerista del peronismo tomase el control del partido con su posición más dura frente al debilitado
+        gobierno de Alfonsín.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la C y la B.
+      G: Las opciones correctas son la A y la D.
+      H: Las opciones correctas son la A, la B, la C y la D.
+    clave: E
+    correctas:
+    - La inestabilidad y la sensación de falta de gobernabilidad fueran crecientes.
+    - El peronismo, apuntando con nuevo optimismo a las elecciones presidenciales de 1989, se negó a respaldar reformas
+      cuyo costo social era evidente.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 11
+- id: q-d47b26d4
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según Graciela Etchevest, la violencia terrorista ha cambiado desde las últimas décadas del siglo
+      XX al siglo XXI. Esto se vio en que:'
+    opciones:
+      A: Con el nuevo siglo se sumaron grupos religiosos radicalizados cuyo accionar ha tenido un fuerte impacto
+        en la agenda mundial, principalmente, de la mano del llamado “fundamentalismo islámico”.
+      B: 'Con el nuevo siglo este nuevo tipo de terrorismo incorpora una novedad con respecto al que lo precede:
+        su accionar se organiza a partir de grupos más pequeños, con un eficiente uso de herramientas tecnológicas
+        y muchas veces ligadas a las redes sociales.'
+      C: Los espacios para su acción se restringen al continente de origen; de hecho, a veces no tienen un país
+        de origen y sus escenarios son regionales según la coyuntura y las posibilidades de organizarse.
+      D: Los espacios para su acción se restringen al país de origen; de modo de maximizar los recursos y lograr
+        un efecto más poderoso, como, por ejemplo, el ataque a las Torres Gemelas en Estados Unidos en 2001.
+      E: Las opciones correctas son la A, y B.
+      F: Las opciones correctas son la B, y D.
+      G: Las opciones correctas son la C, y A.
+      H: Las opciones correctas son la A, B y D.
+    clave: E
+    correctas:
+    - Con el nuevo siglo se sumaron grupos religiosos radicalizados cuyo accionar ha tenido un fuerte impacto en
+      la agenda mundial, principalmente, de la mano del llamado “fundamentalismo islámico”.
+    - 'Con el nuevo siglo este nuevo tipo de terrorismo incorpora una novedad con respecto al que lo precede: su
+      accionar se organiza a partir de grupos más pequeños, con un eficiente uso de herramientas tecnológicas y
+      muchas veces ligadas a las redes sociales.'
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 12
+- id: q-6bb9129a
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Romero afirma que, en la Pascua de 1987, concluyó definitivamente la ilusión del poder ilimitado
+      de la democracia. Esto fue así porque:'
+    opciones:
+      A: Alfonsín perdió la exclusividad del liderazgo sobre el peronismo.
+      B: Alfonsín perdió la exclusividad del liderazgo sobre la clase media.
+      C: Alfonsín perdió la exclusividad del liderazgo sobre la civilidad.
+      D: Alfonsín perdió la exclusividad del liderazgo sobre los radicales.
+      E: Las opciones correctas son la A y la D.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: 'Las opciones correctas son la A, la C y la D. DNI:'
+    clave: C
+    correctas:
+    - Alfonsín perdió la exclusividad del liderazgo sobre la civilidad.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 13
+- id: q-86349768
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según Romero, al asumir Alfonsín en 1983, debió optar entre tensar al máximo el polo de la civilidad
+      (lo que implicaba confrontar con intereses establecidos, incluso entre sus apoyos) o, por otro lado, privilegiar
+      soluciones consensuadas y evitar tantos conflictos. Por eso:'
+    opciones:
+      A: El gobierno radical eligió en general la segunda línea, y un resultado de eso fue el llamado Pacto de Olivos
+        que Alfonsín logró consensuar con el peronismo.
+      B: El gobierno radical se sostuvo firmemente en la primera línea los 4 años de su mandato presidencial, confrontando
+        hasta el último día con sindicatos, militares, opositores y la Iglesia católica.
+      C: El gobierno radical eligió en general la primera línea y hasta 1987 mantuvo la iniciativa, buscando caminos
+        alternativos y presentando, ante cada contraste, nuevas propuestas.
+      D: El gobierno radical eligió en general la primera línea, pero debió aceptar la segunda cuando algunos fuertes
+        contratiempos le demostraron los límites de su poder.
+      E: Las opciones correctas son la A y la D.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: G
+    correctas:
+    - El gobierno radical eligió en general la primera línea y hasta 1987 mantuvo la iniciativa, buscando caminos
+      alternativos y presentando, ante cada contraste, nuevas propuestas.
+    - El gobierno radical eligió en general la primera línea, pero debió aceptar la segunda cuando algunos fuertes
+      contratiempos le demostraron los límites de su poder.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 14
+- id: q-131b96a5
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2024
+  - 2C 2024
+  versiones:
+  - enunciado: 'En enero de 1989 un grupo terrorista asaltó el cuartel de La Tablada en el Gran Buenos Aires, y
+      el Ejército encontró la ocasión para realizar una aplastante demostración de fuerza que culminó con el aniquilamiento
+      de los asaltantes. Según Romero, esto implicó que:'
+    opciones:
+      A: El recuerdo del pasado de la represión ilegal volvió a la opinión pública que repudió sin fisuras el hecho
+        y eso le dio aire político al gobierno de Alfonsín que había logrado juzgar a las juntas militares.
+      B: Podía anticiparse que finalmente la cuestión militar abierta llevaría al olvido de los crímenes de la "guerra
+        sucia" y el entierro de las ilusiones de la civilidad de 1983.
+      C: El reconocimiento de la represión militar fuera el primer indicio del cambio de prioridades y valores en
+        la opinión pública.
+      D: El rechazo que la represión militar recogió por la acción fue un nuevo indicio del cambio de época que
+        había comenzado en 1983.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A y la D.
+    clave: F
+    correctas:
+    - Podía anticiparse que finalmente la cuestión militar abierta llevaría al olvido de los crímenes de la "guerra
+      sucia" y el entierro de las ilusiones de la civilidad de 1983.
+    - El reconocimiento de la represión militar fuera el primer indicio del cambio de prioridades y valores en la
+      opinión pública.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 15
+  - enunciado: 'Según Romero, en enero de 1989 un grupo terrorista asaltó el cuartel de La Tablada en el Gran Buenos
+      Aires, y el Ejército encontró la ocasión para realizar una aplastante demostración de fuerza que culminó con
+      el aniquilamiento de los asaltantes. Esto implicó que:'
+    opciones:
+      A: El reconocimiento de la represión militar fuera el primer indicio del cambio de prioridades y valores en
+        la opinión pública.
+      B: Podía anticiparse que finalmente la cuestión militar abierta llevaría a la reivindicación de los militares,
+        el olvido de los crímenes de la "guerra sucia" y el entierro de las ilusiones de la civilidad de 1983.
+      C: El recuerdo del pasado de la represión ilegal volvió a la opinión pública, que repudió sin fisuras el hecho,
+        y eso le dio aire político al gobierno de Alfonsín, que había logrado juzgar a las Juntas Militares.
+      D: El rechazo que la represión militar recogió por la acción fue un nuevo indicio del cambio de época que
+        había comenzado en 1983.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A y la D.
+    clave: E
+    correctas:
+    - El reconocimiento de la represión militar fuera el primer indicio del cambio de prioridades y valores en la
+      opinión pública.
+    - Podía anticiparse que finalmente la cuestión militar abierta llevaría a la reivindicación de los militares,
+      el olvido de los crímenes de la "guerra sucia" y el entierro de las ilusiones de la civilidad de 1983.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 10
+- id: q-2018c8e7
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Romero afirma que el radicalismo se renovó por impulso de Alfonsín, quien en 1972 había creado el
+      Movimiento de Renovación y Cambio para disputarle el liderazgo al líder histórico, Ricardo Balbín. Esto fue
+      así porque:'
+    opciones:
+      A: Alfonsín disputó las elecciones presidenciales de 1973 con Perón y, aunque fue derrotado, obtuvo un resultado
+        que lo dejó posicionado para ser el candidato radical en el siguiente turno electoral, donde alcanzaría
+        la victoria.
+      B: Durante el Proceso se distinguió del resto de los políticos, pues criticó a los militares con mucha energía
+        y asumió la defensa de detenidos políticos y el reclamo por los desaparecidos.
+      C: Hizo una reivindicación de los aspectos éticos de la política y un discurso ganador, muy distinto del tradicional
+        discurso radical, que atrajeron al partido a una masa de afiliados y simpatizantes.
+      D: Durante el Proceso se distinguió del resto de los políticos, pues criticó a los militares con mucha energía
+        y al mismo tiempo fue uno de los grandes promotores de la euforia popular durante la Guerra de Malvinas.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: F
+    correctas:
+    - Durante el Proceso se distinguió del resto de los políticos, pues criticó a los militares con mucha energía
+      y asumió la defensa de detenidos políticos y el reclamo por los desaparecidos.
+    - Hizo una reivindicación de los aspectos éticos de la política y un discurso ganador, muy distinto del tradicional
+      discurso radical, que atrajeron al partido a una masa de afiliados y simpatizantes.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 16
+- id: q-3dda527d
+  tipo: combinada
+  puntos: 1.0
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según Romero, el 1º de mayo de 1974, se llegó a la ruptura entre Perón y los Montoneros al abandonar
+      éstos una Plaza de donde el propio Perón los expulsaba. Esto implicó que:'
+    opciones:
+      A: Perón reemplazara a los Montoneros por otro grupo de izquierda llamado Ejército Revolucionario del Pueblo
+        (ERP).
+      B: Los montoneros optaran por volver a la vieja táctica y pasaran a la clandestinidad. Hubo más asesinatos
+        y secuestros espectaculares para mejorar sus finanzas.
+      C: Los montoneros reaparecieran una vez más, apenas dos meses después, en los fantásticos funerales de Perón,
+        y luego pretendieran asumir su herencia en forma fracasada.
+      D: Que los Montoneros se aliaran a los militares golpistas para derrocar al viejo líder que los había expulsado
+        de la plaza.
+      E: Las opciones correctas son la A y la C.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la A, la B y la C.
+      H: Las opciones correctas son la B, la C y la D.
+    clave: F
+    correctas:
+    - Los montoneros optaran por volver a la vieja táctica y pasaran a la clandestinidad. Hubo más asesinatos y
+      secuestros espectaculares para mejorar sus finanzas.
+    - Los montoneros reaparecieran una vez más, apenas dos meses después, en los fantásticos funerales de Perón,
+      y luego pretendieran asumir su herencia en forma fracasada.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 17
+- id: q-90304d80
+  tipo: combinada
+  puntos: 1.0
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2024
+  versiones:
+  - enunciado: 'Según Romero, al asumir la presidencia, Alfonsín proponía algunas distinciones lógicas sobre el
+      legado militar pero, a la vez, eran difíciles de ser admitidas por la sociedad movilizada y, en particular,
+      por las organizaciones de derechos humanos. Esto fue así porque:'
+    opciones:
+      A: Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que
+        era parte del Estado.
+      B: Alfonsín pensaba que había que evitar el juicio a los culpables porque implicaba atacar a toda la institución
+        que era parte del Estado.
+      C: Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea
+        durante su gobierno.
+      D: Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la
+        obediencia debida.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la D y la A.
+    clave: H
+    correctas:
+    - Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia
+      debida.
+    - Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era
+      parte del Estado.
+    apariciones:
+    - archivo: 1er_Parcial_-_2do_C._2024_-_Tema_9.pdf
+      instancia: 1er Parcial
+      cuatrimestre: 2C 2024
+      tema: 9
+      consigna: 18
+- id: q-85b635b6
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: Luis A. Romero afirma que para 1975 el Gobierno peronista se acercaba a su final. El "Rodrigazo"
+      había desatado una crisis económica que resultó imposible de dominar.
+    opciones:
+      A: Es falso, porque en 1975 ya estaban gobernando los militares de la mano del Gral. Jorge R. Videla.
+      B: Es falso, porque el “Rodrigazo” fue un movimiento de protesta social surgido en Santa Fe, basado en los
+        productores agrícolas.
+      C: Es verdadero, porque fue el primer default (suspensión del pago de la deuda externa) y el inicio de un
+        aislamiento internacional del país y fuertes costos judiciales en el exterior.
+      D: Es verdadero, porque el “Rodrigazo” implicó la aparición de los mecanismos de indexación y, en general,
+        escasas posibilidades para controlar la coyuntura desde el poder.
+    clave: D
+    correctas:
+    - Es verdadero, porque el “Rodrigazo” implicó la aparición de los mecanismos de indexación y, en general, escasas
+      posibilidades para controlar la coyuntura desde el poder.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 1
+- id: q-46512c49
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Según Romero, la ejecución de la transformación económica que planteaba la última dictadura abría
+      un problema político, que ha expuesto Jorge Schvarzer: la conducción económica debía durar un tiempo bastante
+      limitado para que la corrupción no se vuelva un tema endémico.'
+    opciones:
+      A: Es falso, porque la conducción económica debía durar en el poder un tiempo suficiente como para que los
+        cambios fueran irreversibles.
+      B: Es verdadero, porque la corrupción se había instalado desde tiempo atrás como la base que estructuraba
+        toda la política argentina, y terminar con eso fue el motivo central por el cual los militares tomaron el
+        poder.
+      C: Es falso, porque el tiempo que durara la conducción económica no era tan relevante como la estabilidad
+        de sus alianzas corporativas.
+      D: Es verdadero, porque la mayoría de los militares tenían un proyecto neoliberal y se oponían al Ministro
+        de Economía Martínez de Hoz, que venía de una tradición estatista y era sostenido solo por el presidente
+        Videla.
+    clave: A
+    correctas:
+    - Es falso, porque la conducción económica debía durar en el poder un tiempo suficiente como para que los cambios
+      fueran irreversibles.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 3
+- id: q-ac0b8ed4
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: Romero afirma que la ocupación de las Islas Malvinas en abril de 1982 era la solución para muchos
+      de los problemas que tenía el gobierno en ese momento.
+    opciones:
+      A: Es verdadero, porque una acción militar para lo que llamaban "recuperar las islas”, permitiría ganar de
+        un golpe la cuestionada legitimidad ante una sociedad visiblemente disconforme.
+      B: 'Es verdadero, porque una acción militar en Malvinas tendría una gran ventaja: estaba lejos del continente
+        y permitía distraer la atención del conflicto con el Gobierno brasileño por cuestiones vinculadas a importaciones
+        y exportaciones.'
+      C: Es falso, porque Malvinas era un reclamo importante de muchos argentinos y "recuperar las islas” podría
+        llevar a la unificación de la población detrás del gobierno de Alfonsín, en un momento en que estaba muy
+        debilitado políticamente.
+      D: Es falso, porque el ímpetu bélico del entonces presidente Galtieri se vio estimulado por apoyos sociales
+        que incluyeron movilizaciones callejeras a favor de su designación y liderazgo, como la marcha lanzada por
+        la CGT el 30 de marzo de 1982.
+    clave: A
+    correctas:
+    - Es verdadero, porque una acción militar para lo que llamaban "recuperar las islas”, permitiría ganar de un
+      golpe la cuestionada legitimidad ante una sociedad visiblemente disconforme.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 5
+- id: q-f86741b3
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff, el entrevistado señala que
+      a pesar de que Raúl Alfonsín no lograra resolver la cuestión militar en su mandato y dictara el indulto, mirándolo
+      en perspectiva, haber puesto a los comandantes presos –aunque sea por dos años– fue todo un logro de la joven
+      democracia argentina.
+    opciones:
+      A: Es verdadero, porque debido a los levantamientos carapintadas y la sanción de las Leyes de Punto Final
+        y Obediencia Debida de 1987, los miembros de las Juntas condenados en 1985 abandonaron la prisión al final
+        del mandato del presidente radical.
+      B: Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y éstos recién fueron
+        indultados poco después por el presidente peronista Carlos Menem.
+      C: Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el gobierno de Néstor
+        Kirchner en 2003.
+      D: 'Es verdadero, porque la sanción de las Leyes de Punto Final y Obediencia Debida les permitió a los militares
+        ser liberados luego de la condena en el famoso juicio de 1985 y, por ello, acceder luego al indulto posterior.
+        DNI:'
+    clave: B
+    correctas:
+    - Es falso, porque Alfonsín dejó la presidencia en 1989 con los comandantes presos y éstos recién fueron indultados
+      poco después por el presidente peronista Carlos Menem.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 6
+- id: q-8b7be805
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2024
+  - 2C 2025
+  versiones:
+  - enunciado: 'Según Patricio Gómez Talavera los conceptos de “Estado” y “Gobierno” presentan diferencias que se
+      deben considerar. Entre ellas:'
+    opciones:
+      A: El Estado está compuesto por quienes, en forma contingente y coyuntural, administran el Gobierno.
+      B: El Gobierno, a diferencia del Estado, es una estructura de existencia permanente.
+      C: El Gobierno está compuesto por quienes, en forma contingente y coyuntural, administran el Estado.
+      D: El Estado, a diferencia del Gobierno, es una estructura de existencia permanente.
+      E: Las opciones correctas son la A y la D.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: G
+    correctas:
+    - El Gobierno está compuesto por quienes, en forma contingente y coyuntural, administran el Estado.
+    - El Estado, a diferencia del Gobierno, es una estructura de existencia permanente.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 7
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 16
+- id: q-fa22a484
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Según Romero, cuando Isabel –así era conocida la viuda de Juan D. Perón– asumió la presidencia,
+      se dedicó a parodiar las fórmulas y los gestos del líder muerto para capitalizar su herencia simbólica. Esto
+      resultó en que:'
+    opciones:
+      A: Su política se apartó totalmente de la que había trazado Perón en sus últimos años.
+      B: Su política continuó la realizada por Perón en sus últimos años, pero con cambios solo discursivos, para
+        mostrar su propio liderazgo.
+      C: Isabel se propuso homogeneizar el gobierno, colocando a amigos y rompiendo una a una las alianzas que había
+        tejido Perón.
+      D: Isabel y los sindicalistas no coincidían en ningún punto de la agenda social que habían heredado del gobierno
+        de Perón.
+      E: Las opciones correctas son la A y la C.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la A, la C y la D.
+      H: Las opciones correctas son la B, la C y la D.
+    clave: E
+    correctas:
+    - Su política se apartó totalmente de la que había trazado Perón en sus últimos años.
+    - Isabel se propuso homogeneizar el gobierno, colocando a amigos y rompiendo una a una las alianzas que había
+      tejido Perón.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 8
+- id: q-59323001
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 2
+  cuatrimestres:
+  - 1C 2024
+  - 2C 2025
+  versiones:
+  - enunciado: 'En el video sobre la Transición a la Democracia dedicado a Sudáfrica, se refiere a la Comisión de
+      Verdad y Reconciliación, y se la diferencia de otras comisiones en América Latina y África, ya que adoptó
+      un enfoque relacionado con la justicia restaurativa. Esto se vio en que:'
+    opciones:
+      A: Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a la comunidad.
+      B: Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo de catarsis colectiva.
+      C: Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo para sacar a la población de
+        su ignorancia sobre lo sucedido.
+      D: Impulsó las bases del reencuentro entre víctimas y victimarios, basada en el principio de aplicación irrestricta
+        de la justicia penal.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la B y la D.
+      H: 'Las opciones correctas son la A, la B y la C. DNI:'
+    clave: H
+    correctas:
+    - Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a la comunidad.
+    - Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo de catarsis colectiva.
+    - Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo para sacar a la población de su
+      ignorancia sobre lo sucedido.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 12
+  - enunciado: 'En el video sobre la Transición a la Democracia dedicado a Sudáfrica, se refiere a la Comisión de
+      Verdad y Reconciliación, y se la diferencia de otras comisiones en América Latina y África porque adoptó un
+      enfoque relacionado con la justicia restaurativa. Por eso:'
+    opciones:
+      A: Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a la comunidad.
+      B: Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo de catarsis colectiva.
+      C: Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo para combatir la ignorancia sobre
+        lo sucedido.
+      D: Impulsó las bases del reencuentro entre víctimas y victimarios basado en el principio de aplicación irrestricta
+        de la justicia penal imitando el proceso argentino que finalizó con la cárcel a los culpables de las violaciones
+        de los derechos humanos luego de un largo juicio.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la A, la B y la C.
+      H: Las opciones correctas son la A, la B y la D.
+    clave: G
+    correctas:
+    - Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a la comunidad.
+    - Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo de catarsis colectiva.
+    - Impulsó las bases del reencuentro entre víctimas y victimarios, sirviendo para combatir la ignorancia sobre
+      lo sucedido.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 17
+- id: q-5bf42cf6
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Según Max Povse, los regímenes totalitarios extienden su control a todos los aspectos de la vida
+      de la población. Esto se ve en que:'
+    opciones:
+      A: Debe existir una continua movilización de la población que demuestre su adhesión al líder.
+      B: Se controla todo, excepto las cuestiones de la vida privada e íntima.
+      C: La libertad de la sociedad civil no es reducida, pero sí es observada con atención.
+      D: Se controla e influye en las formas de accionar político.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la C y la B.
+      G: Las opciones correctas son la A y la D.
+      H: Las opciones correctas son la A, la B, la C y la D.
+    clave: G
+    correctas:
+    - Debe existir una continua movilización de la población que demuestre su adhesión al líder.
+    - Se controla e influye en las formas de accionar político.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 13
+- id: q-c4cc8c1e
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Según Nicolás Simone, en las transiciones a la democracia los pactos entre los dirigentes de las
+      elites de distintos partidos son importantes por diversos motivos. Entre ellos, porque:'
+    opciones:
+      A: Son una garantía para que los sectores nostálgicos del Régimen autoritario armen el nuevo Gobierno, que
+        suceda la dictadura en retirada.
+      B: La alianza de las elites forma una red de contención de las demandas de una sociedad que salen a la luz
+        después, producto de las expectativas que produce el regreso de la democracia.
+      C: Son una garantía de que los actores nostálgicos del Régimen autoritario no tendrán margen de maniobra para
+        intentar un Golpe.
+      D: La alianza de las elites forma una red de contención de las demandas de los empresarios que se habían beneficiado
+        del Régimen anterior, y que no poseen grandes expectativas por el regreso de la democracia.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A y la D.
+    clave: F
+    correctas:
+    - La alianza de las elites forma una red de contención de las demandas de una sociedad que salen a la luz después,
+      producto de las expectativas que produce el regreso de la democracia.
+    - Son una garantía de que los actores nostálgicos del Régimen autoritario no tendrán margen de maniobra para
+      intentar un Golpe.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 14
+- id: q-982eb0c5
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Según Florencia Deich, el caso del presidente Arturo Frondizi y su reemplazo en 1963 es complejo
+      para analizar a la hora de definir si fue un Golpe de Estado o una interrupción institucional. Esto es así
+      porque:'
+    opciones:
+      A: Los militares finalmente decidieron quitar a Frondizi del poder y, en este sentido, su accionar fue exitoso
+        porque lograron cumplir con todos sus objetivos, ya que colocaron una persona de las Fuerzas Armadas en
+        la presidencia.
+      B: La forma que tomaron los acontecimientos generó complicaciones a la hora de definir el tipo de régimen,
+        ya que el presidente legítimo fue destituido por la presión militar, pero el que asumió en su lugar lo hizo
+        respetando las reglas de sucesión previstas en la Constitución.
+      C: Los militares finalmente decidieron quitar a Frondizi del poder y, en este sentido, su accionar fue exitoso;
+        sin embargo, no lograron cumplir con todos sus objetivos, ya que no colocaron una persona de las Fuerzas
+        Armadas en la presidencia.
+      D: La forma que tomaron los acontecimientos no generó complicaciones a la hora de definir el tipo de régimen
+        ya que, el presidente legítimo fue destituido por la presión militar, pero el que asumió en su lugar lo
+        hizo respetando las reglas de sucesión previstas en la Constitución.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A y la D.
+    clave: F
+    correctas:
+    - La forma que tomaron los acontecimientos generó complicaciones a la hora de definir el tipo de régimen, ya
+      que el presidente legítimo fue destituido por la presión militar, pero el que asumió en su lugar lo hizo respetando
+      las reglas de sucesión previstas en la Constitución.
+    - Los militares finalmente decidieron quitar a Frondizi del poder y, en este sentido, su accionar fue exitoso;
+      sin embargo, no lograron cumplir con todos sus objetivos, ya que no colocaron una persona de las Fuerzas Armadas
+      en la presidencia.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 15
+- id: q-8b79eae8
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Romero señala que la Iglesia, que en 1981 se había definido por la democracia –aunque sin hacer
+      la crítica de su relación con el gobierno militar–, fue evolucionando hacia una creciente hostilidad para
+      con el gobierno radical encabezado por Alfonsín. Eso fue así porque:'
+    opciones:
+      A: Las autoridades eclesiásticas estaban irritadas por su escasa injerencia en el área de la enseñanza privada.
+      B: Las autoridades eclesiásticas rechazaban el tono laico del discurso cultural que circulaba por las instituciones
+        y los medios del Estado.
+      C: 'Un sector de la Iglesia asumió el papel de censor social, con un discurso de combate. La democracia –decían–
+        resultaba ser responsable de los males del siglo: el juego y las apuestas, las redes sociales y el multiculturalismo.'
+      D: Confluyeron un cambio en el equilibrio interno del episcopado local y la orientación general impresa a
+        la Iglesia por el papa Juan Pablo II, decidido a dar una batalla contra el líder católico argentino, el
+        entonces joven arzobispo Jorge Bergoglio.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la C y la B.
+      G: Las opciones correctas son la A y la D.
+      H: Las opciones correctas son la A, la B, la C y la D.
+    clave: E
+    correctas:
+    - Las autoridades eclesiásticas estaban irritadas por su escasa injerencia en el área de la enseñanza privada.
+    - Las autoridades eclesiásticas rechazaban el tono laico del discurso cultural que circulaba por las instituciones
+      y los medios del Estado.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 16
+- id: q-6e0f83ef
+  tipo: combinada
+  puntos: 1.0
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Según Margarita Batlle la complejidad del concepto de democracia constituyó un obstáculo, tanto
+      analítico como práctico. Por eso:'
+    opciones:
+      A: La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas políticos
+        occidentales.
+      B: La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas políticos
+        en todo el mundo.
+      C: La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de la democracia en la
+        historia mundial.
+      D: La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas electorales
+        occidentales.
+      E: Las opciones correctas son la A y la D.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: A
+    correctas:
+    - La obra de Robert Dahl evidencia su preocupación por comprender el funcionamiento de los sistemas políticos
+      occidentales.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 17
+- id: q-fbaeefaa
+  tipo: combinada
+  puntos: 1.0
+  veces_tomada: 1
+  cuatrimestres:
+  - 1C 2024
+  versiones:
+  - enunciado: 'Según Laura Petrino, Yrigoyen y Perón constituyen dos casos paradigmáticos del populismo en argentina:
+      Esto se ve en:'
+    opciones:
+      A: 'Ambos movimientos poseían un discurso basado en antinomias: el “pueblo” se enfrenta al “régimen” o a la
+        “oligarquía”.'
+      B: Elaboraron movimientos con fuertes liderazgos personales.
+      C: En ambos casos los líderes crearon partidos a la medida de su poder, como organizaciones que pudieran manejar
+        a su antojo.
+      D: El yrigoyenismo y el peronismo conjugaron en el momento de su nacimiento un conjunto de demandas democráticas
+        y sociales de sectores que se encontraban fuera del sistema y sin representación política.
+      E: Las opciones correctas son la A, y B.
+      F: Las opciones correctas son la B, y D.
+      G: Las opciones correctas son la A, B y D.
+      H: Las opciones correctas son la A, C y D.
+    clave: G
+    correctas:
+    - 'Ambos movimientos poseían un discurso basado en antinomias: el “pueblo” se enfrenta al “régimen” o a la “oligarquía”.'
+    - Elaboraron movimientos con fuertes liderazgos personales.
+    - El yrigoyenismo y el peronismo conjugaron en el momento de su nacimiento un conjunto de demandas democráticas
+      y sociales de sectores que se encontraban fuera del sistema y sin representación política.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_1er_C._2024_-_Tema_2.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 1C 2024
+      tema: 2
+      consigna: 18
+- id: q-25f11a44
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: En el video en el que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Raúl Alfonsín,
+      Gerchunoff destaca que fue fundamental el decreto del Gobierno radical que habilitó al Consejo Supremo de
+      las Fuerzas Armadas para juzgar a las Juntas militares.
+    opciones:
+      A: Es falso, porque los militares argentinos recién comenzaron a ser juzgados durante el Gobierno de Néstor
+        Kirchner en 2003.
+      B: Es falso, porque hubo un solo juicio a las Juntas militares y no fue el del Consejo Supremo de las Fuerzas
+        Armadas.
+      C: Es verdadero, porque el decreto mencionado por el entrevistado les permitió a los militares ser absueltos
+        en primera instancia, y por ello acceder luego al indulto posterior que el mismo Alfonsín se vio obligado
+        a dictar.
+      D: Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las Juntas militares a ser
+        juzgadas primero por sus propios pares, no hubiera existido el famoso juicio posterior.
+    clave: D
+    correctas:
+    - Es verdadero, porque si Alfonsín no hubiera firmado el decreto que enviaba a las Juntas militares a ser juzgadas
+      primero por sus propios pares, no hubiera existido el famoso juicio posterior.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 1
+- id: q-7dfdd578
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: Según Nicolás Simone, la transición es un lapso de tiempo que comienza cuando el régimen no democrático
+      de un país comienza a retirarse y termina cuando un régimen democrático se impone, ya sin riesgo de ser derrocado.
+    opciones:
+      A: Es verdadero, porque la transición es como la poliarquía, formas en que se menciona y se describe al sistema
+        democrático.
+      B: Es falso, porque la transición no puede preverse exactamente, al ser un periodo donde la incertidumbre
+        es la norma.
+      C: Es verdadero, porque la transición, en sentido amplio, se consuma cuando no existe peligro de regresión
+        autoritaria.
+      D: Es falso, porque nunca una democracia se impone sin riesgo. Mientras haya militares, existirá siempre la
+        posibilidad de golpes de Estado.
+    clave: C
+    correctas:
+    - Es verdadero, porque la transición, en sentido amplio, se consuma cuando no existe peligro de regresión autoritaria.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 2
+- id: q-33de77a8
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: Según Max Povse, para ser híbrido, un régimen debe tener indicadores con valores tanto democráticos
+      como autoritarios.
+    opciones:
+      A: Es verdadero, porque los regímenes políticos son pluralistas y ofrecen todo tipo de posibilidades ideológicas
+        en su interior.
+      B: Es falso, porque la democracia no tiene nada que ver con los sistemas autoritarios. Es uno o el otro.
+      C: Es falso, porque eso no es híbrido, sino una poliarquía.
+      D: Es verdadero, porque son casos donde hay elecciones libres, pero existe también una “cancha inclinada”
+        en favor del partido de gobierno.
+    clave: D
+    correctas:
+    - Es verdadero, porque son casos donde hay elecciones libres, pero existe también una “cancha inclinada” en
+      favor del partido de gobierno.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 3
+- id: q-b2b0a999
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: Según Margarita Batlle, Robert Dahl entendía que la democracia es un sistema inalcanzable e imposible
+      de adoptar en la práctica.
+    opciones:
+      A: Es falso, porque numerosos países han vivido en democracia en este siglo y en los anteriores.
+      B: Es verdadero, porque significa que la democracia es un orden utópico e ideal al que no puede aspirar la
+        sociedad.
+      C: Es falso, porque no existen cuestiones utópicas para que los seres humanos organicen sus sociedades.
+      D: Es verdadero, porque la única democracia verdadera es la que se registra en asambleas donde participan
+        todos los ciudadanos.
+    clave: B
+    correctas:
+    - Es verdadero, porque significa que la democracia es un orden utópico e ideal al que no puede aspirar la sociedad.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 4
+- id: q-52a3ee4a
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: Según Enrique García, el Estado fascista no se evidenciaba en todas las esferas de la sociedad, pero
+      lo hacía sin control en la educación, la cultura y los medios de comunicación.
+    opciones:
+      A: Es falso, porque el poder del Estado fascista no poseía límites y su control sobre la sociedad era total.
+      B: Es verdadero, porque el Estado fascista ponía énfasis solo en lo que tuviera que ver con el control total
+        de los valores y los discursos.
+      C: Es falso, porque el Estado fascista se evidenciaba sobre todo en la economía.
+      D: Es verdadero, porque los fascistas pensaban que desde esos espacios podían controlar a toda la sociedad.
+    clave: A
+    correctas:
+    - Es falso, porque el poder del Estado fascista no poseía límites y su control sobre la sociedad era total.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 5
+- id: q-883542ff
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: Según Nadia Yannuzzi, entre los múltiples efectos del proceso de individuación, se destaca el repliegue
+      del individuo a la esfera privada.
+    opciones:
+      A: Es falso, porque siempre el ámbito de pertenencia del individuo es la esfera privada.
+      B: Es falso, porque nadie se salva solo.
+      C: Es verdadero, porque el proceso de individuación deriva en el sálvese quien pueda.
+      D: Es verdadero, porque los individuos se repliegan, dado que sienten no tener injerencia en los asuntos públicos.
+    clave: D
+    correctas:
+    - Es verdadero, porque los individuos se repliegan, dado que sienten no tener injerencia en los asuntos públicos.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 6
+- id: q-b26893fd
+  tipo: vf_justificada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: Según Laura Petrino, la variedad de ejemplos latinoamericanos demuestra que las características económicas
+      y sociales de nuestra región son las únicas condiciones propicias para la aparición de figuras carismáticas
+      pensadas como populistas.
+    opciones:
+      A: Es falso, porque el populismo es también un fenómeno político poderoso en los países centrales con democracias
+        altamente institucionalizadas.
+      B: Es falso, porque el populismo es también un fenómeno político poderoso en los países comunistas con democracias
+        poco institucionalizadas.
+      C: Es verdadero, porque las “instituciones informales”, propias de América Latina, son las que abren el camino
+        al populismo.
+      D: Es verdadero, porque todos los casos de populismo provienen de América Latina.
+    clave: A
+    correctas:
+    - Es falso, porque el populismo es también un fenómeno político poderoso en los países centrales con democracias
+      altamente institucionalizadas.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 7
+- id: q-8bf9f5aa
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: En el video en que Eduardo Levy Yeyati entrevista a Pablo Gerchunoff sobre la figura de Alfonsín,
+      particularmente en su etapa de presidente de la Nación, el entrevistado considera 1985 un punto de inflexión.
+      ¿Por qué elige ese año?
+    opciones:
+      A: Porque en 1985 se produjo el pacto con el peronismo renovador y la implementación del Plan Primavera, un
+        exitoso programa de estabilización económica implementado por el Gobierno radical.
+      B: Porque coincide con la película que lleva como título ese mismo año (“1985”) y que compitió por los premios
+        Oscar, trayendo nuevamente al debate público la figura de Alfonsín y su legado político.
+      C: Porque el éxito del Plan Austral, un programa de estabilización económica, permitió a Alfonsín ganar las
+        elecciones intermedias de 1985.
+      D: Porque aúna el año en que se concretó el juicio a las Juntas militares como gran momento de la institucionalidad
+        democrática con el momento de mayor éxito del llamado Plan Austral, un programa de estabilización económica
+        implementado por el Gobierno radical.
+      E: Las opciones correctas son la A y la C.
+      F: Las opciones correctas son la B y la D.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: G
+    correctas:
+    - Porque el éxito del Plan Austral, un programa de estabilización económica, permitió a Alfonsín ganar las elecciones
+      intermedias de 1985.
+    - Porque aúna el año en que se concretó el juicio a las Juntas militares como gran momento de la institucionalidad
+      democrática con el momento de mayor éxito del llamado Plan Austral, un programa de estabilización económica
+      implementado por el Gobierno radical.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 8
+- id: q-bdd1ef5c
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'Según Romero, la Iglesia Católica evolucionó hacia una creciente hostilidad al Gobierno radical
+      encabezado desde 1983 por Alfonsín. Esto fue así porque:'
+    opciones:
+      A: La Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones– en el área de la
+        enseñanza privada.
+      B: La Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones– en la asistencia
+        social y en la educación pública.
+      C: La Iglesia estaba molesta por el proyecto de despenalización del aborto que impulsaba el Gobierno y que
+        fue rechazado en el Congreso.
+      D: La Iglesia estaba molesta por el tono laico del discurso cultural que circulaba en instituciones y medios
+        del Estado.
+      E: Las opciones correctas son la A y la D.
+      F: Las opciones correctas son la B y la D.
+      G: Las opciones correctas son la A, la C y la D.
+      H: 'Las opciones correctas son la B, la C y la D. DNI:'
+    clave: E
+    correctas:
+    - La Iglesia estaba molesta por su escasa injerencia –al menos, menor a sus aspiraciones– en el área de la enseñanza
+      privada.
+    - La Iglesia estaba molesta por el tono laico del discurso cultural que circulaba en instituciones y medios
+      del Estado.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 9
+- id: q-7b8ffb27
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'El video sobre Transición a la Democracia trata sobre distintos tipos de transición en contextos
+      de conflictos armados. Entre ellos distingue:'
+    opciones:
+      A: Transiciones en las que se ha producido un cambio de régimen entre los sectores “duros” y “blandos” del
+        conflicto armado.
+      B: Transiciones que tienen lugar en casos en que un conflicto armado continúa en curso.
+      C: Transiciones en las que se ha producido una humillación militar, pero no una derrota total.
+      D: Transiciones en las que se ha producido la asimilación del régimen político a partir del bando victorioso
+        en un conflicto armado.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la B y la D.
+    clave: F
+    correctas:
+    - Transiciones que tienen lugar en casos en que un conflicto armado continúa en curso.
+    - Transiciones en las que se ha producido una humillación militar, pero no una derrota total.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 10
+- id: q-35aaa976
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'Según Verónica Beyreuther, en dictadura, la coacción pura puede servir inicialmente para mantener
+      el dominio sobre una sociedad, pero, al transcurrir el tiempo, se hace necesario algún grado de consenso.
+      Esto es así porque:'
+    opciones:
+      A: Las dictaduras siempre requieren de una legitimidad electoral que puede legitimar el uso de la fuerza para
+        garantizar su dominio sobre una sociedad con el paso del tiempo.
+      B: Las dictaduras buscan sostenerse siempre en un consenso mayoritario, sobre todo si ya no existe la causa
+        que les dio origen.
+      C: El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que la
+        sostiene.
+      D: Para lograr ese consenso, las dictaduras generalmente apelan a representar un supuesto interés público.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la B, la C y la D.
+    clave: G
+    correctas:
+    - El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que la sostiene.
+    - Para lograr ese consenso, las dictaduras generalmente apelan a representar un supuesto interés público.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 11
+- id: q-15c86453
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'Según Romero, los inicios de la represión ilegal de las Fuerzas Armadas no fueron con el golpe militar
+      de 1976, sino que ya se observaban en el Gobierno peronista que encabezó Isabel Perón entre 1974 y 1976. Esto
+      se vio en que:'
+    opciones:
+      A: Desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir a la guerrilla
+        en Tucumán.
+      B: Con la muerte de Perón, los grupos guerrilleros optaron por pasar a la clandestinidad y potenciar la violencia
+        política.
+      C: Las guerrillas vinculadas al Partido Radical y a su líder, Raúl Alfonsín, se hicieron fuertes en el interior
+        de la Provincia de Buenos Aires.
+      D: La represión en el sur del país en 1975, conocida como la “Patagonia Rebelde”, fue el primer acto en que
+        las Fuerzas Armadas aplicaron la represión ilegal para aniquilar a las guerrillas de izquierda.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: E
+    correctas:
+    - Desde febrero de 1975, el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir a la guerrilla
+      en Tucumán.
+    - Con la muerte de Perón, los grupos guerrilleros optaron por pasar a la clandestinidad y potenciar la violencia
+      política.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 12
+- id: q-7c6990f8
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'Según Romero, el Gobierno de la transición iniciado en 1983 debió enfrentarse a un importante obstáculo:
+      empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación sectorial a la que
+      habían apostado el entonces presidente Alfonsín y su equipo económico. Esto ocurrió cuando:'
+    opciones:
+      A: Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba el ministro
+        de Economía de Alfonsín.
+      B: Los sindicalistas encontraron en la movilización piquetera una inesperada aliada para suplantar la falta
+        de entusiasmo de los propios.
+      C: La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición
+        peronista.
+      D: Los empresarios cuestionaron el gasto y la intervención estatal, aunque con la salvedad de las políticas
+        que los beneficiaban directamente.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la B y la D.
+      H: Las opciones correctas son la C y la D.
+    clave: H
+    correctas:
+    - La CGT se movilizó tanto por razones sindicales como políticas, pues era la columna vertebral de la oposición
+      peronista.
+    - Los empresarios cuestionaron el gasto y la intervención estatal, aunque con la salvedad de las políticas que
+      los beneficiaban directamente.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 13
+- id: q-315c3a2a
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'Según Enrique García, el Estado de bienestar o benefactor se desarrolló en Occidente a partir de
+      1945, es decir, con posterioridad a la Segunda Guerra Mundial (1939-1945). Esto ocurrió porque:'
+    opciones:
+      A: El Estado de bienestar fue la primera organización estatal exitosa por fuera del capitalismo que triunfó
+        en Occidente.
+      B: Con este tipo de Estado se buscaba retomar el rumbo del crecimiento y de la estabilidad social ante el
+        avance del comunismo.
+      C: Este tipo de Estado se conformó para dar solución a los efectos económicos y sociales que la guerra había
+        provocado.
+      D: El Estado de bienestar fue consecuencia del enorme éxito de la economía soviética, y por ello fue imitado
+        por Occidente.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la B, la C y la D.
+    clave: F
+    correctas:
+    - Con este tipo de Estado se buscaba retomar el rumbo del crecimiento y de la estabilidad social ante el avance
+      del comunismo.
+    - Este tipo de Estado se conformó para dar solución a los efectos económicos y sociales que la guerra había
+      provocado.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 14
+- id: q-9c3bd448
+  tipo: combinada
+  puntos: 0.5
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'Romero relata que la ley del divorcio de 1987 se aprobó durante el Gobierno del radical Raúl Alfonsín
+      luego de una breve, pero muy intensa discusión. Esta intensidad estuvo relacionada con que:'
+    opciones:
+      A: Fue el punto culminante de la modernización cultural iniciada en 1983.
+      B: Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre Argentina y el Vaticano.
+      C: Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión
+        y a otros más novedosos.
+      D: Los sectores más tradicionales del partido radical intentaron oponerse bloqueando su tratamiento en el
+        Congreso.
+      E: Las opciones correctas son la A y la C.
+      F: Las opciones correctas son la A y la B.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A, la C y la D.
+    clave: E
+    correctas:
+    - Fue el punto culminante de la modernización cultural iniciada en 1983.
+    - Los sectores tradicionales de la Iglesia católica se opusieron apelando a mecanismos habituales de presión
+      y a otros más novedosos.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 15
+- id: q-3ecdf8c6
+  tipo: combinada
+  puntos: 1.0
+  veces_tomada: 1
+  cuatrimestres:
+  - 2C 2025
+  versiones:
+  - enunciado: 'Según Romero, al asumir la presidencia, Alfonsín propuso algunas distinciones lógicas sobre el legado
+      militar, pero que, al mismo tiempo, resultaban difíciles de aceptar para la sociedad movilizada, en especial
+      para las organizaciones de derechos humanos. Esto se debió a que:'
+    opciones:
+      A: Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que
+        era parte del Estado.
+      B: Alfonsín pensaba que había que evitar el juicio a los militares culpables porque implicaba atacar a toda
+        la institución, que era parte del Estado.
+      C: Alfonsín no había condenado las violaciones a los derechos humanos en la dictadura y continuó esa línea
+        durante su Gobierno.
+      D: Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la
+        obediencia debida.
+      E: Las opciones correctas son la A y la B.
+      F: Las opciones correctas son la B y la C.
+      G: Las opciones correctas son la C y la D.
+      H: Las opciones correctas son la A y la D.
+    clave: H
+    correctas:
+    - Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución, que era
+      parte del Estado.
+    - Alfonsín pensaba que se debía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia
+      debida.
+    apariciones:
+    - archivo: Recuperatorio_1er_Parcial_-_2do_C._2025_-_Tema_1.pdf
+      instancia: Recuperatorio 1er Parcial
+      cuatrimestre: 2C 2025
+      tema: 1
+      consigna: 18

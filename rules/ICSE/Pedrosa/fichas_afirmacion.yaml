@@ -1,0 +1,2070 @@
+# Fichas de afirmación — ICSE, Cátedra Pedrosa (1er parcial).
+# Formato y reglas: rules/01_formato_fichas.md. Validar con scripts/validar_fichas.py.
+# Estado: borrador. Escritas a partir de los exámenes; falta contrastarlas con la bibliografía.
+
+- id: povse.gobierno-vs-regimen
+  eje: conceptos
+  autor: Max Povse
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Cambio de gobierno y cambio de régimen
+  afirmacion: 'Cambiar de gobierno no es lo mismo que cambiar de régimen político: un régimen puede mantenerse
+    aunque cambie el gobierno.
+
+    '
+  puntos:
+  - Es falso que un cambio de gobierno sea lo mismo que un cambio de régimen político.
+  - Un régimen puede mantenerse, aunque cambie el gobierno.
+  trampas:
+  - texto: Es verdadero, porque no puede haber un mismo gobierno que transite regímenes políticos diferentes.
+    error: absoluto_falso
+    por_que: Gobierno y régimen son planos distintos; el "no puede haber" cierra una posibilidad que la
+      distinción deja abierta.
+  - texto: Es verdadero, porque cuando cambia el presidente necesariamente cambia el régimen.
+    error: absoluto_falso
+    por_que: Cambiar al presidente cambia el gobierno; el régimen puede seguir siendo el mismo.
+  - texto: Es falso, porque para que haya un cambio de régimen no debe cambiar el gobierno.
+    error: motivo_equivocado
+    por_que: El veredicto está bien, pero el motivo inventa una condición; lo que importa es que el régimen
+      puede durar más que un gobierno.
+  pregunta_guia: ¿Qué cambia cuando cambia el gobierno y qué tiene que cambiar para que cambie el régimen?
+  explicacion_modelo: 'Es falso. Según Povse, gobierno y régimen no son lo mismo: un régimen puede mantenerse
+    aunque cambie el gobierno, por ejemplo cuando asume otro presidente dentro de las mismas reglas. La
+    opción tentadora es "Es falso, porque para que haya un cambio de régimen no debe cambiar el gobierno":
+    tiene el veredicto correcto, pero el motivo es inventado.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-aeea6199
+  estado: borrador
+- id: povse.totalitarismo
+  eje: conceptos
+  autor: Max Povse
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Regímenes totalitarios
+  afirmacion: 'Los regímenes totalitarios extienden su control a todos los aspectos de la vida de la población,
+    incluida la acción política, y exigen una movilización continua de adhesión al líder.
+
+    '
+  puntos:
+  - Debe existir una continua movilización de la población que demuestre su adhesión al líder.
+  - Se controla e influye en las formas de accionar político.
+  trampas:
+  - texto: Se controla todo, excepto las cuestiones de la vida privada e íntima.
+    error: media_verdad
+    por_que: Arranca bien ("se controla todo"), pero el control totalitario alcanza todos los aspectos
+      de la vida, también lo privado.
+  - texto: La libertad de la sociedad civil no es reducida, pero sí es observada con atención.
+    error: concepto_vecino
+    por_que: Describe un régimen que vigila sin suprimir; en el totalitarismo la libertad de la sociedad
+      civil sí se reduce.
+  pregunta_guia: ¿Hasta dónde llega el control de un régimen totalitario y qué le pide a la población?
+  explicacion_modelo: 'Las correctas son las de la movilización continua de adhesión al líder y el control
+    de las formas de accionar político. Para Povse el totalitarismo extiende su control a todos los aspectos
+    de la vida. La trampa más tentadora es "se controla todo, excepto la vida privada": empieza bien,
+    pero ese "excepto" contradice justamente la idea de control total.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-5bf42cf6
+  estado: borrador
+- id: povse.regimen-hibrido
+  eje: conceptos
+  autor: Max Povse
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Regímenes híbridos
+  afirmacion: 'Un régimen es híbrido cuando combina indicadores democráticos y autoritarios: hay elecciones
+    libres, pero con una "cancha inclinada" a favor del partido de gobierno.
+
+    '
+  puntos:
+  - Para ser híbrido, un régimen debe tener indicadores con valores tanto democráticos como autoritarios.
+  - Son casos donde hay elecciones libres, pero existe también una "cancha inclinada" en favor del partido
+    de gobierno.
+  trampas:
+  - texto: Es verdadero, porque los regímenes políticos son pluralistas y ofrecen todo tipo de posibilidades
+      ideológicas en su interior.
+    error: motivo_equivocado
+    por_que: El veredicto está bien, pero el pluralismo ideológico no explica la mezcla de rasgos democráticos
+      y autoritarios.
+  - texto: Es falso, porque la democracia no tiene nada que ver con los sistemas autoritarios; es uno
+      o el otro.
+    error: absoluto_falso
+    por_que: La categoría de régimen híbrido existe justamente porque hay casos intermedios.
+  - texto: Es falso, porque eso no es híbrido, sino una poliarquía.
+    error: concepto_vecino
+    por_que: Poliarquía es el nombre que Dahl le da a la democracia real; no es un régimen mixto.
+  pregunta_guia: ¿Qué rasgos democráticos y qué rasgos autoritarios conviven en un régimen híbrido?
+  explicacion_modelo: 'Es verdadero. Según Povse, un régimen híbrido mezcla indicadores democráticos y
+    autoritarios: hay elecciones libres, pero la competencia está inclinada a favor del partido de gobierno.
+    La opción tentadora es la de la poliarquía, pero ese término nombra a la democracia real, no a una
+    mezcla entre democracia y autoritarismo.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-33de77a8
+  estado: borrador
+  notas: La expresión "cancha inclinada" suele atribuirse a Levitsky y Way; validar si Povse la cita así.
+- id: gomez-talavera.estado-vs-gobierno
+  eje: conceptos
+  autor: Patricio Gómez Talavera
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Estado y gobierno
+  afirmacion: 'El Estado es una estructura de existencia permanente, aunque puede cambiar en sus formas;
+    el gobierno está compuesto por quienes, en forma contingente y coyuntural, administran el Estado.
+
+    '
+  puntos:
+  - Es necesario distinguir entre Estado y gobierno.
+  - El Estado es una estructura de existencia permanente, aunque puede cambiar en sus formas.
+  - El gobierno está compuesto por quienes, en forma contingente y coyuntural, administran el Estado.
+  trampas:
+  - texto: El gobierno es una estructura de existencia permanente, a diferencia del Estado.
+    error: cambio_de_palabra
+    por_que: Invierte los términos; lo permanente es el Estado y lo transitorio es el gobierno.
+  - texto: El Estado está compuesto por quienes, en forma contingente y coyuntural, administran el gobierno.
+    error: cambio_de_palabra
+    por_que: Invierte los términos; es el gobierno el que administra coyunturalmente el Estado.
+  - texto: Los miembros del gobierno no tienen un mandato temporal, a diferencia de la burocracia del
+      Estado, que tiene mandato fijo.
+    error: cambio_de_palabra
+    por_que: Al revés; quienes gobiernan son los que están por un tiempo, mientras el Estado permanece.
+  - texto: Los miembros del Estado tienen un mandato temporal, tras el cual dejan sus puestos a la burocracia
+      del gobierno.
+    error: cambio_de_palabra
+    por_que: Pone lo temporal del lado del Estado y la estructura del lado del gobierno; es exactamente
+      al revés.
+  pregunta_guia: ¿Qué es lo que permanece y qué es lo que cambia cuando hay elecciones?
+  explicacion_modelo: 'Es verdadero. Según Gómez Talavera, el Estado es una estructura permanente, aunque
+    cambien sus formas, y el gobierno son quienes lo administran de manera contingente y coyuntural. Todas
+    las trampas usan la misma frase con Estado y gobierno intercambiados: hay que fijarse a cuál de los
+    dos le atribuyen la permanencia.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-17bf5e88
+  - q-8b7be805
+  estado: borrador
+- id: yannuzzi.ciudadania-arendt
+  eje: conceptos
+  autor: Nadia Yannuzzi
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Ciudadanía como derecho a tener derechos (Arendt)
+  afirmacion: 'Siguiendo a Hannah Arendt, la ciudadanía puede entenderse desde una perspectiva conceptual:
+    los derechos se obtienen a través de complejos procesos históricos, signados por la violencia y por
+    intereses diversos y opuestos.
+
+    '
+  puntos:
+  - Hay otra forma de entender la ciudadanía, desde una perspectiva conceptual, además de la jurídica.
+  - Los derechos se obtienen a través de complejos procesos históricos signados por la violencia y los
+    intereses diversos y opuestos.
+  trampas:
+  - texto: Es falso, porque la ciudadanía solo es posible entenderla desde una perspectiva jurídica entre
+      el Estado y la sociedad.
+    error: absoluto_falso
+    por_que: El "solo" niega justamente la perspectiva conceptual que plantea la autora.
+  - texto: Es falso, porque la ciudadanía es el derecho a tener derechos, lo que implica que es un área
+      de fuertes consensos.
+    error: media_verdad
+    por_que: Arranca con la fórmula de Arendt, pero concluye al revés; los derechos se conquistan en procesos
+      conflictivos, no por consenso.
+  - texto: Es verdadero, porque los derechos se obtienen a través de complejos procesos económicos signados
+      por la lucha de clases y la redistribución del ingreso.
+    error: verdad_general
+    por_que: Suena razonable, pero la autora habla de procesos históricos con violencia e intereses opuestos,
+      no de una explicación económica.
+  pregunta_guia: Según esta perspectiva, ¿cómo se consiguen los derechos, por acuerdo o a través de conflictos?
+  explicacion_modelo: 'Es verdadero. Para Yannuzzi, siguiendo a Arendt, la ciudadanía también se entiende
+    desde una perspectiva conceptual: los derechos se obtienen en procesos históricos complejos, atravesados
+    por la violencia y por intereses opuestos. La trampa más tentadora usa "el derecho a tener derechos",
+    pero de ahí saca que es un área de consensos, y es lo contrario.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-9f2e3ca3
+  estado: borrador
+  notas: El examen solo menciona "el derecho a tener derechos" dentro de una opción falsa; validar que
+    Yannuzzi use esa fórmula de Arendt.
+- id: yannuzzi.individuacion
+  eje: conceptos
+  autor: Nadia Yannuzzi
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Individuación y repliegue a lo privado
+  afirmacion: 'Entre los efectos del proceso de individuación se destaca el repliegue del individuo a
+    la esfera privada, porque siente que no tiene injerencia en los asuntos públicos.
+
+    '
+  puntos:
+  - Uno de los efectos del proceso de individuación es el repliegue del individuo a la esfera privada.
+  - Los individuos se repliegan porque sienten no tener injerencia en los asuntos públicos.
+  trampas:
+  - texto: Es falso, porque siempre el ámbito de pertenencia del individuo es la esfera privada.
+    error: absoluto_falso
+    por_que: El "siempre" borra la idea de repliegue, que supone un movimiento desde lo público hacia
+      lo privado.
+  - texto: Es falso, porque nadie se salva solo.
+    error: verdad_general
+    por_que: Es una frase hecha, no un argumento de la autora, y además da el veredicto equivocado.
+  - texto: Es verdadero, porque el proceso de individuación deriva en el sálvese quien pueda.
+    error: motivo_equivocado
+    por_que: El veredicto está bien, pero el motivo de la autora es la sensación de no tener injerencia
+      en lo público.
+  pregunta_guia: ¿Por qué el individuo se retira de lo público según la autora?
+  explicacion_modelo: 'Es verdadero. Según Yannuzzi, la individuación lleva a que las personas se replieguen
+    a la esfera privada porque sienten que no tienen injerencia en los asuntos públicos. La opción tentadora
+    es la del "sálvese quien pueda": acierta el veredicto, pero cambia el motivo por una frase hecha.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-883542ff
+  estado: borrador
+- id: simone.democracia-representativa
+  eje: conceptos
+  autor: Nicolás Simone
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Democracia representativa
+  afirmacion: 'La democracia representativa se alcanza cuando los ciudadanos eligen a un pequeño grupo
+    de personas para que tomen decisiones en su nombre y diseñen un gobierno que exprese la voluntad de
+    la mayoría.
+
+    '
+  puntos:
+  - La democracia representativa se alcanza cuando los ciudadanos eligen a un pequeño grupo de personas
+    para que tomen decisiones en su nombre.
+  - Los ciudadanos eligen a otros para que diseñen un gobierno que exprese la voluntad de la mayoría.
+  trampas:
+  - texto: Es falso, porque la democracia representativa busca oponerse al poder de pequeños grupos sobre
+      el pueblo.
+    error: verdad_general
+    por_que: Suena a ideal democrático, pero en la representación el pueblo justamente delega en un grupo
+      reducido.
+  - texto: Es falso, porque la democracia representativa se alcanza cuando los ciudadanos toman en su
+      poder las grandes decisiones del Estado.
+    error: concepto_vecino
+    por_que: Eso describe la democracia directa, no la representativa.
+  - texto: Es verdadero, porque un grupo de personas a partir de la democracia directa diseña un gobierno
+      que exprese la voluntad de la mayoría.
+    error: concepto_vecino
+    por_que: Mezcla democracia directa con representativa; en la representativa los ciudadanos eligen
+      a quienes deciden.
+  pregunta_guia: En la democracia representativa, ¿quién toma las decisiones y quién lo elige?
+  explicacion_modelo: 'Es verdadero. Según Simone, en la democracia representativa los ciudadanos eligen
+    a otros para que decidan en su nombre y armen un gobierno que exprese la voluntad de la mayoría. Las
+    trampas más tentadoras confunden la representativa con la directa, donde los propios ciudadanos toman
+    las decisiones.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-61539aa3
+  estado: borrador
+- id: simone.transicion
+  eje: conceptos
+  autor: Nicolás Simone
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Qué es una transición
+  afirmacion: 'La transición es el lapso que comienza cuando el régimen no democrático empieza a retirarse
+    y termina cuando un régimen democrático se impone sin riesgo de ser derrocado; en sentido amplio,
+    se consuma cuando no existe peligro de regresión autoritaria.
+
+    '
+  puntos:
+  - La transición comienza cuando el régimen no democrático de un país comienza a retirarse.
+  - Termina cuando un régimen democrático se impone, ya sin riesgo de ser derrocado.
+  - En sentido amplio, la transición se consuma cuando no existe peligro de regresión autoritaria.
+  trampas:
+  - texto: Es verdadero, porque la transición es como la poliarquía, formas en que se describe al sistema
+      democrático.
+    error: concepto_vecino
+    por_que: La transición es un proceso entre dos regímenes; la poliarquía es un tipo de régimen democrático.
+  - texto: Es falso, porque la transición no puede preverse exactamente, al ser un periodo donde la incertidumbre
+      es la norma.
+    error: media_verdad
+    por_que: Que haya incertidumbre no impide definir cuándo empieza y cuándo termina la transición.
+  - texto: Es falso, porque nunca una democracia se impone sin riesgo; mientras haya militares, siempre
+      existirá la posibilidad de golpes de Estado.
+    error: absoluto_falso
+    por_que: El "nunca" y el "siempre" niegan la idea de consolidación que forma parte de la definición.
+  pregunta_guia: ¿Qué marca el comienzo y qué marca el final de una transición?
+  explicacion_modelo: 'Es verdadero. Para Simone, la transición empieza cuando el régimen no democrático
+    se retira y termina cuando la democracia se impone sin riesgo de ser derrocada, es decir, cuando ya
+    no hay peligro de regresión autoritaria. La opción tentadora es la de la incertidumbre: puede describir
+    el período, pero no refuta la definición.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-7dfdd578
+  estado: borrador
+- id: simone.pactos-elites
+  eje: conceptos
+  autor: Nicolás Simone
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Pactos de élites en la transición
+  afirmacion: 'En las transiciones, los pactos entre las élites de distintos partidos contienen las demandas
+    sociales que surgen con el regreso de la democracia y le quitan margen de maniobra a los nostálgicos
+    del régimen autoritario.
+
+    '
+  puntos:
+  - La alianza de las élites forma una red de contención de las demandas de la sociedad, que salen a la
+    luz por las expectativas que produce el regreso de la democracia.
+  - Los pactos son una garantía de que los actores nostálgicos del régimen autoritario no tendrán margen
+    de maniobra para intentar un golpe.
+  trampas:
+  - texto: Son una garantía para que los sectores nostálgicos del régimen autoritario armen el nuevo gobierno
+      que suceda a la dictadura.
+    error: cambio_de_palabra
+    por_que: Invierte el sentido; los pactos sirven para dejar sin margen a los nostálgicos, no para darles
+      el gobierno.
+  - texto: La alianza de las élites contiene las demandas de los empresarios beneficiados por el régimen
+      anterior, que no tienen grandes expectativas por la democracia.
+    error: cambio_de_palabra
+    por_que: Cambia "la sociedad" por "los empresarios"; lo que se contiene son las demandas sociales
+      que despierta la vuelta de la democracia.
+  pregunta_guia: ¿Para qué les sirve a los partidos ponerse de acuerdo durante una transición?
+  explicacion_modelo: 'Según Simone, los pactos de élites cumplen dos funciones: contienen las demandas
+    de una sociedad con grandes expectativas por la vuelta de la democracia y dejan sin margen a los nostálgicos
+    del autoritarismo para intentar un golpe. Las trampas usan las mismas frases con una pieza cambiada:
+    los nostálgicos que arman el gobierno o los empresarios en lugar de la sociedad.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-c4cc8c1e
+  estado: borrador
+- id: simone.lanusse-gan-1971
+  eje: conceptos
+  autor: Nicolás Simone
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Lanusse y la salida electoral de 1971
+  afirmacion: 'En marzo de 1971 el ejército designó presidente a Agustín Lanusse para pactar una transición
+    controlada: proponía llamar a elecciones a cambio de que Perón quedara excluido.
+
+    '
+  puntos:
+  - En marzo de 1971 el ejército designó presidente al general Agustín Lanusse para pactar una transición
+    a la democracia.
+  - Los militares buscaban controlar el proceso y abrieron negociaciones con los partidos políticos, incluido
+    el peronismo.
+  - La propuesta era llamar a elecciones a cambio de que Perón quedara excluido de ellas.
+  - Los partidos rechazaron formalmente la invitación, pero aprovecharon la situación para tejer algunos
+    acuerdos.
+  trampas:
+  - texto: Es falso, porque Agustín Lanusse nunca fue presidente ni en dictadura ni en democracia.
+    error: hecho_equivocado
+    por_que: Lanusse fue presidente de facto entre 1971 y 1973.
+  - texto: Es falso, porque los militares en el poder nunca negocian con la oposición, y menos con los
+      partidos tradicionales.
+    error: absoluto_falso
+    por_que: El "nunca" choca con el caso mismo; en 1971 los militares abrieron negociaciones con los
+      partidos.
+  - texto: Es verdadero, porque los militares se sentían muy cercanos al peronismo, ya que Perón había
+      sido militar de carrera.
+    error: motivo_equivocado
+    por_que: El veredicto está bien, pero negociaban para controlar la salida, y la propuesta era justamente
+      excluir a Perón.
+  pregunta_guia: ¿Qué ofrecían los militares en 1971 y qué condición le ponían a esa salida?
+  explicacion_modelo: 'Es verdadero. Según Simone, Lanusse fue designado para pactar una transición controlada:
+    se llamaría a elecciones, pero con Perón excluido; los partidos rechazaron formalmente la invitación,
+    aunque tejieron acuerdos. La opción tentadora dice que los militares eran cercanos al peronismo: acierta
+    el veredicto, pero la condición era dejar afuera a Perón.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-f8411670
+  estado: borrador
+  notas: El nombre histórico de la propuesta es el Gran Acuerdo Nacional (GAN); el examen no lo menciona.
+    Validar si Simone lo nombra.
+- id: petrino.populismo-america-latina
+  eje: conceptos
+  autor: Laura Petrino
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Populismo y América Latina
+  afirmacion: 'El populismo está intrínsecamente ligado a la historia y al presente latinoamericano, con
+    figuras como Getúlio Vargas y Juan Domingo Perón, pero no es exclusivo de la región: también es un
+    fenómeno poderoso en países centrales con democracias altamente institucionalizadas.
+
+    '
+  puntos:
+  - El populismo es una expresión política intrínsecamente ligada a la historia y al presente latinoamericano.
+  - Es falso que esté intrínsecamente ligado a la historia y al presente europeo.
+  - Ejemplos de esta forma de entender el poder son figuras que marcaron nuestra geografía, como el brasileño
+    Getúlio Vargas y Juan Domingo Perón.
+  - Las características de nuestra región no son las únicas condiciones propicias para el populismo; también
+    es un fenómeno poderoso en países centrales con democracias altamente institucionalizadas.
+  trampas:
+  - texto: El populismo es europeo; sus ejemplos son Mussolini y Hitler, que luego fueron imitados en
+      América Latina.
+    error: concepto_vecino
+    por_que: Confunde populismo con fascismo y nazismo; los ejemplos de la autora son Vargas y Perón.
+  - texto: Es verdadero que es europeo, porque la democracia se origina en Grecia y Roma.
+    error: concepto_vecino
+    por_que: Habla del origen de la democracia, no del populismo.
+  - texto: Es falso que sea europeo, porque el populismo no reconoce fronteras a la hora de explicar sus
+      orígenes.
+    error: motivo_equivocado
+    por_que: El veredicto está bien, pero para la autora el populismo está ligado a la historia latinoamericana.
+  - texto: Es falso que sea latinoamericano, porque el populismo es más común en Asia y África.
+    error: dato_inventado
+    por_que: La autora no plantea eso; ubica sus ejemplos paradigmáticos en América Latina.
+  - texto: Es verdadero que es latinoamericano, porque lo representan figuras como Augusto Pinochet y
+      Jorge Rafael Videla.
+    error: concepto_vecino
+    por_que: Pinochet y Videla encabezaron dictaduras militares, no movimientos populistas.
+  - texto: Es falso que la región sea la única condición, porque el populismo también es poderoso en países
+      comunistas con democracias poco institucionalizadas.
+    error: cambio_de_palabra
+    por_que: Cambia "países centrales con democracias altamente institucionalizadas" por "países comunistas
+      con democracias poco institucionalizadas".
+  - texto: Es verdadero que la región es la única condición, porque las "instituciones informales" propias
+      de América Latina abren el camino al populismo.
+    error: verdad_general
+    por_que: Suena a explicación razonable, pero la autora sostiene que el populismo también surge en
+      países centrales.
+  - texto: Es verdadero que la región es la única condición, porque todos los casos de populismo provienen
+      de América Latina.
+    error: absoluto_falso
+    por_que: El "todos" choca con los casos de países centrales con democracias institucionalizadas.
+  pregunta_guia: ¿Dónde ubica la autora los ejemplos clásicos de populismo y en qué otros países aparece
+    hoy?
+  explicacion_modelo: 'Para Petrino, el populismo está ligado a la historia latinoamericana: sus figuras
+    paradigmáticas son Vargas y Perón. Por eso es falso que sea un fenómeno europeo, y también es falso
+    que solo pueda surgir en nuestra región, porque aparece en países centrales con democracias institucionalizadas.
+    La trampa más tentadora pone a Mussolini y Hitler como ejemplos: eso es fascismo y nazismo, no populismo.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-049e2c30
+  - q-b26893fd
+  estado: borrador
+  notas: 'El examen pregunta la misma idea al derecho y al revés ("ligado a lo europeo" es falso; "ligado
+    a lo latinoamericano" es verdadero). Sirve como ejercicio de reformulación.
+
+    '
+- id: petrino.yrigoyen-peron
+  eje: conceptos
+  autor: Laura Petrino
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Yrigoyen y Perón como populismos
+  afirmacion: 'Yrigoyen y Perón son dos casos paradigmáticos del populismo en la Argentina: discurso de
+    antinomias, liderazgos personales fuertes y demandas de sectores sin representación política.
+
+    '
+  puntos:
+  - Ambos movimientos tenían un discurso basado en antinomias; el "pueblo" se enfrenta al "régimen" o
+    a la "oligarquía".
+  - Elaboraron movimientos con fuertes liderazgos personales.
+  - Al nacer, el yrigoyenismo y el peronismo conjugaron demandas democráticas y sociales de sectores que
+    estaban fuera del sistema y sin representación política.
+  trampas:
+  - texto: En ambos casos los líderes crearon partidos a la medida de su poder, como organizaciones que
+      pudieran manejar a su antojo.
+    error: dato_inventado
+    por_que: La autora no caracteriza así a estos movimientos; además, la Unión Cívica Radical ya existía
+      antes del liderazgo de Yrigoyen.
+  pregunta_guia: ¿Qué tres rasgos comparten el yrigoyenismo y el peronismo según la autora?
+  explicacion_modelo: 'Son correctas tres de las cuatro afirmaciones. Según Petrino, Yrigoyen y Perón
+    comparten un discurso de antinomias (pueblo contra régimen u oligarquía), liderazgos personales fuertes
+    y el haber canalizado demandas de sectores sin representación. La opción tentadora es la de los partidos
+    "a la medida" del líder: suena a crítica conocida, pero no es lo que plantea la autora.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-fbaeefaa
+  estado: borrador
+  notas: La UCR fue fundada en 1891, antes del liderazgo de Yrigoyen; validar si Petrino lo menciona.
+- id: valdez.estado-vs-nacion
+  eje: conceptos
+  autor: María José Valdez
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Estado y nación
+  afirmacion: 'Hablar del Estado implica centrarse en las instituciones políticas; hablar de la nación
+    cambia el enfoque hacia otros actores, como la sociedad y la ciudadanía.
+
+    '
+  puntos:
+  - Hablar del Estado implica centrarse en las instituciones políticas.
+  - Cuando nos referimos a la nación, el enfoque cambia y hay que atender a otros actores, como la sociedad
+    y la ciudadanía.
+  trampas:
+  - texto: Las universidades públicas.
+    error: dato_inventado
+    por_que: La autora menciona a la sociedad y a la ciudadanía; las universidades no forman parte de
+      su planteo.
+  - texto: Los sindicatos.
+    error: dato_inventado
+    por_que: Es un actor plausible, pero no es el que nombra la autora.
+  - texto: Las Pymes (pequeñas y medianas empresas).
+    error: dato_inventado
+    por_que: No forma parte de los actores que la autora asocia a la nación.
+  - texto: Las redes sociales.
+    error: dato_inventado
+    por_que: No forma parte de los actores que la autora asocia a la nación.
+  pregunta_guia: Cuando se pasa de hablar del Estado a hablar de la nación, ¿a qué actores hay que mirar?
+  explicacion_modelo: 'Las correctas son la sociedad y la ciudadanía. Según Valdez, el Estado remite a
+    las instituciones políticas, y la nación obliga a mirar a otros actores: la sociedad y la ciudadanía.
+    Las demás opciones (sindicatos, universidades, Pymes, redes) son actores plausibles que la autora
+    no nombra; en estas consignas hay que recordar lo que dice el texto.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-d802b9f8
+  estado: borrador
+- id: sribman.estado-liberal
+  eje: conceptos
+  autor: Ariel Sribman
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Elementos del Estado liberal
+  afirmacion: 'Según Sribman, el Estado liberal en sus inicios se constituye con tres elementos: el gobierno
+    representativo, la división de poderes y el liberalismo económico.
+
+    '
+  puntos:
+  - El gobierno representativo es un elemento constitutivo del Estado liberal en sus inicios.
+  - La división de poderes es un elemento constitutivo del Estado liberal en sus inicios.
+  - El liberalismo económico es un elemento constitutivo del Estado liberal en sus inicios.
+  trampas:
+  - texto: Las Fuerzas Armadas son un elemento constitutivo del Estado liberal.
+    error: dato_inventado
+    por_que: Cualquier Estado tiene fuerzas armadas; no es un rasgo que defina al Estado liberal según
+      Sribman.
+  pregunta_guia: ¿Cuáles son los tres elementos que, según Sribman, constituyen al Estado liberal en sus
+    inicios? ¿Cuáles tienen que ver con la forma de gobierno y cuál con la economía?
+  explicacion_modelo: 'La correcta es la que incluye las tres: gobierno representativo, división de poderes
+    y liberalismo económico. Según Sribman, esos son los elementos con los que nace el Estado liberal.
+    Lo que más tienta son las combinaciones de dos: son verdaderas pero incompletas, y como no hay puntaje
+    parcial valen cero. Las Fuerzas Armadas existen en cualquier Estado, no son un rasgo propio del liberal.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-62902631
+  estado: borrador
+- id: garcia.estado-liberal
+  eje: conceptos
+  autor: Enrique García
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Estado liberal y mercado
+  afirmacion: 'Según García, el Estado liberal se apoya en la creencia en leyes naturales del mercado
+    y en la iniciativa individual: es un Estado mínimo, porque el mercado es el único capaz de asignar
+    eficientemente los recursos, y el lucro individual mejora al conjunto de la sociedad.
+
+    '
+  puntos:
+  - Es un Estado mínimo que concibe al mercado como el único capaz de asignar eficientemente los recursos.
+  - Los liberales creen que el espíritu de lucro individual promueve el beneficio personal y el mejoramiento
+    del conjunto de la sociedad.
+  trampas:
+  - texto: Es un Estado interventor en la economía que regula para que los mercados sean más eficientes.
+    error: concepto_vecino
+    por_que: Describe un Estado interventor, lo opuesto al Estado mínimo liberal.
+  - texto: Los liberales creen que el Estado podría ser un empresario exitoso si lo dirigieran personas
+      que saben de economía.
+    error: concepto_vecino
+    por_que: Es la idea del Estado empresario; para los liberales el que asigna bien los recursos es el
+      mercado, no el Estado.
+  pregunta_guia: Para el liberalismo, según García, ¿quién asigna mejor los recursos, el Estado o el mercado?
+    ¿Qué papel cumple el interés individual?
+  explicacion_modelo: 'Son correctas la del Estado mínimo y la del lucro individual. Según García, el
+    Estado liberal confía en las leyes naturales del mercado: el mercado asigna los recursos y el interés
+    de cada uno termina mejorando a toda la sociedad. La opción del Estado interventor tienta porque habla
+    de mercados eficientes, pero describe justo lo contrario: un Estado que regula, no uno mínimo.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-dd5df609
+  estado: borrador
+- id: garcia.estado-fascista
+  eje: conceptos
+  autor: Enrique García
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Estado fascista
+  afirmacion: 'Según García, el poder del Estado fascista no tenía límites: su control sobre la sociedad
+    era total, no se reducía a la educación, la cultura y los medios de comunicación.
+
+    '
+  puntos:
+  - El poder del Estado fascista no poseía límites.
+  - Su control sobre la sociedad era total, en todas sus esferas.
+  trampas:
+  - texto: Es verdadero, porque el Estado fascista ponía énfasis solo en el control de los valores y los
+      discursos.
+    error: absoluto_falso
+    por_que: El control no se limitaba a valores y discursos; abarcaba a toda la sociedad.
+  - texto: Es falso, porque el Estado fascista se evidenciaba sobre todo en la economía.
+    error: motivo_equivocado
+    por_que: 'El veredicto es correcto, pero el control no se concentraba en la economía: era total.'
+  - texto: Es verdadero, porque los fascistas pensaban que desde esos espacios (educación, cultura, medios)
+      podían controlar a toda la sociedad.
+    error: media_verdad
+    por_que: 'Esos espacios importaban, pero el Estado fascista no se limitaba a ellos: su control era
+      total.'
+  pregunta_guia: Según García, ¿hasta dónde llegaba el control del Estado fascista sobre la sociedad?
+    ¿Había alguna esfera que quedara afuera?
+  explicacion_modelo: 'Es falso. Según García, el poder del Estado fascista no tenía límites y su control
+    sobre la sociedad era total, así que no es cierto que dejara esferas afuera. La opción que dice que
+    desde la educación, la cultura y los medios controlaban a toda la sociedad tienta porque esos espacios
+    eran clave, pero acepta la premisa falsa de que el control se limitaba a ellos.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-52a3ee4a
+  estado: borrador
+- id: garcia.estado-bienestar
+  eje: conceptos
+  autor: Enrique García
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Estado de bienestar (desde 1945)
+  afirmacion: 'Según García, el Estado de bienestar se desarrolló en Occidente después de 1945 para dar
+    solución a los efectos económicos y sociales de la guerra y para retomar el crecimiento y la estabilidad
+    social ante el avance del comunismo.
+
+    '
+  puntos:
+  - Se desarrolló en Occidente a partir de 1945, después de la Segunda Guerra Mundial.
+  - Se conformó para dar solución a los efectos económicos y sociales que la guerra había provocado.
+  - Buscaba retomar el rumbo del crecimiento y de la estabilidad social ante el avance del comunismo.
+  trampas:
+  - texto: Fue la primera organización estatal exitosa por fuera del capitalismo que triunfó en Occidente.
+    error: concepto_vecino
+    por_que: El Estado de bienestar es una forma del Estado capitalista, no una alternativa al capitalismo.
+  - texto: Fue consecuencia del enorme éxito de la economía soviética, que Occidente imitó.
+    error: hecho_equivocado
+    por_que: Surgió para frenar el avance del comunismo, no para imitar a la economía soviética.
+  pregunta_guia: ¿Qué dos problemas de la posguerra buscaba resolver el Estado de bienestar, según García?
+  explicacion_modelo: 'Son correctas las dos causas: dar solución a los efectos económicos y sociales
+    de la guerra y retomar el crecimiento y la estabilidad social ante el avance del comunismo. La opción
+    de la economía soviética tienta porque también nombra al comunismo, pero invierte la relación: el
+    Estado de bienestar fue una respuesta para contenerlo, no una copia.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-315c3a2a
+  estado: borrador
+- id: pirsch.federalismo-america-latina
+  eje: conceptos
+  autor: Sofía Pirsch
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Países federales de América Latina
+  afirmacion: 'Según Pirsch, en América Latina solo hay cuatro países con sistemas federales; entre ellos
+    están México y Venezuela.
+
+    '
+  puntos:
+  - En América Latina solo hay cuatro países con sistemas federales.
+  - México tiene un sistema federal.
+  - Venezuela tiene un sistema federal.
+  trampas:
+  - texto: Chile tiene un sistema federal.
+    error: hecho_equivocado
+    por_que: Chile es un Estado unitario.
+  - texto: Uruguay tiene un sistema federal.
+    error: hecho_equivocado
+    por_que: Uruguay es un Estado unitario.
+  pregunta_guia: ¿Cuáles son los cuatro países federales de América Latina según Pirsch? ¿Qué vecinos
+    de la Argentina no lo son?
+  explicacion_modelo: 'Son correctas México y Venezuela. Según Pirsch, solo cuatro países latinoamericanos
+    son federales y estos dos están entre ellos. Chile y Uruguay tientan porque son vecinos y tienen democracias
+    estables, pero son Estados unitarios.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-fa8d7cb4
+  estado: borrador
+  notas: 'El examen solo nombra a México y Venezuela. Los otros dos federales son Argentina y Brasil (dato
+    general): confirmar que Pirsch los menciona antes de enseñarlos en la ficha.
+
+    '
+- id: batlle.dahl-democracia
+  eje: conceptos
+  autor: Margarita Batlle
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: La democracia según Dahl
+  afirmacion: 'Según Batlle, para Robert Dahl la democracia es un orden ideal e inalcanzable en la práctica;
+    por la complejidad del concepto, su obra se ocupa de comprender cómo funcionan los sistemas políticos
+    occidentales, y en ellos los funcionarios no elegidos deben subordinarse a los elegidos.
+
+    '
+  puntos:
+  - Para Dahl la democracia es un sistema inalcanzable e imposible de adoptar en la práctica, un orden
+    utópico e ideal.
+  - La complejidad del concepto de democracia fue un obstáculo analítico y práctico.
+  - Por eso la obra de Dahl muestra su preocupación por comprender el funcionamiento de los sistemas políticos
+    occidentales.
+  - Los funcionarios públicos no elegidos deben estar subordinados a los elegidos popularmente; los electos
+    no deben ser condicionados por personas sin representación electoral.
+  trampas:
+  - texto: Es falso que los electos deban ser condicionados por no electos, porque los funcionarios políticos
+      no deben rendir cuentas ni ser controlados por la justicia o los parlamentos.
+    error: motivo_equivocado
+    por_que: 'El veredicto es correcto, pero el motivo no: el control de la justicia y del parlamento
+      no es lo que está en juego, sino la subordinación de los no electos a los electos.'
+  - texto: Debe haber una persona o grupo que tenga el poder (o pueda condicionarlo) sin haber sido electo.
+    error: concepto_vecino
+    por_que: Eso describe un poder tutelar no democrático; en la democracia los no electos se subordinan
+      a los electos.
+  - texto: Los funcionarios electos deben subordinarse a los designados por el presidente o el Congreso.
+    error: cambio_de_palabra
+    por_que: 'Invierte la relación: son los designados los que se subordinan a los electos.'
+  - texto: Es falso que la democracia sea inalcanzable, porque numerosos países han vivido en democracia.
+    error: verdad_general
+    por_que: Confunde las democracias reales con el ideal; para Dahl la democracia plena es un ideal que
+      ningún país alcanza.
+  - texto: Es falso, porque no existen cuestiones utópicas para que los seres humanos organicen sus sociedades.
+    error: absoluto_falso
+    por_que: Generaliza sin sustento; justamente Dahl piensa la democracia como un ideal utópico.
+  - texto: Es verdadero, porque la única democracia verdadera es la de asambleas donde participan todos
+      los ciudadanos.
+    error: motivo_equivocado
+    por_que: El veredicto es correcto, pero confunde el ideal de Dahl con la democracia directa asamblearia.
+  - texto: La obra de Dahl se preocupa por comprender los sistemas políticos de todo el mundo / la democracia
+      en la historia mundial.
+    error: cambio_de_palabra
+    por_que: 'Cambia el alcance: Dahl se ocupa de los sistemas políticos occidentales.'
+  - texto: La obra de Dahl se preocupa por comprender los sistemas electorales occidentales.
+    error: cambio_de_palabra
+    por_que: Cambia "sistemas políticos" por "sistemas electorales", que es solo una parte.
+  pregunta_guia: Según Batlle, ¿por qué para Dahl la democracia es un ideal inalcanzable? ¿Qué sistemas
+    estudia entonces y qué relación debe haber entre funcionarios electos y no electos?
+  explicacion_modelo: 'Es verdadero: según Batlle, Dahl entiende la democracia como un orden ideal, utópico,
+    que ninguna sociedad alcanza del todo en la práctica. La opción "es falso porque muchos países vivieron
+    en democracia" tienta porque es lo que diría el sentido común, pero confunde las democracias reales
+    con el ideal del que habla Dahl.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-146be346
+  - q-b2b0a999
+  - q-6e0f83ef
+  estado: borrador
+  notas: 'Dahl llama "poliarquía" a las democracias reales; el término aparece en distractores de otras
+    preguntas, pero no en las de Batlle. Confirmar si Batlle lo usa antes de incorporarlo a la ficha.
+    La redacción de la clave ("orden utópico al que no puede aspirar la sociedad") es fuerte: validar
+    el matiz con el texto.
+
+    '
+- id: beyreuther.dictaduras
+  eje: conceptos
+  autor: Verónica Beyreuther
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: 'Dictaduras: poder concentrado, coacción y consenso'
+  afirmacion: 'Según Beyreuther, las dictaduras excluyen la división de poderes, porque un poder compartido
+    y con límites les resulta inconducente; pueden dominar al principio con coacción pura, pero con el
+    tiempo necesitan algún grado de consenso, porque su duración depende de su legitimidad.
+
+    '
+  puntos:
+  - Los regímenes dictatoriales excluyen cualquier posibilidad de división de los poderes del Estado.
+  - En una dictadura, la idea de un poder dividido, compartido y con mecanismos que impidan su concentración
+    en uno de los poderes resulta inconducente.
+  - La coacción pura puede servir al principio, pero con el tiempo se hace necesario algún grado de consenso.
+  - El problema de la duración de una dictadura está unido en forma inseparable al de la legitimidad que
+    la sostiene.
+  - Para lograr ese consenso, las dictaduras generalmente apelan a representar un supuesto interés público.
+  trampas:
+  - texto: Es verdadero, porque el dictador retoma el modelo de las monarquías constitucionales y ocupa
+      desde la fuerza el lugar del monarca.
+    error: motivo_equivocado
+    por_que: El veredicto es correcto, pero la monarquía constitucional limita el poder del rey; no es
+      el modelo de la dictadura.
+  - texto: Es falso, porque aun en las dictaduras el poder debe respetar el control del Poder Legislativo
+      (o del Judicial) sobre el Ejecutivo.
+    error: concepto_vecino
+    por_que: Describe los controles de una república; en la dictadura el poder no se divide ni se controla.
+  - texto: Las dictaduras siempre requieren de una legitimidad electoral para justificar el uso de la
+      fuerza.
+    error: absoluto_falso
+    por_que: Las dictaduras no se legitiman por elecciones; buscan consenso apelando a un supuesto interés
+      público.
+  - texto: Las dictaduras buscan sostenerse siempre en un consenso mayoritario, sobre todo si ya no existe
+      la causa que les dio origen.
+    error: absoluto_falso
+    por_que: La autora habla de "algún grado de consenso", no de un consenso mayoritario y permanente.
+  pregunta_guia: Según Beyreuther, ¿por qué una dictadura no puede convivir con la división de poderes?
+    ¿Por qué la fuerza sola no le alcanza para durar?
+  explicacion_modelo: 'Son correctas la de la legitimidad y la del interés público. Según Beyreuther,
+    la coacción alcanza al principio, pero para durar una dictadura necesita algún grado de consenso,
+    y lo busca presentándose como representante de un supuesto interés público. La opción del "consenso
+    mayoritario" tienta porque también habla de consenso, pero exagera con "siempre" y "mayoritario".
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-e7648876
+  - q-35aaa976
+  estado: borrador
+- id: hermo.genocidio
+  eje: conceptos
+  autor: Javier Hermo
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Definición de genocidio (ONU)
+  afirmacion: 'Según Hermo, las Naciones Unidas definieron el genocidio desde un punto de vista jurídico
+    y político, como luego la Corte Penal Internacional; entre sus puntos centrales están la lesión grave
+    a la integridad física o mental de los miembros del grupo y el sometimiento intencional del grupo
+    a condiciones de existencia que acarreen su destrucción física, total o parcial.
+
+    '
+  puntos:
+  - La ONU generó una definición de genocidio desde un punto de vista jurídico y político; años después
+    lo hizo también la Corte Penal Internacional.
+  - Un punto central es la lesión grave a la integridad física o mental de los miembros del grupo.
+  - Otro punto central es el sometimiento intencional del grupo a condiciones de existencia que hayan
+    de acarrear su destrucción física, total o parcial.
+  trampas:
+  - texto: Matanzas en las que la cantidad de víctimas sea claramente superior a las tasas de violencia
+      habituales.
+    error: dato_inventado
+    por_que: La definición no se basa en la cantidad de víctimas sino en la intención de destruir a un
+      grupo.
+  - texto: Medidas destinadas a impedir casamientos en el seno del grupo.
+    error: cambio_de_palabra
+    por_que: La definición habla de medidas para impedir nacimientos, no casamientos.
+  pregunta_guia: '¿Qué actos incluye la definición de genocidio de la ONU? ¿Qué es lo que la define: la
+    cantidad de víctimas o la intención?'
+  explicacion_modelo: 'Son correctas la lesión grave a la integridad física o mental y el sometimiento
+    intencional a condiciones de existencia que lleven a la destrucción del grupo. Así lo recoge Hermo
+    a partir de la definición de la ONU. La de "impedir casamientos" tienta porque suena a la definición,
+    pero cambia una palabra: lo que la definición menciona es impedir nacimientos.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-3e52b36d
+  estado: borrador
+  notas: 'La Convención de 1948 enumera además la matanza de miembros del grupo, las medidas para impedir
+    nacimientos y el traslado forzoso de niños; el examen solo evaluó dos puntos. Validar con el texto
+    de Hermo antes de sumar los demás a `puntos`.
+
+    '
+- id: etchevest.terrorismo
+  eje: conceptos
+  autor: Graciela Etchevest
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: Cambios del terrorismo en el siglo XXI
+  afirmacion: 'Según Etchevest, en el siglo XXI el terrorismo cambió: se sumaron grupos religiosos radicalizados,
+    sobre todo el llamado fundamentalismo islámico, con impacto en la agenda mundial, que se organizan
+    en grupos más pequeños y usan con eficiencia la tecnología y las redes sociales.
+
+    '
+  puntos:
+  - Con el nuevo siglo se sumaron grupos religiosos radicalizados cuyo accionar tuvo un fuerte impacto
+    en la agenda mundial, principalmente el llamado "fundamentalismo islámico".
+  - La novedad es que se organiza a partir de grupos más pequeños, con un eficiente uso de herramientas
+    tecnológicas, muchas veces ligadas a las redes sociales.
+  trampas:
+  - texto: Sus espacios de acción se restringen al continente de origen; a veces no tienen país de origen
+      y actúan en escenarios regionales.
+    error: media_verdad
+    por_que: Que a veces no tengan país de origen no implica que se restrinjan a un continente; su impacto
+      es mundial.
+  - texto: Sus espacios de acción se restringen al país de origen, como en el ataque a las Torres Gemelas
+      de 2001.
+    error: hecho_equivocado
+    por_que: 'El ejemplo contradice la idea: el ataque a las Torres Gemelas fue fuera del país de origen
+      de sus autores.'
+  pregunta_guia: Según Etchevest, ¿qué tiene de nuevo el terrorismo del siglo XXI en sus actores, su organización
+    y su alcance?
+  explicacion_modelo: 'Son correctas la de los grupos religiosos radicalizados y la de los grupos pequeños
+    con uso de tecnología y redes. Según Etchevest, esas son las dos novedades del terrorismo del nuevo
+    siglo, que además tiene impacto en la agenda mundial. Las opciones que lo "restringen" al país o al
+    continente tientan porque suenan precisas, pero contradicen ese alcance global.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-d47b26d4
+  estado: borrador
+- id: deich.frondizi-guido
+  eje: conceptos
+  autor: Florencia Deich
+  fuente: Material de la cátedra (texto pendiente de identificar)
+  tema: 'Caída de Frondizi: ¿golpe o interrupción institucional?'
+  afirmacion: 'Según Deich, el reemplazo de Frondizi es difícil de clasificar: el presidente legítimo
+    fue destituido por presión militar, pero quien asumió lo hizo respetando la sucesión constitucional,
+    así que los militares lograron sacarlo sin cumplir todos sus objetivos, porque no pusieron a un militar
+    en la presidencia.
+
+    '
+  puntos:
+  - El caso de Frondizi es complejo para definir si fue un golpe de Estado o una interrupción institucional.
+  - El presidente legítimo fue destituido por la presión militar, pero el que asumió en su lugar respetó
+    las reglas de sucesión previstas en la Constitución.
+  - Los militares lograron quitar a Frondizi del poder, pero no cumplieron todos sus objetivos, porque
+    no colocaron a una persona de las Fuerzas Armadas en la presidencia.
+  trampas:
+  - texto: Los militares cumplieron todos sus objetivos, porque colocaron a una persona de las Fuerzas
+      Armadas en la presidencia.
+    error: cambio_de_palabra
+    por_que: 'Invierte la afirmación correcta: no pusieron a un militar; asumió un civil por la línea
+      de sucesión.'
+  - texto: La forma de los acontecimientos no generó complicaciones para definir el tipo de régimen.
+    error: cambio_de_palabra
+    por_que: 'Niega justo lo que plantea Deich: la sucesión constitucional después de la presión militar
+      complica la clasificación.'
+  pregunta_guia: Según Deich, ¿qué tuvo de golpe y qué tuvo de sucesión constitucional la salida de Frondizi?
+    ¿Por qué eso complica clasificarla?
+  explicacion_modelo: 'Son correctas las dos que señalan la ambigüedad. Según Deich, a Frondizi lo sacó
+    la presión militar, pero su reemplazante asumió respetando la sucesión constitucional y no fue un
+    militar: por eso cuesta decidir si fue un golpe o una interrupción institucional. Las opciones tramposas
+    repiten las mismas frases con un cambio ("sí pusieron a un militar", "no generó complicaciones"):
+    hay que leer cada palabra.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-982eb0c5
+  estado: borrador
+  notas: 'El enunciado del examen dice "su reemplazo en 1963", pero Frondizi fue destituido en marzo de
+    1962 y lo reemplazó José María Guido, presidente provisional del Senado. No corregimos el examen:
+    validar con el texto de Deich qué fecha usa. El nombre de Guido no aparece en el examen.
+
+    '
+- id: video.sudafrica-comision-verdad
+  eje: videos
+  autor: 'Video de la cátedra: Transición a la democracia en Sudáfrica'
+  fuente: Video del campus UBA XXI (pendiente de identificar)
+  tema: Comisión de Verdad y Reconciliación
+  afirmacion: 'Según el video, la Comisión de Verdad y Reconciliación de Sudáfrica adoptó un enfoque de
+    justicia restaurativa: impulsó el reencuentro entre víctimas y victimarios, con un papel central de
+    la comunidad, como catarsis colectiva y para combatir la ignorancia sobre lo sucedido. A cambio, al
+    privilegiar la verdad, sacrificó en gran medida la justicia y la reparación a las víctimas.
+
+    '
+  puntos:
+  - Se diferencia de otras comisiones de América Latina y África porque adoptó un enfoque de justicia
+    restaurativa.
+  - Impulsó las bases del reencuentro entre víctimas y victimarios, otorgando un papel preponderante a
+    la comunidad.
+  - Ese reencuentro sirvió de catarsis colectiva.
+  - También sirvió para sacar a la población de su ignorancia sobre lo sucedido.
+  - Al privilegiar el acceso a la información en pos de la verdad, se sacrificó en gran medida la justicia
+    y la reparación a las víctimas; no logró condenas variadas y ejemplares.
+  trampas:
+  - texto: Es verdadero que logró condenas ejemplares, porque las víctimas las consideraron suficientes
+      y muestran que la verdad puede alcanzarse en una transición.
+    error: hecho_equivocado
+    por_que: No hubo condenas ejemplares; el costo de privilegiar la verdad fue sacrificar justicia y
+      reparación.
+  - texto: Es falso, porque en Sudáfrica, como en el resto de África, no hubo revisiones judiciales del
+      apartheid ni de otras violaciones de derechos humanos.
+    error: motivo_equivocado
+    por_que: El veredicto es correcto, pero el motivo generaliza a todo el continente y no es el del video,
+      que habla de privilegiar la verdad sobre la justicia.
+  - texto: Es verdadero, porque la Comisión innovó en las formas de clasificar y castigar los delitos
+      y sentó jurisprudencia.
+    error: dato_inventado
+    por_que: El video no le atribuye innovaciones penales; destaca su enfoque restaurativo, no punitivo.
+  - texto: Es verdadero, porque las leyes de Obediencia Debida y Punto Final impidieron que los condenados
+      cumplieran su condena.
+    error: hecho_equivocado
+    por_que: Esas son leyes argentinas; no tienen nada que ver con Sudáfrica.
+  - texto: El reencuentro entre víctimas y victimarios se basó en la aplicación irrestricta de la justicia
+      penal, imitando el proceso argentino que terminó con la cárcel de los culpables.
+    error: concepto_vecino
+    por_que: Confunde la justicia restaurativa con la justicia penal o retributiva; la Comisión no se
+      basó en el castigo.
+  pregunta_guia: ¿Qué buscaba la Comisión de Verdad y Reconciliación en lugar del castigo penal? ¿Qué
+    se ganó y qué se sacrificó con ese enfoque?
+  explicacion_modelo: 'Es falso que haya logrado condenas ejemplares. Según el video, la Comisión privilegió
+    la búsqueda de la verdad y el reencuentro entre víctimas y victimarios (justicia restaurativa), y
+    en ese camino sacrificó en gran medida la justicia y la reparación. La opción "es falso porque en
+    toda África no hubo revisiones judiciales" tienta porque tiene el veredicto correcto, pero el motivo
+    es otro.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-c6c17dc6
+  - q-59323001
+  estado: borrador
+- id: video.transiciones-conflicto-armado
+  eje: videos
+  autor: 'Video de la cátedra: Transición a la democracia'
+  fuente: Video del campus UBA XXI (pendiente de identificar)
+  tema: Transiciones en contextos de conflicto armado
+  afirmacion: 'Según el video, entre las transiciones en contextos de conflicto armado se distinguen las
+    que ocurren mientras el conflicto sigue en curso y las que se dan tras una humillación militar que
+    no llega a ser una derrota total.
+
+    '
+  puntos:
+  - Hay transiciones que tienen lugar en casos en que un conflicto armado continúa en curso.
+  - Hay transiciones en las que se ha producido una humillación militar, pero no una derrota total.
+  trampas:
+  - texto: Transiciones en las que hubo un cambio de régimen entre los sectores "duros" y "blandos" del
+      conflicto armado.
+    error: concepto_vecino
+    por_que: Mezcla la distinción entre "duros" y "blandos" de un régimen autoritario con los tipos de
+      transición que distingue el video.
+  - texto: Transiciones en las que el régimen político se asimila a partir del bando victorioso en un
+      conflicto armado.
+    error: dato_inventado
+    por_que: No es uno de los tipos de transición que el examen da por correctos.
+  pregunta_guia: ¿Qué tipos de transición distingue el video según cómo esté el conflicto armado (en curso,
+    humillación, derrota)?
+  explicacion_modelo: 'Son correctas la del conflicto en curso y la de la humillación militar sin derrota
+    total. Esos son los tipos que distingue el video para transiciones con conflicto armado. La de "duros"
+    y "blandos" tienta porque usa vocabulario de las transiciones, pero esos son sectores dentro de un
+    régimen autoritario, no un tipo de transición en conflicto armado.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-7b8ffb27
+  estado: borrador
+  notas: 'El video puede distinguir otros tipos que el examen no tomó. La explicación de "duros y blandos"
+    usa vocabulario general de los estudios de transición: confirmar si aparece en el video o en el texto
+    de Simone.
+
+    '
+- id: video.gerchunoff-alfonsin
+  eje: videos
+  autor: 'Video de la cátedra: entrevista de Eduardo Levy Yeyati a Pablo Gerchunoff'
+  fuente: Video del campus UBA XXI (pendiente de identificar)
+  tema: 'Alfonsín: juicio a las Juntas, indulto y 1985'
+  afirmacion: 'Según Gerchunoff, el decreto que mandó a las Juntas a ser juzgadas primero por el Consejo
+    Supremo de las Fuerzas Armadas hizo posible el juicio posterior; Alfonsín dejó el poder en 1989 con
+    los comandantes presos, que después indultó Menem; y 1985 fue su punto de inflexión, porque juntó
+    el Juicio a las Juntas con el éxito del Plan Austral.
+
+    '
+  puntos:
+  - Fue fundamental el decreto del gobierno radical que habilitó al Consejo Supremo de las Fuerzas Armadas
+    para juzgar a las Juntas; sin ese paso previo no hubiera existido el famoso juicio posterior.
+  - Alfonsín dejó la presidencia en 1989 con los comandantes presos; fueron indultados poco después por
+    el presidente peronista Carlos Menem.
+  - El indulto no lo dictó Alfonsín.
+  - 1985 es el punto de inflexión porque aúna el Juicio a las Juntas, gran momento de la institucionalidad
+    democrática, con el mayor éxito del Plan Austral.
+  - El éxito del Plan Austral le permitió a Alfonsín ganar las elecciones intermedias de 1985.
+  trampas:
+  - texto: Las leyes de Punto Final y Obediencia Debida permitieron liberar a los militares condenados
+      en 1985 y que accedieran luego al indulto.
+    error: hecho_equivocado
+    por_que: Esas leyes frenaron nuevos juicios; los comandantes condenados en 1985 siguieron presos hasta
+      los indultos de Menem.
+  - texto: Por los levantamientos carapintadas y las leyes de 1987, los miembros de las Juntas condenados
+      en 1985 salieron de prisión al final del mandato de Alfonsín.
+    error: hecho_equivocado
+    por_que: Alfonsín terminó su mandato con los comandantes presos; los liberaron los indultos de Menem.
+  - texto: Los militares argentinos recién empezaron a ser juzgados con Néstor Kirchner en 2003.
+    error: anacronismo
+    por_que: El Juicio a las Juntas fue en 1985, durante el gobierno de Alfonsín.
+  - texto: Hubo un solo juicio a las Juntas y no fue el del Consejo Supremo de las Fuerzas Armadas.
+    error: media_verdad
+    por_que: Es cierto que el juicio de 1985 no fue el del Consejo Supremo, pero según Gerchunoff sin
+      ese paso previo no habría existido.
+  - texto: El decreto permitió que los militares fueran absueltos en primera instancia y accedieran al
+      indulto que Alfonsín se vio obligado a dictar.
+    error: hecho_equivocado
+    por_que: Alfonsín no indultó a los comandantes; los indultos fueron de Menem.
+  - texto: 1985 es el punto de inflexión por el pacto con el peronismo renovador y el Plan Primavera.
+    error: anacronismo
+    por_que: El Plan Primavera es de 1988; el plan exitoso de 1985 fue el Austral.
+  - texto: 1985 es el punto de inflexión porque coincide con la película "1985", que compitió por los
+      Oscar.
+    error: dato_inventado
+    por_que: La película es muy posterior y no es el motivo que da Gerchunoff.
+  pregunta_guia: Según Gerchunoff, ¿qué paso previo hizo posible el Juicio a las Juntas? ¿Quién indultó
+    a los comandantes? ¿Qué dos cosas se juntan en 1985?
+  explicacion_modelo: 'Es falso que Alfonsín haya dictado el indulto. Según Gerchunoff, Alfonsín dejó
+    la presidencia en 1989 con los comandantes presos y los indultó poco después Carlos Menem. Las opciones
+    que hablan de Punto Final y Obediencia Debida tientan porque son leyes de Alfonsín sobre la cuestión
+    militar, pero no liberaron a los comandantes ya condenados.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-a587b241
+  - q-f86741b3
+  - q-25f11a44
+  - q-8bf9f5aa
+  estado: borrador
+  notas: 'Que Punto Final (diciembre de 1986) y Obediencia Debida (junio de 1987) no alcanzaron a los
+    comandantes ya condenados es un dato general: confirmar cómo lo dice el video. Una opción del examen
+    fecha las dos leyes en 1987; Punto Final es de 1986. El enunciado dice "presos aunque sea por dos
+    años": verificar en el video a qué período se refiere Gerchunoff.
+
+    '
+- id: romero.cordobazo-1969
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: El Cordobazo (1969)
+  afirmacion: 'Según Romero, en el Cordobazo de 1969 la movilización social se expresó de maneras diversas:
+    el estallido estuvo precedido por una fuerte agitación sindical y por una ola de protestas estudiantiles.
+
+    '
+  puntos:
+  - Antes del estallido hubo una fuerte agitación sindical en Córdoba, donde se concentraban las principales
+    fábricas automotrices.
+  - El estallido fue precedido por una ola de protestas estudiantiles en distintas universidades, algunas
+    fuertemente reprimidas.
+  trampas:
+  - texto: Los inmigrantes fueron actores centrales de las protestas, buscando inserción laboral y la
+      nacionalización.
+    error: anacronismo
+    por_que: La gran inmigración fue entre fines del siglo XIX y 1930; en 1969 los protagonistas fueron
+      obreros industriales y estudiantes.
+  - texto: La multitud que controló la ciudad tenía consignas precisas y líderes que coordinaban las acciones.
+    error: dato_inventado
+    por_que: El examen da por falso que hubiera consignas precisas y una conducción que coordinara a la
+      multitud.
+  pregunta_guia: ¿Qué venía pasando en las fábricas y en las universidades de Córdoba antes de mayo de
+    1969?
+  explicacion_modelo: 'Las correctas son la agitación sindical y las protestas estudiantiles: según Romero,
+    el Cordobazo fue precedido por conflictos en las automotrices cordobesas y por protestas universitarias
+    reprimidas. La opción de la multitud con consignas precisas y líderes tienta porque parece describir
+    una gran movilización, pero el examen la da por falsa; y la de los inmigrantes es un anacronismo.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-64c6848f
+  estado: borrador
+  notas: 'Validar con el texto cómo describe Romero a la multitud (si habla explícitamente de falta de
+    consignas o de conducción). La ficha solo afirma que el examen da por falsa esa opción.
+
+    '
+- id: romero.montoneros-vuelta-de-peron
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Montoneros ante la vuelta de Perón
+  afirmacion: 'Según Romero, los Montoneros traducían con habilidad las palabras de Perón mientras estaba
+    exiliado en Madrid, pero su vuelta al país les planteó un problema: Perón hablaba de la “ortodoxia
+    peronista”, no del socialismo.
+
+    '
+  puntos:
+  - Los Montoneros elaboraron la teoría del “cerco” o del “entorno”, que supuestamente impedía a Perón
+    conocer la verdadera voluntad de su pueblo.
+  - De vuelta en el país, Perón empezó a hablar inequívocamente de la “ortodoxia peronista”, que poco
+    tenía que ver con la versión “socialista”.
+  trampas:
+  - texto: Perón empezó a recordar sus orígenes socialistas, que poco tenían que ver con la “ortodoxia
+      peronista”.
+    error: cambio_de_palabra
+    por_que: 'Invierte la frase correcta: Perón reivindicaba la ortodoxia peronista, no un origen socialista.'
+  - texto: Perón abandonó su discurso de derecha denunciando a los “apresurados” e infiltrados de la Triple
+      A.
+    error: hecho_equivocado
+    por_que: Los “apresurados” e “infiltrados” que denunciaba Perón eran de la izquierda peronista; la
+      Triple A era un grupo de derecha.
+  pregunta_guia: Cuando Perón volvió y habló en primera persona, ¿qué decía y cómo lo explicaban los Montoneros?
+  explicacion_modelo: 'Las correctas son la teoría del “cerco” y la ortodoxia peronista. Según Romero,
+    con Perón en el país los Montoneros ya no podían “traducirlo”: él hablaba de ortodoxia y ellos inventaron
+    que un entorno le impedía ver la voluntad del pueblo. La opción de los “orígenes socialistas” tienta
+    porque usa las mismas palabras, pero está invertida.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-a9c42bff
+  estado: borrador
+- id: romero.ruptura-plaza-1974
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Ruptura entre Perón y Montoneros (1/5/1974)
+  afirmacion: 'Según Romero, el 1º de mayo de 1974 los Montoneros se fueron de la Plaza de Mayo, de donde
+    Perón los expulsaba, y se consumó la ruptura: volvieron a la clandestinidad y, tras la muerte de Perón,
+    intentaron sin éxito asumir su herencia.
+
+    '
+  puntos:
+  - Los Montoneros volvieron a la vieja táctica y pasaron a la clandestinidad, con más asesinatos y secuestros
+    espectaculares para mejorar sus finanzas.
+  - Reaparecieron apenas dos meses después en los funerales de Perón y luego pretendieron asumir su herencia,
+    en forma fracasada.
+  trampas:
+  - texto: Perón reemplazó a los Montoneros por otro grupo de izquierda, el Ejército Revolucionario del
+      Pueblo (ERP).
+    error: hecho_equivocado
+    por_que: El ERP era una guerrilla marxista no peronista y nunca fue aliado de Perón.
+  - texto: Los Montoneros se aliaron con militares golpistas para derrocar a Perón.
+    error: dato_inventado
+    por_que: No hubo tal alianza; Perón murió en ejercicio de la presidencia el 1 de julio de 1974.
+  pregunta_guia: Después de que Perón los echó de la Plaza, ¿qué camino tomaron los Montoneros y qué pasó
+    con ellos cuando Perón murió?
+  explicacion_modelo: 'Las correctas son el pase a la clandestinidad y la reaparición en los funerales
+    de Perón. Según Romero, tras la ruptura de mayo de 1974 los Montoneros volvieron a la violencia clandestina
+    y, muerto Perón dos meses después, quisieron quedarse con su herencia sin lograrlo. La opción del
+    ERP tienta porque también es una guerrilla de izquierda, pero no era peronista ni aliada de Perón.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-3dda527d
+  estado: borrador
+- id: romero.programa-reconstruccion
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Programa de Reconstrucción y Liberación Nacional
+  afirmacion: 'Según Romero, el programa económico que Perón presentó en su tercera presidencia era acorde
+    con los cambios ya consolidados en la estructura económica: intervencionista, y no orientado al “socialismo
+    nacional”.
+
+    '
+  puntos:
+  - A pesar de los relatos predominantes en el peronismo, no había nada en el programa que indicara una
+    orientación hacia el “socialismo nacional”.
+  - Fueron medidas fuertemente intervencionistas y, en menor medida, nacionalistas y distribucionistas.
+  trampas:
+  - texto: El Estado se propuso una gran reducción de gastos, de empleados públicos y de empresas estatales
+      para bajar el déficit.
+    error: hecho_equivocado
+    por_que: Eso describe un plan de ajuste; el programa de Perón era fuertemente intervencionista.
+  - texto: El programa tenía una clara orientación hacia el “socialismo nacional”, el discurso predominante
+      en el peronismo y en su juventud.
+    error: media_verdad
+    por_que: El “socialismo nacional” era el discurso de la juventud peronista, pero el programa económico
+      no iba en esa dirección.
+  pregunta_guia: ¿Qué tipo de medidas tenía el programa económico de Perón y en qué se diferenciaba de
+    lo que decía la juventud peronista?
+  explicacion_modelo: 'Las correctas son las dos que hablan de intervencionismo y de ausencia de “socialismo
+    nacional”. Según Romero, el programa acompañaba la estructura económica ya consolidada: mucho intervencionismo
+    y, en menor medida, nacionalismo y distribución. La opción del “socialismo nacional” tienta porque
+    ese era el relato de la juventud, pero no era lo que proponía el programa.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-c5f34ee0
+  estado: borrador
+- id: romero.isabel-presidencia
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La presidencia de Isabel Perón
+  afirmacion: 'Según Romero, Isabel Perón parodió las fórmulas y los gestos de Perón para capitalizar
+    su herencia simbólica, pero su política se apartó totalmente de la que él había trazado en sus últimos
+    años.
+
+    '
+  puntos:
+  - Su política se apartó totalmente de la que había trazado Perón en sus últimos años.
+  - 'Se propuso homogeneizar el gobierno: colocó a amigos y rompió una a una las alianzas que había tejido
+    Perón.'
+  trampas:
+  - texto: Su política continuó la de Perón en sus últimos años, con cambios solo discursivos para mostrar
+      su propio liderazgo.
+    error: cambio_de_palabra
+    por_que: 'Invierte la idea de Romero: lo que imitaba eran los gestos; la política se apartó totalmente.'
+  - texto: Isabel y los sindicalistas no coincidían en ningún punto de la agenda social heredada de Perón.
+    error: absoluto_falso
+    por_que: El “en ningún punto” es una generalización que el examen da por falsa.
+  pregunta_guia: ¿Qué imitaba Isabel de Perón y en qué se diferenciaba su forma de gobernar?
+  explicacion_modelo: 'Las correctas son que su política se apartó totalmente de la de Perón y que rompió
+    sus alianzas para homogeneizar el gobierno. Según Romero, Isabel copiaba los gestos del líder, pero
+    no su política. La opción de la continuidad con “cambios solo discursivos” tienta porque parece explicar
+    la imitación, pero dice exactamente lo contrario.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-fa22a484
+  estado: borrador
+- id: romero.represion-antes-del-golpe
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La represión ilegal antes de 1976
+  afirmacion: 'Según Romero, la represión ilegal de las Fuerzas Armadas no empezó con el golpe de 1976:
+    ya se observaba durante el gobierno de Isabel Perón (1974–1976).
+
+    '
+  puntos:
+  - Desde febrero de 1975 el Ejército, convocado por Isabel Perón, asumió la tarea de reprimir a la guerrilla
+    en Tucumán.
+  - Con la muerte de Perón, los grupos guerrilleros pasaron a la clandestinidad y potenciaron la violencia
+    política.
+  trampas:
+  - texto: Las guerrillas vinculadas al Partido Radical y a Raúl Alfonsín se hicieron fuertes en la provincia
+      de Buenos Aires.
+    error: dato_inventado
+    por_que: No hubo guerrillas radicales; las principales eran Montoneros (peronista) y el ERP (marxista).
+  - texto: La represión en el sur en 1975, la “Patagonia Rebelde”, fue el primer acto de represión ilegal
+      contra la guerrilla.
+    error: anacronismo
+    por_que: La Patagonia Rebelde fue la represión de huelgas rurales en Santa Cruz en 1920–1922, no en
+      1975.
+  pregunta_guia: ¿Qué hizo el Ejército en Tucumán en 1975 y quién lo convocó?
+  explicacion_modelo: 'Las correctas son el operativo en Tucumán y el pase de la guerrilla a la clandestinidad
+    tras la muerte de Perón. Según Romero, la represión ilegal empezó en democracia: en febrero de 1975
+    Isabel convocó al Ejército contra la guerrilla tucumana. La opción de la “Patagonia Rebelde” tienta
+    porque es una represión famosa en el sur, pero ocurrió medio siglo antes.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-15c86453
+  estado: borrador
+- id: romero.rodrigazo-1975
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: El Rodrigazo (1975)
+  afirmacion: 'En 1975 el Rodrigazo, el plan del ministro de Economía Celestino Rodrigo, desató una crisis
+    económica que el gobierno peronista ya no pudo controlar.
+
+    '
+  puntos:
+  - Provocó corridas hacia el dólar e inflación galopante.
+  - Hizo aparecer los mecanismos de indexación.
+  - Dejó al gobierno con escasas posibilidades de controlar la coyuntura; el gobierno peronista se encaminaba
+    a su final.
+  trampas:
+  - texto: Fue el primer default de la deuda externa y el inicio del aislamiento internacional.
+    error: hecho_equivocado
+    por_que: El Rodrigazo fue una crisis de precios, dólar e inflación, no una cesación de pagos.
+  - texto: Fue una protesta de productores agrícolas surgida en Santa Fe.
+    error: hecho_equivocado
+    por_que: Lleva el apellido del ministro de Economía; fue una crisis económica, no un movimiento social.
+  - texto: En 1975 ya gobernaban los militares con Videla.
+    error: anacronismo
+    por_que: El golpe fue el 24 de marzo de 1976; en 1975 gobernaba Isabel Perón.
+  pregunta_guia: ¿Qué pasó con el dólar, los precios y la capacidad del gobierno de controlar la economía
+    después del Rodrigazo?
+  explicacion_modelo: 'Es verdadero. Según Romero, el Rodrigazo desató corridas al dólar, inflación galopante
+    e indexación, y el gobierno de Isabel quedó sin control de la economía. La opción del “primer default”
+    tienta porque también suena a crisis, pero es otro hecho; y la de Videla es un anacronismo: el golpe
+    fue en marzo de 1976.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-805de77b
+  - q-85b635b6
+  estado: borrador
+- id: romero.condiciones-golpe-1976
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Por qué se aceptó el golpe de 1976
+  afirmacion: 'Según Romero, entre 1975 y principios de 1976 la violencia cotidiana creó las condiciones
+    para que se aceptara un golpe que prometía restablecer el orden y asegurar el monopolio estatal de
+    la fuerza.
+
+    '
+  puntos:
+  - La muerte estaba presente cotidianamente, con acciones espectaculares de las organizaciones guerrilleras,
+    que habían fracasado en dos grandes operativos contra unidades militares en el Gran Buenos Aires y
+    en Formosa.
+  - El terror sembrado por la Alianza Anticomunista Argentina (Triple A).
+  trampas:
+  - texto: La presencia constante y pública del Partido Comunista soviético, con financiamiento, propaganda
+      y militancia, hacía prever un frente revolucionario.
+    error: dato_inventado
+    por_que: Romero explica el clima por la guerrilla local y la Triple A, no por una intervención soviética.
+  - texto: El terror sembrado por bandas del crimen organizado vinculadas al narcotráfico.
+    error: dato_inventado
+    por_que: 'La violencia de esos años era política: guerrilla y Triple A, no narcotráfico.'
+  pregunta_guia: ¿Qué tipos de violencia hacían que en 1975 parte de la sociedad esperara un golpe “que
+    pusiera orden”?
+  explicacion_modelo: 'Las correctas son la violencia guerrillera y el terror de la Triple A. Según Romero,
+    esa violencia de los dos lados hizo que muchos aceptaran un golpe que prometía orden y el monopolio
+    estatal de la fuerza. La opción del Partido Comunista soviético tienta porque habla de “frente revolucionario”,
+    pero es un dato que el texto no sostiene.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-68b7e0de
+  estado: borrador
+- id: romero.proceso-donde-residia-el-poder
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: 'El Proceso: dónde residía el poder'
+  afirmacion: 'Según Romero, la primera cuestión oscura del Proceso de Reorganización Nacional (desde
+    marzo de 1976) era dónde residía realmente el poder: el presidente estaba limitado por los jefes de
+    las tres armas, y convivían un Estado terrorista clandestino y otro visible.
+
+    '
+  puntos:
+  - La autoridad del presidente (al principio el primero entre sus pares, y luego ni siquiera eso) resultó
+    controlada y limitada por los jefes de las tres armas.
+  - Coexistieron un Estado terrorista clandestino, encargado de la represión, y otro visible, sujeto a
+    las normas establecidas por las propias autoridades del Proceso.
+  trampas:
+  - texto: 'Es falso: el poder residía en la Junta de comandantes, que centralizaba las funciones ejecutivas,
+      legislativas y judiciales.'
+    error: media_verdad
+    por_que: 'La Junta existía, pero el poder no estaba claro ni centralizado: esa era justamente la cuestión
+      oscura.'
+  - texto: 'Es verdadero: hubo un Estado terrorista visible y público, encargado de la represión y de
+      las políticas sociales, culturales y económicas.'
+    error: cambio_de_palabra
+    por_que: La represión estaba a cargo de un Estado clandestino; lo visible era el otro Estado, el que
+      seguía normas.
+  - texto: 'Es verdadero: hubo solo un Estado terrorista, visible y público, que no estaba sujeto ni siquiera
+      a las normas de las propias autoridades.'
+    error: cambio_de_palabra
+    por_que: Romero habla de dos Estados que coexistían; el terrorista era clandestino, no visible.
+  - texto: 'Es falso: por la tradición presidencialista y la unidad de mando militar, la autoridad del
+      presidente nunca fue discutida por sus pares.'
+    error: absoluto_falso
+    por_que: La autoridad del presidente sí estuvo controlada y limitada por los jefes de las tres armas.
+  pregunta_guia: 'En el Proceso, ¿quién mandaba de verdad: el presidente, la Junta o cada fuerza? ¿Y qué
+    parte del Estado actuaba a la vista y cuál en las sombras?'
+  explicacion_modelo: 'Es verdadero. Según Romero, el poder era una cuestión oscura porque el presidente,
+    primero entre pares y después ni eso, estaba limitado por los jefes de las tres armas, y porque convivían
+    un Estado terrorista clandestino y otro visible y normado. La opción del Estado terrorista “visible
+    y público” tienta porque usa las palabras del texto, pero las invierte: lo terrorista era lo clandestino.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-b9eb9f76
+  estado: borrador
+  notas: 'La pregunta tiene dos claves distintas según la versión (presidente limitado por las tres armas
+    en 2026; coexistencia de los dos Estados en 2024). Las dos son afirmaciones de Romero sobre el mismo
+    punto y la ficha enseña ambas.
+
+    '
+- id: romero.proceso-faccion-videla-viola
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La facción de Videla y Viola
+  afirmacion: 'Según Romero, en la dictadura de 1976 la facción de Videla y Viola fue la más fuerte, aunque
+    no dominante: buscaba una futura salida política y respaldaba a Martínez de Hoz frente a los militares
+    nacionalistas.
+
+    '
+  puntos:
+  - Reconocían la necesidad de encontrar en el futuro una salida política y mantenían comunicación con
+    los dirigentes de los partidos, que se ilusionaban viendo en ellos al sector más civilizado.
+  - Respaldaban a Martínez de Hoz, muy criticado por los militares más nacionalistas, que abundaban entre
+    los cuadros jóvenes.
+  trampas:
+  - texto: No reconocían la necesidad de una salida política y tenían fuertes conflictos con los partidos,
+      que los veían como el sector menos civilizado.
+    error: cambio_de_palabra
+    por_que: 'Invierte la frase: sí buscaban una salida política y los partidos los veían como los más
+      civilizados.'
+  - texto: No respaldaban a Martínez de Hoz, que era muy apoyado por los militares más liberales de los
+      cuadros jóvenes.
+    error: cambio_de_palabra
+    por_que: Videla y Viola sostenían a Martínez de Hoz; quienes lo criticaban eran los nacionalistas.
+  pregunta_guia: ¿Qué relación tenían Videla y Viola con los partidos políticos y con el ministro Martínez
+    de Hoz?
+  explicacion_modelo: 'Las correctas son que buscaban una salida política y que respaldaban a Martínez
+    de Hoz. Según Romero, era la facción más fuerte, pero no dominaba: los nacionalistas, muchos entre
+    los oficiales jóvenes, criticaban al ministro. Las dos opciones falsas son la misma frase con el sentido
+    invertido: hay que leer bien el “no”.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-e3444683
+  estado: borrador
+- id: romero.proceso-transformacion-economica
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La transformación económica y el problema del tiempo (Schvarzer)
+  afirmacion: 'Según Romero, retomando a Jorge Schvarzer, la transformación económica de la última dictadura
+    abría un problema político: la conducción económica debía durar lo suficiente como para que los cambios
+    fueran irreversibles.
+
+    '
+  puntos:
+  - La conducción económica debía durar en el poder un tiempo suficiente como para que los cambios fueran
+    irreversibles.
+  trampas:
+  - texto: La conducción económica debía durar un tiempo limitado para que la corrupción no se volviera
+      endémica.
+    error: cambio_de_palabra
+    por_que: 'El problema era el inverso: necesitaba tiempo largo para volver irreversibles los cambios.'
+  - texto: La corrupción estructuraba toda la política y terminar con ella fue el motivo central del golpe.
+    error: dato_inventado
+    por_que: Romero no plantea la corrupción como el motivo del golpe ni como el problema de la conducción
+      económica.
+  - texto: El tiempo no era tan relevante como la estabilidad de sus alianzas corporativas.
+    error: verdad_general
+    por_que: Puede sonar razonable, pero para Romero y Schvarzer el problema central era justamente el
+      tiempo.
+  - texto: La mayoría de los militares eran neoliberales y se oponían a un Martínez de Hoz estatista,
+      sostenido solo por Videla.
+    error: cambio_de_palabra
+    por_que: 'Es al revés: Martínez de Hoz era el liberal y lo criticaban los militares nacionalistas.'
+  pregunta_guia: ¿Por qué la transformación económica de Martínez de Hoz necesitaba que la conducción
+    económica durara mucho tiempo?
+  explicacion_modelo: 'Es falso. Según Romero, siguiendo a Schvarzer, el problema era el contrario: la
+    conducción económica tenía que durar lo suficiente para que los cambios no pudieran revertirse. La
+    opción de la corrupción tienta porque suena a crítica de la época, pero no es el argumento del texto;
+    y la del Martínez de Hoz “estatista” invierte a los actores.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-46512c49
+  estado: borrador
+- id: romero.iglesia-y-dictadura
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La Iglesia ante el debilitamiento de la dictadura
+  afirmacion: 'Según Romero, la Iglesia Católica cambió su comportamiento a medida que la dictadura de
+    1976 se debilitaba: amplió sus preocupaciones a los derechos individuales y la política y se replanteó
+    su injerencia directa.
+
+    '
+  puntos:
+  - Desde 1979 sus preocupaciones por las cuestiones morales o la familia se extendieron hacia los derechos
+    individuales y la política.
+  - Revisando sus posiciones, se propuso renunciar a la injerencia directa en cuestiones sociales o políticas
+    y consagrarse a evangelizar una sociedad excesivamente secularizada.
+  trampas:
+  - texto: La Iglesia mantuvo desde 1983 una actitud fuertemente opositora liderada por el joven cura
+      Jorge Bergoglio.
+    error: dato_inventado
+    por_que: Romero no habla de ningún liderazgo de Bergoglio, y la dictadura terminó en diciembre de
+      1983.
+  - texto: Se propuso evangelizar una sociedad que juzgaba excesivamente volcada hacia la izquierda.
+    error: cambio_de_palabra
+    por_que: 'Es la frase correcta con una palabra cambiada: la sociedad le parecía excesivamente secularizada,
+      no de izquierda.'
+  pregunta_guia: ¿Qué temas empezaron a preocupar a la Iglesia desde 1979 y cómo quería relacionarse con
+    la sociedad?
+  explicacion_modelo: 'Las correctas son la ampliación de sus preocupaciones desde 1979 y la evangelización
+    de una sociedad secularizada. Según Romero, al debilitarse la dictadura la Iglesia miró los derechos
+    individuales y la política, y replanteó su injerencia directa. La trampa más tentadora es la sociedad
+    “volcada hacia la izquierda”: es la misma frase con una sola palabra cambiada.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-0aee3315
+  estado: borrador
+- id: romero.malvinas-1982
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Malvinas como salida para el gobierno militar
+  afirmacion: 'Según Romero, para el gobierno militar la ocupación de las Malvinas en abril de 1982 era
+    la solución a muchos de sus problemas: permitiría ganar de un golpe la legitimidad que había perdido
+    ante una sociedad disconforme.
+
+    '
+  puntos:
+  - Una acción militar para “recuperar las islas” permitiría ganar de un golpe la cuestionada legitimidad
+    ante una sociedad visiblemente disconforme.
+  trampas:
+  - texto: La guerra servía para distraer la atención de un conflicto con Brasil por importaciones y exportaciones.
+    error: dato_inventado
+    por_que: Romero explica Malvinas por la búsqueda de legitimidad interna, no por un conflicto con Brasil.
+  - texto: 'Es falso: recuperar las islas podía unificar a la población detrás del gobierno de Alfonsín,
+      que estaba debilitado.'
+    error: anacronismo
+    por_que: En 1982 gobernaba la Junta con Galtieri; Alfonsín asumió el 10 de diciembre de 1983.
+  - texto: 'Es falso: Galtieri tenía apoyos sociales, como la marcha de la CGT del 30 de marzo de 1982
+      a favor de su liderazgo.'
+    error: hecho_equivocado
+    por_que: La movilización de la CGT del 30 de marzo de 1982 fue una protesta contra el gobierno militar,
+      y fue reprimida.
+  pregunta_guia: ¿Qué problema tenía el gobierno militar a comienzos de 1982 y por qué pensó que Malvinas
+    lo resolvía?
+  explicacion_modelo: 'Es verdadero. Según Romero, ante una sociedad disconforme, la ocupación de las
+    islas era para el gobierno militar una forma de recuperar de un golpe la legitimidad perdida. La opción
+    de Alfonsín tienta porque menciona un gobierno debilitado, pero es un anacronismo: en 1982 gobernaba
+    Galtieri, y Alfonsín asumió a fines de 1983.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-ac0b8ed4
+  estado: borrador
+- id: romero.alfonsin-renovacion-radical
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Alfonsín y la renovación del radicalismo
+  afirmacion: 'El radicalismo se renovó por impulso de Alfonsín, que en 1972 creó el Movimiento de Renovación
+    y Cambio para disputarle el liderazgo a Ricardo Balbín y se distinguió por su oposición a la dictadura
+    y su discurso ético.
+
+    '
+  puntos:
+  - En 1972 Alfonsín creó el Movimiento de Renovación y Cambio para disputarle el liderazgo del radicalismo
+    a Ricardo Balbín.
+  - Durante el Proceso se distinguió del resto de los políticos, porque criticó con energía a los militares,
+    defendió a detenidos políticos y reclamó por los desaparecidos.
+  - Reivindicó los aspectos éticos de la política con un discurso ganador, muy distinto del radical tradicional,
+    que atrajo al partido una masa de afiliados y simpatizantes.
+  trampas:
+  - texto: Disputó las presidenciales de 1973 con Perón y, aunque perdió, quedó posicionado para ser el
+      candidato radical siguiente.
+    error: hecho_equivocado
+    por_que: En las dos elecciones de 1973 el candidato radical fue Balbín, no Alfonsín.
+  - texto: Criticó a los militares durante el Proceso y al mismo tiempo fue uno de los grandes promotores
+      de la euforia popular por Malvinas.
+    error: media_verdad
+    por_que: La primera parte es correcta, pero el examen da por falso que haya promovido la euforia por
+      la Guerra de Malvinas.
+  pregunta_guia: ¿Qué hizo Alfonsín entre 1972 y 1983 que lo diferenció de Balbín y del resto de los políticos?
+  explicacion_modelo: 'Romero explica la renovación del radicalismo por dos cosas: durante el Proceso,
+    Alfonsín se diferenció de los demás políticos criticando a los militares y defendiendo a presos y
+    desaparecidos, y además tenía un discurso ético y ganador que atrajo afiliados. La trampa de Malvinas
+    tienta porque arranca con algo cierto (su crítica a los militares), pero le agrega algo falso. Y la
+    de 1973 confunde: ese año el candidato radical fue Balbín.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-2018c8e7
+  estado: borrador
+  notas: Validar con el texto que Romero menciona que Alfonsín se mantuvo al margen de la euforia por
+    Malvinas; el examen solo dice que la opción es falsa.
+- id: romero.alfonsin-intelectuales
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Los intelectuales y la política desde 1983
+  afirmacion: 'Desde 1983 los intelectuales volvieron a la vida académica y además se incorporaron a la
+    política, y la política se intelectualizó.
+
+    '
+  puntos:
+  - Alfonsín recurrió a intelectuales como asesores o funcionarios técnicos.
+  - El discurso de Alfonsín traducía en clave política lo que los académicos elaboraban, y por eso resultó
+    moderno, complejo y profundo.
+  - Dirigentes peronistas también recurrieron a los intelectuales.
+  - La discusión política adquirió brillo y, en menor medida, profundidad.
+  trampas:
+  - texto: El peronismo logró rápidamente el control de la vida institucional y política de las universidades
+      nacionales, que ya tenía desde los 70.
+    error: dato_inventado
+    por_que: Romero habla de intelectuales que se suman a la política, no de un partido que controla las
+      universidades.
+  - texto: Las listas de concejales, diputados y senadores se llenaron de académicos e intelectuales,
+      que desplazaron a los políticos tradicionales.
+    error: dato_inventado
+    por_que: Exagera; los intelectuales asesoraron y aportaron ideas, pero no reemplazaron a los políticos
+      en las listas.
+  pregunta_guia: ¿De qué manera concreta entraron los intelectuales en la política después de 1983, y
+    qué cambió en la discusión pública?
+  explicacion_modelo: 'Según Romero, la política se intelectualizó porque Alfonsín usó a los intelectuales
+    como asesores y funcionarios técnicos y su discurso traducía en clave política lo que ellos elaboraban;
+    los peronistas también recurrieron a ellos, y la discusión ganó brillo y, en menor medida, profundidad.
+    La opción de las listas llenas de académicos tienta porque suena a "intelectuales en la política",
+    pero exagera: asesoraban, no reemplazaron a los políticos.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-cf935fc6
+  estado: borrador
+  notas: Ojo con el matiz "brillo y, en menor medida, profundidad"; una variante futura podría invertirlo.
+- id: romero.alfonsin-legado-militar
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Las distinciones de Alfonsín sobre el legado militar
+  afirmacion: 'Al asumir, Alfonsín propuso distinciones lógicas sobre el legado militar (separar a los
+    culpables de la institución y graduar las responsabilidades) que eran difíciles de aceptar para la
+    sociedad movilizada y los organismos de derechos humanos.
+
+    '
+  puntos:
+  - Alfonsín pensaba que había que separar el juicio a los culpables del juzgamiento a la institución
+    militar, que era parte del Estado.
+  - Proponía concentrar el castigo en las cúpulas y aplicar al resto el criterio de la obediencia debida.
+  - Esas distinciones eran difíciles de admitir para la sociedad movilizada y, en particular, para las
+    organizaciones de derechos humanos.
+  trampas:
+  - texto: Alfonsín pensaba que había que evitar el juicio a los culpables porque implicaba atacar a toda
+      la institución, que era parte del Estado.
+    error: cambio_de_palabra
+    por_que: Invierte la idea, porque Alfonsín separaba culpables e institución justamente para poder
+      juzgar a los culpables (el Juicio a las Juntas fue en 1985).
+  - texto: Alfonsín no había condenado las violaciones a los derechos humanos durante la dictadura y siguió
+      esa línea en su gobierno.
+    error: hecho_equivocado
+    por_que: Alfonsín denunció las violaciones durante el Proceso y como presidente creó la CONADEP en
+      1983.
+  pregunta_guia: ¿Qué distinciones hacía Alfonsín entre culpables, cúpulas e institución militar, y por
+    qué los organismos de derechos humanos las rechazaban?
+  explicacion_modelo: 'Romero dice que Alfonsín distinguía entre juzgar a los culpables y juzgar a la
+    institución, y que proponía castigar a las cúpulas y aplicar al resto la obediencia debida; por eso
+    las organizaciones de derechos humanos, que querían justicia para todos los responsables, no las aceptaban.
+    La opción "evitar el juicio a los culpables" tienta porque usa la misma idea de proteger a la institución,
+    pero concluye lo contrario: Alfonsín sí juzgó a los culpables.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-90304d80
+  - q-3ecdf8c6
+  estado: borrador
+- id: romero.alfonsin-civilidad-o-consenso
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Civilidad o soluciones consensuadas
+  afirmacion: 'Alfonsín debió optar entre tensar al máximo el polo de la civilidad o privilegiar soluciones
+    consensuadas; eligió en general la primera línea, pero los contratiempos lo obligaron a aceptar la
+    segunda.
+
+    '
+  puntos:
+  - Al asumir en 1983, Alfonsín debía elegir entre tensar al máximo el polo de la civilidad, confrontando
+    con intereses establecidos (incluso entre sus apoyos), o privilegiar soluciones consensuadas.
+  - En general eligió la primera línea y hasta 1987 mantuvo la iniciativa, buscando caminos alternativos
+    y presentando nuevas propuestas ante cada contraste.
+  - Debió aceptar la segunda línea cuando algunos fuertes contratiempos le mostraron los límites de su
+    poder.
+  trampas:
+  - texto: El gobierno eligió en general la segunda línea, y un resultado fue el Pacto de Olivos que Alfonsín
+      consensuó con el peronismo.
+    error: anacronismo
+    por_que: El Pacto de Olivos fue en 1993, entre Alfonsín, ya ex presidente, y Menem.
+  - texto: El gobierno se sostuvo firmemente en la primera línea durante los 4 años de su mandato, confrontando
+      hasta el último día con sindicatos, militares, opositores y la Iglesia.
+    error: absoluto_falso
+    por_que: Romero dice que terminó aceptando la segunda línea; además, el mandato de Alfonsín era de
+      seis años (1983–1989).
+  pregunta_guia: ¿Qué dos caminos tenía Alfonsín en 1983, cuál eligió y qué lo hizo cambiar?
+  explicacion_modelo: 'Según Romero, Alfonsín eligió en general la confrontación desde la civilidad y
+    mantuvo la iniciativa hasta 1987, proponiendo alternativas ante cada contraste; pero cuando los contratiempos
+    le mostraron los límites de su poder tuvo que aceptar soluciones consensuadas. Por eso son correctas
+    las dos opciones sobre la primera línea. La de "confrontó hasta el último día" tienta porque dice
+    "primera línea", pero es un absoluto que el texto niega.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-86349768
+  estado: borrador
+- id: romero.grinspun-1983
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La política económica de Grinspun
+  afirmacion: 'En el primer año del gobierno radical, la política económica del ministro Bernardo Grinspun
+    se ajustó a las fórmulas dirigistas y redistributivas clásicas.
+
+    '
+  puntos:
+  - Incluía el control estatal del crédito, del mercado de cambios y de los precios, y se completaba con
+    importantes medidas de acción social.
+  - Eran medidas similares a las aplicadas entre 1963 y 1966, ideas que el radicalismo compartía con el
+    peronismo histórico.
+  trampas:
+  - texto: Empresarios y sindicalistas convergieron en el apoyo a esta política, siguiendo el modelo del
+      Plan Gelbard de los años 70.
+    error: hecho_equivocado
+    por_que: No hubo ese apoyo; el acuerdo de Gelbard fue el Pacto Social de 1973, con el peronismo, y
+      empresarios y CGT enfrentaron al gobierno radical.
+  - texto: Eran medidas similares a las aplicadas entre 1955 y 1958, porque el radicalismo se oponía al
+      peronismo histórico.
+    error: anacronismo
+    por_que: El período correcto es 1963–1966, el gobierno radical de Illia, con ideas que el radicalismo
+      compartía con el peronismo histórico.
+  pregunta_guia: ¿Qué herramientas usó Grinspun para manejar la economía y a qué gobierno anterior se
+    parecían?
+  explicacion_modelo: 'Romero caracteriza la política de Grinspun como dirigista y redistributiva: control
+    estatal del crédito, los cambios y los precios, más acción social, al estilo de 1963–1966 (el gobierno
+    de Illia), con ideas que el radicalismo compartía con el peronismo histórico. La opción de 1955–1958
+    tienta porque también es una etapa antiperonista, pero es el período equivocado y además dice lo contrario:
+    el radicalismo compartía, no se oponía.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-fe6feae2
+  estado: borrador
+- id: romero.fracaso-concertacion
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Empresarios y CGT contra la concertación
+  afirmacion: 'Empresarios y sindicalistas coincidieron en hacer fracasar la política de concertación
+    sectorial a la que habían apostado Alfonsín y su equipo económico.
+
+    '
+  puntos:
+  - La CGT se movilizó por razones sindicales y también políticas, porque era la columna vertebral de
+    la oposición peronista.
+  - Los empresarios cuestionaron el gasto y la intervención estatal, salvo las políticas que los beneficiaban
+    directamente.
+  trampas:
+  - texto: Los empresarios nacionales se opusieron a la apertura total de las importaciones que planteaba
+      el ministro de Economía de Alfonsín.
+    error: hecho_equivocado
+    por_que: El gobierno no planteó una apertura total; la crítica empresaria fue al gasto y a la intervención
+      del Estado.
+  - texto: Los sindicalistas encontraron en la movilización piquetera una aliada inesperada.
+    error: anacronismo
+    por_que: El movimiento piquetero surgió en la segunda mitad de los años 90, después del gobierno de
+      Alfonsín.
+  pregunta_guia: ¿Por qué razones se opusieron la CGT y los empresarios a la concertación de Alfonsín?
+  explicacion_modelo: 'Según Romero, la concertación fracasó porque la CGT se movilizó por motivos sindicales
+    y políticos (era la columna vertebral de la oposición peronista) y los empresarios cuestionaban el
+    gasto y la intervención estatal, salvo cuando los beneficiaban. La opción de la apertura de importaciones
+    tienta porque suena a conflicto empresario, pero le atribuye al gobierno una política que no tuvo.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-7c6990f8
+  estado: borrador
+- id: romero.politica-exterior-alfonsin
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: 'Política exterior: Beagle y Malvinas'
+  afirmacion: 'La gran popularidad internacional de Alfonsín se usó para afianzar las instituciones democráticas,
+    todavía precarias, y con ese criterio se encararon el conflicto con Chile por el Beagle y la cuestión
+    Malvinas.
+
+    '
+  puntos:
+  - La popularidad de Alfonsín en el mundo se usó para afianzar y fortalecer las instituciones democráticas,
+    todavía precarias.
+  - Con ese criterio se encaró el diferendo con Chile por el Canal de Beagle.
+  - También la cuestión pendiente con Gran Bretaña por las Malvinas.
+  trampas:
+  - texto: Con Uruguay, por las papeleras a construirse cerca de Fray Bentos y Gualeguaychú.
+    error: anacronismo
+    por_que: El conflicto por las papeleras fue entre 2005 y 2010, durante los gobiernos kirchneristas.
+  - texto: Con Brasil y Paraguay, por el contrabando y el terrorismo islámico en la triple frontera.
+    error: anacronismo
+    por_que: Ese tema entró en la agenda después de los atentados a la Embajada de Israel (1992) y a la
+      AMIA (1994).
+  pregunta_guia: ¿Qué conflictos internacionales pendientes encaró el gobierno de Alfonsín y con qué objetivo
+    interno?
+  explicacion_modelo: 'Romero dice que Alfonsín usó su prestigio internacional para fortalecer la democracia,
+    todavía precaria, y que con ese criterio se encararon el Beagle con Chile y Malvinas con Gran Bretaña.
+    Las otras dos opciones tientan porque son conflictos reales de la Argentina con sus vecinos, pero
+    son de otra época: las papeleras son de los 2000 y la triple frontera entró en la agenda en los 90.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-eb51cdff
+  estado: borrador
+- id: romero.iglesia-vs-gobierno-radical
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La Iglesia contra el gobierno radical
+  afirmacion: 'La Iglesia, que en 1981 se había definido por la democracia sin criticar su relación con
+    los militares, evolucionó hacia una creciente hostilidad con el gobierno de Alfonsín.
+
+    '
+  puntos:
+  - En 1981 la Iglesia se había definido por la democracia, aunque sin hacer la crítica de su relación
+    con el gobierno militar.
+  - Estaba molesta por su escasa injerencia (menor a sus aspiraciones) en el área de la enseñanza privada.
+  - Rechazaba el tono laico del discurso cultural que circulaba por las instituciones y los medios del
+    Estado.
+  trampas:
+  - texto: Estaba molesta por su escasa injerencia en la asistencia social y en la educación pública.
+    error: cambio_de_palabra
+    por_que: El reclamo era por la enseñanza privada, no por la educación pública ni la asistencia social.
+  - texto: Estaba molesta por el proyecto de despenalización del aborto que impulsaba el gobierno y que
+      el Congreso rechazó.
+    error: anacronismo
+    por_que: El gobierno de Alfonsín no impulsó ese proyecto; el debate llegó al Congreso en 2018 y la
+      ley se aprobó en 2020.
+  - texto: Un sector de la Iglesia culpaba a la democracia de los males del siglo, como el juego, las
+      redes sociales y el multiculturalismo.
+    error: anacronismo
+    por_que: Las redes sociales no existían en los años 80.
+  - texto: Juan Pablo II quería dar batalla contra el líder católico argentino, el joven arzobispo Jorge
+      Bergoglio.
+    error: anacronismo
+    por_que: Bergoglio fue arzobispo de Buenos Aires recién desde 1998.
+  pregunta_guia: ¿Qué dos cosas del gobierno radical molestaban a la Iglesia, según Romero?
+  explicacion_modelo: 'Según Romero, la Iglesia se volvió hostil al gobierno radical por dos motivos:
+    tenía menos injerencia de la que aspiraba en la enseñanza privada y rechazaba el tono laico del discurso
+    cultural del Estado. La opción de la "educación pública y la asistencia social" tienta porque repite
+    casi la misma frase, pero cambia la palabra clave: era la enseñanza privada.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-8b79eae8
+  - q-bdd1ef5c
+  estado: borrador
+  notas: 'Las opciones C y D de q-8b79eae8 podrían arrancar con algo que Romero sí dice (un sector que
+    asume el papel de censor social; el cambio en el episcopado y la orientación de Juan Pablo II). Validar
+    con el texto antes de enseñar esas primeras partes como verdaderas o falsas.
+
+    '
+- id: romero.ley-de-divorcio-1987
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La ley de divorcio (1987)
+  afirmacion: 'La ley de divorcio de 1987 se aprobó tras una discusión breve pero muy intensa: fue el
+    punto culminante de la modernización cultural iniciada en 1983 y enfrentó la oposición de los sectores
+    tradicionales de la Iglesia.
+
+    '
+  puntos:
+  - Fue el punto culminante de la modernización cultural iniciada en 1983.
+  - Los sectores tradicionales de la Iglesia se opusieron, con mecanismos habituales de presión y con
+    otros más novedosos.
+  trampas:
+  - texto: Fue el momento en que se formalizó la ruptura de relaciones diplomáticas entre la Argentina
+      y el Vaticano.
+    error: dato_inventado
+    por_que: No hubo ruptura; ese mismo año, en abril de 1987, Juan Pablo II visitó la Argentina.
+  - texto: Los sectores más tradicionales del radicalismo intentaron bloquear su tratamiento en el Congreso.
+    error: hecho_equivocado
+    por_que: La oposición que destaca Romero vino de los sectores tradicionales de la Iglesia, no del
+      radicalismo.
+  pregunta_guia: ¿Por qué la discusión del divorcio fue tan intensa y quiénes se opusieron?
+  explicacion_modelo: 'Romero explica la intensidad del debate porque la ley de divorcio fue el punto
+    culminante de la modernización cultural iniciada en 1983 y porque los sectores tradicionales de la
+    Iglesia la combatieron con presiones habituales y otras nuevas. La opción del radicalismo bloqueando
+    la ley tienta porque habla de "sectores tradicionales", pero se equivoca de actor: los opositores
+    eran de la Iglesia.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-9c3bd448
+  estado: borrador
+- id: romero.semana-santa-1987
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: Semana Santa de 1987
+  afirmacion: 'El levantamiento militar de Semana Santa de 1987 puso a prueba la democracia, fue un punto
+    de inflexión en la relación con los militares y terminó con la ilusión del poder ilimitado de la democracia.
+
+    '
+  puntos:
+  - Fue una sublevación de sectores militares que exigían el fin de los juicios contra los oficiales involucrados
+    en la represión.
+  - Fue un punto de inflexión en la relación entre el gobierno y los militares, que desembocó en la sanción
+    de la Ley de Obediencia Debida.
+  - Con la Pascua de 1987 concluyó la ilusión del poder ilimitado de la democracia, porque Alfonsín perdió
+    la exclusividad del liderazgo sobre la civilidad.
+  trampas:
+  - texto: El levantamiento fue sofocado inmediatamente por una intervención militar ordenada por Alfonsín,
+      sin necesidad de negociaciones.
+    error: hecho_equivocado
+    por_que: Hubo negociación; Alfonsín fue a Campo de Mayo a hablar con los sublevados, y después se
+      sancionó la Obediencia Debida.
+  - texto: Fue un golpe de Estado exitoso que obligó a Alfonsín a renunciar antes de terminar su mandato.
+    error: hecho_equivocado
+    por_que: El levantamiento no derrocó al gobierno; Alfonsín entregó el poder anticipadamente en julio
+      de 1989, en plena hiperinflación.
+  - texto: Alfonsín perdió la exclusividad del liderazgo sobre el peronismo, la clase media o los radicales.
+    error: cambio_de_palabra
+    por_que: Romero habla de la civilidad, es decir, de la sociedad civil que lo había acompañado desde
+      1983.
+  pregunta_guia: ¿Qué pedían los militares sublevados, cómo se resolvió el levantamiento y qué cambió
+    después para Alfonsín?
+  explicacion_modelo: 'Según Romero, en Semana Santa los militares sublevados exigían terminar con los
+    juicios, y el episodio fue un punto de inflexión que llevó a la Obediencia Debida; por eso concluyó
+    la ilusión del poder ilimitado de la democracia y Alfonsín perdió la exclusividad del liderazgo sobre
+    la civilidad. La opción del levantamiento "sofocado sin negociar" tienta porque la democracia sobrevivió,
+    pero es falsa: hubo negociación y concesiones.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-531d10b3
+  - q-6bb9129a
+  estado: borrador
+- id: romero.derrota-1987
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La derrota de 1987 y el debilitamiento del gobierno
+  afirmacion: 'Después de la derrota en las legislativas de septiembre de 1987, la posición del gobierno
+    de Alfonsín se debilitó aceleradamente.
+
+    '
+  puntos:
+  - La inestabilidad y la sensación de falta de gobernabilidad fueron crecientes.
+  - El peronismo, que apuntaba con nuevo optimismo a las presidenciales de 1989, se negó a respaldar reformas
+    cuyo costo social era evidente.
+  trampas:
+  - texto: La reconciliación obligada con las corporaciones deterioró la imagen del gobierno, pero rindió
+      algunos frutos esperados en lo económico.
+    error: media_verdad
+    por_que: Arranca con algo verosímil, pero concluye algo falso porque no hubo frutos económicos y el
+      proceso terminó en la hiperinflación de 1989.
+  - texto: El sector kirchnerista del peronismo tomó el control del partido con una posición más dura
+      frente a Alfonsín.
+    error: anacronismo
+    por_que: El kirchnerismo surgió en 2003; en 1987 el peronismo en ascenso era la Renovación de Cafiero.
+  pregunta_guia: ¿Qué consecuencias tuvo para el gobierno perder las elecciones de 1987, y qué hizo el
+    peronismo?
+  explicacion_modelo: 'Romero dice que tras la derrota de 1987 crecieron la inestabilidad y la sensación
+    de falta de gobernabilidad, y que el peronismo, entusiasmado con ganar en 1989, se negó a apoyar reformas
+    con costo social. La opción de las corporaciones tienta porque empieza con algo creíble (el costo
+    de imagen), pero termina mal: no hubo frutos económicos.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-b9349c41
+  estado: borrador
+  notas: Validar si Romero menciona el deterioro de imagen por la reconciliación con las corporaciones;
+    el examen solo da por falsa la opción completa.
+- id: romero.la-tablada-1989
+  eje: historia
+  autor: Luis A. Romero
+  fuente: Breve historia contemporánea de la Argentina (capítulo pendiente)
+  tema: La Tablada (1989)
+  afirmacion: 'Tras el asalto al cuartel de La Tablada en enero de 1989, el Ejército hizo una aplastante
+    demostración de fuerza, y la opinión pública la reconoció; fue el primer indicio de que la cuestión
+    militar terminaría con el olvido de los crímenes y el fin de las ilusiones de 1983.
+
+    '
+  puntos:
+  - En enero de 1989 un grupo armado asaltó el cuartel de La Tablada y el Ejército hizo una aplastante
+    demostración de fuerza que culminó con el aniquilamiento de los asaltantes.
+  - El reconocimiento que recibió la represión militar fue el primer indicio de un cambio de prioridades
+    y valores en la opinión pública.
+  - Podía anticiparse que la cuestión militar terminaría con la reivindicación de los militares, el olvido
+    de los crímenes de la "guerra sucia" y el entierro de las ilusiones de la civilidad de 1983.
+  trampas:
+  - texto: Volvió el recuerdo de la represión ilegal, la opinión pública repudió el hecho sin fisuras
+      y eso le dio aire al gobierno de Alfonsín.
+    error: cambio_de_palabra
+    por_que: Es al revés, porque la opinión pública reconoció la acción militar en lugar de repudiarla.
+  - texto: El rechazo que recogió la represión militar fue un nuevo indicio del cambio de época iniciado
+      en 1983.
+    error: cambio_de_palabra
+    por_que: No hubo rechazo sino reconocimiento, y eso indicaba el fin de las ilusiones de 1983, no su
+      continuidad.
+  pregunta_guia: ¿Cómo reaccionó la opinión pública ante la represión de La Tablada y qué anticipaba eso
+    sobre la cuestión militar?
+  explicacion_modelo: 'Según Romero, el reconocimiento que la sociedad le dio a la represión en La Tablada
+    fue el primer indicio de un cambio de valores, y permitía anticipar que la cuestión militar terminaría
+    con el olvido de los crímenes de la "guerra sucia" y el fin de las ilusiones de 1983. Las opciones
+    sobre el "repudio" tientan porque es lo que uno esperaría de una sociedad democrática, pero invierten
+    lo que dice el autor: hubo reconocimiento, no rechazo.
+
+    '
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-131b96a5
+  estado: borrador
