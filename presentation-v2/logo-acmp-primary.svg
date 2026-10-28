@@ -1,11 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 140" role="img" aria-label="Academia Comunica de Mai Pistiner">
-  
-  <g fill="none" stroke="#f74604" stroke-linecap="round" stroke-width="9">
-    <path d="M22 50 Q 46 22, 70 50 T 118 50"></path>
-    <path d="M14 78 Q 46 46, 78 78 T 142 78"></path>
-    <path d="M28 106 Q 50 86, 72 106 T 116 106"></path>
-  </g>
-  
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="166 34 166 94" role="img" aria-label="Academia Comunica de Mai Pistiner">
   <g font-family="Poppins, system-ui, sans-serif" fill="#222b49">
     <text x="172" y="64" font-size="30" font-weight="800" letter-spacing="-0.5">academia</text>
     <text x="172" y="98" font-size="30" font-weight="800" letter-spacing="-0.5" fill="#f74604">comunica</text>

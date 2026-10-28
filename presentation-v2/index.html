@@ -262,37 +262,19 @@ h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
 .mtr em{align-self:flex-start;margin-top:4px;padding:5px 14px;border-radius:999px;background:var(--navy);color:#fff;font-style:normal;font-size:15px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
 
 /* Infinita */
-.inf{display:grid;grid-template-columns:1fr 520px;gap:90px;flex:1;min-height:0;align-items:center}
-.inf .head{margin-bottom:44px}
-.points{list-style:none;padding:0;display:flex;flex-direction:column;gap:30px}
-.points li{display:flex;gap:24px;align-items:flex-start}
+.inf{display:grid;grid-template-columns:1fr 1010px;gap:70px;flex:1;min-height:0;align-items:center}
+.inf .head{margin-bottom:40px}
+.points{list-style:none;padding:0;display:flex;flex-direction:column;gap:26px}
+.points li{display:flex;gap:22px;align-items:flex-start}
 .points .num{flex:none}
-.points b{display:block;font-family:var(--fs);font-size:30px;margin-bottom:6px}
-.points span{font-size:23px;line-height:1.45;color:var(--gray-700)}
-.phone{position:relative;justify-self:center;width:400px;height:800px;padding:16px;border-radius:64px;background:var(--navy-700);box-shadow:0 40px 70px rgba(14,18,34,.3)}
-.screen{position:relative;height:100%;border-radius:50px;overflow:hidden;background:var(--navy)}
-.feed{position:absolute;inset:0;display:flex;flex-direction:column;animation:feed 9s cubic-bezier(.6,0,.2,1) infinite}
-@keyframes feed{0%,28%{transform:translateY(0)}36%,64%{transform:translateY(-100%)}72%,100%{transform:translateY(-200%)}}
-.reel{flex:none;height:100%;display:flex;flex-direction:column;justify-content:flex-end;gap:16px;padding:40px 34px 46px;color:#fff}
-.reel .topic{font-size:15px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
-.reel b{font-family:var(--fs);font-size:40px;line-height:1.1}
-.reel p{font-size:19px;line-height:1.45;color:rgba(255,255,255,.8)}
-.reel .ask{align-self:flex-start;margin-top:10px;padding:12px 22px;border-radius:999px;background:var(--orange);font-size:17px;font-weight:700}
-.reel.alt{background:var(--navy-300)}
-.reel .meter{display:flex;gap:6px;margin-top:4px}
-.reel .meter i{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.2)}
-.reel .meter i.on{background:var(--orange)}
-.concept{position:absolute;top:-18px;right:-30px;z-index:2;padding:10px 20px;border-radius:999px;background:#fff;color:var(--navy);font-size:17px;font-weight:700;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.points b{display:block;font-family:var(--fs);font-size:28px;margin-bottom:6px}
+.points span{font-size:22px;line-height:1.45;color:var(--gray-700)}
+.reels-h{margin-bottom:22px;font-size:19px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 
-/* Distribución: reels */
-.dist{display:grid;grid-template-columns:1fr 1010px;gap:70px;flex:1;min-height:0;align-items:center}
-.reach{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.reach div{display:flex;flex-direction:column;gap:6px;padding:26px 30px;border-radius:22px;background:var(--navy-700)}
-.reach b{font-family:var(--fs);font-size:64px;font-weight:900;line-height:1;color:var(--orange)}
-.reach span{font-size:21px;color:rgba(255,255,255,.75)}
+/* Reels */
 .reels{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .reels figure{margin:0;display:flex;flex-direction:column;gap:16px}
-.reel-ph{position:relative;aspect-ratio:9/16;padding:10px;border-radius:40px;background:var(--navy-700);box-shadow:0 30px 60px rgba(0,0,0,.35);cursor:pointer}
+.reel-ph{position:relative;aspect-ratio:9/16;padding:10px;border-radius:40px;background:var(--navy-700);box-shadow:0 30px 60px rgba(14,18,34,.25);cursor:pointer}
 .reel-ph video{display:block;width:100%;height:100%;object-fit:cover;border-radius:31px;background:#111}
 .snd{position:absolute;top:24px;right:24px;padding:6px 14px;border-radius:999px;background:rgba(14,18,34,.7);color:#fff;font-size:15px;font-weight:700;pointer-events:none}
 .reel-ph.on .snd{background:var(--orange)}
@@ -355,13 +337,11 @@ body.idle{cursor:none}
   html,body{height:auto;overflow:visible;background:none}
   .slide{position:relative;left:0;top:0;display:flex!important;transform:none;animation:none;break-after:page}
   .ui,.progress,.notes-panel{display:none!important}
-  .feed{animation:none}
   .browser iframe{display:none}
   .offline{display:flex}
 }
 @media (prefers-reduced-motion:reduce){
   .slide.on{animation:none}
-  .feed{animation:none}
 }
 </style>
 </head>
@@ -752,59 +732,16 @@ body.idle{cursor:none}
         <li><span class="num">3</span><p><b>Every few posts, explain it back</b><span>Scrolling becomes recall, not just watching.</span></p></li>
       </ul>
     </div>
-    <div class="phone" aria-hidden="true">
-      <span class="concept">Concept</span>
-      <div class="screen">
-        <div class="feed">
-          <div class="reel">
-            <span class="topic">ICSE · Romero</span>
-            <b>1975: the Rodrigazo</b>
-            <p>A run on the dollar, runaway inflation and indexation. An economic crisis the government couldn't control.</p>
-            <div class="meter"><i class="on"></i><i></i><i></i><i></i></div>
-          </div>
-          <div class="reel alt">
-            <span class="topic">ICSE · Blind spot</span>
-            <b>Government ≠ regime</b>
-            <p>A new government doesn't mean a new regime. The rules of access to power can stay the same.</p>
-            <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i></div>
-          </div>
-          <div class="reel">
-            <span class="topic">Your turn</span>
-            <b>Why wasn't 1983 just a change of government?</b>
-            <p>Explain it in one sentence.</p>
-            <span class="ask">Explain it back</span>
-            <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="notes">Infinita is a concept, not built yet. Same engine, different format: the map decides what you see, and the feed asks you to explain things back.</div>
-</section>
-
-<!-- Distribución: los reels -->
-<section class="slide inv">
-  <div class="dist">
     <div>
-      <div class="head" style="margin-bottom:40px">
-        <p class="eyebrow">Distribution</p>
-        <h2>The content is the <span class="kw">channel</span></h2>
-        <p class="lead">Each reel takes one exam trap from our ideas and explains it in under a minute. The same ideas the tutor checks.</p>
+      <p class="reels-h">The first reels, already made</p>
+      <div class="reels">
+        <figure><div class="reel-ph"><video src="reels/weber-durkheim.mp4" poster="reels/weber-durkheim.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>Sociology</span>Weber or Durkheim?</figcaption></figure>
+        <figure><div class="reel-ph"><video src="reels/true-valid.mp4" poster="reels/true-valid.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>IPC</span>True isn't valid</figcaption></figure>
+        <figure><div class="reel-ph"><video src="reels/state-government.mp4" poster="reels/state-government.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>ICSE</span>State ≠ government</figcaption></figure>
       </div>
-      <div class="reach">
-        <div><b>352K</b><span>Instagram followers</span></div>
-        <div><b>+160K</b><span>students across the region</span></div>
-      </div>
-      <p class="small" style="margin-top:12px">Academia Comunica de Mai Pistiner</p>
-      <p class="note">We don't start from zero. Reels bring students in, <b>the diagnostic shows them what they don't know</b>.</p>
-    </div>
-    <div class="reels">
-      <figure><div class="reel-ph"><video src="reels/weber-durkheim.mp4" poster="reels/weber-durkheim.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>Sociology</span>Weber or Durkheim?</figcaption></figure>
-      <figure><div class="reel-ph"><video src="reels/true-valid.mp4" poster="reels/true-valid.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>IPC</span>True isn't valid</figcaption></figure>
-      <figure><div class="reel-ph"><video src="reels/state-government.mp4" poster="reels/state-government.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>ICSE</span>State ≠ government</figcaption></figure>
     </div>
   </div>
-  <div class="notes">Three reels, one per subject, about 45 seconds each. They play muted; click one to hear it. The point: the Academia already has the audience, and the content comes straight from the same ideas the tutor uses, so making more is cheap. Today they live on Instagram and TikTok; later, inside Infinita.</div>
+  <div class="notes">The feed is a concept, but the content already exists: three reels, one per subject, about 45 seconds each. They play muted; click one to hear it. Same engine, different format: the map decides what you see, and the feed asks you to explain things back.</div>
 </section>
 
 <!-- Próximos pasos: universidades -->
