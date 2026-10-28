@@ -825,12 +825,12 @@
     del varón.'
   recurso_ubaxxi: pendiente
   preguntas:
-  - q-abe2955b
   - q-7565a2de
   - q-5325fab9
   - q-d6a78328
   - q-5a879158
-  - q-2e1c7702
+  - q-68ee58eb
+  - q-9e272de8
   estado: borrador
   notas: 'Ojo con la complementariedad: en q-2e1c7702 “el varón se completa con la existencia de la mujer”
     es la correcta porque se pregunta qué supone esa ideología; en q-d6a78328 “el varón depende de la
@@ -917,11 +917,11 @@
     imaginarias”: se cuelga de la palabra “imaginación”, pero es la definición de ideología de Althusser.'
   recurso_ubaxxi: pendiente
   preguntas:
-  - q-6701a938
   - q-11db5810
   - q-0cf2ebe4
   - q-feab1fd9
   - q-80c9b73b
+  - q-6acd7309
   estado: borrador
   notas: La ficha cruza dos autores; va con autor Marqués porque las preguntas están en su sección del
     banco. Si la app necesita reflejar a Mills también, evaluar cómo marcarlo.
@@ -1353,6 +1353,7 @@
   preguntas:
   - q-5af0a7ac
   - q-af0bf53c
+  - q-c26aa0dd
   estado: borrador
   notas: 'q-af0bf53c A da como falso, para «objetivación», que «se internaliza al otro generalizado y
     finaliza la socialización primaria»; esa frase parece describir bien otro concepto de Berger y Luckmann
@@ -1579,9 +1580,9 @@
     '
   recurso_ubaxxi: pendiente
   preguntas:
-  - q-e8fe44c4
-  - q-c8a0d9fc
   - q-0f50144a
+  - q-c3e967d6
+  - q-a7976efb
   estado: borrador
   notas: Las claves de q-0f50144a salen de marcas y ninguna contradice al campus. Que la definición de
     q-0f50144a C sea de Heller se deduce de heller.vida-cotidiana y de q-e8fe44c4 C; validar. «Maduración»
@@ -1994,8 +1995,8 @@
   preguntas:
   - q-df563cb6
   - q-328248fb
-  - q-5d745b2e
   - q-3d879020
+  - q-873a18cd
   estado: borrador
   notas: 'q-df563cb6 tiene dos claves según la versión: «la interpelación ideológica» (v1, marcas) y «los
     Aparatos Ideológicos del Estado» (v2 marcas y v3 campus). No se contradicen: en la v1 los AIE no están
@@ -2182,9 +2183,9 @@
     '
   recurso_ubaxxi: pendiente
   preguntas:
-  - q-199e00d7
   - q-3f687e89
   - q-23839043
+  - q-5e17eda5
   estado: borrador
   notas: 'Ficha de comparación; va con autor Althusser porque el banco la clasifica ahí. Las claves de
     marcas de q-3f687e89 y q-23839043 coinciden con las del campus (q-199e00d7) en los ítems compartidos,
@@ -2262,8 +2263,8 @@
   preguntas:
   - q-cbdfc653
   - q-a7005f62
-  - q-20304bf2
   - q-c72f26a5
+  - q-e35074a4
   estado: borrador
   notas: 'Ficha de comparación; va con autor Althusser porque el banco la clasifica ahí. q-a7005f62 (marcas)
     y q-cbdfc653 (campus) tienen las mismas cinco afirmaciones en otro orden y coinciden en la clave.
@@ -2399,8 +2400,8 @@
   - q-d504147b
   - q-900f404b
   - q-6f659053
-  - q-2df3dbcc
   - q-8a7bae6f
+  - q-f1db1b5b
   estado: borrador
   notas: 'q-900f404b tiene tres versiones con distinta clave porque cambian las opciones: la v1 repite
     la correcta de q-d504147b, la v2 enseña el valor de uso como sustrato del valor de cambio y la v3
@@ -2809,8 +2810,10 @@
     '
   recurso_ubaxxi: pendiente
   preguntas:
-  - q-ec6b874a
   - q-be728cac
+  - q-01792b5c
+  - q-9cee9c67
+  - q-2cc65326
   estado: borrador
   notas: 'q-ec6b874a tiene clave de marcas en v1 a v3 («abstracciones no científicas»; «la coacción y
     la persuasión son las formas en que la ideología vuelve hacia la praxis») y de campus en v4 («formas
@@ -3371,9 +3374,9 @@
   recurso_ubaxxi: pendiente
   preguntas:
   - q-a4c69fcc
-  - q-bc35f4a0
   - q-1562cbcf
   - q-dfa7f88a
+  - q-0cefbc02
   estado: borrador
   notas: 'q-a4c69fcc viene sin autor; «dicotomías» es el concepto de Maffía. Se juntan dicotomías y heteronormatividad
     en una ficha porque el examen evalúa la heteronormatividad con los mismos rasgos de las dicotomías.
@@ -3540,9 +3543,11 @@
     '
   recurso_ubaxxi: pendiente
   preguntas:
-  - q-2424b3ac
   - q-17610373
-  - q-e99ed7cb
+  - q-23ecc19f
+  - q-b5cb94a9
+  - q-4395c3ab
+  - q-c738233f
   estado: borrador
   notas: 'Las tres preguntas estaban en el grupo sin autor, pero nombran a S. (Sara) Lifszyc en el enunciado.
     q-2424b3ac v1 y q-17610373 tienen clave de marcas y son coherentes con las versiones de campus (v2

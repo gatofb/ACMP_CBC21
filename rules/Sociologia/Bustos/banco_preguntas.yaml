@@ -1,5 +1,5 @@
 # Banco de preguntas únicas — generado por scripts/armar_banco.py. No editar a mano.
-# 207 preguntas a partir de 10 exámenes.
+# 212 preguntas a partir de 10 exámenes.
 - id: q-abb0cc49
   tipo: simple
   puntos: null
@@ -636,9 +636,8 @@
 - id: q-af0bf53c
   tipo: simple
   puntos: null
-  veces_tomada: 3
+  veces_tomada: 2
   cuatrimestres:
-  - Final 02/2022
   - Final 11/2021
   versiones:
   - enunciado: Seleccione con una cruz (X) la opción correcta. Según Berger y Luckmann, el proceso de objetivación
@@ -664,12 +663,7 @@
       cuatrimestre: Final 11/2021
       tema: 3
       consigna: 10
-    - archivo: Final_2022_C.pdf
-      instancia: Final
-      cuatrimestre: Final 02/2022
-      tema: 4
-      consigna: 10
-- id: q-abe2955b
+- id: q-68ee58eb
   tipo: simple
   puntos: null
   veces_tomada: 2
@@ -847,13 +841,11 @@
       cuatrimestre: Final 02/2022
       tema: 4
       consigna: 25
-- id: q-ec6b874a
+- id: q-01792b5c
   tipo: simple
   puntos: null
-  veces_tomada: 4
+  veces_tomada: 2
   cuatrimestres:
-  - Final 02/2022
-  - Final 07/2021
   - Final 11/2021
   versiones:
   - enunciado: Marque con una cruz (X) cuál de las siguientes proposiciones sobre la ideología es propia de la perspectiva
@@ -892,49 +884,11 @@
       cuatrimestre: Final 11/2021
       tema: 3
       consigna: 23
-  - enunciado: Marque con una cruz (X) la opción que corresponda. Indique cuál de las siguientes proposiciones sobre
-      la ideología es propia de la perspectiva de Marx según H. Lefebvre.
-    opciones:
-      A: La ideología es un componente central de los Aparatos Ideológicos del Estado.
-      B: Dado que es externa, general y coactiva, la ideología es un hecho social.
-      C: La coacción y la persuasión son las formas en que la ideología vuelve hacia la praxis.
-      D: Las ideologías incluyen el más alto nivel del pensamiento económico.
-      E: Las abstracciones implicadas en las ideologías son mayoritariamente científicas.
-    clave: C
-    correctas:
-    - La coacción y la persuasión son las formas en que la ideología vuelve hacia la praxis.
-    fuente_clave: marcas
-    apariciones:
-    - archivo: Final_2022_C.pdf
-      instancia: Final
-      cuatrimestre: Final 02/2022
-      tema: 4
-      consigna: 20
-  - enunciado: Señale cuál de las siguientes preguntas sobre la ideología puede responderse afirmativamente desde
-      la perspectiva de Marx que da H. Lefebvre.
-    opciones:
-      A: ¿Es la ideología un componente central de los aparatos ideológicos de estado?
-      B: ¿Son las ideologías solo fantasías originadas por el interés personal?
-      C: ¿Son ideológicas las prácticas disciplinarias vinculadas al biopoder?
-      D: ¿Es la ideología el origen de los hechos sociales, dado que es externa, general y coactiva?
-      E: ¿Son las ideologías formas mutiladas y alteradas de la realidad?
-    clave: E
-    correctas:
-    - ¿Son las ideologías formas mutiladas y alteradas de la realidad?
-    fuente_clave: campus
-    apariciones:
-    - archivo: Final_2021_D.pdf
-      instancia: Final
-      cuatrimestre: Final 07/2021
-      tema: null
-      consigna: 6
-- id: q-2424b3ac
+- id: q-23ecc19f
   tipo: vf_items
   puntos: null
-  veces_tomada: 7
+  veces_tomada: 2
   cuatrimestres:
-  - Final 07/2021
-  - Final 10/2020
   - Final 11/2021
   versiones:
   - enunciado: Indique cuáles afirmaciones son verdaderas (V) y cuáles falsas (F) siguiendo el texto de S. Lifszyc.
@@ -967,72 +921,6 @@
       cuatrimestre: Final 11/2021
       tema: 3
       consigna: 24
-  - enunciado: Señale si las siguientes afirmaciones son verdaderas o falsas de acuerdo con el texto de S. Lifszyc.
-    opciones:
-      A: En el capitalismo la fuerza de trabajo no es considerada una mercancía como cualquier otra.
-      B: En el capitalismo son necesarias las relaciones entre los dueños de los medios de producción y los asalariados
-        formalmente libres.
-      C: En el capitalismo el trabajador es libre y dueño de los medios de producción.
-      D: En el capitalismo la gran industria va desapareciendo en favor de las manufacturas artesanales y las artesanías
-        regionales.
-      E: La mercancía es la forma concreta que adopta el trabajo en el capitalismo.
-    clave:
-      A: F
-      B: V
-      C: F
-      D: F
-      E: V
-    correctas:
-    - En el capitalismo son necesarias las relaciones entre los dueños de los medios de producción y los asalariados
-      formalmente libres.
-    - La mercancía es la forma concreta que adopta el trabajo en el capitalismo.
-    fuente_clave: campus
-    apariciones:
-    - archivo: Final_2020_A.pdf
-      instancia: Final
-      cuatrimestre: Final 10/2020
-      tema: null
-      consigna: 20
-    - archivo: Final_2021_B.pdf
-      instancia: Final
-      cuatrimestre: Final 07/2021
-      tema: null
-      consigna: 3
-    - archivo: Final_2021_C.pdf
-      instancia: Final
-      cuatrimestre: Final 07/2021
-      tema: null
-      consigna: 12
-    - archivo: Final_2021_D.pdf
-      instancia: Final
-      cuatrimestre: Final 07/2021
-      tema: null
-      consigna: 8
-  - enunciado: Indique si las siguientes proposiciones son correctas o incorrectas de acuerdo con el texto de S.
-      Lifszyc.
-    opciones:
-      A: Los empresarios capitalistas obtienen sus ganancias gracias a su racionalidad superior.
-      B: Las relaciones sociales de producción determinan la forma general del modo de producción.
-      C: Las relaciones sociales de producción están vinculadas al tipo de propiedad predominante.
-      D: El trabajo es tratado como una mercancía más en las relaciones capitalistas.
-      E: Los sectores asalariados, en el capitalismo, son dueños de los medios de producción.
-    clave:
-      A: F
-      B: V
-      C: V
-      D: V
-      E: F
-    correctas:
-    - Las relaciones sociales de producción determinan la forma general del modo de producción.
-    - Las relaciones sociales de producción están vinculadas al tipo de propiedad predominante.
-    - El trabajo es tratado como una mercancía más en las relaciones capitalistas.
-    fuente_clave: campus
-    apariciones:
-    - archivo: Final_2021_A.pdf
-      instancia: Final
-      cuatrimestre: Final 07/2021
-      tema: null
-      consigna: 8
 - id: q-f9142f7a
   tipo: simple
   puntos: null
@@ -2138,7 +2026,7 @@
       cuatrimestre: Final 02/2022
       tema: 5
       consigna: 11
-- id: q-2e1c7702
+- id: q-9e272de8
   tipo: simple
   puntos: null
   veces_tomada: 2
@@ -2531,7 +2419,7 @@
       cuatrimestre: Final 10/2020
       tema: null
       consigna: 18
-- id: q-6701a938
+- id: q-6acd7309
   tipo: simple
   puntos: null
   veces_tomada: 2
@@ -3240,6 +3128,31 @@
       cuatrimestre: Final 02/2022
       tema: 4
       consigna: 9
+- id: q-c26aa0dd
+  tipo: simple
+  puntos: null
+  veces_tomada: 1
+  cuatrimestres:
+  - Final 02/2022
+  versiones:
+  - enunciado: Seleccione con una cruz (X) la opción correcta.Según Berger y Luckmann, el proceso de objetivación
+      es…
+    opciones:
+      A: … el momento en el que se internaliza al otro generalizado y finaliza la socialización primaria.
+      B: … la coacción y la presión que ejercen las figuras sociales sobre el individuo.
+      C: … la etapa última de aprendizaje de la socialización secundaria.
+      D: …la metodología de investigación que estudia los fenómenos sociales como “cosas”, externas y objetivas.
+      E: … el momento en el que los productos externalizados de la actividad humana alcanzan el carácter de objetividad.
+    clave: E
+    correctas:
+    - … el momento en el que los productos externalizados de la actividad humana alcanzan el carácter de objetividad.
+    fuente_clave: marcas
+    apariciones:
+    - archivo: Final_2022_C.pdf
+      instancia: Final
+      cuatrimestre: Final 02/2022
+      tema: 4
+      consigna: 10
 - id: q-8122d549
   tipo: simple
   puntos: null
@@ -3377,6 +3290,31 @@
       cuatrimestre: Final 02/2022
       tema: 4
       consigna: 18
+- id: q-9cee9c67
+  tipo: simple
+  puntos: null
+  veces_tomada: 1
+  cuatrimestres:
+  - Final 02/2022
+  versiones:
+  - enunciado: Marque con una cruz (X) la opción que corresponda. Indique cuál de las siguientes proposiciones sobre
+      la ideología es propia de la perspectiva de Marx según H. Lefebvre.
+    opciones:
+      A: La ideología es un componente central de los Aparatos Ideológicos del Estado.
+      B: Dado que es externa, general y coactiva, la ideología es un hecho social.
+      C: La coacción y la persuasión son las formas en que la ideología vuelve hacia la praxis.
+      D: Las ideologías incluyen el más alto nivel del pensamiento económico.
+      E: Las abstracciones implicadas en las ideologías son mayoritariamente científicas.
+    clave: C
+    correctas:
+    - La coacción y la persuasión son las formas en que la ideología vuelve hacia la praxis.
+    fuente_clave: marcas
+    apariciones:
+    - archivo: Final_2022_C.pdf
+      instancia: Final
+      cuatrimestre: Final 02/2022
+      tema: 4
+      consigna: 20
 - id: q-5277b415
   tipo: simple
   puntos: null
@@ -4100,6 +4038,55 @@
       cuatrimestre: Final 10/2020
       tema: null
       consigna: 19
+- id: q-b5cb94a9
+  tipo: vf_items
+  puntos: 0.4
+  veces_tomada: 4
+  cuatrimestres:
+  - Final 07/2021
+  - Final 10/2020
+  versiones:
+  - enunciado: Señale si las siguientes afirmaciones son verdaderas o falsas de acuerdo con el texto de S. Lifszyc.
+    opciones:
+      A: En el capitalismo la fuerza de trabajo no es considerada una mercancía como cualquier otra.
+      B: En el capitalismo son necesarias las relaciones entre los dueños de los medios de producción y los asalariados
+        formalmente libres.
+      C: En el capitalismo el trabajador es libre y dueño de los medios de producción.
+      D: En el capitalismo la gran industria va desapareciendo en favor de las manufacturas artesanales y las artesanías
+        regionales.
+      E: La mercancía es la forma concreta que adopta el trabajo en el capitalismo.
+    clave:
+      A: F
+      B: V
+      C: F
+      D: F
+      E: V
+    correctas:
+    - En el capitalismo son necesarias las relaciones entre los dueños de los medios de producción y los asalariados
+      formalmente libres.
+    - La mercancía es la forma concreta que adopta el trabajo en el capitalismo.
+    fuente_clave: campus
+    apariciones:
+    - archivo: Final_2020_A.pdf
+      instancia: Final
+      cuatrimestre: Final 10/2020
+      tema: null
+      consigna: 20
+    - archivo: Final_2021_B.pdf
+      instancia: Final
+      cuatrimestre: Final 07/2021
+      tema: null
+      consigna: 3
+    - archivo: Final_2021_C.pdf
+      instancia: Final
+      cuatrimestre: Final 07/2021
+      tema: null
+      consigna: 12
+    - archivo: Final_2021_D.pdf
+      instancia: Final
+      cuatrimestre: Final 07/2021
+      tema: null
+      consigna: 8
 - id: q-49cf1015
   tipo: vf_items
   puntos: 0.4
@@ -4186,7 +4173,7 @@
       cuatrimestre: Final 07/2021
       tema: null
       consigna: 1
-- id: q-199e00d7
+- id: q-5e17eda5
   tipo: vf_items
   puntos: 0.4
   veces_tomada: 2
@@ -4433,7 +4420,7 @@
       cuatrimestre: Final 10/2020
       tema: null
       consigna: 5
-- id: q-e8fe44c4
+- id: q-c3e967d6
   tipo: vf_items
   puntos: 0.4
   veces_tomada: 1
@@ -4601,7 +4588,7 @@
       tema: null
       consigna: 22
   relacionar: true
-- id: q-20304bf2
+- id: q-e35074a4
   tipo: vf_items
   puntos: 0.4
   veces_tomada: 1
@@ -4912,7 +4899,7 @@
       cuatrimestre: Final 07/2021
       tema: null
       consigna: 6
-- id: q-bc35f4a0
+- id: q-0cefbc02
   tipo: vf_items
   puntos: 0.4
   veces_tomada: 2
@@ -5019,7 +5006,7 @@
       cuatrimestre: Final 07/2021
       tema: null
       consigna: 3
-- id: q-e99ed7cb
+- id: q-4395c3ab
   tipo: vf_items
   puntos: 0.4
   veces_tomada: 1
@@ -5195,7 +5182,7 @@
       cuatrimestre: Final 07/2021
       tema: null
       consigna: 5
-- id: q-c8a0d9fc
+- id: q-a7976efb
   tipo: vf_items
   puntos: 0.4
   veces_tomada: 1
@@ -5265,6 +5252,38 @@
       cuatrimestre: Final 07/2021
       tema: null
       consigna: 19
+- id: q-c738233f
+  tipo: vf_items
+  puntos: 0.4
+  veces_tomada: 1
+  cuatrimestres:
+  - Final 07/2021
+  versiones:
+  - enunciado: Indique si las siguientes proposiciones son correctas o incorrectas de acuerdo con el texto de S.
+      Lifszyc.
+    opciones:
+      A: Los empresarios capitalistas obtienen sus ganancias gracias a su racionalidad superior.
+      B: Las relaciones sociales de producción determinan la forma general del modo de producción.
+      C: Las relaciones sociales de producción están vinculadas al tipo de propiedad predominante.
+      D: El trabajo es tratado como una mercancía más en las relaciones capitalistas.
+      E: Los sectores asalariados, en el capitalismo, son dueños de los medios de producción.
+    clave:
+      A: F
+      B: V
+      C: V
+      D: V
+      E: F
+    correctas:
+    - Las relaciones sociales de producción determinan la forma general del modo de producción.
+    - Las relaciones sociales de producción están vinculadas al tipo de propiedad predominante.
+    - El trabajo es tratado como una mercancía más en las relaciones capitalistas.
+    fuente_clave: campus
+    apariciones:
+    - archivo: Final_2021_A.pdf
+      instancia: Final
+      cuatrimestre: Final 07/2021
+      tema: null
+      consigna: 8
 - id: q-1562cbcf
   tipo: vf_items
   puntos: 0.4
@@ -5358,7 +5377,7 @@
       cuatrimestre: Final 07/2021
       tema: null
       consigna: 15
-- id: q-5d745b2e
+- id: q-873a18cd
   tipo: simple
   puntos: 0.4
   veces_tomada: 3
@@ -6171,7 +6190,7 @@
       tema: null
       consigna: 20
   relacionar: true
-- id: q-2df3dbcc
+- id: q-f1db1b5b
   tipo: simple
   puntos: 0.4
   veces_tomada: 1
@@ -6450,6 +6469,31 @@
       cuatrimestre: Final 07/2021
       tema: null
       consigna: 23
+- id: q-2cc65326
+  tipo: simple
+  puntos: 0.4
+  veces_tomada: 1
+  cuatrimestres:
+  - Final 07/2021
+  versiones:
+  - enunciado: Señale cuál de las siguientes preguntas sobre la ideología puede responderse afirmativamente desde
+      la perspectiva de Marx que da H. Lefebvre.
+    opciones:
+      A: ¿Es la ideología un componente central de los aparatos ideológicos de estado?
+      B: ¿Son las ideologías solo fantasías originadas por el interés personal?
+      C: ¿Son ideológicas las prácticas disciplinarias vinculadas al biopoder?
+      D: ¿Es la ideología el origen de los hechos sociales, dado que es externa, general y coactiva?
+      E: ¿Son las ideologías formas mutiladas y alteradas de la realidad?
+    clave: E
+    correctas:
+    - ¿Son las ideologías formas mutiladas y alteradas de la realidad?
+    fuente_clave: campus
+    apariciones:
+    - archivo: Final_2021_D.pdf
+      instancia: Final
+      cuatrimestre: Final 07/2021
+      tema: null
+      consigna: 6
 - id: q-3b000ef6
   tipo: simple
   puntos: 0.4

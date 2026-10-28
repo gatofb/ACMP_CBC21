@@ -25,6 +25,7 @@ const HOST = process.env.HOST || "127.0.0.1";
 const PUBLICO = join(AQUI, "public");
 const RULES = join(AQUI, "..", "rules");
 const TAMANIO_DIAGNOSTICO = 18;
+const TAMANIO_DEMO = 4;
 const TAMANIO_PRACTICA = 5;
 
 // Las carreras y materias salen de rules/catalogo.yaml; solo las que tienen `reglas` traen preguntas.
@@ -63,6 +64,17 @@ function materia(id) {
 const azar = (lista) => lista[Math.floor(Math.random() * lista.length)];
 const mezclar = (lista) => lista.map((x) => [Math.random(), x]).sort((a, b) => a[0] - b[0]).map(([, x]) => x);
 
+// Preguntas que no se pueden contestar sin ver las opciones ("¿Cuál de las siguientes afirmaciones…?").
+// En el Explainer Mode esas se muestran para elegir; en las demás el alumno explica sin verlas.
+const PIDE_OPCIONES = new RegExp([
+  String.raw`\bcu[aá]l(es)? de (las|los|estas|estos|ellos|ellas)\b`,
+  String.raw`\bqu[eé] (premisa|opci[oó]n|afirmaci[oó]n)\b`,
+  String.raw`\b(las|los) siguientes (afirmaciones|opciones|proposiciones|caracter[ií]sticas|alternativas|argumentos|fragmentos|autores|preguntas)\b`,
+  String.raw`\bopciones presentadas\b`,
+].join("|"), "i");
+const pideOpciones = (pregunta, version) =>
+  pregunta.tipo === "simple" && !pregunta.relacionar && PIDE_OPCIONES.test(version.enunciado);
+
 function paraElAlumno(m, pregunta, v) {
   // Todo lo que el navegador necesita para mostrar la pregunta, sin la clave.
   const ficha = m.fichaDePregunta.get(pregunta.id);
@@ -72,6 +84,7 @@ function paraElAlumno(m, pregunta, v) {
     version: v,
     tipo: pregunta.tipo,
     relacionar: Boolean(pregunta.relacionar),
+    pide_opciones: pideOpciones(pregunta, version),
     puntos: pregunta.puntos,
     enunciado: version.enunciado,
     opciones: version.opciones,
@@ -86,11 +99,12 @@ function unaPreguntaDe(m, ficha) {
 }
 
 function sesion(m, modo, pedidas) {
-  if (modo === "diagnostico") {
+  if (modo === "diagnostico" || modo === "demo") {
     // Una pregunta por ficha, primero las que más se toman, y después todo mezclado.
+    // El Quick Demo es el mismo diagnóstico, en corto.
     const elegidas = mezclar(m.fichas)
       .sort((a, b) => m.vecesPorFicha.get(b.id) - m.vecesPorFicha.get(a.id))
-      .slice(0, TAMANIO_DIAGNOSTICO);
+      .slice(0, modo === "demo" ? TAMANIO_DEMO : TAMANIO_DIAGNOSTICO);
     return mezclar(elegidas).map((f) => unaPreguntaDe(m, f));
   }
   const prioridad = pedidas.map((id) => m.fichaPorId.get(id)).filter(Boolean);
@@ -169,7 +183,8 @@ function responder(datos) {
   return { correcta, error_probable: correcta ? null : errorProbable(ficha, pregunta, version, r) };
 }
 
-// Explainer Mode: el alumno explica sin opciones y Claude deduce qué habría marcado.
+// Explainer Mode: el alumno explica sin opciones y Claude deduce qué habría marcado. Si la pregunta
+// pide ver las opciones, el alumno elige una y explica por qué; se corrige lo que eligió.
 async function explicar(datos) {
   const { m, pregunta, version, ficha } = buscar(datos);
   const explicacion = String(datos.explicacion || "").trim();
@@ -177,12 +192,13 @@ async function explicar(datos) {
   if (!proveedor()) {
     throw new TutorError("El tutor de IA no está conectado: pegá la clave de la API en output/.env o iniciá la sesión local (ver output/README.md).", 503);
   }
+  const eleccion = pideOpciones(pregunta, version) && Object.hasOwn(version.opciones, datos.eleccion) ? datos.eleccion : null;
   const evaluacion = await evaluarExplicacion({
-    materia: `${m.nombre} (${m.etiqueta})`, ficha, version, tipo: pregunta.tipo, explicacion,
+    materia: `${m.nombre} (${m.etiqueta})`, ficha, version, tipo: pregunta.tipo, explicacion, eleccion,
     seguridad: datos.seguridad, intento: datos.intento, dictada: Boolean(datos.dictada),
   });
   // La explicación se convierte en la respuesta que habría dado, y se corrige igual que en el diagnóstico.
-  const inferida = evaluacion.respuesta_inferida in version.opciones ? evaluacion.respuesta_inferida : null;
+  const inferida = eleccion || (evaluacion.respuesta_inferida in version.opciones ? evaluacion.respuesta_inferida : null);
   const juicios = Object.fromEntries((evaluacion.juicios || []).filter((j) => j.juicio !== "no_dice")
     .map((j) => [j.letra, j.juicio === "verdadera" ? "V" : "F"]));
   const r = {

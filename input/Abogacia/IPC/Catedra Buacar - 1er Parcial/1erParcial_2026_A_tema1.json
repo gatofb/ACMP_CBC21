@@ -1,0 +1,185 @@
+{
+  "archivo": "1erParcial_2026_A.pdf",
+  "materia": "Introducción al Pensamiento Científico (40)",
+  "catedra": "A · Buacar",
+  "instancia": "1er Parcial",
+  "fecha": "2026-04-16",
+  "periodo": "1C 2026",
+  "turno": null,
+  "tema": 1,
+  "fuente_clave": "explicaciones",
+  "consignas": [
+    {
+      "n": "1A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Determiná si el siguiente enunciado es verdadero (V) o falso (F) según la teoría de la selección natural de Darwin. Escribí \"V\" o \"F\" donde dice \"A\" en la grilla de resolución.\nLos organismos son idénticos a sus progenitores.",
+      "opciones": {
+        "A": "Verdadero (V)",
+        "B": "Falso (F)"
+      },
+      "clave": "B",
+      "explicacion": "En este ejercicio se pide que, en la parte A, determines si un enunciado es verdadero o falso según la teoría de la selección natural de Darwin y luego, en la parte B, elijas la oración que justifica tu respuesta. El enunciado presentado es falso según la teoría de Darwin, y la justificación es que las variaciones que se observan de una generación a otra generan diferencias en la aptitud de los organismos y la selección natural opera favoreciendo a los organismos más aptos."
+    },
+    {
+      "n": "1B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Determiná si el siguiente enunciado es verdadero (V) o falso (F) según la teoría de la selección natural de Darwin.\nLos organismos son idénticos a sus progenitores.\nSeleccioná la opción que justifica tu respuesta y escribí el número donde dice \"B\" en la grilla de resolución.",
+      "opciones": {
+        "A": "La preservación de las especies exige que la descendencia sea idéntica a los ancestros.",
+        "B": "La evolución hace que cada generación sea ligeramente más compleja que la anterior.",
+        "C": "La selección natural garantiza que cada generación sea totalmente distinta a la anterior.",
+        "D": "De una generación a otra suele haber diferencias sobre las que actúa la selección natural."
+      },
+      "clave": "D",
+      "explicacion": "En este ejercicio se pide que, en la parte A, determines si un enunciado es verdadero o falso según la teoría de la selección natural de Darwin y luego, en la parte B, elijas la oración que justifica tu respuesta. El enunciado presentado es falso según la teoría de Darwin, y la justificación es que las variaciones que se observan de una generación a otra generan diferencias en la aptitud de los organismos y la selección natural opera favoreciendo a los organismos más aptos."
+    },
+    {
+      "n": 2,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Leé el siguiente enunciado y determiná cuál de las siguientes opciones explica el fenómeno a partir de la teoría de la selección natural de Darwin. Seleccioná una opción y escribí el número en la grilla de resolución.\nLos perros son capaces de digerir la mayoría de los alimentos que consumen los humanos, a diferencia de otros cánidos como los lobos o los chacales.",
+      "opciones": {
+        "A": "Los perros fueron diseñados para digerir los alimentos que consumen los humanos para poder ser domesticados con éxito. Este diseño permitió que humanos y perros se encontrasen en la historia y constituyeran una sociedad biológica exitosa mutuamente beneficiosa, aportando al equilibrio natural.",
+        "B": "Todas las especies tienden a parecerse a los humanos, que son la forma más perfecta de la naturaleza. Los perros, aunque son estructuralmente muy distintos a los humanos, son aptos para digerir el mismo tipo de alimentos, lo que los hace ideales para convivir con humanos.",
+        "C": "Entre los antepasados de los perros contemporáneos, algunos individuos nacieron con la variación que les permitía digerir los alimentos que los grupos humanos consumían. Esta particularidad les permitió alimentarse de las sobras que los humanos dejaban atrás, lo que a su vez mejoró su supervivencia y les permitió dejar mayor descendencia. Tras varias generaciones, el rasgo se generalizó a todos los perros.",
+        "D": "Los antepasados de los perros contemporáneos comenzaron a seguir a los grupos humanos de la época en busca de las sobras que dejaban atrás. Al exponerse a este tipo de alimentos, con el tiempo, fueron adquiriendo la capacidad de digerirlos correctamente, lo que les permitió adaptarse a ese ambiente particular. La capacidad adquirida de digerir los alimentos fue heredada a su descedencia."
+      },
+      "clave": "C",
+      "explicacion": "En este ejercicio se te pide que señales la explicación darwiniana de un rasgo específico. Lo característico de las explicaciones por selección natural es poner en relación la eficacia de los rasgos para cumplir ciertas funciones en un determinado ambiente con la aptitud del organismo que posee dichos rasgos. Los organismos más aptos, a su vez, dejan mayor descendencia que los menos aptos, por lo que en las sucesivas generaciones aumenta la proporción de organismos que presentan esos rasgos adaptativos."
+    },
+    {
+      "n": 3,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Determiná cuál de los siguientes fragmentos es un argumento. Seleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "En primer lugar, la base de la organización social de los mapuches es el lof, formado por familias con antepasados comunes. En segundo lugar, en tiempos de conflicto, varios lof se unen para formar un rehue liderado por un jefe militar llamado toqui. Finalmente, ante problemas mayores como invasiones o epidemias, los rehues se agrupan en aillarehues.",
+        "B": "Durante la ceremonia religiosa del guillatún en la que se agradece y se pide por el bienestar y la unión, la comunidad primero dispone un lugar sagrado llamado ngillatuwe instalando un tronco en su centro. Luego, una vez preparado el espacio, proceden a realizar bailes rituales y entregar diversas ofrendas para solicitar a la divinidad beneficios, como el aumento del ganado o lluvias abundantes.",
+        "C": "Los huilliches son parte del pueblo mapuche. Se ubicaron históricamente en el área comprendida entre el río Toltén y la Isla Grande de Chiloé, en el actual territorio chileno. Hablan la lengua mapudungún pero con variaciones locales de vocabulario y pronunciación.",
+        "D": "Si la comunidad organiza la ceremonia del guillatún, entonces se realizan bailes rituales acompañados de oraciones y se entregan ofrendas para pedir beneficios como lluvias o el aumento del ganado.",
+        "E": "Si una persona habla mapudungún, entonces es parte del pueblo mapuche. Dado que los huilliches usan esa lengua, en consecuencia son considerados parte del pueblo mapuche."
+      },
+      "clave": "E",
+      "explicacion": "En este ejercicio se pide que determines cuál el fragmento es un argumento. Para ello es importante tener presente que en todo argumento hay enunciados que se ofrecen como razones, las premisas, a favor de otro que se pretende concluir o establecer, la conclusión,. Recordá que hay ciertas expresiones que, cuando están, nos ayudan a distinguir las premisas de la conclusión. En el libro de la cátedra las denominamos “indicadores de premisa” e “indicadores de conclusión”. En este caso, el indicador \"dado que\" ayuda a identificar una de las premisas y el indicador \"en consecuencia\" nos permite identificar la conclusión."
+    },
+    {
+      "n": 4,
+      "puntos": 1,
+      "tipo": "multiple",
+      "enunciado": "Dado el siguiente argumento, indicá cuáles son los enunciados que cumplen el rol de premisas. Seleccioná dos opciones y escribí los números en la grilla de resolución.\nSi los kollas hacen ofrendas a la naturaleza y practican el trueque, entonces mantienen el principio de reciprocidad característico de las culturas pre-hispánicas. Puesto que los kollas hacen ofrendas a la naturaleza y practican el trueque, se sigue que mantienen el principio de reciprocidad característico de las culturas pre-hispánicas.",
+      "opciones": {
+        "A": "Si los kollas hacen ofrendas a la naturaleza y practican el trueque, entonces mantienen el principio de reciprocidad característico de las culturas pre-hispánicas.",
+        "B": "Los kollas practican el trueque y mantienen el principio de reciprocidad característico de las culturas pre-hispánicas.",
+        "C": "Los kollas mantienen el principio de reciprocidad característico de las culturas pre-hispánicas.",
+        "D": "Los kollas hacen ofrendas a la naturaleza y practican el trueque."
+      },
+      "clave": [
+        "A",
+        "D"
+      ],
+      "explicacion": "Para identificar la respuesta es importante recordar que hay ciertas expresiones que, cuando están, nos ayudan a identificar las premisas y la conclusión de un argumento. En el libro las llamamos \"indicadores de premisa\" e \"indicadores de conclusión\", respectivamente. En el argumento dado hay un indicador de premisa (\"puesto que\") y uno de conclusión (\"se sigue que\"). Es importante recordar dos cosas: (i) tanto las premisas como la conclusión se deben enunciar de manera completa, y (ii) los indicadores nunca forman parte de las premisas o la conclusión."
+    },
+    {
+      "n": 5,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dados los siguientes enunciados VERDADEROS:\n- Los tehuelches tenían viviendas fáciles de transportar.\n- Los tehuelches eran nómades.\nDeterminá cuál de los siguientes enunciados complejos es VERDADERO. Seleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Si los tehuelches eran nómades, tenían viviendas fáciles de transportar",
+        "B": "Los tehuelches eran nómades, pero no tenían viviendas fáciles de transportar.",
+        "C": "O bien los tehuelches no contaban con viviendas fáciles de transportar, o bien no eran nómades.",
+        "D": "No es cierto que los tehuelches hayan sido nómades."
+      },
+      "clave": "A",
+      "explicacion": "En este ejercicio tuviste que evaluar el valor veritativo de una conjunción, una negación, una disyunción y un condicional:\n1. Las conjunciones pueden expresarse con “y”, “,”, “además”, “pero”. Las negaciones con “no”, “no es cierto que”. Los condicionales con “si… entonces” y las disyunciones con “o”, “o bien … o bien”.\n2. Las conjunciones son verdaderas sólo en el caso en que ambos conyuntos sean verdaderos, esto es, basta que uno de los enunciados combinados por la conjunción sea falso, para que el enunciado complejo resulte falso.\n3. Cuando una oración es verdadera, su negación es falsa y, a la inversa, cuando una oración es falsa, su negación resultará verdadera.\n4. Las oraciones condicionales son falsas únicamente cuando el antecedente es verdadero y el consecuente falso, en el resto de los casos son verdaderas.\n5. Hay dos tipos de disyunciones, las inclusivas y las exclusivas. Expresiones como “o bien… o bien” sugieren que se trata de una disyunción exclusiva, en cambio la mera presencia de una “o” nos conduce a pensar que es inclusiva. Cuando ambas partes son falsas, la disyunción entre ambas es falsa, no importa el tipo de disyunción del cual se trate. Por el contrario, cuando uno de los disyuntos es verdadero y el otro falso, la disyunción es verdadera. El caso en que ambos tipos de disyunciones arrojan valores diferentes es aquel en que ambos disyuntos son verdaderos. Si la disyunción es inclusiva, la oración compleja será verdadera; si es exclusiva, será falsa."
+    },
+    {
+      "n": 6,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Completá el siguiente enunciado para que sea una tautología. Seleccioná una opción y escribí el número en la grilla de resolución.\nLos tehuelches tenían una estructura social horizontal...",
+      "opciones": {
+        "A": "si no tenían grandes diferencias jerárquicas.",
+        "B": "pero no tenían una estructura social horizontal.",
+        "C": "o no la tenían.",
+        "D": "y muchos especialistas en antropología lo destacan."
+      },
+      "clave": "C",
+      "explicacion": "Las tautologías son aquellos enunciados que son necesariamente verdaderos, no son meras verdades, siendo que son verdaderas por su forma lógica, sea como sea el mundo. Las contradicciones son necesariamente falsas. A diferencia de las tautologías y las contradicciones, las contingencias son enunciados que tal vez sean verdaderos o tal vez falsos, pero no son necesariamente ninguna de las dos cosas. Aun enunciados que nos parecen obviamente verdaderos serán contingentes si su verdad depende de cuestiones empíricas y no de la estructura misma de la oración. Así, el enunciado “La capital de Argentina es Buenos Aires” es verdadero pero es meramente contingente: si el proyecto de trasladar la capital a Viedma hubiera resultado exitoso, aquella oración hubiera sido falsa hoy. De modo semejante, la oración “Los dinosaurios no se extinguieron” es una oración falsa pero contingente: si las cosas hubieran resultado diferentes, esa oración podría haber resultado verdadera en la actualidad. Notá que esto no ocurre con las tautologías y contradicciones, no importa cómo hubieran resultado las cosas, la oración “Buenos Aires es y no es la capital de Argentina” no puede ser verdadera porque es una contradicción y la oración “Buenos Aires es o no es la capital de Argentina” no puede ser falsa porque es una tautología."
+    },
+    {
+      "n": 7,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dados los siguientes enunciados, determiná qué conclusión se infiere de modo válido.\nLos aztecas rendían culto a una única deidad o eran politeístas. Pero no es cierto que rindieran culto a una única deidad.\nSeleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Los aztecas rendían culto a una única deidad y eran politeístas.",
+        "B": "Los aztecas no eran politeístas.",
+        "C": "Los aztecas eran politeístas.",
+        "D": "Si los aztecas no rendían culto a una única deidad, no eran politeístas."
+      },
+      "clave": "C",
+      "explicacion": "En este ejercicio se te pide que elijas qué enunciado de la lista puede funcionar como la conclusión de un argumento válido dadas las premisas propuestas. Es importante tener en cuenta que los argumentos válidos se pueden reconocer de modos diferentes. Por un lado, porque no es posible que las premisas sean todas verdaderas y la conclusión falsa. Por otro lado, podemos atender a su estructura: si al seleccionar la conclusión reconocemos alguno de los esquemas presentados oportunamente en el material de lectura, tales como el Modus ponens, Modus tollens, Silogismo disyuntivo, Instanciación del universal, etc., sabemos que estamos frente a una forma válida. En este caso, hay un único enunciado que se puede inferir en forma válida, donde el argumento resultante es un caso de Silogismo disyuntivo."
+    },
+    {
+      "n": 8,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dada la siguiente deducción:\n1. Si el pueblo toba tiene su propia lengua originaria, entonces esa lengua es aglutinante. [Premisa]\n2. Si la lengua toba es aglutinante, entonces puede expresar una oración compleja en una sola palabra. [Premisa]\n3. El pueblo toba tiene su propia lengua originaria. [Premisa]\n4. La lengua toba es aglutinante. [Modus ponens, 1 y 3]\n5. Si el pueblo toba tiene su propia lengua originaria, la lengua toba puede expresar una oración compleja en una sola palabra. [*]\nDeterminá cuál es la justificación para la línea marcada con asterisco [*]. Seleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Silogismo disyuntivo, 1 y 2",
+        "B": "Silogismo hipotético, 1 y 2",
+        "C": "Simplificación, 1",
+        "D": "Adjunción, 1 y 2",
+        "E": "Modus tollens, 2 y 3"
+      },
+      "clave": "B",
+      "explicacion": "El paso señalado se obtiene por Silogismo hipotético. Recordá que en un Silogismo hipotético se concluye una oración condicional a partir de dos premisas, también condicionales, tales que el consecuente de una coincide con el antecedente de la otra, permitiendo encadenarlas. Aplicando dicha regla, se puede deducir \"Si el pueblo toba tiene su propia lengua originaria, la lengua toba puede expresar una oración compleja en una sola palabra\" a partir de las premisas \"Si el pueblo toba tiene su propia lengua originaria, entonces esa lengua es aglutinante\" y \"Si la lengua toba es aglutinante, entonces puede expresar una oración compleja en una sola palabra\"."
+    },
+    {
+      "n": "9A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dados los siguientes argumentos, determiná cuál de ellos es un argumento inductivo por analogía (A) y cuál es un silogismo inductivo (S). Escribí el número correspondiente al argumento inductivo por analogía donde dice \"A\" en la grilla de resolución.",
+      "opciones": {
+        "A": "Todos los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales. La comunidad mapuche ha mantenido su lengua ancestral. Por lo tanto, la comunidad mapuche conserva prácticas rituales tradicionales.",
+        "B": "La mayoría de los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales. La comunidad mapucheha mantenido su lengua ancestral. Por lo tanto, la comunidad mapuche conserva prácticas rituales tradicionales.",
+        "C": "Las comunidades quechua, aymara y mapuche son pueblos originarios de América del Sur y desarrollaron técnicas agrícolas complejas adaptadas a su entorno. Por lo tanto, todos los pueblos originarios de América del Sur desarrollaron técnicas agrícolas complejas adaptadas a su entorno.",
+        "D": "Las comunidades quechua y mapuche son pueblos originarios de América del Sur y desarrollaron técnicas agrícolas complejas adaptadas a su entorno. Por lo tanto, la comunidad aymara desarrolló técnicas agrícolas complejas adaptadas a su entorno, puesto que es un pueblo originario de América del Sur."
+      },
+      "clave": "D",
+      "explicacion": "Los silogismos inductivos son aquellos que parten de una generalización estadística o probabilística, subsumen un caso particular en ella y concluyen que ese caso cumple con lo establecido por la generalización. En este ejercicio, el silogismo inductivo es el argumento que parte de que \"la mayoría de los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales\", subsume a la comunidad mapuche en esa generalización, y concluye que dicha comunidad conserva prácticas rituales tradicionales. Los argumentos inductivos por analogía son aquellos en que se comparan varios casos que se asemejan en una o más propiedades, para inferir que uno de ellos tiene además otra propiedad que los demás comparten. En este ejercicio, la analogía es el argumento que compara a las comunidades quechua y mapuche, constata que comparten ser pueblos originarios de América del Sur y haber desarrollado técnicas agrícolas complejas, y concluye que la comunidad aymara, que también es un pueblo originario de América del Sur, desarrolló igualmente esas técnicas. Los otros dos argumentos no corresponden a ninguno de estos tipos: el que parte de \"todos los pueblos originarios…\" es un argumento deductivo, y el que concluye que \"todos los pueblos originarios de América del Sur desarrollaron técnicas agrícolas complejas\" es un argumento inductivo por enumeración incompleta."
+    },
+    {
+      "n": "9S",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dados los siguientes argumentos, determiná cuál de ellos es un argumento inductivo por analogía (A) y cuál es un silogismo inductivo (S). Escribí el número correspondiente al silogismo inductivo donde dice \"S\" en la grilla de resolución.",
+      "opciones": {
+        "A": "Todos los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales. La comunidad mapuche ha mantenido su lengua ancestral. Por lo tanto, la comunidad mapuche conserva prácticas rituales tradicionales.",
+        "B": "La mayoría de los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales. La comunidad mapucheha mantenido su lengua ancestral. Por lo tanto, la comunidad mapuche conserva prácticas rituales tradicionales.",
+        "C": "Las comunidades quechua, aymara y mapuche son pueblos originarios de América del Sur y desarrollaron técnicas agrícolas complejas adaptadas a su entorno. Por lo tanto, todos los pueblos originarios de América del Sur desarrollaron técnicas agrícolas complejas adaptadas a su entorno.",
+        "D": "Las comunidades quechua y mapuche son pueblos originarios de América del Sur y desarrollaron técnicas agrícolas complejas adaptadas a su entorno. Por lo tanto, la comunidad aymara desarrolló técnicas agrícolas complejas adaptadas a su entorno, puesto que es un pueblo originario de América del Sur."
+      },
+      "clave": "B",
+      "explicacion": "Los silogismos inductivos son aquellos que parten de una generalización estadística o probabilística, subsumen un caso particular en ella y concluyen que ese caso cumple con lo establecido por la generalización. En este ejercicio, el silogismo inductivo es el argumento que parte de que \"la mayoría de los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales tradicionales\", subsume a la comunidad mapuche en esa generalización, y concluye que dicha comunidad conserva prácticas rituales tradicionales. Los argumentos inductivos por analogía son aquellos en que se comparan varios casos que se asemejan en una o más propiedades, para inferir que uno de ellos tiene además otra propiedad que los demás comparten. En este ejercicio, la analogía es el argumento que compara a las comunidades quechua y mapuche, constata que comparten ser pueblos originarios de América del Sur y haber desarrollado técnicas agrícolas complejas, y concluye que la comunidad aymara, que también es un pueblo originario de América del Sur, desarrolló igualmente esas técnicas. Los otros dos argumentos no corresponden a ninguno de estos tipos: el que parte de \"todos los pueblos originarios…\" es un argumento deductivo, y el que concluye que \"todos los pueblos originarios de América del Sur desarrollaron técnicas agrícolas complejas\" es un argumento inductivo por enumeración incompleta."
+    },
+    {
+      "n": 10,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Determiná qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser un argumento inductivo por enumeración incompleta. Seleccioná una opción y escribí el número en la grilla de resolución.\nLos qom y los wichís, al igual que los aymaras, mantuvieron sus lenguas ancestrales. Por lo tanto, es probable que todos los pueblos originarios de América del Sur hayan mantenido sus lenguas ancestrales, dado que los qom, los wichís y los aymaras son pueblos originarios de América del Sur.",
+      "opciones": {
+        "A": "Los qom, los wichís y los aymaras son los únicos pueblos originarios de América del Sur.",
+        "B": "Los quechuas no mantuvieron su lengua ancestral.",
+        "C": "Los quechuas, que son un pueblo originario de América del Sur, mantuvieron su lengua ancestral.",
+        "D": "Los diaguitas mantuvieron su lengua ancestral."
+      },
+      "clave": "C",
+      "explicacion": "Un argumento inductivo por enumeración incompleta parte de la presencia de una propiedad en una muestra y concluye la presencia de esa propiedad en todo el conjunto al cual los casos de esa muestra pertenecen. El argumento inductivo más fuerte será aquel en el cual la muestra a partir de la cual se generaliza en la conclusión sea mayor. Tené en cuenta que, para que el argumento siga siendo inductivo, la muestra no puede ser igual al conjunto sobre el que se realiza la generalización."
+    }
+  ],
+  "dudas": []
+}

@@ -11,6 +11,9 @@ carreras:
         sigla: IPC
         nombre: Introducción al Pensamiento Científico
         codigo: 40
+        catedra: A · Buacar
+        instancia: Parciales y finales
+        reglas: IPC/Buacar
       - id: icse
         sigla: ICSE
         nombre: Introducción al Conocimiento de la Sociedad y el Estado

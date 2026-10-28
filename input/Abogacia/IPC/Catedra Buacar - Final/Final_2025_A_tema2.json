@@ -1,0 +1,224 @@
+{
+  "archivo": "Final_2025_A.pdf",
+  "materia": "Introducción al Pensamiento Científico (40)",
+  "catedra": "A · Buacar",
+  "instancia": "Final",
+  "fecha": "2025-02-14",
+  "periodo": "Final 02/2025",
+  "turno": null,
+  "tema": 2,
+  "fuente_clave": "explicaciones",
+  "consignas": [
+    {
+      "n": 1,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión. Seleccione una opción y escriba el número en la grilla de resolución.\nPaíses Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo de sufrir inundaciones. Luego, Argentina está en riesgo de sufrir inundaciones, pues tiene progresivos aumentos del nivel del mar.",
+      "opciones": {
+        "A": "Premisa: Argentina tiene progresivos aumentos del nivel del mar.\nPremisa: Argentina está en riesgo de sufrir inundaciones.\nConclusión: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo de sufrir inundaciones.",
+        "B": "Premisa: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo.\nPremisa: Pues Argentina tiene progresivos aumentos del nivel del mar.\nConclusión: Luego, Argentina está en riesgo de sufrir inundaciones.",
+        "C": "Premisa: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo de sufrir inundaciones.\nPremisa: Argentina está en riesgo de sufrir inundaciones.\nConclusión: Argentina tiene progresivos aumentos del nivel del mar.",
+        "D": "Premisa: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo de sufrir inundaciones.\nPremisa: Argentina tiene progresivos aumentos del nivel del mar.\nConclusión: Argentina está en riesgo de sufrir inundaciones."
+      },
+      "clave": "D",
+      "explicacion": "Para identificar la respuesta es importante recordar que hay ciertas expresiones que, cuando están, nos ayudan a identificar las premisas y la conclusión de un argumento; en el libro las llamamos indicadores de premisa y de conclusión, respectivamente. En el argumento dado encontramos \"pues\" como indicador de premisa y \"luego\" como indicador de conclusión. Es importante recordar dos cosas: (i) tanto las premisas como la conclusión se deben enunciar de manera completa, y (ii) los indicadores nunca forman parte de las premisas o la conclusión (por esas dos razones es incorrecta la opción 2)."
+    },
+    {
+      "n": "2A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba \"D\" o \"I\" en el casillero \"A\" de la grilla de resolución.\nArgumento del ejercicio 1: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo de sufrir inundaciones. Luego, Argentina está en riesgo de sufrir inundaciones, pues tiene progresivos aumentos del nivel del mar.",
+      "opciones": {
+        "A": "Deductivo (D)",
+        "B": "Inductivo (I)"
+      },
+      "clave": "B",
+      "explicacion": "Los argumentos deductivos se pueden reconocer de modos diferentes. Por un lado, porque si suponemos que ambas premisas son verdaderas, la conclusión es necesariamente verdadera. Por otro lado, podemos atender a su estructura: si reconocemos alguna estructura de las presentadas en el material de lectura, tales como el Modus Ponens, Modus Tollens, silogismo hipotético, etc., sabemos que estamos frente a una forma válida. Respecto de los argumentos inductivos, resulta concebible que las premisas sean verdaderas y la conclusión no. Si atendemos a su estructura, y reconocemos alguna de las estructuras presentadas en el material, como el argumento inductivo por enumeración incompleta, por analogía o el silogismo inductivo, sabemos que estamos frente a una forma inválida. En este caso el argumento es un argumento inductivo, específicamente un argumento inductivo por analogía, por lo que sus premisas establecen con probabilidad la conclusión."
+    },
+    {
+      "n": "2B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba \"D\" o \"I\" en el casillero \"A\" de la grilla de resolución.\nArgumento del ejercicio 1: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo de sufrir inundaciones. Luego, Argentina está en riesgo de sufrir inundaciones, pues tiene progresivos aumentos del nivel del mar.\nB. Seleccione la opción que justifica su respuesta y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Porque es imposible que tanto las premisas como la conclusión sean verdaderas.",
+        "B": "Porque la verdad de las premisas garantiza la verdad de la conclusión.",
+        "C": "Porque la conclusión no es verdadera.",
+        "D": "Porque la verdad de las premisas vuelve probable la verdad de la conclusión."
+      },
+      "clave": "D",
+      "explicacion": "Los argumentos deductivos se pueden reconocer de modos diferentes. Por un lado, porque si suponemos que ambas premisas son verdaderas, la conclusión es necesariamente verdadera. Por otro lado, podemos atender a su estructura: si reconocemos alguna estructura de las presentadas en el material de lectura, tales como el Modus Ponens, Modus Tollens, silogismo hipotético, etc., sabemos que estamos frente a una forma válida. Respecto de los argumentos inductivos, resulta concebible que las premisas sean verdaderas y la conclusión no. Si atendemos a su estructura, y reconocemos alguna de las estructuras presentadas en el material, como el argumento inductivo por enumeración incompleta, por analogía o el silogismo inductivo, sabemos que estamos frente a una forma inválida. En este caso el argumento es un argumento inductivo, específicamente un argumento inductivo por analogía, por lo que sus premisas establecen con probabilidad la conclusión."
+    },
+    {
+      "n": 3,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes afirmaciones expresa una tesis rechazada por Darwin y Lamarck. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Las especies son fijas, no sufren modificaciones a lo largo del tiempo.",
+        "B": "La adaptación de los organismos se explica por selección natural.",
+        "C": "La adaptación de los organismos al ambiente se explica por la herencia de caracteres adquiridos por uso y desuso.",
+        "D": "Todas las especies proceden de uno o de unos pocos ancestros en común."
+      },
+      "clave": "A",
+      "explicacion": "Si bien propusieron mecanismos evolutivos distintos (Darwin defendió la selección natural como principio evolutivo general mientras que Lamarck sostuvo que los organismos tienden a volverse más complejos) ambos son autores evolucionistas. Es decir, ambos sostuvieron que los organismos se transforman y dan lugar a nuevas especies a lo largo del tiempo, en contraposición al fijismo característico del creacionismo medieval."
+    },
+    {
+      "n": "4A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente explanans:\n- El 85% de los ecosistemas que experimentan alteraciones en sus ciclos biológicos, geográficos y químicos, sufre cambios significativos en su temperatura y en sus patrones de lluvia.\n- El ecosistema del Chaco argentino experimenta alteraciones en sus ciclos biológicos, geográficos y químicos.\nDetermine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la afirmación que caracteriza correctamente la explicación construida.\nA. Identifique el explanandum. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.",
+      "opciones": {
+        "A": "El ecosistema del Chaco argentino sufre cambios significativos en su temperatura y en sus patrones de lluvia.",
+        "B": "Todo ecosistema es regulado por ciclos naturales que permiten la circulación de elementos esenciales entre sus partes componentes.",
+        "C": "El ecosistema del Chaco argentino sufre cambios significativos en el ciclo del agua, del carbono y del nitrógeno.",
+        "D": "El ecosistema del Chaco argentino no sufre cambios significativos en su temperatura y en sus patrones de lluvia."
+      },
+      "clave": "A",
+      "explicacion": "De acuerdo con el modelo de cobertura legal, el explanans contiene leyes (que deben ser estadísticas o probabilísticas en las explicaciones estadístico-inductivas y universales en las explicaciones nomológico-deductivas). Además, esas leyes están acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores sin los cuales no habría ocurrido el fenómeno en cuestión). En la explicación de este ejercicio la ley contenida en el explanans es estadística. El enunciado de la opción 1 es el explanandum que se infiere con probabilidad de la ley estadística y la condición antecedente. Por ende, la explicación es estadístico-inductiva."
+    },
+    {
+      "n": "4B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente explanans:\n- El 85% de los ecosistemas que experimentan alteraciones en sus ciclos biológicos, geográficos y químicos, sufre cambios significativos en su temperatura y en sus patrones de lluvia.\n- El ecosistema del Chaco argentino experimenta alteraciones en sus ciclos biológicos, geográficos y químicos.\nDetermine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la afirmación que caracteriza correctamente la explicación construida.\nB. ¿Qué tipo de explicación es y por qué? Seleccione una opción y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Es una explicación estadístico-inductiva porque su explanandum es una ley probabilística.",
+        "B": "Es una explicación estadístico-inductiva porque contiene al menos una ley probabilística en su explanans y el explanandum se infiere del explanans con cierta probabilidad.",
+        "C": "Es una explicación nomológico-deductiva porque solo contiene leyes universales en su explanans y el explanandum se deduce del explanans.",
+        "D": "Es una explicación nomológico-deductiva porque su explanandum es una ley universal."
+      },
+      "clave": "B",
+      "explicacion": "De acuerdo con el modelo de cobertura legal, el explanans contiene leyes (que deben ser estadísticas o probabilísticas en las explicaciones estadístico-inductivas y universales en las explicaciones nomológico-deductivas). Además, esas leyes están acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores sin los cuales no habría ocurrido el fenómeno en cuestión). En la explicación de este ejercicio la ley contenida en el explanans es estadística. El enunciado de la opción 1 es el explanandum que se infiere con probabilidad de la ley estadística y la condición antecedente. Por ende, la explicación es estadístico-inductiva."
+    },
+    {
+      "n": "5HF",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la consecuencia observacional. Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice \"HF\" y el número de la opción seleccionada como consecuencia observacional donde dice \"CO\".\nPara adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de aquellas en lenguas extranjeras. Investigadores de la Escuela de Estudios Superiores en Ciencias Sociales quisieron probar que esta capacidad ya está presente en los bebés a una edad muy temprana. Para eso, realizaron un experimento sobre 40 bebés de cuatro días de edad provenientes de familias francesas. Un primer grupo de estos bebés fue expuesto a una grabación de un relato en la cual la primera parte estaba en ruso y la segunda parte estaba en inglés. El segundo grupo escuchó otra grabación en la cual la primera parte del relato estaba en ruso y la segunda parte estaba en francés. Mientras escuchaban las grabaciones, todos los bebés usaron chupetes con sensores que registraban el ritmo de la succión. Los investigadores asumieron que cuando los bebés sienten interés o curiosidad frente a un estímulo aumentan el ritmo de succión. Así, esperaban observar una mayor aceleración del ritmo de succión al escuchar la grabación en los bebés del segundo grupo que en los bebés del primer grupo. Efectivamente, observaron que en el segundo grupo el ritmo aumentó entre 10 y 20 succiones por minuto cuando la grabación cambiaba de ruso a francés, mientras que en el primer grupo no se observaron variaciones de ritmo significativas.\n¿Cuál es la hipótesis fundamental? (casillero \"HF\")",
+      "opciones": {
+        "A": "Los chupetes tienen sensores que registran el cambio de lengua en las grabaciones.",
+        "B": "Habrá una aceleración del ritmo de succión similar en los bebés del segundo grupo y en los bebés del primer grupo.",
+        "C": "Para adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de aquellas en lenguas extranjeras.",
+        "D": "Los sensores de los chupetes registrarán una mayor aceleración del ritmo de succión al escuchar la grabación en los bebés del segundo grupo que en los bebés del primer grupo.",
+        "E": "La capacidad de distinguir proferencias en la lengua materna de proferencias en lenguas extranjeras está presente en los bebés a una edad muy temprana.",
+        "F": "Cuando los bebés sienten interés o curiosidad frente a un estímulo aumentan el ritmo de succión."
+      },
+      "clave": "E",
+      "explicacion": "En este ejercicio se pide que identifiques la hipótesis fundamental y la consecuencia observacional del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento. En cambio, la consecuencia observacional es un enunciado empírico básico que expresa lo que cabe esperar a la luz de la hipótesis fundamental, dadas las condiciones iniciales en las que se lleva a cabo el experimento y la/s hipótesis auxiliar/es que se asume/n."
+    },
+    {
+      "n": "5CO",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la consecuencia observacional. Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice \"HF\" y el número de la opción seleccionada como consecuencia observacional donde dice \"CO\".\nPara adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de aquellas en lenguas extranjeras. Investigadores de la Escuela de Estudios Superiores en Ciencias Sociales quisieron probar que esta capacidad ya está presente en los bebés a una edad muy temprana. Para eso, realizaron un experimento sobre 40 bebés de cuatro días de edad provenientes de familias francesas. Un primer grupo de estos bebés fue expuesto a una grabación de un relato en la cual la primera parte estaba en ruso y la segunda parte estaba en inglés. El segundo grupo escuchó otra grabación en la cual la primera parte del relato estaba en ruso y la segunda parte estaba en francés. Mientras escuchaban las grabaciones, todos los bebés usaron chupetes con sensores que registraban el ritmo de la succión. Los investigadores asumieron que cuando los bebés sienten interés o curiosidad frente a un estímulo aumentan el ritmo de succión. Así, esperaban observar una mayor aceleración del ritmo de succión al escuchar la grabación en los bebés del segundo grupo que en los bebés del primer grupo. Efectivamente, observaron que en el segundo grupo el ritmo aumentó entre 10 y 20 succiones por minuto cuando la grabación cambiaba de ruso a francés, mientras que en el primer grupo no se observaron variaciones de ritmo significativas.\n¿Cuál es la consecuencia observacional? (casillero \"CO\")",
+      "opciones": {
+        "A": "Los chupetes tienen sensores que registran el cambio de lengua en las grabaciones.",
+        "B": "Habrá una aceleración del ritmo de succión similar en los bebés del segundo grupo y en los bebés del primer grupo.",
+        "C": "Para adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de aquellas en lenguas extranjeras.",
+        "D": "Los sensores de los chupetes registrarán una mayor aceleración del ritmo de succión al escuchar la grabación en los bebés del segundo grupo que en los bebés del primer grupo.",
+        "E": "La capacidad de distinguir proferencias en la lengua materna de proferencias en lenguas extranjeras está presente en los bebés a una edad muy temprana.",
+        "F": "Cuando los bebés sienten interés o curiosidad frente a un estímulo aumentan el ritmo de succión."
+      },
+      "clave": "D",
+      "explicacion": "En este ejercicio se pide que identifiques la hipótesis fundamental y la consecuencia observacional del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento. En cambio, la consecuencia observacional es un enunciado empírico básico que expresa lo que cabe esperar a la luz de la hipótesis fundamental, dadas las condiciones iniciales en las que se lleva a cabo el experimento y la/s hipótesis auxiliar/es que se asume/n."
+    },
+    {
+      "n": 6,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el falsacionismo de Popper, pero rechazada por el empirismo lógico representado por Hempel. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "No hay un desarrollo continuo y progresivo del conocimiento científico.",
+        "B": "La ciencia progresa por medio de la eliminación de teorías falsas, sin alcanzar la verdad definitivamente.",
+        "C": "La ciencia progresa aproximándose a la verdad.",
+        "D": "La ciencia progresa mediante la justificación inductiva de sus hipótesis, que se van complejizando y extendiendo su ámbito de aplicación."
+      },
+      "clave": "B",
+      "explicacion": "Tanto Popper como Hempel consideran que hay un desarrollo continuo del conocimiento científico, que se acerca progresivamente a la verdad. Sin embargo, conciben este progreso de modo diferente. Según el empirismo lógico representado por Hempel, las hipótesis pueden ser confirmadas al aumentar su probabilidad por medio de la inducción. En consecuencia, el progreso científico consiste en un proceso acumulativo en el que las teorías reciben la justificación inductiva confirmatoria que les confiere un alto grado de probabilidad. Por su parte, Popper rechaza la posibilidad de confirmar una hipótesis de este modo y sostiene que, cuando la contrastación es favorable, la hipótesis es aceptada provisoriamente por resistir los intentos de refutación llevados a cabo. Consiguientemente, en este último caso el progreso científico se concibe como un avance (paulatino pero nunca definitivo) hacia la verdad mediante el proceso de eliminación de teorías falsas."
+    },
+    {
+      "n": 7,
+      "puntos": 1,
+      "tipo": "vf_justificada",
+      "enunciado": "Determine si el siguiente enunciado es verdadero o falso y por qué según la epistemología de Kuhn. Seleccione una opción y escriba el número en la grilla de resolución.\nEl período de crisis sobreviene en cuanto aparece una anomalía.",
+      "opciones": {
+        "A": "El enunciado es falso porque para que se produzca la crisis es necesario que las anomalías se generalicen y radicalicen.",
+        "B": "El enunciado es falso porque la crisis se produce cuando hay muchos enigmas sin resolver.",
+        "C": "El enunciado es verdadero porque la aparición de una anomalía genera la pérdida de confianza en el paradigma vigente.",
+        "D": "El enunciado es verdadero porque una anomalía genera la proliferación de nuevos paradigmas rivales."
+      },
+      "clave": "A",
+      "explicacion": "Una anomalía es un problema que el paradigma no puede resolver. Sin embargo, una sola anomalía no alcanza para generar la pérdida de confianza en el paradigma vigente y generar la crisis, ya que la comunidad científica podría encontrar una manera de transformarla en un enigma, es decir, en un problema que pueda ser resuelto con los recursos del paradigma. Es cuando estas anomalías persisten y se radicalizan que sobreviene la crisis."
+    },
+    {
+      "n": "8A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del punto de vista. Escriba \"V\" o \"F\" donde dice \"A\" en la grilla de resolución.\nEn el estudio de las desigualdades de género, las perspectivas de las mujeres y de los varones pueden alcanzar profundidades semejantes.",
+      "opciones": {
+        "A": "Verdadero (V)",
+        "B": "Falso (F)"
+      },
+      "clave": "B",
+      "explicacion": "Para la teoría del punto de vista, la perspectiva de las mujeres es epistémicamente privilegiada porque revela las regularidades fundamentales que subyacen a los fenómenos sociales y psicosociales en los que el género está involucrado. Lo que parece natural y necesario desde la perspectiva dominante resulta contingente e históricamente dado desde la perspectiva de las oprimidas. La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas."
+    },
+    {
+      "n": "8B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del punto de vista. Escriba \"V\" o \"F\" donde dice \"A\" en la grilla de resolución.\nEn el estudio de las desigualdades de género, las perspectivas de las mujeres y de los varones pueden alcanzar profundidades semejantes.\nB. Seleccione la opción que justifica su respuesta y escriba el número donde dice \"B\" en la grilla de resolución.",
+      "opciones": {
+        "A": "Los puntos de vista de los varones y de las mujeres respecto de las desigualdades de género son incomparables.",
+        "B": "El grado de profundidad alcanzado por las mujeres como grupo desfavorecido y de los varones como grupo dominante es semejante gracias al método científico utilizado en los estudios de género.",
+        "C": "El punto de vista de las mujeres como grupo desfavorecido revela regularidades fundamentales mientras que la perspectiva de los varones como grupo dominante solo capta regularidades superficiales.",
+        "D": "La profundidad de los estudios está en función de los valores personales y no del grupo al que se pertenece."
+      },
+      "clave": "C",
+      "explicacion": "Para la teoría del punto de vista, la perspectiva de las mujeres es epistémicamente privilegiada porque revela las regularidades fundamentales que subyacen a los fenómenos sociales y psicosociales en los que el género está involucrado. Lo que parece natural y necesario desde la perspectiva dominante resulta contingente e históricamente dado desde la perspectiva de las oprimidas. La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas."
+    },
+    {
+      "n": 9,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Lea el siguiente fragmento periodístico. Teniendo en cuenta los debates sobre ética científica, determine cuál de las opciones es más representativa de la postura anticientificista. Seleccione una opción y escriba el número en la grilla de resolución.\nEn 2013, en Estados Unidos, se lanzó la Iniciativa BRAIN, un proyecto científico cuyo objetivo es acelerar el desarrollo y la aplicación de tecnologías avanzadas para estudiar el cerebro. Su misión principal es desarrollar herramientas capaces de mapear la actividad cerebral en tiempo real y comprender cómo las redes neuronales generan pensamientos, emociones, comportamientos y cómo se relacionan con enfermedades neurológicas. Rafael Yuste, uno de sus impulsores, ha advertido que estos avances presentan importantes desafíos éticos, ya que la neurotecnología desarrollada podría ser utilizada para manipular o interferir en la actividad cerebral, comprometiendo aspectos como la privacidad mental y la libertad de decisión de las personas.",
+      "opciones": {
+        "A": "El uso o mal uso de las neurotecnologías derivadas de las investigaciones del proyecto BRAIN debe estar regulado por los Estados. En este sentido, mientras los científicos actúen conforme a las leyes de sus países, están cumpliendo con su responsabilidad ética. En este contexto, el cumplimiento de la ley es suficiente para asegurar que los descubrimientos científicos sean utilizados de manera responsable.",
+        "B": "El desarrollo tecnocientífico, en este caso el proyecto de mapear el cerebro y desarrollar neurotecnología para su medición y manipulación, puede poner en riesgo la autonomía y privacidad de las personas. No es posible separar el desarrollo de la investigación de sus posibles aplicaciones, y los científicos no pueden eludir su responsabilidad si los resultados de su trabajo se utilizan con fines éticamente cuestionables.",
+        "C": "El objetivo del proyecto BRAIN fue transformar el estudio del cerebro humano mediante la creación de herramientas y tecnologías innovadoras para entender más profundamente el funcionamiento de las neuronas y los circuitos cerebrales. Los científicos no deberían cargar con la responsabilidad sobre los usos de sus descubrimientos, dado que la responsabilidad de cómo se aplican esos conocimientos recae exclusivamente en las empresas o Estados que los utilicen para ciertos propósitos.",
+        "D": "Los científicos producen conocimientos en ciencia básica y aplicada que nos permiten mapear la actividad cerebral en tiempo real y entender cómo las redes neuronales generan pensamientos, emociones, comportamientos y cómo están relacionadas con las enfermedades neurológicas. A partir de estos descubrimientos se pueden desarrollar neurotecnologías que podrían tener efectos negativos en la privacidad mental o en la autonomía de las decisiones de las personas. Sin embargo, la responsabilidad de estas consecuencias recae exclusivamente en quienes desarrollan y aplican dichas tecnologías."
+      },
+      "clave": "B",
+      "explicacion": "Según la postura anticientificista, el desarrollo científico y el uso tecnológico de los descubrimientos son indisociables. La posición anticientificista sostiene que deberíamos hablar de \"tecnociencia\" como una esfera común que reúne ambas dimensiones. Por lo tanto, los científicos que llevan adelante investigaciones (incluso en áreas altamente abstractas) no son menos responsables que quienes desarrollan tecnologías y aplicaciones concretas."
+    },
+    {
+      "n": "10A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso que se relata a continuación. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.\nWei-Hock Soon es conocido por sus estudios que desafiaron el consenso científico sobre el cambio climático, argumentando que el calentamiento global se debía principalmente a la actividad solar, y no a las emisiones de gases de efecto invernadero causadas por actividades humanas. Durante años, Soon publicó varios artículos muy influyentes en la política pública de EUA que minimizaban el impacto del CO2 en el cambio climático, lo que atrajo atención en los círculos de negacionistas climáticos y en algunos sectores de la industria. Sin embargo, en 2015 se reveló que Soon había recibido más de 1.2 millones de dólares en financiamiento no revelado de empresas vinculadas a la industria de los combustibles fósiles, como ExxonMobil y la Southern Company, una gran empresa de energía. Si bien no se trata de un delito, causó un fuerte polémica el hecho de que Soon no hubiera declarado esta fuente de financiamiento en sus publicaciones académicas.",
+      "opciones": {
+        "A": "Acceso a la información",
+        "B": "Conflictos de interés",
+        "C": "Incentivos perversos",
+        "D": "Revisión de pares"
+      },
+      "clave": "B",
+      "explicacion": "Los conflictos de interés se producen cuando una investigación está financiada por una persona u organismo que tiene un interés propio en que la investigación produzca algún resultado determinado. Esto es lo que ocurrió en este caso. Es habitual, hoy en día, que los científicos declaren de dónde obtuvieron su financiamiento, aunque esto por sí solo no alcanza para despejar conflictos de interés, porque no es fácil conocer los intereses de las organizaciones que los financian. En cualquier caso, está claro que hay un problema ético si los resultados de una investigación están decididos de antemano por la persona o institución que otorga el financiamiento."
+    },
+    {
+      "n": "10B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso que se relata a continuación. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.\nWei-Hock Soon es conocido por sus estudios que desafiaron el consenso científico sobre el cambio climático, argumentando que el calentamiento global se debía principalmente a la actividad solar, y no a las emisiones de gases de efecto invernadero causadas por actividades humanas. Durante años, Soon publicó varios artículos muy influyentes en la política pública de EUA que minimizaban el impacto del CO2 en el cambio climático, lo que atrajo atención en los círculos de negacionistas climáticos y en algunos sectores de la industria. Sin embargo, en 2015 se reveló que Soon había recibido más de 1.2 millones de dólares en financiamiento no revelado de empresas vinculadas a la industria de los combustibles fósiles, como ExxonMobil y la Southern Company, una gran empresa de energía. Si bien no se trata de un delito, causó un fuerte polémica el hecho de que Soon no hubiera declarado esta fuente de financiamiento en sus publicaciones académicas.\nB. Seleccione la opción que justifica su respuesta y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Porque las revistas académicas tenían incentivos para publicar los artículos que contradecían el consenso científico.",
+        "B": "Porque las publicaciones de Soon no tenían revisión por pares.",
+        "C": "Porque no divulgar la financiación arroja dudas sobre la integridad científica de Soon.",
+        "D": "Porque la comunidad científica no tenía acceso a la información estadística de la que Soon extraía sus conclusiones."
+      },
+      "clave": "C",
+      "explicacion": "Los conflictos de interés se producen cuando una investigación está financiada por una persona u organismo que tiene un interés propio en que la investigación produzca algún resultado determinado. Esto es lo que ocurrió en este caso. Es habitual, hoy en día, que los científicos declaren de dónde obtuvieron su financiamiento, aunque esto por sí solo no alcanza para despejar conflictos de interés, porque no es fácil conocer los intereses de las organizaciones que los financian. En cualquier caso, está claro que hay un problema ético si los resultados de una investigación están decididos de antemano por la persona o institución que otorga el financiamiento."
+    }
+  ],
+  "dudas": []
+}

@@ -30,7 +30,7 @@ Hablás en español rioplatense con voseo, cercano y directo, y siempre le habl�
 En cada pedido recibís:
 - la ficha de afirmación: la única fuente de verdad sobre lo que sostiene el autor y sobre las trampas típicas;
 - la pregunta del examen real, con sus opciones y la clave;
-- la explicación del alumno (escrita o dictada) y cuánta seguridad tenía. El alumno no vio las opciones de la grilla: explicó con sus palabras.
+- la explicación del alumno (escrita o dictada) y cuánta seguridad tenía. En general el alumno no vio las opciones de la grilla y explicó con sus palabras; cada pedido dice qué vio.
 
 Reglas:
 - Evaluás contra la ficha, no contra lo que sabés del tema. En el examen cuenta lo que dice el autor según la cátedra. Si la explicación tiene sentido pero no es lo que sostiene el autor, decilo con claridad.
@@ -40,10 +40,10 @@ Reglas:
 
 // Explainer Mode (rules/00_modelo_de_aprendizaje.md, etapas 3 y 4): el alumno explica sin opciones;
 // Claude deduce qué habría marcado en el examen y califica la claridad.
-const REGLAS_EXPLICACION = `Tarea: el alumno explicó la pregunta con sus palabras, sin ver las opciones de la grilla. Evaluá su explicación.
+const REGLAS_EXPLICACION = `Tarea: el alumno explicó la pregunta con sus palabras, en general sin ver las opciones de la grilla. Evaluá su explicación.
 
 Leé su explicación como si fuera su respuesta al examen, según el tipo de pregunta:
-- vf_justificada y simple: respuesta_inferida es la letra que habría marcado (en verdadero/falso, por el veredicto y el motivo que da). Si es una pregunta de relacionar ("¿Qué autor corresponde…?"), es la letra del autor que nombra.
+- vf_justificada y simple: respuesta_inferida es la letra que habría marcado (en verdadero/falso, por el veredicto y el motivo que da). Si es una pregunta de relacionar ("¿Qué autor corresponde…?"), es la letra del autor que nombra. Si vio las opciones y eligió una, respuesta_inferida es esa letra: evaluá si su explicación sostiene esa elección.
 - combinada: juicios con cada afirmación A a D, y respuesta_inferida es la letra de la grilla que coincide con las que da por correctas.
 - multiple y vf_items: juicios con cada afirmación u opción (todas las letras que tenga la pregunta); respuesta_inferida es "ninguna".
 - completar: huecos con la palabra que pondría en cada hueco, en orden, elegida entre las opciones de ese hueco si lo que dijo coincide con alguna; si no dice nada para un hueco, "". respuesta_inferida es "ninguna".
@@ -52,7 +52,7 @@ En los campos que no corresponden al tipo: juicios y huecos van como lista vací
 por_que_esa_respuesta: en una o dos oraciones, qué parte de su explicación lleva a esa respuesta.
 
 claridad: cuatro chequeos, cada uno true o false:
-- dice_la_respuesta: se entiende qué responde (verdadero o falso, o qué afirmaciones son correctas).
+- dice_la_respuesta: se entiende qué responde (verdadero o falso, o qué afirmaciones son correctas). Si eligió una de las opciones, la respuesta es esa.
 - da_el_motivo_del_autor: da el motivo, y es el que sostiene el autor según la ficha.
 - usa_bien_los_conceptos: usa los conceptos de la materia con precisión, sin confundir conceptos vecinos.
 - se_entiende_sin_ambiguedad: alguien que no sabe del tema lo entendería; no se contradice ni queda abierto a dos lecturas.
@@ -140,11 +140,12 @@ export function proveedor() {
   return cliDisponible() ? "sesion" : null;
 }
 
-function contexto({ materia, ficha, version, tipo, seguridad, explicacion, intento, dictada }) {
+function contexto({ materia, ficha, version, tipo, eleccion, seguridad, explicacion, intento, dictada }) {
   const { preguntas, ...fichaSinIds } = ficha;
   const opciones = Object.entries(version.opciones).map(([k, v]) => `${k}. ${v}`).join("\n");
   const conGrilla = Object.values(version.opciones).some((o) => /^Las opciones correctas son/.test(o));
-  const vio = conGrilla ? "Vio el enunciado y las afirmaciones A a D, sin la grilla de combinaciones." : {
+  const vio = eleccion ? `Vio el enunciado y las opciones, y eligió la ${eleccion}.`
+    : conGrilla ? "Vio el enunciado y las afirmaciones A a D, sin la grilla de combinaciones." : {
     vf_justificada: "Vio solo el enunciado, sin las opciones.",
     simple: "Vio solo el enunciado, sin las opciones.",
     combinada: "Vio el enunciado y las afirmaciones A a D, sin la grilla de combinaciones.",

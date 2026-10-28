@@ -98,6 +98,7 @@ preguntas: [icse-2026-1c-p1-c06, ...]
 **Reglas del diagnóstico**
 - Formato real (mismos tres tipos de consigna), pero **sin reloj** y **sin feedback** durante la prueba. Primero medimos, después enseñamos.
 - 18 preguntas como máximo, que cubran todas las unidades del parcial. No más de 15 minutos.
+- **Quick Demo:** el mismo diagnóstico con 4 preguntas, para probar cómo funciona. Las respuestas también entran al mapa.
 - Preguntas mezcladas de distintas unidades, no agrupadas por unidad.
 - En las combinadas pedimos V/F por cada afirmación (A–D) además de la letra final. Así sabemos **cuál** afirmación falló, no solo que falló la consigna.
 - El resultado no es una nota: es un **mapa por afirmación** con los cuatro colores y el primer tipo de error que aparece ("confundís Estado con gobierno").
@@ -125,9 +126,12 @@ Esta es la diferencia con cualquier banco de preguntas. **La explicación es el 
 
 En la práctica **no hay opciones para elegir**: el alumno explica y la IA deduce qué habría marcado. Explicar sin ver las opciones obliga a recordar la idea, no a reconocerla, y no deja adivinar. El diagnóstico y los simulacros siguen en el formato real del examen.
 
+La excepción son las preguntas que no se pueden contestar sin ver las opciones ("¿Cuál de las siguientes afirmaciones…?"). Ahí el alumno elige una y explica por qué es la correcta.
+
 **Qué ve el alumno**
 - **Verdadero/falso:** solo el enunciado, sin las cuatro opciones "Es verdadero, porque…".
 - **Combinadas:** el enunciado y las afirmaciones A a D, sin la grilla de combinaciones (E a H).
+- **"¿Cuál de las siguientes…?":** el enunciado y las opciones para elegir una. Se corrige la opción elegida, y la IA evalúa si la explicación la sostiene.
 
 **Flujo de cada pregunta**
 1. **Marca la seguridad**: seguro / dudo / adiviné.

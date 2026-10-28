@@ -1,0 +1,204 @@
+{
+  "archivo": "2doParcial_2025_A.pdf",
+  "materia": "Introducción al Pensamiento Científico (40)",
+  "catedra": "A · Buacar",
+  "instancia": "2do Parcial",
+  "fecha": "2025-05-30",
+  "periodo": "1C 2025",
+  "turno": null,
+  "tema": 2,
+  "fuente_clave": "explicaciones",
+  "consignas": [
+    {
+      "n": "1A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "A. Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Escriba el número de la opción seleccionada en el casillero \"1 A\" de la grilla de resolución.\n¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores David Kidd y Emanuele Castano se propusieron investigar si la lectura de relatos de ficción mejora las habilidades empáticas. Para ello, realizaron el siguiente experimento. Al inicio del estudio se les tomó a los participantes el test de lectura de la mente en los ojos (RMET), un test donde los participantes deben reconocer, viendo fotografías de distintos rostros, las emociones que están experimentando las personas fotografiadas, y de acuerdo a la cantidad de reconocimientos correctos reciben un puntaje. Un mayor puntaje en el RMET indica mejores habilidades empáticas. Después se los dividió en dos grupos. A los participantes de uno de los grupos se les asignó aleatoriamente la lectura de uno de tres textos breves de ficción, por ejemplo, un cuento de Anton Chéjov, mientras que a los participantes del otro grupo se les asignó uno de tres textos breves de no ficción, como artículos de diario. Luego de la lectura, todos los participantes completaron nuevamente el test RMET y se compararon los resultados. Se registró un mayor aumento en los resultados del RMET con respecto a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.",
+      "opciones": {
+        "A": "El puntaje del RMET disminuirá con respecto al inicial para las personas empáticas que lean textos de ficción.",
+        "B": "El puntaje en el RMET aumentará con respecto al inicial en mayor proporción para el grupo que lea los textos de ficción que para el que lea textos de no ficción.",
+        "C": "La lectura de relatos de ficción, en comparación con textos no ficcionales, es preferida por las personas más empáticas.",
+        "D": "Un mayor puntaje en el RMET indica mejores habilidades empáticas.",
+        "E": "Distintos aspectos genéticos, culturales, psicológicos y sociales influyen en las habilidades empáticas de las personas.",
+        "F": "La lectura de relatos de ficción mejora las habilidades empáticas."
+      },
+      "clave": "F",
+      "explicacion": "En este ejercicio se pide que identifiques la hipótesis fundamental del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento."
+    },
+    {
+      "n": "1B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "A. Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Escriba el número de la opción seleccionada en el casillero \"1 A\" de la grilla de resolución.\n¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores David Kidd y Emanuele Castano se propusieron investigar si la lectura de relatos de ficción mejora las habilidades empáticas. Para ello, realizaron el siguiente experimento. Al inicio del estudio se les tomó a los participantes el test de lectura de la mente en los ojos (RMET), un test donde los participantes deben reconocer, viendo fotografías de distintos rostros, las emociones que están experimentando las personas fotografiadas, y de acuerdo a la cantidad de reconocimientos correctos reciben un puntaje. Un mayor puntaje en el RMET indica mejores habilidades empáticas. Después se los dividió en dos grupos. A los participantes de uno de los grupos se les asignó aleatoriamente la lectura de uno de tres textos breves de ficción, por ejemplo, un cuento de Anton Chéjov, mientras que a los participantes del otro grupo se les asignó uno de tres textos breves de no ficción, como artículos de diario. Luego de la lectura, todos los participantes completaron nuevamente el test RMET y se compararon los resultados. Se registró un mayor aumento en los resultados del RMET con respecto a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.\nB. Indique por qué el enunciado que eligió como hipótesis fundamental puede funcionar como tal en este caso de investigación. Escriba el número de la opción seleccionada en el casillero \"1 B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Porque es un enunciado general propuesto con el objetivo de salvar de la refutación a la hipótesis que está siendo contrastada.",
+        "B": "Porque es un enunciado general que se pone a prueba en la investigación.",
+        "C": "Porque es un enunciado singular o muestral que se deduce de la hipótesis y expresa un hecho que debería suceder en caso de que la hipótesis fuera verdadera.",
+        "D": "Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para deducir la consecuencia observacional."
+      },
+      "clave": "B",
+      "explicacion": "En este ejercicio se pide que identifiques la hipótesis fundamental del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento."
+    },
+    {
+      "n": 2,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Lea las opciones presentadas en la parte \"A\", seleccione la opción correcta y escriba en la grilla de resolución el número de la opción seleccionada.\nCaso del ejercicio 1:\n¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores David Kidd y Emanuele Castano se propusieron investigar si la lectura de relatos de ficción mejora las habilidades empáticas. Para ello, realizaron el siguiente experimento. Al inicio del estudio se les tomó a los participantes el test de lectura de la mente en los ojos (RMET), un test donde los participantes deben reconocer, viendo fotografías de distintos rostros, las emociones que están experimentando las personas fotografiadas, y de acuerdo a la cantidad de reconocimientos correctos reciben un puntaje. Un mayor puntaje en el RMET indica mejores habilidades empáticas. Después se los dividió en dos grupos. A los participantes de uno de los grupos se les asignó aleatoriamente la lectura de uno de tres textos breves de ficción, por ejemplo, un cuento de Anton Chéjov, mientras que a los participantes del otro grupo se les asignó uno de tres textos breves de no ficción, como artículos de diario. Luego de la lectura, todos los participantes completaron nuevamente el test RMET y se compararon los resultados. Se registró un mayor aumento en los resultados del RMET con respecto a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.",
+      "opciones": {
+        "A": "El puntaje del RMET disminuirá con respecto al inicial para las personas empáticas que lean textos de ficción.",
+        "B": "El puntaje en el RMET aumentará con respecto al inicial en mayor proporción para el grupo que lea los textos de ficción que para el que lea textos de no ficción.",
+        "C": "La lectura de relatos de ficción, en comparación con textos no ficcionales, es preferida por las personas más empáticas.",
+        "D": "Un mayor puntaje en el RMET indica mejores habilidades empáticas.",
+        "E": "Distintos aspectos genéticos, culturales, psicológicos y sociales influyen en las habilidades empáticas de las personas.",
+        "F": "La lectura de relatos de ficción mejora las habilidades empáticas."
+      },
+      "clave": "B",
+      "explicacion": "En este ejercicio se pide que identifiques la consecuencia observacional del caso de investigación presentado. Para ello, es importante tener en cuenta que la consecuencia observacional es un enunciado empírico básico que expresa lo que cabe esperar a la luz de la hipótesis principal, dadas las condiciones iniciales en las que se lleva a cabo el experimento y la hipótesis auxiliar que se asume."
+    },
+    {
+      "n": 3,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir de la teoría de Lamarck. Escriba en la grilla de resolución el número de la opción seleccionada.\nLos búhos tienen una visión muy potente.",
+      "opciones": {
+        "A": "Entre los ancestros de los búhos, aquellos con una visión más potente resultaron más aptos para alimentarse y reproducirse, lo que produjo una mayor presencia de ese rasgo entre sus descendientes.",
+        "B": "Los búhos fueron creados siguiendo un arquetipo común al conjunto de las aves rapaces nocturnas; puesto que todas las aves pertenecientes a esa clase deben ser eficaces en el vuelo rapaz, cuentan con una visión potente.",
+        "C": "Para las sucesivas generaciones de los ancestros de los búhos, ejercitar la visión resultaba indispensable para cazar; esto hizo que adquirieran una visión cada vez mejor en el curso de sus vidas y heredaran ese rasgo a sus descendientes.",
+        "D": "Los rasgos de los búhos varían aleatoriamente a lo largo de los años. En algún momento azarosamente aparecieron búhos con una visión más potente, lo cual representó una ventaja a la hora de sobrevivir. Por esa razón ese rasgo fue heredado a sucesivas generaciones."
+      },
+      "clave": "C",
+      "explicacion": "En este ejercicio se te pide que señales la explicación lamarckiana de un rasgo específico. La teoría lamarckiana de la evolución reconoce dos mecanismos generales: la tendencia general a la complejidad y la herencia de las características adquiridas por uso o desuso. En este caso, Lamarck sostendría que la razón por la que determinados organismos presentan un mayor grado de complejidad que otros se debe a la tendencia general. En la medida en que transcurre el tiempo, todas las especies se vuelven más complejas independientemente del ambiente."
+    },
+    {
+      "n": "4A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Escriba \"Sí\" o \"No\" en el casillero \"4 A\" de la grilla de resolución.\nLas rectas paralelas nunca se tocan.",
+      "opciones": {
+        "A": "Sí",
+        "B": "No"
+      },
+      "clave": "B",
+      "explicacion": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe tener contenido empírico y debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis y lógicamente posibles. De lo anterior se sigue que algunos enunciados o afirmaciones no son falsables: (i) los enunciados de las ciencias formales, (ii) las afirmaciones metafísicas y (iii) los enunciados probabilísticos. El enunciado de este ejercicio pertenece a las ciencias formales."
+    },
+    {
+      "n": "4B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Escriba \"Sí\" o \"No\" en el casillero \"4 A\" de la grilla de resolución.\nLas rectas paralelas nunca se tocan.\nB. Seleccione la opción que justifica su respuesta y escriba el número en el casillero \"4 B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "porque no puede traducirse al lenguaje observacional.",
+        "B": "porque está confirmado.",
+        "C": "porque no tiene falsadores potenciales.",
+        "D": "porque es poco probable."
+      },
+      "clave": "C",
+      "explicacion": "En este ejercicio se pide que determines si el enunciado pertenece al ámbito de la ciencia empírica según la posición del falsacionismo. Para ello, es importante que tengas presente que de acuerdo con esta corriente, para que un enunciado pertenezca al ámbito de la ciencia empírica debe ser falsable, esto es, debe tener contenido empírico y debe ser posible formular contra él enunciados básicos que funcionen como falsadores potenciales. Recordá que los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis y lógicamente posibles. De lo anterior se sigue que algunos enunciados o afirmaciones no son falsables: (i) los enunciados de las ciencias formales, (ii) las afirmaciones metafísicas y (iii) los enunciados probabilísticos. El enunciado de este ejercicio pertenece a las ciencias formales."
+    },
+    {
+      "n": "5L",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dado el explanandum: Este pez puso huevas en el río.\nComplete la siguiente explicación de modo que resulte una explicación nomológico deductiva. Escriba en la grilla de resolución el número de la opción seleccionada como ley donde dice \"L\" y el número de la opción seleccionada como condición antecedente donde dice \"CA\".\nL (ley):",
+      "opciones": {
+        "A": "La mayoría de los salmones ponen huevas en el río.",
+        "B": "Si este pez está en etapa de reproducción, entonces puso huevas en el río.",
+        "C": "Los salmones ponen huevas en los ríos.",
+        "D": "Este pez está en etapa de reproducción.",
+        "E": "Este pez es un salmón."
+      },
+      "clave": "C",
+      "explicacion": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez puso huevas en el río\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Los salmones ponen huevas en los ríos\" y \"Este pez es un salmón\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 2, no es una ley y no puede formar parte de una explicación de este tipo."
+    },
+    {
+      "n": "5CA",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dado el explanandum: Este pez puso huevas en el río.\nComplete la siguiente explicación de modo que resulte una explicación nomológico deductiva. Escriba en la grilla de resolución el número de la opción seleccionada como ley donde dice \"L\" y el número de la opción seleccionada como condición antecedente donde dice \"CA\".\nCA (condición antecedente):",
+      "opciones": {
+        "A": "La mayoría de los salmones ponen huevas en el río.",
+        "B": "Si este pez está en etapa de reproducción, entonces puso huevas en el río.",
+        "C": "Los salmones ponen huevas en los ríos.",
+        "D": "Este pez está en etapa de reproducción.",
+        "E": "Este pez es un salmón."
+      },
+      "clave": "E",
+      "explicacion": "De acuerdo con el modelo de cobertura legal el explanans contendrá por lo menos una ley. En este caso, por tratarse de una explicación nomológico-deductiva, dicha ley debe ser universal. Además, esas leyes estarán acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores específicos que fueron suficientes para la ocurrencia del fenómeno en cuestión). En este caso, para explicar por qué \"este pez puso huevas en el río\", el único par de enunciados que pueden funcionar como ley y condición antecedente son \"Los salmones ponen huevas en los ríos\" y \"Este pez es un salmón\", respectivamente. Por otro lado, hay que recordar que las leyes son enunciados generales que describen una regularidad empíricamente constatada. Por eso, un enunciado condicional acerca de un individuo, como el de la opción 2, no es una ley y no puede formar parte de una explicación de este tipo."
+    },
+    {
+      "n": 6,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de Kuhn. Seleccione una opción y escriba el número en la grilla de resolución.\nLas anomalías en la ciencia normal son...",
+      "opciones": {
+        "A": "problemas fácilmente resolubles con las herramientas del paradigma vigente.",
+        "B": "pruebas definitivas de la falsedad del paradigma.",
+        "C": "casos y experiencias problemáticas que no pueden resolverse en el marco del paradigma vigente.",
+        "D": "irrelevantes para el desarrollo de la ciencia."
+      },
+      "clave": "C",
+      "explicacion": "Según la epistemología de Kuhn, las anomalías son problemas o fenómenos que no pueden resolverse dentro del marco del paradigma vigente y que, al acumularse, pueden generar una crisis que lleve a un cambio de paradigma. Las anomalías no son irrelevantes, sino todo lo contrario: son fundamentales para la dinámica del cambio científico. No constituyen pruebas \"definitivas de falsedad\", pues los paradigmas no se consideran falsos, ni se abandonan automáticamente, ante la aparición de ciertos problemas."
+    },
+    {
+      "n": 7,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en ciencia se trata. Seleccione una opción y escriba el número en la grilla de resolución.\nSophie Germain (1776-1831) fue una brillante matemática francesa. Su trabajo incluye un inicio de solución al último teorema de Fermat, un detallado estudio sobre las reglas matemáticas que guían el comportamiento de las vibraciones sobre materiales elásticos y variadas discusiones con los más grandes matemáticos de su tiempo (incluidos Karl Friedrich Gauss y Adrien Marie Legendre). Pese a su gran reconocimiento y a los éxitos cosechados, la carrera de Germain estuvo marcada por los obstáculos que la sociedad de su tiempo le impuso: nunca pudo estudiar en instituciones formales de enseñanza, que estaban exclusivamente reservadas para varones, por lo que fue una autodidacta en matemáticas y tuvo que buscar tutores privados para profundizar su conocimiento. Su familia hizo todo lo posible por evitar que se dedicase a su pasión, llegando a dejarla sin luz, calefacción y ropa por las noches para que no pudiera estudiar ni siquiera a escondidas.",
+      "opciones": {
+        "A": "Aplicaciones sexistas",
+        "B": "Omisiones selectivas en la historia de la ciencia/efecto Matilda",
+        "C": "Teorías sexistas",
+        "D": "Exclusión y marginalización"
+      },
+      "clave": "D",
+      "explicacion": "El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras. En el ejercicio se trata de la manifestación que llamamos \"exclusión y marginalización\": las historiadoras, sociólogas y antropólogas feministas han mostrado que a lo largo de la historia las mujeres han sido privadas de la posibilidad de formarse y ejercer la actividad científica. En ocasiones, esta exclusión se da de manera explícita y legal, como las prohibiciones para estudiar en la universidad y ejercer la actividad científica. También hay formas de exclusión menos explícitas, como la creencia social en que hay carreras \"de varones\" y \"de mujeres\". E incluso en los casos en los que las mujeres logran acceder sin trabas a la carrera científica, es frecuente que padezcan otras formas de marginalización: por ejemplo, progresar académicamente menos que sus pares varones aún con los mismos méritos."
+    },
+    {
+      "n": 8,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista y, a la vez, rechazada por el empirismo feminista. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "La lógica y la evidencia son herramientas suficientes para elegir entre teorías rivales.",
+        "B": "El pluralismo y la crítica intersubjetiva en el seno de la comunidad científica permite detectar sesgos en la investigación.",
+        "C": "Solo la perspectiva de las mujeres permite mostrar que las desigualdades de género no son naturales sino social y culturalmente construidas.",
+        "D": "Las mujeres no poseen una perspectiva unificada por el hecho de ser mujeres."
+      },
+      "clave": "C",
+      "explicacion": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan colectivamente insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas. En cambio, el empirismo feminista sostiene que la elección de teorías depende de la evidencia disponible y la lógica de la investigación científica, tal y como sostenían los empiristas lógicos. Además, reconocen que una comunidad científica plural y abierta a la discusión posibilita la objetividad científica."
+    },
+    {
+      "n": 9,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría prioridad al financiamiento del mismo y por qué. Seleccione una opción y escriba el número en la grilla de resolución.\nUn equipo de investigadores del Instituto de Agrobiotecnología del Litoral (IAL), dependiente del CONICET y la Universidad Nacional del Litoral, en colaboración con el Ministerio de Ciencia, Tecnología e Innovación, ha desarrollado una variedad de trigo genéticamente modificada que es tolerante a las sequías, conocida como \"HB4\". Este desarrollo fue aprobado para su cultivo y consumo tras la validación por parte de organismos regulatorios. El proyecto permitirá fortalecer la posición del país en materia de innovación tecnológica y permitirá sostener la producción como parte de una estrategia de adaptación al cambio climático.",
+      "opciones": {
+        "A": "Sí, porque desarrollar variedades de trigo genéticamente modificadas contribuye a ampliar nuestro conocimiento de la estructura genética de los alimentos.",
+        "B": "No, porque este tipo de desarrollos responden a intereses económicos y productivos, lo cual no debería ser la prioridad de la ciencia.",
+        "C": "No, porque desarrollar variedades de trigo genéticamente modificadas no contribuye al avance de la ciencia básica, a la cual debería darse prioridad.",
+        "D": "Sí, porque el desarrollo del trigo HB4 tiene un impacto directo en la producción agrícola y responde a necesidades concretas de la sociedad."
+      },
+      "clave": "D",
+      "explicacion": "La perspectiva practicista afirma que se debe priorizar el financiamiento de la ciencia aplicada, ya que la ciencia debe estar explícitamente al servicio de la sociedad. Por lo tanto, desde ese punto de vista, la investigación científica debe contribuir directamente a resolver problemas prácticos vinculados al desarrollo económico y social del país. En el caso propuesto, el desarrollo mencionado contribuye directamente a estos objetivos."
+    },
+    {
+      "n": 10,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente conjunto de enunciados:\nPremisa 1: ..............................................................\nPremisa 2: Estudiar gusanos gigantes en ecosistemas subterráneos permite comprender mejor la biodiversidad y la evolución de especies desconocidas.\nConclusión: Es correcto invertir recursos públicos en investigar gusanos gigantes en ecosistemas subterráneos.\nSeleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga el juicio evaluativo establecido en la conclusión. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "La inversión pública en ciencia debe centrarse en la protección del medioambiente.",
+        "B": "Es correcto investigar especies desconocidas si esto ayuda a conocer mejor la vida en el planeta.",
+        "C": "Es correcto invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies desconocidas.",
+        "D": "Invertir recursos públicos permite comprender mejor la biodiversidad y la evolución de especies desconocidas."
+      },
+      "clave": "C",
+      "explicacion": "En un argumento donde se concluye una afirmación normativa, necesitamos que las premisas incluyan una premisa valorativa (es decir, un juicio de valor) y no solo juicios de hecho, para que no nos encontremos con un salto desde lo que “es” hacia lo que “debe ser”. En el ejercicio, las opciones 1, 2 y 3 son juicios de valor. Sin embargo, la opción 3 (\"es correcto invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies desconocidas\") es la única que permite, a partir de la premisa 2 de la consigna, inferir la conclusión. De las otras dos opciones normativas, no se puede deducir el deber específico de “invertir recursos públicos en investigar gusanos gigantes en ecosistemas subterráneos”. Por último, la opción 4 no es un juicio de valor, por lo cual, de intentar inferir una conclusión normativa a partir de ella (y la premisa 2), caeríamos en una \"falacia naturalista\"."
+    }
+  ],
+  "dudas": [
+    "consignas 5L y 5CA: el examen da una sola consigna para los dos casilleros; se agregó al final del enunciado la etiqueta de la grilla (\"L (ley):\" / \"CA (condición antecedente):\") para distinguirlas.",
+    "consigna 5L/5CA: la explicación cita «la opción 2» con la numeración original del examen (= B).",
+    "consigna 10: la explicación cita «las opciones 1, 2 y 3», «la opción 3» y «la opción 4» con la numeración original (= A, B, C; C; D)."
+  ]
+}

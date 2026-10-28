@@ -1,0 +1,231 @@
+{
+  "archivo": "Final_2026_B.pdf",
+  "materia": "Introducción al Pensamiento Científico (40)",
+  "catedra": "A · Buacar",
+  "instancia": "Final",
+  "fecha": "2026-07-03",
+  "periodo": "Final 07/2026",
+  "turno": null,
+  "tema": 1,
+  "fuente_clave": "explicaciones",
+  "consignas": [
+    {
+      "n": 1,
+      "puntos": 1,
+      "tipo": "multiple",
+      "enunciado": "Dado el siguiente argumento, indique cuáles son los enunciados que cumplen el rol de premisas. Seleccione dos opciones y escriba los números en la grilla de resolución.\nSi Brasil es el país con más copas del mundo ganadas, entonces ganó 5 mundiales. En efecto, si es el país con más copas del mundo ganadas, entonces es el único que ganó en 4 continentes. Y si Brasil es el único país que ganó en 4 continentes, entonces ganó 5 mundiales.",
+      "opciones": {
+        "A": "Si Brasil es el único país que ganó en 4 continentes, entonces ganó 5 mundiales.",
+        "B": "Si Brasil es el país con más copas del mundo ganadas, entonces ganó 5 mundiales.",
+        "C": "Si Brasil es el país con más copas del mundo ganadas, entonces es el único que ganó en 4 continentes.",
+        "D": "Si Brasil ganó 5 mundiales, entonces es el país con más copas del mundo ganadas."
+      },
+      "clave": [
+        "A",
+        "C"
+      ],
+      "explicacion": "Para identificar la respuesta es importante recordar que hay ciertas expresiones que, cuando están, nos ayudan a identificar las premisas y la conclusión de un argumento; en el libro las llamamos indicadores de premisa y de conclusión, respectivamente. En el argumento dado encontramos \"en efecto\" e \"y\" como indicadores de premisa. Es importante recordar dos cosas: (i) tanto las premisas como la conclusión se deben enunciar de manera completa, y (ii) los indicadores nunca forman parte de las premisas o la conclusión."
+    },
+    {
+      "n": "2A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Determine si el argumento del ejercicio 1 es deductivo (D), inductivo por analogía (A), inductivo por enumeración incompleta (E) o silogismo inductivo (S). Escriba \"D\", \"A\", \"E\" o \"S\" en el casillero \"A\" de la grilla de resolución.\nArgumento del ejercicio 1: Si Brasil es el país con más copas del mundo ganadas, entonces ganó 5 mundiales. En efecto, si es el país con más copas del mundo ganadas, entonces es el único que ganó en 4 continentes. Y si Brasil es el único país que ganó en 4 continentes, entonces ganó 5 mundiales.",
+      "opciones": {
+        "A": "Deductivo (D)",
+        "B": "Inductivo por analogía (A)",
+        "C": "Inductivo por enumeración incompleta (E)",
+        "D": "Silogismo inductivo (S)"
+      },
+      "clave": "A",
+      "explicacion": "Los argumentos deductivos se pueden reconocer de modos diferentes. Por un lado, porque si suponemos que sus premisas son verdaderas, la conclusión no puede ser falsa. Por otro lado, podemos atender a su estructura: si reconocemos alguna de las formas presentadas en el material de lectura, tales como el Modus Ponens, Modus Tollens, silogismo hipotético, etc., sabemos que estamos frente a un argumento válido. En cambio, en los argumentos inductivos, las premisas pueden ser verdaderas y, aun así, la conclusión puede resultar falsa. Si bien no son válidos, las premisas ofrecen un cierto grado de respaldo o probabilidad a la conclusión. Si atendemos a su estructura, y reconocemos alguna de las estructuras presentadas en el material, como el argumento inductivo por enumeración incompleta, por analogía o el silogismo inductivo, sabemos que estamos frente a un argumento inductivo. En este caso se trata de un argumento deductivo, específicamente un silogismo hipotético, por lo que sus premisas establecen de modo concluyente la conclusión."
+    },
+    {
+      "n": "2B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Determine si el argumento del ejercicio 1 es deductivo (D), inductivo por analogía (A), inductivo por enumeración incompleta (E) o silogismo inductivo (S).\nArgumento del ejercicio 1: Si Brasil es el país con más copas del mundo ganadas, entonces ganó 5 mundiales. En efecto, si es el país con más copas del mundo ganadas, entonces es el único que ganó en 4 continentes. Y si Brasil es el único país que ganó en 4 continentes, entonces ganó 5 mundiales.\nSeleccione la opción que justifica su respuesta y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Porque se parte de un enunciado estadístico o probabilístico y un caso del cual se infiere que responde a lo establecido por la generalización estadística.",
+        "B": "Porque en las premisas se parte de la semejanza entre varios casos respecto de una o más propiedades, y luego se infiere que uno de esos casos tiene además otra propiedad que los otros comparten.",
+        "C": "Porque las premisas establecen de modo concluyente la conclusión.",
+        "D": "Porque las premisas enumeran una serie de casos en los que se verifica un determinado fenómeno y sobre esa base se generaliza hacia todos los casos de ese tipo."
+      },
+      "clave": "C",
+      "explicacion": "Los argumentos deductivos se pueden reconocer de modos diferentes. Por un lado, porque si suponemos que sus premisas son verdaderas, la conclusión no puede ser falsa. Por otro lado, podemos atender a su estructura: si reconocemos alguna de las formas presentadas en el material de lectura, tales como el Modus Ponens, Modus Tollens, silogismo hipotético, etc., sabemos que estamos frente a un argumento válido. En cambio, en los argumentos inductivos, las premisas pueden ser verdaderas y, aun así, la conclusión puede resultar falsa. Si bien no son válidos, las premisas ofrecen un cierto grado de respaldo o probabilidad a la conclusión. Si atendemos a su estructura, y reconocemos alguna de las estructuras presentadas en el material, como el argumento inductivo por enumeración incompleta, por analogía o el silogismo inductivo, sabemos que estamos frente a un argumento inductivo. En este caso se trata de un argumento deductivo, específicamente un silogismo hipotético, por lo que sus premisas establecen de modo concluyente la conclusión."
+    },
+    {
+      "n": 3,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes afirmaciones expresa una tesis compartida por Darwin y Lamarck. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Las variaciones de rasgos únicamente surgen como respuesta al ambiente en el que se vive.",
+        "B": "Las distintas especies evolucionan en una escala de complejidad creciente que tiende al progreso.",
+        "C": "Las distintas especies actuales están emparentadas entre sí por descender de ancestros comunes.",
+        "D": "A lo largo de las sucesivas generaciones, las especies se transforman."
+      },
+      "clave": "D",
+      "explicacion": "Ambos autores son evolucionistas, es decir, sostienen que las especies se transforman a lo largo del tiempo. Sin embargo, propusieron mecanismos evolutivos distintos: Lamarck sostuvo que las variaciones de rasgos surgen como respuesta al ambiente en el que se vive, mientras que Darwin consideraba que algunas variaciones son aleatorias. Por otra parte, Lamarck creía que las especies tienden a volverse más complejas a medida que evolucionan siguiendo una escala de progreso creciente, mientras que Darwin rechazó esta idea y sostuvo que las especies actuales descienden de ancestros comunes."
+    },
+    {
+      "n": "4A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente explanans:\n- Todo seleccionado que termina primero en su grupo del Mundial clasifica a los dieciseisavos de final.\n- El seleccionado de Francia termina primero en su grupo del Mundial.\nDetermine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la afirmación que caracteriza correctamente la explicación construida.\nIdentifique el explanandum. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Si Francia termina primera en su grupo, entonces clasifica a los dieciseisavos de final.",
+        "B": "Todo seleccionado que clasifica a los dieciseisavos de final terminó primero en su grupo.",
+        "C": "El seleccionado de Francia no clasifica a los dieciseisavos de final.",
+        "D": "El seleccionado de Francia clasifica a los dieciseisavos de final."
+      },
+      "clave": "D",
+      "explicacion": "De acuerdo con el modelo de cobertura legal, el explanans contiene leyes (que deben ser estadísticas o probabilísticas en las explicaciones estadístico-inductivas y universales en las explicaciones nomológico-deductivas). Además, esas leyes están acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores sin los cuales no habría sucedido el fenómeno a explicar). En la explicación de este ejercicio la ley contenida en el explanans es universal. El enunciado de la opción 4 es el explanandum que se deduce a partir de dicha ley universal y la condición antecedente. Por ende, la explicación es nomológico-deductiva."
+    },
+    {
+      "n": "4B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente explanans:\n- Todo seleccionado que termina primero en su grupo del Mundial clasifica a los dieciseisavos de final.\n- El seleccionado de Francia termina primero en su grupo del Mundial.\nDetermine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la afirmación que caracteriza correctamente la explicación construida.\n¿Qué tipo de explicación es y por qué? Seleccione una opción y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Es una explicación nomológico-deductiva porque su explanandum es una ley probabilística.",
+        "B": "Es una explicación estadístico-inductiva porque el explanandum es una ley probabilística.",
+        "C": "Es una explicación nomológico-deductiva porque la ley que contiene en su explanans es universal y el explanandum se deduce del explanans.",
+        "D": "Es una explicación estadístico-inductiva porque contiene al menos una ley probabilística en su explanans y el explanandum se infiere del explanans con cierta probabilidad."
+      },
+      "clave": "C",
+      "explicacion": "De acuerdo con el modelo de cobertura legal, el explanans contiene leyes (que deben ser estadísticas o probabilísticas en las explicaciones estadístico-inductivas y universales en las explicaciones nomológico-deductivas). Además, esas leyes están acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores sin los cuales no habría sucedido el fenómeno a explicar). En la explicación de este ejercicio la ley contenida en el explanans es universal. El enunciado de la opción 4 es el explanandum que se deduce a partir de dicha ley universal y la condición antecedente. Por ende, la explicación es nomológico-deductiva."
+    },
+    {
+      "n": "5A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Escriba el número de la opción seleccionada como hipótesis fundamental donde dice \"HF\" en la grilla de resolución.\nLa capacidad de las plantas para percibir su entorno y responder a él resulta fundamental para su supervivencia. Son conocidas, por ejemplo, las respuestas de las plantas a la luz. Dado que la mayoría de las plantas que tienen flores dependen de otros organismos polinizadores para su reproducción, resulta interesante la investigación de las interacciones entre plantas y polinizadores. Investigadores de la Universidad de Tel Aviv postularon que las plantas manifiestan una respuesta rápida al sonido que producen sus polinizadores. Más específicamente, propusieron que las plantas de Oenothera drummondii aumentan la concentración de azúcar en su néctar al detectar el zumbido de las abejas. Para evaluarlo, dividieron una selección de plantas de Oenothera drummondii en dos grupos y expusieron a cada uno a una condición sonora diferente durante 3 minutos. El grupo A estuvo en silencio, mientras que el grupo B estuvo expuesto a la reproducción de una grabación de zumbido de abeja. Se basaron para esto en estudios acústicos que muestran que el zumbido de las abejas y la reproducción de grabaciones del zumbido emiten vibraciones sonoras similares. Pasados los 3 minutos, extrajeron el néctar de las flores y utilizaron un refractómetro digital para medir la concentración de azúcar en el néctar.",
+      "opciones": {
+        "A": "Las plantas de Oenothera drummondii aumentan la concentración de azúcar en su néctar al detectar el zumbido de las abejas.",
+        "B": "El zumbido de las abejas y la reproducción de grabaciones del zumbido emiten vibraciones sonoras similares.",
+        "C": "La concentración de azúcar medida en el néctar de las plantas del grupo B será mayor que la medida en las del grupo A.",
+        "D": "La mayoría de las plantas que tienen flores dependen de otros organismos polinizadores para su reproducción.",
+        "E": "Las plantas de Oenothera drummondii producirán néctar con alta concentración de azúcar.",
+        "F": "Las plantas del grupo A producirán más néctar que las del grupo B."
+      },
+      "clave": "A",
+      "explicacion": null
+    },
+    {
+      "n": "5B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente caso de investigación:\nLa capacidad de las plantas para percibir su entorno y responder a él resulta fundamental para su supervivencia. Son conocidas, por ejemplo, las respuestas de las plantas a la luz. Dado que la mayoría de las plantas que tienen flores dependen de otros organismos polinizadores para su reproducción, resulta interesante la investigación de las interacciones entre plantas y polinizadores. Investigadores de la Universidad de Tel Aviv postularon que las plantas manifiestan una respuesta rápida al sonido que producen sus polinizadores. Más específicamente, propusieron que las plantas de Oenothera drummondii aumentan la concentración de azúcar en su néctar al detectar el zumbido de las abejas. Para evaluarlo, dividieron una selección de plantas de Oenothera drummondii en dos grupos y expusieron a cada uno a una condición sonora diferente durante 3 minutos. El grupo A estuvo en silencio, mientras que el grupo B estuvo expuesto a la reproducción de una grabación de zumbido de abeja. Se basaron para esto en estudios acústicos que muestran que el zumbido de las abejas y la reproducción de grabaciones del zumbido emiten vibraciones sonoras similares. Pasados los 3 minutos, extrajeron el néctar de las flores y utilizaron un refractómetro digital para medir la concentración de azúcar en el néctar.\n¿Qué consecuencia observacional se infiere en este caso? Escriba el número de la opción seleccionada como consecuencia observacional donde dice \"CO\" en la grilla de resolución.",
+      "opciones": {
+        "A": "Las plantas de Oenothera drummondii aumentan la concentración de azúcar en su néctar al detectar el zumbido de las abejas.",
+        "B": "El zumbido de las abejas y la reproducción de grabaciones del zumbido emiten vibraciones sonoras similares.",
+        "C": "La concentración de azúcar medida en el néctar de las plantas del grupo B será mayor que la medida en las del grupo A.",
+        "D": "La mayoría de las plantas que tienen flores dependen de otros organismos polinizadores para su reproducción.",
+        "E": "Las plantas de Oenothera drummondii producirán néctar con alta concentración de azúcar.",
+        "F": "Las plantas del grupo A producirán más néctar que las del grupo B."
+      },
+      "clave": "C",
+      "explicacion": null
+    },
+    {
+      "n": 6,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes afirmaciones expresa una tesis compartida por el empirismo lógico, representado por Hempel, y el falsacionismo de Popper. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Todo enunciado no científico debe calificarse como sin sentido.",
+        "B": "Cuando la contrastación no es favorable, la hipótesis es refutada.",
+        "C": "El progreso científico es un proceso puramente acumulativo de teorías verdaderas.",
+        "D": "Es posible verificar una hipótesis universal mediante la observación."
+      },
+      "clave": "B",
+      "explicacion": "Esta afirmación expresa una tesis compartida por el empirismo lógico y el falsacionismo porque ambas corrientes se inscriben dentro de la denominada \"filosofía clásica de la ciencia\" y adoptan el modelo hipotético-deductivo como base para analizar la contrastación. Cuando una consecuencia observacional resulta ser falsa tras la contrastación empírica, aplicando la regla del Modus Tollens, se refuta o niega también el conjunto de enunciados del cual se dedujo dicha consecuencia. Así, ambos autores coinciden en que el resultado negativo de una contrastación empírica tiene la fuerza lógica para llevar a la comunidad científica a reformular o desechar el conjunto de enunciados puestos a prueba."
+    },
+    {
+      "n": 7,
+      "puntos": 1,
+      "tipo": "vf_justificada",
+      "enunciado": "Determine si el siguiente enunciado es verdadero o falso y por qué según la epistemología de Kuhn. Seleccione una opción y escriba el número en la grilla de resolución.\nAnte la aparición de anomalías, la comunidad científica abandona inmediatamente el paradigma vigente e inicia la búsqueda de uno nuevo.",
+      "opciones": {
+        "A": "El enunciado es verdadero porque las anomalías se definen precisamente como aquellos problemas que el paradigma vigente no puede resolver.",
+        "B": "El enunciado es falso porque las anomalías se definen como problemas que se presentan en el período de ciencia normal y que el paradigma enfrenta con sus herramientas.",
+        "C": "El enunciado es falso porque las anomalías desencadenan un período de crisis que no siempre culmina en el abandono del paradigma.",
+        "D": "El enunciado es verdadero porque, ante la aparición de una anomalía, los científicos pierden inmediamente la confianza en la capacidad del paradigma de resolver problemas."
+      },
+      "clave": "C",
+      "explicacion": "Según Kuhn, las anomalías son problemas que se resisten a ser explicados por el aparato teórico y metodológico con el que se desarrolla la ciencia normal: al multiplicarse y profundizarse, generan en la comunidad científica un escepticismo respecto de la viabilidad del paradigma vigente. Sin embargo, durante el período de crisis podría encontrarse alguna vía no explorada que destrabe la resolución de esos problemas y permita recuperar la confianza en el paradigma, de modo que no toda crisis culmina con su reemplazo. El abandono del paradigma no es, por tanto, una consecuencia automática ni inmediata de la aparición de anomalías."
+    },
+    {
+      "n": "8A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del punto de vista. Escriba \"V\" o \"F\" donde dice \"A\" en la grilla de resolución.\nLa situación social de las mujeres, en tanto grupo desfavorecido, les proporciona un acceso epistémicamente privilegiado a los objetos de conocimiento social y político.",
+      "opciones": {
+        "A": "Verdadero (V)",
+        "B": "Falso (F)"
+      },
+      "clave": "A",
+      "explicacion": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas."
+    },
+    {
+      "n": "8B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del punto de vista.\nLa situación social de las mujeres, en tanto grupo desfavorecido, les proporciona un acceso epistémicamente privilegiado a los objetos de conocimiento social y político.\nSeleccione la opción que justifica su respuesta y escriba el número donde dice \"B\" en la grilla de resolución.",
+      "opciones": {
+        "A": "Porque la participación de sujetos con distintas posiciones sociales, incluidas las mujeres, favorece la objetividad al permitir que los sesgos individuales sean sometidos a crítica dentro de una comunidad científica plural.",
+        "B": "Porque la identidad de los sujetos es cambiante y contingente, por lo que debe rechazarse una categoría unificada como “la mujer” en favor de una pluralidad de identidades.",
+        "C": "Porque la ciencia empírica debe alcanzar una representación única de la realidad basándose en el registro de evidencia observacional neutral e independiente de la situación del sujeto.",
+        "D": "Porque la perspectiva de las mujeres permite revelar las regularidades fundamentales que subyacen a los fenómenos sociales en los que el género está involucrado, las cuales resultan invisibles para la perspectiva dominante."
+      },
+      "clave": "D",
+      "explicacion": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas."
+    },
+    {
+      "n": 9,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Lea el caso que se propone a continuación:\nUn país costero cuya economía depende principalmente de la pesca se propone otorgar financiamiento a una gran iniciativa científica. El comité científico se debate entre el financiamiento en ciencia básica que estudie las corrientes oceánicas profundas y la biodiversidad marina, y la inversión en ciencia aplicada que desarrolle innovaciones tecnológicas para optimizar la pesca sustentable y reducir la sobreexplotación de la fauna marina local. En una reunión del comité científico, una investigadora con una postura cientificista interviene en la discusión.\n¿Qué sostendría esta investigadora desde su perspectiva cientificista? Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Defendería la postura de que deben destinarse los recursos exclusivamente a desarrollar innovaciones tecnológicas que sirvan a una pesca sustentable, lo que promovería el desarrollo social y económico del país en el corto y mediano plazo.",
+        "B": "Sugeriría dar prioridad a la investigación en ciencia básica, ya que las investigaciones que profundizan el conocimiento del mundo natural son valiosas en sí mismas, independientemente de sus resultados inmediatos.",
+        "C": "Diría que el comité científico no tiene competencia para decidir, ya que toda inversión vinculada al sistema productivo debe ser determinada por criterios políticos, no científicos.",
+        "D": "Recomendaría que los fondos se distribuyan en tercios para que se incluyan disciplinas como la filosofía y la historia, ya que son las únicas capaces de pensar críticamente las consecuencias ambientales y sociales de la sobreexplotación de la fauna marina."
+      },
+      "clave": "B",
+      "explicacion": "Para un cientificista, el progreso científico proviene de la investigación básica, independientemente de su utilidad inmediata. Desde esta perspectiva, la ciencia tiene un valor intrínseco y debe orientarse por sus propias preguntas y métodos, no por demandas prácticas, sociales o políticas. Por eso, incluso cuando no haya beneficios tangibles a corto plazo, la investigación teórica sigue siendo prioritaria: es el motor auténtico del avance científico y la condición de posibilidad de cualquier aplicación futura."
+    },
+    {
+      "n": "10A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso que se relata a continuación. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.\nEn febrero de 1998, el médico Andrew Wakefield publicó una investigación preliminar en la revista The Lancet que sugería un vínculo causal entre la vacuna triple viral (sarampión, paperas y rubéola) y el autismo. Allí se analizaban 11 niños vacunados que habían desarrollado problemas gastrointestinales y una inflamación en el cerebro. La comunidad científica demoró varios años en descartar ese supuesto vínculo a partir de diversos estudios. Sobre Wakefield, se conoció que previo a la publicación de su artículo había solicitado la patente de una vacuna alternativa que competía con la vacuna triple viral, lo que lo motivó a adulterar el estudio. Años más tarde, The Lancet retiró el artículo de su revista argumentando que las conclusiones del estudio eran falsas.",
+      "opciones": {
+        "A": "Ineficiencia del sistema de revisión por pares",
+        "B": "Incentivos perversos",
+        "C": "Conflictos de interés"
+      },
+      "clave": "C",
+      "explicacion": "Los conflictos de interés se producen cuando una investigación está financiada por una persona u organismo que tiene un interés propio en que la investigación produzca algún resultado determinado. Esto es lo que ocurrió en este caso. Es habitual, hoy en día, que los científicos declaren de dónde obtuvieron su financiamiento, pero esto por sí solo no alcanza para despejar conflictos de interés, porque no es fácil conocer los intereses de las organizaciones que los financian. En cualquier caso, está claro que hay un problema ético si los resultados de una investigación están influenciados por la persona o institución que otorga el financiamiento."
+    },
+    {
+      "n": "10B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso que se relata a continuación.\nEn febrero de 1998, el médico Andrew Wakefield publicó una investigación preliminar en la revista The Lancet que sugería un vínculo causal entre la vacuna triple viral (sarampión, paperas y rubéola) y el autismo. Allí se analizaban 11 niños vacunados que habían desarrollado problemas gastrointestinales y una inflamación en el cerebro. La comunidad científica demoró varios años en descartar ese supuesto vínculo a partir de diversos estudios. Sobre Wakefield, se conoció que previo a la publicación de su artículo había solicitado la patente de una vacuna alternativa que competía con la vacuna triple viral, lo que lo motivó a adulterar el estudio. Años más tarde, The Lancet retiró el artículo de su revista argumentando que las conclusiones del estudio eran falsas.\nSeleccione la opción que justifica su respuesta y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Porque la exigencia de publicar artículos en revistas prestigiosas incentiva a quienes investigan a recurrir a mecanismos fraudulentos para desarrollar sus investigaciones.",
+        "B": "Porque las fallas en los mecanismos de revisión por pares, que aseguran el rigor y la calidad de la investigación científica, permitieron que investigaciones basadas en datos fraudulentos sean publicadas.",
+        "C": "Porque el acceso a los estudios publicados sobre el vínculo entre la aplicación de la vacuna triple viral y la presencia de autismo en niños no se encontraba disponible para la comunidad científica.",
+        "D": "Porque quien realizó la investigación tenía interés en desestimar la vacuna triple viral y proponer una alternativa, lo que ponía en tensión la objetividad de su estudio y sus intereses comerciales."
+      },
+      "clave": "D",
+      "explicacion": "Los conflictos de interés se producen cuando una investigación está financiada por una persona u organismo que tiene un interés propio en que la investigación produzca algún resultado determinado. Esto es lo que ocurrió en este caso. Es habitual, hoy en día, que los científicos declaren de dónde obtuvieron su financiamiento, pero esto por sí solo no alcanza para despejar conflictos de interés, porque no es fácil conocer los intereses de las organizaciones que los financian. En cualquier caso, está claro que hay un problema ético si los resultados de una investigación están influenciados por la persona o institución que otorga el financiamiento."
+    }
+  ],
+  "dudas": [
+    "consignas 5A y 5B: el examen no trae explicación oficial del ejercicio 5 (después de la parte B sigue directamente el ejercicio 6), así que van sin \"explicacion\"; la clave sale de la grilla (HF: 1, CO: 3) y coincide con el resaltado.",
+    "consignas 4A y 4B: la explicación oficial nombra \"la opción 4\" con la numeración del examen (es la D de 4A). Las opciones de la parte B vienen numeradas 5 a 8 en el examen y pasaron a A–D: la clave 7 de la grilla es la C."
+  ]
+}

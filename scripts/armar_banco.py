@@ -25,20 +25,38 @@ SIMILITUD = 0.75
 # cruz…") y con un umbral alto: hay preguntas que cambian en una sola palabra clave
 # ("acción con arreglo a fines" / "a valores") y son preguntas distintas.
 SIMILITUD_TRANSCRIPCION = 0.96
-INSTRUCCION = re.compile(
-    r"^\s*(marque|seleccione|indique|establezca|complete|elija|se[ñn]ale)\b[^.:?]*?"
-    r"(la opci[oó]n|las opciones|la respuesta|la afirmaci[oó]n|cu[aá]l(es)?|correct\w*|que corresponda|verdader\w*|falsa\w*)[^.:?]*[.:]\s*",
-    re.I)
+# Palabras de las instrucciones de examen. Una oración hecha solo de esto (más dos palabras como
+# mucho) es instrucción y no cuenta para comparar: "Marque con una cruz (X) la opción correcta.",
+# "Seleccione una opción y escriba el número en la grilla de resolución."
+PALABRAS_DE_INSTRUCCION = set("""
+marque marca marcá seleccione seleccioná seleccionar indique indicá establezca establecé complete completá elija elegí señale
+escriba escribí escribir lea leé con una un la las el los lo de del en y o a al que cual cuál cuales cuáles opcion opción
+opciones respuesta respuestas afirmacion afirmación afirmaciones correcta correctas correcto corresponda correspondan
+cruz x siguiente siguientes frase oracion oración verdaderas verdadera falsas falsa son es numero número grilla resolucion
+resolución casillero talon talón dos sus su se para
+""".split())
+
+
+def es_instruccion(oracion):
+    palabras = norm(oracion).split()
+    sobran = [p for p in palabras if p not in {norm(w) for w in PALABRAS_DE_INSTRUCCION}]
+    return bool(palabras) and (len(sobran) <= 2 or bool(re.search(r"grilla|tal[oó]n|casillero", oracion, re.I)))
+
+
+def sin_instruccion(enunciado):
+    oraciones = re.split(r"(?<=[.:?])\s+", enunciado.replace("(X)", "").replace("…", " ").strip())
+    contenido = [o for o in oraciones if not es_instruccion(o)]
+    return " ".join(contenido) if contenido else enunciado
 
 
 def nucleo(enunciado):
-    texto = enunciado
-    while True:
-        sin = INSTRUCCION.sub("", texto, count=1)
-        if sin == texto or not sin.strip():
-            break
-        texto = sin
-    return norm(texto.replace("(X)", "").replace("…", " "))
+    return norm(sin_instruccion(enunciado))
+
+
+def pedido(enunciado):
+    # La primera oración: lo que se pregunta ("Identifique la hipótesis auxiliar…"). Si dos consignas
+    # comparten un caso largo pero piden otra cosa, esto las separa.
+    return norm(re.split(r"[.?:\n]", sin_instruccion(enunciado).strip(), maxsplit=1)[0])
 LETRAS = "ABCDEFGHIJKLMNOP"
 
 
@@ -156,14 +174,20 @@ def clave_de_grupo(c):
     return e
 
 
-def mismo_grupo(g, c, e):
+def mismo_grupo(g, c, e, examen):
     if g["tipo"] != c["tipo"] or bool(g.get("_exacta")) != bool(c.get("_exacta")):
+        return False
+    # Dos consignas del mismo examen no son la misma pregunta (ej.: partes "9P" y "9C" de un ejercicio),
+    # salvo en relacionar, donde un concepto puede repetirse en dos tablas del mismo examen.
+    if examen in g["_examenes"] and not c.get("_exacta"):
         return False
     if c.get("_exacta"):
         return g["_norm"] == e
     if c.get("_con_opciones"):
         # El término entre comillas es la pregunta: “acción con arreglo a fines” ≠ “a valores”.
         if g.get("_comillas") and comillas(c["enunciado"]) and g["_comillas"] != comillas(c["enunciado"]):
+            return False
+        if parecido(g["_pedido"], pedido(c["enunciado"])) < 0.9:
             return False
         return parecido(g["_norm"], e) > SIMILITUD_TRANSCRIPCION
     return parecido(g["_norm"], e) > SIMILITUD
@@ -183,12 +207,15 @@ def main():
             for c in consignas:
                 aparicion = {**{k: v for k, v in meta.items() if k != "fuente_clave"}, "tema": tema, "consigna": c["n"]}
                 e = clave_de_grupo(c)
-                g = next((g for g in grupos if mismo_grupo(g, c, e)), None)
+                examen = (meta["archivo"], tema)
+                g = next((g for g in grupos if mismo_grupo(g, c, e, examen)), None)
                 if g is None:
                     g = {"_norm": e, "_exacta": c.get("_exacta"), "_comillas": comillas(c["enunciado"]),
+                         "_pedido": pedido(c["enunciado"]),
                          "tipo": c["tipo"], "puntos": c["puntos"],
-                         "relacionar": c.get("relacionar", False), "versiones": []}
+                         "relacionar": c.get("relacionar", False), "versiones": [], "_examenes": set()}
                     grupos.append(g)
+                g["_examenes"].add(examen)
                 # Una versión nueva solo si cambian las opciones (los temas mezclan el orden).
                 firma = sorted(norm(v) for v in c["opciones"].values() if not v.startswith("Las opciones")) \
                     or [norm(o) for h in c.get("huecos", []) for o in h["opciones"]]

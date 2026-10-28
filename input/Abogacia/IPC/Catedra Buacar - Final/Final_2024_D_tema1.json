@@ -1,0 +1,224 @@
+{
+  "archivo": "Final_2024_D.pdf",
+  "materia": "Introducción al Pensamiento Científico (40)",
+  "catedra": "A · Buacar",
+  "instancia": "Final",
+  "fecha": "2024-12-05",
+  "periodo": "Final 12/2024",
+  "turno": null,
+  "tema": 1,
+  "fuente_clave": "explicaciones",
+  "consignas": [
+    {
+      "n": 1,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión. Seleccione una opción y escriba el número en la grilla de resolución.\nPodemos inferir que si se queman combustibles fósiles, aumenta la temperatura. En primer lugar, si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero. En segundo lugar, si crece la emisión de gases de efecto invernadero, aumenta la temperatura.",
+      "opciones": {
+        "A": "Premisa: Si crece la emisión de gases de efecto invernadero, aumenta la temperatura.\nPremisa: Si se queman combustibles fósiles, aumenta la temperatura.\nConclusión: Si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero.",
+        "B": "Premisa: Si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero.\nPremisa: Si crece la emisión de gases de efecto invernadero, aumenta la temperatura.\nConclusión: Si se queman combustibles fósiles, aumenta la temperatura.",
+        "C": "Premisa: Si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero.\nPremisa: Si se queman combustibles fósiles, aumenta la temperatura.\nConclusión: Si crece la emisión de gases de efecto invernadero, aumenta la temperatura.",
+        "D": "Premisa: En primer lugar, si se queman combustibles fósiles, crece la emisión de gases.\nPremisa: En segundo lugar, si crece la emisión de gases, aumenta la temperatura.\nConclusión: Podemos inferir que si se queman combustibles fósiles, aumenta la temperatura."
+      },
+      "clave": "B",
+      "explicacion": "Para identificar la respuesta es importante recordar que hay ciertas expresiones que, cuando están, nos ayudan a identificar las premisas y la conclusión de un argumento; en el libro las llamamos indicadores de premisa y de conclusión, respectivamente. En el argumento dado encontramos \"en primer lugar\", \"en segundo lugar\" como indicadores de premisa, y tenemos \"podemos inferir que\" como indicador de conclusión. Es importante recordar dos cosas: (i) tanto las premisas como la conclusión se deben enunciar de manera completa, y (ii) los indicadores nunca forman parte de las premisas o la conclusión (por esas dos razones es incorrecta la opción 4)."
+    },
+    {
+      "n": "2A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba \"D\" o \"I\" en el casillero \"A\" de la grilla de resolución.\nArgumento del ejercicio 1: Podemos inferir que si se queman combustibles fósiles, aumenta la temperatura. En primer lugar, si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero. En segundo lugar, si crece la emisión de gases de efecto invernadero, aumenta la temperatura.",
+      "opciones": {
+        "A": "Deductivo (D)",
+        "B": "Inductivo (I)"
+      },
+      "clave": "A",
+      "explicacion": "Los argumentos deductivos se pueden reconocer de modos diferentes. Por un lado, porque si suponemos que ambas premisas son verdaderas, la conclusión es necesariamente verdadera. Por otro lado, podemos atender a su estructura: si reconocemos alguna estructura de las presentadas en el material de lectura, tales como el Modus Ponens, Modus Tollens, silogismo hipotético, etc., sabemos que estamos frente a una forma válida. Respecto de los argumentos inductivos, resulta concebible que las premisas sean verdaderas y la conclusión no. Si atendemos a su estructura, y reconocemos alguna de las estructuras presentadas en el material, como el argumento inductivo por enumeración incompleta, por analogía o el silogismo inductivo, sabemos que estamos frente a una forma inválida. En este caso el argumento es un argumento deductivo, específicamente un silogismo hipotético, por lo que sus premisas establecen de modo concluyente la conclusión."
+    },
+    {
+      "n": "2B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba \"D\" o \"I\" en el casillero \"A\" de la grilla de resolución.\nArgumento del ejercicio 1: Podemos inferir que si se queman combustibles fósiles, aumenta la temperatura. En primer lugar, si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero. En segundo lugar, si crece la emisión de gases de efecto invernadero, aumenta la temperatura.\nB. Seleccione la opción que justifica su respuesta y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Porque las premisas ofrecen un apoyo parcial a la conclusión.",
+        "B": "Porque las premisas son verdaderas.",
+        "C": "Porque las premisas no ofrecen apoyo a la conclusión.",
+        "D": "Porque las premisas establecen de modo concluyente la conclusión."
+      },
+      "clave": "D",
+      "explicacion": "Los argumentos deductivos se pueden reconocer de modos diferentes. Por un lado, porque si suponemos que ambas premisas son verdaderas, la conclusión es necesariamente verdadera. Por otro lado, podemos atender a su estructura: si reconocemos alguna estructura de las presentadas en el material de lectura, tales como el Modus Ponens, Modus Tollens, silogismo hipotético, etc., sabemos que estamos frente a una forma válida. Respecto de los argumentos inductivos, resulta concebible que las premisas sean verdaderas y la conclusión no. Si atendemos a su estructura, y reconocemos alguna de las estructuras presentadas en el material, como el argumento inductivo por enumeración incompleta, por analogía o el silogismo inductivo, sabemos que estamos frente a una forma inválida. En este caso el argumento es un argumento deductivo, específicamente un silogismo hipotético, por lo que sus premisas establecen de modo concluyente la conclusión."
+    },
+    {
+      "n": 3,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes afirmaciones expresa una tesis compartida por Darwin y Lamarck. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Las especies fueron creadas con sus rasgos actuales y no se modifican a lo largo del tiempo.",
+        "B": "Los rasgos de las especies se van modificando a lo largo del tiempo, lo que posibilita el surgimiento de nuevas especies.",
+        "C": "En la medida en que transcurre el tiempo, las especies tienden a complejizarse.",
+        "D": "La selección natural explica la adaptación de las especies al ambiente."
+      },
+      "clave": "B",
+      "explicacion": "Si bien propusieron mecanismos evolutivos distintos (Darwin defendió la selección natural como principio evolutivo general mientras que Lamarck sostuvo que los organismos tienden a volverse más complejos) ambos son autores evolucionistas. El evolucionismo implica que los rasgos de los organismos se transforman y dan lugar a nuevas especies a lo largo del tiempo, en contraposición al fijismo característico del creacionismo medieval."
+    },
+    {
+      "n": "4A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente explanans:\n- Los mares que experimentan un aumento de temperatura sufren la proliferación de algas nocivas y la migración de especies.\n- El Caribe es un mar que experimenta un aumento de temperatura.\nDetermine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la afirmación que caracteriza correctamente la explicación construida.\nA. Identifique el explanandum. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.",
+      "opciones": {
+        "A": "El Caribe sufre la proliferación de algas nocivas pero no sufre la migración de especies.",
+        "B": "El Caribe sufre la proliferación de algas nocivas y el blanqueamiento de corales.",
+        "C": "El Caribe sufre la proliferación de algas nocivas y la migración de especies.",
+        "D": "Es probable que el Caribe sufra la proliferación de algas nocivas."
+      },
+      "clave": "C",
+      "explicacion": "De acuerdo con el modelo de cobertura legal, el explanans contiene leyes (que deben ser estadísticas o probabilísticas en las explicaciones estadístico-inductivas y universales en las explicaciones nomológico-deductivas). Además, esas leyes están acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores sin los cuales no habría sucedido el fenómeno a explicar). En la explicación de este ejercicio la ley contenida en el explanans es universal. El enunciado de la opción 3 es el explanandum que se deduce a partir de dicha ley universal y la condición antecedente. Por ende, la explicación es nomológico-deductiva."
+    },
+    {
+      "n": "4B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente explanans:\n- Los mares que experimentan un aumento de temperatura sufren la proliferación de algas nocivas y la migración de especies.\n- El Caribe es un mar que experimenta un aumento de temperatura.\nDetermine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la afirmación que caracteriza correctamente la explicación construida.\nB. ¿Qué tipo de explicación es y por qué? Seleccione una opción y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Es una explicación nomológico-deductiva porque su explanandum es una ley universal.",
+        "B": "Es una explicación estadístico-inductiva porque el explanandum es una ley probabilística.",
+        "C": "Es una explicación estadístico-inductiva porque contiene al menos una ley probabilística en su explanans y el explanandum se infiere del explanans con cierta probabilidad.",
+        "D": "Es una explicación nomológico-deductiva porque la ley que contiene en su explanans es universal y el explanandum se deduce del explanans."
+      },
+      "clave": "D",
+      "explicacion": "De acuerdo con el modelo de cobertura legal, el explanans contiene leyes (que deben ser estadísticas o probabilísticas en las explicaciones estadístico-inductivas y universales en las explicaciones nomológico-deductivas). Además, esas leyes están acompañadas por enunciados que describen las condiciones iniciales o antecedentes (que son aquellos factores sin los cuales no habría sucedido el fenómeno a explicar). En la explicación de este ejercicio la ley contenida en el explanans es universal. El enunciado de la opción 3 es el explanandum que se deduce a partir de dicha ley universal y la condición antecedente. Por ende, la explicación es nomológico-deductiva."
+    },
+    {
+      "n": "5HF",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la hipótesis auxiliar. Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice \"HF\" y el número de la opción seleccionada como hipótesis auxiliar donde dice \"HA\".\n¿Todo tiempo pasado fue mejor? Según Terence Mitchell y Leigh Thompson cuando recordamos el pasado, nuestro cerebro tiende a suavizar los aspectos negativos y a resaltar los positivos de modo creciente a medida que pasa el tiempo. Para probar esto, los investigadores hicieron un experimento: un grupo de personas compartieron unas vacaciones. Luego de que las vacaciones habían terminado, les pidieron a los participantes que recordaran y evaluaran su viaje en tres etapas diferentes: la etapa 1 fue una semana después del viaje, la 2 seis meses después, y la 3 un año después. Para ello se les pidió a los participantes que completaran el cuestionario “PANAS” que evalúa los niveles de emociones positivas y negativas que una persona puede haber experimentado en relación con un evento pasado, como por ejemplo las vacaciones. Los investigadores asumieron que cuanto mayor es el puntaje en el cuestionario PANAS, mayor es la importancia que los participantes les dan a los aspectos negativos y cuanto menor es el puntaje, menor importancia le dan a esos aspectos. En los cuestionarios se registró mayor puntaje en la etapa 1 que en la 2 y 3.\n¿Cuál es la hipótesis fundamental? (casillero \"HF\")",
+      "opciones": {
+        "A": "Se registrará mayor puntaje en el cuestionario PANAS en la etapa 3 que en la 1 y 2.",
+        "B": "Los recuerdos de las vacaciones se evalúan en tres etapas.",
+        "C": "Cuando recordamos el pasado, nuestro cerebro tiende a suavizar los aspectos negativos y a resaltar los positivos de modo creciente a medida que pasa el tiempo.",
+        "D": "Todo tiempo pasado fue mejor.",
+        "E": "Se registrará mayor puntaje en el cuestionario PANAS en la etapa 1 que en la 2 y 3.",
+        "F": "Cuanto mayor es el puntaje en el cuestionario PANAS, mayor es la importancia que los participantes les dan a los aspectos negativos y cuanto menor es el puntaje, la importancia dada a aspectos negativos es menor."
+      },
+      "clave": "C",
+      "explicacion": "En este ejercicio se pide que identifiques la hipótesis fundamental y la hipótesis auxilar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento. En cambio, la hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto."
+    },
+    {
+      "n": "5HA",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la hipótesis auxiliar. Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice \"HF\" y el número de la opción seleccionada como hipótesis auxiliar donde dice \"HA\".\n¿Todo tiempo pasado fue mejor? Según Terence Mitchell y Leigh Thompson cuando recordamos el pasado, nuestro cerebro tiende a suavizar los aspectos negativos y a resaltar los positivos de modo creciente a medida que pasa el tiempo. Para probar esto, los investigadores hicieron un experimento: un grupo de personas compartieron unas vacaciones. Luego de que las vacaciones habían terminado, les pidieron a los participantes que recordaran y evaluaran su viaje en tres etapas diferentes: la etapa 1 fue una semana después del viaje, la 2 seis meses después, y la 3 un año después. Para ello se les pidió a los participantes que completaran el cuestionario “PANAS” que evalúa los niveles de emociones positivas y negativas que una persona puede haber experimentado en relación con un evento pasado, como por ejemplo las vacaciones. Los investigadores asumieron que cuanto mayor es el puntaje en el cuestionario PANAS, mayor es la importancia que los participantes les dan a los aspectos negativos y cuanto menor es el puntaje, menor importancia le dan a esos aspectos. En los cuestionarios se registró mayor puntaje en la etapa 1 que en la 2 y 3.\n¿Cuál es la hipótesis auxiliar? (casillero \"HA\")",
+      "opciones": {
+        "A": "Se registrará mayor puntaje en el cuestionario PANAS en la etapa 3 que en la 1 y 2.",
+        "B": "Los recuerdos de las vacaciones se evalúan en tres etapas.",
+        "C": "Cuando recordamos el pasado, nuestro cerebro tiende a suavizar los aspectos negativos y a resaltar los positivos de modo creciente a medida que pasa el tiempo.",
+        "D": "Todo tiempo pasado fue mejor.",
+        "E": "Se registrará mayor puntaje en el cuestionario PANAS en la etapa 1 que en la 2 y 3.",
+        "F": "Cuanto mayor es el puntaje en el cuestionario PANAS, mayor es la importancia que los participantes les dan a los aspectos negativos y cuanto menor es el puntaje, la importancia dada a aspectos negativos es menor."
+      },
+      "clave": "F",
+      "explicacion": "En este ejercicio se pide que identifiques la hipótesis fundamental y la hipótesis auxilar del caso de investigación presentado. Para ello, es importante tener en cuenta que las hipótesis son enunciados generales. La hipótesis fundamental es aquella que guía la investigación y que es puesta a prueba en el experimento. En cambio, la hipótesis auxiliar es una hipótesis que cuenta con apoyo independiente previo y que se utiliza en la contrastación como conocimiento presupuesto."
+    },
+    {
+      "n": 6,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes afirmaciones expresa una tesis compartida por el empirismo lógico, representado por Hempel, y el falsacionismo de Popper. Seleccione una opción y escriba el número en la grilla de resolución.",
+      "opciones": {
+        "A": "La creación de nuevas hipótesis involucra factores que no pueden ser reconstruidos lógicamente.",
+        "B": "La justificación de las hipótesis se realiza únicamente a través de argumentos deductivos.",
+        "C": "La formulación de nuevas hipótesis se realiza por medio de la inducción.",
+        "D": "La justificación de las hipótesis requiere el uso de argumentos deductivos e inductivos."
+      },
+      "clave": "A",
+      "explicacion": "Tanto el empirismo lógico representado por Hempel como el falsacionismo de Popper sostienen que el proceso de generación de hipótesis no puede ser analizado mediante reconstrucción lógica. Los procesos por los cuales evaluamos una hipótesis, en cambio, sí pueden ser analizados mediante reconstrucción racional. Para el empirismo lógico representado por Hempel, debemos emplear la inducción para dicha evaluación, pero para Popper solo debemos usar razonamientos deductivos en este proceso. Ambos acuerdan, también, en que es necesario ofrecer un criterio para decidir cuáles hipótesis pertenecen a la ciencia empírica y cuáles no. Sin embargo, cada uno ofrece un criterio diferente. Mientras que el empirismo lógico representado por Hempel sostiene que el criterio que debe cumplir la hipótesis es su traducibilidad a un lenguaje observacional, Popper sostiene que el criterio a cumplir es la falsabilidad (es decir, la posibilidad de formular falsadores potenciales)."
+    },
+    {
+      "n": 7,
+      "puntos": 1,
+      "tipo": "vf_justificada",
+      "enunciado": "Determine si el siguiente enunciado es verdadero o falso y por qué según la epistemología de Kuhn. Seleccione una opción y escriba el número en la grilla de resolución.\nDurante el período pre-científico, la comunidad científica trabaja bajo varios paradigmas simultáneamente.",
+      "opciones": {
+        "A": "El enunciado es falso porque durante el período pre-científico impera un solo paradigma.",
+        "B": "El enunciado es falso porque en el período pre-científico aun no se ha formado una comunidad científica.",
+        "C": "El enunciado es verdadero porque durante el período pre-científico hay competencia de paradigmas rivales.",
+        "D": "El enunciado es verdadero porque el período pre-científico surge de la desconfianza en el paradigma vigente."
+      },
+      "clave": "B",
+      "explicacion": "Durante el período pre-científico, para Kuhn, lxs científicxs de la disciplina trabajan en escuelas rivales y aún no se han unificado en una comunidad científica. Por lo tanto, en este período aún no ha surgido ningún paradigma."
+    },
+    {
+      "n": "8A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del punto de vista. Escriba \"V\" o \"F\" donde dice \"A\" en la grilla de resolución.\nLa inclusión de las perspectivas de las mujeres en los estudios de género favorece la detección de las desigualdades.",
+      "opciones": {
+        "A": "Verdadero (V)",
+        "B": "Falso (F)"
+      },
+      "clave": "A",
+      "explicacion": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas."
+    },
+    {
+      "n": "8B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del punto de vista. Escriba \"V\" o \"F\" donde dice \"A\" en la grilla de resolución.\nLa inclusión de las perspectivas de las mujeres en los estudios de género favorece la detección de las desigualdades.\nB. Seleccione la opción que justifica su respuesta y escriba el número donde dice \"B\" en la grilla de resolución.",
+      "opciones": {
+        "A": "La detección de las desigualdades de género está garantizada por el uso del método científico en los estudios de género.",
+        "B": "En el estudio de cualquier tema la opinión de las mujeres es epistémicamente superior a la de otros grupos humanos.",
+        "C": "La opinión de los grupos desfavorecidos es epistémicamente superior a la de los grupos dominantes cuando se trata de estudiar los fenómenos sociales que los involucran.",
+        "D": "Las desigualdades de género son evidentes, por lo que los varones y las mujeres las pueden detectar por igual."
+      },
+      "clave": "C",
+      "explicacion": "La teoría del punto de vista parte de la primacía epistémica de la perspectiva de las mujeres (y en general de otros grupos oprimidos) sobre la perspectiva dominante de los varones. La razón de esta primacía radica en que las mujeres tienen un acceso privilegiado a las relaciones sociales opresivas en las que se hallan insertas y son capaces de mostrar que estas relaciones opresivas no son resultado de la naturaleza y la necesidad sino de la historia contingente, y por ello pueden ser modificadas."
+    },
+    {
+      "n": 9,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Lea el siguiente fragmento periodístico. Teniendo en cuenta los debates sobre ética científica, determine cuál de las opciones es más representativa de la postura cientificista. Seleccione una opción y escriba el número en la grilla de resolución.\nDiversas investigaciones en neurociencia han demostrado que cuando las personas son expuestas a recompensas impredecibles sus niveles de dopamina, un neurotransmisor clave relacionado con el placer y la motivación, aumentan significativamente en comparación a cuando son expuestas a recompensas predecibles. La imprevisibilidad genera una mayor sensación de anticipación y emoción, lo que motiva a las personas a continuar buscando la próxima recompensa, aunque esta sea incierta. Estos descubrimientos han sido aplicados, por ejemplo, en el diseño de aplicaciones y videojuegos que incorporan mecanismos de recompensas impredecibles, como los \"cofres\" (loot boxes), con el objetivo de mantener a los usuarios o jugadores más “enganchados”. Sin embargo, algunos expertos advierten que este tipo de estrategias pueden generar comportamientos adictivos, similares a los observados en personas con adicción al juego (ludopatía).",
+      "opciones": {
+        "A": "Los descubrimientos realizados por neurocientíficos sobre el sistema de recompensa y las funciones de la dopamina representan grandes avances en nuestra comprensión del cerebro. Sin embargo, si estos hallazgos son utilizados por empresas para diseñar aplicaciones o videojuegos con fines éticamente cuestionables, como mantener al usuario más tiempo enganchado aprovechando sus vulnerabilidades cerebrales, la responsabilidad recae exclusivamente en estas empresas. Los científicos no deben asumir responsabilidades por los usos posteriores o potenciales de sus descubrimientos, ya que su papel es únicamente producir conocimiento.",
+        "B": "Las investigaciones neurocientíficas orientadas a comprender mejor el sistema de recompensa del cerebro y el papel de la dopamina han facilitado el desarrollo de aplicaciones y videojuegos con potenciales efectos adictivos, lo que pone en riesgo la salud mental de los usuarios. No es posible separar el desarrollo de la investigación científica de sus posibles aplicaciones, y los científicos no pueden eludir la responsabilidad si los resultados de su trabajo se utilizan para fines éticamente cuestionables.",
+        "C": "El uso o mal uso de los conocimientos sobre el sistema de recompensa del cerebro que provengan de investigaciones neurocientíficas debe estar regulado por los Estados. Mientras los científicos actúen conforme a las leyes vigentes en sus países, están cumpliendo con su responsabilidad ética.",
+        "D": "Los avances tecnológicos basados en estudios de neurociencia pueden generar un impacto considerable en la sociedad, como cuando afectan negativamente la salud mental de los usuarios de videojuegos o aplicaciones. Decidir cuáles áreas del conocimiento deben priorizarse en la investigación y con qué fines se aplicarán no es solo una tarea para empresarios, científicos o tecnólogos, sino que compete a toda la sociedad. La ciencia y sus aplicaciones deben ser discutidas en un proceso democrático que incluya a todos los sectores sociales."
+      },
+      "clave": "A",
+      "explicacion": "El cientificismo es la posición según la cual el conocimiento científico es valorativamente neutral, y los valores entran en juego solo cuando discutimos sobre el uso de este conocimiento. Por consiguiente, la evaluación ética solo tiene lugar al momento de la aplicación, en la medida en que otros (empresas, gobiernos, etc.) deciden aplicar un desarrollo científico con algún fin (en cuyo caso, se convierten en directos responsables por sus consecuencias)."
+    },
+    {
+      "n": "10A",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso que se relata a continuación. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.\nExxonMobil, una de las mayores compañías petroleras del mundo, ha estado en el centro de una controversia debido a su conocimiento y manejo de la información relacionada con el cambio climático. Un reciente análisis realizado por la publicación Carbon Brief investigó nada menos que 900 artículos publicados, todos los cuales arrojan dudas sobre el cambio climático, o incluso niegan que exista. Tras concluir esta investigación, descubrieron que 9 de cada 10 de los autores más prolíficos tenían algún tipo de conexión con Exxon Mobil. Los resultados mostraron que, de los 938 artículos citados, 186 habían sido escritos por sólo diez hombres, y entre ellos destacaba el Dr. Sherwood B. Idso, autor principal de 67 de ellos. Idso es el presidente del Centro para el Estudio del Dióxido de Carbono y el Cambio Global, un grupo de estudios financiado por ExxonMobil. El segundo más prolífico fue el Dr. Patrick J. Michaels, miembro del Cato Institute, que recibe aproximadamente el 40% de su financiación de la industria petrolera.",
+      "opciones": {
+        "A": "Acceso a la información",
+        "B": "Incentivos perversos",
+        "C": "Revisión de pares",
+        "D": "Conflictos de interés"
+      },
+      "clave": "D",
+      "explicacion": "Los conflictos de interés se producen cuando una investigación está financiada por una persona u organismo que tiene un interés propio en que la investigación produzca algún resultado determinado. Esto es lo que ocurrió en este caso. Es habitual, hoy en día, que los científicos declaren de dónde obtuvieron su financiamiento, pero esto por sí solo no alcanza para despejar conflictos de interés, porque no es fácil conocer los intereses de las organizaciones que los financian. En cualquier caso, está claro que hay un problema ético si los resultados de una investigación están decididos de antemano por la persona o institución que otorga el financiamiento."
+    },
+    {
+      "n": "10B",
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso que se relata a continuación. Seleccione una opción y escriba el número en el casillero \"A\" de la grilla de resolución.\nExxonMobil, una de las mayores compañías petroleras del mundo, ha estado en el centro de una controversia debido a su conocimiento y manejo de la información relacionada con el cambio climático. Un reciente análisis realizado por la publicación Carbon Brief investigó nada menos que 900 artículos publicados, todos los cuales arrojan dudas sobre el cambio climático, o incluso niegan que exista. Tras concluir esta investigación, descubrieron que 9 de cada 10 de los autores más prolíficos tenían algún tipo de conexión con Exxon Mobil. Los resultados mostraron que, de los 938 artículos citados, 186 habían sido escritos por sólo diez hombres, y entre ellos destacaba el Dr. Sherwood B. Idso, autor principal de 67 de ellos. Idso es el presidente del Centro para el Estudio del Dióxido de Carbono y el Cambio Global, un grupo de estudios financiado por ExxonMobil. El segundo más prolífico fue el Dr. Patrick J. Michaels, miembro del Cato Institute, que recibe aproximadamente el 40% de su financiación de la industria petrolera.\nB. Seleccione la opción que justifica su respuesta y escriba el número en el casillero \"B\" de la grilla de resolución.",
+      "opciones": {
+        "A": "Porque la comunidad científica no tiene acceso a las bases de datos empleadas por los científicos para hacer sus modelos.",
+        "B": "Porque los científicos financiados por las petroleras tienen incentivos para poner en duda el cambio climático.",
+        "C": "Porque las publicaciones que arrojan dudas sobre el cambio climático no pasaron por un comité de revisión por pares.",
+        "D": "Porque los científicos tenían incentivos para generar numerosas publicaciones para ganar posiciones académicas."
+      },
+      "clave": "B",
+      "explicacion": "Los conflictos de interés se producen cuando una investigación está financiada por una persona u organismo que tiene un interés propio en que la investigación produzca algún resultado determinado. Esto es lo que ocurrió en este caso. Es habitual, hoy en día, que los científicos declaren de dónde obtuvieron su financiamiento, pero esto por sí solo no alcanza para despejar conflictos de interés, porque no es fácil conocer los intereses de las organizaciones que los financian. En cualquier caso, está claro que hay un problema ético si los resultados de una investigación están decididos de antemano por la persona o institución que otorga el financiamiento."
+    }
+  ],
+  "dudas": []
+}

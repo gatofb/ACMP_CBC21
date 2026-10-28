@@ -1,0 +1,189 @@
+{
+  "archivo": "1erParcial_2025_A.pdf",
+  "materia": "Introducción al Pensamiento Científico (40)",
+  "catedra": "A · Buacar",
+  "instancia": "1er Parcial",
+  "fecha": "2025-04-11",
+  "periodo": "1C 2025",
+  "turno": null,
+  "tema": 1,
+  "fuente_clave": "explicaciones",
+  "consignas": [
+    {
+      "n": "1A",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "A. Comenzamos la Unidad 1 caracterizando los argumentos. Atendiendo a esto, determiná si el siguiente fragmento es un argumento. Escribí \"SI\" o \"NO\" donde dice \"A\" en la grilla de resolución.\nSi un mamut tenía mucho pelo, entonces vivía en un ambiente frío. El mamut colombino no vivía en ambientes fríos y, por lo tanto, no tenía mucho pelo.",
+      "opciones": {
+        "A": "SI",
+        "B": "NO"
+      },
+      "clave": "A",
+      "explicacion": "En este ejercicio se pide que determines si el fragmento es un argumento. Para ello es importante tener presente que en todo argumento hay enunciados que se ofrecen como razones (las premisas) a favor de otro que se pretende concluir o establecer (la conclusión). Recordá que hay ciertas expresiones que, cuando están, nos ayudan a distinguir las premisas de la conclusión. En el libro de la cátedra las denominamos “indicador de premisa” e “indicador de conclusión”. En este caso, el indicador \"por lo tanto\" ayuda a identificar la conclusión."
+    },
+    {
+      "n": "1B",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "A. Comenzamos la Unidad 1 caracterizando los argumentos. Atendiendo a esto, determiná si el siguiente fragmento es un argumento. Escribí \"SI\" o \"NO\" donde dice \"A\" en la grilla de resolución.\nSi un mamut tenía mucho pelo, entonces vivía en un ambiente frío. El mamut colombino no vivía en ambientes fríos y, por lo tanto, no tenía mucho pelo.\nB. Seleccioná la opción que justifica tu respuesta y escribí el número donde dice \"B\" en la grilla de resolución.",
+      "opciones": {
+        "A": "porque es un enunciado.",
+        "B": "porque la conclusión es verdadera.",
+        "C": "porque se pueden identificar premisas y conclusión.",
+        "D": "porque hay un enunciado condicional."
+      },
+      "clave": "C",
+      "explicacion": "En este ejercicio se pide que determines si el fragmento es un argumento. Para ello es importante tener presente que en todo argumento hay enunciados que se ofrecen como razones (las premisas) a favor de otro que se pretende concluir o establecer (la conclusión). Recordá que hay ciertas expresiones que, cuando están, nos ayudan a distinguir las premisas de la conclusión. En el libro de la cátedra las denominamos “indicador de premisa” e “indicador de conclusión”. En este caso, el indicador \"por lo tanto\" ayuda a identificar la conclusión."
+    },
+    {
+      "n": 2,
+      "puntos": 1,
+      "tipo": "multiple",
+      "enunciado": "Dado el siguiente argumento, indicá cuáles son sus premisas. Seleccioná dos opciones y escribí los números en la grilla de resolución.\nEl tiranosaurio rex tenía dientes que medían hasta 30 cm de largo. Por otro lado, los del megalodón medían hasta 18 cm de largo. Por consiguiente, los carnívoros prehistóricos tenían mordidas letales.",
+      "opciones": {
+        "A": "Los dientes del megalodón medían hasta 18 cm de largo.",
+        "B": "Los del tiranosaurio rex medían hasta 30 cm de largo.",
+        "C": "Los carnívoros prehistóricos tenían mordidas letales.",
+        "D": "El tiranosaurio rex tenía dientes que medían hasta 30 cm de largo."
+      },
+      "clave": [
+        "A",
+        "D"
+      ],
+      "explicacion": "Para identificar la respuesta es importante recordar que hay ciertas expresiones que, cuando están, nos ayudan a identificar las premisas y la conclusión de un argumento. En el libro las llamamos indicadores de premisa y de conclusión, respectivamente. En el argumento dado hay un indicador de conclusión, a saber, \"por consiguiente\". Es importante recordar dos cosas: (i) tanto las premisas como la conclusión se deben enunciar de manera completa, y (ii) los indicadores nunca forman parte de las premisas o la conclusión."
+    },
+    {
+      "n": 3,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Los argumentos están compuestos por enunciados. Estos enunciados pueden combinarse mediante expresiones lógicas dando lugar a enunciados complejos. Dados los siguientes enunciados verdaderos:\n- Los dinosaurios tenían extremidades verticales.\n- Los dinosaurios eran animales vertebrados.\nDeterminá cuál de los siguientes enunciados complejos es verdadero. Seleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Los dinosaurios no tenían extremidades verticales pero eran animales vertebrados.",
+        "B": "Si los dinosaurios tenían extremidades verticales, eran animales vertebrados.",
+        "C": "Los dinosaurios no tenían extremidades verticales o no eran animales vertebrados.",
+        "D": "Los dinosaurios no tenían extremidades verticales."
+      },
+      "clave": "B",
+      "explicacion": "En este ejercicio tuviste que evaluar el valor veritativo de una conjunción, una negación, una disyunción y un condicional:\n1. Las conjunciones pueden expresarse con “y”, “,”, “además”, “pero”. Las negaciones con “no”, “ no es cierto que”. Los condicionales con “si… entonces” y las disyunciones con “o”, “ o bien … o bien”.\n2. Las conjunciones son verdaderas sólo en el caso en que ambos conyuntos sean verdaderos, esto es, basta que uno de los enunciados combinados por la conjunción sea falso, para que el enunciado complejo resulte falso.\n3. Cuando un enunciado es verdadero, su negación es falsa y, a la inversa, cuando un enunciado es falso, su negación resultará verdadera.\n4. Los enunciados condicionales son falsos únicamente cuando el antecedente es verdadero y el consecuente falso, en el resto de los casos son verdaderos.\n5. Hay dos tipos de disyunciones, las inclusivas y las exclusivas. Expresiones como “o bien… o bien” sugieren que se trata de una disyunción exclusiva, en cambio la mera presencia de una “o” nos conduce a pensar que es inclusiva. Cuando ambas partes son falsas, la disyunción entre ambas es falsa, no importa el tipo de disyunción del cual se trate. Por el contrario, cuando uno de los disyuntos es verdadero y el otro falso, la disyunción es verdadera. El caso en que ambos tipos de disyunciones arrojan valores diferentes es aquel en que ambos disyuntos son verdaderos. Si la disyunción es inclusiva, el enunciado complejo será verdadero; si es exclusiva, será falso.\nEn este ejercicio el enunciado complejo verdadero es el condicional, dado que tiene antecedente y consecuente verdaderos."
+    },
+    {
+      "n": 4,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Al estudiar los enunciados, los distinguimos por su alcance. Dados los siguientes cuatro enunciados determiná cuál de ellos es un enunciado universal. Seleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "El 80% de los tuátaras que nacen son machos.",
+        "B": "Todos los tuátaras son reptiles.",
+        "C": "Algunos tuátaras viven más de 100 años.",
+        "D": "Henry, el tuátara, vive en Nueva Zelanda."
+      },
+      "clave": "B",
+      "explicacion": "En este ejercicio se te pide que reconozcas un tipo de enunciado, en este caso, un enunciado universal. Los enunciados universales son aquellos que afirman algo respecto de todos los miembros de un conjunto. Así, la respuesta es \"Todos los tuátaras son reptiles\"."
+    },
+    {
+      "n": 5,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Los enunciados se clasifican según su alcance y ello determina sus condiciones de verdad. Dado el siguiente enunciado determiná en qué situación resultaría falso. Seleccioná una opción y escribí el número en la grilla de resolución.\nTodos los ictiosaurios son carnívoros.",
+      "opciones": {
+        "A": "Si encontramos un animal que es un tiranosaurio y solo se alimenta solo de vegetales.",
+        "B": "Si encontramos un animal que es un tiranosaurio y se alimenta de carne.",
+        "C": "Si encontramos un animal que es un ictiosaurio y solo se alimenta de vegetales.",
+        "D": "Si encontramos un animal que es un ictiosaurio y se alimenta de carne."
+      },
+      "clave": "C",
+      "explicacion": "El enunciado propuesto es un enunciado universal. Para que un enunciado universal sea falso, basta con que encontremos un caso de un miembro del conjunto al que se refiere el enunciado que no posea la propiedad asignada. En este caso, el único caso incompatible con el enunciado es aquel en el que un animal es un ictiosaurio y se alimenta solo de vegetales."
+    },
+    {
+      "n": 6,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Otro modo de clasificar los enunciados es agruparlos en tautologías, contradicciones o contingencias. Identificá cuál de los siguientes enunciados es una tautología. Seleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Los dinosaurios eran animales terrestres y no eran animales terrestres.",
+        "B": "Si los dinosaurios eran animales terrestres entonces eran animales terrestres.",
+        "C": "Los dinosaurios eran animales terrestres pero también acuáticos.",
+        "D": "Los dinosaurios eran animales terrestres."
+      },
+      "clave": "B",
+      "explicacion": "En este ejercicio se pide que reconozcas una tautología. Para ello es importante tener en cuenta que:\n- Las tautologías son aquellos enunciados que son necesariamente verdaderos, no son meras verdades, sino que por la forma de la oración, sea como sea el mundo, será verdadera.\n- Las contradicciones son necesariamente falsas.\n-A diferencia de las tautologías y las contradicciones, las contingencias son enunciados que tal vez sean verdaderos o tal vez falsos, pero no son necesariamente ninguna de las dos cosas. Aun enunciados que nos parecen obviamente verdaderos serán contingentes si su verdad depende de cuestiones empíricas y no de la estructura misma de la oración. En este ejercicio tenemos un condicional que siempre tendrá antecedente y consecuente con el mismo valor de verdad, dado que el mismo enunciado funciona como antecedente y consecuente. De modo que, independientemente de que los dinosaurios sean animales terrestres o no, dicha oración condicional será necesariamente verdadera."
+    },
+    {
+      "n": 7,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Al caracterizar los argumentos deductivos introdujimos la noción de validez. Dados los siguientes enunciados, determiná qué conclusión se infiere de modo válido.\nSi los mamuts tienen espaldas rectas, entonces aparecen con espaldas rectas en las pinturas rupestres. Pero los mamuts no aparecen con espaldas rectas en las pinturas rupestres.\nSeleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Los mamuts no aparecen en las pinturas rupestres.",
+        "B": "Los mamuts tienen espaldas rectas.",
+        "C": "Los mamuts aparecen con joroba en las pinturas rupestres.",
+        "D": "Los mamuts no tienen espaldas rectas."
+      },
+      "clave": "D",
+      "explicacion": "En este ejercicio se te pide que elijas qué enunciado de la lista puede funcionar como la conclusión de un argumento válido dada las premisas propuestas. Los argumentos válidos se pueden reconocer de modos diferentes. Por un lado, porque si suponemos que las premisas son todas verdaderas, entonces necesariamente hemos de admitir que la conclusión es verdadera también. Por otro lado, podemos atender a su estructura: si reconocemos alguna estructura de las presentadas oportunamente en el material de lectura, tales como el Modus Ponens, Modus Tollens, Silogismo disyuntivo, Instanciación del universal, etc., sabemos que estamos frente a una forma válida. En este caso, la opción 4 es el único enunciado que se puede inferir en forma válida, ya que es un caso de Modus Tollens. Recordá lo siguiente: lo que hace que un argumento sea válido o inválido no es que sus premisas y conclusión sean de hecho verdaderas o falsas; lo que lo hace válido o inválido es su forma."
+    },
+    {
+      "n": 8,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Determiná cuál de los siguientes argumentos es inválido. Seleccioná una opción y escribí el número en la grilla de resolución.",
+      "opciones": {
+        "A": "Si el león de las cavernas caza herbívoros, entonces vive en el bosque. No es cierto que el león de las cavernas viva en el bosque. Por lo tanto, no caza herbívoros.",
+        "B": "El tigre dientes de sable vive en grupo o es solitario. Pero no es cierto que el tigre dientes de sable sea solitario. Por lo tanto, vive en grupo.",
+        "C": "Si el rinoceronte lanudo pertenece a la megafauna prehistórica, entonces se extinguió hace 30.000 años. Y pertenece a la megafauna prehistórica, lo cual prueba que se se extiguió hace 30.000 años.",
+        "D": "El rinoceronte lanudo tiene pelaje o cuernos. Por consiguiente, tiene pelaje."
+      },
+      "clave": "D",
+      "explicacion": "En este ejercicio se te pide que reconozcas un argumento inválido. Los argumentos inválidos se pueden reconocer de modos diferentes. Por un lado, porque resulta concebible que las premisas sean verdaderas y la conclusión no. Por otro lado, si atendemos a su estructura, y reconocemos un argumento inductivo o una falacia, sabremos que estamos frente a una forma inválida. En este caso el único argumento inválido es de la forma A o B. Por consiguiente, A. Recordá lo siguiente: lo que hace que un argumento sea válido o inválido no es que sus premisas y conclusión sean de hecho verdaderas o falsas; lo que lo hace válido o inválido es su forma. En particular, un argumento inválido puede tener premisas verdaderas y una conclusión verdadera."
+    },
+    {
+      "n": "9P",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Al presentar los argumentos inductivos distinguimos tres tipos: por enumeración incompleta, por analogía y silogismos inductivos. Dado el siguiente conjunto de enunciados:\nEl tiranosaurio era un dinosaurio carnívoro y tenía garras afiladas.\nEl velociraptor era un dinosaurio carnívoro y tenía garras afiladas.\n..............................................................\n..............................................................\nSeleccioná cuáles de los siguientes enunciados corresponden respectivamente a la premisa faltante y a la conclusión, de modo tal que resulte un argumento inductivo por analogía. Escribí en la grilla de resolución la opción seleccionada como premisa donde dice \"P\" y la opción seleccionada como conclusión donde dice \"C\".\nP (premisa faltante):",
+      "opciones": {
+        "A": "El estegosaurio era un dinosaurio carnívoro.",
+        "B": "El tiranosaurio era un dinosaurio carnívoro.",
+        "C": "La mayoría de los dinosaurios carnívoros tenían garras afiladas.",
+        "D": "Todos los dinosaurios carnívoros tenían garras afiladas.",
+        "E": "El estegosaurio tenía garras afiladas."
+      },
+      "clave": "A",
+      "explicacion": "Los argumentos inductivos por analogía son aquellos en que comparamos varios casos y constatamos que los mismos se asemejan en una o más propiedades, para inferir, a partir de ahí, que uno de esos casos tiene además otra propiedad que los otros comparten. En este caso, partimos de comparar tres dinousaurios y constatar que se asemejan en ciertos aspectos, para concluir que uno de esos también se asemeja en un nuevo aspecto que los otros dos comparten. Hay dos soluciones posibles para este ejercicio. Una solución es tomar \"El estegosaurio era un dinosaurio carnívoro\" como premisa y \"El estegosaurio tenía garras afiladas\" como conclusión. La otra solución es, a la inversa, tomar \"El estegosaurio era un dinosaurio carnívoro\" como conclusión y \"El estegosaurio tenía garras afiladas\" como premisa."
+    },
+    {
+      "n": "9C",
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Al presentar los argumentos inductivos distinguimos tres tipos: por enumeración incompleta, por analogía y silogismos inductivos. Dado el siguiente conjunto de enunciados:\nEl tiranosaurio era un dinosaurio carnívoro y tenía garras afiladas.\nEl velociraptor era un dinosaurio carnívoro y tenía garras afiladas.\n..............................................................\n..............................................................\nSeleccioná cuáles de los siguientes enunciados corresponden respectivamente a la premisa faltante y a la conclusión, de modo tal que resulte un argumento inductivo por analogía. Escribí en la grilla de resolución la opción seleccionada como premisa donde dice \"P\" y la opción seleccionada como conclusión donde dice \"C\".\nC (conclusión):",
+      "opciones": {
+        "A": "El estegosaurio era un dinosaurio carnívoro.",
+        "B": "El tiranosaurio era un dinosaurio carnívoro.",
+        "C": "La mayoría de los dinosaurios carnívoros tenían garras afiladas.",
+        "D": "Todos los dinosaurios carnívoros tenían garras afiladas.",
+        "E": "El estegosaurio tenía garras afiladas."
+      },
+      "clave": "E",
+      "explicacion": "Los argumentos inductivos por analogía son aquellos en que comparamos varios casos y constatamos que los mismos se asemejan en una o más propiedades, para inferir, a partir de ahí, que uno de esos casos tiene además otra propiedad que los otros comparten. En este caso, partimos de comparar tres dinousaurios y constatar que se asemejan en ciertos aspectos, para concluir que uno de esos también se asemeja en un nuevo aspecto que los otros dos comparten. Hay dos soluciones posibles para este ejercicio. Una solución es tomar \"El estegosaurio era un dinosaurio carnívoro\" como premisa y \"El estegosaurio tenía garras afiladas\" como conclusión. La otra solución es, a la inversa, tomar \"El estegosaurio era un dinosaurio carnívoro\" como conclusión y \"El estegosaurio tenía garras afiladas\" como premisa."
+    },
+    {
+      "n": 10,
+      "puntos": 1,
+      "tipo": "simple",
+      "enunciado": "Tras clasificar los distintos tipos de argumentos inductivos establecimos criterios específicos para su evaluación. Atendiendo a esto, determiná qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser un argumento inductivo por enumeración incompleta. Seleccioná una opción y escribí el número en la grilla de resolución.\nEl mamut y el rinoceronte lanudo, al igual que el mastodonte, eran depredadores. Por lo tanto, es probable que todos los animales grandes de la Edad de Hielo fueran depredadores, dado que el mamut, el rinoceronte lanudo y el mastodonte eran animales grandes de la Edad de Hielo.",
+      "opciones": {
+        "A": "El mamut, el rinoceronte lanudo y el mastodonte constituyen las únicas tres especies de animales grandes de la Edad de Hielo.",
+        "B": "El megaterio no era depredador.",
+        "C": "El tigre dientes de sable, que era un animal grande de la Edad de hielo, era depredador.",
+        "D": "La hiena de las cavernas era un animal depredador."
+      },
+      "clave": "C",
+      "explicacion": "Un argumento inductivo por enumeración incompleta parte de la presencia de una propiedad en una muestra y concluye la presencia de esa propiedad en todo el conjunto al cual los casos de esa muestra pertenecen. El argumento inductivo más fuerte será aquel en el cual la muestra a partir de la cual se generaliza en la conclusión sea mayor. Ten en cuenta que, para que el argumento siga siendo inductivo, la muestra no puede ser igual al conjunto sobre el que se realiza la generalización."
+    }
+  ],
+  "dudas": [
+    "consignas 9P y 9C: la grilla da dos respuestas posibles (P: 1 y C: 5, o P: 5 y C: 1) y la explicación confirma las dos. Cada consigna admite una sola clave, así que quedó la primera columna (9P: A, 9C: E); la inversa (9P: E, 9C: A) también es correcta.",
+    "consignas 9P y 9C: el examen da una sola consigna para los dos casilleros; se agregó al final del enunciado la etiqueta de la grilla (\"P (premisa faltante):\" / \"C (conclusión):\") para distinguirlas.",
+    "consigna 7: la explicación cita «la opción 4» con la numeración original del examen (= D)."
+  ]
+}

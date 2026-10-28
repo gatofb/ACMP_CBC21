@@ -37,7 +37,11 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-024](#d-024) | 2026-10-27 | Módulo de Sociología: Cátedra A · Bustos, con 10 finales | Vigente |
 | [D-025](#d-025) | 2026-10-28 | La app no nombra a Claude: se dice "el tutor" | Vigente |
 | [D-026](#d-026) | 2026-10-28 | En la nube la app usa la API de Anthropic y corre desde un Dockerfile | Vigente |
+| [D-027](#d-027) | 2026-10-28 | Módulo de IPC: Cátedra A · Buacar, con 10 versiones de parciales y finales | Vigente |
 | [D-028](#d-028) | 2026-10-28 | La app también se publica en Vercel, con una función por ruta de la API | Vigente |
+| [D-029](#d-029) | 2026-10-28 | Quick Demo: un diagnóstico de 4 preguntas para probar la app | Vigente |
+| [D-030](#d-030) | 2026-10-28 | En el Explainer Mode se muestran las opciones cuando la pregunta no se contesta sin ellas | Vigente |
+| [D-031](#d-031) | 2026-10-28 | La marca se escribe "Academia Comunica", sin "de Mai Pistiner", en la presentación y la app | Vigente |
 | [D-032](#d-032) | 2026-10-28 | En la versión online dicta el navegador; Whisper queda para local | Vigente |
 
 ---
@@ -268,6 +272,26 @@ Para que la app pueda publicarse en un servicio en la nube y la usen otros alumn
 - **Dictado:** no está en la nube; el alumno escribe. Sigue pendiente lo de D-023. Desde D-032, en la nube dicta el navegador.
 - **Sin clave de acceso ni límite de pedidos, por ahora** (Gastón): el gasto se controla con una clave de API solo para la app y un tope en la consola de Anthropic.
 
+### D-027
+**Módulo de IPC: Cátedra A · Buacar, con 10 versiones de parciales y finales** · 2026-10-28 · Gastón · Vigente
+
+Gastón dejó en Descargas 33 PDF de IPC de tres cátedras: Buacar (9 PDF con 62 versiones), Perot (23 finales e integradores) y Gimeno (1). Están ordenados en `input/Abogacia/IPC/` por cátedra e instancia.
+
+- **Cátedra A · Buacar:** la eligió Gastón. Tiene más material y cada ejercicio trae la explicación oficial de la cátedra. Los de Perot y Gimeno quedan en `input/` para un módulo futuro.
+- **10 versiones**, con peso en 2025: 1er parcial 2025 (temas 1 y 2), 2do parcial 2025 (temas 1 y 2), final 02/2025 (temas 1 y 2), 1er parcial 2026 de abril y de septiembre, final 12/2024 y final 07/2026 (tema 1 de cada uno).
+- **Transcripción:** los PDF tienen texto, así que la IA los transcribió del texto, mirando la imagen solo en las tablas y fórmulas. Las claves salen de la grilla y coinciden con lo resaltado. [03_formato_extraccion.md](03_formato_extraccion.md) suma las reglas de IPC: opciones numeradas, ejercicios con partes (A/B, HF/HA) y consignas que se apoyan en otra.
+- **Arreglos en `armar_banco.py`**, sin cambios en ICSE:
+  - dos consignas del mismo examen nunca se juntan (las partes 9P y 9C);
+  - se compara también lo que pide la primera oración (hipótesis auxiliar ≠ consecuencia observacional del mismo caso);
+  - la instrucción de examen se saca solo si no tiene contenido.
+  
+  Por esos arreglos también cambió el banco de Sociología, que ahora tiene 212 preguntas: había preguntas juntadas por error. `scripts/remapear_fichas.py` pasó las fichas al banco nuevo.
+- **Resultado:** 97 preguntas únicas (90 con explicación oficial) y 30 fichas, en borrador, en `rules/IPC/Buacar/`. El mapa se agrupa por tema: argumentos, enunciados, deductivos, inductivos, explicación, contrastación, Darwin, Kuhn, epistemología feminista, ética, etc.
+- **Pendiente:**
+  - contrastar las fichas con el libro de la cátedra;
+  - revisar las dudas anotadas: una clave que podría aceptar dos conclusiones (q-c39c7bda) y una explicación oficial de Lamarck que no cierra con su clave;
+  - en los ejercicios donde la cátedra acepta dos soluciones (premisa faltante y conclusión intercambiables), la app hoy acepta solo la de la grilla.
+
 ### D-028
 **La app también se publica en Vercel, con una función por ruta de la API** · 2026-10-28 · Gastón · Vigente
 
@@ -279,6 +303,33 @@ Además del Dockerfile (D-026), la app puede publicarse en Vercel, que no corre 
 - **Configuración en `vercel.json`:** las páginas salen de `output/public/`, las dependencias se instalan en `output/` y las funciones llevan `rules/` y tienen hasta 60 segundos.
 - **Única variable:** `ANTHROPIC_API_KEY`. El dictado tampoco está en Vercel (desde D-032, dicta el navegador).
 - **Pendiente:** probarla en Vercel. Se probó en local, imitando cómo Vercel entrega los pedidos.
+
+### D-029
+**Quick Demo: un diagnóstico de 4 preguntas para probar la app** · 2026-10-28 · Gastón · Vigente
+
+En la tarjeta del diagnóstico, al lado de "Hacer el diagnóstico", hay un botón **Quick Demo · 4 preguntas**.
+
+- **Es el mismo diagnóstico, en corto:** una pregunta por ficha, de las ideas que más se toman; mismo formato y sin correcciones en el medio. El servidor lo arma con `modo=demo`.
+- **Entra al mapa**, como cualquier diagnóstico. El resultado dice "Resultado del Quick Demo", no calcula el puntaje del examen (con 4 preguntas no dice nada) y ofrece "Hacer el diagnóstico completo".
+- El botón queda siempre visible, también cuando el mapa ya tiene ideas trabajadas.
+
+### D-030
+**En el Explainer Mode se muestran las opciones cuando la pregunta no se contesta sin ellas** · 2026-10-28 · Gastón · Vigente
+
+Gastón probó una pregunta de IPC ("Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista…") y no se podía contestar: el Explainer ocultaba las opciones.
+
+- **Cuáles:** las preguntas simples cuyo enunciado se refiere a las opciones: "cuál de las siguientes / de ellos", "qué premisa", "las siguientes afirmaciones, características, proposiciones…", "las opciones presentadas". Las de relacionar no entran. Hoy son 21 preguntas de Sociología y 29 de IPC. ICSE no tiene.
+- **Cómo:** se muestran las opciones para elegir una y la consigna dice "Elegí una opción y explicá por qué es la correcta". Se corrige la opción elegida, no la que deduce la IA. La IA evalúa si la explicación sostiene esa elección y califica la claridad igual que siempre.
+- **Lo demás no cambia:** en las otras preguntas el alumno sigue explicando sin ver las opciones (etapa 3 de [00_modelo_de_aprendizaje.md](00_modelo_de_aprendizaje.md)).
+
+### D-031
+**La marca se escribe "Academia Comunica", sin "de Mai Pistiner", en la presentación y la app** · 2026-10-28 · Gastón · Vigente
+
+En PrepTest el nombre queda solo como **Academia Comunica**.
+
+- **Dónde:** el logo (sin la línea "de Mai Pistiner"), la portada y los textos alternativos de las dos presentaciones (`presentation/` y `presentation-v2/`), y el logo de la app (`output/public/logo-acmp-primary.svg`). Los textos de la app ya decían "Academia Comunica".
+- **Se aparta del manual de marca de ACMP,** que pide el nombre completo en contextos formales. Es una decisión para este proyecto.
+- **En la v2 el logo además va sin las ondas,** solo con el texto.
 
 ### D-032
 **En la versión online dicta el navegador; Whisper queda para local** · 2026-10-28 · Gastón · Vigente

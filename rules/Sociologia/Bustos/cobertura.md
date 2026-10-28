@@ -1,6 +1,6 @@
 # Cobertura de las fichas — generado por scripts/validar_fichas.py
 
-67 fichas · 207 preguntas únicas · 386 consignas tomadas · cuatrimestres relevados: Final 02/2022, Final 07/2021, Final 10/2020, Final 11/2021.
+67 fichas · 212 preguntas únicas · 386 consignas tomadas · cuatrimestres relevados: Final 02/2022, Final 07/2021, Final 10/2020, Final 11/2021.
 
 Ordenadas por cuántos cuatrimestres distintos aparecieron y cuántas veces se tomaron.
 

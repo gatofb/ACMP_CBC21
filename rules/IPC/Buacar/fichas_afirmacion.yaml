@@ -1,0 +1,1696 @@
+# Fichas de afirmación — IPC, Cátedra A · Buacar (parciales y finales).
+# Formato y reglas: rules/01_formato_fichas.md. Validar con scripts/validar_fichas.py.
+# Estado: borrador. Escritas a partir de los exámenes y sus explicaciones oficiales; falta contrastarlas con el libro.
+
+- id: argumentos.que-es-un-argumento
+  eje: conceptos
+  autor: Argumentos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Qué es un argumento
+  afirmacion: Un argumento es un conjunto de enunciados en el que algunos, las premisas, se ofrecen como
+    razones a favor de otro, la conclusión, que se pretende establecer. Un fragmento es un argumento cuando
+    se pueden identificar premisas y conclusión.
+  puntos:
+  - En todo argumento hay enunciados que se ofrecen como razones (las premisas) a favor de otro que se
+    pretende concluir o establecer (la conclusión).
+  - Un fragmento es un argumento porque se pueden identificar premisas y conclusión.
+  - 'Los indicadores ayudan a reconocerlo: "dado que" o "pues" marcan una premisa; "por lo tanto", "en
+    consecuencia" o "luego" marcan la conclusión.'
+  - 'Una descripción, una enumeración de datos, el relato de una secuencia de pasos o un condicional suelto
+    no son argumentos: ningún enunciado se ofrece como razón de otro.'
+  trampas:
+  - texto: Es un argumento porque es un enunciado.
+    error: motivo_equivocado
+    por_que: 'El veredicto está bien, pero un argumento no es un enunciado: es un conjunto de enunciados
+      donde unos apoyan a otro.'
+  - texto: Es un argumento porque la conclusión es verdadera.
+    error: motivo_equivocado
+    por_que: El veredicto está bien, pero ser argumento no depende de la verdad, sino de que haya premisas
+      que apoyen una conclusión.
+  - texto: Es un argumento porque hay un enunciado condicional.
+    error: motivo_equivocado
+    por_que: El veredicto está bien, pero un condicional ("si…, entonces…") es un solo enunciado; lo que
+      hace al argumento son premisas y conclusión.
+  - texto: Elegir como argumento un condicional suelto, como "Si la comunidad organiza la ceremonia del
+      guillatún, entonces se realizan bailes rituales…".
+    error: concepto_vecino
+    por_que: 'Es un enunciado complejo, no un argumento: el "entonces" es parte del condicional, no un
+      indicador de conclusión.'
+  - texto: Elegir como argumento una enumeración ("En primer lugar… En segundo lugar… Finalmente…") o
+      una secuencia de pasos ("primero… luego…").
+    error: concepto_vecino
+    por_que: Ordenan datos o momentos, pero ningún enunciado se ofrece como razón de otro; ahí "luego"
+      es temporal, no indicador de conclusión.
+  pregunta_guia: ¿Hay algún enunciado que se ofrezca como razón para aceptar otro? ¿Qué expresión marca
+    la premisa o la conclusión?
+  explicacion_modelo: 'Es un argumento: en el fragmento del mamut, "por lo tanto" marca la conclusión
+    ("no tenía mucho pelo") y los enunciados anteriores son las razones que la apoyan. Lo que define a
+    un argumento es que se puedan identificar premisas y conclusión. La justificación tentadora es "porque
+    hay un enunciado condicional", pero un condicional es un solo enunciado: un "si…, entonces…" suelto
+    no es un argumento.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-7766f581
+  - q-1123838a
+  - q-96003c93
+  estado: borrador
+  notas: 'Las mismas palabras cambian de función según el contexto: "luego" es indicador de conclusión
+    en "Luego, los riñones requieren…" y temporal en "luego se desarrollan el estómago…"; "en primer lugar"
+    es indicador de premisa en q-92eff559, pero en la opción de los lof mapuches ordena una descripción.
+    Validar con el libro cómo lo presenta la cátedra.'
+- id: argumentos.premisas-y-conclusion
+  eje: conceptos
+  autor: Argumentos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Identificar premisas y conclusión
+  afirmacion: Las premisas y la conclusión se identifican con los indicadores de premisa y de conclusión.
+    Cada enunciado se escribe completo y sin el indicador, que nunca forma parte de la premisa ni de la
+    conclusión.
+  puntos:
+  - 'Los indicadores de premisa señalan las razones: "dado que", "puesto que", "pues", "debido a que",
+    "en efecto", "en primer lugar", "en segundo lugar".'
+  - 'Los indicadores de conclusión señalan lo que se quiere establecer: "por lo tanto", "por consiguiente",
+    "se sigue que", "luego", "podemos inferir que".'
+  - 'La conclusión no siempre va al final: puede estar al principio ("Podemos inferir que…") o en el medio
+    ("Se sigue que…, debido a que…").'
+  - Si solo hay indicadores de premisa, la conclusión es el enunciado que esas premisas apoyan (en el
+    argumento de Brasil, el primero).
+  - 'Las premisas y la conclusión se enuncian de manera completa: si el texto abrevia ("los del megalodón"),
+    se repone lo que falta ("Los dientes del megalodón…").'
+  - Los indicadores nunca forman parte de las premisas ni de la conclusión.
+  trampas:
+  - texto: 'Escribir la premisa con su indicador: "Premisa: Debido a que se están derritiendo los glaciares
+      de los polos" o "Premisa: Pues Argentina tiene progresivos aumentos del nivel del mar".'
+    error: hecho_equivocado
+    por_que: El indicador solo señala el rol del enunciado; nunca forma parte de la premisa ni de la conclusión.
+  - texto: 'Escribir el enunciado recortado: "Se sigue que aumenta el nivel del mar" o "Los del tiranosaurio
+      rex medían hasta 30 cm de largo".'
+    error: cambio_de_palabra
+    por_que: Le falta una parte del enunciado original ("en Argentina", "los dientes"); premisas y conclusión
+      van completas.
+  - texto: 'Invertir los roles: tomar como premisa "Si se queman combustibles fósiles, aumenta la temperatura"
+      y como conclusión una de las otras dos.'
+    error: cambio_de_palabra
+    por_que: '"Podemos inferir que" marca como conclusión justamente ese enunciado, aunque aparezca antes
+      que las premisas.'
+  - texto: Marcar como premisa la conclusión, como "Las neuronas tienen una función especializada" o "Los
+      carnívoros prehistóricos tenían mordidas letales".
+    error: concepto_vecino
+    por_que: 'Es lo que el argumento quiere establecer: la primera va antes de "debido a que" y la segunda
+      después de "por consiguiente".'
+  - texto: Marcar como premisa "Si Brasil ganó 5 mundiales, entonces es el país con más copas del mundo
+      ganadas".
+    error: cambio_de_palabra
+    por_que: Da vuelta el antecedente y el consecuente de la conclusión; ese enunciado no está en el argumento.
+  pregunta_guia: ¿Qué indicadores aparecen y qué enunciado marca cada uno? ¿Cómo queda cada enunciado
+    escrito completo y sin el indicador?
+  explicacion_modelo: En el argumento de los glaciares, las premisas son "Si se están derritiendo los
+    glaciares de los polos, entonces aumenta el nivel del mar en Argentina" y "Se están derritiendo los
+    glaciares de los polos"; la conclusión, "Aumenta el nivel del mar en Argentina". "Debido a que" marca
+    una premisa y "se sigue que", la conclusión, aunque esté en el medio. La opción tentadora copia el
+    texto con "Debido a que…" y "Se sigue que…", pero los indicadores no forman parte de los enunciados,
+    que además van completos.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-93292820
+  - q-3fe523b9
+  - q-7df4ac4b
+  - q-fad053d0
+  - q-74fb6847
+  - q-02f72b02
+  - q-721c81e6
+  estado: borrador
+  notas: 'En el argumento de Brasil (q-9eecddb8) la explicación oficial toma "en efecto" e "y" como indicadores
+    de premisa; que "y" funcione como indicador es discutible: validar cómo lo presenta el libro.'
+- id: enunciados.valor-de-verdad-de-complejos
+  eje: conceptos
+  autor: Enunciados
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Valor de verdad de los enunciados complejos
+  afirmacion: 'El valor de verdad de un enunciado complejo depende del valor de sus partes y de la expresión
+    lógica que las une: conjunción, negación, disyunción o condicional.'
+  puntos:
+  - La conjunción se expresa con "y", ",", "además" o "pero"; la negación, con "no" o "no es cierto que";
+    el condicional, con "si… entonces"; la disyunción, con "o" u "o bien… o bien".
+  - 'Una conjunción es verdadera solo si los dos conyuntos son verdaderos: basta que uno sea falso para
+    que sea falsa.'
+  - 'La negación invierte el valor: si un enunciado es verdadero, su negación es falsa, y al revés.'
+  - Un condicional es falso únicamente cuando el antecedente es verdadero y el consecuente falso; en los
+    demás casos es verdadero.
+  - Una disyunción con los dos disyuntos falsos es falsa, sea inclusiva o exclusiva; con uno verdadero
+    y otro falso, es verdadera.
+  - Si los dos disyuntos son verdaderos, la disyunción inclusiva ("o") es verdadera y la exclusiva ("o
+    bien… o bien") es falsa.
+  - Si los dos enunciados simples son verdaderos, el condicional que los une es verdadero, porque tiene
+    antecedente y consecuente verdaderos.
+  trampas:
+  - texto: Una conjunción con "pero" o "aunque" que tiene una parte verdadera, como "Los tehuelches eran
+      nómades, pero no tenían viviendas fáciles de transportar".
+    error: media_verdad
+    por_que: Tiene una parte verdadera, pero la otra niega algo verdadero; una conjunción con un conyunto
+      falso es falsa.
+  - texto: Los dinosaurios no tenían extremidades verticales o no eran animales vertebrados.
+    error: cambio_de_palabra
+    por_que: 'Cada "no" vuelve falso un enunciado verdadero: los dos disyuntos son falsos, así que la
+      disyunción es falsa.'
+  - texto: No es cierto que los tehuelches hayan sido nómades.
+    error: cambio_de_palabra
+    por_que: Es la negación de un enunciado verdadero, así que es falsa.
+  pregunta_guia: ¿Qué expresión lógica une las partes? ¿Qué valor tiene cada parte, contando las negaciones?
+  explicacion_modelo: Es verdadero "Si los tehuelches eran nómades, tenían viviendas fáciles de transportar".
+    Un condicional solo es falso cuando el antecedente es verdadero y el consecuente falso; acá los dos
+    son verdaderos, así que el condicional es verdadero. La opción más tentadora es "Los tehuelches eran
+    nómades, pero no tenían viviendas fáciles de transportar", porque empieza con algo cierto; pero es
+    una conjunción y su segunda parte niega algo verdadero, así que es falsa.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-4d9cf6a7
+  - q-8f80852f
+  - q-a94a7d34
+  - q-6d1870ff
+  estado: borrador
+  notas: En q-8d621ae4 una opción usa "aunque" como conjunción; la explicación oficial no lo lista entre
+    las expresiones de conjunción ("y", ",", "además", "pero"). Validar con el libro.
+- id: enunciados.universales
+  eje: conceptos
+  autor: Enunciados
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Enunciados universales y cuándo son falsos
+  afirmacion: Según su alcance, un enunciado universal afirma algo de todos los miembros de un conjunto.
+    Para que sea falso basta un miembro del conjunto que no tenga la propiedad.
+  puntos:
+  - Los enunciados se clasifican según su alcance, y eso determina sus condiciones de verdad.
+  - 'Un enunciado universal afirma algo respecto de todos los miembros de un conjunto: "Todos los tuátaras
+    son reptiles".'
+  - 'Para que un enunciado universal sea falso basta encontrar un miembro del conjunto que no tenga la
+    propiedad: un ictiosaurio que solo se alimenta de vegetales hace falso "Todos los ictiosaurios son
+    carnívoros".'
+  - Lo que pasa con animales de otro conjunto (un tiranosaurio) no afecta al enunciado, y un miembro que
+    sí tiene la propiedad no lo hace falso.
+  trampas:
+  - texto: El 80% de los tuátaras que nacen son machos.
+    error: concepto_vecino
+    por_que: 'Habla de una proporción del conjunto, no de todos sus miembros: es estadístico, no universal.'
+  - texto: Algunos tuátaras viven más de 100 años.
+    error: concepto_vecino
+    por_que: '"Algunos" no habla de todos los miembros del conjunto, así que no es universal.'
+  - texto: Henry, el tuátara, vive en Nueva Zelanda.
+    error: concepto_vecino
+    por_que: Habla de un solo individuo, no de todos los tuátaras.
+  - texto: Sería falso si encontramos un tiranosaurio que solo se alimenta de vegetales.
+    error: hecho_equivocado
+    por_que: 'El enunciado habla solo de ictiosaurios: un tiranosaurio no es miembro de ese conjunto.'
+  - texto: Sería falso si encontramos un ictiosaurio que se alimenta de carne.
+    error: concepto_vecino
+    por_que: Ese caso coincide con lo que dice el enunciado; para refutarlo hace falta un ictiosaurio
+      que no sea carnívoro.
+  pregunta_guia: ¿El enunciado habla de todos los miembros de un conjunto? ¿Qué caso tendría que aparecer
+    para que fuera falso?
+  explicacion_modelo: 'Lo haría falso encontrar un ictiosaurio que solo se alimenta de vegetales. "Todos
+    los ictiosaurios son carnívoros" es universal: afirma algo de todos los miembros de un conjunto, así
+    que alcanza con un miembro que no tenga la propiedad para refutarlo. La opción tentadora es la del
+    tiranosaurio que solo come vegetales, porque tampoco es carnívoro; pero el enunciado habla solo de
+    ictiosaurios, y un animal de otro conjunto no lo afecta.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-83d71439
+  - q-c6c5b40a
+  estado: borrador
+  notas: Las explicaciones oficiales solo definen el enunciado universal. Hay que validar con el libro
+    cómo llama la cátedra a los otros tipos (singular para "Henry…", estadístico para "El 80%…" y el de
+    "Algunos…").
+- id: enunciados.tautologia-contradiccion-contingencia
+  eje: conceptos
+  autor: Enunciados
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Tautologías, contradicciones y contingencias
+  afirmacion: Una tautología es necesariamente verdadera por su forma, sea como sea el mundo; una contradicción
+    es necesariamente falsa; una contingencia puede ser verdadera o falsa según cómo sean los hechos.
+  puntos:
+  - 'Las tautologías son necesariamente verdaderas: no son meras verdades, son verdaderas por la forma
+    del enunciado, sea como sea el mundo.'
+  - Las contradicciones son necesariamente falsas.
+  - Las contingencias pueden ser verdaderas o falsas, pero no son necesariamente ninguna de las dos cosas.
+  - 'Un enunciado que parece obviamente verdadero es contingente si su verdad depende de cuestiones empíricas
+    y no de la estructura de la oración: "La capital de Argentina es Buenos Aires".'
+  - 'Una disyunción entre un enunciado y su negación ("A o no A") es una tautología: "Las neuronas son
+    células que tienen núcleo o no lo tienen".'
+  - Un condicional con el mismo enunciado como antecedente y consecuente ("Si A, entonces A") es una tautología.
+  - 'Unir un enunciado con su negación mediante una conjunción ("A y no A") da una contradicción: "Buenos
+    Aires es y no es la capital de Argentina".'
+  trampas:
+  - texto: '"A y no A", como "Los dinosaurios eran animales terrestres y no eran animales terrestres",
+      o completar con "pero no lo tienen".'
+    error: concepto_vecino
+    por_que: 'Afirma y niega lo mismo: es una contradicción, necesariamente falsa, lo opuesto a una tautología.'
+  - texto: Los dinosaurios eran animales terrestres.
+    error: verdad_general
+    por_que: 'Aunque fuera verdadero, su verdad depende de los hechos y no de la forma: es contingente.'
+  - texto: Completar con "si no tenían grandes diferencias jerárquicas" o "y muchos especialistas en antropología
+      lo destacan".
+    error: verdad_general
+    por_que: 'Suenan razonables, pero que sean verdaderas depende de cómo eran los tehuelches: son contingencias.'
+  - texto: Completar "Las neuronas son células que tienen núcleo…" con "o dendritas".
+    error: cambio_de_palabra
+    por_que: Tiene la "o", pero une dos enunciados distintos; la tautología necesita un enunciado y su
+      negación ("o no lo tienen").
+  pregunta_guia: ¿El enunciado sería verdadero (o falso) sea como sea el mundo, solo por su forma? ¿O
+    depende de los hechos?
+  explicacion_modelo: 'La tautología es "Los tehuelches tenían una estructura social horizontal o no la
+    tenían": una disyunción entre un enunciado y su negación es verdadera sea como sea el mundo. La opción
+    más tentadora es "si no tenían grandes diferencias jerárquicas", porque suena obvia; pero su verdad
+    depende de cómo eran los tehuelches, así que es contingente. "Pero no tenían una estructura social
+    horizontal" da lo opuesto: una contradicción.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-45a31907
+  - q-83f0f148
+  - q-306b5f7b
+  estado: borrador
+- id: deductivos.deductivo-o-inductivo
+  eje: conceptos
+  autor: Argumentos deductivos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Cómo reconocer un argumento deductivo (y uno inductivo)
+  afirmacion: 'Un argumento es deductivo cuando sus premisas establecen de modo concluyente la conclusión:
+    si fueran verdaderas, la conclusión no podría ser falsa. En uno inductivo, la verdad de las premisas
+    solo vuelve probable la conclusión.'
+  puntos:
+  - 'En un argumento deductivo, si suponemos que las premisas son verdaderas, la conclusión es necesariamente
+    verdadera: "las premisas establecen de modo concluyente la conclusión".'
+  - 'También se lo reconoce por su estructura: si tiene una de las formas válidas del material (Modus
+    Ponens, Modus Tollens, silogismo hipotético, etc.), es deductivo.'
+  - 'En un argumento inductivo es concebible que las premisas sean verdaderas y la conclusión falsa: "la
+    verdad de las premisas vuelve probable la verdad de la conclusión".'
+  - Las estructuras inductivas del material son la enumeración incompleta, la analogía y el silogismo
+    inductivo; no son válidas, pero sus premisas dan cierto grado de respaldo a la conclusión.
+  - Lo que decide si es deductivo o inductivo es el vínculo entre premisas y conclusión, no que sean de
+    hecho verdaderas.
+  - 'Encadenar condicionales ("Si A, entonces B; si B, entonces C; por lo tanto, si A, entonces C") es
+    un silogismo hipotético: deductivo.'
+  - 'Comparar casos que comparten propiedades y concluir sobre otro caso (Países Bajos, India y Bangladesh,
+    y de ahí Argentina) es una analogía: inductivo.'
+  trampas:
+  - texto: 'Justificar por la verdad de hecho: "porque las premisas son verdaderas", "porque la conclusión
+      es verdadera" o "porque la conclusión no es verdadera".'
+    error: motivo_equivocado
+    por_que: El veredicto puede estar bien, pero lo que distingue deductivo de inductivo es el vínculo
+      entre premisas y conclusión, no su verdad.
+  - texto: Es inductivo, porque las premisas ofrecen un apoyo parcial a la conclusión (dicho de un Modus
+      Ponens o de un silogismo hipotético).
+    error: concepto_vecino
+    por_que: El apoyo parcial es lo propio de los inductivos; en esas formas las premisas establecen la
+      conclusión de modo concluyente.
+  - texto: Es deductivo, porque la verdad de las premisas garantiza la verdad de la conclusión (dicho
+      de la analogía de los países).
+    error: concepto_vecino
+    por_que: Garantizar la conclusión es lo propio del deductivo; en una analogía las premisas solo la
+      vuelven probable.
+  - texto: Es inductivo, porque es imposible que tanto las premisas como la conclusión sean verdaderas.
+    error: motivo_equivocado
+    por_que: 'El veredicto está bien, pero el motivo deforma la definición: en un inductivo es concebible
+      que las premisas sean verdaderas y la conclusión falsa.'
+  - texto: Clasificar el encadenamiento de condicionales de Brasil como analogía, enumeración incompleta
+      o silogismo inductivo.
+    error: concepto_vecino
+    por_que: 'No compara casos, no generaliza desde una muestra ni parte de un dato estadístico: es un
+      silogismo hipotético, deductivo.'
+  pregunta_guia: Si las premisas fueran verdaderas, ¿la conclusión podría ser falsa? ¿Reconocés alguna
+    forma válida o alguna estructura inductiva?
+  explicacion_modelo: 'El argumento de los glaciares es deductivo: es un Modus Ponens, y si sus premisas
+    fueran verdaderas la conclusión no podría ser falsa; por eso se justifica con "las premisas establecen
+    de modo concluyente la conclusión". Lo que decide es el vínculo entre premisas y conclusión, no su
+    verdad de hecho. La justificación tentadora, "porque las premisas son verdaderas", está mal: un argumento
+    inductivo también puede tener premisas verdaderas.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-5099e342
+  - q-e914110f
+  - q-6a806735
+  - q-5471cde6
+  - q-89da5b3c
+  - q-0800ad69
+  - q-d90510cf
+  - q-59e6a878
+  estado: borrador
+  notas: Las explicaciones oficiales usan casi como sinónimos "reconocer una forma válida" y "estar frente
+    a un deductivo", y llaman "formas inválidas" a las estructuras inductivas. La ficha lo enseña así;
+    validar con el libro.
+- id: deductivos.validez-depende-de-la-forma
+  eje: conceptos
+  autor: Argumentos deductivos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: 'Validez: qué conclusión se sigue y qué argumento es inválido'
+  afirmacion: Un argumento es válido cuando no es posible que sus premisas sean verdaderas y su conclusión
+    falsa. Lo que lo hace válido o inválido es su forma, no que premisas y conclusión sean de hecho verdaderas
+    o falsas.
+  puntos:
+  - Un argumento es válido cuando no es posible que las premisas sean todas verdaderas y la conclusión
+    falsa.
+  - 'La validez también se reconoce por la estructura: Modus Ponens, Modus Tollens, Silogismo disyuntivo
+    e Instanciación del universal, entre otras, son formas válidas.'
+  - 'Modus Tollens: "Si A, entonces B. No B. Por lo tanto, no A." De "Si los mamuts tienen espaldas rectas,
+    aparecen así en las pinturas rupestres" y "no aparecen así" se sigue "Los mamuts no tienen espaldas
+    rectas".'
+  - 'Silogismo disyuntivo: "A o B. No A. Por lo tanto, B." De "rendían culto a una única deidad o eran
+    politeístas" y "no rendían culto a una única deidad" se sigue "Los aztecas eran politeístas".'
+  - 'Modus Ponens: "Si A, entonces B. A. Por lo tanto, B."'
+  - 'Un argumento es inválido si es concebible que sus premisas sean verdaderas y su conclusión falsa:
+    "A o B. Por lo tanto, A" es inválido.'
+  - 'Un argumento inválido puede tener premisas verdaderas y conclusión verdadera: la validez depende
+    de la forma.'
+  trampas:
+  - texto: Concluir "Los mamuts tienen espaldas rectas" o "Las personas emitimos luz a través de nuestros
+      poros".
+    error: cambio_de_palabra
+    por_que: 'Afirman el antecedente que el Modus Tollens niega: si el consecuente es falso, se sigue
+      la negación del antecedente.'
+  - texto: Concluir "Los mamuts no aparecen en las pinturas rupestres" o "Los mamuts aparecen con joroba
+      en las pinturas rupestres".
+    error: dato_inventado
+    por_que: Las premisas solo dicen que no aparecen con espaldas rectas; no dicen si aparecen ni cómo.
+  - texto: Concluir "Los aztecas rendían culto a una única deidad y eran politeístas".
+    error: concepto_vecino
+    por_que: Lee la disyunción como si fuera una conjunción, y además contradice la segunda premisa.
+  - texto: Concluir "Los aztecas no eran politeístas" o "Si los aztecas no rendían culto a una única deidad,
+      no eran politeístas".
+    error: cambio_de_palabra
+    por_que: Si se niega un disyunto, se sigue el otro; estas opciones niegan justamente el disyunto que
+      queda.
+  - texto: Concluir "Si las personas no emitimos luz a través de nuestros poros, entonces no podemos iluminar
+      una habitación solo con nuestra piel".
+    error: cambio_de_palabra
+    por_que: No es la conclusión de ninguno de los esquemas del material; con estas premisas el que se
+      aplica es el Modus Tollens.
+  - texto: Considerar válido "El rinoceronte lanudo tiene pelaje o cuernos. Por consiguiente, tiene pelaje",
+      porque es cierto que tenía pelaje.
+    error: verdad_general
+    por_que: 'Una conclusión verdadera no hace válido al argumento: la disyunción puede ser verdadera
+      solo por los cuernos.'
+  pregunta_guia: ¿Qué forma tienen las premisas (condicional, disyunción, negación)? ¿Qué esquema válido
+    las completa?
+  explicacion_modelo: 'Se sigue válidamente "Los mamuts no tienen espaldas rectas": las premisas tienen
+    la forma "Si A, entonces B" y "no B", y por Modus Tollens se concluye "no A". Un argumento es válido
+    cuando no es posible que las premisas sean verdaderas y la conclusión falsa, y eso depende de la forma.
+    La opción tentadora "Los mamuts tienen espaldas rectas" afirma justo el antecedente que el Modus Tollens
+    niega; "aparecen con joroba" agrega algo que las premisas no dicen.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-7cfaa421
+  - q-90a2d487
+  - q-ea5b7ff4
+  - q-a698a2c5
+  estado: borrador
+  notas: 'En q-c39c7bda la explicación oficial dice que hay un único enunciado que se infiere válidamente.
+    En rigor, "Si las personas no emitimos luz…, entonces no podemos iluminar una habitación solo con
+    nuestra piel" también se sigue: su consecuente es la segunda premisa, y un condicional con consecuente
+    verdadero es verdadero. La ficha sigue a la cátedra (la única que sale de un esquema del material
+    es la del Modus Tollens); validar antes de usar esa opción como trampa.'
+- id: deductivos.reglas-de-una-deduccion
+  eje: conceptos
+  autor: Argumentos deductivos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Justificar los pasos de una deducción
+  afirmacion: En una deducción, cada línea es una premisa o se obtiene de líneas anteriores aplicando
+    una regla válida. Justificar una línea es decir qué regla se aplicó y a qué líneas.
+  puntos:
+  - Cada línea de una deducción es una premisa o sale de líneas anteriores por una regla; la justificación
+    indica la regla y las líneas.
+  - 'Silogismo hipotético: de dos condicionales en los que el consecuente de uno coincide con el antecedente
+    del otro ("Si A, entonces B"; "Si B, entonces C") se concluye "Si A, entonces C".'
+  - 'Silogismo disyuntivo: de una disyunción y la negación de uno de los disyuntos se concluye el disyunto
+    restante.'
+  - 'Para completar una premisa faltante hay que ver qué regla se aplicó: si "La bilis es producida por
+    el hígado" sale por silogismo disyuntivo de "páncreas o hígado", la premisa que falta es "La bilis
+    no es producida por el páncreas".'
+  - 'Modus Ponens: de "Si A, entonces B" y "A" se concluye "B".'
+  trampas:
+  - texto: Modus tollens, 2 y 3
+    error: concepto_vecino
+    por_que: El Modus Tollens parte de un condicional y la negación de su consecuente; en esas líneas
+      no hay ninguna negación.
+  - texto: Silogismo disyuntivo, 1 y 2
+    error: concepto_vecino
+    por_que: El silogismo disyuntivo necesita una disyunción ("o"), y las líneas 1 y 2 son condicionales.
+  - texto: Adjunción, 1 y 2 / Simplificación, 1
+    error: concepto_vecino
+    por_que: La adjunción da una conjunción y la simplificación parte de una; la línea 5 es un condicional.
+  - texto: 'Premisa faltante: "La bilis es producida por el páncreas".'
+    error: cambio_de_palabra
+    por_que: 'El silogismo disyuntivo pide negar un disyunto para concluir el otro: hace falta "no es
+      producida por el páncreas".'
+  - texto: 'Premisa faltante: "La bilis no es producida por el hígado".'
+    error: cambio_de_palabra
+    por_que: Niega justo el disyunto que se concluye en la línea 4; hay que negar el otro, el del páncreas.
+  - texto: 'Premisa faltante: "La bilis es producida por el páncreas y por el hígado".'
+    error: concepto_vecino
+    por_que: 'Es una conjunción, no la negación de un disyunto: con ella no se aplica el silogismo disyuntivo.'
+  pregunta_guia: ¿Qué forma tienen las líneas citadas y la línea que se obtiene? ¿Qué regla conecta unas
+    con otra?
+  explicacion_modelo: 'La línea 5 se justifica por Silogismo hipotético, 1 y 2: la línea 1 dice "si tiene
+    lengua propia, es aglutinante" y la 2, "si es aglutinante, puede expresar una oración compleja en
+    una sola palabra". Como el consecuente de una es el antecedente de la otra, se encadenan en "si tiene
+    lengua propia, puede expresar…". La tentadora es Modus tollens, pero esa regla pide negar un consecuente,
+    y en esas líneas no hay ninguna negación.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-9ba46b03
+  - q-e605f40d
+  estado: borrador
+  notas: Las explicaciones oficiales no definen Adjunción ni Simplificación; la ficha usa la definición
+    habitual (de A y de B se obtiene "A y B"; de "A y B" se obtiene A). Validar con el libro.
+- id: inductivos.analogia-o-silogismo-inductivo
+  eje: conceptos
+  autor: Argumentos inductivos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Distinguir analogía, silogismo inductivo y enumeración incompleta
+  afirmacion: La analogía compara casos parecidos y concluye que otro caso tiene una propiedad más; el
+    silogismo inductivo aplica una generalización estadística a un caso; la enumeración incompleta generaliza
+    a todo un conjunto desde una muestra.
+  puntos:
+  - 'Analogía: se comparan varios casos que se asemejan en una o más propiedades y se infiere que uno
+    de ellos tiene además otra propiedad que los demás comparten.'
+  - 'Silogismo inductivo: parte de una generalización estadística o probabilística ("la mayoría", "el
+    90%"), subsume un caso particular en ella y concluye que ese caso cumple lo que dice la generalización.'
+  - 'Enumeración incompleta: de varios casos de un conjunto que tienen una propiedad, se concluye que
+    todo el conjunto la tiene.'
+  - Si la premisa general dice "todos" y se aplica a un caso, el argumento es deductivo (instanciación
+    del universal), no inductivo.
+  trampas:
+  - texto: Tomar como silogismo inductivo "Todos los pueblos originarios que mantuvieron sus lenguas ancestrales
+      conservaron prácticas rituales… La comunidad mapuche mantuvo su lengua… Por lo tanto, conserva prácticas
+      rituales".
+    error: cambio_de_palabra
+    por_que: 'Con "todos" en lugar de "la mayoría", la conclusión se sigue con necesidad: es instanciación
+      del universal, deductivo.'
+  - texto: Tomar como analogía "La arteria femoral transporta sangre oxigenada, y las arterias braquial
+      y carótida también. De lo que se infiere que todas las arterias transportan sangre oxigenada".
+    error: concepto_vecino
+    por_que: 'Generaliza a todo el conjunto desde algunos casos: es una enumeración incompleta; la analogía
+      concluye sobre un caso.'
+  - texto: Tomar como analogía el argumento que parte de "el 90% de los adultos mayores no tienen buena
+      irrigación…" y lo aplica a un paciente.
+    error: concepto_vecino
+    por_que: 'Parte de una generalización estadística y la aplica a un caso: es un silogismo inductivo,
+      no una comparación entre casos.'
+  pregunta_guia: ¿El argumento compara casos parecidos, aplica una generalización estadística a un caso
+    o generaliza desde una muestra? ¿La premisa general dice "todos" o "la mayoría"?
+  explicacion_modelo: 'La analogía es la que compara a quechuas y mapuches y concluye que los aymaras
+    también desarrollaron técnicas agrícolas complejas; el silogismo inductivo es el que parte de "la
+    mayoría de los pueblos originarios…" y lo aplica a la comunidad mapuche. La analogía va de casos parecidos
+    a otro caso; el silogismo inductivo, de una generalización estadística a un caso. La trampa es el
+    argumento con "todos": tiene la misma forma, pero con una premisa universal la conclusión se sigue
+    con necesidad, así que es deductivo.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-035268db
+  - q-9b743602
+  estado: borrador
+- id: inductivos.completar-una-analogia
+  eje: conceptos
+  autor: Argumentos inductivos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Armar un argumento por analogía
+  afirmacion: En una analogía, los casos comparados comparten varias propiedades; la premisa dice que
+    un caso nuevo comparte alguna de ellas y la conclusión le atribuye la que falta.
+  puntos:
+  - Los argumentos por analogía comparan casos que se asemejan en una o más propiedades e infieren que
+    uno de ellos tiene además otra propiedad que los otros comparten.
+  - La premisa faltante dice que el caso nuevo tiene una de las propiedades comunes ("El estegosaurio
+    era un dinosaurio carnívoro"); la conclusión le atribuye la otra ("El estegosaurio tenía garras afiladas").
+  - 'Hay dos soluciones posibles: esa, o al revés (premisa: tenía garras afiladas; conclusión: era carnívoro).'
+  - La conclusión de una analogía es sobre un caso particular, no una generalización con "todos" o "la
+    mayoría".
+  trampas:
+  - texto: Como premisa o como conclusión, "La mayoría de los dinosaurios carnívoros tenían garras afiladas".
+    error: concepto_vecino
+    por_que: Es una generalización estadística, propia del silogismo inductivo; la analogía compara casos
+      particulares.
+  - texto: Como conclusión, "Todos los dinosaurios carnívoros tenían garras afiladas".
+    error: concepto_vecino
+    por_que: Generalizar a todo el conjunto es propio de la enumeración incompleta; la analogía concluye
+      sobre un caso nuevo.
+  - texto: Como premisa faltante, "El tiranosaurio era un dinosaurio carnívoro".
+    error: hecho_equivocado
+    por_que: Repite un caso que ya está en las premisas; la analogía necesita un caso nuevo que comparta
+      alguna propiedad.
+  pregunta_guia: ¿Qué propiedades comparten los casos comparados? ¿Cuál es el caso nuevo y qué propiedad
+    se le atribuye en la conclusión?
+  explicacion_modelo: 'La premisa que falta es "El estegosaurio era un dinosaurio carnívoro" y la conclusión,
+    "El estegosaurio tenía garras afiladas". En una analogía se comparan casos que comparten propiedades
+    (ser carnívoro y tener garras afiladas) y se infiere que un caso nuevo que comparte una también tiene
+    la otra; por eso vale también la combinación inversa. Las opciones con "la mayoría" o "todos" tientan,
+    pero son generalizaciones: armarían otro tipo de argumento, no una analogía.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-2e20b161
+  - q-9c3a656d
+  estado: borrador
+  notas: La explicación oficial acepta dos soluciones (estegosaurio carnívoro como premisa y garras como
+    conclusión, o al revés), pero la clave marca solo la primera combinación. La app tendría que aceptar
+    las dos; validar cómo se corrige.
+- id: inductivos.fortalecer-enumeracion-incompleta
+  eje: conceptos
+  autor: Argumentos inductivos
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Cómo fortalecer una enumeración incompleta
+  afirmacion: Una enumeración incompleta generaliza a todo un conjunto una propiedad observada en una
+    muestra, y es más fuerte cuanto mayor es la muestra. Se fortalece agregando un caso del conjunto que
+    tenga la propiedad, sin que la muestra llegue a ser todo el conjunto.
+  puntos:
+  - Un argumento inductivo por enumeración incompleta parte de la presencia de una propiedad en una muestra
+    y concluye que la tiene todo el conjunto al que pertenecen esos casos.
+  - El argumento más fuerte es aquel en el que la muestra desde la que se generaliza es mayor.
+  - 'La premisa que fortalece agrega un caso nuevo que dice las dos cosas: que pertenece al conjunto y
+    que tiene la propiedad ("El tigre dientes de sable, que era un animal grande de la Edad de Hielo,
+    era depredador").'
+  - Para que siga siendo inductivo, la muestra no puede ser igual al conjunto sobre el que se generaliza.
+  trampas:
+  - texto: Los qom, los wichís y los aymaras son los únicos pueblos originarios de América del Sur.
+    error: concepto_vecino
+    por_que: Con esa premisa la muestra es igual al conjunto y el argumento deja de ser inductivo.
+  - texto: 'Agregar un caso sin la propiedad: "Los quechuas no mantuvieron su lengua ancestral" o "El
+      megaterio no era depredador".'
+    error: cambio_de_palabra
+    por_que: 'Es un caso al revés: no agranda la muestra, va en contra de la generalización.'
+  - texto: 'Agregar un caso sin decir que es del conjunto: "Los diaguitas mantuvieron su lengua ancestral"
+      o "La hiena de las cavernas era un animal depredador".'
+    error: media_verdad
+    por_que: Tiene la propiedad, pero la premisa no dice que pertenezca al conjunto sobre el que se generaliza.
+  - texto: 'Agregar como premisa la conclusión: "Todos los órganos del tracto digestivo humano tienen
+      paredes recubiertas de tejido muscular liso".'
+    error: concepto_vecino
+    por_que: 'No agrega ningún caso a la muestra: repite la generalización y el argumento deja de ser
+      una enumeración incompleta.'
+  pregunta_guia: ¿La premisa nueva agrega un caso que pertenece al conjunto y tiene la propiedad? ¿La
+    muestra sigue siendo menor que el conjunto?
+  explicacion_modelo: 'La que fortalece es "El tigre dientes de sable, que era un animal grande de la
+    Edad de Hielo, era depredador": agrega un caso nuevo, del conjunto y con la propiedad, y así agranda
+    la muestra. La más tentadora es "son las únicas tres especies", porque parece asegurar la conclusión;
+    pero entonces la muestra sería igual al conjunto y el argumento dejaría de ser inductivo. "La hiena
+    de las cavernas era depredadora" no alcanza porque no dice que fuera un animal grande de la Edad de
+    Hielo.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-a87176ed
+  - q-fc2eeff0
+  - q-eefd6b56
+  estado: borrador
+  notas: 'La clave descarta "Los diaguitas mantuvieron su lengua ancestral" y "El apéndice tiene paredes
+    recubiertas…" aunque, de hecho, los diaguitas son un pueblo originario sudamericano y el apéndice
+    es parte del tubo digestivo: lo que cuenta es que la premisa no lo dice. Validar que ese sea el criterio
+    del libro.'
+- id: explicacion.ley-y-condicion-antecedente
+  eje: conceptos
+  autor: Explicación científica
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Ley y condición antecedente en la explicación nomológico-deductiva
+  afirmacion: Según el modelo de cobertura legal, el explanans contiene al menos una ley (un enunciado
+    general que describe una regularidad empíricamente constatada y que, en la explicación nomológico-deductiva,
+    tiene que ser universal) y enunciados singulares que describen las condiciones antecedentes del caso.
+  puntos:
+  - Según el modelo de cobertura legal, el explanans contiene por lo menos una ley, acompañada por enunciados
+    que describen las condiciones iniciales o antecedentes.
+  - Las leyes son enunciados generales que describen una regularidad empíricamente constatada.
+  - 'En una explicación nomológico-deductiva, la ley tiene que ser universal: vale para todos los casos
+    ("Los salmones ponen huevas en los ríos").'
+  - La condición antecedente es un enunciado singular que describe el factor específico del caso y lo
+    ubica bajo la ley ("Este pez es un salmón").
+  - Ley y condición antecedente tienen que formar un par del que se deduzca el explanandum.
+  - Un condicional sobre un individuo ("Si este pez..., entonces...") no es una ley y no puede formar
+    parte de una explicación de este tipo.
+  trampas:
+  - texto: Elegir como ley "La mayoría de los salmones ponen huevas en el río".
+    error: concepto_vecino
+    por_que: 'Es una ley estadística: sirve para una explicación estadístico-inductiva, no para una nomológico-deductiva,
+      que pide una ley universal.'
+  - texto: Elegir como ley "Si este pez está en etapa de reproducción, entonces puso huevas en el río".
+    error: concepto_vecino
+    por_que: 'Es un condicional sobre un individuo, no un enunciado general: no describe ninguna regularidad,
+      así que no es una ley.'
+  - texto: Elegir como condición antecedente "Este pez está en etapa de reproducción".
+    error: dato_inventado
+    por_que: 'Es singular, pero la ley habla de salmones, no de etapas de reproducción: junto con ella
+      no permite deducir el explanandum.'
+  - texto: 'Intercambiar los papeles: "Este pez es un salmón" como ley y "Los salmones ponen huevas en
+      los ríos" como condición antecedente.'
+    error: cambio_de_palabra
+    por_que: 'Invierte los roles: el enunciado general es la ley y el singular es la condición antecedente.'
+  pregunta_guia: ¿Cuál de los enunciados habla de todos los casos de un tipo, y cuál habla de este caso
+    y lo conecta con lo que dice la ley?
+  explicacion_modelo: 'La ley es "Los salmones ponen huevas en los ríos" y la condición antecedente, "Este
+    pez es un salmón". En una explicación nomológico-deductiva la ley tiene que ser un enunciado general
+    y universal, y la condición antecedente, un enunciado singular que, junto con la ley, permita deducir
+    el explanandum. Tienta "La mayoría de los salmones ponen huevas en el río" porque es general, pero
+    es estadística: con ella el explanandum ya no se deduce.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-a2d4caaa
+  - q-5493accd
+  estado: borrador
+  notas: La explicación oficial de esta pregunta define las condiciones antecedentes como los factores
+    específicos "suficientes" para que ocurra el fenómeno; la de las otras preguntas de explicación las
+    define como los factores "sin los cuales no habría sucedido" (necesarios). Validar con el texto de
+    la cátedra cuál formulación usar.
+- id: explicacion.inferir-el-explanandum
+  eje: conceptos
+  autor: Explicación científica
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Cómo inferir el explanandum a partir del explanans
+  afirmacion: 'El explanandum es el enunciado singular que describe el fenómeno a explicar: se obtiene
+    aplicando lo que dice la ley del explanans al caso que presenta la condición antecedente, sin agregar,
+    quitar ni negar nada.'
+  puntos:
+  - 'El explanandum se infiere del explanans: es lo que la ley afirma, aplicado al caso de la condición
+    antecedente.'
+  - 'Con una ley universal, el explanandum se deduce: de "Todo seleccionado que termina primero en su
+    grupo del Mundial clasifica a los dieciseisavos de final" y "Francia termina primera en su grupo"
+    se sigue "El seleccionado de Francia clasifica a los dieciseisavos de final".'
+  - 'Si la ley dice dos cosas, el explanandum dice las dos: "El Caribe sufre la proliferación de algas
+    nocivas y la migración de especies".'
+  - 'Con una ley estadística ("El 85% de los ecosistemas que..."), el explanandum se infiere con cierta
+    probabilidad, pero se enuncia como el hecho del caso: "El ecosistema del Chaco argentino sufre cambios
+    significativos en su temperatura y en sus patrones de lluvia".'
+  - 'El explanandum es un enunciado singular sobre el caso: no es una ley ni un condicional.'
+  trampas:
+  - texto: '"El Caribe sufre la proliferación de algas nocivas pero no sufre la migración de especies."'
+    error: media_verdad
+    por_que: 'Empieza bien, pero niega la mitad de lo que dice la ley: el explanandum tiene que incluir
+      las dos cosas.'
+  - texto: '"El Caribe sufre la proliferación de algas nocivas y el blanqueamiento de corales."'
+    error: dato_inventado
+    por_que: 'La ley no dice nada del blanqueamiento de corales: no se puede inferir.'
+  - texto: '"Es probable que el Caribe sufra la proliferación de algas nocivas."'
+    error: concepto_vecino
+    por_que: Trata la explicación como estadística, pero la ley es universal; además deja afuera la migración
+      de especies.
+  - texto: '"El ecosistema del Chaco sufre cambios significativos en el ciclo del agua, del carbono y
+      del nitrógeno."'
+    error: cambio_de_palabra
+    por_que: Cambia lo que la ley predice (temperatura y lluvias) por algo parecido a lo que describe
+      la condición antecedente (los ciclos).
+  - texto: '"El Chaco no sufre cambios significativos..." o "Francia no clasifica a los dieciseisavos
+      de final".'
+    error: cambio_de_palabra
+    por_que: Niega justamente lo que la ley permite inferir para ese caso.
+  - texto: '"Si Francia termina primera en su grupo, entonces clasifica a los dieciseisavos de final."'
+    error: concepto_vecino
+    por_que: 'Es un condicional, no el hecho a explicar: el explanandum afirma que Francia clasifica.'
+  - texto: '"Todo seleccionado que clasifica a los dieciseisavos de final terminó primero en su grupo."'
+    error: cambio_de_palabra
+    por_que: 'Invierte la ley y además es un enunciado general: el explanandum es singular.'
+  - texto: '"Todo ecosistema es regulado por ciclos naturales que permiten la circulación de elementos
+      esenciales."'
+    error: verdad_general
+    por_que: Suena razonable, pero es un enunciado general que no se sigue del explanans.
+  pregunta_guia: ¿Qué dice la ley que les pasa a todos (o a la mayoría de) los casos de un tipo, y qué
+    caso concreto presenta la condición antecedente?
+  explicacion_modelo: En el caso del Caribe, el explanandum es "El Caribe sufre la proliferación de algas
+    nocivas y la migración de especies". Se obtiene aplicando la ley (los mares que aumentan su temperatura
+    sufren las dos cosas) al caso de la condición antecedente (el Caribe es uno de esos mares), sin agregar
+    ni quitar nada. Tienta "Es probable que el Caribe sufra la proliferación de algas nocivas", pero la
+    ley es universal, así que no hace falta el "es probable", y además esa opción deja afuera la migración.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-c7163e5f
+  - q-6534a7d0
+  - q-ec3c08f9
+  estado: borrador
+  notas: Que el explanandum de una explicación estadística se enuncie sin "es probable" (la probabilidad
+    va en la inferencia, no en el enunciado) sale de la clave del caso del Chaco; validar con el texto
+    de la cátedra.
+- id: explicacion.nomologica-o-estadistica
+  eje: conceptos
+  autor: Explicación científica
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Explicación nomológico-deductiva o estadístico-inductiva
+  afirmacion: 'El tipo de explicación se decide por el explanans: si su ley es universal y el explanandum
+    se deduce, es nomológico-deductiva; si contiene al menos una ley estadística o probabilística y el
+    explanandum se infiere con cierta probabilidad, es estadístico-inductiva.'
+  puntos:
+  - En las explicaciones nomológico-deductivas, las leyes del explanans son universales y el explanandum
+    se deduce del explanans.
+  - En las estadístico-inductivas, el explanans contiene al menos una ley estadística o probabilística
+    y el explanandum se infiere del explanans con cierta probabilidad.
+  - Una ley que vale para todos los casos ("Todo seleccionado que...", "Los mares que...") es universal;
+    una que da un porcentaje o habla de "la mayoría" ("El 85% de los ecosistemas...") es estadística.
+  - La justificación correcta habla de la ley del explanans y del tipo de inferencia; el explanandum nunca
+    es una ley, sino un enunciado singular sobre el caso.
+  trampas:
+  - texto: '"Es nomológico-deductiva porque su explanandum es una ley universal" (en un caso que sí es
+      nomológico-deductivo).'
+    error: motivo_equivocado
+    por_que: 'El tipo está bien, pero el motivo no: lo universal es la ley del explanans; el explanandum
+      es singular.'
+  - texto: '"Es estadístico-inductiva porque el explanandum es una ley probabilística" (en un caso que
+      sí es estadístico).'
+    error: motivo_equivocado
+    por_que: 'Acierta el tipo, pero el explanandum no es una ley: lo probabilístico es la ley del explanans.'
+  - texto: Elegir "estadístico-inductiva porque contiene al menos una ley probabilística..." cuando la
+      ley es universal.
+    error: concepto_vecino
+    por_que: 'La descripción es la correcta para la estadística, pero en ese caso la ley vale para todos:
+      es nomológico-deductiva.'
+  - texto: Elegir "nomológico-deductiva porque solo contiene leyes universales..." cuando la ley dice
+      "el 85%".
+    error: concepto_vecino
+    por_que: Una ley con un porcentaje es estadística; el explanandum solo se vuelve probable, no se deduce.
+  pregunta_guia: ¿La ley del explanans vale para todos los casos o para un porcentaje? ¿El explanandum
+    se deduce o solo se vuelve probable?
+  explicacion_modelo: 'En el caso del Chaco es una explicación estadístico-inductiva, porque la ley del
+    explanans ("el 85% de los ecosistemas que...") es estadística y el explanandum se infiere de ella
+    con cierta probabilidad. Para clasificar hay que mirar la ley del explanans: universal y con deducción,
+    nomológico-deductiva; estadística y con inferencia probable, estadístico-inductiva. Tienta "porque
+    su explanandum es una ley probabilística", que acierta el tipo, pero el explanandum nunca es una ley:
+    es el enunciado singular sobre el caso.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-d50cdfa0
+  - q-35672e54
+  - q-8de64f10
+  estado: borrador
+- id: contrastacion.hipotesis-fundamental
+  eje: conceptos
+  autor: Contrastación de hipótesis
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Cómo identificar la hipótesis fundamental
+  afirmacion: 'La hipótesis fundamental es un enunciado general que guía la investigación y que se pone
+    a prueba en el experimento: es lo que los investigadores quieren probar.'
+  puntos:
+  - Las hipótesis son enunciados generales.
+  - La hipótesis fundamental es la que guía la investigación y la que se pone a prueba en el experimento.
+  - Un enunciado puede funcionar como hipótesis fundamental porque es un enunciado general que se pone
+    a prueba en la investigación.
+  - No es hipótesis fundamental lo que se da por sabido (la hipótesis auxiliar), lo que se espera observar
+    en el experimento (la consecuencia observacional) ni la descripción del procedimiento.
+  - 'Ejemplos de la clave: "La lectura de relatos de ficción mejora las habilidades empáticas"; "Las plantas
+    de Oenothera drummondii aumentan la concentración de azúcar en su néctar al detectar el zumbido de
+    las abejas".'
+  trampas:
+  - texto: Elegir la consecuencia observacional ("El puntaje en el RMET aumentará más en el grupo que
+      lea ficción", "La concentración de azúcar del grupo B será mayor que la del A").
+    error: concepto_vecino
+    por_que: Es un enunciado sobre lo que se va a observar en este experimento; se deduce de la hipótesis,
+      no es la hipótesis.
+  - texto: Elegir la hipótesis auxiliar ("Un mayor puntaje en el RMET indica mejores habilidades empáticas",
+      "Cuando los bebés sienten interés aumentan el ritmo de succión").
+    error: concepto_vecino
+    por_que: 'También es general, pero se usa como conocimiento presupuesto con apoyo previo: no es lo
+      que se pone a prueba.'
+  - texto: Elegir un enunciado del contexto del caso ("Distintos aspectos genéticos, culturales... influyen
+      en la empatía", "Para adquirir la lengua materna debemos distinguirla de otras lenguas").
+    error: verdad_general
+    por_que: 'Es general y el caso lo menciona, pero es el trasfondo de la investigación: el experimento
+      no lo pone a prueba.'
+  - texto: Elegir el título del caso ("Todo tiempo pasado fue mejor").
+    error: verdad_general
+    por_que: Es una frase llamativa; la hipótesis es la formulación precisa que los investigadores ponen
+      a prueba.
+  - texto: '"Los recuerdos de las vacaciones se evalúan en tres etapas."'
+    error: concepto_vecino
+    por_que: Describe el procedimiento del experimento (las condiciones iniciales), no una hipótesis.
+  - texto: '"La lectura de relatos de ficción es preferida por las personas más empáticas."'
+    error: cambio_de_palabra
+    por_que: 'Invierte la relación: la hipótesis dice que leer ficción mejora la empatía, no que los empáticos
+      prefieran la ficción.'
+  - texto: Justificar con "es un enunciado general con apoyo empírico independiente, indispensable para
+      deducir la consecuencia observacional".
+    error: concepto_vecino
+    por_que: Esa es la descripción de la hipótesis auxiliar, no de la fundamental.
+  - texto: Justificar con "es un enunciado general propuesto para salvar de la refutación a la hipótesis
+      contrastada".
+    error: concepto_vecino
+    por_que: Eso describe una hipótesis ad hoc, que se agrega para salvar a otra; la fundamental es la
+      que se pone a prueba.
+  - texto: Justificar con "es un enunciado singular o muestral que se deduce de la hipótesis".
+    error: concepto_vecino
+    por_que: Esa es la consecuencia observacional; la hipótesis fundamental es general.
+  pregunta_guia: ¿Qué se propusieron probar los investigadores ("quisieron probar que...", "postularon
+    que...")? ¿Ese enunciado es general, o solo habla de lo que se va a medir en este experimento?
+  explicacion_modelo: 'En el caso de la ficción, la hipótesis fundamental es "La lectura de relatos de
+    ficción mejora las habilidades empáticas": es un enunciado general y es lo que el experimento pone
+    a prueba. Para encontrarla, buscá lo que los investigadores se propusieron probar y descartá lo que
+    solo asumen y lo que esperan medir. Tienta "Un mayor puntaje en el RMET indica mejores habilidades
+    empáticas" porque también es general, pero es la hipótesis auxiliar: se da por sabida para poder leer
+    el test, no se pone a prueba.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-f488c556
+  - q-fd74dda8
+  - q-7edcc0bb
+  - q-1f7617b7
+  - q-14bb2e89
+  - q-45811cc7
+  estado: borrador
+  notas: 'q-0c863d15 no tiene explicación oficial; la ficha usa la de los otros casos. El nombre "hipótesis
+    ad hoc" no aparece en las explicaciones oficiales: confirmar el término de la cátedra.'
+- id: contrastacion.hipotesis-auxiliar
+  eje: conceptos
+  autor: Contrastación de hipótesis
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Cómo identificar la hipótesis auxiliar
+  afirmacion: 'La hipótesis auxiliar es un enunciado general que cuenta con apoyo independiente previo
+    y que se usa en la contrastación como conocimiento presupuesto: no se pone a prueba, se da por sabida.'
+  puntos:
+  - Las hipótesis son enunciados generales; la auxiliar también lo es.
+  - La hipótesis auxiliar cuenta con apoyo independiente previo.
+  - 'Se usa en la contrastación como conocimiento presupuesto: no es lo que el experimento pone a prueba.'
+  - Junto con la hipótesis fundamental y las condiciones iniciales, permite deducir la consecuencia observacional.
+  - 'En los casos del examen, es lo que permite leer el instrumento como evidencia: "Un mayor puntaje
+    en el RMET indica mejores habilidades empáticas"; "Cuando los bebés sienten interés o curiosidad frente
+    a un estímulo aumentan el ritmo de succión"; "Cuanto mayor es el puntaje en el PANAS, mayor importancia
+    se da a los aspectos negativos".'
+  trampas:
+  - texto: Elegir la hipótesis fundamental ("La lectura de relatos de ficción mejora las habilidades empáticas",
+      "Cuando recordamos el pasado, el cerebro suaviza los aspectos negativos...").
+    error: concepto_vecino
+    por_que: Es general, pero es la que se pone a prueba, no algo que se da por sabido.
+  - texto: Elegir la consecuencia observacional ("Se registrará mayor puntaje en la etapa 1 que en la
+      2 y 3", "Los sensores registrarán mayor aceleración en el segundo grupo").
+    error: concepto_vecino
+    por_que: Es un enunciado sobre lo que se espera observar en este experimento, no una hipótesis general
+      con apoyo previo.
+  - texto: Elegir un enunciado del contexto ("Distintos aspectos genéticos, culturales, psicológicos y
+      sociales influyen en las habilidades empáticas").
+    error: verdad_general
+    por_que: Es general y suena razonable, pero el experimento no lo usa para interpretar lo que mide.
+  - texto: '"Los chupetes tienen sensores que registran el cambio de lengua en las grabaciones."'
+    error: cambio_de_palabra
+    por_que: Los sensores registran el ritmo de succión, no el cambio de lengua; y es una descripción
+      del instrumento, no una hipótesis.
+  - texto: '"Los recuerdos de las vacaciones se evalúan en tres etapas."'
+    error: concepto_vecino
+    por_que: Describe el procedimiento del experimento (las condiciones iniciales), no un conocimiento
+      presupuesto.
+  pregunta_guia: ¿Qué dan por sabido los investigadores ("asumieron que...", "se basaron en estudios que...")
+    para poder interpretar lo que mide su test o instrumento?
+  explicacion_modelo: 'En el caso de los bebés, la hipótesis auxiliar es "Cuando los bebés sienten interés
+    o curiosidad frente a un estímulo aumentan el ritmo de succión": es general, los investigadores la
+    asumen con apoyo previo y la usan para interpretar lo que registran los chupetes. No se pone a prueba,
+    se presupone. Tienta la hipótesis fundamental (que los bebés distinguen su lengua materna muy temprano)
+    porque también es general, pero esa es justamente la que el experimento pone a prueba.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-47c45a68
+  - q-488f6e8c
+  - q-7a49fe44
+  estado: borrador
+- id: contrastacion.consecuencia-observacional
+  eje: conceptos
+  autor: Contrastación de hipótesis
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Cómo identificar la consecuencia observacional
+  afirmacion: La consecuencia observacional es un enunciado empírico básico que expresa lo que cabe esperar
+    en el experimento a la luz de la hipótesis fundamental, dadas las condiciones iniciales y las hipótesis
+    auxiliares que se asumen.
+  puntos:
+  - La consecuencia observacional es un enunciado empírico básico (singular o muestral), no una hipótesis
+    general.
+  - Expresa lo que cabe esperar a la luz de la hipótesis fundamental, dadas las condiciones iniciales
+    del experimento y la o las hipótesis auxiliares.
+  - Se deduce de la hipótesis y expresa un hecho que debería suceder si la hipótesis fuera verdadera.
+  - 'Habla de lo que se va a registrar en este experimento, con sus grupos y su instrumento, y en la dirección
+    que predice la hipótesis: "La concentración de azúcar medida en el néctar de las plantas del grupo
+    B será mayor que la medida en las del grupo A".'
+  trampas:
+  - texto: Elegir la hipótesis fundamental ("Las plantas de Oenothera aumentan la concentración de azúcar
+      al detectar el zumbido", "La lectura de ficción mejora la empatía").
+    error: concepto_vecino
+    por_que: 'Es general: es de donde se deduce la consecuencia observacional, no la consecuencia misma.'
+  - texto: Elegir la hipótesis auxiliar ("El zumbido y su grabación emiten vibraciones similares", "Un
+      mayor puntaje en el RMET indica más empatía").
+    error: concepto_vecino
+    por_que: Es conocimiento presupuesto, general y con apoyo previo; no dice qué se va a observar.
+  - texto: Una predicción invertida ("El puntaje del RMET disminuirá...", "Habrá una aceleración similar
+      en los dos grupos").
+    error: cambio_de_palabra
+    por_que: Dice lo contrario de lo que se espera si la hipótesis fundamental es verdadera.
+  - texto: '"Las plantas de Oenothera drummondii producirán néctar con alta concentración de azúcar."'
+    error: media_verdad
+    por_que: 'Menciona la variable correcta, pero no compara los grupos: la hipótesis predice un aumento
+      con el zumbido, no un nivel alto en general.'
+  - texto: '"Las plantas del grupo A producirán más néctar que las del grupo B."'
+    error: cambio_de_palabra
+    por_que: Cambia concentración de azúcar por cantidad de néctar e invierte los grupos.
+  - texto: '"La lectura de relatos de ficción es preferida por las personas más empáticas."'
+    error: cambio_de_palabra
+    por_que: Invierte la relación entre lectura y empatía, y además es un enunciado general.
+  pregunta_guia: Si la hipótesis fundamental fuera verdadera, ¿qué debería registrarse en este experimento,
+    con estos grupos y este instrumento?
+  explicacion_modelo: 'En el caso de las plantas, la consecuencia observacional es "La concentración de
+    azúcar medida en el néctar de las plantas del grupo B será mayor que la medida en las del grupo A".
+    Es un enunciado observacional sobre este experimento: lo que se espera si la hipótesis es verdadera,
+    dadas las condiciones (silencio contra zumbido grabado) y la auxiliar (la grabación vibra como una
+    abeja). Tienta la hipótesis fundamental porque dice lo mismo en general, pero justamente por ser general
+    no es la consecuencia observacional: es de donde se la deduce.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-a511d9b2
+  - q-b1a206da
+  - q-935c0858
+  estado: borrador
+  notas: q-d9dbeced no tiene explicación oficial; la ficha usa la de los otros casos.
+- id: ciencia-formal.no-falsable
+  eje: conceptos
+  autor: Ciencia empírica y formal
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Por qué los enunciados formales no son ciencia empírica para el falsacionismo
+  afirmacion: 'Para el falsacionismo, un enunciado pertenece a la ciencia empírica si es falsable: si
+    tiene contenido empírico y se pueden formular contra él enunciados básicos que funcionen como falsadores
+    potenciales. Los enunciados de las ciencias formales, como los de la geometría, no los tienen.'
+  puntos:
+  - 'Según el falsacionismo, para pertenecer a la ciencia empírica un enunciado debe ser falsable: tener
+    contenido empírico y admitir falsadores potenciales.'
+  - Los falsadores potenciales son enunciados existenciales, singulares, incompatibles con la hipótesis
+    y lógicamente posibles.
+  - 'No son falsables: los enunciados de las ciencias formales, las afirmaciones metafísicas y los enunciados
+    probabilísticos.'
+  - '"Las rectas paralelas nunca se tocan" es un enunciado de las ciencias formales: no pertenece a la
+    ciencia empírica porque no tiene falsadores potenciales.'
+  trampas:
+  - texto: Responder que sí pertenece a la ciencia empírica, porque parece hablar de algo que se podría
+      observar.
+    error: concepto_vecino
+    por_que: 'Es un enunciado de la geometría, una ciencia formal: no tiene contenido empírico ni falsadores
+      potenciales.'
+  - texto: '"...porque no puede traducirse al lenguaje observacional."'
+    error: concepto_vecino
+    por_que: La traducibilidad al lenguaje observacional es el criterio del empirismo lógico; el del falsacionismo
+      es la falsabilidad.
+  - texto: '"...porque está confirmado."'
+    error: concepto_vecino
+    por_que: La confirmación no es el criterio del falsacionismo, y estar confirmado no sacaría a un enunciado
+      de la ciencia empírica.
+  - texto: '"...porque es poco probable."'
+    error: concepto_vecino
+    por_que: La probabilidad no decide la demarcación; lo que importa es si hay falsadores potenciales.
+  pregunta_guia: ¿Qué enunciado singular, observable y lógicamente posible podría contradecir esta afirmación?
+    Si no hay ninguno, ¿a qué tipo de ciencia pertenece?
+  explicacion_modelo: No pertenece a la ciencia empírica, porque no tiene falsadores potenciales. Para
+    el falsacionismo, un enunciado es empírico si se pueden formular contra él enunciados básicos (existenciales,
+    singulares, incompatibles con él y lógicamente posibles); "Las rectas paralelas nunca se tocan" es
+    un enunciado de la geometría, una ciencia formal, y no los tiene. Tienta "porque no puede traducirse
+    al lenguaje observacional", pero ese es el criterio de demarcación del empirismo lógico, no el de
+    Popper.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-f4377362
+  - q-643a24a4
+  estado: borrador
+  notas: 'El falsacionismo de Popper no tiene categoría propia en la lista de autores: esta ficha va en
+    "Ciencia empírica y formal" porque evalúa la demarcación; la comparación Hempel-Popper va en "Empirismo
+    lógico".'
+- id: empirismo-logico.hempel-y-popper
+  eje: conceptos
+  autor: Empirismo lógico
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Qué comparten y en qué se diferencian Hempel y Popper
+  afirmacion: 'El empirismo lógico (Hempel) y el falsacionismo (Popper) coinciden en que la invención
+    de hipótesis no se reconstruye lógicamente, en que una contrastación desfavorable refuta y en que
+    la ciencia progresa de forma continua hacia la verdad. Se separan en la contrastación favorable: para
+    Hempel confirma por inducción; para Popper solo vale la deducción y la ciencia avanza eliminando teorías
+    falsas.'
+  puntos:
+  - Ambos sostienen que la creación de nuevas hipótesis involucra factores que no pueden reconstruirse
+    lógicamente; lo que sí se reconstruye racionalmente es su evaluación.
+  - 'Ambos adoptan el modelo hipotético-deductivo: si la consecuencia observacional resulta falsa, por
+    modus tollens se refuta el conjunto de enunciados del que se dedujo.'
+  - Ambos piensan un desarrollo continuo del conocimiento científico que se acerca progresivamente a la
+    verdad.
+  - 'Para Hempel, la evaluación usa la inducción: la contrastación favorable confirma la hipótesis, aumenta
+    su probabilidad, y el progreso es acumulativo.'
+  - 'Para Popper, solo se usan razonamientos deductivos: la contrastación favorable no confirma, la hipótesis
+    se acepta provisoriamente por resistir la refutación, y la ciencia progresa eliminando teorías falsas,
+    sin alcanzar la verdad definitivamente.'
+  - 'Ambos buscan un criterio de demarcación, pero distinto: la traducibilidad a un lenguaje observacional
+    (Hempel) y la falsabilidad (Popper).'
+  trampas:
+  - texto: '"La justificación de las hipótesis se realiza únicamente a través de argumentos deductivos"
+      como tesis compartida.'
+    error: hecho_equivocado
+    por_que: Es solo de Popper; Hempel usa también la inducción para confirmar.
+  - texto: '"La justificación de las hipótesis requiere argumentos deductivos e inductivos" como tesis
+      compartida.'
+    error: hecho_equivocado
+    por_que: Es de Hempel; Popper rechaza la inducción en la evaluación de hipótesis.
+  - texto: '"La formulación de nuevas hipótesis se realiza por medio de la inducción."'
+    error: concepto_vecino
+    por_que: 'Ninguno lo sostiene: para los dos, la invención de hipótesis no se reconstruye lógicamente.'
+  - texto: '"La ciencia progresa aproximándose a la verdad" como tesis solo de Popper.'
+    error: hecho_equivocado
+    por_que: La sostienen los dos; la diferencia está en cómo se progresa.
+  - texto: '"La ciencia progresa mediante la justificación inductiva de sus hipótesis" como tesis de Popper.'
+    error: hecho_equivocado
+    por_que: Es la visión de Hempel; Popper rechaza la confirmación inductiva.
+  - texto: '"No hay un desarrollo continuo y progresivo del conocimiento científico."'
+    error: concepto_vecino
+    por_que: 'Ninguno de los dos lo sostiene: ambos ven un desarrollo continuo; la idea de rupturas es
+      de Kuhn.'
+  - texto: '"Es posible verificar una hipótesis universal mediante la observación."'
+    error: concepto_vecino
+    por_que: 'Confunde confirmar con verificar: Hempel habla de aumentar la probabilidad, no de verificar,
+      y Popper lo rechaza.'
+  - texto: '"El progreso científico es un proceso puramente acumulativo de teorías verdaderas" o "Todo
+      enunciado no científico es sin sentido" como tesis compartidas.'
+    error: hecho_equivocado
+    por_que: 'Popper no sostiene ninguna de las dos: rechaza la acumulación por confirmación y no dice
+      que lo no científico carezca de sentido.'
+  pregunta_guia: ¿Qué piensan los dos sobre cómo se inventan las hipótesis y qué pasa cuando una contrastación
+    sale mal? ¿En qué se separan cuando la contrastación sale bien?
+  explicacion_modelo: 'Una tesis compartida es que, cuando la contrastación no es favorable, la hipótesis
+    queda refutada: los dos analizan la contrastación con el modelo hipotético-deductivo y el modus tollens.
+    También comparten que la invención de hipótesis no se reconstruye lógicamente. La diferencia está
+    en la contrastación favorable: para Hempel confirma por inducción; para Popper no confirma, y la ciencia
+    avanza eliminando teorías falsas. Tienta "la justificación es únicamente deductiva", pero eso es solo
+    de Popper.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-7b8d0d09
+  - q-02b0d8ed
+  estado: borrador
+  notas: Que Popper no considera "sin sentido" los enunciados no científicos y que la idea de un desarrollo
+    discontinuo es de Kuhn son datos generales; las explicaciones oficiales no lo dicen. Validar cómo
+    lo plantea la cátedra.
+- id: kuhn.anomalias-y-crisis
+  eje: conceptos
+  autor: Thomas Kuhn
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Anomalías, crisis y abandono del paradigma
+  afirmacion: 'Para Kuhn, las anomalías son problemas que no pueden resolverse en el marco del paradigma
+    vigente. Una sola no produce la crisis: la crisis llega cuando las anomalías persisten, se generalizan
+    y se radicalizan, y ni siquiera la crisis termina siempre en el abandono del paradigma.'
+  puntos:
+  - Las anomalías son casos y experiencias problemáticas que no pueden resolverse en el marco del paradigma
+    vigente.
+  - 'No son irrelevantes: al acumularse pueden generar una crisis que lleve a un cambio de paradigma.'
+  - Una sola anomalía no alcanza para la crisis, porque la comunidad podría transformarla en un enigma,
+    un problema resoluble con los recursos del paradigma.
+  - La crisis sobreviene cuando las anomalías persisten, se generalizan y se radicalizan, y generan escepticismo
+    sobre la viabilidad del paradigma.
+  - 'No toda crisis culmina en el reemplazo del paradigma: puede aparecer una vía no explorada que permita
+    recuperar la confianza.'
+  - 'Las anomalías no son pruebas definitivas de falsedad: los paradigmas no se consideran falsos ni se
+    abandonan automáticamente.'
+  trampas:
+  - texto: '"Las anomalías son problemas fácilmente resolubles con las herramientas del paradigma vigente."'
+    error: concepto_vecino
+    por_que: Eso describe a los enigmas; las anomalías son justamente los problemas que el paradigma no
+      logra resolver.
+  - texto: '"Las anomalías son pruebas definitivas de la falsedad del paradigma."'
+    error: concepto_vecino
+    por_que: Es una lectura de refutación al estilo de Popper; para Kuhn los paradigmas no se declaran
+      falsos ni se abandonan automáticamente.
+  - texto: '"Las anomalías son irrelevantes para el desarrollo de la ciencia."'
+    error: cambio_de_palabra
+    por_que: 'Es al revés: al acumularse son las que pueden llevar a la crisis y al cambio de paradigma.'
+  - texto: '"Es falso porque la crisis se produce cuando hay muchos enigmas sin resolver."'
+    error: concepto_vecino
+    por_que: El veredicto está bien, pero confunde enigmas con anomalías.
+  - texto: '"Es falso porque las anomalías son problemas que el paradigma enfrenta con sus herramientas."'
+    error: concepto_vecino
+    por_que: El veredicto está bien, pero define a la anomalía como si fuera un enigma.
+  - texto: '"Es verdadero porque la aparición de una anomalía genera la pérdida de confianza en el paradigma
+      vigente."'
+    error: media_verdad
+    por_que: 'Las anomalías erosionan la confianza, pero una sola no alcanza: tienen que generalizarse
+      y radicalizarse.'
+  - texto: '"Es verdadero porque las anomalías se definen como los problemas que el paradigma vigente
+      no puede resolver."'
+    error: media_verdad
+    por_que: La definición es correcta, pero de ahí no se sigue el abandono inmediato del paradigma.
+  - texto: '"...los científicos pierden inmediatamente la confianza en el paradigma."'
+    error: absoluto_falso
+    por_que: 'El "inmediatamente" es el error: la pérdida de confianza es gradual y la crisis puede revertirse.'
+  pregunta_guia: ¿Qué diferencia a una anomalía de un enigma? ¿Alcanza con una anomalía para que haya
+    crisis, y la crisis termina siempre en un paradigma nuevo?
+  explicacion_modelo: 'Es falso que la crisis llegue apenas aparece una anomalía. Para Kuhn, una anomalía
+    es un problema que el paradigma no puede resolver, pero una sola no alcanza: la comunidad todavía
+    puede convertirla en un enigma. La crisis llega cuando las anomalías persisten, se generalizan y se
+    radicalizan, y aun así no siempre termina en el abandono del paradigma. Tienta "es verdadero porque
+    una anomalía genera la pérdida de confianza": parte de algo cierto, pero le da a una sola anomalía
+    un efecto que solo tienen muchas.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-168b899e
+  - q-044944dd
+  - q-e0b267b5
+  estado: borrador
+- id: kuhn.periodo-precientifico
+  eje: conceptos
+  autor: Thomas Kuhn
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: El período pre-científico
+  afirmacion: Para Kuhn, en el período pre-científico los científicos de la disciplina trabajan en escuelas
+    rivales y todavía no se unificaron en una comunidad científica; por eso aún no surgió ningún paradigma.
+  puntos:
+  - En el período pre-científico, quienes investigan trabajan en escuelas rivales.
+  - Todavía no se formó una comunidad científica unificada.
+  - Por eso, en este período aún no surgió ningún paradigma.
+  - Es falso que en el período pre-científico la comunidad científica trabaje bajo varios paradigmas a
+    la vez.
+  trampas:
+  - texto: '"Es falso porque durante el período pre-científico impera un solo paradigma."'
+    error: motivo_equivocado
+    por_que: 'El veredicto está bien, pero el motivo no: en esta etapa no hay ningún paradigma todavía.'
+  - texto: '"Es verdadero porque durante el período pre-científico hay competencia de paradigmas rivales."'
+    error: concepto_vecino
+    por_que: 'Lo que compiten son escuelas, no paradigmas: en esta etapa todavía no surgió ninguno.'
+  - texto: '"Es verdadero porque el período pre-científico surge de la desconfianza en el paradigma vigente."'
+    error: concepto_vecino
+    por_que: 'Describe la crisis: en el pre-científico no hay un paradigma vigente del cual desconfiar.'
+  pregunta_guia: Antes de la primera etapa de ciencia normal, ¿hay ya una comunidad científica y un paradigma,
+    o solo escuelas que compiten?
+  explicacion_modelo: 'Es falso, porque en el período pre-científico todavía no se formó una comunidad
+    científica. Para Kuhn, en esa etapa los investigadores trabajan en escuelas rivales y aún no surgió
+    ningún paradigma. Tienta "es verdadero porque hay competencia de paradigmas rivales", pero lo que
+    compite en esa etapa son escuelas: todavía no hay ningún paradigma, ni uno ni varios.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-f67bb93e
+  estado: borrador
+- id: evolucion.explicar-un-rasgo
+  eje: conceptos
+  autor: Darwin y la evolución
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Explicar un rasgo por selección natural (y distinguirlo de la explicación de Lamarck)
+  afirmacion: 'Una explicación por selección natural relaciona la eficacia de un rasgo para cumplir una
+    función en un ambiente con la aptitud de quien lo tiene: entre los ancestros había variación, los
+    que tenían el rasgo dejaron más descendencia y, con las generaciones, el rasgo se volvió más frecuente.
+    La de Lamarck, en cambio, apela al uso o desuso durante la vida y a la herencia de lo adquirido.'
+  puntos:
+  - Lo característico de las explicaciones por selección natural es relacionar la eficacia de los rasgos
+    para cumplir ciertas funciones en un ambiente con la aptitud del organismo que los posee.
+  - Los organismos más aptos dejan mayor descendencia que los menos aptos, y por eso en las sucesivas
+    generaciones aumenta la proporción de organismos con el rasgo adaptativo.
+  - La explicación darwiniana parte de una variación que ya estaba entre los ancestros (algunos individuos
+    nacieron con el rasgo); no dice que cada individuo lo haya adquirido.
+  - 'La teoría de Lamarck reconoce dos mecanismos: la tendencia general a la complejidad y la herencia
+    de las características adquiridas por uso o desuso.'
+  - 'La explicación lamarckiana de un rasgo dice que usarlo (o dejar de usarlo) durante la vida lo modificó
+    y que esa modificación se heredó: los ancestros de los búhos ejercitaron la visión, la mejoraron y
+    se la heredaron a sus descendientes.'
+  trampas:
+  - texto: Diseño o creación ("Los perros fueron diseñados para...", "Los pingüinos fueron diseñados y
+      creados...", "Los búhos fueron creados siguiendo un arquetipo...").
+    error: concepto_vecino
+    por_que: 'Es una explicación creacionista: no hay variación ni selección, sino un plan previo.'
+  - texto: Uso y desuso con herencia de lo adquirido ("al exponerse a esos alimentos fueron adquiriendo
+      la capacidad...", "por falta de uso las alas se atrofiaron...").
+    error: concepto_vecino
+    por_que: 'Es la explicación de Lamarck: el rasgo se adquiere durante la vida y se hereda, sin selección.'
+  - texto: Cría selectiva intencional hecha por seres humanos que valoraban a los individuos más aptos.
+    error: concepto_vecino
+    por_que: 'Es selección artificial: en la selección natural no hay nadie que elija con una intención.'
+  - texto: Tendencia a la perfección o al progreso ("todas las especies tienden a parecerse a los humanos,
+      la forma más perfecta", "la visión potente es el grado máximo de la línea evolutiva").
+    error: concepto_vecino
+    por_que: Supone una meta o una escala de progreso; la selección natural explica el rasgo por su ventaja
+      en un ambiente.
+  - texto: Cuando se pide la explicación de Lamarck, elegir la de variación al azar y ventaja para sobrevivir.
+    error: concepto_vecino
+    por_que: Esa es la explicación darwiniana; Lamarck explica el rasgo por el uso y la herencia de lo
+      adquirido.
+  pregunta_guia: ¿El rasgo ya estaba en algunos individuos y se volvió más frecuente porque dejaron más
+    descendencia, o cada individuo lo fue adquiriendo con el uso y lo heredó?
+  explicacion_modelo: 'La explicación darwiniana de las alas del pingüino es que, entre sus ancestros,
+    los que tenían alas más cortas y rígidas nadaban mejor, conseguían más alimento y dejaron más descendencia,
+    que heredó ese rasgo. El criterio: variación previa, ventaja en ese ambiente, más descendencia y aumento
+    del rasgo en las generaciones siguientes. Tienta la opción de que las alas se atrofiaron por falta
+    de uso y eso se heredó, pero esa es la explicación de Lamarck: el rasgo se adquiere durante la vida
+    y no hay selección.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-bfc42986
+  - q-04a27fe1
+  - q-9440cc21
+  - q-07ec65d4
+  estado: borrador
+  notas: La explicación oficial de q-f36478fb (la pregunta lamarckiana) termina hablando de la tendencia
+    a la complejidad, aunque la opción correcta usa el otro mecanismo (uso y herencia de lo adquirido);
+    parece tomada de otra pregunta. Históricamente Darwin también le dio algún papel al uso y desuso;
+    la cátedra lo trata como el mecanismo de Lamarck y la ficha lo enseña así.
+- id: evolucion.darwin-y-lamarck
+  eje: conceptos
+  autor: Darwin y la evolución
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: 'Darwin y Lamarck: lo que comparten y lo que los separa'
+  afirmacion: 'Darwin y Lamarck propusieron mecanismos evolutivos distintos, pero los dos son evolucionistas:
+    sostienen que las especies se transforman a lo largo del tiempo y dan lugar a especies nuevas, en
+    contra del fijismo del creacionismo medieval.'
+  puntos:
+  - 'Ambos son evolucionistas: los rasgos de las especies se modifican a lo largo del tiempo, lo que posibilita
+    el surgimiento de nuevas especies.'
+  - 'A lo largo de las sucesivas generaciones, las especies se transforman: es una tesis compartida.'
+  - Ambos rechazan el fijismo del creacionismo medieval, según el cual las especies son fijas y no se
+    modifican.
+  - 'Es solo de Darwin: la selección natural como principio evolutivo general, que algunas variaciones
+    sean aleatorias y que las especies actuales desciendan de ancestros comunes.'
+  - 'Es solo de Lamarck: que las variaciones surjan como respuesta al ambiente, que las especies tiendan
+    a volverse más complejas en una escala de progreso y la herencia de caracteres adquiridos por uso
+    y desuso.'
+  trampas:
+  - texto: '"Las especies fueron creadas con sus rasgos actuales y no se modifican a lo largo del tiempo"
+      como tesis compartida.'
+    error: concepto_vecino
+    por_que: Es el fijismo creacionista, justamente lo que los dos rechazan.
+  - texto: '"Las especies tienden a complejizarse" o "evolucionan en una escala de complejidad creciente
+      que tiende al progreso" como tesis compartida.'
+    error: hecho_equivocado
+    por_que: Es de Lamarck; Darwin rechazó la escala de progreso.
+  - texto: '"La selección natural explica la adaptación de las especies al ambiente" como tesis compartida
+      o rechazada por ambos.'
+    error: hecho_equivocado
+    por_que: Es la tesis central de Darwin; Lamarck propuso otros mecanismos.
+  - texto: '"Las variaciones de rasgos únicamente surgen como respuesta al ambiente en el que se vive."'
+    error: hecho_equivocado
+    por_que: Es de Lamarck; para Darwin algunas variaciones son aleatorias.
+  - texto: '"Las especies actuales descienden de ancestros comunes" como tesis compartida o rechazada
+      por ambos.'
+    error: hecho_equivocado
+    por_que: 'Es de Darwin: Lamarck no la comparte y Darwin no la rechaza.'
+  - texto: '"La adaptación se explica por la herencia de caracteres adquiridos por uso y desuso" como
+      tesis rechazada por ambos.'
+    error: hecho_equivocado
+    por_que: 'Es el mecanismo que propuso Lamarck: él no lo rechaza.'
+  pregunta_guia: ¿Qué idea tienen que aceptar los dos para ser evolucionistas, y qué mecanismo es propio
+    de cada uno?
+  explicacion_modelo: 'La tesis compartida es que, a lo largo de las generaciones, las especies se transforman
+    y dan lugar a especies nuevas: los dos son evolucionistas, contra el fijismo creacionista. Lo que
+    los separa es el mecanismo: Darwin propone la selección natural sobre variaciones en parte aleatorias
+    y la descendencia de ancestros comunes; Lamarck, la tendencia a la complejidad y la herencia de lo
+    adquirido por uso y desuso. Tienta "las especies tienden a complejizarse" porque suena evolucionista,
+    pero es solo de Lamarck.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-be391510
+  - q-093bb0c4
+  estado: borrador
+  notas: 'El banco agrupa en q-e50475c2 una versión (v1) que no es de evolución: pregunta qué tesis sostiene
+    la teoría feminista del punto de vista y rechaza el empirismo feminista. Esa versión se responde con
+    la ficha feminismo.punto-de-vista; conviene separarla en un id propio.'
+- id: evolucion.variacion-heredable
+  eje: conceptos
+  autor: Darwin y la evolución
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: La variación heredable entre generaciones
+  afirmacion: 'Según la teoría de la selección natural, los organismos no son idénticos a sus progenitores:
+    entre los individuos de una especie hay variaciones, muchas azarosas y muchas heredables, que generan
+    diferencias de aptitud, y sobre ellas actúa la selección natural favoreciendo a los más aptos.'
+  puntos:
+  - Es falso que los organismos sean idénticos a sus progenitores.
+  - Es falso que todos los rasgos de los organismos se mantengan invariables de generación en generación.
+  - De una generación a otra suele haber diferencias, y sobre ellas actúa la selección natural.
+  - Existe variación entre los individuos de una misma especie, y parte de esas variaciones puede heredarse.
+  - Hay variaciones de rasgos que se producen azarosamente, y muchas de ellas pueden heredarse.
+  - Las variaciones generan diferencias en la aptitud de los organismos, y la selección natural favorece
+    a los más aptos.
+  trampas:
+  - texto: '"Surgen variaciones por una necesidad adaptativa, como resultado del uso o desuso de ciertos
+      órganos."'
+    error: concepto_vecino
+    por_que: Es la explicación de Lamarck; para Darwin muchas variaciones son azarosas, no respuestas
+      a una necesidad.
+  - texto: '"La evolución hace que cada generación sea ligeramente más compleja que la anterior."'
+    error: concepto_vecino
+    por_que: Es la tendencia a la complejidad de Lamarck, no la selección natural.
+  - texto: '"La selección natural garantiza que cada generación sea totalmente distinta a la anterior."'
+    error: absoluto_falso
+    por_que: Hay diferencias, no generaciones totalmente distintas; y la selección actúa sobre las variaciones,
+      no las garantiza.
+  - texto: '"La preservación de las especies exige que la descendencia sea idéntica a los ancestros."'
+    error: concepto_vecino
+    por_que: 'Es una idea fijista: para Darwin la variación entre generaciones es lo que hace posible
+      la selección.'
+  - texto: '"Los rasgos de los organismos están determinados por un plan inteligente de una vez y para
+      siempre."'
+    error: concepto_vecino
+    por_que: 'Es creacionismo fijista: niega la variación y la transformación de las especies.'
+  - texto: '"Los rasgos de los organismos aumentan las chances de supervivencia y reproducción, y perduran
+      en el tiempo."'
+    error: media_verdad
+    por_que: 'Algunos rasgos dan ventaja, pero de ahí no se sigue que no varíen: la justificación tiene
+      que hablar de variación heredable.'
+  pregunta_guia: Si cada hijo fuera idéntico a sus padres, ¿sobre qué actuaría la selección natural? ¿De
+    dónde salen las diferencias y por qué importa que se hereden?
+  explicacion_modelo: Es falso que los organismos sean idénticos a sus progenitores. Para Darwin, entre
+    los individuos de una especie hay variaciones, muchas azarosas y muchas heredables, que generan diferencias
+    de aptitud; sobre esas diferencias actúa la selección natural. Tienta "surgen variaciones por una
+    necesidad adaptativa, por uso o desuso", porque también niega que los rasgos sean invariables, pero
+    esa es la explicación de Lamarck, no la de Darwin.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-5b72b665
+  - q-3656a4ae
+  - q-d67204df
+  - q-7b415d39
+  estado: borrador
+- id: feminismo.punto-de-vista
+  eje: conceptos
+  autor: Epistemología feminista
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: La teoría feminista del punto de vista
+  afirmacion: 'La teoría del punto de vista sostiene la primacía epistémica de la perspectiva de las mujeres
+    (y de otros grupos oprimidos) sobre la perspectiva dominante de los varones: por su situación tienen
+    un acceso privilegiado a las relaciones sociales opresivas y pueden mostrar que no son naturales ni
+    necesarias, sino históricas y contingentes, y por eso modificables.'
+  puntos:
+  - La perspectiva de las mujeres, y en general de otros grupos oprimidos, tiene primacía epistémica sobre
+    la perspectiva dominante de los varones.
+  - Es verdadero que la situación social de las mujeres, como grupo desfavorecido, les da un acceso epistémicamente
+    privilegiado a los objetos de conocimiento social y político.
+  - Es verdadero que incluir las perspectivas de las mujeres en los estudios de género favorece la detección
+    de las desigualdades.
+  - Es falso que, al estudiar las desigualdades de género, las perspectivas de mujeres y varones puedan
+    alcanzar profundidades semejantes.
+  - La perspectiva de las mujeres revela las regularidades fundamentales que subyacen a los fenómenos
+    sociales en los que interviene el género; la perspectiva dominante solo capta regularidades superficiales.
+  - Lo que desde la perspectiva dominante parece natural y necesario, desde la de las oprimidas se ve
+    contingente e histórico.
+  - El privilegio vale cuando se estudian los fenómenos sociales que involucran al grupo desfavorecido,
+    no en cualquier tema.
+  - 'Tesis del punto de vista que el empirismo feminista rechaza: solo la perspectiva de las mujeres permite
+    mostrar que las desigualdades de género no son naturales, sino construidas social y culturalmente.'
+  - El empirismo feminista, en cambio, sostiene que la elección de teorías depende de la evidencia y la
+    lógica, y que una comunidad científica plural y abierta a la discusión posibilita la objetividad.
+  trampas:
+  - texto: '"En el estudio de cualquier tema la opinión de las mujeres es epistémicamente superior a la
+      de otros grupos."'
+    error: absoluto_falso
+    por_que: El privilegio se limita a los fenómenos sociales que involucran al grupo desfavorecido, no
+      a cualquier tema.
+  - texto: '"La detección de las desigualdades está garantizada por el método científico" o "la profundidad
+      es semejante gracias al método científico".'
+    error: concepto_vecino
+    por_que: Supone un método neutral que iguala a todos; para el punto de vista, la posición social de
+      quien conoce sí importa.
+  - texto: '"Las desigualdades de género son evidentes, por lo que varones y mujeres las pueden detectar
+      por igual."'
+    error: verdad_general
+    por_que: Suena razonable, pero para el punto de vista la perspectiva dominante ve como natural lo
+      que es opresivo.
+  - texto: '"La profundidad de los estudios está en función de los valores personales y no del grupo al
+      que se pertenece."'
+    error: concepto_vecino
+    por_que: Lo que da el privilegio es la posición social del grupo, no los valores de cada persona.
+  - texto: '"Los puntos de vista de los varones y de las mujeres son incomparables."'
+    error: dato_inventado
+    por_que: 'La teoría sí los compara: uno capta las regularidades fundamentales y el otro, solo las
+      superficiales.'
+  - texto: '"La participación de sujetos diversos favorece la objetividad al someter los sesgos a la crítica
+      en una comunidad plural" o "la lógica y la evidencia bastan para elegir entre teorías".'
+    error: concepto_vecino
+    por_que: Son tesis del empirismo feminista, no del punto de vista.
+  - texto: '"La identidad es cambiante y debe rechazarse una categoría unificada como la mujer" o "las
+      mujeres no poseen una perspectiva unificada".'
+    error: concepto_vecino
+    por_que: Niega la perspectiva común de las mujeres, que es justamente en lo que se apoya el punto
+      de vista.
+  - texto: '"La ciencia debe alcanzar una representación única de la realidad con evidencia neutral e
+      independiente del sujeto."'
+    error: concepto_vecino
+    por_que: 'Es la idea tradicional de objetividad que el punto de vista discute: para esta teoría la
+      situación del sujeto sí cuenta.'
+  pregunta_guia: ¿Por qué, para esta teoría, quien ocupa una posición desfavorecida ve algo que la perspectiva
+    dominante no ve? ¿En qué temas vale ese privilegio?
+  explicacion_modelo: Es falso que mujeres y varones puedan alcanzar profundidades semejantes al estudiar
+    las desigualdades de género. Para la teoría del punto de vista, la perspectiva de las mujeres como
+    grupo desfavorecido revela las regularidades fundamentales de esos fenómenos, mientras que la dominante
+    solo capta las superficiales, porque ve como natural lo que es histórico. Tienta la opción del pluralismo
+    y la crítica dentro de una comunidad diversa, pero esa es la tesis del empirismo feminista, no la
+    del punto de vista.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-ef9ffdca
+  - q-82964709
+  - q-c0f1059d
+  - q-bc72cffe
+  - q-ec909f2a
+  - q-cbcffa53
+  - q-5da98e52
+  estado: borrador
+  notas: 'La v1 de q-e50475c2 (qué tesis sostiene el punto de vista y rechaza el empirismo feminista)
+    se responde con esta ficha, pero el banco la agrupó con preguntas de Darwin y Lamarck y el id quedó
+    en evolucion.darwin-y-lamarck. De ahí salen el punto sobre "solo la perspectiva de las mujeres..."
+    y las trampas de "la lógica y la evidencia bastan" y "las mujeres no poseen una perspectiva unificada".
+    Ojo: en esa clave el "solo" es correcto, no es un absoluto falso. Las opciones que rechazan una categoría
+    unificada de "mujer" suelen corresponder al posmodernismo feminista; confirmar si la cátedra usa ese
+    nombre.'
+- id: feminismo.exclusion-y-marginalizacion
+  eje: conceptos
+  autor: Epistemología feminista
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Exclusión y marginalización de las mujeres en la ciencia
+  afirmacion: 'Una de las manifestaciones del androcentrismo y el sexismo en ciencia es la exclusión y
+    marginalización: a lo largo de la historia, las mujeres fueron privadas de la posibilidad de formarse
+    y de ejercer la actividad científica, de manera explícita y legal o por vías menos explícitas.'
+  puntos:
+  - El androcentrismo y el sexismo en ciencia se manifiestan de diversas maneras; una de ellas es la exclusión
+    y marginalización.
+  - Historiadoras, sociólogas y antropólogas feministas mostraron que las mujeres fueron privadas de la
+    posibilidad de formarse y de ejercer la ciencia.
+  - La exclusión puede ser explícita y legal (prohibirles estudiar en la universidad o ejercer la ciencia)
+    o menos explícita (la creencia en carreras "de varones" y "de mujeres").
+  - 'Aun cuando acceden a la carrera científica, puede haber marginalización: progresar menos que sus
+    pares varones con los mismos méritos.'
+  - El caso de Sophie Germain, que no pudo estudiar en instituciones reservadas a varones y tuvo que formarse
+    sola, es exclusión y marginalización.
+  trampas:
+  - texto: Omisiones selectivas en la historia de la ciencia / efecto Matilda.
+    error: concepto_vecino
+    por_que: Apunta a que se borre o no se reconozca el aporte de una mujer; en el caso, Germain tuvo
+      reconocimiento y el obstáculo fue poder formarse.
+  - texto: Teorías sexistas.
+    error: concepto_vecino
+    por_que: Apunta al contenido de las teorías científicas, no a quién puede formarse y hacer ciencia.
+  - texto: Aplicaciones sexistas.
+    error: concepto_vecino
+    por_que: Apunta a los usos de la ciencia, no al acceso de las mujeres a la formación científica.
+  pregunta_guia: ¿El problema del caso está en el contenido de una teoría, en sus usos, en que se borró
+    el aporte de una mujer o en que no la dejaron formarse ni ejercer?
+  explicacion_modelo: 'Es exclusión y marginalización: Sophie Germain no pudo estudiar en las instituciones
+    formales, reservadas a varones, y tuvo que formarse sola y con tutores privados. Esa manifestación
+    del androcentrismo y el sexismo consiste en privar a las mujeres de formarse y ejercer la ciencia,
+    por ley o por vías más sutiles. Tienta el efecto Matilda porque se trata de una científica del pasado,
+    pero el caso aclara que tuvo gran reconocimiento: el problema no fue el olvido de su obra, sino el
+    acceso.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-d1980388
+  estado: borrador
+  notas: 'La explicación oficial solo define "exclusión y marginalización"; las descripciones de teorías
+    sexistas, aplicaciones sexistas y efecto Matilda en los por_que son generales: validarlas con el texto
+    de la cátedra.'
+- id: integridad.conflictos-de-interes
+  eje: conceptos
+  autor: Ética e integridad científica
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: Conflictos de interés
+  afirmacion: Hay conflicto de interés cuando una investigación está financiada por alguien con un interés
+    propio en que produzca un resultado determinado, o cuando quien investiga tiene intereses que tensionan
+    la objetividad de su estudio; declarar el financiamiento ayuda, pero no alcanza para despejarlo.
+  puntos:
+  - Los conflictos de interés se producen cuando una investigación está financiada por una persona u organismo
+    que tiene un interés propio en que produzca algún resultado determinado.
+  - También hay conflicto de interés cuando quien investiga tiene intereses propios, por ejemplo comerciales,
+    que ponen en tensión la objetividad de su estudio.
+  - Es habitual declarar de dónde viene el financiamiento, pero eso solo no alcanza para despejar los
+    conflictos de interés, porque no es fácil conocer los intereses de quienes financian.
+  - No divulgar el financiamiento arroja dudas sobre la integridad científica de quien investiga.
+  - Hay un problema ético si los resultados de una investigación están decididos de antemano, o influenciados,
+    por quien la financia.
+  trampas:
+  - texto: Incentivos perversos ("tenían incentivos para generar muchas publicaciones y ganar posiciones",
+      "la exigencia de publicar en revistas prestigiosas incentiva el fraude").
+    error: concepto_vecino
+    por_que: Eso viene de la presión del sistema académico por publicar; en estos casos el problema es
+      el interés en un resultado determinado.
+  - texto: '"Las publicaciones no pasaron por revisión de pares."'
+    error: dato_inventado
+    por_que: 'El caso no dice nada sobre la revisión: lo que destaca es quién financió a los autores.'
+  - texto: '"Las fallas en la revisión por pares permitieron publicar datos fraudulentos" (caso Wakefield).'
+    error: verdad_general
+    por_que: Suena razonable, pero el caso pone el foco en la patente que motivó a Wakefield a adulterar
+      el estudio.
+  - texto: Acceso a la información ("la comunidad no tenía acceso a las bases de datos / a la información
+      estadística / a los estudios").
+    error: dato_inventado
+    por_que: 'El caso no dice que faltaran datos: lo que pesó fue el interés de quien financiaba o investigaba.'
+  - texto: '"Las revistas académicas tenían incentivos para publicar los artículos que contradecían el
+      consenso científico."'
+    error: dato_inventado
+    por_que: 'El caso no habla de las revistas: el problema es el financiamiento no declarado de Soon.'
+  pregunta_guia: ¿Quién pagó la investigación o quién gana con su resultado? ¿Ese interés puede torcer
+    lo que el estudio concluye?
+  explicacion_modelo: 'En el caso de Soon hay un conflicto de interés: recibió financiamiento no declarado
+    de empresas de combustibles fósiles, interesadas en que se minimizara el papel del CO2, y no divulgarlo
+    arroja dudas sobre su integridad. Hay conflicto de interés cuando quien financia, o el propio investigador,
+    tiene interés en que la investigación llegue a cierto resultado. Tienta "incentivos perversos", pero
+    esos vienen de la presión por publicar, no de un interés en un resultado determinado.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-367ffa24
+  - q-303b55a7
+  - q-c9b8fd18
+  - q-dbae671c
+  - q-c2aed077
+  - q-1ac6b712
+  estado: borrador
+  notas: 'La explicación oficial, igual en los tres casos, define el conflicto de interés por el financiamiento;
+    en el caso Wakefield el interés es del propio investigador (una patente) y la clave lo cuenta igual
+    como conflicto de interés. Las definiciones de incentivos perversos, revisión de pares y acceso a
+    la información no están en las explicaciones oficiales: validarlas con el texto de la cátedra.'
+- id: etica.cientificismo-y-responsabilidad
+  eje: conceptos
+  autor: Ética e integridad científica
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: 'Cientificismo y anticientificismo: la responsabilidad por los usos de la ciencia'
+  afirmacion: El cientificismo sostiene que el conocimiento científico es valorativamente neutral y que
+    la ética recién entra en juego en su aplicación, cuya responsabilidad es de quienes deciden aplicarlo.
+    El anticientificismo sostiene que investigación y aplicación son indisociables (la "tecnociencia")
+    y que los científicos no pueden eludir su responsabilidad.
+  puntos:
+  - Para el cientificismo, el conocimiento científico es valorativamente neutral; los valores entran en
+    juego solo cuando se discute el uso de ese conocimiento.
+  - Por eso, para el cientificismo, la evaluación ética tiene lugar al momento de la aplicación, y los
+    responsables son quienes deciden aplicar el conocimiento (empresas, gobiernos); el papel del científico
+    es producir conocimiento.
+  - 'Para el anticientificismo, el desarrollo científico y el uso tecnológico de los descubrimientos son
+    indisociables: hay que hablar de "tecnociencia" como una esfera común.'
+  - Para el anticientificismo, los científicos que investigan, incluso en áreas muy abstractas, no son
+    menos responsables que quienes desarrollan tecnologías y aplicaciones.
+  trampas:
+  - texto: Al pedir la postura anticientificista, la opción que reconoce los riesgos pero deja la responsabilidad
+      "exclusivamente" en quienes desarrollan y aplican las tecnologías.
+    error: media_verdad
+    por_que: 'Arranca reconociendo los riesgos, pero concluye como el cientificismo: separa al científico
+      de los usos.'
+  - texto: Elegir la postura contraria ("no es posible separar la investigación de sus aplicaciones" como
+      cientificista, o "la responsabilidad es exclusivamente de empresas o Estados" como anticientificista).
+    error: concepto_vecino
+    por_que: 'Confunde las dos posturas: separar ciencia y aplicación es cientificista; unirlas es anticientificista.'
+  - texto: '"El uso debe estar regulado por los Estados; mientras los científicos cumplan la ley, cumplen
+      con su responsabilidad ética."'
+    error: verdad_general
+    por_que: Suena razonable, pero reducir la ética a cumplir la ley no es la tesis de ninguna de las
+      dos posturas.
+  - texto: '"Decidir qué áreas priorizar y con qué fines compete a toda la sociedad, en un proceso democrático"
+      como postura cientificista.'
+    error: concepto_vecino
+    por_que: El cientificismo ve la ciencia como neutral y deja la ética para la aplicación; esta opción
+      somete la propia investigación a la discusión social.
+  pregunta_guia: ¿La opción separa la producción de conocimiento de su aplicación y deja la ética para
+    después, o dice que son inseparables y que el científico también es responsable?
+  explicacion_modelo: La postura cientificista es la que dice que los descubrimientos sobre la dopamina
+    son un avance y que, si una empresa los usa para enganchar usuarios, la responsabilidad es exclusivamente
+    de esa empresa. El cientificismo ve la ciencia como neutral y deja la ética para el momento de la
+    aplicación; el anticientificismo une investigación y aplicación en una sola tecnociencia. Tienta la
+    opción de "regulado por los Estados", pero reducir la responsabilidad a cumplir la ley no es la tesis
+    cientificista.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-761bfbac
+  - q-e6bb5df1
+  estado: borrador
+- id: etica.ciencia-basica-o-aplicada
+  eje: conceptos
+  autor: Ética e integridad científica
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: 'Qué investigación financiar: cientificismo y practicismo'
+  afirmacion: El cientificismo prioriza la ciencia básica, porque el conocimiento tiene valor en sí mismo
+    y la ciencia debe guiarse por sus propias preguntas; el practicismo prioriza la ciencia aplicada,
+    porque la ciencia debe estar explícitamente al servicio de la sociedad y resolver problemas del desarrollo
+    económico y social del país.
+  puntos:
+  - El practicismo afirma que se debe priorizar el financiamiento de la ciencia aplicada, porque la ciencia
+    debe estar explícitamente al servicio de la sociedad.
+  - Para el practicismo, la investigación debe contribuir directamente a resolver problemas prácticos
+    vinculados al desarrollo económico y social del país (como el trigo HB4, tolerante a la sequía).
+  - Para el cientificismo, el progreso científico proviene de la investigación básica, independientemente
+    de su utilidad inmediata.
+  - Para el cientificismo, la ciencia tiene un valor intrínseco y debe orientarse por sus propias preguntas
+    y métodos, no por demandas prácticas, sociales o políticas; la investigación básica es la condición
+    de posibilidad de cualquier aplicación futura.
+  trampas:
+  - texto: 'Practicismo: "No, porque estos desarrollos responden a intereses económicos y productivos,
+      que no deberían ser la prioridad de la ciencia".'
+    error: cambio_de_palabra
+    por_que: 'Invierte la postura: para el practicismo, contribuir al desarrollo económico y social es
+      justamente la prioridad.'
+  - texto: 'Practicismo: "Sí, porque amplía nuestro conocimiento de la estructura genética de los alimentos".'
+    error: motivo_equivocado
+    por_que: El sí está bien, pero el motivo (ampliar el conocimiento) es cientificista; el practicista
+      mira el impacto en necesidades concretas.
+  - texto: 'Practicismo: "No, porque no contribuye al avance de la ciencia básica, a la que debería darse
+      prioridad".'
+    error: concepto_vecino
+    por_que: Esa es la postura cientificista.
+  - texto: 'Cientificismo: destinar los recursos exclusivamente a innovaciones tecnológicas para una pesca
+      sustentable.'
+    error: concepto_vecino
+    por_que: 'Esa es la postura practicista: prioriza la aplicación por su beneficio social y económico.'
+  - texto: 'Cientificismo: "el comité no tiene competencia; la inversión debe decidirse con criterios
+      políticos, no científicos".'
+    error: concepto_vecino
+    por_que: El cientificismo defiende que la ciencia se oriente por sus propias preguntas, no por criterios
+      políticos.
+  - texto: 'Cientificismo: repartir los fondos en tercios para incluir filosofía e historia, "las únicas"
+      capaces de pensar críticamente.'
+    error: dato_inventado
+    por_que: Ninguna de las posturas del debate propone ese reparto, y el "las únicas" es una generalización
+      sin sustento.
+  pregunta_guia: ¿La postura valora la investigación por el conocimiento que produce en sí mismo, o por
+    cuánto resuelve problemas concretos de la sociedad?
+  explicacion_modelo: Desde el practicismo, sí habría que priorizar el trigo HB4, porque tiene un impacto
+    directo en la producción agrícola y responde a necesidades concretas de la sociedad. El practicismo
+    pide financiar la ciencia aplicada que resuelva problemas del desarrollo económico y social; el cientificismo,
+    en cambio, prioriza la ciencia básica por su valor intrínseco. Tienta "sí, porque amplía nuestro conocimiento
+    de la estructura genética", que acierta el sí, pero con un motivo cientificista.
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-cf764045
+  - q-8df558d0
+  estado: borrador
+- id: etica.premisa-valorativa
+  eje: conceptos
+  autor: Ética e integridad científica
+  fuente: Material de la cátedra (capítulo pendiente)
+  tema: La premisa valorativa y la falacia naturalista
+  afirmacion: Para llegar a una conclusión normativa (lo que se debe hacer), las premisas tienen que incluir
+    un juicio de valor y no solo juicios de hecho; si no, se salta de lo que "es" a lo que "debe ser"
+    y se cae en una falacia naturalista.
+  puntos:
+  - Un argumento con conclusión normativa necesita una premisa valorativa (un juicio de valor), no solo
+    juicios de hecho.
+  - 'Concluir un deber a partir de juicios de hecho es saltar del "es" al "debe ser": una falacia naturalista.'
+  - La premisa valorativa implícita correcta es la que, junto con la premisa de hecho, permite inferir
+    exactamente la conclusión.
+  - 'Para eso tiene que unir lo que dice la premisa de hecho ("comprender mejor la biodiversidad y la
+    evolución...") con el deber específico de la conclusión ("invertir recursos públicos"): "Es correcto
+    invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies desconocidas".'
+  trampas:
+  - texto: '"Invertir recursos públicos permite comprender mejor la biodiversidad y la evolución de especies
+      desconocidas."'
+    error: concepto_vecino
+    por_que: 'Es un juicio de hecho, no de valor: concluir un deber a partir de él es una falacia naturalista.'
+  - texto: '"Es correcto investigar especies desconocidas si esto ayuda a conocer mejor la vida en el
+      planeta."'
+    error: media_verdad
+    por_que: 'Es un juicio de valor, pero no habla de invertir recursos públicos: de él no se deduce el
+      deber específico de la conclusión.'
+  - texto: '"La inversión pública en ciencia debe centrarse en la protección del medioambiente."'
+    error: dato_inventado
+    por_que: Es valorativa, pero mete un fin (el medioambiente) que no conecta la premisa con la conclusión.
+  pregunta_guia: ¿Qué juicio de valor hace falta para que, junto con el dato de la premisa 2, se siga
+    exactamente la conclusión?
+  explicacion_modelo: 'La premisa implícita es "Es correcto invertir recursos públicos para comprender
+    mejor la biodiversidad y la evolución de especies desconocidas". Una conclusión normativa necesita
+    un juicio de valor entre las premisas, y ese juicio tiene que unir el hecho de la premisa 2 con el
+    deber de la conclusión. Tienta "Invertir recursos públicos permite comprender mejor la biodiversidad",
+    que se parece mucho, pero es un juicio de hecho: concluir un deber desde ahí es una falacia naturalista.'
+  recurso_ubaxxi: pendiente
+  preguntas:
+  - q-1bf58062
+  estado: borrador
+  notas: La ficha usa "falacia naturalista" como la explicación oficial, para el salto del "es" al "debe
+    ser"; en filosofía moral el nombre viene de Moore y no coincide exactamente con ese salto. Enseñar
+    el sentido de la cátedra.

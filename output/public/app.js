@@ -293,9 +293,10 @@ function verMateria() {
         ? `<h2>${vistas} de ${fichas.length} ideas trabajadas</h2>
            <p>En el Explainer Mode no hay opciones: explicás cada pregunta, escrita o dictada, y el tutor te dice qué habrías marcado y qué tan claro fuiste. Empieza siempre por tus puntos ciegos.</p>`
         : `<h2>Empezá por el diagnóstico</h2>
-           <p>18 preguntas de ${/final/i.test(materia.instancia) ? (/parcial/i.test(materia.instancia) ? "exámenes" : "finales") : "parciales"} reales, sin reloj y sin correcciones en el medio. Al final ves tu mapa: qué dominás y dónde están tus puntos ciegos.</p>`}
+           <p>18 preguntas de ${/final/i.test(materia.instancia) ? (/parcial/i.test(materia.instancia) ? "exámenes" : "finales") : "parciales"} reales, sin reloj y sin correcciones en el medio. Al final ves tu mapa: qué dominás y dónde están tus puntos ciegos. Si querés probar cómo funciona, el Quick Demo son 4.</p>`}
       <div class="acciones">
         <button class="btn${vistas ? " secundario" : ""}" data-accion="diagnostico">${vistas ? "Repetir el diagnóstico" : "Hacer el diagnóstico"}</button>
+        <button class="btn secundario" data-accion="demo">Quick Demo · 4 preguntas</button>
         <button class="btn${vistas ? "" : " secundario"}" data-accion="practica" ${servidor.ia ? "" : "disabled"}>Practicar en Explainer Mode</button>
       </div>
     </div>
@@ -353,12 +354,13 @@ function cabeceraHtml(p, { sinEnunciado = false } = {}) {
 function consignaExplicar(p) {
   if (p.tipo === "vf_justificada") return "¿Es verdadero o falso? Explicá por qué, según el autor.";
   if (p.tipo === "combinada" || tieneGrilla(p)) return "¿Cuáles de estas afirmaciones son correctas? Explicá por qué, según el autor.";
+  if (p.pide_opciones) return "Elegí una opción y explicá por qué es la correcta.";
   if (p.tipo === "vf_items") return "¿Cuáles de estas afirmaciones son verdaderas y cuáles falsas? Explicá por qué.";
   if (p.tipo === "multiple") return "¿Cuáles de estas opciones son correctas? Puede haber más de una. Explicá por qué.";
   if (p.tipo === "completar") return "¿Con qué completarías cada hueco? Decilo y explicá por qué.";
   if (p.relacionar && /^¿Qué concepto/.test(p.enunciado)) return "¿Qué concepto es? Nombralo y explicá por qué le corresponde esa definición, y de qué autor es.";
   if (p.relacionar) return "¿Qué autor es? Nombralo y explicá por qué ese concepto es suyo.";
-  return "Respondé con tus palabras y explicá por qué, según el autor.";
+  return "Respondé con tus palabras y explicá por qué.";
 }
 
 function seguridadHtml() {
@@ -396,7 +398,7 @@ function pregunta() {
     : combinada ? `${afirmacionesHtml(p)}<div id="grilla">${grillaHtml(p, null)}</div>`
       : porAfirmacion ? afirmacionesHtml(p) : opcionesHtml(p);
   app.innerHTML = `
-    ${progresoHtml("Diagnóstico")}
+    ${progresoHtml(estado.sesion.modo === "demo" ? "Quick Demo" : "Diagnóstico")}
     <form class="tarjeta" id="form-pregunta">
       ${cabeceraHtml(p, { sinEnunciado: p.tipo === "completar" })}
       ${cuerpo}
@@ -472,13 +474,15 @@ function explicar({ previa = null } = {}) {
   const { sesion, servidor } = estado;
   const p = sesion.preguntas[sesion.i];
   const intento = previa ? previa.intento + 1 : 1;
-  // Se muestran solo las afirmaciones a juzgar; las opciones para elegir quedan ocultas.
+  // Se muestran solo las afirmaciones a juzgar; las opciones para elegir quedan ocultas, salvo que
+  // la pregunta no se pueda contestar sin verlas ("¿Cuál de las siguientes…?").
   const muestraItems = ["combinada", "vf_items", "multiple"].includes(p.tipo) || tieneGrilla(p);
+  const eligeOpcion = p.pide_opciones && !muestraItems;
   app.innerHTML = `
     ${progresoHtml("Explainer Mode")}
     <form class="tarjeta" id="form-explicar">
       ${cabeceraHtml(p)}
-      ${muestraItems ? listaAfirmacionesHtml(p) : ""}
+      ${muestraItems ? listaAfirmacionesHtml(p) : eligeOpcion ? opcionesHtml(p, { elegida: previa?.eleccion }) : ""}
       ${previa ? `<div class="pista"><b>Explicalo de nuevo</b>Usá lo que viste en el feedback, pero con tus palabras. En el mapa cuenta tu primer intento.</div>` : ""}
       <div class="bloque">
         <label class="titulo" for="explicacion">${consignaExplicar(p)}</label>
@@ -499,9 +503,13 @@ function explicar({ previa = null } = {}) {
   const boton = form.querySelector("[type=submit]");
   const caja = form.querySelector("#explicacion");
   let dictada = false;
-  const listo = () => { boton.disabled = !(caja.value.trim().length >= 10 && (intento > 1 || seguridad())); };
+  const eleccion = () => form.querySelector("input[name=opcion]:checked")?.value;
+  const listo = () => {
+    boton.disabled = !(caja.value.trim().length >= 10 && (!eligeOpcion || eleccion()) && (intento > 1 || seguridad()));
+  };
   const seguridad = intento === 1 ? conectarSeguridad(form, listo) : () => previa.seguridad;
   caja.addEventListener("input", listo);
+  form.addEventListener("change", listo);
   conectarDictado(form, (texto) => {
     caja.value = [caja.value.trim(), texto].filter(Boolean).join(" ");
     dictada = true;
@@ -512,7 +520,7 @@ function explicar({ previa = null } = {}) {
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const envio = { materia: estado.materia.id, pregunta_id: p.id, version: p.version, intento,
-      seguridad: seguridad(), explicacion: caja.value, dictada };
+      seguridad: seguridad(), explicacion: caja.value, dictada, eleccion: eligeOpcion ? eleccion() : undefined };
     boton.disabled = true;
     boton.textContent = "El tutor está leyendo tu explicación…";
     try {
@@ -683,9 +691,10 @@ function feedbackExplicacion(p, envio, r, primeroPrevio) {
     titulo = bien === letras.length ? "Con tu explicación acertabas todas las afirmaciones"
       : `Con tu explicación acertabas ${bien} de ${letras.length} afirmaciones`;
   } else {
+    const marcabas = envio.eleccion ? "Elegiste" : "Con tu explicación marcabas";
     titulo = !inferida ? "Con tu explicación no se puede saber qué marcarías"
-      : r.correcta ? `Con tu explicación marcabas la ${inferida}: es la correcta`
-        : `Con tu explicación marcabas la ${inferida}; la correcta es la ${r.clave}`;
+      : r.correcta ? `${marcabas} la ${inferida}: es la correcta`
+        : `${marcabas} la ${inferida}; la correcta es la ${r.clave}`;
   }
   let examen;
   if (p.tipo === "completar") examen = completarHtml(p, { elegidas: ev.huecos, correctas: r.huecos });
@@ -725,7 +734,8 @@ function feedbackExplicacion(p, envio, r, primeroPrevio) {
       ${envio.intento < MAX_INTENTOS ? `<button class="btn secundario" data-accion="reexplicar">Explicalo de nuevo</button>` : ""}
       <button class="btn" data-accion="siguiente">${botonSiguiente()}</button>
     </div>`;
-  estado.reexplicar = { intento: envio.intento, seguridad: envio.seguridad, borrador: envio.explicacion, primero };
+  estado.reexplicar = { intento: envio.intento, seguridad: envio.seguridad, borrador: envio.explicacion,
+    eleccion: envio.eleccion, primero };
 }
 
 function siguiente() {
@@ -748,7 +758,7 @@ function resultado() {
   const orden = ["ciego", "laguna", "fragil", "dominado"];
 
   app.innerHTML = `
-    <p class="eyebrow">${esc(estado.materia.etiqueta)} · ${sesion.modo === "diagnostico" ? "Resultado del diagnóstico" : "Resultado de la práctica"}</p>
+    <p class="eyebrow">${esc(estado.materia.etiqueta)} · ${{ diagnostico: "Resultado del diagnóstico", demo: "Resultado del Quick Demo" }[sesion.modo] || "Resultado de la práctica"}</p>
     <h1>Tu <span class="kw">mapa</span> de hoy</h1>
     <p class="sub">Acertaste ${correctas.length} de ${filas.length}${sesion.modo === "diagnostico" && filas.every((r) => r.p.puntos) ? `: con el puntaje del examen serían ${nota.toFixed(1).replace(".", ",")} de ${total.toFixed(0)} puntos` : ""}.
     ${masComun ? ` Tu error más repetido: <b>${esc(ERRORES[masComun[0]])}</b>.` : ""}</p>
@@ -762,6 +772,7 @@ function resultado() {
     </div>
     <div class="acciones">
       <button class="btn" data-accion="practica" ${estado.servidor.ia ? "" : "disabled"}>Explicar mis puntos ciegos</button>
+      ${sesion.modo === "demo" ? `<button class="btn secundario" data-accion="diagnostico">Hacer el diagnóstico completo</button>` : ""}
       <a class="btn secundario" href="#/${estado.carrera.id}/${estado.materia.id}">Ver el mapa de la materia</a>
     </div>
     ${estado.servidor.ia ? "" : `<div class="aviso" style="margin-top:16px">Para practicar con feedback falta conectar el tutor de IA (los pasos están en <code>output/README.md</code>).</div>`}`;
@@ -808,7 +819,7 @@ document.addEventListener("click", async (e) => {
   if (!accion) return;
   const a = accion.dataset.accion;
   try {
-    if (a === "diagnostico" || a === "practica") await empezar(a);
+    if (a === "diagnostico" || a === "demo" || a === "practica") await empezar(a);
     else if (a === "siguiente") siguiente();
     else if (a === "reexplicar") explicar({ previa: estado.reexplicar });
     else if (a === "salir") verMateria();
