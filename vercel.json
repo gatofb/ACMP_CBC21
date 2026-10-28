@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --prefix output",
+  "outputDirectory": "output/public",
+  "functions": {
+    "api/*.mjs": {
+      "includeFiles": "rules/**",
+      "maxDuration": 60
+    }
+  }
+}

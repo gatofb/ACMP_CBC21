@@ -36,6 +36,8 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-023](#d-023) | 2026-10-27 | La práctica es el Explainer Mode: se explica sin opciones, escrito o dictado | Vigente |
 | [D-024](#d-024) | 2026-10-27 | Módulo de Sociología: Cátedra A · Bustos, con 10 finales | Vigente |
 | [D-025](#d-025) | 2026-10-28 | La app no nombra a Claude: se dice "el tutor" | Vigente |
+| [D-026](#d-026) | 2026-10-28 | En la nube la app usa la API de Anthropic y corre desde un Dockerfile | Vigente |
+| [D-028](#d-028) | 2026-10-28 | La app también se publica en Vercel, con una función por ruta de la API | Vigente |
 
 ---
 
@@ -264,3 +266,15 @@ Para que la app pueda publicarse en un servicio en la nube y la usen otros alumn
 - **En local no cambia nada:** sin `HOST`, el servidor sigue atendiendo solo a esta computadora.
 - **Dictado:** no está en la nube; el alumno escribe. Sigue pendiente lo de D-023.
 - **Sin clave de acceso ni límite de pedidos, por ahora** (Gastón): el gasto se controla con una clave de API solo para la app y un tope en la consola de Anthropic.
+
+### D-028
+**La app también se publica en Vercel, con una función por ruta de la API** · 2026-10-28 · Gastón · Vigente
+
+Además del Dockerfile (D-026), la app puede publicarse en Vercel, que no corre un servidor encendido sino funciones por pedido.
+
+- **Mismo servidor:** `api/` tiene una función por ruta (estado, catálogo, fichas, sesión, responder, explicar, transcribir) y cada una le pasa el pedido a `output/server.mjs`. No hay una copia aparte de la lógica.
+- **En Vercel no escucha en un puerto:** `server.mjs` solo abre el puerto si no está en Vercel. En local y en Docker no cambia nada.
+- **El cuerpo del pedido:** Vercel suele entregarlo ya leído en `req.body`; si no, se lee como en local.
+- **Configuración en `vercel.json`:** las páginas salen de `output/public/`, las dependencias se instalan en `output/` y las funciones llevan `rules/` y tienen hasta 60 segundos.
+- **Única variable:** `ANTHROPIC_API_KEY`. El dictado tampoco está en Vercel.
+- **Pendiente:** probarla en Vercel. Se probó en local, imitando cómo Vercel entrega los pedidos.

@@ -222,15 +222,33 @@ function json(res, status, cuerpo) {
 }
 
 async function leerCuerpo(req) {
+  // En Vercel el cuerpo suele llegar ya leído en req.body; si no, se lee del pedido como en local.
+  if (process.env.VERCEL) {
+    let cuerpo;
+    try {
+      cuerpo = req.body;
+      if (Buffer.isBuffer(cuerpo) || typeof cuerpo === "string") cuerpo = JSON.parse(String(cuerpo) || "{}");
+    } catch {
+      throw new TutorError("Pedido inválido.", 400);
+    }
+    if (cuerpo !== undefined) {
+      if (JSON.stringify(cuerpo).length > 20000) throw new TutorError("La respuesta es demasiado larga.", 413);
+      return cuerpo ?? {};
+    }
+  }
   let texto = "";
   for await (const parte of req) {
     texto += parte;
     if (texto.length > 20000) throw new TutorError("La respuesta es demasiado larga.", 413);
   }
-  return JSON.parse(texto || "{}");
+  try {
+    return JSON.parse(texto || "{}");
+  } catch {
+    throw new TutorError("Pedido inválido.", 400);
+  }
 }
 
-const servidor = createServer(async (req, res) => {
+export const servidor = createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   try {
     if (url.pathname === "/api/estado") {
@@ -281,7 +299,8 @@ const servidor = createServer(async (req, res) => {
   }
 });
 
-servidor.listen(PUERTO, HOST, () => {
+// En Vercel no se escucha en un puerto: cada función de api/ le pasa su pedido a este servidor.
+if (!process.env.VERCEL) servidor.listen(PUERTO, HOST, () => {
   console.log(`PrepTest UBA XXI en http://${HOST === "127.0.0.1" ? "localhost" : HOST}:${PUERTO}`);
   const via = { api: `API con ${modelo()}`, sesion: `tu sesión del CLI claude (${modelo()})` }[proveedor()];
   for (const m of materias.values()) console.log(`${m.etiqueta}: ${m.fichas.length} fichas, ${m.banco.length} preguntas`);

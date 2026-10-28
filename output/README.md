@@ -43,6 +43,17 @@ En la nube la app usa siempre la API: la sesión del CLI es tu suscripción pers
 - **Dictado:** whisper.cpp no está en la imagen, así que en la nube el alumno escribe su explicación. Sigue pendiente dónde transcribir (D-023).
 - **Gasto:** la app no tiene clave de acceso ni límite de pedidos, así que cualquiera con el link puede usarla. Conviene una clave de API solo para la app, con tope de gasto en la consola de Anthropic.
 
+### En Vercel
+
+Vercel no usa el Dockerfile. Usa [vercel.json](../vercel.json) y la carpeta [api/](../api) de `CBC Preptest`:
+
+- **Páginas:** las sirve Vercel directo desde `output/public/`.
+- **`/api/...`:** cada ruta es una función de Vercel (`api/estado.mjs`, `api/explicar.mjs`, etc.) que le pasa el pedido al mismo `server.mjs`. Las funciones llevan `rules/` y tienen hasta 60 segundos por pedido, para que el tutor alcance a evaluar.
+- **Cómo publicarla:** en Vercel, importar el repo con *Root Directory* `CBC Preptest`, si no es la raíz del repo. No hace falta tocar el framework ni los comandos: los fija `vercel.json`.
+- **Variables:** solo `ANTHROPIC_API_KEY`, en *Settings → Environment Variables*. `CLAUDE_MODEL` y `CLAUDE_EFFORT` son opcionales.
+- **Qué sube:** [.vercelignore](../.vercelignore) deja pasar solo `api/`, `output/` y `rules/`, sin `.env` ni `node_modules`.
+- **Dictado:** tampoco está en Vercel; el alumno escribe.
+
 ## Configuración (`.env`)
 
 | Variable | Por defecto | Para qué |

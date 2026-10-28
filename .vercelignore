@@ -1,0 +1,11 @@
+# A Vercel solo suben la app: las funciones, el servidor y las reglas.
+# Nada de exámenes (input/), scripts, claves ni dependencias locales.
+/*
+!api
+!output
+!rules
+!vercel.json
+output/.env
+output/node_modules
+**/.DS_Store
+**/__pycache__
