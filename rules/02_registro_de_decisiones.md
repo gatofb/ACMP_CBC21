@@ -44,6 +44,8 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-031](#d-031) | 2026-10-28 | La marca se escribe "Academia Comunica", sin "de Mai Pistiner", en la presentación y la app | Vigente |
 | [D-032](#d-032) | 2026-10-28 | En la versión online dicta el navegador; Whisper queda para local | Vigente |
 | [D-033](#d-033) | 2026-10-28 | Las preguntas de IPC no mencionan la grilla de resolución del examen en papel | Vigente |
+| [D-034](#d-034) | 2026-10-28 | La app es bilingüe: español e inglés, con las preguntas traducidas | Vigente |
+| [D-035](#d-035) | 2026-10-28 | La Home se simplifica con la idea de la presentación, el video y PostHog | Vigente |
 
 ---
 
@@ -354,3 +356,26 @@ Los exámenes de IPC se contestan en una grilla de papel, y 102 versiones de pre
 - **Cómo:** la oración que solo dice cómo anotar se saca. Si dice algo más, queda esa parte: "Seleccione dos opciones.", "Seleccione la opción que justifica su respuesta.". Si la pregunta está en la oración, se reescribe: "Escribí el número correspondiente al silogismo inductivo donde dice "S"…" pasa a "¿Cuál es el silogismo inductivo?". También se saca la etiqueta "(casillero "HF")" al final de la pregunta.
 - **Efecto en D-030:** "las opciones presentadas" solo aparecía en esas instrucciones, así que se sacó de la regla. Las dos preguntas que la usaban ("Identifique la hipótesis auxiliar / la consecuencia observacional del caso del ejercicio 1") se explican con palabras, como las demás de hipótesis.
 - ICSE y Sociología no tenían estas instrucciones: sus bancos quedan iguales.
+
+### D-034
+**La app es bilingüe: español e inglés, con las preguntas traducidas** · 2026-10-28 · Gastón · Vigente
+
+Gastón pidió pasar todo a inglés para que la app sea bilingüe, menos la presentación. El inglés es para que alguien que no lee español pueda usar la app, por ejemplo en la demo.
+
+- **Qué se traduce:** toda la interfaz (`output/public/textos.js`), la Home, el catálogo (`en` en `rules/catalogo.yaml`), los mensajes de error del servidor, y de cada pregunta el enunciado, las opciones, los huecos y la explicación del examen. De las fichas, lo que ve el alumno: tema, autor y pregunta guía. Las 373 preguntas (445 versiones) y las 148 fichas.
+- **Lo que no se traduce:** el resto de la ficha (afirmación, puntos, trampas, explicación modelo). El tutor la lee en español, que es la fuente, y escribe el feedback en el idioma del alumno.
+- **Cómo se traduce:** `scripts/traducir_banco.mjs` con el CLI `claude` de esta máquina. Guarda `rules/<cátedra>/traduccion_en.yaml` con la huella del texto en español de cada versión: si el banco cambia, el servidor muestra esa pregunta en español hasta que se vuelve a correr el script, que solo traduce lo que falta. Valida que las letras, las combinaciones ("The correct options are C and D") y los huecos queden en su lugar.
+- **Se corrige siempre en español:** el navegador recibe la pregunta en los dos idiomas y muestra la del idioma elegido; las letras son las mismas y en las de completar la palabra se pasa a español por su posición.
+- **Cómo se elige:** el botón ES / EN de la barra, `?lang=en` en el link, o el idioma del navegador la primera vez. Queda guardado. Cambiarlo redibuja la pantalla sin perder la sesión ni lo escrito.
+- **Dictado:** el del navegador usa `en-US` y Whisper `-l en` cuando la app está en inglés.
+- **Pendiente:** la traducción es un borrador hecho con IA; falta que alguien la revise, sobre todo los términos de cada autor.
+
+### D-035
+**La Home se simplifica con la idea de la presentación, el video y PostHog** · 2026-10-28 · Gastón · Vigente
+
+Gastón pidió simplificar la Home a partir de la presentación, con algunas cosas que expliquen qué es la app, y sumar su video "How it works".
+
+- **Queda así:** el principio ("Si lo podés explicar, lo entendés"), el video, los tres pasos de la presentación (encontrá lo que no sabés, explicalo, recibí feedback), los cuatro estados del mapa, una banda con el dato de que las ideas se repiten (las preguntas y las ideas se cuentan del banco) y la frase del cierre de la presentación.
+- **Sale:** el paso "Preparar" (los videos del campus todavía no están asignados) y la grilla de "Qué tiene de distinto".
+- **El video:** va en `output/public/video/como-funciona-en.mp4` con su imagen de portada. Está en inglés; en español se avisa debajo. Si el archivo no está, la sección no se muestra.
+- **PostHog:** como toda página que sale a producción, `index.html` lleva el snippet entre `<!-- acmp:posthog -->` y `<!-- /acmp:posthog -->`.

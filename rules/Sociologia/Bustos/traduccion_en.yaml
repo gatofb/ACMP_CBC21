@@ -1,0 +1,3368 @@
+# Traducción al inglés de lo que ve el alumno — generada por scripts/traducir_banco.mjs.
+# `fuente` es la huella del texto en español: si el banco cambia, el script vuelve a traducir esa versión.
+# Borrador: falta que alguien la revise.
+preguntas:
+  q-abb0cc49:
+    - fuente: a040e552ee
+      enunciado: 'Which author does this concept belong to: «Estrangement»?'
+      opciones:
+        A: Berger & Luckmann
+        B: Heller
+        C: Mills
+        D: Marx
+        E: Marqués
+        F: Elías
+  q-05ab8991:
+    - fuente: f39a733891
+      enunciado: 'Which author does this concept belong to: «Institutionalization»?'
+      opciones:
+        A: Berger & Luckmann
+        B: Heller
+        C: Mills
+        D: Marx
+        E: Marqués
+        F: Elías
+  q-46d76234:
+    - fuente: e8eced6fac
+      enunciado: 'Which author does this concept belong to: «Denaturalization»?'
+      opciones:
+        A: Berger & Luckmann
+        B: Heller
+        C: Mills
+        D: Marx
+        E: Marqués
+        F: Elías
+  q-e5a98115:
+    - fuente: df6ed2ef4f
+      enunciado: 'Which author does this concept belong to: «Biography»?'
+      opciones:
+        A: Berger & Luckmann
+        B: Heller
+        C: Mills
+        D: Marx
+        E: Marqués
+        F: Elías
+  q-a158f39d:
+    - fuente: 13e43c0de0
+      enunciado: 'Which author does this concept belong to: «Mode of production»?'
+      opciones:
+        A: Berger & Luckmann
+        B: Heller
+        C: Mills
+        D: Marx
+        E: Marqués
+        F: Elías
+    - fuente: 87340971ad
+      enunciado: 'Which author does this concept belong to: «Mode of production»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Weber
+        D: Heller
+        E: Mills
+  q-d504147b:
+    - fuente: f8f6d8309c
+      enunciado: >-
+        Mark the correct option with a cross (X). Which of the following statements corresponds to Karl Marx's
+        thought?
+      opciones:
+        A: In the exchange of commodities, use value ceases to matter.
+        B: The individual ceases to be linked to nature because he produces manufactured goods.
+        C: >-
+          The development of the productive forces depends on the availability of natural resources, since
+          nature is the source of wealth.
+        D: >-
+          The simplest economic category, such as exchange value, presupposes a population that produces
+          within specific relations of production.
+        E: Capitalist profit becomes a means of solving poverty.
+  q-98b1e47c:
+    - fuente: 8a734b8757
+      enunciado: >-
+        Complete by marking the correct answer with a cross (X). Which of the following options corresponds to
+        what Weber understands as “charismatic domination”?
+      opciones:
+        A: It is a religious type of domination.
+        B: It is the extraordinary qualities of the bureaucratic staff that sustain a domination.
+        C: It is the domination of a leader elected by the majority will of the population.
+        D: It is the domination sanctioned by custom and the passage of time.
+        E: The quality of a personality considered extraordinary makes someone a leader.
+  q-0f50144a:
+    - fuente: d99ac38d6f
+      enunciado: Indicate which statements about Heller and Berger & Luckmann are true (T) and which are false (F).
+      opciones:
+        A: >-
+          According to Heller, when particularity subordinates the specific, individual needs are placed ahead
+          of the interests and needs of social integration.
+        B: >-
+          According to Berger and Luckmann, socialization is a process that begins with the individual's birth
+          and ends in adulthood.
+        C: >-
+          According to Berger and Luckmann, everyday life is the set of activities in which people reproduce
+          themselves and, at the same time, the socioeconomic structures.
+        D: >-
+          According to Berger and Luckmann, an institutional world is experienced as objective reality, has a
+          history that predates the individual's birth, and is not accessible to his biographical memory.
+        E: >-
+          According to Heller, it is necessary to develop a mental capacity that all individuals possess,
+          which makes it possible to link biography with history.
+  q-c128dd4a:
+    - fuente: faf63e3cb1
+      enunciado: >-
+        Mark the appropriate option. According to Althusser, the “social relations of production” are
+        reproduced through:
+      opciones:
+        A: … the coercion exerted by social facts.
+        B: … the microphysical action of power.
+        C: … the dominant ideology.
+        D: … the “amorphous” power of the State.
+        E: … ideological opacity.
+    - fuente: 084aaf9024
+      enunciado: >-
+        Mark the appropriate option. According to Althusser, the “social relations of production” are
+        reproduced through:
+      opciones:
+        A: the joint action of society.
+        B: the dominant ideology.
+        C: the “amorphous” power of the State.
+        D: the distribution of material goods.
+        E: the microphysical action of power.
+  q-2b71b765:
+    - fuente: 273c91075e
+      enunciado: >-
+        Select the correct option with a cross (X). There are points of agreement between Agnes Heller's
+        reflections on everyday life and Berger and Luckmann's conceptual proposals because…
+      opciones:
+        A: >-
+          …for all these authors, the reproduction of the conditions of individual life takes place in a
+          specific social environment.
+        B: … the type of rationality of actions is a central element in both texts.
+        C: … they all start their analysis from the concept of “estrangement”.
+        D: … in both cases they start from understanding the individual solely as a biological organism.
+        E: … the social relations of production are the only determining element of everyday life.
+  q-5bf2e667:
+    - fuente: 578b5975fb
+      enunciado: >-
+        Which concept corresponds to this definition: «The only social order in which the modern rational
+        State, supported by a specialized bureaucracy and by a rational, formalist and calculable law, can
+        prosper.»?
+      opciones:
+        A: Modern capitalism
+        B: Ideology
+        C: Superstructure
+        D: Competing character of ideologies
+        E: Microspaces
+    - fuente: c560b5c03e
+      enunciado: >-
+        Which concept corresponds to this definition: «The only social order in which the modern rational
+        State, supported by a specialized bureaucracy and by a rational, formalist and calculable law, can
+        prosper.»?
+      opciones:
+        A: Social construction of the male
+        B: Ideal type
+        C: Microspaces
+        D: Ideology
+        E: Modern capitalism
+  q-74f8380a:
+    - fuente: 0b0512e45c
+      enunciado: >-
+        Which concept corresponds to this definition: «The structure of every society is made up of levels,
+        one of which has a juridical-political instance and another an ideological one.»?
+      opciones:
+        A: Modern capitalism
+        B: Ideology
+        C: Superstructure
+        D: Competing character of ideologies
+        E: Microspaces
+  q-07286e7b:
+    - fuente: cd53d79383
+      enunciado: >-
+        Which concept corresponds to this definition: «Representations that start from a given reality but
+        create a partial and fragmentary consciousness.»?
+      opciones:
+        A: Modern capitalism
+        B: Ideology
+        C: Superstructure
+        D: Competing character of ideologies
+        E: Microspaces
+  q-c03c81e7:
+    - fuente: ace1f67752
+      enunciado: >-
+        Which concept corresponds to this definition: «Spaces that allow individualized surveillance and the
+        hierarchization of individuals and behaviors.»?
+      opciones:
+        A: Modern capitalism
+        B: Ideology
+        C: Superstructure
+        D: Competing character of ideologies
+        E: Microspaces
+    - fuente: 147a3934f5
+      enunciado: >-
+        Which concept corresponds to this definition: «Spaces that allow individualized surveillance and the
+        hierarchization of individuals and behaviors.»?
+      opciones:
+        A: Social construction of the male
+        B: Ideal type
+        C: Microspaces
+        D: Ideology
+        E: Modern capitalism
+  q-24b8eee2:
+    - fuente: 5f65391e13
+      enunciado: >-
+        Which concept corresponds to this definition: «Systems of representations share common features but
+        are in opposition, since they express antagonisms within society.»?
+      opciones:
+        A: Modern capitalism
+        B: Ideology
+        C: Superstructure
+        D: Competing character of ideologies
+        E: Microspaces
+  q-6c59f496:
+    - fuente: 16d3e52e02
+      enunciado: >-
+        Indicate which statements are true (T) and which are false (F). According to Heller, the process of
+        homogenization is…
+      opciones:
+        A: >-
+          … the process carried out by the individual who subordinates their “particularity” in favor of
+          “genericity” in a conscious relationship with the “we”.
+        B: >-
+          … the process that involves the momentary suspension of all particular activity in order to focus
+          all attention on those tasks that link the individual with the “we”.
+        C: … the process generated by the inhibiting function of morality.
+        D: >-
+          … the process that every individual carries out from the moment of birth in order to achieve the
+          “reproduction of the particular”.
+        E: … the process that begins when the individual adapts to social norms.
+  q-af0bf53c:
+    - fuente: ac5db8d5f9
+      enunciado: >-
+        Mark the correct option with a cross (X). According to Berger and Luckmann, the process of
+        objectivation is…
+      opciones:
+        A: … the moment in which the generalized other is internalized and primary socialization ends.
+        B: … the coercion and pressure that social figures exert on the individual.
+        C: … the final learning stage of secondary socialization.
+        D: …the research methodology that studies social phenomena as “things”, external and objective.
+        E: >-
+          … the moment in which the externalized products of human activity attain the character of
+          objectivity.
+  q-68ee58eb:
+    - fuente: b88ea28bf8
+      enunciado: >-
+        Mark the correct option with a cross (X). According to V. Marqués, the idea of the “social
+        construction of the male” allows us to see:
+      opciones:
+        A: that masculinity is defined naturally.
+        B: that masculinity and femininity are similar.
+        C: that the masculine completes the existence of women.
+        D: that masculinity is expressed both in the exercise of strength and of vulnerability.
+        E: that dominant masculinity is repressive for both men and women.
+  q-df563cb6:
+    - fuente: 3773fedbb0
+      enunciado: >-
+        Select the correct option with a cross (X). According to Althusser, the formation of subjects takes
+        place through…
+      opciones:
+        A: … the mode of production.
+        B: … ideological interpellation.
+        C: … the social facts that coerce them.
+        D: … intersubjective social actions.
+        E: … the repressive apparatuses of the state.
+    - fuente: 4a6d057f24
+      enunciado: >-
+        Mark with a cross (X) the option that correctly completes the sentence. According to Althusser, the
+        formation of subjects takes place through…
+      opciones:
+        A: … the coercion that social facts exert on them.
+        B: … the productive forces.
+        C: … the mode of production.
+        D: … the social actions that determine them.
+        E: … the Ideological State Apparatuses.
+    - fuente: 5786c78c9b
+      enunciado: >-
+        Mark the option that correctly completes the sentence. According to Althusser, the formation of
+        subjects takes place through...
+      opciones:
+        A: ...the coercion exerted by social facts.
+        B: ...the ideological state apparatuses.
+        C: ...the mode of production.
+        D: ...the social actions that determine them.
+        E: ...the productive forces.
+  q-68300763:
+    - fuente: c9a5c17745
+      enunciado: >-
+        Select the correct option with a cross (X). According to Wright Mills, the “sociological imagination”
+        is the… capacity:
+      opciones:
+        A: >-
+          … systematic capacity to move from one temporal dimension to another, from the past to the present
+          and vice versa.
+        B: … capacity that only sociologists possess, since it requires professional training.
+        C: >-
+          … biological capacity that develops in individuals who have the predisposition to link biography
+          with history.
+        D: >-
+          … capacity to move from the most impersonal features to the most intimate features of the human
+          self, and to see the relationship between the two.
+        E: … capacity to observe and explain the various private troubles that take place at a given time.
+  q-3f687e89:
+    - fuente: bd4bd14954
+      enunciado: >-
+        Mark which statements about the differences between Althusser and Foucault regarding the “construction
+        of the modern subject” are true (T) or false (F).
+      opciones:
+        A: >-
+          For Althusser it is the result of the reproduction carried out by the Ideological State Apparatuses,
+          and for Foucault, of surveillance in closed and artificial spaces.
+        B: For Althusser it is the result of the dominant ideology, and for Foucault, of subaltern ideologies.
+        C: >-
+          For Althusser it is the result of ideological interpellation, while for Foucault it is the result of
+          disciplinary technologies.
+        D: >-
+          For Althusser it is the result of an economic process; for Foucault it is the result of a series of
+          judicial procedures.
+        E: >-
+          For Althusser it occurs at the level of the infrastructure; for Foucault it is at the level of
+          biopolitics.
+  q-01792b5c:
+    - fuente: d5f9a0d57d
+      enunciado: >-
+        Mark with a cross (X) which of the following propositions about ideology belongs to Marx's perspective
+        according to H. Lefebvre.
+      opciones:
+        A: Ideology determines social facts, since it is external, general and coercive.
+        B: Practices linked to biopower are necessarily ideological.
+        C: Ideologies involve non-scientific abstractions.
+        D: Ideology returns to politics through mysticism and religion.
+        E: Ideologies represent the highest degree of philosophical thought of societies.
+    - fuente: 4b9981a30d
+      enunciado: >-
+        Mark with a cross (X) which of the following propositions about ideology belongs to Marx's perspective
+        according to H. Lefebvre.
+      opciones:
+        A: Ideology determines social facts, since it is external, general and coercive.
+        B: Practices linked to biopower are necessarily ideological.
+        C: Ideologies involve non-scientific abstractions.
+        D: Ideology returns to politics through mysticism and religion.
+        E: Ideologies represent the highest degree of philosophical thought of societies.
+  q-23ecc19f:
+    - fuente: 246e755ffc
+      enunciado: Indicate which statements are true (T) and which are false (F) according to the text by S. Lifszyc.
+      opciones:
+        A: Capitalism is a mode of production in which there is extraction of surplus value.
+        B: In capitalism, the only thing that is not considered a commodity is labor power.
+        C: >-
+          In capitalism, the wage worker does not own the social means of production; they only possess their
+          labor power.
+        D: Laws and constitutional statutes are what give rise to capitalist relations of production.
+        E: In capitalism, working conditions are similar to slavery, since formal freedom does not exist.
+  q-f9142f7a:
+    - fuente: c5c7be0118
+      enunciado: >-
+        Mark with a cross (X) the option that correctly completes the sentence. According to Weber, the
+        concept of “value-rational social action” is characterized by…
+      opciones:
+        A: … being an action oriented toward achieving a specific result.
+        B: … being conduct guided by current emotions and feelings.
+        C: … being conduct motivated by a conscious belief in a certain value.
+        D: … being an action oriented by conscious habits of everyday life.
+        E: … being behavior based on the customs of a society.
+  q-76d143af:
+    - fuente: 1c610710a5
+      enunciado: >-
+        Determine which are true (T) and which are false (F). Foucault argues that disciplinary techniques
+        focus on:
+      opciones:
+        A: The collective consciousness.
+        B: The regulation of the biological laws that run through the population.
+        C: The predominant mentalities in a given society.
+        D: Surveillance in closed and artificial spaces.
+        E: Individuals considered as docile bodies.
+    - fuente: b0cff2014e
+      enunciado: >-
+        Determine which are true (T) and which are false (F). Foucault argues that disciplinary techniques
+        focus on:
+      opciones:
+        A: The collective consciousness.
+        B: The regulation of the biological laws that run through the population.
+        C: The predominant mentalities in a given society.
+        D: Surveillance in closed and artificial spaces.
+        E: Individuals considered docile bodies.
+  q-310cf0a8:
+    - fuente: 9e80763e4d
+      enunciado: 'Mark the correct answer with a cross (X). For Facio and Fries, the concept of “gender” allows us to:'
+      opciones:
+        A: … Think of the feminine and the masculine as biological determinations.
+        B: … Understand gender on the basis of genitals.
+        C: … Make visible only the socio-historical process of construction of the feminine.
+        D: … Uphold a perspective that benefits women.
+        E: … Understand the social construction of woman and man.
+  q-0f796afa:
+    - fuente: d2b3055033
+      enunciado: >-
+        Mark the correct option with a cross (X). What do Althusser's concept of “state power” and Weber's
+        concept of “domination” have in common?
+      opciones:
+        A: In both cases domination is exercised from the State.
+        B: In both cases the aim of domination is economic.
+        C: In both cases domination seeks to obtain legitimacy.
+        D: In both cases domination is exercised by the dominant social class.
+        E: In both cases domination is disciplinary and at the same time biopolitical.
+  q-a5f8ab08:
+    - fuente: fc257c3338
+      enunciado: >-
+        Complete the proposition correctly with a cross (X). According to Weber, it can be stated that a
+        “social action” exists insofar as…
+      opciones:
+        A: … the group achieves an effective socialization of its members.
+        B: >-
+          … there is a probability that individuals can give meaning to their action according to what is
+          expected of them and what they expect of others.
+        C: … social classes interact because of their position with respect to the means of production.
+        D: … the group manages to impose its ways of acting, thinking or feeling on individuals.
+        E: … two individuals meet face to face and interact voluntarily.
+    - fuente: 380af25f99
+      enunciado: >-
+        Complete the correct proposition with a cross (X). According to Weber, it can be stated that a “social
+        action” exists insofar as…
+      opciones:
+        A: … the group achieves an effective socialization of its members.
+        B: >-
+          … there is a probability that individuals can give meaning to their action according to what is
+          expected of them and what they expect of others.
+        C: … social classes interact because of their position with respect to the means of production.
+        D: … the group manages to impose its ways of acting, thinking or feeling on individuals.
+        E: … two individuals meet face to face and interact voluntarily.
+  q-5e1eb746:
+    - fuente: 4e8b506849
+      enunciado: 'Which author corresponds to this concept: «Microphysical power»?'
+      opciones:
+        A: Althusser
+        B: Marqués
+        C: Lefebvre
+        D: Foucault
+        E: Weber
+        F: Heller
+        G: Durkheim
+  q-328248fb:
+    - fuente: 3fd4b125d9
+      enunciado: 'Which author corresponds to this concept: «Interpellation»?'
+      opciones:
+        A: Althusser
+        B: Marqués
+        C: Lefebvre
+        D: Foucault
+        E: Weber
+        F: Heller
+        G: Durkheim
+  q-40eec0e5:
+    - fuente: 4a70eabd5f
+      enunciado: >-
+        Which author corresponds to this concept: «Traditional instrumentally rational action (oriented to
+        ends)»?
+      opciones:
+        A: Althusser
+        B: Marqués
+        C: Lefebvre
+        D: Foucault
+        E: Weber
+        F: Heller
+        G: Durkheim
+  q-78e6cb37:
+    - fuente: e8a90ddddc
+      enunciado: 'Which author corresponds to this concept: «Natural / Normal»?'
+      opciones:
+        A: Althusser
+        B: Marqués
+        C: Lefebvre
+        D: Foucault
+        E: Weber
+        F: Heller
+        G: Durkheim
+  q-237330e3:
+    - fuente: e111dd62ad
+      enunciado: 'Which author corresponds to this concept: «Revolutionary praxis»?'
+      opciones:
+        A: Althusser
+        B: Marqués
+        C: Lefebvre
+        D: Foucault
+        E: Weber
+        F: Heller
+        G: Durkheim
+    - fuente: deca889080
+      enunciado: 'Which author corresponds to this concept: «Revolutionary praxis»?'
+      opciones:
+        A: Wright Mills
+        B: Heller
+        C: Durkheim
+        D: Elías
+        E: Lefebvre
+        F: Marx
+  q-53ec2fc8:
+    - fuente: f000299100
+      enunciado: 'Which author does this concept belong to: «Social currents»?'
+      opciones:
+        A: Althusser
+        B: Marqués
+        C: Lefebvre
+        D: Foucault
+        E: Weber
+        F: Heller
+        G: Durkheim
+    - fuente: 1aad2e4615
+      enunciado: 'Which author does this concept belong to: «Social currents»?'
+      opciones:
+        A: Mills
+        B: Heller
+        C: Marx
+        D: Durkheim
+        E: Weber
+        F: Foucault
+        G: Althusser
+  q-982e25d8:
+    - fuente: e4c86b9f4c
+      enunciado: >-
+        Mark the correct option with a cross (X). According to Heller, the “heterogeneity” of everyday life
+        refers to:
+      opciones:
+        A: >-
+          The diversity of theoretical approaches that must be taken into account to analyze the everyday life
+          of present-day societies.
+        B: The diversity of concepts we acquire throughout our passage through the sphere of everyday life.
+        C: >-
+          The diversity of historical, political, economic, etc. variables that determine people's everyday
+          life.
+        D: The diversity of activities and skills we develop in the sphere of everyday life.
+        E: The diversity of cultural perspectives present in everyday life.
+    - fuente: f9f7123eac
+      enunciado: 'Select the correct option. According to Heller, the “heterogeneity” of everyday life refers to:'
+      opciones:
+        A: The diversity of activities we develop in the sphere of everyday life.
+        B: The diversity of men and women who are part of the sphere of everyday life.
+        C: >-
+          The diversity of perspectives with which men weigh and assess their life trajectory in the sphere of
+          everyday life.
+        D: The diversity of ways in which men move through the sphere of everyday life and develop within it.
+        E: >-
+          The diversity of theoretical approaches that must be taken into account to analyze the everyday life
+          of present-day societies.
+  q-6f659053:
+    - fuente: e31357e132
+      enunciado: Mark the correct option with a cross (X). Marx criticizes the classical economists because…
+      opciones:
+        A: … they do not incorporate the sphere of consumption into their analysis.
+        B: … they do not incorporate the concept of the international market into their analysis.
+        C: … they do not incorporate ground rent into their analysis.
+        D: … they do not incorporate the sphere of production on a world scale into their analysis.
+        E: … they do not incorporate the historical character of economic categories into their analysis.
+  q-2ef4de4f:
+    - fuente: 8a1abfccf6
+      enunciado: >-
+        Mark with a cross (X) the statement that correctly completes the proposition. For Duby, one feature of
+        ideologies is that they are globalizing, because…
+      opciones:
+        A: … they are representations constructed by the state in order to dominate.
+        B: … they present themselves as complete systems that offer a total vision of the world.
+        C: … they are a set of interests that bind together the world bourgeoisie.
+        D: … they overlap with several antagonistic systems of representation.
+        E: … certain aspects of reality are concealed in order to better serve certain interests.
+    - fuente: 41aa7ef972
+      enunciado: >-
+        Mark the appropriate option. For Duby, one feature of ideologies is that they are “globalizing”
+        because…:
+      opciones:
+        A: they are complete visions of the social world
+        B: they conceal aspects of reality in order to serve particular interests
+        C: they overlap with several systems of representations
+        D: they express oppositions that respond to different interests
+        E: they conceal or distort certain aspects of social reality
+  q-f0307a14:
+    - fuente: ef3353695d
+      enunciado: Mark which statements are true (T) and which are false (F). For Maffía, “feminism” has allowed us to…
+      opciones:
+        A: … understand that gender categories are egalitarian and inclusive.
+        B: … understand the idea of the social construction of woman.
+        C: … biologically justify the submission of women.
+        D: … understand the distinction between sex and gender.
+        E: … explain the subordination of women on the basis of biological differences.
+  q-004052f5:
+    - fuente: 95860b822f
+      enunciado: >-
+        Complete the sentence with the correct option. Althusser's concept of “Ideology” accounts for the
+        articulation between…
+      opciones:
+        A: … the capitalist social formation and the State.
+        B: … surplus value and wages.
+        C: … the social order and the economic structure.
+        D: … the social order and the production of subjectivity.
+        E: … the relations of production and the productive forces.
+  q-fd023f40:
+    - fuente: 00baa1c403
+      enunciado: >-
+        Select the correct option with a cross (X). How is the pure type of “legal-rational domination”
+        exercised, according to Weber?
+      opciones:
+        A: It is exercised according to each official's interpretation of the laws and regulations.
+        B: It is exercised by means of a penal system.
+        C: It is exercised according to the principles set by tradition.
+        D: It is exercised by means of physical coercion.
+        E: It is exercised by implementing obedience to enacted rules and not to persons in their own right.
+    - fuente: da9a898b3b
+      enunciado: >-
+        Mark the appropriate option. How is the pure type “legal-rational domination” exercised, according to
+        Weber?
+      opciones:
+        A: It is exercised according to the principles set by tradition.
+        B: It is exercised by means of administrative staff devoted to the objective duties of their office.
+        C: It is exercised by means of a judicial system.
+        D: It is exercised according to each official's interpretation of the laws and regulations.
+        E: It is exercised by means of physical coercion.
+  q-16a8aa3b:
+    - fuente: 7b514fefe4
+      enunciado: >-
+        Mark the option that correctly completes the sentence. “According to Fries and Facio, the theory of
+        gender relations allows us to understand that…
+      opciones:
+        A: … gender is a historical social construction and sex belongs to the order of nature.”
+        B: … gender is constituted naturally, and is therefore unchangeable.”
+        C: … law is not permeated by patriarchal ideology.”
+        D: … sex and gender are constructed, and are therefore mutable.”
+        E: … heterosexual identity, as a gender identity, is determined by the genitals.”
+    - fuente: f361925fc4
+      enunciado: >-
+        Select the option that correctly completes the sentence. According to Fries and Facio, the theory of
+        gender relations allows us to understand that:
+      opciones:
+        A: sex and gender are constructed, and are therefore mutable.
+        B: law is not permeated by patriarchal ideology.
+        C: gender is constituted naturally, and is therefore unchangeable.
+        D: heterosexual identity, as a gender identity, is determined by the genitals.
+        E: gender is a socio-historical construction and sex belongs to the order of nature.
+  q-e64be682:
+    - fuente: 69ddbc0c91
+      enunciado: >-
+        Mark the correct option with a cross (X). Which of the following characteristics corresponds to the
+        concept of “social fact”, according to Durkheim?
+      opciones:
+        A: Their existence derives from individual actions and manifestations.
+        B: They are individual actions, thoughts or feelings oriented toward the collective.
+        C: >-
+          They are ways of doing and thinking constituted as a collective consciousness that conditions the
+          individual will.
+        D: They are personal actions defined by their orientation within a group.
+        E: They are ways of acting that originate in individual wills.
+    - fuente: 27c04f6070
+      enunciado: >-
+        Mark the corresponding option. Which of the following characteristics corresponds to the concept of
+        “social fact”, according to Durkheim?
+      opciones:
+        A: they are ways of acting that derive from the prevailing economic conditions.
+        B: they have a life of their own, independent of individuals.
+        C: they are ways of doing that are defined by their orientation within a group.
+        D: they are ways of acting that originate in individual wills.
+        E: they are individual actions, thoughts or feelings oriented toward the collective.
+  q-c0323a54:
+    - fuente: f8300a371b
+      enunciado: >-
+        Which concept corresponds to this definition: «The probability of obtaining obedience to a command
+        with a specific content.»?
+      opciones:
+        A: Legitimate domination
+        B: Specular structure of ideology
+        C: Competing ideologies
+        D: Charismatic domination
+        E: Biopolitics
+  q-3d879020:
+    - fuente: cf6edb5085
+      enunciado: >-
+        Which concept corresponds to this definition: «The subject recognizes itself through the
+        interpellation of a Subject.»?
+      opciones:
+        A: Legitimate domination
+        B: Specular structure of ideology
+        C: Competing ideologies
+        D: Charismatic domination
+        E: Biopolitics
+  q-bacae693:
+    - fuente: 24b4fcfcab
+      enunciado: 'Which concept corresponds to this definition: «Ideologies that compete for preeminence in a society.»?'
+      opciones:
+        A: Legitimate domination
+        B: Specular structure of ideology
+        C: Competing ideologies
+        D: Charismatic domination
+        E: Biopolitics
+  q-9e42bb4a:
+    - fuente: 9be4166dee
+      enunciado: >-
+        Which concept corresponds to this definition: «Domination based on the personal characteristics of a
+        person.»?
+      opciones:
+        A: Legitimate domination
+        B: Specular structure of ideology
+        C: Competing ideologies
+        D: Charismatic domination
+        E: Biopolitics
+  q-0cb39393:
+    - fuente: 007ce21cf2
+      enunciado: 'Which concept corresponds to this definition: «Regulation of the laws that run through a population.»?'
+      opciones:
+        A: Legitimate domination
+        B: Specular structure of ideology
+        C: Competing ideologies
+        D: Charismatic domination
+        E: Biopolitics
+  q-7138c3df:
+    - fuente: 0ed6b07c1c
+      enunciado: >-
+        Indicate which statements are true (T) and which are false (F). For Maffía, “feminism” has taken
+        different positions over the last decades of the 20th century:
+      opciones:
+        A: In the seventies the struggle is for equality.
+        B: In the seventies hierarchies are not questioned.
+        C: In the eighties the struggle is for difference.
+        D: In the eighties dichotomous categories are questioned.
+        E: In the nineties dichotomous categories are not questioned.
+  q-cb6eae53:
+    - fuente: 49259808ff
+      enunciado: >-
+        Select the correct option with a cross (X). According to Mills, “ours is a time of uneasiness and
+        indifference because…
+      opciones:
+        A: >-
+          … the exploitation to which we are subjected does not allow us to develop all the potentialities of
+          our social being”.
+        B: … often there is only the beclouded feeling that all is somehow not right”.
+        C: >-
+          … the reifying character of language prevents us from generating a conscious relationship with
+          genericity, with the we”.
+        D: >-
+          … being centered on their individual self, subjects fail to perceive what they have in common with
+          their peers”.
+        E: >-
+          … we live permeated by various power structures that shape in us a fearful personality, always
+          dominated, always watched”.
+  q-8ef6282c:
+    - fuente: 1c6cb0cd43
+      enunciado: >-
+        Mark with a cross (X) which of the following statements corresponds to one of Althusser's theses on
+        “ideology”.
+      opciones:
+        A: Ideology is the representation that the individual transparently makes of material conditions.
+        B: Ideology is the worldview that represents the relationship between the subject and its object.
+        C: Ideology has a material existence.
+        D: Ideology is each individual's interpretation of their real conditions of existence.
+        E: Ideology is the representation of the relationship between the individual and the State.
+  q-26dca9b5:
+    - fuente: 0ee9c71d09
+      enunciado: 'Which author does this concept belong to: «Regimentation of life»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Weber
+        D: Heller
+        E: Mills
+  q-09aebc8f:
+    - fuente: eb0cdb13f4
+      enunciado: 'Which author does this concept belong to: «Egocentric model»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Weber
+        D: Heller
+        E: Mills
+  q-5f336544:
+    - fuente: 2bd1b7f0cd
+      enunciado: 'Which author does this concept belong to: «Affectual action»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Weber
+        D: Heller
+        E: Mills
+  q-a299cb2e:
+    - fuente: 78389d461c
+      enunciado: 'Which author does this concept belong to: «Personal trouble»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Weber
+        D: Heller
+        E: Mills
+    - fuente: '6840067e69'
+      enunciado: 'Which author does this concept belong to: «Personal trouble»?'
+      opciones:
+        A: Marx
+        B: Marqués
+        C: Heller
+        D: Mills
+        E: Berger and Luckmann
+  q-0e838c2c:
+    - fuente: 44f2213401
+      enunciado: Indicate with a cross (X) which of the following statements corresponds to Karl Marx's thought.
+      opciones:
+        A: In every society, production is based on the interest in making a profit.
+        B: >-
+          Since nature provides all primary goods, nature itself is the ultimate source of all material
+          wealth.
+        C: The individual is linked to society through their actions, oriented by the behavior of others.
+        D: Money is the real origin of all relations of production.
+        E: >-
+          The development of a society's productive forces is articulated with the predominant relations of
+          production.
+  q-f943bc8b:
+    - fuente: 22b6b8838c
+      enunciado: Mark the correct option with a cross (X). What does Heller mean when she speaks of “mute coexistence”?
+      opciones:
+        A: The difficulties in communication between people caused by the reification of language.
+        B: The coexistence of various theoretical currents that do not communicate with one another.
+        C: The impossibility of perceiving the permanent conflict between particularity and specificity.
+        D: >-
+          The simultaneous, permanent and non-antagonistic existence of two dimensions within each person:
+          particularity and specificity.
+        E: The individual's participation in a variety of social spheres and spaces.
+  q-9e272de8:
+    - fuente: 64a13ed33d
+      enunciado: >-
+        Mark the correct option with a cross (X). According to V. Marqués, the ideology of “complementarity”
+        assumes that:
+      opciones:
+        A: masculinity is complete if it is repressive.
+        B: masculinity is a natural and immutable construction.
+        C: the man is completed by the existence of the woman.
+        D: masculinity is expressed in the exercise of force.
+        E: masculinity implies the subordinate and complementary role of the man.
+  q-5af0a7ac:
+    - fuente: d19fd74989
+      enunciado: >-
+        Mark with a cross (X) the appropriate option. According to Berger and Luckmann, how does social order
+        arise?:
+      opciones:
+        A: It derives from biological data in their empirical manifestations.
+        B: It is the product of the social contract, of delegating sovereign power to the State.
+        C: It is an ongoing human production, in the course of humans' continuous externalization.
+        D: It is the result of the sum of individual wills.
+        E: It is part of the nature of things and derives from the laws of nature.
+  q-c28c610f:
+    - fuente: 43cd9db65e
+      enunciado: >-
+        Determine which are true (T) and which are false (F). There are points of agreement between the
+        conceptual proposals of Berger & Luckmann and Agnes Heller's reflection on everyday life because…
+      opciones:
+        A: They all start their analysis from the concept of “estrangement
+        B: >-
+          The Marxist thesis that explains social life on the basis of the social relations of production is
+          the starting point of both texts.
+        C: They understand that biology is what determines the individual.
+        D: >-
+          For all these authors, the reproduction of the conditions of individual life takes place in a given
+          social environment.
+        E: >-
+          In both perspectives, social order is maintained on the basis of habitual behaviors that do not
+          require reflection.
+  q-353593e3:
+    - fuente: b5269d7d88
+      enunciado: >-
+        Indicate which statements are true (T) and which are false (F). According to Heller, morality has two
+        functions:
+      opciones:
+        A: >-
+          Transformative, because it leads us to act beyond ourselves, beyond the “particular being”, to
+          connect with “specificity”.
+        B: Evaluative, because it allows us to distinguish what is right from what is wrong.
+        C: Pacifying, because it gives us tools to overcome the conflicts inherent in all life in society.
+        D: Inhibiting, because it prevents us from doing and saying things that threaten life in society.
+        E: Revolutionary, because it allows us to destroy social structures.
+  q-61922aeb:
+    - fuente: 2540cbc643
+      enunciado: 'Which author does this concept belong to: «Unpaid labor»?'
+      opciones:
+        A: Wright Mills
+        B: Heller
+        C: Durkheim
+        D: Elías
+        E: Lefebvre
+        F: Marx
+    - fuente: c7cd465215
+      enunciado: 'Which author does this concept belong to: «Unpaid labor»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Durkheim
+        D: Mills
+        E: Heller
+  q-25cc2550:
+    - fuente: 7b9004afec
+      enunciado: 'Which author does this concept belong to: «Sociological imagination»?'
+      opciones:
+        A: Wright Mills
+        B: Heller
+        C: Durkheim
+        D: Elías
+        E: Lefebvre
+        F: Marx
+    - fuente: c39968df39
+      enunciado: 'Which author does this concept belong to: «Sociological imagination»?'
+      opciones:
+        A: Mills
+        B: Heller
+        C: Marx
+        D: Durkheim
+        E: Weber
+        F: Foucault
+        G: Althusser
+    - fuente: 24ad1abd00
+      enunciado: 'Which author does this concept belong to: «Sociological imagination»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Durkheim
+        D: Mills
+        E: Heller
+  q-53340614:
+    - fuente: 19a2ea2839
+      enunciado: 'Which author does this concept belong to: «Social figurations»?'
+      opciones:
+        A: Wright Mills
+        B: Heller
+        C: Durkheim
+        D: Elías
+        E: Lefebvre
+        F: Marx
+    - fuente: 8d769ffaa1
+      enunciado: 'Which author does this concept belong to: «Social figurations»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Durkheim
+        D: Mills
+        E: Heller
+  q-4f7f0523:
+    - fuente: 20cf0bc9f2
+      enunciado: 'Which author does this concept belong to: «Pragmatism»?'
+      opciones:
+        A: Wright Mills
+        B: Heller
+        C: Durkheim
+        D: Elías
+        E: Lefebvre
+        F: Marx
+    - fuente: 3b8b319050
+      enunciado: 'Which author does this concept belong to: «Pragmatism»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Durkheim
+        D: Mills
+        E: Heller
+  q-13f93561:
+    - fuente: ed5d9ee08d
+      enunciado: 'Which author does this concept belong to: «Currents of opinion»?'
+      opciones:
+        A: Wright Mills
+        B: Heller
+        C: Durkheim
+        D: Elías
+        E: Lefebvre
+        F: Marx
+    - fuente: '489568e217'
+      enunciado: 'Which author does this concept belong to: «Currents of opinion»?'
+      opciones:
+        A: Marx
+        B: Elías
+        C: Durkheim
+        D: Mills
+        E: Heller
+  q-8a8b1d6b:
+    - fuente: eaf3eb9d9a
+      enunciado: >-
+        Mark the correct option with a cross (X). According to Wright Mills, the distinction between
+        “troubles” and “issues”:
+      opciones:
+        A: >-
+          Is an essential tool for the “objectivist” sociological currents that regard the individual as
+          subject to social designs.
+        B: >-
+          Makes it possible to differentiate the difficulties that individuals face, as biographical entities,
+          in their personal or family sphere from those posed to them by life in society.
+        C: >-
+          Is an absurd and irrelevant distinction, because the private sphere and the public sphere are always
+          related and are not differentiated.
+        D: >-
+          Refers, on the one hand, to the character of an individual and their relations with others and, on
+          the other hand, to the organization of many milieux within the institutions of a society.
+        E: >-
+          Is an essential tool for the “comprehensive” (interpretive) sociological currents that focus on the
+          actions and motivations of individuals.
+    - fuente: fdd795b830
+      enunciado: Select the correct option. According to Wright Mills, the distinction between troubles and issues…
+      opciones:
+        A: >-
+          Is an absurd and irrelevant distinction, because the private sphere and the public sphere are always
+          related and are not differentiated.
+        B: >-
+          Makes it possible to differentiate the difficulties that individuals face, as biographical entities,
+          in their personal or family sphere from those of life in society.
+        C: >-
+          Points out the difference between sociological theories that start from the individual and those
+          that start from groups or society.
+        D: >-
+          Refers to the character of an individual and their relations with others, on the one hand, and to
+          the organization of many milieux within the institutions of a society, on the other
+        E: >-
+          Makes it possible to discern the degrees of threat that a given social phenomenon poses to the
+          structure of society.
+  q-6acd7309:
+    - fuente: c7b9ee1c91
+      enunciado: >-
+        Mark the correct option with a cross (X). For V. Marques, as for Ch. Wright Mills, people go through
+        different situations in life…
+      opciones:
+        A: … and respond to them according to their particular ideologies.
+        B: … in social and historical contexts that define them and that are not always evident to them.
+        C: … according to the influence of socioeconomic reality.
+        D: … according to the educational level they have attained.
+        E: >-
+          … in contexts in which values and moral principles do not change historically, and that is why they
+          guide them.
+  q-f33bd93c:
+    - fuente: da5fc66320
+      enunciado: >-
+        Mark with a cross (X) the statement that correctly completes the proposition. The notion of “power” in
+        Weber is different from the notion of power in Althusser because for Weber…
+      opciones:
+        A: … power is based on the ownership of the means of production.
+        B: …. power requires the existence of legality.
+        C: … power can have very diverse sources.
+        D: … power requires the repressive force exercised by whoever dominates.
+        E: … the basis of power is ideological.
+    - fuente: 6722e7fb2d
+      enunciado: >-
+        Mark the appropriate option. The notion of “power” in Weber is different from the notion of power in
+        Althusser because for Weber…
+      opciones:
+        A: … power requires a legitimate order.
+        B: … power requires the monopoly of the means of production.
+        C: … power is the probability of economic coercion over others.
+        D: … power refers to any situation in which someone is likely to impose their will on another.
+        E: … power presupposes resistance.
+  q-a7005f62:
+    - fuente: 25359596ea
+      enunciado: >-
+        Mark which statements about the differences between Althusser and Foucault regarding the conception of
+        the state and of power are true (T) and which are false (F).
+      opciones:
+        A: >-
+          For Althusser the State guarantees the reproduction of the relations of production, and for
+          Foucault, beliefs in the legitimacy of the order.
+        B: >-
+          Althusser highlights the repressive and ideological role of power, while Foucault analyzes power
+          outside the State, where it is concretely exercised over people.
+        C: >-
+          For Althusser the State represents the dominant class; for Foucault it represents all citizens
+          equally.
+        D: For Althusser power descends from the State to society; for Foucault power goes from the bottom up.
+        E: >-
+          For Althusser the State acts through the Ideological Apparatuses, and for Foucault it does so
+          through the Repressive Apparatuses.
+  q-23839043:
+    - fuente: 2e95e0068a
+      enunciado: >-
+        Indicate which statements are true (T) and which are false (F). The difference between Althusser and
+        Foucault regarding the “construction of the modern subject” is that:
+      opciones:
+        A: For Althusser it is the result of globalizing ideologies and for Foucault, of sovereignty.
+        B: >-
+          For Althusser the subject is ideologically subjected; for Foucault it is constructed by the
+          technologies of power.
+        C: For Althusser it is the result of the superstructure; for Foucault, of the infrastructure.
+        D: >-
+          For Althusser it is the result of ideological interpellation; for Foucault, of modern disciplinary
+          techniques.
+        E: For Althusser it is the result of ideology; for Foucault, of biopolitics.
+  q-cb2d566e:
+    - fuente: 2ef8898835
+      enunciado: >-
+        Mark the correct statement with a cross (X). Durkheim's concept of “social fact” makes it possible to
+        understand that…:
+      opciones:
+        A: … social relations must be interpreted on the basis of the intentionality of individuals.
+        B: … individuals act according to their own will.
+        C: … social phenomena can be explained from the behavior of the individual.
+        D: … social reality is independent of the will of individuals.
+        E: … individuals are preexisting and explain the structure of social groups.
+    - fuente: 560b3b3029
+      enunciado: >-
+        Mark the correct statement. Durkheim's concept of “social fact” makes it possible to understand
+        that...
+      opciones:
+        A: ...individuals are preexisting and explain the structure of social groups.
+        B: … individuals' ways of acting and thinking are imposed by the group to which they belong.
+        C: ...social phenomena can be explained from the behavior of the individual.
+        D: … social relations must be interpreted on the basis of the intentionality of individuals.
+        E: ...individual will guides the actions of subjects.
+  q-0399c5df:
+    - fuente: 592ad45af3
+      enunciado: >-
+        Mark with a cross (X) the option that correctly completes the sentence. According to Lefebvre,
+        ideologies…:
+      opciones:
+        A: … constitute the best possible description of social reality.
+        B: … establish representations based on what politicized sectors impose.
+        C: … are completely disconnected from the social relations of production.
+        D: … are true because they are produced by the most prominent intellectuals of an era.
+        E: … are limited by particular interests, but present themselves as general truths.
+  q-c652f758:
+    - fuente: 21ed2145a8
+      enunciado: >-
+        Indicate whether it is true (T) or false (F) that Heller and Berger & Luckmann agree on the following
+        statements:
+      opciones:
+        A: Biological organization determines social behavior.
+        B: There are elements that distinguish human beings from other animal species.
+        C: The social relations of production are the only determining element of everyday life
+        D: >-
+          It is important to identify through which social processes people are in permanent relation with the
+          society in which they live.
+        E: >-
+          Society develops under random and exceptional historical conditions, which is why it is not possible
+          to identify regularities.
+  q-fb83c501:
+    - fuente: 3402aaf62b
+      enunciado: >-
+        Mark with a cross (X) which of the following characteristics correspond to Weber's concept of
+        “value-rational social action”
+      opciones:
+        A: It is characterized as an action guided by current emotions and feelings.
+        B: It is characterized as an action oriented toward achieving a specific result.
+        C: It is characterized as an action oriented by conscious everyday habits.
+        D: It is characterized as behavior based on the customs of a society.
+        E: It is characterized as conduct motivated by conscious belief in a particular value.
+  q-4b0b06f2:
+    - fuente: 91cdce2c73
+      enunciado: 'Which author does this concept correspond to: «Traditional action»?'
+      opciones:
+        A: Weber
+        B: Marqués
+        C: Elías
+        D: Heller
+        E: Lefebvre
+        F: Facio and Fries
+        G: Marx
+  q-d982dd83:
+    - fuente: fb0c30c775
+      enunciado: 'Which author does this concept correspond to: «Process of naturalization of the social»?'
+      opciones:
+        A: Weber
+        B: Marqués
+        C: Elías
+        D: Heller
+        E: Lefebvre
+        F: Facio and Fries
+        G: Marx
+    - fuente: af1c4117f8
+      enunciado: 'Which author does this concept correspond to: «Process of naturalization of the social»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Facio and Fries
+        D: Heller
+        E: Lefebvre
+        F: Marqués
+        G: Elías
+  q-f4991797:
+    - fuente: 982fabc387
+      enunciado: 'Which author does this concept correspond to: «Relations of interdependence among individuals»?'
+      opciones:
+        A: Weber
+        B: Marqués
+        C: Elías
+        D: Heller
+        E: Lefebvre
+        F: Facio and Fries
+        G: Marx
+    - fuente: dc01825e17
+      enunciado: 'Which author does this concept correspond to: «Relations of interdependence among individuals»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Facio and Fries
+        D: Heller
+        E: Lefebvre
+        F: Marqués
+        G: Elías
+  q-4c651386:
+    - fuente: 92f07edea2
+      enunciado: 'Which author does this concept correspond to: «Heterogeneity»?'
+      opciones:
+        A: Weber
+        B: Marqués
+        C: Elías
+        D: Heller
+        E: Lefebvre
+        F: Facio and Fries
+        G: Marx
+    - fuente: 27f82f1cee
+      enunciado: 'Which author does this concept correspond to: «Heterogeneity»?'
+      opciones:
+        A: Heller
+        B: Marques
+        C: Weber
+        D: Marx
+        E: Duby
+        F: Althusser
+        G: Foucault
+  q-e3f78678:
+    - fuente: 00ab9716f1
+      enunciado: 'Which author does this concept correspond to: «Opacity of ideology»?'
+      opciones:
+        A: Weber
+        B: Marqués
+        C: Elías
+        D: Heller
+        E: Lefebvre
+        F: Facio and Fries
+        G: Marx
+    - fuente: 731415988a
+      enunciado: 'Which author does this concept correspond to: «Opacity of ideology»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Facio and Fries
+        D: Heller
+        E: Lefebvre
+        F: Marqués
+        G: Elías
+  q-2140d44c:
+    - fuente: bdbfc613cb
+      enunciado: 'Which author does this concept correspond to: «Androcentric perspective»?'
+      opciones:
+        A: Weber
+        B: Marqués
+        C: Elías
+        D: Heller
+        E: Lefebvre
+        F: Facio and Fries
+        G: Marx
+    - fuente: 867c01ff94
+      enunciado: 'Which author does this concept correspond to: «Androcentric perspective»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Facio and Fries
+        D: Heller
+        E: Lefebvre
+        F: Marqués
+        G: Elías
+  q-b297d3cb:
+    - fuente: bcbe858bed
+      enunciado: 'Which author does this concept correspond to: «Social relations of production»?'
+      opciones:
+        A: Weber
+        B: Marqués
+        C: Elías
+        D: Heller
+        E: Lefebvre
+        F: Facio and Fries
+        G: Marx
+  q-38c4d652:
+    - fuente: 61e4cd7b05
+      enunciado: >-
+        Which concept corresponds to this definition: «Representations that start from a given reality, but
+        that create a partial and fragmentary consciousness.»?
+      opciones:
+        A: Ideology
+        B: Juridical conception of power
+        C: Language
+        D: Infrastructure
+        E: Anatomo-politics
+  q-38806eec:
+    - fuente: 9e8de8b083
+      enunciado: >-
+        Which concept corresponds to this definition: «Understanding power as something located at the top and
+        whose effects are solely repressive.»?
+      opciones:
+        A: Ideology
+        B: Juridical conception of power
+        C: Language
+        D: Infrastructure
+        E: Anatomo-politics
+  q-6fa13b00:
+    - fuente: 45d713e5af
+      enunciado: >-
+        Which concept corresponds to this definition: «It is the natural and social medium of consciousness;
+        it is the existence of consciousness, which arises as a need for communication.»?
+      opciones:
+        A: Ideology
+        B: Juridical conception of power
+        C: Language
+        D: Infrastructure
+        E: Anatomo-politics
+  q-fabbad14:
+    - fuente: a332364235
+      enunciado: >-
+        Which concept corresponds to this definition: «The structure of every society is made up of levels,
+        one of which is the unity of productive forces and relations of production.»?
+      opciones:
+        A: Ideology
+        B: Juridical conception of power
+        C: Language
+        D: Infrastructure
+        E: Anatomo-politics
+  q-3c570e83:
+    - fuente: ff2d5be2cf
+      enunciado: >-
+        Which concept corresponds to this definition: «Set of disciplinary techniques focused on individual
+        bodies.»?
+      opciones:
+        A: Ideology
+        B: Juridical conception of power
+        C: Language
+        D: Infrastructure
+        E: Anatomo-politics
+  q-b7d0530c:
+    - fuente: 232ce937d0
+      enunciado: 'Mark the corresponding option. According to Duby, “Ideology” is:'
+      opciones:
+        A: A set of discourses and ideas that only the dominant classes are capable of producing.
+        B: A set of ideas, discourses and actions coming from the working class.
+        C: A system of representations corresponding to all of the social classes as a whole.
+        D: The set of interests specific to the dominant classes.
+        E: A set of representations, myths or ideas that belong to a society at a given moment.
+    - fuente: b159a379cf
+      enunciado: 'Mark the corresponding option. According to Duby, “ideology” is:'
+      opciones:
+        A: a set of discourses and mandates coming from the Ideological State Apparatuses.
+        B: the science of ideas that studies the origin of abstract concepts.
+        C: a set of representations, myths or ideas that belong to any society in any time and place.
+        D: a system of representations endowed with a material existence and a specific historical role.
+        E: a set of ideas, discourses and actions coming from the working class.
+  q-98da6906:
+    - fuente: 74d4ecef13
+      enunciado: >-
+        Indicate which statements are true (T) and which are false (F). Foucault proposes analyzing power from
+        a perspective that considers:
+      opciones:
+        A: That power is concentrated in the law and the sovereign.
+        B: The different forms of State and the Ideological Apparatuses.
+        C: The origin of the power of the dominant class.
+        D: Power as a relation of unequal forces.
+        E: That power is not located at the top, but is disseminated throughout society as a whole.
+  q-c26aa0dd:
+    - fuente: f3dd710a38
+      enunciado: >-
+        Select the correct option with a cross (X).According to Berger and Luckmann, the process of
+        objectivation is…
+      opciones:
+        A: … the moment in which the generalized other is internalized and primary socialization ends.
+        B: … the coercion and pressure that social figures exert on the individual.
+        C: … the final learning stage of secondary socialization.
+        D: …the research methodology that studies social phenomena as “things”, external and objective.
+        E: >-
+          … the moment in which the externalized products of human activity attain the character of
+          objectivity.
+  q-8122d549:
+    - fuente: 3338e7128c
+      enunciado: >-
+        Select the correct option with a cross (X). Which of the following characteristics corresponds to Max
+        Weber's concept of “instrumentally rational action”?
+      opciones:
+        A: It is characterized as behavior based on the customs of a society.
+        B: It is characterized as action guided by everyday habits.
+        C: It is characterized as action that weighs means, ends and consequences.
+        D: It is characterized as conduct motivated by conscious belief in a particular value.
+        E: It is characterized as conduct guided by current emotions and feelings.
+  q-854be906:
+    - fuente: 8619d5fe5d
+      enunciado: Mark the corresponding option with a cross (X). For Durkheim, “social facts” are “external” because…
+      opciones:
+        A: … they lie outside society.
+        B: … they exist in their own right and beyond individuals.
+        C: … they are ways of acting thinking or feeling that condition the most vulnerable individuals.
+        D: … they spring from the subjectivity of individuals.
+        E: … they have no influence whatsoever on the inner life of individuals.
+  q-7565a2de:
+    - fuente: 7cf32a6239
+      enunciado: >-
+        Mark the correct option with a cross (X). According to Marqués, the idea of “the social construction
+        of the male” allows us to see:
+      opciones:
+        A: That the masculine is determined by sex.
+        B: That the feminine and the masculine refer to the condition of having been born a woman or a man.
+        C: That the masculine completes the identity of the woman.
+        D: That dominant masculinity also exerts coercion on the male.
+        E: That masculinity expresses the male's potentialities.
+    - fuente: 63e3dcd8e2
+      enunciado: >-
+        Mark the correct option. According to Marqués, the idea of “the social construction of the male”
+        allows us to see:
+      opciones:
+        A: that dominant masculinity also exerts coercion on the male.
+        B: that the masculine completes the identity of the woman.
+        C: that the masculine is determined by sex.
+        D: that the feminine and the masculine refer to the condition of having been born a man or a woman.
+        E: that masculinity expresses the potentialities of the male.
+  q-17610373:
+    - fuente: 2b51905c74
+      enunciado: 'Indicate which statements are true (T) and which are false (F), following Sara Lifszyc''s text:'
+      opciones:
+        A: In capitalism, labor power is considered a commodity like any other.
+        B: >-
+          In the capitalist mode of production, each wage worker owns their labor power but not the social
+          means of production.
+        C: A commodity is the result of production oriented toward consumption.
+        D: In the capitalist mode of production, relations of production without formal freedom predominate.
+        E: The mode of production is determined by laws and constitutional statutes.
+  q-9cee9c67:
+    - fuente: bb141d4d8f
+      enunciado: >-
+        Mark the correct option with a cross (X). Indicate which of the following propositions about ideology
+        belongs to Marx's perspective according to H. Lefebvre.
+      opciones:
+        A: Ideology is a central component of the Ideological State Apparatuses.
+        B: Since it is external, general and coercive, ideology is a social fact.
+        C: Coercion and persuasion are the ways in which ideology returns to praxis.
+        D: Ideologies include the highest level of economic thought.
+        E: The abstractions involved in ideologies are mostly scientific.
+  q-5277b415:
+    - fuente: 00228018ed
+      enunciado: >-
+        Mark the correct option with a cross (X). According to Wright Mills, someone who develops the
+        “sociological imagination” can:
+      opciones:
+        A: >-
+          Obtain valid summations of what is happening around them and within themselves, understanding the
+          intimate connection between changes at the level of the social structure and the life, possibilities
+          and trajectory of each man and woman.
+        B: >-
+          Understand the psychological motivations that drive other social actors, and themselves, to act in a
+          certain way and not another.
+        C: >-
+          Understand that they can have better chances in life if they manage to connect with individuals who
+          are in the same circumstances.
+        D: >-
+          Project themselves into a more original and creative everyday life, standing out from other
+          individuals.
+        E: >-
+          Incorporate into their everyday life the concrete achievements that sociology has developed
+          throughout its accumulation of knowledge.
+    - fuente: c1f35dd227
+      enunciado: >-
+        Select the correct option. According to Wright Mills, someone who develops the “sociological
+        imagination” can:
+      opciones:
+        A: >-
+          Understand that they can have better chances in life if they manage to connect with individuals who
+          are in the same circumstances.
+        B: >-
+          Incorporate into their everyday life the concrete achievements that sociology has developed
+          throughout its accumulation of knowledge.
+        C: >-
+          Obtain valid summations of what is happening around them and within themselves, understanding the
+          intimate connection between changes at the level of the social structure and the life, possibilities
+          and trajectory of each man and woman.
+        D: >-
+          Understand the psychological motivations that drive other social actors, and themselves, to act in a
+          certain way.
+        E: >-
+          Project themselves into a more original and creative everyday life, standing out from other
+          individuals.
+  q-11db5810:
+    - fuente: 571ddf1db8
+      enunciado: >-
+        Mark the correct option with a cross (X). Indicate which authors state that, in order to think
+        sociologically, it is necessary to question what we do in our everyday and private lives.
+      opciones:
+        A: Emile Durkheim and Charles Wright Mills.
+        B: Karl Marx and Henry Lefebvre.
+        C: Charles Wright Mills and Josep Vincent Marqués.
+        D: Louis Althusser and Max Weber.
+        E: Max Weber and Josep Vincent Marqués.
+  q-57e02c33:
+    - fuente: 5e9f7798f5
+      enunciado: >-
+        Indicate which statements are true (T) and which are false (F). There are points of agreement between
+        the proposals of Berger & Luckmann and Agnes Heller's reflection on everyday life because…
+      opciones:
+        A: >-
+          … the Marxist thesis that explains social life on the basis of the social relations of production is
+          the starting point of both texts.
+        B: >-
+          … for all these authors, the reproduction of the conditions of individual life takes place in a
+          specific social environment.
+        C: >-
+          … in both perspectives, social order is maintained on the basis of habitual behaviors that do not
+          require reflection.
+        D: … they understand that biology is what determines the individual.
+        E: … all of them start their analysis from the concept of “estrangement”.
+  q-dafe58a3:
+    - fuente: b3078b5412
+      enunciado: 'Which author does this concept belong to: «Oriented action»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Marx
+        D: Elías
+        E: Heller
+  q-9d589030:
+    - fuente: 05f7e424ac
+      enunciado: 'Which author does this concept belong to: «Social facts»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Marx
+        D: Elías
+        E: Heller
+  q-53f93e3d:
+    - fuente: ea370f705d
+      enunciado: 'Which author does this concept belong to: «Heteronomous representation»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Marx
+        D: Elías
+        E: Heller
+  q-7f3ccb13:
+    - fuente: 645eea22d9
+      enunciado: 'Which author does this concept belong to: «Species-being»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Marx
+        D: Elías
+        E: Heller
+  q-be728cac:
+    - fuente: 8f402fb4c2
+      enunciado: Select the correct statement. Ideologies, in Lefebvre's interpretation…
+      opciones:
+        A: … have a simple character that prevents their analysis.
+        B: … present themselves as the totality of reality despite being mutilated and altered versions of it.
+        C: … do not start from any reality; they are self-interested fantasies.
+        D: … are the highest forms of philosophical thought.
+        E: … help the dominated sectors understand their social situation.
+  q-900f404b:
+    - fuente: 87471068f0
+      enunciado: Indicate which of the following statements corresponds to Karl Marx's thought.
+      opciones:
+        A: >-
+          The simplest economic category, such as exchange value, presupposes a population that produces under
+          specific relations of production.
+        B: Capitalist profit becomes a means of solving poverty.
+        C: In the exchange of commodities, use value ceases to matter.
+        D: >-
+          The development of the productive forces of the availability of natural resources, since nature is
+          the source of wealth.
+        E: The individual ceases to be connected with nature because he produces manufactured goods.
+    - fuente: c1c181631c
+      enunciado: Indicate which of the following statements corresponds to Karl Marx's thought.
+      opciones:
+        A: Capitalist profit becomes a means of solving poverty.
+        B: >-
+          The development of the productive forces depends on the availability of natural resources, since
+          nature is the source of wealth.
+        C: >-
+          The category of exchange value implies that all producers have exchanged their means of life for
+          better ones.
+        D: >-
+          The use value of a commodity is the substratum that allows it to have a certain exchange value
+          because it is socially useful labor.
+        E: The individual ceases to be connected with nature because he produces manufactured goods.
+    - fuente: 265dc53958
+      enunciado: Indicate which of the following statements corresponds to Karl Marx's thought.
+      opciones:
+        A: >-
+          The development of a society's productive forces is articulated with the predominant relations of
+          production.
+        B: Since nature provides all primary goods, it is itself the ultimate source of all material wealth.
+        C: The individual is connected with society through his actions, oriented by the behavior of others.
+        D: In every society, production is based on the interest in obtaining a profit.
+        E: Money is the real origin of all relations of production.
+  q-a08fcc04:
+    - fuente: d071e30d33
+      enunciado: >-
+        Which of the following characteristics corresponds to the concept of “instrumentally rational
+        (goal-oriented) social action”, according to Weber?
+      opciones:
+        A: It is characterized as conduct guided by current emotions and feelings.
+        B: It is characterized as action oriented by everyday habits.
+        C: It is characterized as action oriented toward achieving a specific result.
+        D: It is characterized as behavior based on the customs of a society.
+        E: It is characterized as conduct motivated by conscious belief in a particular value.
+    - fuente: 0f5c449c5c
+      enunciado: >-
+        Which of the following characteristics corresponds to the concept of “instrumentally rational
+        (goal-oriented) social action”, according to Weber?
+      opciones:
+        A: It is characterized as behavior based on the customs of a society.
+        B: It is characterized as conduct motivated by conscious belief in a particular value.
+        C: It is characterized as conduct guided by current emotions and feelings.
+        D: It is characterized as action oriented by everyday habits.
+        E: It is characterized as action that weighs means, ends, and consequences.
+  q-0cf2ebe4:
+    - fuente: f1a7ddcb43
+      enunciado: >-
+        Indicate which of the following authors state that, in order to think sociologically, it is necessary
+        to question what we do in our everyday and private lives.
+      opciones:
+        A: Karl Marx and Henri Lefebvre.
+        B: Max Weber and Josep Vincent Marques.
+        C: Charles Wright Mills and Josep Vicent Marques.
+        D: Emile Durkheim and Charles Wright Mills.
+        E: Louis Althusser and Max Weber.
+  q-161780ea:
+    - fuente: b1591c9f56
+      enunciado: >-
+        Mark which statements are true and which are false. For Maffía, the “gender perspective” has allowed
+        us to...
+      opciones:
+        A: … explain women's subordination on the basis of biological differences.
+        B: … understand that gender categories are egalitarian and inclusive.
+        C: … justify women's submission biologically.
+        D: ...understand the idea of the social construction of woman.
+        E: .... understand the distinction between sex and gender.
+  q-d9421ce9:
+    - fuente: 220574c54d
+      enunciado: 'Mark the correct option. According to Althusser, the State:'
+      opciones:
+        A: is a legal framework under citizen control.
+        B: is an instrument of the dominant classes to maintain the social relations of production.
+        C: is the instrument of the proletarian class to avoid being exploited.
+        D: is the legal-political synthesis that represents all social classes equally.
+        E: represents the interests of all the people of a nation.
+  q-d65164af:
+    - fuente: 13b88cfba0
+      enunciado: Mark the correct option. Which of the following options corresponds to what Weber calls “domination”?
+      opciones:
+        A: The possibility of imposing one's own will against all resistance.
+        B: The exploitation of one class over the others.
+        C: A set of disciplinary techniques.
+        D: >-
+          A relationship in which a command is legitimized by the acceptance of and obedience to the authority
+          that derives from that command.
+        E: The system of obedience and exploitation that arises from patriarchy.
+  q-ce084b91:
+    - fuente: 64a6ae0e94
+      enunciado: 'Mark the correct option. For Facio and Fries, the perspective of “feminism” allows us to:'
+      opciones:
+        A: Make visible only the socio-historical construction process of the feminine.
+        B: Understand the social construction of women and men
+        C: Think of the feminine and the masculine as biological determinations.
+        D: Hold a perspective that benefits only women.
+        E: Understand gender on the basis of genitals.
+  q-6c6bb626:
+    - fuente: 05180ebcf9
+      enunciado: 'Which author does this concept belong to: «Traditional domination»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Facio y Fries
+        D: Heller
+        E: Lefebvre
+        F: Marqués
+        G: Elías
+    - fuente: bc88078f67
+      enunciado: 'Which author does this concept belong to: «Traditional domination»?'
+      opciones:
+        A: Marx
+        B: Duby
+        C: Weber
+        D: Althusser
+        E: Heller
+        F: Elías
+        G: Marqués
+  q-36334751:
+    - fuente: 67146dfd3e
+      enunciado: 'Which author does this concept belong to: «Social fact»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Facio y Fries
+        D: Heller
+        E: Lefebvre
+        F: Marqués
+        G: Elías
+    - fuente: b89f87a947
+      enunciado: 'Which author does this concept belong to: «Social fact»?'
+      opciones:
+        A: Weber
+        B: Mills
+        C: Althusser
+        D: Durkheim
+        E: Heller
+        F: Foucault
+        G: Marx
+  q-a680fb62:
+    - fuente: 01cc2ceff4
+      enunciado: 'Which author does this concept belong to: «Socially mediated particularity»?'
+      opciones:
+        A: Weber
+        B: Durkheim
+        C: Facio y Fries
+        D: Heller
+        E: Lefebvre
+        F: Marqués
+        G: Elías
+  q-1ebc0bcc:
+    - fuente: d03ce9eabe
+      enunciado: >-
+        Select the correct option. According to Elías, the discontent with life in
+        scientific-technical-industrial societies is caused by …
+      opciones:
+        A: people's inability to develop a healthier relationship with others and with their environment.
+        B: >-
+          the constraints that people exert on one another and the way they use scientific and technological
+          advances.
+        C: the difficulties of life in large technified cities and in factories.
+        D: mythical-magical forms of thought.
+        E: the destructive force of the atomic bomb and scientifically directed warfare.
+    - fuente: 86fc210d24
+      enunciado: >-
+        Select the correct option. According to Elías, the discontent with life in
+        scientific-technical-industrial societies is caused by. . .
+      opciones:
+        A: the difficulties of life in large technified cities and in factories.
+        B: people's inability to develop a healthier relationship with others and with their environment.
+        C: >-
+          the threats and constraints of interdependent human groups produced in their reciprocal
+          relationships.
+        D: mythical-magical forms of thought.
+        E: the destructive force of the atomic bomb and scientifically directed warfare.
+  q-ee73f8c5:
+    - fuente: 70280b766d
+      enunciado: >-
+        Select the correct option. According to Althusser, the statement that “ideologies have a material
+        existence” means that:
+      opciones:
+        A: each individual's ideas take shape in everyday life.
+        B: it is social practices that produce ideological representations.
+        C: ideologies are transmitted mainly through the Repressive State Apparatuses.
+        D: they appear as obvious to the subjects who hold them.
+        E: ideology is the imaginary relationship to the real conditions of existence.
+  q-81cfd932:
+    - fuente: e5eafe5b31
+      enunciado: Mark the correct option. According to Berger and Luckmann, an “institution” is...
+      opciones:
+        A: an interaction in which actions and actors are typified.
+        B: a bounded space that provides a specific service to the population.
+        C: the apprehension of the meaning of the actions of others.
+        D: a community regulated by a set of written norms.
+        E: a community regulated by a set of written norms and an authority that enforces them.
+  q-b5cb94a9:
+    - fuente: f95d5526ca
+      enunciado: Indicate whether the following statements are true or false according to S. Lifszyc's text.
+      opciones:
+        A: Under capitalism, labor power is not considered a commodity like any other.
+        B: >-
+          Under capitalism, relations between the owners of the means of production and formally free wage
+          earners are necessary.
+        C: Under capitalism, the worker is free and owns the means of production.
+        D: >-
+          Under capitalism, large-scale industry gradually disappears in favor of artisanal manufactures and
+          regional crafts.
+        E: The commodity is the concrete form that labor takes under capitalism.
+  q-49cf1015:
+    - fuente: c3f5fdc261
+      enunciado: >-
+        Indicate which statements are true and which are false. Heller and Berger & Luckmann agree in asking
+        these questions:
+      opciones:
+        A: In what way does the biological organism determine social behavior?
+        B: How is society reproduced in intimate, everyday relationships?
+        C: What distinguishes human beings from other animal species?
+        D: Is everyday life determined by the social relations of production?
+        E: Through what social processes are people in permanent relation with the society in which they live?
+  q-02ada85f:
+    - fuente: de3f680dc9
+      enunciado: >-
+        Mark which statements are true and which are false. Foucault argues that, despite its apparent
+        failure, the prison-based penal system persists because:
+      opciones:
+        A: Failures in the socialization process produce attitudes that tend to break the law.
+        B: Social anomie generates deviant behavior such as delinquency.
+        C: Delinquency has an economic usefulness.
+        D: The existence of the delinquent justifies mechanisms of control over the population.
+        E: Delinquency conceals the lack of legitimacy of a social order.
+  q-5e17eda5:
+    - fuente: 8ce45fe4d8
+      enunciado: >-
+        The following statements point out the difference between Althusser and Foucault regarding the
+        construction of the “modern subject”. Indicate which are true and which are false.
+      opciones:
+        A: >-
+          For Althusser it is produced at the level of the infrastructure; for Foucault, at the level of
+          biopolitics.
+        B: For Althusser it is the result of the dominant ideology, and for Foucault, of subaltern ideologies.
+        C: >-
+          For Althusser it is constituted by ideology, and for Foucault by anatomo-politics in closed,
+          artificial spaces.
+        D: >-
+          For Althusser it is the result of an economic process; for Foucault it is the result of a series of
+          judicial procedures.
+        E: >-
+          For Althusser it is the result of the dominant ideology, whereas for Foucault it is the result of a
+          micro-power spread throughout society as a whole.
+    - fuente: 972234611a
+      enunciado: >-
+        The following statements point out the difference between Althusser and Foucault regarding the
+        construction of the “modern subject”. Indicate which are true and which are false.
+      opciones:
+        A: >-
+          For Althusser it is the result of an economic process; for Foucault it is the result of a series of
+          judicial procedures.
+        B: >-
+          For Althusser it is produced at the level of the infrastructure; for Foucault, at the level of
+          biopolitics.
+        C: >-
+          For Althusser it is the result of the dominant ideology, whereas for Foucault it is the result of a
+          micro-power spread throughout society as a whole.
+        D: >-
+          For Althusser it is constituted by ideology, and for Foucault by anatomo-politics in closed,
+          artificial spaces.
+        E: For Althusser it is the result of the dominant ideology, and for Foucault, of subaltern ideologies.
+  q-bf9de952:
+    - fuente: 939c002374
+      enunciado: Mark the correct option. For Durkheim, social facts are “external” because…
+      opciones:
+        A: ...they lie outside society.
+        B: ...they have no influence at all on the inner life of individuals.
+        C: ...they arise from the consciousness of individuals.
+        D: ...they are ways of acting, thinking and feeling that condition the most vulnerable individuals.
+        E: ...they are a collective consciousness that has imperative power over individuals.
+  q-46b2f90d:
+    - fuente: 07c8e0ac3d
+      enunciado: 'Which author does this concept belong to: «Homogenization»?'
+      opciones:
+        A: Mills
+        B: Heller
+        C: Marx
+        D: Durkheim
+        E: Weber
+        F: Foucault
+        G: Althusser
+  q-c8281826:
+    - fuente: 90490057c5
+      enunciado: 'Which author does this concept belong to: «Productive forces»?'
+      opciones:
+        A: Mills
+        B: Heller
+        C: Marx
+        D: Durkheim
+        E: Weber
+        F: Foucault
+        G: Althusser
+  q-e59ff872:
+    - fuente: 2c9a06ffc1
+      enunciado: 'Which author does this concept belong to: «Charismatic domination»?'
+      opciones:
+        A: Mills
+        B: Heller
+        C: Marx
+        D: Durkheim
+        E: Weber
+        F: Foucault
+        G: Althusser
+  q-f7034fce:
+    - fuente: a1fced5be4
+      enunciado: 'Which author does this concept belong to: «Anatomo-politics»?'
+      opciones:
+        A: Mills
+        B: Heller
+        C: Marx
+        D: Durkheim
+        E: Weber
+        F: Foucault
+        G: Althusser
+  q-e96e7165:
+    - fuente: 64e065f0b0
+      enunciado: 'Which author does this concept belong to: «Ideology in general»?'
+      opciones:
+        A: Mills
+        B: Heller
+        C: Marx
+        D: Durkheim
+        E: Weber
+        F: Foucault
+        G: Althusser
+  q-d6a78328:
+    - fuente: 792b8a9737
+      enunciado: 'Mark the corresponding option. According to Marqués, the idea of “masculinity” implies:'
+      opciones:
+        A: the exercise of violence.
+        B: that masculinity is imposed on the male.
+        C: that the male depends on the existence of the woman.
+        D: the subordinate role of the male with respect to the woman.
+        E: masculinity is an immutable construction.
+  q-c3e967d6:
+    - fuente: 236f1ea36d
+      enunciado: >-
+        The following statements relate concepts from Berger and Luckmann to concepts from A. Heller. Indicate
+        which are true and which are false.
+      opciones:
+        A: >-
+          Heller's concept of “specific being” and Berger and Luckmann's concept of “institution” are similar
+          because both refer to a set of norms and typical roles that each society imposes.
+        B: >-
+          Berger and Luckmann's concept of “socialization” is similar to that of “homogenization” because both
+          explain why in a society all individuals act in the same way.
+        C: >-
+          Heller thinks about society through the concept of “socioeconomic structure” and Berger and Luckmann
+          through the concept of “institutions”.
+        D: >-
+          Berger and Luckmann's concept of “socialization” and Heller's concept of “maturation” are similar
+          because both speak of the process by which people become social beings.
+        E: >-
+          Heller's idea that everyday action is “spontaneous” and “pragmatic” is similar to the idea of
+          “habitualization” in Berger and Luckmann: both indicate that a large part of social life is
+          unreflective.
+  q-7c35613f:
+    - fuente: 946bae7c2f
+      enunciado: 'Mark the correct option. According to Lefebvre, ideology is:'
+      opciones:
+        A: A set of representations characteristic of an era and of a society.
+        B: A general science of abstract ideas.
+        C: The practice specific to the ideological state apparatuses.
+        D: A type of instrumentally rational (goal-oriented) rationality.
+        E: An idealist conception of philosophy.
+  q-f236ff14:
+    - fuente: 5b5e6915a1
+      enunciado: 'Which author corresponds to this concept: «Structure and superstructure»?'
+      opciones:
+        A: Marx
+        B: Marqués
+        C: Heller
+        D: Mills
+        E: Berger and Luckmann
+  q-5e58efd0:
+    - fuente: 9204324dda
+      enunciado: 'Which author corresponds to this concept: «Naturalization»?'
+      opciones:
+        A: Marx
+        B: Marqués
+        C: Heller
+        D: Mills
+        E: Berger and Luckmann
+  q-0243a5e4:
+    - fuente: 25ac595dcc
+      enunciado: 'Which author corresponds to this concept: «Mute co-presence»?'
+      opciones:
+        A: Marx
+        B: Marqués
+        C: Heller
+        D: Mills
+        E: Berger and Luckmann
+  q-c7c9358c:
+    - fuente: fd2ab89ac4
+      enunciado: 'Which author corresponds to this concept: «Typification of actions and actors»?'
+      opciones:
+        A: Marx
+        B: Marqués
+        C: Heller
+        D: Mills
+        E: Berger and Luckmann
+  q-e35074a4:
+    - fuente: 3e4cc5f22b
+      enunciado: >-
+        The following statements compare Althusser's and Foucault's perspectives on power. Indicate which are
+        true and which are false.
+      opciones:
+        A: For Althusser power is concentrated in the State and for Foucault in the mode of production.
+        B: >-
+          For Althusser power is related to the social mode of production; for Foucault it is every relation
+          of forces.
+        C: >-
+          Althusser understands that power arises from an ideological operation, and for Foucault it arises
+          from an economic position.
+        D: For Althusser power emanates from the infrastructure and for Foucault from the superstructure.
+        E: >-
+          For Althusser power is the power of the dominant class; Foucault focuses on the micro-powers
+          exercised at the everyday level.
+  q-6f9d3c0b:
+    - fuente: 98dc2c6fc9
+      enunciado: >-
+        Which concept corresponds to this definition: «In social structures and modes of production they
+        generate representations that increase or decrease the lack of transparency of a society.»?
+      opciones:
+        A: Social praxis
+        B: Ideal type
+        C: Mental phenomena
+        D: Dichotomies
+        E: Biopolitics
+    - fuente: 78e0e96040
+      enunciado: >-
+        Which concept corresponds to this definition: «In social structures and modes of production, they
+        generate representations that increase or decrease the lack of transparency of a society.»?
+      opciones:
+        A: Biopolitics
+        B: Dichotomies
+        C: Sex
+        D: Social praxis
+        E: Globalizing character of ideologies
+  q-797144f7:
+    - fuente: 864857ac6d
+      enunciado: >-
+        Which concept corresponds to this definition: «A model created by the researcher, which is neither an
+        average nor a hypothesis, but a guide that orients the research.»?
+      opciones:
+        A: Social praxis
+        B: Ideal type
+        C: Mental phenomena
+        D: Dichotomies
+        E: Biopolitics
+    - fuente: 5f346207b4
+      enunciado: >-
+        Which concept corresponds to this definition: «A model created by the researcher, which is neither an
+        average nor a hypothesis, but a guide that orients the research.»?
+      opciones:
+        A: Social construction of the male
+        B: Ideal type
+        C: Micro-spaces
+        D: Ideology
+        E: Modern capitalism
+  q-4d903d8e:
+    - fuente: c865248a2f
+      enunciado: >-
+        Which concept corresponds to this definition: «An image of society that is not a faithful reflection
+        of it, but to which individuals adjust their conduct.»?
+      opciones:
+        A: Social praxis
+        B: Ideal type
+        C: Mental phenomena
+        D: Dichotomies
+        E: Biopolitics
+  q-a4c69fcc:
+    - fuente: c4d81bb224
+      enunciado: 'Which concept corresponds to this definition: «Pairs of exhaustive and mutually exclusive concepts.»?'
+      opciones:
+        A: Social praxis
+        B: Ideal type
+        C: Mental phenomena
+        D: Dichotomies
+        E: Biopolitics
+    - fuente: 0adbef0e0c
+      enunciado: 'Which concept corresponds to this definition: «Pairs of exhaustive and mutually exclusive concepts.»?'
+      opciones:
+        A: Biopolitics
+        B: Dichotomies
+        C: Sex
+        D: Social praxis
+        E: Globalizing character of ideology
+  q-4eaeb70f:
+    - fuente: e8d2ce327b
+      enunciado: >-
+        Which concept corresponds to this definition: «The set of techniques for regulating population
+        processes.»?
+      opciones:
+        A: Social praxis
+        B: Ideal type
+        C: Mental phenomena
+        D: Dichotomies
+        E: Biopolitics
+    - fuente: 6775e13998
+      enunciado: >-
+        Which concept corresponds to this definition: «The set of techniques for regulating population
+        processes.»?
+      opciones:
+        A: Biopolitics
+        B: Dichotomies
+        C: Sex
+        D: Social praxis
+        E: Globalizing character of ideology
+  q-e2f5bed2:
+    - fuente: 4b439041cf
+      enunciado: >-
+        Mark the correct option. Which of the following characteristics corresponds to “ideology”, according
+        to Duby?
+      opciones:
+        A: Opaque
+        B: Competing
+        C: Divergent
+        D: Political
+        E: Transparent
+  q-e7540ed3:
+    - fuente: b22b6bf4fd
+      enunciado: >-
+        Select the correct option. According to Elías, the relationship between the individual persons who
+        make up a society must be understood as…
+      opciones:
+        A: the result of the social relationship between capital and labor.
+        B: an individual “self” surrounded by the “social figures” that form society.
+        C: an unequal relationship in which society imposes its will on individuals.
+        D: a sum of individuals whose personal characteristics determine the type of society.
+        E: a complex web of reciprocal dependencies.
+  q-facd15dd:
+    - fuente: 967815c11e
+      enunciado: Mark the statement that agrees with Weber's perspective on "social action".
+      opciones:
+        A: Social actions have a material and objective cause.
+        B: >-
+          An action is considered "social" when the individuals who perform it assign it a meaning that takes
+          into account the actions of others.
+        C: An action can be considered social only when it is considered valid by the rest of the individuals.
+        D: >-
+          An action can plausibly be considered social when it takes place within a given society and
+          historical moment.
+        E: An action is social when it is based on moral principles.
+  q-e2e52b7d:
+    - fuente: f05c9492ed
+      enunciado: Select the correct option. According to Heller, everyday life is. . .
+      opciones:
+        A: The set of activities that characterize the reproduction of particular men.
+        B: The sphere in which the reification of language takes place.
+        C: The accumulation of actions that man carries out each day and that distinguishes him from others.
+        D: An objective reality that is imposed on man, whether he wants it or not.
+        E: The sphere in which the process of elevation to the specific takes place.
+  q-0cefbc02:
+    - fuente: 7db0462021
+      enunciado: 'Indicate which statements are true and which are false. For Maffía, “dichotomies” are:'
+      opciones:
+        A: social facts that contradict each other.
+        B: equivalent concepts.
+        C: hierarchized and opposed concepts.
+        D: exhaustive and mutually exclusive categories.
+        E: inclusive categories.
+    - fuente: a0e5852a7d
+      enunciado: 'Indicate which statements are true and which are false. For Maffía, “dichotomies” are:'
+      opciones:
+        A: exhaustive and mutually exclusive categories.
+        B: hierarchized and opposed concepts.
+        C: social facts imposed on man.
+        D: equivalent concepts.
+        E: categories for understanding man's behavior.
+  q-7bc99f77:
+    - fuente: 59bb37e7f8
+      enunciado: >-
+        Mark the correct statement. Berger and Luckmann's concept of “internalization” allows us to understand
+        that...
+      opciones:
+        A: >-
+          the reproduction of society would be impossible without a process in which individuals incorporate
+          values, norms and beliefs that will allow them to interact with and understand others
+        B: social behavior rests on the threat of collective sanction.
+        C: the rationality of individuals is sufficient to ensure the social bond.
+        D: society internalizes the desires and aspirations of individuals over the course of a process.
+        E: we humans are naturally born as social beings.
+    - fuente: 85dab002f1
+      enunciado: >-
+        Mark the correct statement. Berger and Luckmann's concept of “internalization” allows us to understand
+        that:
+      opciones:
+        A: we humans are naturally born as social beings.
+        B: society internalizes the desires and aspirations of individuals over the course of a process.
+        C: social behavior rests on the threat of collective sanction.
+        D: the rationality of individuals is sufficient to ensure the social bond.
+        E: >-
+          for society to be reproduced, individuals must manage to apprehend the meaning of the world around
+          them.
+  q-4395c3ab:
+    - fuente: 2a1c3b7b7d
+      enunciado: >-
+        Based on S. Lifszyc's text on capitalism, indicate which of the following statements are true and
+        which are false. Characteristics of capitalism are:
+      opciones:
+        A: The deterioration of political legitimacy because of social injustice.
+        B: Inflation and economic stagnation.
+        C: The predominance of large-scale industry over artisanal manufacturing.
+        D: The extraction of surplus value in the relations of production.
+        E: The existence of free wage workers.
+  q-9c49aa9e:
+    - fuente: 998ef89a19
+      enunciado: >-
+        Mark which statements are true and which are false. According to Foucault, the technologies of power
+        that emerge during the 17th and 18th centuries are directed in two directions, which are:
+      opciones:
+        A: Collective consciousness.
+        B: Biopolitics.
+        C: Anatomo-politics.
+        D: Ideology.
+        E: State power.
+  q-473557e0:
+    - fuente: 28cea0d992
+      enunciado: >-
+        Mark the appropriate option. Which of the following statements corresponds to what Weber
+        conceptualizes as an “ideal type of domination”?
+      opciones:
+        A: It is a set of typical modes of behavior accessible to understanding.
+        B: It is domination based on ideological hegemony.
+        C: It is an average of beliefs taken across different types of domination.
+        D: It is the domination that best fits the characteristics of a people.
+        E: It is a domination based on clearly established principles.
+  q-3f20fc5a:
+    - fuente: 5fd1436612
+      enunciado: >-
+        Mark the appropriate option. For Duby, one feature of ideologies is that they are “concurrent”
+        because…:
+      opciones:
+        A: they express oppositions that correspond to various levels of culture.
+        B: they overlap with several identical systems of representation.
+        C: they conceal certain aspects of reality in order to better serve particular interests.
+        D: they reflect the interests of the propertied class.
+        E: they present themselves as complete ideological systems, also called globalizing.
+  q-35a972cd:
+    - fuente: 3f931a8af0
+      enunciado: >-
+        Which of the following characteristics corresponds to the concept of “value-rational social action”,
+        according to Weber?
+      opciones:
+        A: It is characterized as behavior based on the customs of a society.
+        B: It is characterized as conduct guided by current emotions and feelings.
+        C: It is characterized as action oriented by conscious everyday habits.
+        D: It is characterized as conduct motivated by the belief that it embodies a value.
+        E: It is characterized as action oriented toward achieving a specific result.
+  q-c72f26a5:
+    - fuente: 55664c1552
+      enunciado: >-
+        Indicate which of the following statements about the differences between Althusser and Foucault
+        regarding power are true and which are false.
+      opciones:
+        A: For Foucault domination is biopolitical and for Althusser it is anatomo-political.
+        B: For Foucault domination is imposed by force and for Althusser by way of legitimacy.
+        C: >-
+          Foucault rejects the conception of power as something merely repressive, and Althusser emphasizes
+          the combination of physical coercion and ideological reproduction.
+        D: >-
+          Foucault analyzes a multiplicity of powers and Althusser focuses on the power of the State and its
+          Apparatuses.
+        E: >-
+          For Foucault domination can be thought of as a set of power relations and for Althusser as a system
+          of government.
+  q-a7976efb:
+    - fuente: 625dd1fc48
+      enunciado: >-
+        The following statements relate concepts from A. Heller to concepts from Berger & Luckmann. Indicate
+        which are true and which are false.
+      opciones:
+        A: >-
+          Berger & Luckmann understand society through the concept of “institutions”, whereas Heller conceives
+          it through the concept of “socioeconomic structure”.
+        B: >-
+          Heller's concept of “specific being” and Berger & Luckmann's concept of “institution” are similar
+          because both refer to a set of norms and typical roles that each society imposes.
+        C: >-
+          Berger & Luckmann's concept of “externalization” resembles Heller's concept of “homogenization”,
+          because both refer to how perceptions of social relations are differentiated in everyday life.
+        D: >-
+          Regarding the process through which people become social beings, Berger & Luckmann's concept of
+          “socialization” is similar to the process of “maturation” in Heller.
+        E: >-
+          Berger & Luckmann's concept of “habitualization” is similar to Heller's “regimentation of life”,
+          because both explain why in a society all individuals act in the same way.
+  q-ad6a670e:
+    - fuente: d5ba3842be
+      enunciado: Indicate which of the following questions is answered affirmatively based on Karl Marx's thought.
+      opciones:
+        A: Is all production based on the interest in obtaining a monetary profit?
+        B: Is the individual linked to society through actions oriented by the conduct of others?
+        C: >-
+          Do the predominant relations of production in a society correspond to a certain development of the
+          productive forces?
+        D: Are the social relations of production the result of personal decisions?
+        E: Is money the real source of all relations of production?
+  q-c738233f:
+    - fuente: 56a664b398
+      enunciado: >-
+        Indicate whether the following propositions are correct or incorrect according to the text by S.
+        Lifszyc.
+      opciones:
+        A: Capitalist entrepreneurs obtain their profits thanks to their superior rationality.
+        B: The social relations of production determine the general form of the mode of production.
+        C: The social relations of production are linked to the predominant type of property.
+        D: Labor is treated as just another commodity in capitalist relations.
+        E: Wage-earning sectors, under capitalism, own the means of production.
+  q-1562cbcf:
+    - fuente: 1435d6e693
+      enunciado: >-
+        Indicate which statements are true and which are false. As Maffía explains, “heteronormativity”
+        constitutes people on the basis of:
+      opciones:
+        A: A homosexual matrix.
+        B: The dichotomous categories "real man" and "deviant man".
+        C: Exhaustive and mutually exclusive concepts.
+        D: Gender framed in binary terms.
+        E: Multiple sexualities.
+  q-39390acf:
+    - fuente: 795d1ce8d5
+      enunciado: >-
+        Mark the appropriate option. Weber's notion of “domination” differs from Althusser's notion of power
+        because for Weber…:
+      opciones:
+        A: domination underlies the bureaucratic apparatus and legal statutes.
+        B: >-
+          domination exists in any situation in which one group of people manages to impose a command on
+          another.
+        C: domination rests on the economic structure of society.
+        D: domination entails the reproduction of the social relations of production.
+        E: domination rests on the mere use of force .
+  q-cf59af43:
+    - fuente: c280c9a6d2
+      enunciado: Select the correct statement. According to Lefebvre, for Marx ideology…
+      opciones:
+        A: … presents itself by warning that reality must be sought in its hidden causes.
+        B: … is a fantasy that does not connect with reality in any respect.
+        C: >-
+          … is the way of understanding the world generated by each person's experience, which thus creates
+          their particular representation of everyday life.
+        D: >-
+          … has a dual character: limited by particular interests, on the one hand, and general and
+          speculative, on the other.
+        E: … is a subtle form of philosophical reflection.
+  q-873a18cd:
+    - fuente: d86f69e96e
+      enunciado: >-
+        "Ideological interpellation", according to Althusser, is understood on the basis of two elements.
+        Indicate the correct option:
+      opciones:
+        A: the conception of the subject and ideological materiality.
+        B: the concept of "individual" and the economic structure.
+        C: the dominant ideology and the concept of the State.
+        D: the dominant ideology and the mode of production.
+        E: the conception of the subject and the dominant ideology.
+  q-094386c4:
+    - fuente: afdf65d380
+      enunciado: Select the appropriate option. According to Elias, institutions must be understood as…
+      opciones:
+        A: an unequal relationship in which norms are imposed on individuals
+        B: a web of reciprocal dependencies among individuals
+        C: the social figures that surround the individual “self”
+        D: the institutionalization of social facts
+        E: the hierarchical position individuals occupy in the social web
+  q-feab1fd9:
+    - fuente: 36089a6575
+      enunciado: >-
+        Indicate which of the following options is correct. In stating that the social is not natural, Vicent
+        Marques agrees with Wright Mills's concept of the “sociological imagination” because…
+      opciones:
+        A: >-
+          … he knows that people know nothing about sociology and only think in emotional, political or
+          economic terms.
+        B: … he explains different individual circumstances within a historical and social context.
+        C: … he understands that with imagination it is possible to picture other people's lives.
+        D: … people have imaginary representations of their real conditions of existence.
+        E: … human life is mysterious and we must imagine it.
+  q-440a0e3d:
+    - fuente: e63adf7028
+      enunciado: >-
+        Which concept corresponds to this definition: «Systems of representations propose preserving the
+        advantages of the existing order or propose another one as the definitive order.»?
+      opciones:
+        A: Stabilizing character of ideology
+        B: Social praxis
+        C: Social construction of the male
+        D: Traditional domination
+        E: Disciplinary spaces
+  q-42bea2e8:
+    - fuente: 196192d33d
+      enunciado: >-
+        Which concept corresponds to this definition: «In social structures and modes of production, it
+        generates representations that increase or decrease a society's lack of transparency.»?
+      opciones:
+        A: Stabilizing character of ideology
+        B: Social praxis
+        C: Social construction of the male
+        D: Traditional domination
+        E: Disciplinary spaces
+  q-5325fab9:
+    - fuente: c5be7670a8
+      enunciado: >-
+        Which concept corresponds to this definition: «Concept that makes it possible to see that dominant
+        masculinity is repressive for both men and women.»?
+      opciones:
+        A: Stabilizing character of ideology
+        B: Social praxis
+        C: Social construction of the male
+        D: Traditional domination
+        E: Disciplinary spaces
+    - fuente: cbfaaa68a0
+      enunciado: >-
+        Which concept corresponds to this definition: «Concept that makes it possible to see that dominant
+        masculinity is repressive for both men and women.»?
+      opciones:
+        A: Social construction of the male
+        B: Ideal type
+        C: Microspaces
+        D: Ideology
+        E: Modern capitalism
+  q-f3e0ef88:
+    - fuente: 65857b46ef
+      enunciado: >-
+        Which concept corresponds to this definition: «Social relationship involving commands grounded in the
+        sanctity of established orders and the power of command inherited from distant times.»?
+      opciones:
+        A: Stabilizing character of ideology
+        B: Social praxis
+        C: Social construction of the male
+        D: Traditional domination
+        E: Disciplinary spaces
+  q-59bd227f:
+    - fuente: ea927a9fdb
+      enunciado: >-
+        Which concept corresponds to this definition: «They allow the surveillance and hierarchization of
+        individuals and behaviors.»?
+      opciones:
+        A: Stabilizing character of ideology
+        B: Social praxis
+        C: Social construction of the male
+        D: Traditional domination
+        E: Disciplinary spaces
+  q-9c097e46:
+    - fuente: dc965f0838
+      enunciado: 'Indicate which statements are true and which are false. According to Heller, “everyday life” is:'
+      opciones:
+        A: the sphere where social reproduction and the self-reproduction of individuals take place
+        B: the sphere in which the whole man participates.
+        C: the sphere in which we people develop freely as particular beings
+        D: the sphere in which we develop all our capacities to their fullest expression.
+        E: the sphere from which we can overcome the reification of language and full consciousness
+    - fuente: 0b08f33e98
+      enunciado: 'Indicate which statements are true and which are false. According to Heller, “everyday life” is:'
+      opciones:
+        A: the sphere in which the whole man participates.
+        B: >-
+          the sphere where social reproduction takes place, as reproduction of social relations and
+          self-reproduction of particular individuals.
+        C: the sphere in which we carry out the set of routines we repeat daily.
+        D: the sphere we must reach in order to overcome the reification of language.
+        E: the sphere in which we people develop freely according to our particularity.
+  q-1e2e707c:
+    - fuente: bdcc682211
+      enunciado: >-
+        Mark the correct statement. According to Berger and Luckmann, the concept of “socialization” makes it
+        possible to understand…
+      opciones:
+        A: the particularity of each individual despite social constraints
+        B: the way in which society is reproduced in the subjectivity of each of the members who make it up
+        C: the process through which individuals unite behind a common goal
+        D: the meaning that individuals give to their actions
+        E: how individuals associate and gradually reach consensus on a world of shared norms
+  q-5d046501:
+    - fuente: d98ae00cfd
+      enunciado: 'Which author corresponds to this concept: «Ideology in general»?'
+      opciones:
+        A: Weber
+        B: Mills
+        C: Althusser
+        D: Durkheim
+        E: Heller
+        F: Foucault
+        G: Marx
+    - fuente: 998719abbb
+      enunciado: 'Which author corresponds to this concept: «Ideology in general»?'
+      opciones:
+        A: Heller
+        B: Marques
+        C: Weber
+        D: Marx
+        E: Duby
+        F: Althusser
+        G: Foucault
+  q-18f73071:
+    - fuente: 806d52b06a
+      enunciado: 'Which author corresponds to this concept: «Labor power»?'
+      opciones:
+        A: Weber
+        B: Mills
+        C: Althusser
+        D: Durkheim
+        E: Heller
+        F: Foucault
+        G: Marx
+    - fuente: ac45e57661
+      enunciado: 'Which author corresponds to this concept: «Labor power»?'
+      opciones:
+        A: Marx
+        B: Duby
+        C: Weber
+        D: Althusser
+        E: Heller
+        F: Elías
+        G: Marqués
+  q-93e8add4:
+    - fuente: 6a6e44cda0
+      enunciado: 'Select the correct option. According to Heller, “objectivation” refers to:'
+      opciones:
+        A: >-
+          The perspective from which each man perceives and analyzes his relationship with others different
+          from him.
+        B: The way in which the duality between particularity and specificity manifests itself.
+        C: All social activity that appears external to the individual and has a socially constructed meaning.
+        D: >-
+          The set of objects present in the sphere of our everyday life thanks to which we carry out the
+          reproduction of the particular.
+        E: >-
+          The set institutions in which the Particular Being participates in the course of their everyday
+          life.
+  q-e3583c32:
+    - fuente: 0b7f1e0d4c
+      enunciado: >-
+        For Agnes Heller, what process is involved in all social activity that appears external to the
+        individual and has a socially constructed meaning?
+      opciones:
+        A: Objectivation
+        B: Estrangement
+        C: Everyday life
+        D: Heterogeneity
+        E: Particular being
+  q-719e3a27:
+    - fuente: 5027ad17a4
+      enunciado: 'Select True or False: For Weber, the difference between power and legitimate domination consists in...'
+      opciones:
+        A: >-
+          . . . power being the capacity to impose one's own will against all resistance, and domination being
+          a logical consequence of the exercise of power.
+        B: >-
+          . . . power being a set of disciplinary techniques exercised over bodies, and legitimate domination
+          being the result of ideological interpellation.
+        C: >-
+          . . . only one type of legitimate authority deriving from power, and three types deriving from
+          domination.
+        D: >-
+          . . . no type of authority deriving from power, and three types of authority, corresponding to the
+          types of domination, deriving from legitimate domination.
+        E: >-
+          . . . power not implying obedience to a command with specific content, whereas legitimacy does, in
+          three different types: traditional, charismatic and legal-rational.
+  q-7559dcbd:
+    - fuente: 6a4def9b9b
+      enunciado: Indicate which statements are true and which are false. According to Heller, the "species-being"…
+      opciones:
+        A: ... prevails over the particular being when estrangement occurs.
+        B: ... coexists silently with the particular being in everyday life.
+        C: ... is a characteristic of everyday thinking.
+        D: ... becomes conscious in the process of homogenization.
+        E: ... refers to the faculties and capacities of the human species.
+  q-3afd8628:
+    - fuente: 9282eec8c5
+      enunciado: >-
+        Which concept matches this definition: «Strategic dimension of human life where anatomo-politics and
+        biopolitics are articulated.»?
+      opciones:
+        A: Biopolitics
+        B: Dichotomies
+        C: Sex
+        D: Social praxis
+        E: Globalizing character of ideologies
+  q-a684b0c8:
+    - fuente: 8448ed020a
+      enunciado: >-
+        Which concept matches this definition: «Ideologies are complete systems that offer society an overall
+        representation integrated into a worldview.»?
+      opciones:
+        A: Biopolitics
+        B: Dichotomies
+        C: Sex
+        D: Social praxis
+        E: Globalizing character of ideologies
+  q-cbdfc653:
+    - fuente: 6720d56d44
+      enunciado: >-
+        Mark which statements about the differences between Althusser and Foucault regarding the conception of
+        the State are true and which are false.
+      opciones:
+        A: >-
+          For Althusser the State represents the dominant class; for Foucault it represents all citizens
+          equally.
+        B: >-
+          Althusser highlights the repressive and ideological role of power, while Foucault analyzes power
+          outside the State, where it is concretely exercised over people.
+        C: For Althusser power descends from the State to society; for Foucault power goes from the bottom up.
+        D: >-
+          For Althusser the State acts through the Ideological Apparatuses, and for Foucault it does so
+          through the Repressive Apparatuses.
+        E: >-
+          For Althusser the State guarantees the reproduction of the relations of production, and for
+          Foucault, the beliefs in the legitimacy of the order.
+  q-cd4a172d:
+    - fuente: 2a4ea929cc
+      enunciado: Select the corresponding option. According to Elías, social institutions should be understood as…
+      opciones:
+        A: an unequal relationship in which the institution imposes norms on individuals.
+        B: a complex web of reciprocal dependencies.
+        C: the result of the social relationship between capital and labor.
+        D: an individual “self” surrounded by “social figures”.
+        E: a sum of individuals whose personal characteristics determine the type of institution.
+  q-ad425b76:
+    - fuente: 309a34f43d
+      enunciado: >-
+        Select the option that correctly completes the sentence. In their interpretation of the theory of
+        gender relations, for Fries and Facio sex...
+      opciones:
+        A: ... is mutable because it is constituted in a relationship.
+        B: ... is a revolution against patriarchal ideology.
+        C: ... is determined by biological identity.
+        D: ... is a reflection of human nature.
+        E: ... is immutable because it belongs to the order of nature.
+  q-fa4a8a95:
+    - fuente: b8cff277c4
+      enunciado: >-
+        Indicate which of the following statements are True and which are False, considering Agnes Heller's
+        thought on everyday life and the conceptual proposals of Berger and Luckmann.
+      opciones:
+        A: The human being should be considered only as a biological organism.
+        B: All social behaviors derive from rational and premeditated attitudes.
+        C: People reproduce their lives in a particular social environment.
+        D: Relations of production are the only element to consider in the analysis of everyday life.
+        E: Habitual behaviors that require no reflection are important for the functioning of the social order.
+  q-74e231c0:
+    - fuente: ac9bfec9a3
+      enunciado: 'Which author corresponds to this concept: «Male homosociality»?'
+      opciones:
+        A: Heller
+        B: Marques
+        C: Weber
+        D: Marx
+        E: Duby
+        F: Althusser
+        G: Foucault
+    - fuente: ebdebb8d1d
+      enunciado: 'Which author corresponds to this concept: «Male homosociality»?'
+      opciones:
+        A: Marx
+        B: Duby
+        C: Weber
+        D: Althusser
+        E: Heller
+        F: Elías
+        G: Marqués
+    - fuente: 476cd73795
+      enunciado: 'Which author corresponds to this concept: «Male homosociality»?'
+      opciones:
+        A: Marx
+        B: Weber
+        C: Marqués
+        D: Heller
+        E: Berger and Luckmann
+  q-45dd31b0:
+    - fuente: 3dafa74ff7
+      enunciado: 'Which author does this concept belong to: «"Amorphous" concept of power»?'
+      opciones:
+        A: Heller
+        B: Marques
+        C: Weber
+        D: Marx
+        E: Duby
+        F: Althusser
+        G: Foucault
+  q-ec34920a:
+    - fuente: d66d489957
+      enunciado: 'Which author does this concept belong to: «Means of production»?'
+      opciones:
+        A: Heller
+        B: Marques
+        C: Weber
+        D: Marx
+        E: Duby
+        F: Althusser
+        G: Foucault
+  q-d50202c4:
+    - fuente: 90137cb9f9
+      enunciado: 'Which author does this concept belong to: «Concurrent ideologies»?'
+      opciones:
+        A: Heller
+        B: Marques
+        C: Weber
+        D: Marx
+        E: Duby
+        F: Althusser
+        G: Foucault
+  q-726b4a40:
+    - fuente: 736839d336
+      enunciado: 'Which author does this concept belong to: «Biopolitics»?'
+      opciones:
+        A: Heller
+        B: Marques
+        C: Weber
+        D: Marx
+        E: Duby
+        F: Althusser
+        G: Foucault
+  q-f1db1b5b:
+    - fuente: 47d644ef41
+      enunciado: >-
+        Mark the option that correctly completes the sentence according to Karl Marx's thought. In a given
+        society, people appropriate nature through the process of...
+      opciones:
+        A: domination.
+        B: productive forces.
+        C: rationalization.
+        D: ...production.
+        E: socialization.
+  q-8e8145e8:
+    - fuente: da3ae55260
+      enunciado: Which of the following statements matches Berger and Luckmann's definition of the “generalized other”?
+      opciones:
+        A: It is the recognition of actions and roles abstracted from persons.
+        B: It is the ultra-generalization that characterizes everyday life.
+        C: It is the social distribution of knowledge.
+        D: It is the beginning of primary socialization.
+        E: It is the emotional charge that accompanies internalization.
+  q-7957533c:
+    - fuente: 462de9653c
+      enunciado: Mark the correct option. Weber's sociology is interpretive (verstehende) because…
+      opciones:
+        A: >-
+          it requires the sociologist to interpret the meaning on the basis of which people orient their
+          action
+        B: it holds that the material conditions of existence define the content of social action
+        C: it requires the sociologist to explain the objective causes that lead individuals to act
+        D: it presents a tolerant view of cultural differences.
+        E: it presents an intolerant view of cultural differences.
+  q-5a879158:
+    - fuente: f7e42ebf4d
+      enunciado: 'Mark the correct option. According to Marqués, what the idea of “masculinity” implies is that:'
+      opciones:
+        A: There is a natural tendency toward the exercise of violence.
+        B: The masculine is expressed through physical labor.
+        C: Masculinity is also imposed on the male.
+        D: Women cannot make decisions about their own bodies.
+        E: Each man is responsible for his own life.
+  q-72654a3a:
+    - fuente: 771003e3ff
+      enunciado: Select the statement that correctly completes the sentence. According to Lefebvre, in ideologies…
+      opciones:
+        A: >-
+          … the social relations of production are not represented, because ideologies are subjective
+          phenomena.
+        B: … representations are established that the dominant sectors select and admit.
+        C: … particular interests are presented as selfish positions.
+        D: … intellectuals have the best ideas for understanding their era.
+        E: … social reality is described perfectly.
+  q-fe443432:
+    - fuente: a73de6bd69
+      enunciado: >-
+        Which concept matches this definition: «Representations that start from a given reality but create a
+        partial and fragmentary consciousness.»?
+      opciones:
+        A: Social construction of the male
+        B: Ideal type
+        C: Microspaces
+        D: Ideology
+        E: Modern capitalism
+  q-71c2c313:
+    - fuente: cb1361a4aa
+      enunciado: 'Which author does this concept belong to: «Collective consciousness»?'
+      opciones:
+        A: Durkheim
+        B: Marx
+        C: Heller
+        D: Mills
+        E: Elías
+  q-ffcee055:
+    - fuente: f086930ff5
+      enunciado: 'Which author does this concept belong to: «Social classes»?'
+      opciones:
+        A: Durkheim
+        B: Marx
+        C: Heller
+        D: Mills
+        E: Elías
+  q-5f157308:
+    - fuente: 79f689b877
+      enunciado: 'Which author does this concept belong to: «Species-being (genericity)»?'
+      opciones:
+        A: Durkheim
+        B: Marx
+        C: Heller
+        D: Mills
+        E: Elías
+  q-3f0785e9:
+    - fuente: c642e3bc31
+      enunciado: 'Which author does this concept belong to: «Personal troubles of milieu»?'
+      opciones:
+        A: Durkheim
+        B: Marx
+        C: Heller
+        D: Mills
+        E: Elías
+  q-fa1f23e2:
+    - fuente: 31eaf53b60
+      enunciado: 'Which author does this concept belong to: «Heteronomous models»?'
+      opciones:
+        A: Durkheim
+        B: Marx
+        C: Heller
+        D: Mills
+        E: Elías
+  q-b25a0da2:
+    - fuente: 1b1adaf10f
+      enunciado: >-
+        Mark which statements are true and which are false: For Foucault, the concept of biopolitics makes it
+        possible to understand...
+      opciones:
+        A: the regulatory techniques applied to the population as a whole.
+        B: the techniques for disciplining bodies.
+        C: the intersection between disciplinary techniques and ideological apparatuses
+        D: the functioning of microspaces.
+        E: the relevance of statistics as a technique for the exercise of power.
+  q-2cc65326:
+    - fuente: b1e77b99a7
+      enunciado: >-
+        Indicate which of the following questions about ideology can be answered in the affirmative from the
+        perspective on Marx given by H. Lefebvre.
+      opciones:
+        A: Is ideology a central component of the ideological state apparatuses?
+        B: Are ideologies only fantasies arising from personal interest?
+        C: Are the disciplinary practices linked to biopower ideological?
+        D: Is ideology the origin of social facts, given that it is external, general and coercive?
+        E: Are ideologies mutilated and altered forms of reality?
+  q-3b000ef6:
+    - fuente: 1e87f65ec3
+      enunciado: 'Which author does this concept belong to: «Popular ideology»?'
+      opciones:
+        A: Marx
+        B: Duby
+        C: Weber
+        D: Althusser
+        E: Heller
+        F: Elías
+        G: Marqués
+  q-f3ce3422:
+    - fuente: 6d21fb9b84
+      enunciado: 'Which author does this concept belong to: «Repressive State Apparatuses»?'
+      opciones:
+        A: Marx
+        B: Duby
+        C: Weber
+        D: Althusser
+        E: Heller
+        F: Elías
+        G: Marqués
+  q-ab01a885:
+    - fuente: b7e686489c
+      enunciado: 'Which author does this concept belong to: «Spontaneous hierarchy»?'
+      opciones:
+        A: Marx
+        B: Duby
+        C: Weber
+        D: Althusser
+        E: Heller
+        F: Elías
+        G: Marqués
+  q-5a9423bd:
+    - fuente: d4d6e2e203
+      enunciado: 'Which author does this concept belong to: «Reification of social figures»?'
+      opciones:
+        A: Marx
+        B: Duby
+        C: Weber
+        D: Althusser
+        E: Heller
+        F: Elías
+        G: Marqués
+  q-ddfab5fc:
+    - fuente: ef6b1ff7c3
+      enunciado: 'Mark the correct option. According to Althusser, the “Ideological State Apparatuses” are:'
+      opciones:
+        A: individual and collective.
+        B: public and private.
+        C: all communal under state control.
+        D: all public.
+        E: all private.
+  q-575f5319:
+    - fuente: 0f09f34253
+      enunciado: >-
+        Mark the correct option. Which of the following options matches what Weber understands as “traditional
+        domination”?
+      opciones:
+        A: It is the extraordinary qualities of the bureaucratic staff that sustain a domination.
+        B: The domination of a leader chosen by the majority will of the population.
+        C: Religious-type domination.
+        D: The quality of a personality regarded as extraordinary makes someone a leader.
+        E: The social relationship of command and obedience sanctioned by custom and the passage of time.
+  q-9a87eba2:
+    - fuente: f1b0af867a
+      enunciado: >-
+        Select the correct option. According to Elías, sociology must not only investigate and explain social
+        processes, but also…
+      opciones:
+        A: intervene in them to steer them in a particular direction.
+        B: build models of thought that account for the objective reality of those processes.
+        C: >-
+          free sociologists' thought and language from their ties to heteronomous, egocentric, anthropomorphic
+          models.
+        D: establish schemes that allow sociologists to predict the course of those processes.
+        E: adapt concepts from the natural sciences to give greater precision to sociological language.
+  q-80c9b73b:
+    - fuente: b78726878a
+      enunciado: >-
+        Mark the option that correctly completes the sentence: Marques and Wright Mills agree in considering
+        everyday life…
+      opciones:
+        A: … as the sum of the social relations of production.
+        B: … as a space of competing ideologies.
+        C: … according to the logic of the mute co-presence between the particular and the specific.
+        D: … according to its social and historical character.
+        E: … as the terrain where anatomo-politics is applied.
+  q-8c92ac30:
+    - fuente: 24f99d4a46
+      enunciado: 'Mark the correct option. Weber''s sociology has a "comprehensive" (interpretive) framework because:'
+      opciones:
+        A: It requires the sociologist to explain the objective causes that lead individuals to act.
+        B: >-
+          It requires the sociologist to interpret the meaning on the basis of which people orient their
+          action.
+        C: Its ultimate aim is for individuals from different cultures to reach an understanding.
+        D: It presents an intolerant view of cultural differences.
+        E: It presents a tolerant view of cultural differences.
+  q-8a7bae6f:
+    - fuente: 38897e06b5
+      enunciado: 'Which author does this concept belong to: «Exchange value»?'
+      opciones:
+        A: Marx
+        B: Weber
+        C: Marqués
+        D: Heller
+        E: Berger and Luckmann
+  q-43ec97dc:
+    - fuente: 960082444b
+      enunciado: 'Which author does this concept belong to: «Subjective meaning»?'
+      opciones:
+        A: Marx
+        B: Weber
+        C: Marqués
+        D: Heller
+        E: Berger and Luckmann
+  q-b3e30f90:
+    - fuente: 20d99c08e4
+      enunciado: 'Which author does this concept belong to: «Particularity»?'
+      opciones:
+        A: Marx
+        B: Weber
+        C: Marqués
+        D: Heller
+        E: Berger and Luckmann
+  q-18a0d17b:
+    - fuente: 3773b6dd1b
+      enunciado: 'Which author does this concept belong to: «Primary socialization»?'
+      opciones:
+        A: Marx
+        B: Weber
+        C: Marqués
+        D: Heller
+        E: Berger and Luckmann
+  q-fea92296:
+    - fuente: 7fba1e3609
+      enunciado: >-
+        Select the option that correctly completes the sentence. According to Fries and Facio, the gender
+        perspective allows us to hold that:
+      opciones:
+        A: sex is constituted in a socio-historical relationship.
+        B: heterosexual identity is biologically determined.
+        C: gender is a historical category, and sex is immutable.
+        D: gender is constructed on foundations of a natural order.
+        E: law positions itself against patriarchal ideology.
+  q-dfa7f88a:
+    - fuente: fff47491a2
+      enunciado: >-
+        Indicate which statements are true and which are false. For Maffía, “heteronormativity” constitutes us
+        on the basis of:
+      opciones:
+        A: opposing and contradictory concepts.
+        B: hierarchized and opposed categories.
+        C: hierarchized and equivalent concepts.
+        D: exhaustive and mutually exclusive concepts.
+        E: egalitarian and inclusive categories.
+  q-2d308227:
+    - fuente: b2e321f6af
+      enunciado: >-
+        Mark the corresponding option. For Duby, one feature of “ideologies” is that they are distorting
+        because:
+      opciones:
+        A: they provide a disfigured image of some social functions.
+        B: they present the historian with one aspect of the competing ideologies.
+        C: they present themselves as complete systems that offer a total view of the world.
+        D: >-
+          they illuminate certain aspects of reality in order to better serve the interests of society as a
+          whole.
+        E: they present themselves as globalizing images of social reality.
+fichas:
+  weber.accion-social:
+    fuente: f151b7ed4e
+    tema: Social action
+    autor: Max Weber
+    pregunta_guia: What does an action need to have for Weber to call it “social”?
+  weber.sociologia-comprensiva:
+    fuente: 04b8213603
+    tema: Interpretive sociology
+    autor: Max Weber
+    pregunta_guia: According to Weber, what does the sociologist have to do to understand why people act the way they do?
+  weber.tipos-de-accion:
+    fuente: e474e64547
+    tema: The types of social action
+    autor: Max Weber
+    pregunta_guia: What are Weber's four types of social action and what orients each one?
+  weber.accion-con-arreglo-a-fines:
+    fuente: 95e10fa772
+    tema: Instrumentally rational action
+    autor: Max Weber
+    pregunta_guia: What does someone who acts in an instrumentally rational way weigh up?
+  weber.accion-con-arreglo-a-valores:
+    fuente: 92f51c901d
+    tema: Value-rational action
+    autor: Max Weber
+    pregunta_guia: 'What drives someone who acts in a value-rational way: the result, emotion, custom or conviction?'
+  weber.poder-y-dominacion:
+    fuente: 67d94626bc
+    tema: Power and legitimate domination
+    autor: Max Weber
+    pregunta_guia: What does domination have that power does not?
+  weber.dominacion-tradicional:
+    fuente: 2ff1fcb825
+    tema: Traditional domination
+    autor: Max Weber
+    pregunta_guia: 'Why do people obey under traditional domination: because of the person, the law or custom?'
+  weber.dominacion-carismatica:
+    fuente: 67cb054965
+    tema: Charismatic domination
+    autor: Max Weber
+    pregunta_guia: Whom do people obey under charismatic domination, and why?
+  weber.dominacion-legal-racional:
+    fuente: 1ca444374c
+    tema: Legal-rational domination
+    autor: Max Weber
+    pregunta_guia: 'Under legal-rational domination, what do people obey: a person, custom or a rule?'
+  weber.tipo-ideal:
+    fuente: d9b47dd443
+    tema: The ideal type
+    autor: Max Weber
+    pregunta_guia: What is the ideal type useful for to the researcher, and what is it not?
+  durkheim.hecho-social:
+    fuente: 7280799c75
+    tema: The social fact
+    autor: Émile Durkheim
+    pregunta_guia: >-
+      For Durkheim, which explains which: do individuals explain the group, or does the group explain
+      individuals?
+  durkheim.exterioridad-y-coercion:
+    fuente: 4b07d3c2cd
+    tema: Externality of social facts and collective consciousness
+    autor: Émile Durkheim
+    pregunta_guia: External to what are social facts, and what effect do they have on people?
+  durkheim.corrientes-sociales:
+    fuente: e578cc5b99
+    tema: Social currents and currents of opinion
+    autor: Émile Durkheim
+    pregunta_guia: Why can a collective enthusiasm or an opinion that is “in the air” be social facts?
+  mills.imaginacion-sociologica:
+    fuente: de2a370f24
+    tema: The sociological imagination
+    autor: C. Wright Mills
+    pregunta_guia: Between which two levels does the sociological imagination move, and what does it allow us to see?
+  mills.inquietudes-y-problemas:
+    fuente: 5f1ffdc1c8
+    tema: Personal troubles and public issues
+    autor: C. Wright Mills
+    pregunta_guia: Faced with a difficulty, how does Mills distinguish whether it is a personal trouble or a public issue?
+  mills.malestar-e-indiferencia:
+    fuente: 42eccf240e
+    tema: A time of uneasiness and indifference
+    autor: C. Wright Mills
+    pregunta_guia: According to Mills, what happens to people when they cannot put a name to what troubles them?
+  marques.naturalizacion:
+    fuente: 31603149b3
+    tema: 'The social is not natural: naturalization and denaturalization'
+    autor: Josep-Vicent Marqués
+    pregunta_guia: >-
+      According to Marqués, what are we doing when we say something “is natural”, and what does sociology have
+      to do with that?
+  marques.construccion-social-del-varon:
+    fuente: 9c8413d22f
+    tema: The social construction of the male
+    autor: Josep-Vicent Marqués
+    pregunta_guia: >-
+      Whom does dominant masculinity repress, according to Marqués, and how does that differ from the ideology
+      of complementarity?
+  marques.homosocialidad-masculina:
+    fuente: 66caf229a8
+    tema: Male homosociality
+    autor: Josep-Vicent Marqués
+    pregunta_guia: Which author in the course studies how masculinity is socially constructed?
+  marques.coincidencias-con-mills:
+    fuente: cfa0599f35
+    tema: 'Marqués and Mills: everyday life in its social and historical context'
+    autor: Josep-Vicent Marqués
+    pregunta_guia: What do Marqués and Mills do with everyday-life situations in order to think about them sociologically?
+  heller.vida-cotidiana:
+    fuente: 77ff99f244
+    tema: Everyday life as the reproduction of the particular individual and of society
+    autor: Agnes Heller
+    pregunta_guia: What is reproduced in everyday life according to Heller, and who takes part in it?
+  heller.heterogeneidad:
+    fuente: feea7f3afd
+    tema: The heterogeneity of everyday life
+    autor: Agnes Heller
+    pregunta_guia: When Heller says that everyday life is heterogeneous, what is it that is diverse?
+  heller.particular-y-especifico:
+    fuente: 1fbacb042c
+    tema: Particular being and species-being (genericness)
+    autor: Agnes Heller
+    pregunta_guia: >-
+      What two dimensions coexist in each person according to Heller, and in what process does the second
+      become conscious?
+  heller.muda-copresencia:
+    fuente: e72d7c3c95
+    tema: The mute coexistence of particularity and species-being
+    autor: Agnes Heller
+    pregunta_guia: What two dimensions coexist «mute» within each person, and why is it said that they do not clash?
+  heller.homogeneizacion:
+    fuente: a71a187a26
+    tema: Homogenization and morality, two ways of going beyond particularity
+    autor: Agnes Heller
+    pregunta_guia: >-
+      What does the individual suspend in order to become homogenized, and what do they connect with? What two
+      things does morality do?
+  heller.objetivacion:
+    fuente: b17e213081
+    tema: Objectivation according to Heller
+    autor: Agnes Heller
+    pregunta_guia: What does an activity need to have to be an objectivation according to Heller?
+  berger-luckmann.institucionalizacion:
+    fuente: 88d80eee6f
+    tema: Institution and institutionalization
+    autor: Peter Berger and Thomas Luckmann
+    pregunta_guia: What has to be typified for there to be an institution?
+  berger-luckmann.orden-social:
+    fuente: 1f90833705
+    tema: Social order as a human product (externalization and objectivation)
+    autor: Peter Berger and Thomas Luckmann
+    pregunta_guia: >-
+      Who produces the social order according to Berger and Luckmann, and what happens to what we produce when
+      it is «objectivated»?
+  berger-luckmann.socializacion:
+    fuente: 48d134c4bc
+    tema: Internalization, socialization and the generalized other
+    autor: Peter Berger and Thomas Luckmann
+    pregunta_guia: >-
+      What does the individual take in when being socialized, and what does it mean for them to recognize
+      roles «abstracted from persons»?
+  berger-luckmann.coincidencias-con-heller:
+    fuente: 080cade852
+    tema: Where Heller and Berger and Luckmann agree
+    autor: Peter Berger and Thomas Luckmann
+    pregunta_guia: >-
+      Where is each person's life reproduced according to the two approaches, and what role do habitual
+      behaviors play?
+  berger-luckmann.comparacion-con-heller:
+    fuente: 9744ab937b
+    tema: Which concept of Heller's resembles which of Berger and Luckmann's
+    autor: Peter Berger and Thomas Luckmann
+    pregunta_guia: >-
+      In each pair of concepts, are they talking about the same process? From which concept does each author
+      think about society?
+  lefebvre.lenguaje:
+    fuente: 6dad7c119b
+    tema: Language as the existence of consciousness
+    autor: Henri Lefebvre
+    pregunta_guia: >-
+      Which concept is, at the same time, the form in which consciousness exists and what arises from the need
+      to communicate?
+  elias.interdependencia:
+    fuente: ea92404874
+    tema: Society and institutions as a web of reciprocal dependencies
+    autor: Norbert Elías
+    pregunta_guia: >-
+      According to Elías, is society outside the individual or is it a network of relationships? Where does
+      the discontent come from?
+  elias.modelo-egocentrico:
+    fuente: '3902376e01'
+    tema: The egocentric model and the reification of social figures
+    autor: Norbert Elías
+    pregunta_guia: What is at the center of the egocentric model, and why does Elías say it reifies social figures?
+  elias.modelos-heteronomos:
+    fuente: 2b12e1d82d
+    tema: The task of sociology and heteronomous models
+    autor: Norbert Elías
+    pregunta_guia: >-
+      Besides researching and explaining, what must sociologists' thinking free itself from according to
+      Elías?
+  althusser.aparatos-del-estado:
+    fuente: 65c2ef7a68
+    tema: The State and its apparatuses (repressive and ideological)
+    autor: Louis Althusser
+    pregunta_guia: >-
+      Whom does the State serve according to Althusser, and with which two types of apparatuses does it
+      maintain the relations of production?
+  althusser.ideologia-en-general:
+    fuente: 71ace12244
+    tema: Ideology in general and its material existence
+    autor: Louis Althusser
+    pregunta_guia: >-
+      Where does ideology exist for Althusser, in each person's ideas or in practices? What links the social
+      order with the formation of subjects?
+  althusser.interpelacion:
+    fuente: 1a870d4c23
+    tema: Ideological interpellation and the formation of subjects
+    autor: Louis Althusser
+    pregunta_guia: >-
+      How does an individual become a subject for Althusser? Who calls them, and in whom do they recognize
+      themselves?
+  althusser.infraestructura-superestructura:
+    fuente: e74c6e62db
+    tema: The levels of society, infrastructure and superstructure
+    autor: Louis Althusser
+    pregunta_guia: What levels does Althusser distinguish in every society, and what does each one contain?
+  althusser.poder-vs-weber:
+    fuente: b8a9811a4e
+    tema: Power and domination, Althusser versus Weber
+    autor: Louis Althusser
+    pregunta_guia: >-
+      Where does power come from for Althusser, and where can it come from for Weber? What are both seeking
+      when they talk about domination?
+  althusser.sujeto-moderno-vs-foucault:
+    fuente: 866f47cadd
+    tema: The construction of the modern subject, Althusser versus Foucault
+    autor: Louis Althusser
+    pregunta_guia: >-
+      For each author, what is it that produces the modern subject, ideology or techniques applied to the
+      body?
+  althusser.poder-vs-foucault:
+    fuente: 672566d966
+    tema: The State and power, Althusser versus Foucault
+    autor: Louis Althusser
+    pregunta_guia: >-
+      Where is power for each of them, in the State or distributed throughout society? Does it go from the top
+      down or from the bottom up?
+  marx.modo-de-produccion:
+    fuente: 60ea5f124b
+    tema: Mode of production, productive forces and relations of production
+    autor: Karl Marx
+    pregunta_guia: What two elements does a mode of production articulate, and which one corresponds to which?
+  marx.categorias-historicas:
+    fuente: b2573dc938
+    tema: Production and the historical character of economic categories
+    autor: Karl Marx
+    pregunta_guia: >-
+      Why, for Marx, does even exchange value, the simplest category, have a history? What does he reproach
+      the classical economists for?
+  marx.fuerza-de-trabajo-y-clases:
+    fuente: c6679c4c2b
+    tema: Labor power, means of production, unpaid labor and social classes
+    autor: Karl Marx
+    pregunta_guia: >-
+      What does the worker sell, what does the capitalist have, and where does the part of the labor that is
+      not paid come from?
+  foucault.microfisica-del-poder:
+    fuente: 240fdc0890
+    tema: Power as a relation of forces (microphysical power)
+    autor: Michel Foucault
+    pregunta_guia: Where is power for Foucault, and what model of power does he leave behind?
+  foucault.anatomopolitica:
+    fuente: 5973ee0bc4
+    tema: The disciplines, anatomo-politics and docile bodies
+    autor: Michel Foucault
+    pregunta_guia: 'What does discipline work on: the population, consciousness, or each person''s body? Where does it do so?'
+  foucault.espacios-disciplinarios:
+    fuente: 4c9aeb3fc1
+    tema: Microspaces or disciplinary spaces
+    autor: Michel Foucault
+    pregunta_guia: What does a disciplinary space allow that an open, mixed space does not?
+  foucault.biopolitica:
+    fuente: 94c99b9853
+    tema: Biopolitics and the two senses of technologies of power
+    autor: Michel Foucault
+    pregunta_guia: >-
+      What is the difference between disciplining each individual's body and regulating an entire population?
+      What does power use statistics for?
+  foucault.carcel-delincuencia:
+    fuente: 60811fbcce
+    tema: Why the prison persists
+    autor: Michel Foucault
+    pregunta_guia: If the prison fails to put an end to crime, what purpose does its continued existence serve for power?
+  lefebvre.que-es-la-ideologia:
+    fuente: 06616b344f
+    tema: What ideology is according to Lefebvre
+    autor: Henri Lefebvre
+    pregunta_guia: Where do ideologies start from according to Lefebvre, and what kind of consciousness do they produce?
+  lefebvre.ideologia-mutilada-segun-marx:
+    fuente: 0fb0551c8e
+    tema: Ideology in Marx according to Lefebvre, a mutilated version of reality
+    autor: Henri Lefebvre
+    pregunta_guia: What does ideology do to the reality it starts from, and how does it present itself to society?
+  lefebvre.caracter-doble-de-la-ideologia:
+    fuente: 467b2b70da
+    tema: The dual character of ideology
+    autor: Henri Lefebvre
+    pregunta_guia: What two faces does ideology have according to Lefebvre, and which sectors does it serve?
+  lefebvre.praxis-y-opacidad:
+    fuente: 89ffbde8ed
+    tema: Social praxis, revolutionary praxis and the opacity of ideology
+    autor: Henri Lefebvre
+    pregunta_guia: >-
+      What does social praxis produce according to Lefebvre, and what does it have to do with the transparency
+      of a society?
+  duby.definicion-de-ideologia:
+    fuente: 570fa4007a
+    tema: What ideology is according to Duby
+    autor: Georges Duby
+    pregunta_guia: >-
+      What does Duby add to the word "representations" so that ideology is not an abstract idea, and why does
+      it matter that people adjust their conduct to them?
+  duby.caracter-globalizante:
+    fuente: e61438084b
+    tema: The globalizing character of ideologies
+    autor: Georges Duby
+    pregunta_guia: >-
+      What does it mean for an ideology to be "globalizing", and how is that different from being competing or
+      distorting?
+  duby.caracter-deformante:
+    fuente: bf33e0cb92
+    tema: The distorting character of ideologies
+    autor: Georges Duby
+    pregunta_guia: What happens to the image of society given by a distorting ideology?
+  duby.caracter-concurrente:
+    fuente: 6d19855355
+    tema: The competing character of ideologies
+    autor: Georges Duby
+    pregunta_guia: Why does Duby say that, within the same society, ideologies compete with one another?
+  duby.caracter-estabilizante:
+    fuente: fa55edeb56
+    tema: The stabilizing character of ideologies
+    autor: Georges Duby
+    pregunta_guia: Why is even an ideology that proposes changing the order stabilizing, for Duby?
+  facio-fries.construccion-social-de-mujer-y-varon:
+    fuente: 504ad379eb
+    tema: What the gender perspective allows, the social construction of women and men
+    autor: Alda Facio and Lorena Fries
+    pregunta_guia: >-
+      Whom does the social construction revealed by the gender perspective reach, according to Facio and
+      Fries?
+  facio-fries.sexo-y-genero-construidos:
+    fuente: 2e6be8e415
+    tema: Sex and gender, both constructed and mutable
+    autor: Alda Facio and Lorena Fries
+    pregunta_guia: What is new about saying that not only gender but also sex is constructed?
+  maffia.dicotomias:
+    fuente: 4dc27a7bb0
+    tema: Dichotomies and heteronormativity
+    autor: Diana Maffía
+    pregunta_guia: >-
+      What four features do dichotomous pairs have for Maffía, and what does that have to do with
+      heteronormativity?
+  maffia.aportes-del-feminismo:
+    fuente: 7099a58d02
+    tema: What feminism and the gender perspective have allowed us to understand
+    autor: Diana Maffía
+    pregunta_guia: What two ideas did feminism leave us for thinking about the situation of women, according to Maffía?
+  maffia.etapas-del-feminismo:
+    fuente: 410a3d198c
+    tema: The positions of feminism in the seventies, eighties and nineties
+    autor: Diana Maffía
+    pregunta_guia: >-
+      What did feminism demand in each decade according to Maffía, and in which one is the dichotomy itself
+      called into question?
+  lifszyc.capitalismo:
+    fuente: e56fa9c4fa
+    tema: Characteristics of the capitalist mode of production
+    autor: Sara Lifszyc
+    pregunta_guia: What does the wage worker have and not have under capitalism, and what is extracted from their labor?
+  weber.capitalismo-moderno:
+    fuente: c6eeab034f
+    tema: Modern capitalism and the rational State
+    autor: Max Weber
+    pregunta_guia: What State, what bureaucracy and what law go hand in hand with modern capitalism according to Weber?
+  foucault.sexo:
+    fuente: f3b6173d1d
+    tema: Sex as the intersection of anatomo-politics and biopolitics
+    autor: Michel Foucault
+    pregunta_guia: >-
+      Why is power interested in sex, according to Foucault, both in each individual's body and in the
+      population?

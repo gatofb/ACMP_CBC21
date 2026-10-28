@@ -3,8 +3,9 @@
 //
 // Uso: npm start   (lee output/.env)
 
-import { readFile } from "node:fs/promises";
-import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { readFile, stat } from "node:fs/promises";
+import { createReadStream, existsSync, readFileSync } from "node:fs";
 import { createServer } from "node:http";
 import { dirname, extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -30,6 +31,16 @@ const TAMANIO_PRACTICA = 5;
 
 // Las carreras y materias salen de rules/catalogo.yaml; solo las que tienen `reglas` traen preguntas.
 const catalogo = yaml.load(readFileSync(join(RULES, "catalogo.yaml"), "utf8"));
+
+// Traducción al inglés de lo que ve el alumno (scripts/traducir_banco.mjs). Cada versión lleva la huella
+// del texto en español: si el banco cambió y la traducción quedó vieja, se muestra en español.
+const huella = (...partes) => createHash("sha1").update(JSON.stringify(partes)).digest("hex").slice(0, 10);
+const huellaVersion = (v) => huella(v.enunciado, v.opciones, v.huecos || null, v.explicacion || null);
+const huellaFicha = (f) => huella(f.tema, f.autor, f.pregunta_guia || null);
+function leerTraduccion(carpeta) {
+  const archivo = join(RULES, carpeta, "traduccion_en.yaml");
+  return existsSync(archivo) ? yaml.load(readFileSync(archivo, "utf8")) || {} : {};
+}
 const materias = new Map();
 for (const carrera of catalogo.carreras) {
   for (const m of carrera.materias) {
@@ -37,9 +48,12 @@ for (const carrera of catalogo.carreras) {
     const banco = yaml.load(readFileSync(join(RULES, m.reglas, "banco_preguntas.yaml"), "utf8"));
     const fichas = yaml.load(readFileSync(join(RULES, m.reglas, "fichas_afirmacion.yaml"), "utf8"));
     const preguntaPorId = new Map(banco.map((q) => [q.id, q]));
+    const traduccion = leerTraduccion(m.reglas);
     materias.set(m.id, {
       ...m,
       etiqueta: [m.sigla, m.catedra && `Cátedra ${m.catedra}`, m.instancia].filter(Boolean).join(" · "),
+      etiqueta_en: [m.en?.sigla || m.sigla, m.catedra && `Chair ${m.catedra}`, m.en?.instancia || m.instancia].filter(Boolean).join(" · "),
+      traduccion,
       banco,
       fichas,
       preguntaPorId,
@@ -53,6 +67,16 @@ for (const carrera of catalogo.carreras) {
         .filter((a) => !a.startsWith("Video")))].join(", ")}.`,
     });
   }
+}
+
+// La versión en inglés de una pregunta o una ficha, o null si no está traducida o quedó vieja.
+function versionEn(m, pregunta, v) {
+  const t = m.traduccion.preguntas?.[pregunta.id]?.[v];
+  return t && t.fuente === huellaVersion(pregunta.versiones[v]) ? t : null;
+}
+function fichaEn(m, ficha) {
+  const t = m.traduccion.fichas?.[ficha.id];
+  return t && t.fuente === huellaFicha(ficha) ? t : null;
 }
 
 function materia(id) {
@@ -78,6 +102,8 @@ function paraElAlumno(m, pregunta, v) {
   // Todo lo que el navegador necesita para mostrar la pregunta, sin la clave.
   const ficha = m.fichaDePregunta.get(pregunta.id);
   const version = pregunta.versiones[v];
+  const en = versionEn(m, pregunta, v);
+  const fEn = fichaEn(m, ficha);
   return {
     id: pregunta.id,
     version: v,
@@ -89,6 +115,13 @@ function paraElAlumno(m, pregunta, v) {
     opciones: version.opciones,
     huecos: version.huecos?.map((h) => ({ opciones: h.opciones })),
     ficha: { id: ficha.id, tema: ficha.tema, autor: ficha.autor, eje: ficha.eje },
+    // La misma pregunta en inglés: el navegador muestra la del idioma elegido y se corrige con la española.
+    en: en ? {
+      enunciado: en.enunciado,
+      opciones: en.opciones,
+      huecos: en.huecos?.map((h) => ({ opciones: h.opciones })),
+      ficha: fEn ? { tema: fEn.tema, autor: fEn.autor } : undefined,
+    } : undefined,
   };
 }
 
@@ -192,9 +225,11 @@ async function explicar(datos) {
     throw new TutorError("El tutor de IA no está conectado: pegá la clave de la API en output/.env o iniciá la sesión local (ver output/README.md).", 503);
   }
   const eleccion = pideOpciones(pregunta, version) && Object.hasOwn(version.opciones, datos.eleccion) ? datos.eleccion : null;
+  const idioma = datos.idioma === "en" ? "en" : "es";
+  const en = idioma === "en" ? versionEn(m, pregunta, datos.version) : null;
   const evaluacion = await evaluarExplicacion({
     materia: `${m.nombre} (${m.etiqueta})`, ficha, version, tipo: pregunta.tipo, explicacion, eleccion,
-    seguridad: datos.seguridad, intento: datos.intento, dictada: Boolean(datos.dictada),
+    seguridad: datos.seguridad, intento: datos.intento, dictada: Boolean(datos.dictada), idioma, versionEn: en,
   });
   // La explicación se convierte en la respuesta que habría dado, y se corrige igual que en el diagnóstico.
   const inferida = eleccion || (evaluacion.respuesta_inferida in version.opciones ? evaluacion.respuesta_inferida : null);
@@ -213,6 +248,8 @@ async function explicar(datos) {
     explicacion_examen: version.explicacion,
     pregunta_guia: ficha.pregunta_guia,
     recurso_ubaxxi: ficha.recurso_ubaxxi,
+    en: { pregunta_guia: fichaEn(m, ficha)?.pregunta_guia || ficha.pregunta_guia,
+      explicacion_examen: versionEn(m, pregunta, datos.version)?.explicacion || version.explicacion },
     evaluacion,
   };
 }
@@ -229,7 +266,56 @@ async function leerAudio(req) {
 }
 
 const TIPOS = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8",
-  ".css": "text/css; charset=utf-8", ".svg": "image/svg+xml", ".png": "image/png" };
+  ".css": "text/css; charset=utf-8", ".svg": "image/svg+xml", ".png": "image/png", ".webp": "image/webp",
+  ".mp4": "video/mp4" };
+
+// Los mensajes de error en inglés, para quien usa la app en inglés (se reconocen por cómo empiezan).
+const ERRORES_EN = [
+  ["Esa materia todavía no está disponible", "That subject isn't available yet."],
+  ["Pregunta inválida", "Invalid question."],
+  ["Opción inválida", "Invalid option."],
+  ["Explicá un poco más", "Explain a bit more so it can be assessed."],
+  ["El tutor de IA no está conectado", "The AI tutor isn't connected: add the API key to output/.env or start the local session (see output/README.md)."],
+  ["El audio es demasiado largo", "The recording is too long: try under 5 minutes."],
+  ["La respuesta es demasiado larga", "The answer is too long."],
+  ["Pedido inválido", "Invalid request."],
+  ["El tutor tardó demasiado", "The tutor took too long to answer. Try again."],
+  ["La clave de la API del tutor no es válida", "The tutor's API key isn't valid. Check output/.env."],
+  ["El tutor está recibiendo demasiados pedidos", "The tutor is getting too many requests. Try again in a few seconds."],
+  ["El tutor no pudo evaluar esta respuesta", "The tutor couldn't assess this answer. Try rephrasing your explanation."],
+  ["La respuesta del tutor llegó incompleta", "The tutor's answer came back incomplete. Try again."],
+  ["El tutor no", "The tutor couldn't answer. Try again in a moment."],
+  ["No se pudo", "Something went wrong. Try again in a moment."],
+  ["Error", "The tutor had an error. Try again in a moment."],
+  ["El dictado no está disponible", "Dictation isn't available on this server."],
+  ["No llegó audio", "No audio arrived."],
+  ["Whisper no pudo", "Whisper couldn't transcribe the audio. Try again."],
+  ["No encontrado", "Not found."],
+];
+function mensajeDeError(mensaje, idioma) {
+  if (idioma !== "en") return mensaje;
+  return ERRORES_EN.find(([es]) => mensaje.startsWith(es))?.[1] || mensaje;
+}
+
+// Archivos de public/. El video se sirve por partes (Range), que es lo que pide Safari para reproducirlo.
+async function servirArchivo(req, res, ruta) {
+  const tipo = TIPOS[extname(ruta)] || "application/octet-stream";
+  const { size } = await stat(ruta);
+  const rango = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range || "");
+  if (rango && (rango[1] || rango[2])) {
+    const inicio = rango[1] ? Number(rango[1]) : Math.max(0, size - Number(rango[2]));
+    const fin = rango[1] && rango[2] ? Math.min(Number(rango[2]), size - 1) : size - 1;
+    if (inicio > fin || inicio >= size) {
+      res.writeHead(416, { "content-range": `bytes */${size}` });
+      return res.end();
+    }
+    res.writeHead(206, { "content-type": tipo, "content-range": `bytes ${inicio}-${fin}/${size}`,
+      "accept-ranges": "bytes", "content-length": fin - inicio + 1 });
+    return createReadStream(ruta, { start: inicio, end: fin }).pipe(res);
+  }
+  res.writeHead(200, { "content-type": tipo, "accept-ranges": "bytes", "content-length": size });
+  res.end(await readFile(ruta));
+}
 
 function json(res, status, cuerpo) {
   res.writeHead(status, { "content-type": "application/json; charset=utf-8" });
@@ -271,7 +357,8 @@ export const servidor = createServer(async (req, res) => {
     }
     if (url.pathname === "/api/transcribir" && req.method === "POST") {
       const m = materia(url.searchParams.get("materia"));
-      return json(res, 200, { texto: await transcribir(await leerAudio(req), m.glosario) });
+      const idioma = url.searchParams.get("idioma") === "en" ? "en" : "es";
+      return json(res, 200, { texto: await transcribir(await leerAudio(req), m.glosario, idioma) });
     }
     if (url.pathname === "/api/explicar" && req.method === "POST") {
       return json(res, 200, await explicar(await leerCuerpo(req)));
@@ -282,16 +369,20 @@ export const servidor = createServer(async (req, res) => {
         materias: c.materias.map(({ reglas, ...m }) => {
           const cargada = materias.get(m.id);
           return cargada
-            ? { ...m, disponible: true, etiqueta: cargada.etiqueta, fichas: cargada.fichas.length,
-              preguntas: cargada.banco.length, cuatrimestres: cargada.cuatrimestres }
+            ? { ...m, disponible: true, etiqueta: cargada.etiqueta, en: { ...m.en, etiqueta: cargada.etiqueta_en },
+              fichas: cargada.fichas.length, preguntas: cargada.banco.length,
+              apariciones: cargada.banco.reduce((n, q) => n + q.veces_tomada, 0), cuatrimestres: cargada.cuatrimestres }
             : { ...m, disponible: false };
         }),
       })));
     }
     if (url.pathname === "/api/fichas") {
       const m = materia(url.searchParams.get("materia"));
-      return json(res, 200, m.fichas.map((f) => ({ id: f.id, eje: f.eje, tema: f.tema, autor: f.autor,
-        veces: m.vecesPorFicha.get(f.id) })));
+      return json(res, 200, m.fichas.map((f) => {
+        const en = fichaEn(m, f);
+        return { id: f.id, eje: f.eje, tema: f.tema, autor: f.autor, veces: m.vecesPorFicha.get(f.id),
+          en: en ? { tema: en.tema, autor: en.autor } : undefined };
+      }));
     }
     if (url.pathname === "/api/sesion") {
       const pedidas = (url.searchParams.get("fichas") || "").split(",").filter(Boolean);
@@ -303,12 +394,13 @@ export const servidor = createServer(async (req, res) => {
 
     const ruta = normalize(join(PUBLICO, url.pathname === "/" ? "index.html" : url.pathname));
     if (!ruta.startsWith(PUBLICO)) return json(res, 403, { error: "Ruta no permitida." });
-    const contenido = await readFile(ruta);
-    res.writeHead(200, { "content-type": TIPOS[extname(ruta)] || "application/octet-stream" });
-    res.end(contenido);
+    return await servirArchivo(req, res, ruta);
   } catch (error) {
-    if (error instanceof TutorError || error instanceof DictadoError) return json(res, error.status, { error: error.message });
-    if (error.code === "ENOENT") return json(res, 404, { error: "No encontrado." });
+    const idioma = req.headers["x-idioma"] === "en" ? "en" : "es";
+    if (error instanceof TutorError || error instanceof DictadoError) {
+      return json(res, error.status, { error: mensajeDeError(error.message, idioma) });
+    }
+    if (error.code === "ENOENT") return json(res, 404, { error: mensajeDeError("No encontrado.", idioma) });
     console.error(error);
     json(res, 500, { error: "Error inesperado del servidor." });
   }

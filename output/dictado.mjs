@@ -39,7 +39,8 @@ export async function dictadoDisponible() {
 }
 
 // glosario: nombres propios de la materia (autores, actores) para que Whisper los escriba bien.
-export async function transcribir(audio, glosario = "") {
+// idioma: "es" o "en", según en qué idioma usa la app el alumno.
+export async function transcribir(audio, glosario = "", idioma = "es") {
   if (!(await dictadoDisponible())) {
     throw new DictadoError("El dictado no está disponible: falta whisper-cli, ffmpeg o el modelo de Whisper.", 503);
   }
@@ -55,7 +56,7 @@ export async function transcribir(audio, glosario = "") {
     } catch {
       throw new DictadoError("No se pudo leer el audio. Probá grabar de nuevo.", 400);
     }
-    const args = ["-m", modelo(), "-l", "es", "-nt", "-np", "-f", wav];
+    const args = ["-m", modelo(), "-l", idioma === "en" ? "en" : "es", "-nt", "-np", "-f", wav];
     if (glosario) args.push("--prompt", glosario);
     const { stdout } = await ejecutar(whisper(), args, { timeout: 180000, maxBuffer: 4 * 1024 * 1024 });
     return stdout.replace(/\s+/g, " ").trim();

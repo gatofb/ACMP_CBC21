@@ -1,11 +1,15 @@
 # Carreras y materias que muestra la app.
 # `reglas` es la carpeta de la cátedra dentro de rules/ (con banco_preguntas.yaml y fichas_afirmacion.yaml).
 # Una materia sin `reglas` aparece como "Próximamente".
+# `en` tiene los textos en inglés; lo que no está en `en` se muestra igual en los dos idiomas.
 
 carreras:
   - id: abogacia
     nombre: Abogacía
     descripcion: Las seis materias del CBC que se cursan por UBA XXI.
+    en:
+      nombre: Law
+      descripcion: The six CBC subjects taken through UBA XXI.
     materias:
       - id: ipc
         sigla: IPC
@@ -14,6 +18,9 @@ carreras:
         catedra: A · Buacar
         instancia: Parciales y finales
         reglas: IPC/Buacar
+        en:
+          nombre: Introduction to Scientific Thought
+          instancia: Midterms and finals
       - id: icse
         sigla: ICSE
         nombre: Introducción al Conocimiento de la Sociedad y el Estado
@@ -21,6 +28,9 @@ carreras:
         catedra: Pedrosa
         instancia: 1er parcial
         reglas: ICSE/Pedrosa
+        en:
+          nombre: Introduction to the Study of Society and the State
+          instancia: 1st midterm
       - id: sociologia
         sigla: Sociología
         nombre: Sociología
@@ -28,15 +38,28 @@ carreras:
         catedra: A · Bustos
         instancia: Final
         reglas: Sociologia/Bustos
+        en:
+          sigla: Sociology
+          nombre: Sociology
+          instancia: Final exam
       - id: ciencia-politica
         sigla: Ciencia Política
         nombre: Ciencia Política
         codigo: 22
+        en:
+          sigla: Political Science
+          nombre: Political Science
       - id: ddhh
         sigla: DDHH
         nombre: Derechos Humanos y Derecho Constitucional
         codigo: 50
+        en:
+          sigla: Human Rights
+          nombre: Human Rights and Constitutional Law
       - id: derecho-privado
         sigla: Derecho Privado
         nombre: Principios Generales de Derecho Privado
         codigo: 89
+        en:
+          sigla: Private Law
+          nombre: General Principles of Private Law

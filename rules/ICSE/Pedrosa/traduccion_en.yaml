@@ -1,0 +1,1838 @@
+# Traducción al inglés de lo que ve el alumno — generada por scripts/traducir_banco.mjs.
+# `fuente` es la huella del texto en español: si el banco cambia, el script vuelve a traducir esa versión.
+# Borrador: falta que alguien la revise.
+preguntas:
+  q-aeea6199:
+    - fuente: b7de43654b
+      enunciado: >-
+        Max Povse states that it is very important to understand that a change of government is the same as a
+        change of political regime.
+      opciones:
+        A: >-
+          It is true, because there cannot be one and the same government that passes through different
+          political regimes.
+        B: It is true, because when the president changes, the regime necessarily changes.
+        C: It is false, because a regime can remain in place even if the government changes.
+        D: It is false, because for there to be a change of regime, the government must not change.
+  q-17bf5e88:
+    - fuente: bbffcb2d09
+      enunciado: >-
+        According to Patricio Gómez Talavera, it is necessary to observe an important distinction between the
+        State and the government.
+      opciones:
+        A: >-
+          It is false, because the members of the government do not have a temporally fixed mandate, unlike
+          those in charge of administering the bureaucratic structure of the State, who take office with a
+          fixed mandate of a certain number of years.
+        B: It is true, because the State is a structure of permanent existence, although its forms may change.
+        C: >-
+          It is true, because the government is a structure of permanent existence, although its forms may
+          change.
+        D: >-
+          It is false, because the members of the State have a temporally fixed mandate, after which they must
+          leave their posts to new people in charge of administering the bureaucratic structure of the
+          government.
+  q-9f2e3ca3:
+    - fuente: 0a039ca11c
+      enunciado: >-
+        According to Nadia Yannuzzi, following Hannah Arendt, there is another way of understanding
+        citizenship by approaching it from a conceptual perspective.
+      opciones:
+        A: >-
+          It is false, because citizenship can only be understood from a legal perspective between the State
+          and society.
+        B: >-
+          It is false, because citizenship is the right to have rights, which implies that it is an area of
+          strong consensus.
+        C: >-
+          It is true, because rights are obtained through complex economic processes marked by class struggle
+          and income redistribution.
+        D: >-
+          It is true, because rights are obtained through complex historical processes marked by violence and
+          by diverse and opposing interests.
+  q-61539aa3:
+    - fuente: 048ca5d4c1
+      enunciado: >-
+        Nicolás Simone states that representative democracy is achieved when citizens elect a small group of
+        people to make decisions on their behalf.
+      opciones:
+        A: >-
+          It is false, because representative democracy seeks to oppose the power of small groups over the
+          people.
+        B: >-
+          It is false, because representative democracy is achieved when citizens take the major decisions of
+          the State into their own hands.
+        C: >-
+          It is true, because representative democracy is achieved when citizens elect others to design a
+          government that expresses the will of the majority.
+        D: >-
+          It is true, because representative democracy is achieved when a group of people, starting from
+          direct democracy, design a government that expresses the will of the majority.
+    - fuente: 47b8fea7e6
+      enunciado: >-
+        Nicolás Simone states that representative democracy is achieved when citizens elect a small group of
+        people to make decisions on their behalf.
+      opciones:
+        A: >-
+          It is true, because representative democracy is achieved when citizens elect people to design a
+          government that expresses the will of the majority.
+        B: >-
+          It is false, because representative democracy is achieved when citizens take the major decisions of
+          the State into their own hands.
+        C: >-
+          It is true, because representative democracy is achieved when a group of people, starting from
+          direct democracy, design a government that expresses the will of the majority.
+        D: >-
+          It is false, because representative democracy seeks to oppose the power of small groups over the
+          people.
+  q-049e2c30:
+    - fuente: 5058ca32b9
+      enunciado: >-
+        According to Laura Petrino, populism turns out to be a political expression intrinsically linked to
+        European history and present.
+      opciones:
+        A: It is true, because democracy originated in Greece and Rome, which are located in Europe.
+        B: >-
+          It is false, because examples of this way of understanding power are figures who have left their
+          mark on our region, such as the Brazilian Getúlio Vargas or Juan Domingo Perón.
+        C: >-
+          It is true, because examples of this way of understanding power are figures who have left their mark
+          on the European region, such as Benito Mussolini or Adolf Hitler.
+        D: It is false, because populism recognizes no borders when it comes to explaining its origins.
+    - fuente: 02a25543d7
+      enunciado: >-
+        According to Laura Petrino, populism turns out to be a political expression intrinsically linked to
+        European history and present.
+      opciones:
+        A: >-
+          It is true, because examples of this way of understanding power are figures who have left their mark
+          on the European region, such as Benito Mussolini or Adolf Hitler.
+        B: It is false, because populism recognizes no borders when it comes to explaining its origins.
+        C: >-
+          It is false, because examples of this way of understanding power are figures who have left their
+          mark on our region, such as the Brazilian Getúlio Vargas or Juan Domingo Perón.
+        D: It is true, because democracy originated in Greece and Rome, which are located in Europe.
+    - fuente: 44069f7dea
+      enunciado: >-
+        As Laura Petrino states, populism is a political expression intrinsically linked to Latin American
+        history and present.
+      opciones:
+        A: It is false, because populism is more common in Asia and Africa than in Latin America.
+        B: >-
+          It is true, because they have been figures who left their mark on our region, such as the Brazilian
+          Getulio Vargas and Juan Domingo Perón.
+        C: >-
+          It is true, because children of this way of understanding power are figures who have left their mark
+          on our region, such as the Chilean Augusto Pinochet and Jorge Rafael Videla.
+        D: >-
+          It is false, because populism was born in Europe with Hitler and Mussolini, some of whose aspects
+          were later imitated in Latin America.
+  q-805de77b:
+    - fuente: f6e64e9424
+      enunciado: >-
+        Luis A. Romero argues that by 1975 the Peronist government was heading toward its end. The Rodrigazo
+        —named after the surname of the Peronist government's Minister of Economy, Celestino Rodrigo—
+        unleashed an economic crisis that proved impossible to control.
+      opciones:
+        A: >-
+          It is true, because the Rodrigazo involved "runs" on the dollar, galloping inflation and the
+          appearance of indexation mechanisms.
+        B: >-
+          It is true, because it was the first default (suspension of foreign debt payments) and the beginning
+          of the country's international isolation and heavy legal costs abroad.
+        C: >-
+          It is false, because the Rodrigazo was a social protest movement that arose in the province of Santa
+          Fe, based on agricultural producers.
+        D: It is false, because in 1975 the military were already governing under Gen. Jorge R. Videla.
+  q-b9eb9f76:
+    - fuente: 2f39764003
+      enunciado: >-
+        According to Romero, the first murky question raised by the so-called “Proceso de Reorganización
+        Nacional” (National Reorganization Process), which began in March 1976, was where power really lay.
+      opciones:
+        A: >-
+          It is false, because power lay with the Junta of commanders, which centralized the executive,
+          legislative and judicial functions throughout the entire country.
+        B: >-
+          It is true, because the “Proceso de Reorganización Nacional” entailed the existence of a terrorist
+          State, visible and public, in charge of repression as well as social, cultural and even economic
+          policies.
+        C: >-
+          It is true, because the authority of the president –at first the first among his peers, and later
+          not even that- was controlled and limited by the heads of the three armed forces.
+        D: >-
+          It is false, because the country's political tradition was strongly presidentialist, and moreover
+          unity of command was always one of the principles of the Armed Forces, so the president's authority
+          was never questioned or reviewed by his military peers.
+    - fuente: 4ed5bb3556
+      enunciado: >-
+        According to Romero, the first murky question raised by the so-called “Proceso de Reorganización
+        nacional” (National Reorganization Process), which began in March 1976, was where power really lay.
+      opciones:
+        A: >-
+          It is true, because the authority of the president –at first the first among his peers, and later
+          not even that- was controlled and limited by the heads of the three armed forces.
+        B: >-
+          It is false, because power lay with the Junta of commanders, which centralized the executive,
+          legislative and judicial functions throughout the entire country.
+        C: >-
+          It is true, because the “Proceso de Reorganización Nacional” entailed the existence of a terrorist
+          State, visible and public, in charge of both repression and economic policies.
+        D: >-
+          It is false, because the country's political tradition was strongly presidentialist, and moreover
+          unity of command was always one of the principles of the Armed Forces, so the president's authority
+          was never questioned or reviewed by his military peers.
+    - fuente: dd19cce0ba
+      enunciado: >-
+        According to Romero, the first murky question raised by the Proceso de Reorganización Nacional
+        (National Reorganization Process), which began in March 1976, was where power really lay.
+      opciones:
+        A: >-
+          It is false, because the country's political tradition was strongly presidentialist, and moreover
+          unity of command was always one of the principles of the Armed Forces, so the president's authority
+          was never questioned or reviewed by his military peers.
+        B: >-
+          It is true, because the Proceso de Reorganización Nacional entailed the existence only of a
+          terrorist State, visible and public, in charge of repression, and which was not subject even to the
+          rules established by the revolutionary authorities themselves.
+        C: >-
+          It is false, because power lay with the Junta of commanders, which centralized the executive,
+          legislative and judicial functions.
+        D: >-
+          It is true, because it entailed the coexistence of a clandestine terrorist State, in charge of
+          repression, and a visible one, subject to the rules established by the revolutionary authorities
+          themselves.
+  q-c5f34ee0:
+    - fuente: af363bbabb
+      enunciado: >-
+        According to Romero, the Program for National Reconstruction and Liberation (presented by Perón during
+        his third presidency) had objectives in line with the changes already consolidated in the country's
+        economic structure. This meant that:
+      opciones:
+        A: >-
+          Despite the predominant narratives within Peronism, there was nothing in Perón's economic program
+          that indicated an orientation toward "national socialism".
+        B: The measures were strongly interventionist and, to a lesser extent, nationalist and distributionist.
+        C: >-
+          The State set out to make a large reduction in spending, especially in the number of public
+          employees and state-owned companies, in order to reduce the growing deficit.
+        D: >-
+          There was in that program a clear orientation toward "national socialism", which was the predominant
+          discourse within Peronism and especially among its youth.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are B and D.
+        H: The correct options are C and D.
+    - fuente: 3a012cddca
+      enunciado: >-
+        According to Romero, the Program for National Reconstruction and Liberation (presented by Perón during
+        his third presidency) had objectives in line with the changes already consolidated in the country's
+        economic structure. This meant that:
+      opciones:
+        A: >-
+          The State set out to make a large reduction in spending, especially in the number of public
+          employees and state-owned companies, in order to reduce the growing deficit.
+        B: >-
+          There was in that program a clear orientation toward "national socialism", which was the predominant
+          discourse within Peronism and especially among its youth.
+        C: >-
+          Despite the predominant narratives within Peronism, there was nothing in Perón's economic program
+          that indicated an orientation toward "national socialism".
+        D: The measures were strongly interventionist and, to a lesser extent, nationalist and distributionist.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are B and D.
+        H: The correct options are C and D.
+  q-d802b9f8:
+    - fuente: c5ac62a216
+      enunciado: >-
+        According to María José Valdez, talking about the State means focusing on political institutions, but
+        when we refer to the nation, the focus changes and other actors must be considered, such as:
+      opciones:
+        A: Society.
+        B: Public universities.
+        C: Citizens.
+        D: Labor unions.
+        E: The correct options are A and B.
+        F: The correct options are A and C.
+        G: The correct options are A, B and C.
+        H: The correct options are A, C and D.
+    - fuente: 9555b7ec36
+      enunciado: >-
+        According to María José Valdez, talking about the State means focusing on political institutions, but
+        when we refer to the nation, the focus changes and other actors must be considered, such as:
+      opciones:
+        A: Society.
+        B: Citizens.
+        C: SMEs (small and medium-sized enterprises).
+        D: Social media
+        E: The correct options are A and B.
+        F: The correct options are A and C.
+        G: The correct options are A, B and C.
+        H: The correct options are A, C and D.
+  q-a9c42bff:
+    - fuente: cddd75d38c
+      enunciado: >-
+        According to Romero, the Peronist guerrilla group Montoneros was very skilled at interpreting Perón's
+        words while he was in exile in Madrid, but they had to face the problem posed by the leader's return
+        to the country. This could be seen in that:
+      opciones:
+        A: >-
+          The Montoneros developed the theory of the "cerco" (siege) or "entorno" (inner circle), which
+          supposedly prevented Perón from knowing the true will of his people.
+        B: >-
+          Perón began to speak unequivocally, recalling the “Peronist orthodoxy”, which had little to do with
+          the "socialist” one.
+        C: >-
+          Perón began to speak unequivocally, recalling his socialist origins, which had little to do with the
+          “Peronist orthodoxy”.
+        D: >-
+          Perón began to abandon his traditional right-wing discourse, denouncing the "apresurados" (hasty
+          ones) and infiltrators of the Triple A.
+        E: The correct options are A and B.
+        F: The correct options are B and D.
+        G: The correct options are C and D.
+        H: The correct options are A, B and D.
+  q-64c6848f:
+    - fuente: a7e6e8e978
+      enunciado: >-
+        According to Romero, in the so-called “Cordobazo” of 1969, social mobilization was expressed in
+        various ways, for example, in that:
+      opciones:
+        A: >-
+          Immigrants were central actors in the protests, seeking a place in the labor market and an easier
+          path to naturalization.
+        B: >-
+          The crowd, which controlled the city for several hours, had precise slogans and leaders who
+          coordinated the actions.
+        C: >-
+          Before the uprising there was strong union agitation in Córdoba, where the main automobile factories
+          were concentrated.
+        D: >-
+          The uprising was preceded by a wave of student protests at various universities, some of them
+          harshly repressed.
+        E: The correct options are A and C
+        F: The correct options are B and C.
+        G: The correct options are B and D.
+        H: The correct options are C and D.
+  q-0aee3315:
+    - fuente: 34f00c2402
+      enunciado: >-
+        According to Romero, the Catholic Church changed its behavior toward the dictatorship as the military
+        regime that took power in 1976 began to show signs of weakness. This was seen in that:
+      opciones:
+        A: >-
+          From 1979 on, the Church's concerns with moral issues or the family extended to individual rights
+          and politics.
+        B: >-
+          From 1983 on, the Church maintained a strongly oppositional stance led by the then young and popular
+          priest Jorge Bergoglio.
+        C: >-
+          Revising its earlier positions, the Church set out to give up direct interference in social or
+          political matters and devote itself to evangelizing an excessively secularized society.
+        D: >-
+          Revising its earlier positions, the Church set out to give up direct interference in social or
+          political matters and devote itself to evangelizing a society it judged to be excessively leaning
+          toward the left.
+        E: The correct options are A and B.
+        F: The correct options are A and C.
+        G: The correct options are B and D.
+        H: The correct options are A, C and D.
+    - fuente: e5bb0c6159
+      enunciado: >-
+        According to Romero, the Catholic Church changed its behavior toward the dictatorship as the military
+        regime that took power in 1976 began to show signs of weakness. This was seen in that:
+      opciones:
+        A: >-
+          From 1979 on, the Church's concerns with moral issues or the family extended to individual rights
+          and politics.
+        B: >-
+          From 1983 on, the Church maintained a strongly oppositional stance led by the then young and popular
+          priest Jorge Bergoglio.
+        C: >-
+          Revising its earlier positions, the Church set out to give up direct interference in social or
+          political matters and devote itself to evangelizing an excessively secularized society.
+        D: >-
+          Revising its earlier positions, the Church set out to give up direct interference in social or
+          political matters and devote itself to evangelizing a society excessively leaning toward the left.
+        E: The correct options are A and B.
+        F: The correct options are A and C.
+        G: The correct options are B and D.
+        H: The correct options are A, C and D.
+  q-fe6feae2:
+    - fuente: 815094b013
+      enunciado: >-
+        Romero points out that, during the first year of the Radical government that began in 1983, the
+        economic policy of minister Bernardo Grinspun followed the classic dirigiste and redistributive
+        formulas. This can be seen in that:
+      opciones:
+        A: >-
+          It included state control of credit, the foreign exchange market and prices, and was complemented by
+          social welfare measures.
+        B: >-
+          Business leaders and union leaders converged in supporting this policy, following the model
+          established by the famous Gelbard Plan, implemented in the 1970s.
+        C: >-
+          They were measures similar to those applied between 1963 and 1966, ideas that Radicalism shared with
+          historical Peronism.
+        D: >-
+          They were measures similar to those applied between 1955 and 1958, since Radicalism opposed what
+          historical Peronism proposed.
+        E: The correct options are A and B.
+        F: The correct options are A and C.
+        G: The correct options are B and C.
+        H: The correct options are A, B, C and D.
+    - fuente: c42b018757
+      enunciado: >-
+        Romero points out that, during the first year of the Radical government that began in 1983, the
+        economic policy of Minister Bernardo Grinspun followed the classic dirigiste and redistributive
+        formulas. This can be seen in that:
+      opciones:
+        A: Business leaders and union leaders converged in supporting this policy.
+        B: >-
+          It included state control of credit, the foreign exchange market and prices, and was complemented by
+          significant social welfare measures.
+        C: >-
+          They were measures similar to those applied between 1963 and 1966, ideas that Radicalism shared with
+          historical Peronism.
+        D: >-
+          They were measures similar to those applied between 1955 and 1958, since Radicalism opposed what
+          historical Peronism proposed.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are A and D.
+        H: The correct options are A, B, C and D.
+  q-68b7e0de:
+    - fuente: 5cae9a4e76
+      enunciado: >-
+        Romero states that, between 1975 and early 1976, various factors gradually created the conditions for
+        accepting a coup d'état that promised to restore order and ensure the state's monopoly on force. Among
+        them, one can mention:
+      opciones:
+        A: >-
+          Death present on a daily basis, the spectacular actions of the guerrilla organizations -which had
+          failed in two large operations against military units in Greater Buenos Aires and in Formosa-.
+        B: The terror spread by the Argentine Anticommunist Alliance (Triple A).
+        C: >-
+          The constant and public presence in the country of the Soviet Communist Party through funding,
+          propaganda and a large body of militants, which suggested the imminent opening of a revolutionary
+          front.
+        D: The terror spread by various organized crime gangs, most of them linked to drug trafficking.
+        E: The correct options are A and B.
+        F: The correct options are A and D.
+        G: The correct options are B and D.
+        H: The correct options are C and D.
+  q-cf935fc6:
+    - fuente: a0a9b1afc2
+      enunciado: >-
+        Romero states that in 1983, when Raúl Alfonsín took office, in addition to returning to academic life,
+        intellectuals joined politics, and politics became intellectualized. This was seen in that:
+      opciones:
+        A: >-
+          Alfonsín turned to them as advisers or technical officials, and his discourse, which translated into
+          political terms what academics were developing, came across as modern, complex and profound.
+        B: >-
+          Peronism quickly gained control of institutional and political life in the national universities,
+          which it had already held since the 1970s.
+        C: >-
+          Peronist leaders also turned to them, and political debate after the end of the dictatorship gained
+          brilliance and, to a lesser extent, depth.
+        D: >-
+          The lists of candidates for city councillors, deputies and senators were filled with academics and
+          intellectuals, pushing traditional politicians aside.
+        E: The correct options are A and B.
+        F: The correct options are C and D.
+        G: The correct options are A and C.
+        H: The correct options are A, B and C.
+    - fuente: 1e4431d7dc
+      enunciado: >-
+        Romero states that in 1983, when Raúl Alfonsín took office, in addition to returning to academic life,
+        intellectuals joined politics, and politics became intellectualized. This was seen in that:
+      opciones:
+        A: Alfonsín turned to intellectuals as advisers or technical officials.
+        B: Alfonsín's discourse translated into political terms what academics were developing.
+        C: Political debate gained brilliance and, to a lesser extent, depth.
+        D: >-
+          The lists of candidates for city councillors, deputies and senators were filled with academics and
+          intellectuals, pushing traditional politicians aside.
+        E: The correct options are A and B.
+        F: The correct options are C and D.
+        G: The correct options are A and C.
+        H: The correct options are A, B and C.
+  q-531d10b3:
+    - fuente: '7417229439'
+      enunciado: >-
+        According to Romero, some of the most important events of the transition in Argentina were those that
+        took place during Holy Week of 1987, when a military uprising put democratic stability to the test.
+        This was so because:
+      opciones:
+        A: >-
+          It was a rebellion by military sectors demanding an end to the trials against officers involved in
+          the repression during the military dictatorship that had ended a few years earlier.
+        B: >-
+          The uprising was immediately suppressed through a military intervention ordered by President
+          Alfonsín, without the need for further negotiations.
+        C: It was a successful coup attempt that forced Raúl Alfonsín to resign before completing his term.
+        D: >-
+          It was a turning point in the relationship between the Government and the military, later leading to
+          the passing of the Ley de Obediencia Debida (Due Obedience Law).
+        E: The correct options are A and B.
+        F: The correct options are B and D.
+        G: The correct options are A and D.
+        H: The correct options are A, C and D.
+    - fuente: fde0811c5f
+      enunciado: >-
+        According to Romero, one of the most important events of the transition in Argentina was those that
+        took place during Holy Week of 1987, when a military uprising put democratic stability to the test.
+        This was so because:
+      opciones:
+        A: >-
+          It was a rebellion by military sectors demanding an end to the trials against officers involved in
+          the repression during the military dictatorship that had ended a few years earlier.
+        B: >-
+          It was a turning point in the relationship between the Government and the military, later leading to
+          the passing of the Ley de Obediencia Debida (Due Obedience Law).
+        C: It was a successful coup attempt that forced Raúl Alfonsín to resign before completing his term.
+        D: >-
+          The uprising was immediately suppressed through a military intervention ordered by Alfonsín, without
+          the need for negotiations.
+        E: The correct options are A and B.
+        F: The correct options are B and D.
+        G: The correct options are A and D.
+        H: The correct options are A, C and D
+  q-62902631:
+    - fuente: 57ad4dea37
+      enunciado: >-
+        According to Ariel Sribman, some of the constituent elements of the liberal State in its beginnings
+        are:
+      opciones:
+        A: Representative government.
+        B: The separation of powers.
+        C: Economic liberalism.
+        D: The Armed Forces.
+        E: The correct options are A and C.
+        F: The correct options are B and C.
+        G: The correct options are B and D.
+        H: The correct options are A, B and C.
+  q-fa8d7cb4:
+    - fuente: 7b40c2a3ea
+      enunciado: >-
+        According to Sofía Pirsch, in Latin America there are only four countries with federal systems; among
+        them are
+      opciones:
+        A: Chile.
+        B: Uruguay.
+        C: Mexico.
+        D: Venezuela.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A and D.
+  q-e7648876:
+    - fuente: 128d1ea78b
+      enunciado: >-
+        According to Verónica Beyreuther, dictatorial regimes exclude any possibility of the division of the
+        powers of the State that is characteristic of democracy or the Republic: the legislative, judicial and
+        executive powers.
+      opciones:
+        A: >-
+          It is true, because the dictator takes up the model of constitutional monarchies again, occupying
+          the place of the monarch from a position of force.
+        B: >-
+          It is true, because in a dictatorship the idea of a divided power, that is, a shared power with
+          mechanisms that prevent all of it from being concentrated in one of the powers, is pointless.
+        C: >-
+          It is false, because even in dictatorships, power has to show some forms of respect for the control
+          that the Legislative Power exercises over the Executive.
+        D: >-
+          It is false, because even in dictatorships, power has to show respect for the control that the
+          Judicial Power exercises over the Executive.
+  q-c6c17dc6:
+    - fuente: '8988840e93'
+      enunciado: >-
+        The video on the Transition to Democracy in South Africa states that the Truth and Reconciliation
+        Commission made it possible to go further in legal matters, achieving varied and exemplary sentences
+        against those responsible for the violation of Human Rights in that African country.
+      opciones:
+        A: >-
+          It is true, because the sentences proposed by the TRC are generally considered sufficient by the
+          victims, and they suggest that the search for truth can be achieved in a context of transition.
+        B: >-
+          It is false, because in South Africa, as in the rest of the African countries, there were no
+          judicial reviews of what happened during the period of the so-called “apartheid” or of different
+          kinds of Human Rights violations.
+        C: >-
+          It is false, because by prioritizing access to information in pursuit of the search for truth,
+          justice and reparation for the victims were largely sacrificed.
+        D: >-
+          It is true, because the TRC was creative, innovating both in ways of classifying the type of crime
+          and in the way of punishing it, thereby setting legal precedent.
+    - fuente: 3839ef3553
+      enunciado: >-
+        The video on the Transition to Democracy in South Africa states that the Truth and Reconciliation
+        Commission made it possible to go further in legal matters, achieving varied and exemplary sentences
+        against those responsible for apartheid and the violation of human rights in that country.
+      opciones:
+        A: >-
+          It is false, because in South Africa –as in the rest of the African countries– there were no
+          judicial reviews of what happened during the apartheid period or in other instances of human rights
+          violations.
+        B: >-
+          It is true, because the sentences proposed by the Commission are generally considered sufficient by
+          the victims, and they suggest that the search for truth can be achieved in a context of transition.
+        C: >-
+          It is false, because by prioritizing access to information in pursuit of the search for truth,
+          justice and reparation for the victims were largely sacrificed.
+        D: >-
+          It is true, because the passing of the Due Obedience and Full Stop Laws prevented those convicted
+          from serving their full sentence.
+  q-f8411670:
+    - fuente: 6d0ea70066
+      enunciado: >-
+        As Nicolás Simone points out, in March 1971 the army appointed Gen. Agustín Lanusse as president to
+        negotiate a transition to democracy. The military sought to control the process and opened
+        negotiations with the political parties, including Peronism.
+      opciones:
+        A: >-
+          It is false, because Agustín Lanusse was never president, either under dictatorship or under
+          democracy.
+        B: >-
+          It is false, because the military in power never negotiate with the opposition, much less with the
+          traditional political parties.
+        C: >-
+          It is true, because the military in power felt very close to Peronism, since Perón had been a career
+          military officer for almost all his life.
+        D: >-
+          It is true, because the proposal was that, in exchange for calling elections, Perón would be
+          excluded from them. The parties formally rejected the invitation, but took advantage of the
+          situation to forge some agreements.
+  q-146be346:
+    - fuente: 34b8a34e60
+      enunciado: >-
+        According to Margarita Batlle, under certain circumstances elected public officials can (and must) be
+        conditioned by people without electoral popular representation.
+      opciones:
+        A: >-
+          It is false, because there must be a subordination of non-elected public officials to those who are
+          popularly elected.
+        B: >-
+          It is false, because political officials must not be accountable or be controlled by institutions
+          such as the judiciary or parliaments
+        C: >-
+          It is true, because there must be a person or group that holds power (or can condition it) without
+          having been elected democratically, that is, through elections.
+        D: >-
+          It is true, because there must be a subordination of elected public officials to those appointed by
+          the president or Congress.
+  q-a587b241:
+    - fuente: 7b83ea0eb4
+      enunciado: >-
+        In the video in which Eduardo Levy Yeyati interviews Pablo Gerchunoff, the interviewee points out
+        that, even though Raúl Alfonsín issued the pardon, the fact of having previously imprisoned the
+        commanders, even if only for two years, was quite an achievement of the young Argentine democracy.
+      opciones:
+        A: >-
+          It is true, because the passing of the Full Stop and Due Obedience laws allowed the military to be
+          released after their conviction in the famous 1985 trial and therefore to later obtain the
+          subsequent pardon.
+        B: >-
+          It is false, because the Argentine military only began to be tried during the government of Néstor
+          Kirchner in 2003.
+        C: >-
+          It is true, because due to the carapintada uprisings and the passing of the Full Stop and Due
+          Obedience laws in 1987, the junta members convicted in 1985 left prison at the end of the Radical
+          president's term.
+        D: >-
+          It is false, because Alfonsín left the presidency in 1989 with the commanders in prison, and they
+          were only pardoned shortly afterwards by the Peronist president Carlos Menem.
+  q-dd5df609:
+    - fuente: 7294361d79
+      enunciado: >-
+        According to Enrique García, the liberal State rests on the belief in natural laws of the market (laws
+        of supply and demand and free competition) and on individual initiative. This is so because:
+      opciones:
+        A: >-
+          It is an interventionist State in the economic sphere that seeks to regulate so that markets are
+          more efficient.
+        B: >-
+          It is a minimal State that regards the market as the only one capable of allocating resources
+          efficiently.
+        C: >-
+          Liberals believe that the individual profit motive promotes personal benefit and the improvement of
+          society as a whole.
+        D: >-
+          Liberals believe that the State could be a successful and efficient entrepreneur if it were run by
+          people who knew about economics.
+        E: The correct options are A and B.
+        F: The correct options are C and D.
+        G: The correct options are B and C.
+        H: 'The correct options are A, B and C. DNI:'
+  q-eb51cdff:
+    - fuente: 77681486d3
+      enunciado: >-
+        According to Romero, the great popularity achieved by President Alfonsín in various parts of the world
+        was used to consolidate and strengthen the local democratic institutions, which were still precarious.
+        Some of the following pending international issues were addressed with those criteria:
+      opciones:
+        A: With Chile, over a dispute in the Beagle Channel.
+        B: >-
+          With Uruguay, over the fate of some pulp mills to be built on the bank of the Uruguay River, near
+          the Uruguayan city of Fray Bentos and the Argentine city of Gualeguaychú.
+        C: >-
+          With Brazil and Paraguay, over the triple border and the illegal trade, smuggling and Islamic
+          terrorism that abounded in that place.
+        D: With Great Britain, over the Malvinas.
+        E: The correct options are A and D.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A, C and D.
+  q-3e52b36d:
+    - fuente: 6f3b698673
+      enunciado: >-
+        As stated in Javier Hermo's text on genocide, the United Nations produced a definition from a legal
+        and political point of view, as did the International Criminal Court years later. Among the central
+        points of the definition of “genocide” were:
+      opciones:
+        A: Massacres in which the number of victims is clearly higher than the usual rates of violence.
+        B: Causing serious bodily or mental harm to members of the group.
+        C: Measures intended to prevent marriages within the group.
+        D: >-
+          Deliberately inflicting on the group conditions of life calculated to bring about its physical
+          destruction in whole or in part.
+        E: The correct options are A and B.
+        F: The correct options are B and D.
+        G: The correct options are B, C and D.
+        H: The correct options are A, C and D.
+  q-e3444683:
+    - fuente: 086e25874a
+      enunciado: >-
+        Romero points out that, in the dictatorship that took power in 1976, a faction stronger than the
+        others, but far from dominant, formed around Generals Videla and Viola –his second-in-command in the
+        Army-. This meant that:
+      opciones:
+        A: >-
+          These commanders did not recognize the need to find some political way out in the future. Thus, they
+          had strong conflicts with the leaders of the political parties, who, persecuted day and night by the
+          military, saw that group as the least civilized sector.
+        B: >-
+          These commanders recognized the need to find some political way out in the future. Thus, they kept
+          in communication with the leaders of the political parties, who deluded themselves into believing
+          they saw in them the most civilized sector.
+        C: >-
+          These commanders backed Martínez de Hoz, who was heavily criticized by the more nationalist military
+          officers, who abounded among the younger ranks.
+        D: >-
+          These commanders did not back Martínez de Hoz, who was strongly supported by the more liberal
+          military officers, who abounded among the younger ranks.
+        E: The correct options are A and B.
+        F: The correct options are C and B.
+        G: The correct options are A and D.
+        H: The correct options are A, B, C and D.
+  q-b9349c41:
+    - fuente: 52f773eaf8
+      enunciado: >-
+        Romero points out that, in September 1987, after President Raúl Alfonsín's electoral defeat in the
+        midterm parliamentary elections, the government's position weakened rapidly. This caused:
+      opciones:
+        A: Instability and the sense of a lack of governability to grow.
+        B: >-
+          Peronism, looking with new optimism to the 1989 presidential elections, refused to back reforms
+          whose social cost was evident.
+        C: >-
+          The forced reconciliation with the corporations, although it meant a serious deterioration of the
+          Radical government's image among civil society, yielded some of the expected results in the economic
+          sphere.
+        D: >-
+          The Kirchnerist sector of Peronism to take control of the party with its harder stance toward
+          Alfonsín's weakened government.
+        E: The correct options are A and B.
+        F: The correct options are C and B.
+        G: The correct options are A and D.
+        H: The correct options are A, B, C and D.
+  q-d47b26d4:
+    - fuente: a2e8290134
+      enunciado: >-
+        According to Graciela Etchevest, terrorist violence has changed from the last decades of the 20th
+        century to the 21st century. This was seen in that:
+      opciones:
+        A: >-
+          With the new century, radicalized religious groups joined in, whose actions have had a strong impact
+          on the world agenda, mainly through so-called “Islamic fundamentalism”.
+        B: >-
+          With the new century, this new type of terrorism introduces something new compared with the one that
+          preceded it: its actions are organized around smaller groups, with efficient use of technological
+          tools, often linked to social networks.
+        C: >-
+          The spaces for its action are restricted to the continent of origin; in fact, sometimes they have no
+          country of origin and their settings are regional, depending on the circumstances and the
+          possibilities of organizing.
+        D: >-
+          The spaces for its action are restricted to the country of origin, so as to maximize resources and
+          achieve a more powerful effect, such as, for example, the attack on the Twin Towers in the United
+          States in 2001.
+        E: The correct options are A and B.
+        F: The correct options are B and D.
+        G: The correct options are C and A.
+        H: The correct options are A, B and D.
+  q-6bb9129a:
+    - fuente: 18e30b8b14
+      enunciado: >-
+        Romero states that, at Easter 1987, the illusion of the unlimited power of democracy definitively came
+        to an end. This was so because:
+      opciones:
+        A: Alfonsín lost exclusive leadership over Peronism.
+        B: Alfonsín lost exclusive leadership over the middle class.
+        C: Alfonsín lost exclusive leadership over civil society.
+        D: Alfonsín lost exclusive leadership over the Radicals.
+        E: The correct options are A and D.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: 'The correct options are A, C and D. DNI:'
+  q-86349768:
+    - fuente: f89ed8b37d
+      enunciado: >-
+        According to Romero, on taking office in 1983, Alfonsín had to choose between pushing the pole of
+        civil society to the maximum (which meant confronting established interests, even among his
+        supporters) or, on the other hand, favoring consensual solutions and avoiding so many conflicts.
+        Therefore:
+      opciones:
+        A: >-
+          The Radical government generally chose the second course, and one result of this was the so-called
+          Pacto de Olivos, which Alfonsín managed to agree on with Peronism.
+        B: >-
+          The Radical government held firmly to the first course throughout the 4 years of its presidential
+          term, confronting unions, the military, the opposition and the Catholic Church until the last day.
+        C: >-
+          The Radical government generally chose the first course and until 1987 kept the initiative, seeking
+          alternative paths and presenting new proposals after each setback.
+        D: >-
+          The Radical government generally chose the first course, but had to accept the second when some
+          serious setbacks showed it the limits of its power.
+        E: The correct options are A and D.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A, C and D.
+  q-131b96a5:
+    - fuente: ca12fd8a4c
+      enunciado: >-
+        In January 1989 a terrorist group attacked the La Tablada barracks in Greater Buenos Aires, and the
+        Army found the opportunity to carry out a crushing show of force that ended with the annihilation of
+        the attackers. According to Romero, this meant that:
+      opciones:
+        A: >-
+          The memory of the past of illegal repression returned to public opinion, which unanimously
+          repudiated the event, and this gave political breathing room to the Alfonsín government, which had
+          managed to try the military juntas.
+        B: >-
+          It could be anticipated that the open military question would ultimately lead to the forgetting of
+          the crimes of the "dirty war" and the burial of the illusions of civil society of 1983.
+        C: >-
+          The acknowledgment of the military repression was the first sign of the change of priorities and
+          values in public opinion.
+        D: >-
+          The rejection that the military repression received for the action was a new sign of the change of
+          era that had begun in 1983.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A and D.
+    - fuente: 6aeada402d
+      enunciado: >-
+        According to Romero, in January 1989 a terrorist group attacked the La Tablada barracks in Greater
+        Buenos Aires, and the Army found the opportunity to carry out a crushing show of force that ended with
+        the annihilation of the attackers. This meant that:
+      opciones:
+        A: >-
+          The acknowledgment of the military repression was the first sign of the change of priorities and
+          values in public opinion.
+        B: >-
+          It could be anticipated that the open military question would ultimately lead to the vindication of
+          the military, the forgetting of the crimes of the "dirty war" and the burial of the illusions of
+          civil society of 1983.
+        C: >-
+          The memory of the past of illegal repression returned to public opinion, which unanimously
+          repudiated the event, and this gave political breathing room to the Alfonsín government, which had
+          managed to try the Military Juntas.
+        D: >-
+          The rejection that the military repression received for the action was a new sign of the change of
+          era that had begun in 1983.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A and D.
+  q-2018c8e7:
+    - fuente: 279dbfb9e8
+      enunciado: >-
+        Romero states that Radicalism was renewed through the drive of Alfonsín, who in 1972 had created the
+        Movimiento de Renovación y Cambio to challenge the historic leader, Ricardo Balbín, for the
+        leadership. This was so because:
+      opciones:
+        A: >-
+          Alfonsín ran against Perón in the 1973 presidential elections and, although he was defeated,
+          obtained a result that left him positioned to be the Radical candidate in the next election, where
+          he would achieve victory.
+        B: >-
+          During the Proceso he stood out from the rest of the politicians, since he criticized the military
+          very energetically and took on the defense of political prisoners and the demand regarding the
+          disappeared.
+        C: >-
+          He championed the ethical aspects of politics and a winning discourse, very different from the
+          traditional Radical discourse, which drew a mass of members and supporters to the party.
+        D: >-
+          During the Proceso he stood out from the rest of the politicians, since he criticized the military
+          very energetically and at the same time was one of the great promoters of the popular euphoria
+          during the Malvinas War.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are B and D.
+        H: The correct options are A, C and D.
+  q-3dda527d:
+    - fuente: 8ed1208d7a
+      enunciado: >-
+        According to Romero, on May 1, 1974, the break between Perón and the Montoneros came about when they
+        left a Plaza from which Perón himself was expelling them. This meant that:
+      opciones:
+        A: >-
+          Perón replaced the Montoneros with another left-wing group called the Ejército Revolucionario del
+          Pueblo (ERP).
+        B: >-
+          The Montoneros chose to return to the old tactic and went underground. There were more
+          assassinations and spectacular kidnappings to improve their finances.
+        C: >-
+          The Montoneros reappeared once more, barely two months later, at Perón's fantastic funeral, and then
+          tried, unsuccessfully, to claim his legacy.
+        D: >-
+          That the Montoneros allied with the coup-plotting military to overthrow the old leader who had
+          expelled them from the plaza.
+        E: The correct options are A and C.
+        F: The correct options are B and C.
+        G: The correct options are A, B and C.
+        H: The correct options are B, C and D.
+  q-90304d80:
+    - fuente: ae973e763c
+      enunciado: >-
+        According to Romero, upon taking office as president, Alfonsín proposed some logical distinctions
+        regarding the military legacy, but at the same time these were hard for the mobilized society, and in
+        particular for the human rights organizations, to accept. This was so because:
+      opciones:
+        A: >-
+          Alfonsín thought that the trial of the guilty had to be separated from the judgment of the
+          institution, which was part of the State.
+        B: >-
+          Alfonsín thought that the trial of the guilty had to be avoided because it implied attacking the
+          entire institution, which was part of the State.
+        C: >-
+          Alfonsín had not condemned the human rights violations during the dictatorship and continued that
+          line during his government.
+        D: >-
+          Alfonsín thought that punishment should be concentrated on the top ranks and the criterion of due
+          obedience applied to the rest.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are D and A.
+  q-85b635b6:
+    - fuente: b63b551ccf
+      enunciado: >-
+        Luis A. Romero states that by 1975 the Peronist government was nearing its end. The "Rodrigazo" had
+        unleashed an economic crisis that proved impossible to control.
+      opciones:
+        A: It is false, because in 1975 the military were already governing under Gen. Jorge R. Videla.
+        B: >-
+          It is false, because the “Rodrigazo” was a social protest movement that arose in Santa Fe, based on
+          agricultural producers.
+        C: >-
+          It is true, because it was the first default (suspension of foreign debt payments) and the beginning
+          of the country's international isolation and heavy legal costs abroad.
+        D: >-
+          It is true, because the “Rodrigazo” brought about the appearance of indexation mechanisms and, in
+          general, scant possibilities for controlling the situation from power.
+  q-46512c49:
+    - fuente: 30ede0347e
+      enunciado: >-
+        According to Romero, carrying out the economic transformation proposed by the last dictatorship raised
+        a political problem, set out by Jorge Schvarzer: the economic leadership had to last a fairly limited
+        time so that corruption would not become an endemic issue.
+      opciones:
+        A: >-
+          It is false, because the economic leadership had to remain in power long enough for the changes to
+          be irreversible.
+        B: >-
+          It is true, because corruption had long been established as the basis structuring all of Argentine
+          politics, and ending it was the central reason the military took power.
+        C: >-
+          It is false, because how long the economic leadership lasted was not as relevant as the stability of
+          its corporate alliances.
+        D: >-
+          It is true, because most of the military had a neoliberal project and opposed Economy Minister
+          Martínez de Hoz, who came from a statist tradition and was supported only by President Videla.
+  q-ac0b8ed4:
+    - fuente: d4af4b2234
+      enunciado: >-
+        Romero states that the occupation of the Malvinas Islands in April 1982 was the solution to many of
+        the problems the government had at that time.
+      opciones:
+        A: >-
+          It is true, because a military action for what they called "recovering the islands” would make it
+          possible to win, in one stroke, the questioned legitimacy before a visibly dissatisfied society.
+        B: >-
+          It is true, because a military action in the Malvinas would have a great advantage: it was far from
+          the mainland and made it possible to divert attention from the conflict with the Brazilian
+          Government over issues related to imports and exports.
+        C: >-
+          It is false, because the Malvinas were an important claim for many Argentines and "recovering the
+          islands” could lead to the unification of the population behind Alfonsín's government, at a time
+          when it was very politically weakened.
+        D: >-
+          It is false, because the warlike impetus of then-president Galtieri was stimulated by social support
+          that included street mobilizations in favor of his appointment and leadership, such as the march
+          launched by the CGT on March 30, 1982.
+  q-f86741b3:
+    - fuente: 138cd036cf
+      enunciado: >-
+        In the video in which Eduardo Levy Yeyati interviews Pablo Gerchunoff, the interviewee points out that
+        even though Raúl Alfonsín failed to resolve the military question during his term and issued the
+        pardon, looking at it in perspective, having put the commanders in prison –even if only for two years–
+        was quite an achievement for the young Argentine democracy.
+      opciones:
+        A: >-
+          It is true, because due to the carapintada uprisings and the enactment of the Full Stop and Due
+          Obedience Laws of 1987, the members of the Juntas convicted in 1985 left prison at the end of the
+          Radical president's term.
+        B: >-
+          It is false, because Alfonsín left the presidency in 1989 with the commanders in prison, and they
+          were only pardoned shortly afterwards by the Peronist president Carlos Menem.
+        C: >-
+          It is false, because the Argentine military only began to be tried during the government of Néstor
+          Kirchner in 2003.
+        D: >-
+          It is true, because the enactment of the Full Stop and Due Obedience Laws allowed the military to be
+          released after their conviction in the famous 1985 trial and, therefore, to later gain access to the
+          subsequent pardon. DNI:
+  q-8b7be805:
+    - fuente: 847eca81e1
+      enunciado: >-
+        According to Patricio Gómez Talavera, the concepts of “State” and “Government” present differences
+        that must be considered. Among them:
+      opciones:
+        A: >-
+          The State is made up of those who, in a contingent and circumstantial way, administer the
+          Government.
+        B: The Government, unlike the State, is a structure of permanent existence.
+        C: >-
+          The Government is made up of those who, in a contingent and circumstantial way, administer the
+          State.
+        D: The State, unlike the Government, is a structure of permanent existence.
+        E: The correct options are A and D.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A, C and D.
+  q-fa22a484:
+    - fuente: 9bdd577942
+      enunciado: >-
+        According to Romero, when Isabel –as Juan D. Perón's widow was known– assumed the presidency, she
+        devoted herself to parodying the formulas and gestures of the dead leader in order to capitalize on
+        his symbolic legacy. This resulted in:
+      opciones:
+        A: Her policy departing completely from the one Perón had laid out in his last years.
+        B: >-
+          Her policy continuing the one carried out by Perón in his last years, but with only discursive
+          changes, to show her own leadership.
+        C: >-
+          Isabel setting out to homogenize the government, placing friends in it and breaking one by one the
+          alliances Perón had woven.
+        D: >-
+          Isabel and the trade unionists not agreeing on any point of the social agenda they had inherited
+          from Perón's government.
+        E: The correct options are A and C.
+        F: The correct options are B and C.
+        G: The correct options are A, C and D.
+        H: The correct options are B, C and D.
+  q-59323001:
+    - fuente: fd2023fb6e
+      enunciado: >-
+        The video on the Transition to Democracy devoted to South Africa refers to the Truth and
+        Reconciliation Commission and distinguishes it from other commissions in Latin America and Africa,
+        since it adopted an approach related to restorative justice. This was seen in that:
+      opciones:
+        A: >-
+          It laid the groundwork for the coming together of victims and perpetrators, giving a predominant
+          role to the community.
+        B: >-
+          It laid the groundwork for the coming together of victims and perpetrators, serving as a collective
+          catharsis.
+        C: >-
+          It laid the groundwork for the coming together of victims and perpetrators, serving to lift the
+          population out of its ignorance about what had happened.
+        D: >-
+          It laid the groundwork for the coming together of victims and perpetrators, based on the principle
+          of unrestricted application of criminal justice.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are B and D.
+        H: 'The correct options are A, B and C. DNI:'
+    - fuente: d3ec85093a
+      enunciado: >-
+        The video on the Transition to Democracy devoted to South Africa refers to the Truth and
+        Reconciliation Commission and distinguishes it from other commissions in Latin America and Africa
+        because it adopted an approach related to restorative justice. Therefore:
+      opciones:
+        A: >-
+          It laid the groundwork for the coming together of victims and perpetrators, giving a predominant
+          role to the community.
+        B: >-
+          It laid the groundwork for the coming together of victims and perpetrators, serving as a collective
+          catharsis.
+        C: >-
+          It laid the groundwork for the coming together of victims and perpetrators, serving to combat
+          ignorance about what had happened.
+        D: >-
+          It laid the groundwork for the coming together of victims and perpetrators based on the principle of
+          unrestricted application of criminal justice, imitating the Argentine process that ended with prison
+          for those guilty of human rights violations after a long trial.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are A, B and C.
+        H: The correct options are A, B and D.
+  q-5bf42cf6:
+    - fuente: e085a8c156
+      enunciado: >-
+        According to Max Povse, totalitarian regimes extend their control to all aspects of the population's
+        life. This is seen in that:
+      opciones:
+        A: >-
+          There must be a continuous mobilization of the population that demonstrates its support for the
+          leader.
+        B: Everything is controlled, except matters of private and intimate life.
+        C: The freedom of civil society is not reduced, but it is closely watched.
+        D: The forms of political action are controlled and influenced.
+        E: The correct options are A and B.
+        F: The correct options are C and B.
+        G: The correct options are A and D.
+        H: The correct options are A, B, C and D.
+  q-c4cc8c1e:
+    - fuente: e0993ffb90
+      enunciado: >-
+        According to Nicolás Simone, in transitions to democracy, pacts between the elite leaders of different
+        parties are important for various reasons. Among them, because:
+      opciones:
+        A: >-
+          They are a guarantee that the sectors nostalgic for the authoritarian Regime will form the new
+          Government that succeeds the outgoing dictatorship.
+        B: >-
+          The alliance of the elites forms a network that contains the demands of a society that come to light
+          afterwards, as a result of the expectations produced by the return of democracy.
+        C: >-
+          They are a guarantee that the actors nostalgic for the authoritarian Regime will have no room to
+          maneuver to attempt a Coup.
+        D: >-
+          The alliance of the elites forms a network that contains the demands of the business owners who had
+          benefited from the previous Regime and who do not have great expectations about the return of
+          democracy.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A and D.
+  q-982eb0c5:
+    - fuente: 8c8d95f390
+      enunciado: >-
+        According to Florencia Deich, the case of President Arturo Frondizi and his replacement in 1963 is
+        complex to analyze when defining whether it was a Coup d'État or an institutional interruption. This
+        is so because:
+      opciones:
+        A: >-
+          The military finally decided to remove Frondizi from power and, in this sense, their action was
+          successful because they managed to achieve all their objectives, since they placed a member of the
+          Armed Forces in the presidency.
+        B: >-
+          The way events unfolded created complications when defining the type of regime, since the legitimate
+          president was removed by military pressure, but the person who took office in his place did so
+          respecting the rules of succession set out in the Constitution.
+        C: >-
+          The military finally decided to remove Frondizi from power and, in this sense, their action was
+          successful; however, they did not manage to achieve all their objectives, since they did not place a
+          member of the Armed Forces in the presidency.
+        D: >-
+          The way events unfolded did not create complications when defining the type of regime since the
+          legitimate president was removed by military pressure, but the person who took office in his place
+          did so respecting the rules of succession set out in the Constitution.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A and D.
+  q-8b79eae8:
+    - fuente: 63b068fb5c
+      enunciado: >-
+        Romero points out that the Church, which in 1981 had declared itself in favor of democracy –though
+        without criticizing its relationship with the military government–, gradually evolved toward growing
+        hostility toward the radical government headed by Alfonsín. This was so because:
+      opciones:
+        A: >-
+          The ecclesiastical authorities were irritated by their limited influence in the area of private
+          education.
+        B: >-
+          The ecclesiastical authorities rejected the secular tone of the cultural discourse circulating
+          through the institutions and media of the State.
+        C: >-
+          A sector of the Church took on the role of social censor, with a combative discourse. Democracy
+          –they said– turned out to be responsible for the evils of the century: gambling and betting, social
+          media and multiculturalism.
+        D: >-
+          A change in the internal balance of the local episcopate converged with the general orientation
+          given to the Church by Pope John Paul II, who was determined to wage a battle against the Argentine
+          Catholic leader, the then young archbishop Jorge Bergoglio.
+        E: The correct options are A and B.
+        F: The correct options are C and B.
+        G: The correct options are A and D.
+        H: The correct options are A, B, C and D.
+  q-6e0f83ef:
+    - fuente: af32d84359
+      enunciado: >-
+        According to Margarita Batlle, the complexity of the concept of democracy was an obstacle, both
+        analytical and practical. That is why:
+      opciones:
+        A: Robert Dahl's work shows his concern with understanding how Western political systems function.
+        B: >-
+          Robert Dahl's work shows his concern with understanding how political systems function throughout
+          the world.
+        C: >-
+          Robert Dahl's work shows his concern with understanding how democracy has functioned in world
+          history.
+        D: Robert Dahl's work shows his concern with understanding how Western electoral systems function.
+        E: The correct options are A and D.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A, C and D.
+  q-fbaeefaa:
+    - fuente: f7ea32f2a1
+      enunciado: >-
+        According to Laura Petrino, Yrigoyen and Perón are two paradigmatic cases of populism in Argentina.
+        This can be seen in:
+      opciones:
+        A: >-
+          Both movements had a discourse based on antinomies: the “people” confront the “regime” or the
+          “oligarchy”.
+        B: They built movements with strong personal leadership.
+        C: >-
+          In both cases the leaders created parties tailored to their power, as organizations they could
+          manage at will.
+        D: >-
+          At the moment of their birth, yrigoyenismo and peronismo brought together a set of democratic and
+          social demands from sectors that were outside the system and lacked political representation.
+        E: The correct options are A and B.
+        F: The correct options are B and D.
+        G: The correct options are A, B and D.
+        H: The correct options are A, C and D.
+  q-25f11a44:
+    - fuente: 62fccedd4c
+      enunciado: >-
+        In the video in which Eduardo Levy Yeyati interviews Pablo Gerchunoff about the figure of Raúl
+        Alfonsín, Gerchunoff stresses that the radical Government's decree empowering the Supreme Council of
+        the Armed Forces to try the military Juntas was fundamental.
+      opciones:
+        A: >-
+          It is false, because the Argentine military only began to be tried during Néstor Kirchner's
+          Government in 2003.
+        B: >-
+          It is false, because there was only one trial of the military Juntas and it was not the one by the
+          Supreme Council of the Armed Forces.
+        C: >-
+          It is true, because the decree mentioned by the interviewee allowed the military to be acquitted at
+          first instance, and therefore later to obtain the subsequent pardon that Alfonsín himself was forced
+          to issue.
+        D: >-
+          It is true, because if Alfonsín had not signed the decree sending the military Juntas to be tried
+          first by their own peers, the famous later trial would not have taken place.
+  q-7dfdd578:
+    - fuente: 7ab3f518cc
+      enunciado: >-
+        According to Nicolás Simone, the transition is a period of time that begins when a country's
+        non-democratic regime begins to withdraw and ends when a democratic regime takes hold, no longer at
+        risk of being overthrown.
+      opciones:
+        A: >-
+          It is true, because the transition is like polyarchy, ways in which the democratic system is
+          referred to and described.
+        B: >-
+          It is false, because the transition cannot be foreseen exactly, since it is a period in which
+          uncertainty is the norm.
+        C: >-
+          It is true, because the transition, in a broad sense, is completed when there is no danger of
+          authoritarian regression.
+        D: >-
+          It is false, because a democracy never takes hold without risk. As long as there are military
+          forces, there will always be the possibility of coups d'état.
+  q-33de77a8:
+    - fuente: 7e3fbe52cd
+      enunciado: >-
+        According to Max Povse, to be hybrid, a regime must have indicators with both democratic and
+        authoritarian values.
+      opciones:
+        A: >-
+          It is true, because political regimes are pluralistic and offer all kinds of ideological
+          possibilities within them.
+        B: It is false, because democracy has nothing to do with authoritarian systems. It is one or the other.
+        C: It is false, because that is not hybrid, but a polyarchy.
+        D: >-
+          It is true, because these are cases where there are free elections, but there is also an “uneven
+          playing field” in favor of the governing party.
+  q-b2b0a999:
+    - fuente: e121e516de
+      enunciado: >-
+        According to Margarita Batlle, Robert Dahl understood democracy to be an unattainable system that is
+        impossible to adopt in practice.
+      opciones:
+        A: >-
+          It is false, because numerous countries have lived under democracy in this century and in previous
+          ones.
+        B: >-
+          It is true, because it means that democracy is a utopian and ideal order to which society cannot
+          aspire.
+        C: It is false, because there are no utopian matters for human beings to organize their societies.
+        D: >-
+          It is true, because the only true democracy is the one found in assemblies in which all citizens
+          participate.
+  q-52a3ee4a:
+    - fuente: 92c8053fe6
+      enunciado: >-
+        According to Enrique García, the fascist State was not evident in all spheres of society, but it was
+        evident, without control, in education, culture and the media.
+      opciones:
+        A: >-
+          It is false, because the power of the fascist State had no limits and its control over society was
+          total.
+        B: >-
+          It is true, because the fascist State placed emphasis only on whatever had to do with total control
+          of values and discourses.
+        C: It is false, because the fascist State was evident above all in the economy.
+        D: It is true, because the fascists thought that from those spaces they could control all of society.
+  q-883542ff:
+    - fuente: 93dbaef75a
+      enunciado: >-
+        According to Nadia Yannuzzi, among the multiple effects of the process of individuation, the
+        withdrawal of the individual into the private sphere stands out.
+      opciones:
+        A: It is false, because the individual's sphere of belonging is always the private sphere.
+        B: It is false, because no one is saved alone.
+        C: It is true, because the process of individuation results in "every man for himself."
+        D: It is true, because individuals withdraw, given that they feel they have no say in public affairs.
+  q-b26893fd:
+    - fuente: 0dca3733f7
+      enunciado: >-
+        According to Laura Petrino, the variety of Latin American examples shows that the economic and social
+        characteristics of our region are the only conditions conducive to the emergence of charismatic
+        figures regarded as populist.
+      opciones:
+        A: >-
+          It is false, because populism is also a powerful political phenomenon in core countries with highly
+          institutionalized democracies.
+        B: >-
+          It is false, because populism is also a powerful political phenomenon in communist countries with
+          poorly institutionalized democracies.
+        C: >-
+          It is true, because the “informal institutions” characteristic of Latin America are what open the
+          way to populism.
+        D: It is true, because all cases of populism come from Latin America.
+  q-8bf9f5aa:
+    - fuente: 7710b2e6b2
+      enunciado: >-
+        In the video in which Eduardo Levy Yeyati interviews Pablo Gerchunoff about the figure of Alfonsín,
+        particularly during his time as President of the Nation, the interviewee considers 1985 a turning
+        point. Why does he choose that year?
+      opciones:
+        A: >-
+          Because in 1985 the pact with the renewal faction of Peronism took place, along with the
+          implementation of the Plan Primavera, a successful economic stabilization program implemented by the
+          Radical Government.
+        B: >-
+          Because it coincides with the film titled with that same year (“1985”), which competed for the
+          Oscars, bringing the figure of Alfonsín and his political legacy back into public debate.
+        C: >-
+          Because the success of the Plan Austral, an economic stabilization program, allowed Alfonsín to win
+          the 1985 midterm elections.
+        D: >-
+          Because it combines the year in which the trial of the military Juntas took place, as a great moment
+          of democratic institutionality, with the moment of greatest success of the so-called Plan Austral,
+          an economic stabilization program implemented by the Radical Government.
+        E: The correct options are A and C.
+        F: The correct options are B and D.
+        G: The correct options are C and D.
+        H: The correct options are A, C and D.
+  q-bdd1ef5c:
+    - fuente: ae6e00ecdd
+      enunciado: >-
+        According to Romero, the Catholic Church grew increasingly hostile toward the Radical Government led
+        by Alfonsín from 1983. This was so because:
+      opciones:
+        A: >-
+          The Church was annoyed by its limited influence –at least, less than it aspired to– in the area of
+          private education.
+        B: >-
+          The Church was annoyed by its limited influence –at least, less than it aspired to– in social
+          assistance and in public education.
+        C: >-
+          The Church was annoyed by the bill to decriminalize abortion that the Government was promoting and
+          that was rejected in Congress.
+        D: >-
+          The Church was annoyed by the secular tone of the cultural discourse circulating in State
+          institutions and media.
+        E: The correct options are A and D.
+        F: The correct options are B and D.
+        G: The correct options are A, C and D.
+        H: 'The correct options are B, C and D. DNI:'
+  q-7b8ffb27:
+    - fuente: 497fb0664b
+      enunciado: >-
+        The video on Transition to Democracy deals with different types of transition in contexts of armed
+        conflict. Among them, it distinguishes:
+      opciones:
+        A: >-
+          Transitions in which a regime change has occurred between the “hard-line” and “soft-line” sectors of
+          the armed conflict.
+        B: Transitions that take place in cases in which an armed conflict is still ongoing.
+        C: Transitions in which a military humiliation has occurred, but not a total defeat.
+        D: >-
+          Transitions in which the political regime has been assimilated on the basis of the victorious side
+          in an armed conflict.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A, B and D.
+  q-35aaa976:
+    - fuente: 7ac1f6330c
+      enunciado: >-
+        According to Verónica Beyreuther, under a dictatorship, pure coercion may initially serve to maintain
+        domination over a society, but, as time goes by, some degree of consensus becomes necessary. This is
+        so because:
+      opciones:
+        A: >-
+          Dictatorships always require an electoral legitimacy that can legitimize the use of force to
+          guarantee their domination over a society over time.
+        B: >-
+          Dictatorships always seek to sustain themselves on a majority consensus, especially if the cause
+          that gave rise to them no longer exists.
+        C: >-
+          The problem of a dictatorship's duration is inseparably linked to that of the legitimacy that
+          sustains it.
+        D: >-
+          To achieve that consensus, dictatorships generally appeal to representing a supposed public
+          interest.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are B, C and D.
+  q-15c86453:
+    - fuente: 375f3d2146
+      enunciado: >-
+        According to Romero, the illegal repression by the Armed Forces did not begin with the 1976 military
+        coup; it could already be observed under the Peronist Government headed by Isabel Perón between 1974
+        and 1976. This was seen in that:
+      opciones:
+        A: >-
+          From February 1975, the Army, called upon by Isabel Perón, took on the task of repressing the
+          guerrilla in Tucumán.
+        B: With Perón's death, the guerrilla groups chose to go underground and step up political violence.
+        C: >-
+          The guerrillas linked to the Radical Party and its leader, Raúl Alfonsín, became strong in the
+          interior of the Province of Buenos Aires.
+        D: >-
+          The repression in the south of the country in 1975, known as the “Patagonia Rebelde”, was the first
+          act in which the Armed Forces applied illegal repression to annihilate the left-wing guerrillas.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A, C and D.
+  q-7c6990f8:
+    - fuente: 9e41537494
+      enunciado: >-
+        According to Romero, the transition Government that began in 1983 had to face a major obstacle:
+        business leaders and trade unionists agreed in making the sectoral concertation policy that
+        then-president Alfonsín and his economic team had bet on fail. This happened when:
+      opciones:
+        A: >-
+          National business leaders opposed the total opening of imports proposed by Alfonsín's Minister of
+          Economy.
+        B: >-
+          The trade unionists found in the piquetero mobilization an unexpected ally to make up for the lack
+          of enthusiasm of their own members.
+        C: >-
+          The CGT mobilized for both union and political reasons, since it was the backbone of the Peronist
+          opposition.
+        D: >-
+          Business leaders questioned state spending and intervention, though with the exception of the
+          policies that benefited them directly.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are B and D.
+        H: The correct options are C and D.
+  q-315c3a2a:
+    - fuente: fb72e47172
+      enunciado: >-
+        According to Enrique García, the welfare state developed in the West from 1945 onward, that is, after
+        the Second World War (1939-1945). This happened because:
+      opciones:
+        A: >-
+          The welfare state was the first successful state organization outside capitalism to triumph in the
+          West.
+        B: >-
+          This type of State sought to regain the path of growth and social stability in the face of the
+          advance of communism.
+        C: >-
+          This type of State was formed to provide a solution to the economic and social effects the war had
+          caused.
+        D: >-
+          The welfare state was a consequence of the enormous success of the Soviet economy, and for that
+          reason it was imitated by the West.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are B, C and D.
+  q-9c3bd448:
+    - fuente: 1960e0b7ce
+      enunciado: >-
+        Romero recounts that the 1987 divorce law was passed during the Government of the Radical Raúl
+        Alfonsín after a brief but very intense debate. This intensity was related to the fact that:
+      opciones:
+        A: It was the high point of the cultural modernization begun in 1983.
+        B: >-
+          It was the moment when the breaking off of diplomatic relations between Argentina and the Vatican
+          was formalized.
+        C: >-
+          The traditional sectors of the Catholic Church opposed it, resorting to customary pressure
+          mechanisms and to other, more novel ones.
+        D: >-
+          The most traditional sectors of the Radical Party tried to oppose it by blocking its consideration
+          in Congress.
+        E: The correct options are A and C.
+        F: The correct options are A and B.
+        G: The correct options are C and D.
+        H: The correct options are A, C and D.
+  q-3ecdf8c6:
+    - fuente: 9575d96b0c
+      enunciado: >-
+        According to Romero, upon assuming the presidency, Alfonsín proposed some logical distinctions
+        regarding the military legacy, which at the same time were difficult for the mobilized society to
+        accept, especially for the human rights organizations. This was because:
+      opciones:
+        A: >-
+          Alfonsín believed that the trial of the guilty had to be separated from the judgment of the
+          institution, which was part of the State.
+        B: >-
+          Alfonsín believed that the trial of the guilty military officers had to be avoided because it meant
+          attacking the entire institution, which was part of the State.
+        C: >-
+          Alfonsín had not condemned the human rights violations during the dictatorship and continued along
+          that line during his Government.
+        D: >-
+          Alfonsín believed that punishment should be concentrated on the top ranks and that the principle of
+          due obedience should be applied to the rest.
+        E: The correct options are A and B.
+        F: The correct options are B and C.
+        G: The correct options are C and D.
+        H: The correct options are A and D.
+fichas:
+  povse.gobierno-vs-regimen:
+    fuente: 957dda5c48
+    tema: Change of government and change of regime
+    autor: Max Povse
+    pregunta_guia: What changes when the government changes, and what has to change for the regime to change?
+  povse.totalitarismo:
+    fuente: 073ddfc162
+    tema: Totalitarian regimes
+    autor: Max Povse
+    pregunta_guia: How far does the control of a totalitarian regime reach, and what does it demand of the population?
+  povse.regimen-hibrido:
+    fuente: a4197bce58
+    tema: Hybrid regimes
+    autor: Max Povse
+    pregunta_guia: What democratic features and what authoritarian features coexist in a hybrid regime?
+  gomez-talavera.estado-vs-gobierno:
+    fuente: f349f6489c
+    tema: State and government
+    autor: Patricio Gómez Talavera
+    pregunta_guia: What remains and what changes when there are elections?
+  yannuzzi.ciudadania-arendt:
+    fuente: 35aed0a055
+    tema: Citizenship as the right to have rights (Arendt)
+    autor: Nadia Yannuzzi
+    pregunta_guia: 'According to this perspective, how are rights obtained: by agreement or through conflicts?'
+  yannuzzi.individuacion:
+    fuente: 63021233df
+    tema: Individuation and withdrawal into the private sphere
+    autor: Nadia Yannuzzi
+    pregunta_guia: Why does the individual withdraw from the public sphere, according to the author?
+  simone.democracia-representativa:
+    fuente: 948e7fe198
+    tema: Representative democracy
+    autor: Nicolás Simone
+    pregunta_guia: In representative democracy, who makes the decisions and who elects them?
+  simone.transicion:
+    fuente: 7a77870c56
+    tema: What a transition is
+    autor: Nicolás Simone
+    pregunta_guia: What marks the beginning and what marks the end of a transition?
+  simone.pactos-elites:
+    fuente: a94ab231ae
+    tema: Elite pacts in the transition
+    autor: Nicolás Simone
+    pregunta_guia: What do parties gain by reaching agreements during a transition?
+  simone.lanusse-gan-1971:
+    fuente: 75ad148638
+    tema: Lanusse and the 1971 electoral way out
+    autor: Nicolás Simone
+    pregunta_guia: What were the military offering in 1971, and what condition did they attach to that way out?
+  petrino.populismo-america-latina:
+    fuente: ae8df6a63b
+    tema: Populism and Latin America
+    autor: Laura Petrino
+    pregunta_guia: >-
+      Where does the author place the classic examples of populism, and in what other countries does it appear
+      today?
+  petrino.yrigoyen-peron:
+    fuente: c284a69567
+    tema: Yrigoyen and Perón as populisms
+    autor: Laura Petrino
+    pregunta_guia: What three features do yrigoyenismo and Peronism share, according to the author?
+  valdez.estado-vs-nacion:
+    fuente: 27bc7669f0
+    tema: State and nation
+    autor: María José Valdez
+    pregunta_guia: >-
+      When we move from talking about the State to talking about the nation, which actors do we need to look
+      at?
+  sribman.estado-liberal:
+    fuente: c57aeb4748
+    tema: Elements of the liberal State
+    autor: Ariel Sribman
+    pregunta_guia: >-
+      What are the three elements that, according to Sribman, constitute the liberal State in its beginnings?
+      Which ones have to do with the form of government and which one with the economy?
+  garcia.estado-liberal:
+    fuente: 93cbd243d0
+    tema: The liberal State and the market
+    autor: Enrique García
+    pregunta_guia: >-
+      For liberalism, according to García, who allocates resources better, the State or the market? What role
+      does individual interest play?
+  garcia.estado-fascista:
+    fuente: a038c11301
+    tema: The fascist State
+    autor: Enrique García
+    pregunta_guia: >-
+      According to García, how far did the fascist State's control over society reach? Was there any sphere
+      left outside it?
+  garcia.estado-bienestar:
+    fuente: 0819aa0515
+    tema: The welfare State (from 1945)
+    autor: Enrique García
+    pregunta_guia: What two postwar problems did the welfare State seek to solve, according to García?
+  pirsch.federalismo-america-latina:
+    fuente: 0bc6a582e8
+    tema: Federal countries of Latin America
+    autor: Sofía Pirsch
+    pregunta_guia: >-
+      What are the four federal countries of Latin America according to Pirsch? Which of Argentina's neighbors
+      are not federal?
+  batlle.dahl-democracia:
+    fuente: 244b85c0c5
+    tema: Democracy according to Dahl
+    autor: Margarita Batlle
+    pregunta_guia: >-
+      According to Batlle, why is democracy an unattainable ideal for Dahl? What systems does he study, then,
+      and what relationship must there be between elected and unelected officials?
+  beyreuther.dictaduras:
+    fuente: 4d54332d36
+    tema: 'Dictatorships: concentrated power, coercion and consensus'
+    autor: Verónica Beyreuther
+    pregunta_guia: >-
+      According to Beyreuther, why can a dictatorship not coexist with the separation of powers? Why is force
+      alone not enough for it to last?
+  hermo.genocidio:
+    fuente: '2635877954'
+    tema: Definition of genocide (UN)
+    autor: Javier Hermo
+    pregunta_guia: >-
+      What acts does the UN definition of genocide include? What defines it: the number of victims or the
+      intent?
+  etchevest.terrorismo:
+    fuente: feee575365
+    tema: Changes in terrorism in the 21st century
+    autor: Graciela Etchevest
+    pregunta_guia: >-
+      According to Etchevest, what is new about 21st-century terrorism in its actors, its organization and its
+      reach?
+  deich.frondizi-guido:
+    fuente: 953c9c1eab
+    tema: 'Frondizi''s fall: coup or institutional interruption?'
+    autor: Florencia Deich
+    pregunta_guia: >-
+      According to Deich, what about Frondizi's removal was a coup and what was a constitutional succession?
+      Why does that make it hard to classify?
+  video.sudafrica-comision-verdad:
+    fuente: a77cb3bb9e
+    tema: Truth and Reconciliation Commission
+    autor: 'Course video: Transition to democracy in South Africa'
+    pregunta_guia: >-
+      What did the Truth and Reconciliation Commission seek instead of criminal punishment? What was gained
+      and what was sacrificed with that approach?
+  video.transiciones-conflicto-armado:
+    fuente: 472256d90f
+    tema: Transitions in contexts of armed conflict
+    autor: 'Course video: Transition to democracy'
+    pregunta_guia: >-
+      What types of transition does the video distinguish according to the state of the armed conflict
+      (ongoing, humiliation, defeat)?
+  video.gerchunoff-alfonsin:
+    fuente: 9f96fad46d
+    tema: 'Alfonsín: the Trial of the Juntas, the pardon and 1985'
+    autor: 'Course video: Eduardo Levy Yeyati''s interview with Pablo Gerchunoff'
+    pregunta_guia: >-
+      According to Gerchunoff, what earlier step made the Trial of the Juntas possible? Who pardoned the
+      commanders? What two things come together in 1985?
+  romero.cordobazo-1969:
+    fuente: bce09c6a35
+    tema: The Cordobazo (1969)
+    autor: Luis A. Romero
+    pregunta_guia: What had been happening in the factories and universities of Córdoba before May 1969?
+  romero.montoneros-vuelta-de-peron:
+    fuente: d6533cb265
+    tema: Montoneros and Perón's return
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      When Perón returned and spoke in the first person, what did he say and how did the Montoneros explain
+      it?
+  romero.ruptura-plaza-1974:
+    fuente: ba6209261d
+    tema: The break between Perón and Montoneros (5/1/1974)
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      After Perón threw them out of the Plaza, what path did the Montoneros take and what happened to them
+      when Perón died?
+  romero.programa-reconstruccion:
+    fuente: d03ae1abb2
+    tema: Program of National Reconstruction and Liberation
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      What kind of measures did Perón's economic program include and how did it differ from what the Peronist
+      youth said?
+  romero.isabel-presidencia:
+    fuente: fb9c79c3b2
+    tema: The presidency of Isabel Perón
+    autor: Luis A. Romero
+    pregunta_guia: What did Isabel imitate from Perón and how did her way of governing differ?
+  romero.represion-antes-del-golpe:
+    fuente: 7f8e3c3425
+    tema: Illegal repression before 1976
+    autor: Luis A. Romero
+    pregunta_guia: What did the Army do in Tucumán in 1975 and who called it in?
+  romero.rodrigazo-1975:
+    fuente: 26c8b6f5c4
+    tema: The Rodrigazo (1975)
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      What happened to the dollar, prices and the government's ability to control the economy after the
+      Rodrigazo?
+  romero.condiciones-golpe-1976:
+    fuente: 715b801b69
+    tema: Why the 1976 coup was accepted
+    autor: Luis A. Romero
+    pregunta_guia: What types of violence led part of society in 1975 to expect a coup “that would restore order”?
+  romero.proceso-donde-residia-el-poder:
+    fuente: 9415dbdaf1
+    tema: 'The Proceso: where power resided'
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      During the Proceso, who really ruled: the president, the Junta or each armed force? And which part of
+      the State acted in plain sight and which in the shadows?
+  romero.proceso-faccion-videla-viola:
+    fuente: 591635695f
+    tema: The Videla and Viola faction
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      What relationship did Videla and Viola have with the political parties and with minister Martínez de
+      Hoz?
+  romero.proceso-transformacion-economica:
+    fuente: eef896396f
+    tema: The economic transformation and the problem of time (Schvarzer)
+    autor: Luis A. Romero
+    pregunta_guia: Why did Martínez de Hoz's economic transformation need the economic leadership to last a long time?
+  romero.iglesia-y-dictadura:
+    fuente: 6cfe1c923e
+    tema: The Church and the weakening of the dictatorship
+    autor: Luis A. Romero
+    pregunta_guia: What issues began to concern the Church from 1979 onward and how did it want to relate to society?
+  romero.malvinas-1982:
+    fuente: bdcaa174c4
+    tema: Malvinas as a way out for the military government
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      What problem did the military government have in early 1982 and why did it think Malvinas would solve
+      it?
+  romero.alfonsin-renovacion-radical:
+    fuente: 97a25991f2
+    tema: Alfonsín and the renewal of Radicalism
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      What did Alfonsín do between 1972 and 1983 that set him apart from Balbín and the rest of the
+      politicians?
+  romero.alfonsin-intelectuales:
+    fuente: dea49c2a7d
+    tema: Intellectuals and politics since 1983
+    autor: Luis A. Romero
+    pregunta_guia: In what concrete way did intellectuals enter politics after 1983, and what changed in public debate?
+  romero.alfonsin-legado-militar:
+    fuente: 4c8e42da66
+    tema: Alfonsín's distinctions regarding the military legacy
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      What distinctions did Alfonsín draw between the guilty, the top commanders and the military institution,
+      and why did the human rights organizations reject them?
+  romero.alfonsin-civilidad-o-consenso:
+    fuente: 9c21eeea80
+    tema: Civility or consensual solutions
+    autor: Luis A. Romero
+    pregunta_guia: What two paths did Alfonsín have in 1983, which one did he choose and what made him change?
+  romero.grinspun-1983:
+    fuente: 779786a9c2
+    tema: Grinspun's economic policy
+    autor: Luis A. Romero
+    pregunta_guia: What tools did Grinspun use to manage the economy and which previous government did they resemble?
+  romero.fracaso-concertacion:
+    fuente: b8a4cb2c2f
+    tema: Business and the CGT against concertación
+    autor: Luis A. Romero
+    pregunta_guia: For what reasons did the CGT and business leaders oppose Alfonsín's concertación?
+  romero.politica-exterior-alfonsin:
+    fuente: 710bc5bcc0
+    tema: 'Foreign policy: Beagle and Malvinas'
+    autor: Luis A. Romero
+    pregunta_guia: What pending international conflicts did the Alfonsín government address, and with what domestic goal?
+  romero.iglesia-vs-gobierno-radical:
+    fuente: d84ad2dc27
+    tema: The Church against the Radical government
+    autor: Luis A. Romero
+    pregunta_guia: What two things about the Radical government bothered the Church, according to Romero?
+  romero.ley-de-divorcio-1987:
+    fuente: f81996e005
+    tema: The divorce law (1987)
+    autor: Luis A. Romero
+    pregunta_guia: Why was the debate over divorce so intense and who opposed it?
+  romero.semana-santa-1987:
+    fuente: da38858993
+    tema: Easter Week 1987 (Semana Santa)
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      What did the rebel military officers demand, how was the uprising resolved and what changed afterward
+      for Alfonsín?
+  romero.derrota-1987:
+    fuente: 502b2cd951
+    tema: The 1987 defeat and the weakening of the government
+    autor: Luis A. Romero
+    pregunta_guia: What consequences did losing the 1987 elections have for the government, and what did Peronism do?
+  romero.la-tablada-1989:
+    fuente: 80c628c288
+    tema: La Tablada (1989)
+    autor: Luis A. Romero
+    pregunta_guia: >-
+      How did public opinion react to the repression at La Tablada and what did that foreshadow about the
+      military question?
