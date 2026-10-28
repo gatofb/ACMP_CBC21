@@ -219,7 +219,7 @@ export const TEXTOS = {
     seguridad: "Confidence",
 
     hero_eyebrow: "UBA XXI · CBC",
-    hero_titulo: 'If you can explain it, you <span class="kw">understand</span> it.',
+    hero_titulo: 'If you can explain it, you <span class="kw">understand it</span>.',
     hero_sub: "Practice with real exam questions. You explain in your own words and the tutor tells you exactly what's missing.",
     cta_materia: "Choose your subject →",
     cta_video: "See how it works",
