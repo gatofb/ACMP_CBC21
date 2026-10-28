@@ -252,3 +252,15 @@ Gastón bajó de Altillo 113 PDF de finales de Sociología. Sin duplicados queda
 **La app no nombra a Claude: se dice "el tutor"** · 2026-10-28 · Gastón · Vigente
 
 Ningún texto que ve el alumno dice "Claude": ni los botones ("El tutor está leyendo tu explicación…"), ni las explicaciones de la app, ni los mensajes de error que llegan a la pantalla. Se dice "el tutor" o "el tutor de IA". El nombre solo queda en el código, los comentarios y la configuración técnica.
+
+### D-026
+**En la nube la app usa la API de Anthropic y corre desde un Dockerfile** · 2026-10-28 · Gastón · Vigente
+
+Para que la app pueda publicarse en un servicio en la nube y la usen otros alumnos:
+
+- **Solo la API:** en la nube la evaluación va siempre por la API (`TUTOR_PROVIDER=api`). La sesión del CLI queda para probar en local, porque es una suscripción personal.
+- **La clave** se carga como variable de entorno en el servicio. No va en el repo (es público) ni en la imagen.
+- **Dockerfile en `CBC Preptest/`:** la imagen lleva `rules/` y `output/`, sin `input/` ni `.env`. Escucha en `0.0.0.0` y en el puerto 8080, o en el `PORT` que ponga el servicio.
+- **En local no cambia nada:** sin `HOST`, el servidor sigue atendiendo solo a esta computadora.
+- **Dictado:** no está en la nube; el alumno escribe. Sigue pendiente lo de D-023.
+- **Sin clave de acceso ni límite de pedidos, por ahora** (Gastón): el gasto se controla con una clave de API solo para la app y un tope en la consola de Anthropic.

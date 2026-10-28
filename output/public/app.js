@@ -484,7 +484,7 @@ function explicar({ previa = null } = {}) {
         ${servidor.dictado
           ? `<div class="dictado"><button type="button" class="btn secundario" id="grabar">${MICROFONO}<span>Dictar</span></button>
              <span class="chico" id="estado-dictado">Hablá con tus palabras; después podés corregir el texto.</span></div>`
-          : `<p class="chico">El dictado no está disponible en esta máquina: escribí tu explicación.</p>`}
+          : `<p class="chico">El dictado no está disponible: escribí tu explicación.</p>`}
       </div>
       ${intento === 1 ? seguridadHtml() : ""}
       <div class="acciones">

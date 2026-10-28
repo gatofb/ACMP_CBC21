@@ -1,0 +1,8 @@
+# Solo entran rules/ y output/. Nada de exámenes, claves ni dependencias locales.
+.git
+input
+scripts
+output/.env
+output/node_modules
+**/.DS_Store
+**/__pycache__

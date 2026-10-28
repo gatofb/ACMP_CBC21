@@ -20,6 +20,8 @@ try {
 }
 
 const PUERTO = Number(process.env.PORT || 4321);
+// En la máquina solo se atiende a esta computadora; en la nube va HOST=0.0.0.0 (lo pone el Dockerfile).
+const HOST = process.env.HOST || "127.0.0.1";
 const PUBLICO = join(AQUI, "public");
 const RULES = join(AQUI, "..", "rules");
 const TAMANIO_DIAGNOSTICO = 18;
@@ -279,8 +281,8 @@ const servidor = createServer(async (req, res) => {
   }
 });
 
-servidor.listen(PUERTO, "127.0.0.1", () => {
-  console.log(`PrepTest UBA XXI en http://localhost:${PUERTO}`);
+servidor.listen(PUERTO, HOST, () => {
+  console.log(`PrepTest UBA XXI en http://${HOST === "127.0.0.1" ? "localhost" : HOST}:${PUERTO}`);
   const via = { api: `API con ${modelo()}`, sesion: `tu sesión del CLI claude (${modelo()})` }[proveedor()];
   for (const m of materias.values()) console.log(`${m.etiqueta}: ${m.fichas.length} fichas, ${m.banco.length} preguntas`);
   console.log(`Claude: ${via || "no disponible"}`);

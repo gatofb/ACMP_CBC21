@@ -3,6 +3,9 @@
   "private": true,
   "type": "module",
   "description": "Capa de entrenamiento para el 1er parcial de UBA XXI: diagnóstico, práctica con explicación y feedback de Claude.",
+  "engines": {
+    "node": ">=20.12"
+  },
   "scripts": {
     "start": "node server.mjs",
     "probar-ia": "node probar-ia.mjs"

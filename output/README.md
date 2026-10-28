@@ -33,6 +33,16 @@ cd "/Users/gastonfb/Dev_Apps/MaiPistinerTool/CBC Preptest/output" && npm run pro
 - **Por tu sesión (modo local):** si no hay clave en `.env`, el servidor llama al CLI `claude` de esta máquina en modo aislado: sin herramientas, sin CLAUDE.md, MCP ni hooks, y sin guardar la sesión. Usa tu suscripción, así que sirve para probar vos; para darle servicio a alumnos hace falta la API.
 - **Por la API:** con `ANTHROPIC_API_KEY` en `.env`. Los pedidos usan el respaldo automático de la API (`fallbacks: "default"`): si el modelo rechaza un pedido, la API lo reintenta con otro modelo.
 
+## Publicarla en la nube
+
+En la nube la app usa siempre la API: la sesión del CLI es tu suscripción personal y no puede atender a otros alumnos.
+
+- **Imagen:** el [Dockerfile](../Dockerfile) está en la carpeta `CBC Preptest`, no en `output/`, porque el servidor lee las preguntas de `rules/`. La imagen lleva solo `rules/` y `output/`, sin `input/`, sin `.env` y sin `node_modules`. Cualquier servicio que construya desde un Dockerfile sirve (Cloud Run, Railway, Render, Fly).
+- **Clave:** `ANTHROPIC_API_KEY` se carga como variable de entorno (o secreto) en el panel del servicio. Nunca va en el repo ni en la imagen: el repo es público.
+- **Qué fija la imagen:** `HOST=0.0.0.0` para recibir pedidos de afuera, `PORT=8080` (si el servicio pone otro `PORT`, gana el suyo) y `TUTOR_PROVIDER=api`.
+- **Dictado:** whisper.cpp no está en la imagen, así que en la nube el alumno escribe su explicación. Sigue pendiente dónde transcribir (D-023).
+- **Gasto:** la app no tiene clave de acceso ni límite de pedidos, así que cualquiera con el link puede usarla. Conviene una clave de API solo para la app, con tope de gasto en la consola de Anthropic.
+
 ## Configuración (`.env`)
 
 | Variable | Por defecto | Para qué |
@@ -45,4 +55,5 @@ cd "/Users/gastonfb/Dev_Apps/MaiPistinerTool/CBC Preptest/output" && npm run pro
 | `WHISPER_CLI` | `whisper-cli` | Ejecutable de whisper.cpp para el dictado. |
 | `WHISPER_MODEL` | `~/models/ggml-large-v3-turbo-q5_0.bin` | Modelo de whisper.cpp. |
 | `FFMPEG` | `ffmpeg` | Para pasar el audio del navegador a WAV de 16 kHz. |
-| `PORT` | `4321` | Puerto local. |
+| `PORT` | `4321` | Puerto donde escucha. |
+| `HOST` | `127.0.0.1` | Desde dónde acepta conexiones. Local: solo esta computadora. En la nube: `0.0.0.0`. |
