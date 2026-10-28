@@ -163,22 +163,27 @@ h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
 .offline code{padding:10px 20px;border-radius:12px;background:var(--navy);color:#fff;font-size:20px}
 
 /* Infinita */
-.inf{display:grid;grid-template-columns:1fr 1010px;gap:70px;flex:1;min-height:0;align-items:center}
+.inf{display:grid;grid-template-columns:1fr 560px;gap:90px;flex:1;min-height:0;align-items:center}
 .inf .head{margin-bottom:40px}
 .points{list-style:none;padding:0;display:flex;flex-direction:column;gap:26px}
 .points li{display:flex;gap:22px;align-items:flex-start}
 .points .num{flex:none}
 .points b{display:block;font-family:var(--fs);font-size:28px;margin-bottom:6px}
 .points span{font-size:22px;line-height:1.45;color:var(--gray-700)}
-.reels-h{margin-bottom:22px;font-size:19px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
-.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
-.reels figure{margin:0;display:flex;flex-direction:column;gap:16px}
-.reel-ph{position:relative;aspect-ratio:9/16;padding:10px;border-radius:40px;background:var(--navy-700);box-shadow:0 30px 60px rgba(14,18,34,.25);cursor:pointer}
-.reel-ph video{display:block;width:100%;height:100%;object-fit:cover;border-radius:31px;background:#111}
-.snd{position:absolute;top:24px;right:24px;padding:6px 14px;border-radius:999px;background:rgba(14,18,34,.7);color:#fff;font-size:15px;font-weight:700;pointer-events:none}
-.reel-ph.on .snd{background:var(--orange)}
-.reels figcaption{font-family:var(--fs);font-size:26px;font-weight:700;line-height:1.2}
-.reels figcaption span{display:block;margin-bottom:4px;font-family:var(--fb);font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.phone-col{display:flex;flex-direction:column;align-items:center;gap:22px}
+.phone{position:relative;width:449px;height:780px;padding:12px;border-radius:60px;background:var(--navy-700);box-shadow:0 40px 70px rgba(14,18,34,.3)}
+.feed{height:100%;overflow-y:scroll;scroll-snap-type:y mandatory;overscroll-behavior:contain;border-radius:48px;background:#111;scrollbar-width:none;cursor:pointer}
+.feed::-webkit-scrollbar{display:none}
+.reel{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always}
+.reel video{display:block;width:100%;height:100%;object-fit:cover}
+.cap{position:absolute;left:0;right:0;bottom:0;padding:70px 30px 28px;background:linear-gradient(transparent,rgba(14,18,34,.88));color:#fff;font-family:var(--fs);font-size:28px;font-weight:700;line-height:1.2;pointer-events:none}
+.cap span{display:block;margin-bottom:6px;font-family:var(--fb);font-size:15px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.snd{position:absolute;top:30px;right:30px;padding:7px 16px;border-radius:999px;background:rgba(14,18,34,.7);color:#fff;font-size:16px;font-weight:700;pointer-events:none}
+.snd.on{background:var(--orange)}
+.pager{position:absolute;top:50%;right:-34px;display:flex;flex-direction:column;gap:10px;transform:translateY(-50%)}
+.pager i{width:10px;height:10px;border-radius:5px;background:var(--gray-200);transition:height .2s,background .2s}
+.pager i.on{height:28px;background:var(--orange)}
+.hint{font-size:19px;font-weight:600;color:var(--muted)}
 
 /* Cómo sabremos que funciona */
 .checks{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
@@ -451,16 +456,20 @@ body.idle{cursor:none}
         <li><span class="num">3</span><p><b>Every few reels, explain it back</b><span>Scrolling becomes recall, not just watching.</span></p></li>
       </ul>
     </div>
-    <div>
-      <p class="reels-h">The first reels, already made</p>
-      <div class="reels">
-        <figure><div class="reel-ph"><video src="reels/weber-durkheim.mp4" poster="reels/weber-durkheim.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>Sociology</span>Weber or Durkheim?</figcaption></figure>
-        <figure><div class="reel-ph"><video src="reels/true-valid.mp4" poster="reels/true-valid.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>IPC</span>True isn't valid</figcaption></figure>
-        <figure><div class="reel-ph"><video src="reels/state-government.mp4" poster="reels/state-government.jpg" muted loop playsinline preload="metadata"></video><span class="snd">Sound off</span></div><figcaption><span>ICSE</span>State ≠ government</figcaption></figure>
+    <div class="phone-col">
+      <div class="phone">
+        <div class="feed" id="feed">
+          <div class="reel"><video src="reels/weber-durkheim-dialogo.mp4" poster="reels/weber-durkheim-dialogo.jpg" muted loop playsinline preload="metadata"></video><p class="cap"><span>Sociology</span>Weber or Durkheim?</p></div>
+          <div class="reel"><video src="reels/true-valid.mp4" poster="reels/true-valid.jpg" muted loop playsinline preload="metadata"></video><p class="cap"><span>IPC</span>True isn't valid</p></div>
+          <div class="reel"><video src="reels/state-government.mp4" poster="reels/state-government.jpg" muted loop playsinline preload="metadata"></video><p class="cap"><span>ICSE</span>State ≠ government</p></div>
+        </div>
+        <span class="snd" id="snd">Sound off</span>
+        <div class="pager" id="pager"><i class="on"></i><i></i><i></i></div>
       </div>
+      <p class="hint">The first reels, already made · scroll for the next one</p>
     </div>
   </div>
-  <div class="notes">The feed is a concept, but the content already exists: three reels, one per subject, about 45 seconds each. Click one to hear it. Same engine, different format.</div>
+  <div class="notes">The feed is a concept, but the content already exists: three reels, one per subject, about 45 seconds each. The first one is a dialogue: two students, one falls for the exam trap and the other catches it. Scroll inside the phone (or press the down arrow) for the next one; click it for sound. Same engine, different format.</div>
 </section>
 
 <!-- 13 · Cómo sabremos que funciona -->
@@ -567,27 +576,38 @@ async function demo(f,on){
   }
 }
 
-// Click en un reel: le da sonido y deja en silencio a los otros
-function setSound(v,on){
-  v.muted=!on;
-  const ph=v.parentElement; ph.classList.toggle('on',on);
-  ph.querySelector('.snd').textContent=on?'Sound on':'Sound off';
+// Infinita: un reel por vez; el scroll adentro del teléfono pasa al siguiente
+const feed=document.getElementById('feed');
+const reelVids=[...feed.querySelectorAll('video')];
+const feedSlide=feed.closest('.slide');
+let curReel=0, soundOn=false, scrollT;
+function setReel(i){
+  curReel=Math.max(0,Math.min(reelVids.length-1,i));
+  const live=feedSlide.classList.contains('on');
+  reelVids.forEach((v,j)=>{
+    v.muted=!soundOn;
+    if(live&&j===curReel){ v.play().catch(()=>{}); } else { v.pause(); }
+  });
+  document.querySelectorAll('#pager i').forEach((d,j)=>d.classList.toggle('on',j===curReel));
 }
-document.querySelectorAll('.reel-ph').forEach(ph=>ph.addEventListener('click',()=>{
-  const v=ph.querySelector('video'), on=v.muted;
-  document.querySelectorAll('.reel-ph video').forEach(o=>setSound(o,false));
-  if(on){ setSound(v,true); v.play().catch(()=>{}); }
-}));
+function setSound(on){
+  soundOn=on;
+  const b=document.getElementById('snd');
+  b.textContent=on?'Sound on':'Sound off'; b.classList.toggle('on',on);
+  reelVids.forEach(v=>v.muted=!on);
+}
+feed.addEventListener('scroll',()=>{
+  clearTimeout(scrollT);
+  scrollT=setTimeout(()=>{ const i=Math.round(feed.scrollTop/feed.clientHeight); if(i!==curReel) setReel(i); },90);
+});
+feed.addEventListener('click',()=>{ setSound(!soundOn); setReel(curReel); });
 
 function go(i){
   cur=Math.max(0,Math.min(slides.length-1,i));
   slides.forEach((s,j)=>s.classList.toggle('on',j===cur));
   slides.forEach((s,j)=>s.querySelectorAll('iframe[data-src]').forEach(f=>demo(f,j===cur)));
-  // Los reels de la slide visible arrancan en silencio; los demás se pausan
-  slides.forEach((s,j)=>s.querySelectorAll('video').forEach(v=>{
-    if(j===cur){ v.play().catch(()=>{}); }
-    else { v.pause(); setSound(v,false); }
-  }));
+  // El reel visible arranca al llegar a Infinita; al salir se pausa y vuelve a silencio
+  if(slides[cur]===feedSlide){ setReel(curReel); } else { setSound(false); setReel(curReel); }
   document.getElementById('count').textContent=`${cur+1} / ${slides.length}`;
   document.getElementById('progress').style.width=((cur+1)/slides.length*100)+'%';
   const n=slides[cur].querySelector('.notes');
@@ -605,6 +625,9 @@ addEventListener('keydown',e=>{
   if(e.key==='End') go(slides.length-1);
   if(e.key==='f'||e.key==='F') toggleFs();
   if(e.key==='n'||e.key==='N') toggleNotes();
+  if(slides[cur]===feedSlide&&(e.key==='ArrowDown'||e.key==='ArrowUp')){
+    e.preventDefault(); feed.scrollBy({top:(e.key==='ArrowDown'?1:-1)*feed.clientHeight,behavior:'smooth'});
+  }
 });
 document.getElementById('prev').onclick=()=>go(cur-1);
 document.getElementById('next').onclick=()=>go(cur+1);
