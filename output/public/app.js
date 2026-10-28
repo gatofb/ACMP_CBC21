@@ -460,6 +460,8 @@ const CLARIDAD = [
 const MAX_INTENTOS = 3;
 
 const MICROFONO = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>`;
+// Dictado del navegador (Chrome, Edge, Safari): se usa cuando el servidor no tiene Whisper, como en la nube.
+const reconocedor = () => window.SpeechRecognition || window.webkitSpeechRecognition;
 
 function listaAfirmacionesHtml(p) {
   return `<ul class="lista-afirmaciones">${letrasAJuzgar(p).map((l) =>
@@ -481,7 +483,7 @@ function explicar({ previa = null } = {}) {
       <div class="bloque">
         <label class="titulo" for="explicacion">${consignaExplicar(p)}</label>
         <textarea id="explicacion" maxlength="4000" placeholder="Explicalo como si se lo contaras a un compañero.">${esc(previa?.borrador || "")}</textarea>
-        ${servidor.dictado
+        ${servidor.dictado || reconocedor()
           ? `<div class="dictado"><button type="button" class="btn secundario" id="grabar">${MICROFONO}<span>Dictar</span></button>
              <span class="chico" id="estado-dictado">Hablá con tus palabras; después podés corregir el texto.</span></div>`
           : `<p class="chico">El dictado no está disponible: escribí tu explicación.</p>`}
@@ -525,11 +527,13 @@ function explicar({ previa = null } = {}) {
 }
 
 // Graba con el micrófono y manda el audio al servidor, que lo transcribe con Whisper en esta máquina.
+// Si el servidor no tiene Whisper, transcribe el navegador.
 function conectarDictado(form, alTranscribir) {
   const boton = form.querySelector("#grabar");
   if (!boton) return;
   const aviso = form.querySelector("#estado-dictado");
   const etiqueta = boton.querySelector("span");
+  if (!estado.servidor.dictado) return dictadoDelNavegador(boton, etiqueta, aviso, alTranscribir);
   let grabador = null;
   boton.addEventListener("click", async () => {
     if (grabador?.state === "recording") return grabador.stop();
@@ -572,6 +576,82 @@ function conectarDictado(form, alTranscribir) {
     boton.classList.add("grabando");
     etiqueta.textContent = "Terminar";
     aviso.textContent = "Grabando… Tocá Terminar cuando acabes.";
+  });
+}
+
+// El navegador transcribe mientras el alumno habla (Chrome manda el audio a Google; Safari, a Apple).
+const ERRORES_DICTADO = {
+  "not-allowed": "No pude usar el micrófono: revisá el permiso del navegador.",
+  "service-not-allowed": "Este navegador no deja dictar: probá con Chrome o escribí tu explicación.",
+  "audio-capture": "No encontré un micrófono.",
+  network: "El dictado necesita internet: revisá la conexión o escribí tu explicación.",
+  "language-not-supported": "Este navegador no dicta en español: probá con Chrome o escribí tu explicación.",
+};
+// Estos cortes son normales (silencio largo, otra pestaña): si el alumno no tocó Terminar, se sigue escuchando.
+const CORTES_DICTADO = ["no-speech", "aborted"];
+
+function dictadoDelNavegador(boton, etiqueta, aviso, alTranscribir) {
+  // En Android, el modo continuo repite frases ya dichas; ahí se escucha frase por frase y se reanuda solo.
+  const continuo = !/Android/i.test(navigator.userAgent);
+  let rec = null;
+  let escuchando = false;
+  let huboTexto = false;
+  let error = null;
+
+  const terminar = () => {
+    escuchando = false;
+    boton.classList.remove("grabando");
+    etiqueta.textContent = "Dictar";
+    aviso.textContent = error && !CORTES_DICTADO.includes(error)
+      ? ERRORES_DICTADO[error] || "No se pudo dictar. Probá de nuevo o escribí tu explicación."
+      : huboTexto ? "Listo: revisá el texto y corregí lo que haga falta." : "No se escuchó nada. Probá de nuevo.";
+  };
+
+  const escuchar = () => {
+    rec = new (reconocedor())();
+    rec.lang = "es-AR";
+    rec.continuous = continuo;
+    rec.interimResults = true;
+    rec.onresult = (e) => {
+      let parcial = "";
+      for (let i = e.resultIndex; i < e.results.length; i++) {
+        const texto = e.results[i][0].transcript.trim();
+        if (!e.results[i].isFinal) parcial += ` ${texto}`;
+        else if (texto) {
+          alTranscribir(texto);
+          huboTexto = true;
+        }
+      }
+      aviso.textContent = parcial.trim() ? `Escuchando: «${parcial.trim()}»` : "Escuchando… Tocá Terminar cuando acabes.";
+    };
+    rec.onerror = (e) => { error = e.error; };
+    rec.onend = () => {
+      if (escuchando && (!error || CORTES_DICTADO.includes(error))) {
+        error = null;
+        try { return escuchar(); } catch { /* si no puede reanudar, termina */ }
+      }
+      terminar();
+    };
+    rec.start();
+  };
+
+  boton.addEventListener("click", () => {
+    if (escuchando) {
+      escuchando = false;
+      return rec.stop();
+    }
+    escuchando = true;
+    huboTexto = false;
+    error = null;
+    boton.classList.add("grabando");
+    etiqueta.textContent = "Terminar";
+    aviso.textContent = "Escuchando… Tocá Terminar cuando acabes.";
+    try {
+      escuchar();
+    } catch {
+      error = "service-not-allowed";
+      terminar();
+    }
   });
 }
 

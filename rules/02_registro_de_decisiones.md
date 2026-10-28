@@ -38,6 +38,7 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-025](#d-025) | 2026-10-28 | La app no nombra a Claude: se dice "el tutor" | Vigente |
 | [D-026](#d-026) | 2026-10-28 | En la nube la app usa la API de Anthropic y corre desde un Dockerfile | Vigente |
 | [D-028](#d-028) | 2026-10-28 | La app también se publica en Vercel, con una función por ruta de la API | Vigente |
+| [D-032](#d-032) | 2026-10-28 | En la versión online dicta el navegador; Whisper queda para local | Vigente |
 
 ---
 
@@ -230,7 +231,7 @@ En la práctica no hay opción múltiple: el alumno explica la pregunta con sus 
 - **Explicarlo de nuevo:** hasta tres veces por pregunta. El mapa se actualiza con el primer intento.
 - **Dictado con Whisper local** (whisper.cpp con el modelo `large-v3-turbo` que ya estaba en `~/models`): el navegador graba y el servidor transcribe en la máquina, así que el audio no sale de la computadora. Le pasa a Whisper un glosario con los autores de la materia para que escriba bien los nombres ("Povse" y no "Popse"). Tarda alrededor de un segundo.
 - **Reemplaza** la práctica con opciones, la pista y la comprobación (D-008 en esa parte). El diagnóstico sigue en el formato del examen, con las marcas de D-021.
-- **Pendiente:** para la app publicada hay que decidir dónde se transcribe el audio, porque no va a correr en la máquina de cada alumno.
+- **Pendiente:** para la app publicada hay que decidir dónde se transcribe el audio, porque no va a correr en la máquina de cada alumno. Se resolvió en D-032: dicta el navegador.
 
 ### D-024
 **Módulo de Sociología: Cátedra A · Bustos, con 10 finales** · 2026-10-27 · Gastón · Vigente
@@ -264,7 +265,7 @@ Para que la app pueda publicarse en un servicio en la nube y la usen otros alumn
 - **La clave** se carga como variable de entorno en el servicio. No va en el repo (es público) ni en la imagen.
 - **Dockerfile en `CBC Preptest/`:** la imagen lleva `rules/` y `output/`, sin `input/` ni `.env`. Escucha en `0.0.0.0` y en el puerto 8080, o en el `PORT` que ponga el servicio.
 - **En local no cambia nada:** sin `HOST`, el servidor sigue atendiendo solo a esta computadora.
-- **Dictado:** no está en la nube; el alumno escribe. Sigue pendiente lo de D-023.
+- **Dictado:** no está en la nube; el alumno escribe. Sigue pendiente lo de D-023. Desde D-032, en la nube dicta el navegador.
 - **Sin clave de acceso ni límite de pedidos, por ahora** (Gastón): el gasto se controla con una clave de API solo para la app y un tope en la consola de Anthropic.
 
 ### D-028
@@ -276,5 +277,18 @@ Además del Dockerfile (D-026), la app puede publicarse en Vercel, que no corre 
 - **En Vercel no escucha en un puerto:** `server.mjs` solo abre el puerto si no está en Vercel. En local y en Docker no cambia nada.
 - **El cuerpo del pedido:** Vercel suele entregarlo ya leído en `req.body`; si no, se lee como en local.
 - **Configuración en `vercel.json`:** las páginas salen de `output/public/`, las dependencias se instalan en `output/` y las funciones llevan `rules/` y tienen hasta 60 segundos.
-- **Única variable:** `ANTHROPIC_API_KEY`. El dictado tampoco está en Vercel.
+- **Única variable:** `ANTHROPIC_API_KEY`. El dictado tampoco está en Vercel (desde D-032, dicta el navegador).
 - **Pendiente:** probarla en Vercel. Se probó en local, imitando cómo Vercel entrega los pedidos.
+
+### D-032
+**En la versión online dicta el navegador; Whisper queda para local** · 2026-10-28 · Gastón · Vigente
+
+En la nube y en Vercel no hay Whisper (D-026, D-028). Gastón pidió sumar dictado a la versión online con el dictado del navegador o `whisper-small`, el que mejor funcione en español o inglés. Se eligió el del navegador (Web Speech API).
+
+- **Por qué el navegador y no `whisper-small`:** `whisper-small` tendría que correr en el navegador del alumno y bajar un modelo de unos 200 MB, lento en el celular. El del navegador no baja nada, transcribe mientras el alumno habla y en español rioplatense anda bien. Tampoco suma otra clave ni costo.
+- **Cuándo se usa:** si el servidor tiene Whisper (local), sigue Whisper. Si no, dicta el navegador. Si el navegador no tiene dictado (Firefox), el alumno escribe.
+- **Idioma:** `es-AR`, porque las explicaciones son en español.
+- **Privacidad:** en Chrome el audio pasa por Google; en Edge, por Microsoft; en Safari, por Apple. En local el audio sigue sin salir de la máquina.
+- **Cómo anda:** muestra lo que va entendiendo y suma cada frase al cuadro; el alumno la corrige antes de enviar. Si el navegador corta por un silencio, sigue escuchando hasta que el alumno toca Terminar. En Android escucha frase por frase, porque en modo continuo repite frases.
+- **Sin el glosario de autores:** el dictado del navegador no acepta la lista de nombres que se le pasa a Whisper, así que puede escribir mal algún apellido.
+- **Pendiente:** probarlo en Vercel con un micrófono, en Chrome y en Safari del celular. En local se probó la lógica con un reconocedor simulado.

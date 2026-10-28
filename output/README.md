@@ -4,7 +4,7 @@ Capa de entrenamiento para el 1er parcial de ICSE (Cátedra Pedrosa). Lee las pr
 
 - **Diagnóstico:** 18 preguntas reales con la seguridad del alumno y sin feedback. Arma el mapa: dominado, frágil, laguna y punto ciego. No usa Claude.
 - **Práctica (Explainer Mode):** 5 preguntas, empezando por los puntos ciegos. No hay opciones: el alumno explica, escrito o dictado. Claude lee la explicación contra la ficha, le dice qué habría marcado en el examen y le califica la claridad con cuatro chequeos. Después el alumno puede volver a explicarla.
-- **Dictado:** el navegador graba y el servidor transcribe en la máquina con whisper.cpp; el audio no sale de la computadora.
+- **Dictado:** en local, el navegador graba y el servidor transcribe en la máquina con whisper.cpp; el audio no sale de la computadora. Online no hay Whisper y dicta el navegador (Chrome, Edge o Safari).
 
 La clave de la API y las respuestas correctas quedan en el servidor; el navegador recibe la clave de una pregunta recién después de responderla. El mapa del alumno se guarda en su navegador.
 
@@ -40,7 +40,7 @@ En la nube la app usa siempre la API: la sesión del CLI es tu suscripción pers
 - **Imagen:** el [Dockerfile](../Dockerfile) está en la carpeta `CBC Preptest`, no en `output/`, porque el servidor lee las preguntas de `rules/`. La imagen lleva solo `rules/` y `output/`, sin `input/`, sin `.env` y sin `node_modules`. Cualquier servicio que construya desde un Dockerfile sirve (Cloud Run, Railway, Render, Fly).
 - **Clave:** `ANTHROPIC_API_KEY` se carga como variable de entorno (o secreto) en el panel del servicio. Nunca va en el repo ni en la imagen: el repo es público.
 - **Qué fija la imagen:** `HOST=0.0.0.0` para recibir pedidos de afuera, `PORT=8080` (si el servicio pone otro `PORT`, gana el suyo) y `TUTOR_PROVIDER=api`.
-- **Dictado:** whisper.cpp no está en la imagen, así que en la nube el alumno escribe su explicación. Sigue pendiente dónde transcribir (D-023).
+- **Dictado:** whisper.cpp no está en la imagen, así que en la nube dicta el navegador del alumno (Web Speech API, en `es-AR`). En Chrome el audio pasa por Google; en Edge, por Microsoft; en Safari, por Apple. En Firefox no hay dictado y el alumno escribe (D-032).
 - **Gasto:** la app no tiene clave de acceso ni límite de pedidos, así que cualquiera con el link puede usarla. Conviene una clave de API solo para la app, con tope de gasto en la consola de Anthropic.
 
 ### En Vercel
@@ -49,10 +49,10 @@ Vercel no usa el Dockerfile. Usa [vercel.json](../vercel.json) y la carpeta [api
 
 - **Páginas:** las sirve Vercel directo desde `output/public/`.
 - **`/api/...`:** cada ruta es una función de Vercel (`api/estado.mjs`, `api/explicar.mjs`, etc.) que le pasa el pedido al mismo `server.mjs`. Las funciones llevan `rules/` y tienen hasta 60 segundos por pedido, para que el tutor alcance a evaluar.
-- **Cómo publicarla:** en Vercel, importar el repo con *Root Directory* `CBC Preptest`, si no es la raíz del repo. No hace falta tocar el framework ni los comandos: los fija `vercel.json`.
+- **Cómo publicarla:** en Vercel, importar el repo `gatofb/ACMP_CBC21` y dejar *Root Directory* vacío, porque `CBC Preptest` ya es la raíz del repo. No hace falta tocar el framework ni los comandos: los fija `vercel.json`. En *Settings → Build and Deployment* no tiene que haber nada pisado (Framework *Other*, sin Output Directory propio).
 - **Variables:** solo `ANTHROPIC_API_KEY`, en *Settings → Environment Variables*. `CLAUDE_MODEL` y `CLAUDE_EFFORT` son opcionales.
 - **Qué sube:** [.vercelignore](../.vercelignore) deja pasar solo `api/`, `output/` y `rules/`, sin `.env` ni `node_modules`.
-- **Dictado:** tampoco está en Vercel; el alumno escribe.
+- **Dictado:** Whisper tampoco está en Vercel; dicta el navegador, como en la nube.
 
 ## Configuración (`.env`)
 
