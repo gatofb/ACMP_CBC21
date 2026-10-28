@@ -204,6 +204,19 @@ h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
 .path span{padding:10px 20px;border-radius:999px;background:#fff;font-size:21px;font-weight:600}
 .path i{width:12px;height:12px;border-top:3px solid var(--orange);border-right:3px solid var(--orange);transform:rotate(45deg)}
 .fig{display:flex;gap:40px;margin-top:6px}
+/* 17 · Behind the scenes */
+.bts{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;flex:1;min-height:0}
+.work{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:1fr;gap:20px}
+.work div{display:flex;flex-direction:column;gap:10px;padding:30px 32px;border-radius:24px;background:var(--gray)}
+.work b{font-family:var(--fs);font-size:60px;font-weight:900;line-height:1;letter-spacing:-.02em;color:var(--navy)}
+.work span{font-size:22px;line-height:1.35;color:var(--gray-700)}
+.cost{display:flex;flex-direction:column;gap:18px;padding:44px 50px;border-radius:28px;background:var(--navy);color:#fff}
+.cost .lbl{font-size:19px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.cost>b{font-family:var(--fs);font-size:130px;font-weight:900;line-height:1;letter-spacing:-.03em;color:var(--orange)}
+.cost>p{font-size:24px;line-height:1.4;color:rgba(255,255,255,.8)}
+.cost ul{list-style:none;margin:auto 0 0;padding-left:0;display:flex;flex-direction:column;gap:14px;padding-top:24px;border-top:1px solid rgba(255,255,255,.15)}
+.cost li{display:flex;justify-content:space-between;align-items:baseline;gap:20px;font-size:23px;color:rgba(255,255,255,.75)}
+.cost li b{font-family:var(--fs);font-size:34px;font-weight:700;color:#fff}
 .fig b{display:block;font-family:var(--fs);font-size:64px;font-weight:900;line-height:1;color:var(--orange)}
 .fig span{font-size:20px;color:rgba(255,255,255,.7)}
 
@@ -533,6 +546,36 @@ body.idle{cursor:none}
     <li><b>Training Magazine, 2025</b><span>2025 Training Industry Report. US organizations with 100+ employees.</span></li>
     <li><b>UBA XXI exams</b><span>Our analysis of five ICSE exams, Cátedra Pedrosa, 2024–2026.</span></li>
   </ul>
+</section>
+
+<!-- 17 · Detrás del proyecto: costo en tokens y trabajo (sesiones de Claude Code del 27 y 28 de octubre de 2026) -->
+<section class="slide white">
+  <div class="head" style="margin-bottom:44px">
+    <p class="eyebrow">Behind the scenes</p>
+    <h2>Built with AI in <span class="kw">two days</span></h2>
+    <p class="lead">One person directing Claude Code. The app, the question bank, the reels and this deck came out of these sessions.</p>
+  </div>
+  <div class="bts">
+    <div class="work">
+      <div><b>~8 h</b><span>of hands-on work, Oct 27–28</span></div>
+      <div><b>115</b><span>prompts from me</span></div>
+      <div><b>2,476</b><span>actions by the AI: commands, edits, browser checks</span></div>
+      <div><b>35</b><span>AI agents, many running in parallel</span></div>
+      <div><b>373</b><span>practice questions and 148 idea cards, in 3 subjects</span></div>
+      <div><b>28</b><span>commits · 46k lines · 5 videos · 3 decks</span></div>
+    </div>
+    <div class="cost">
+      <span class="lbl">The cost</span>
+      <b>$229</b>
+      <p>in tokens, at Claude Opus 5.5 API list price.</p>
+      <ul>
+        <li>Tokens processed<b>645M</b></li>
+        <li>Read from cache<b>98%</b></li>
+        <li>Written by the model<b>2.3M</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="notes">Measured from the Claude Code session logs that worked on PrepTest, including the video sessions, through the evening of October 28. Hands-on time counts only stretches with activity, no gaps over ten minutes. Most of the tokens are the model re-reading its own context from cache, which is why it's cheap: $4 per million input, $20 per million output, $0.20 per million cache reads. The 35 agents are 5 working sessions plus 30 helper agents for research, extraction and review.</div>
 </section>
 
 <div class="notes-panel" id="notesPanel"><small>Speaker notes</small><span id="notesText"></span></div>
