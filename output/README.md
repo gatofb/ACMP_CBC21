@@ -52,6 +52,7 @@ Vercel no usa el Dockerfile. Usa [vercel.json](../vercel.json) y la carpeta [api
 - **Cómo publicarla:** en Vercel, importar el repo `gatofb/ACMP_CBC21` y dejar *Root Directory* vacío, porque `CBC Preptest` ya es la raíz del repo. No hace falta tocar el framework ni los comandos: los fija `vercel.json`. En *Settings → Build and Deployment* no tiene que haber nada pisado (Framework *Other*, sin Output Directory propio).
 - **Variables:** solo `ANTHROPIC_API_KEY`, en *Settings → Environment Variables*. `CLAUDE_MODEL` y `CLAUDE_EFFORT` son opcionales.
 - **Qué sube:** [.vercelignore](../.vercelignore) deja pasar solo `api/`, `output/` y `rules/`, sin `.env` ni `node_modules`.
+- **Dependencias:** Vercel las instala con el [package.json](../package.json) de la raíz, porque las funciones no ven las de `output/`. Repite las de `output/package.json`: si cambian ahí, se cambian en los dos.
 - **Dictado:** Whisper tampoco está en Vercel; dicta el navegador, como en la nube.
 
 ## Configuración (`.env`)

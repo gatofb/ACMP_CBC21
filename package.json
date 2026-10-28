@@ -1,0 +1,12 @@
+{
+  "name": "preptest-uba-xxi-vercel",
+  "private": true,
+  "description": "Dependencias de las funciones de Vercel (api/). Son las mismas que output/package.json: si cambian ahí, se cambian acá.",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "js-yaml": "^4.1.0"
+  }
+}

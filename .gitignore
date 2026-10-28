@@ -4,3 +4,6 @@ __pycache__/
 
 # Los PDF de exámenes no se suben: el repo es público y no republicamos los exámenes.
 input/**/*.pdf
+
+# Dependencias de las funciones de Vercel (se instalan con npm ci en la raíz).
+/node_modules/
