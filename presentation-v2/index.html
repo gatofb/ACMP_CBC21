@@ -184,23 +184,20 @@ h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
 .tier:nth-child(3){width:76%;background:var(--orange)}
 .tier:nth-child(3) span{opacity:.9}
 
-/* UBA */
-.uba{display:grid;grid-template-columns:1fr 1fr;gap:80px;flex:1;min-height:0}
-.uba .lead{font-size:28px}
-.subjects{display:flex;flex-direction:column;gap:16px;margin-top:40px}
-.subj{display:flex;align-items:center;justify-content:space-between;padding:22px 28px;border-radius:20px;background:var(--gray);font-size:24px}
-.subj b{font-family:var(--fs);font-size:28px}
-.subj small{display:block;font-size:19px;color:var(--muted)}
-.pill{padding:6px 16px;border-radius:999px;font-size:17px;font-weight:700;white-space:nowrap}
+/* UBA: el primer laboratorio */
+.lab{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:stretch}
+.subjects{display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.subj{flex:1;display:flex;align-items:center;justify-content:space-between;padding:28px 36px;border-radius:24px;background:var(--gray);font-size:24px}
+.subj b{font-family:var(--fs);font-size:36px}
+.subj small{display:block;margin-top:4px;font-size:21px;color:var(--muted)}
+.pill{padding:8px 18px;border-radius:999px;font-size:18px;font-weight:700;white-space:nowrap}
 .pill.live{background:#dff3ea;color:var(--ok)}
 .pill.wip{background:#fdf0d8;color:#a86a00}
-.facts{display:flex;flex-direction:column;gap:18px}
-.fact{display:grid;grid-template-columns:230px 1fr;gap:28px;align-items:center;padding:24px 30px;border-radius:22px;background:var(--navy);color:#fff}
-.fact b{font-family:var(--fs);font-size:54px;font-weight:900;color:var(--orange);line-height:1}
-.fact span{font-size:23px;line-height:1.4;color:rgba(255,255,255,.85)}
-.types{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
-.types span{padding:10px 20px;border-radius:999px;border:1.5px solid var(--gray-200);background:#fff;font-size:20px;font-weight:600}
-.facts-h{font-size:19px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.bigstat{display:flex;flex-direction:column;justify-content:center;gap:24px;padding:54px 60px;border-radius:28px;background:var(--navy);color:#fff}
+.bigstat b{font-family:var(--fs);font-size:130px;font-weight:900;line-height:1;color:var(--orange);letter-spacing:-.02em}
+.bigstat p{font-size:29px;line-height:1.4;color:rgba(255,255,255,.85)}
+.bigstat .take{padding-top:24px;border-top:1px solid rgba(255,255,255,.15);font-family:var(--fs);font-size:32px;font-weight:700;color:#fff}
+.bigstat .take span{color:var(--orange)}
 
 /* Principios */
 .princ{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
@@ -367,6 +364,35 @@ body.idle{cursor:none}
   <div class="notes">Before talking about the problem, one definition. Learning isn't recognizing or repeating: it's being able to explain it in your own words.</div>
 </section>
 
+<!-- Desierto -->
+<section class="slide inv">
+  <div class="head" style="margin-bottom:10px">
+    <p class="eyebrow">An analogy</p>
+    <h2>Learning is crossing a <span class="kw">desert</span></h2>
+  </div>
+  <div class="desert" aria-hidden="true">
+    <svg viewBox="0 0 1920 430">
+      <path d="M0 300 C 240 230, 460 280, 700 245 S 1100 195, 1340 235 S 1700 210, 1920 245 L1920 430 L0 430Z" fill="#2b3456"/>
+      <path d="M0 360 C 300 310, 560 370, 900 330 S 1420 300, 1920 345 L1920 430 L0 430Z" fill="#323c63"/>
+      <path d="M270 345 Q 960 -40 1650 312" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="4" stroke-dasharray="14 14"/>
+      <path d="M270 345 C 520 290, 700 370, 960 325 S 1440 290, 1650 312" fill="none" stroke="#f74604" stroke-width="11" stroke-linecap="round" stroke-dasharray="1 26"/>
+      <circle cx="270" cy="345" r="16" fill="#fff"/>
+      <circle cx="1650" cy="312" r="16" fill="#f74604"/>
+      <line x1="1650" y1="312" x2="1650" y2="232" stroke="#fff" stroke-width="4"/>
+      <path d="M1650 232 L1702 248 L1650 264Z" fill="#f74604"/>
+      <text x="270" y="400" text-anchor="middle" fill="rgba(255,255,255,.7)" font-family="Inter" font-size="24" font-weight="600">Not knowing</text>
+      <text x="1650" y="370" text-anchor="middle" fill="#fff" font-family="Inter" font-size="24" font-weight="600">Knowing</text>
+      <text x="960" y="128" text-anchor="middle" fill="rgba(255,255,255,.6)" font-family="Inter" font-size="22" font-weight="600" letter-spacing="3">THE SHORTCUT</text>
+    </svg>
+  </div>
+  <div class="desert-cap">
+    <div><i></i><p><b>The crossing</b><span>Slow and tiring, and it's what changes you. Every step you take yourself stays with you.</span></p></div>
+    <div><i class="dash"></i><p><b>The shortcut</b><span>You get there on time but you never crossed. You spend the hours and keep nothing.</span></p></div>
+  </div>
+  <p class="note"><b>Enjoy the journey, not just the destination.</b> The path isn't how you get to the result: it's where learning happens.</p>
+  <div class="notes">If someone flies you over the desert, you arrive but you can't cross it again on your own. In education the path isn't just a way to the result. The path is the learning.</div>
+</section>
+
 <!-- El problema: respuestas, no pensamiento -->
 <section class="slide">
   <div class="head" style="margin-bottom:0">
@@ -490,35 +516,6 @@ body.idle{cursor:none}
   <div class="notes">If we had to write it as a startup problem statement, this is it. The third line is the one to stop on.</div>
 </section>
 
-<!-- Desierto -->
-<section class="slide inv">
-  <div class="head" style="margin-bottom:10px">
-    <p class="eyebrow">An analogy</p>
-    <h2>Learning is crossing a <span class="kw">desert</span></h2>
-  </div>
-  <div class="desert" aria-hidden="true">
-    <svg viewBox="0 0 1920 430">
-      <path d="M0 300 C 240 230, 460 280, 700 245 S 1100 195, 1340 235 S 1700 210, 1920 245 L1920 430 L0 430Z" fill="#2b3456"/>
-      <path d="M0 360 C 300 310, 560 370, 900 330 S 1420 300, 1920 345 L1920 430 L0 430Z" fill="#323c63"/>
-      <path d="M270 345 Q 960 -40 1650 312" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="4" stroke-dasharray="14 14"/>
-      <path d="M270 345 C 520 290, 700 370, 960 325 S 1440 290, 1650 312" fill="none" stroke="#f74604" stroke-width="11" stroke-linecap="round" stroke-dasharray="1 26"/>
-      <circle cx="270" cy="345" r="16" fill="#fff"/>
-      <circle cx="1650" cy="312" r="16" fill="#f74604"/>
-      <line x1="1650" y1="312" x2="1650" y2="232" stroke="#fff" stroke-width="4"/>
-      <path d="M1650 232 L1702 248 L1650 264Z" fill="#f74604"/>
-      <text x="270" y="400" text-anchor="middle" fill="rgba(255,255,255,.7)" font-family="Inter" font-size="24" font-weight="600">Not knowing</text>
-      <text x="1650" y="370" text-anchor="middle" fill="#fff" font-family="Inter" font-size="24" font-weight="600">Knowing</text>
-      <text x="960" y="128" text-anchor="middle" fill="rgba(255,255,255,.6)" font-family="Inter" font-size="22" font-weight="600" letter-spacing="3">THE SHORTCUT</text>
-    </svg>
-  </div>
-  <div class="desert-cap">
-    <div><i></i><p><b>The crossing</b><span>Slow and tiring, and it's what changes you. Every step you take yourself stays with you.</span></p></div>
-    <div><i class="dash"></i><p><b>The shortcut</b><span>You get there on time but you never crossed. You spend the hours and keep nothing.</span></p></div>
-  </div>
-  <p class="note"><b>Enjoy the journey, not just the destination.</b> The path isn't how you get to the result: it's where learning happens.</p>
-  <div class="notes">If someone flies you over the desert, you arrive but you can't cross it again on your own. In education the path isn't just a way to the result. The path is the learning.</div>
-</section>
-
 <!-- Tipos de aprendizaje -->
 <section class="slide white">
   <div class="head" style="margin-bottom:40px">
@@ -572,29 +569,24 @@ body.idle{cursor:none}
 
 <!-- UBA: el primer laboratorio -->
 <section class="slide white">
-  <div class="uba">
-    <div>
-      <div class="head" style="margin-bottom:30px">
-        <p class="eyebrow">The first lab</p>
-        <h2>A prep test for <span class="kw">university</span></h2>
-      </div>
-      <p class="lead">Every degree at the University of Buenos Aires starts with the CBC, its entry year, which many students take remotely through UBA XXI. We started with Law.</p>
-      <div class="subjects">
-        <div class="subj"><p><b>ICSE</b><small>Society and the State · Pedrosa</small></p><span class="pill live">Live</span></div>
-        <div class="subj"><p><b>Sociology</b><small>Cátedra A · Bustos</small></p><span class="pill live">Live</span></div>
-        <div class="subj"><p><b>IPC</b><small>Scientific Thinking · Buacar</small></p><span class="pill wip">In progress</span></div>
-      </div>
+  <div class="head" style="margin-bottom:56px">
+    <p class="eyebrow">The first lab</p>
+    <h2>A prep test for <span class="kw">university</span></h2>
+    <p class="lead">Every degree at the University of Buenos Aires starts with the CBC, its entry year. We started with Law.</p>
+  </div>
+  <div class="lab">
+    <div class="subjects">
+      <div class="subj"><p><b>ICSE</b><small>Society and the State</small></p><span class="pill live">Live</span></div>
+      <div class="subj"><p><b>Sociology</b><small>Cátedra A · Bustos</small></p><span class="pill live">Live</span></div>
+      <div class="subj"><p><b>IPC</b><small>Scientific Thinking</small></p><span class="pill wip">In progress</span></div>
     </div>
-    <div class="facts">
-      <p class="facts-h">What the exam really tests</p>
-      <div class="fact"><b>18 · 90′</b><span>Multiple-choice questions in an hour and a half.</span></div>
-      <div class="fact"><b>0</b><span>Partial credit. One wrong option in a combined answer zeroes the whole question.</span></div>
-      <div class="fact"><b>90 → 64</b><span>Questions vs. distinct ideas in five ICSE exams (2024–2026). The same ideas come back, reworded.</span></div>
-      <div class="types"><span>True/false + why</span><span>Combined options</span><span>"According to [author]…"</span></div>
-      <p class="note" style="margin-top:10px">Memorizing answers doesn't work. <b>Understanding the idea</b> does.</p>
+    <div class="bigstat">
+      <b>90 → 64</b>
+      <p>Five real ICSE exams: 90 questions, only 64 different ideas. They come back, reworded.</p>
+      <p class="take">Memorizing answers doesn't work. <span>Understanding the idea does.</span></p>
     </div>
   </div>
-  <div class="notes">UBA XXI is the first lab, not the end goal. High volume, high stakes, and an exam that punishes almost-knowing. We read the real exams before building anything.</div>
+  <div class="notes">UBA XXI is the first lab, not the end goal. Many CBC students take it remotely through UBA XXI. If they ask about the exam: 18 multiple-choice questions in 90 minutes, no partial credit (one wrong option in a combined answer zeroes the question), and three kinds of questions: true/false with a reason, combined options, and "according to [author]". We read the real exams before building anything.</div>
 </section>
 
 <!-- Principios de la solución -->
