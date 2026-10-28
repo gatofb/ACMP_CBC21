@@ -58,6 +58,8 @@ export const TEXTOS = {
     cta_titulo: "Las mismas ideas vuelven con otras palabras.",
     cta_texto: (apariciones, ideas) => `En ${apariciones} preguntas de exámenes reales hay solo ${ideas} ideas distintas. Entendé la idea y la respondés como te la pregunten.`,
     video_nota: "El video está en inglés.",
+    ver_presentacion: "Ver la presentación del proyecto →",
+    presentacion_nota: "Está en inglés.",
 
     // Carreras y materias
     paso_de: (n) => `Paso ${n} de 2`,
@@ -238,6 +240,8 @@ export const TEXTOS = {
     cta_titulo: "The same ideas come back, reworded.",
     cta_texto: (apariciones, ideas) => `${apariciones} real exam questions, only ${ideas} different ideas. Understand the idea and you can answer it however it's asked.`,
     video_nota: "",
+    ver_presentacion: "See the project presentation →",
+    presentacion_nota: "",
 
     paso_de: (n) => `Step ${n} of 2`,
     elegi_carrera: 'Choose your <span class="kw">degree</span>',

@@ -267,7 +267,7 @@ async function leerAudio(req) {
 
 const TIPOS = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8",
   ".css": "text/css; charset=utf-8", ".svg": "image/svg+xml", ".png": "image/png", ".webp": "image/webp",
-  ".mp4": "video/mp4" };
+  ".mp4": "video/mp4", ".jpg": "image/jpeg", ".jpeg": "image/jpeg" };
 
 // Los mensajes de error en inglés, para quien usa la app en inglés (se reconocen por cómo empiezan).
 const ERRORES_EN = [
@@ -392,6 +392,18 @@ export const servidor = createServer(async (req, res) => {
       return json(res, 200, responder(await leerCuerpo(req)));
     }
 
+    // La presentación vive en presentation-v3/ (en Vercel se copia a public al publicar; acá se sirve de su carpeta).
+    if (url.pathname === "/presentation-v3") {
+      res.writeHead(302, { location: "/presentation-v3/" });
+      return res.end();
+    }
+    if (url.pathname.startsWith("/presentation-v3/")) {
+      const base = join(AQUI, "..", "presentation-v3");
+      const pedida = decodeURIComponent(url.pathname.slice("/presentation-v3/".length)) || "index.html";
+      const archivo = normalize(join(base, pedida));
+      if (!archivo.startsWith(base)) return json(res, 403, { error: "Ruta no permitida." });
+      return await servirArchivo(req, res, archivo);
+    }
     const ruta = normalize(join(PUBLICO, url.pathname === "/" ? "index.html" : url.pathname));
     if (!ruta.startsWith(PUBLICO)) return json(res, 403, { error: "Ruta no permitida." });
     return await servirArchivo(req, res, ruta);

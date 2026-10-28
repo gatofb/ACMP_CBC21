@@ -217,6 +217,8 @@ function avisoIa() {
 // El video de la Home está en inglés; en español se avisa debajo. Va debajo de "Cómo funciona" y el
 // botón "Mirá cómo funciona" del hero lleva hasta él. Los dos aparecen solo si el archivo existe.
 const VIDEO = { mp4: "video/como-funciona-en.mp4", poster: "video/como-funciona-en.webp" };
+// La presentación del proyecto (presentation-v3, que vercel.json copia a public al publicar).
+const PRESENTACION = "/presentation-v3/";
 let hayVideo = null;
 const videoDisponible = () => (hayVideo ??= fetch(VIDEO.mp4, { method: "HEAD" }).then((r) => r.ok).catch(() => false));
 
@@ -274,7 +276,11 @@ function landing() {
       <p>${t("cta_texto", suma("apariciones"), suma("fichas"))}</p>
       ${boton("blanco")}
     </section>
-`;
+
+    <p class="presentacion">
+      <a class="btn secundario" href="${PRESENTACION}" target="_blank" rel="noopener">${t("ver_presentacion")}</a>
+      ${t("presentacion_nota") ? `<span class="chico">${t("presentacion_nota")}</span>` : ""}
+    </p>`;
 
   // La entrada se anima recién cuando el navegador dibuja: si no dibuja (una vista previa, una captura),
   // el contenido se ve igual, sin quedar invisible.

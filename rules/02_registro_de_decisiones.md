@@ -48,6 +48,7 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-035](#d-035) | 2026-10-28 | La Home se simplifica con la idea de la presentación, el video y PostHog | Reemplazada por D-036 (lo de PostHog sigue) |
 | [D-036](#d-036) | 2026-10-28 | Home más directa: hero con una muestra del Explainer, tres pasos y un bloque naranja | Vigente (el video, ver D-037) |
 | [D-037](#d-037) | 2026-10-28 | El video "How it works" va en "Cómo funciona", al lado de los pasos | Vigente |
+| [D-038](#d-038) | 2026-10-28 | La Home termina con un link a la presentación del proyecto | Vigente |
 
 ---
 
@@ -404,3 +405,11 @@ Cambia lo del video de D-036 (que se abría en una ventana). Gastón pidió el v
 - **Dónde:** como es vertical, en pantallas anchas va a la derecha de los tres pasos, que pasan a una columna; en el celular, debajo de los pasos. El botón "Mirá cómo funciona" del hero baja hasta el video.
 - **Si el archivo no está**, no aparecen ni el video ni el botón, y los pasos quedan en fila.
 - En español se avisa debajo que el video está en inglés. Hay otra versión sin audio en la misma carpeta; no se usa.
+
+### D-038
+**La Home termina con un link a la presentación del proyecto** · 2026-10-28 · Gastón · Vigente
+
+Gastón pidió el link a la presentación al final de la Home.
+
+- **Qué:** debajo del bloque naranja, el botón "Ver la presentación del proyecto →" (en inglés, "See the project presentation →") abre `/presentation-v3/` en otra pestaña, así no se pierde la app. En español se avisa que está en inglés.
+- **Dónde está la presentación:** en Vercel, `vercel.json` copia `presentation-v3/` a `output/public/` al publicar. En local, `server.mjs` la sirve desde su carpeta, así el link también anda en `localhost:4321`.
