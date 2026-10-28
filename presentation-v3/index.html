@@ -423,12 +423,12 @@ body.idle{cursor:none}
       <li><span class="num">4</span><p><b>Feedback</b><span>What's missing, and your own explanation rewritten clearer.</span></p></li>
     </ol>
     <div class="browser">
-      <div class="bar"><i></i><i></i><i></i><span>localhost:4321</span></div>
-      <iframe data-src="http://localhost:4321/#/abogacia/icse" title="PrepTest live demo"></iframe>
+      <div class="bar"><i></i><i></i><i></i><span id="demo-host">localhost:4321</span></div>
+      <iframe data-path="/#/abogacia/icse" title="PrepTest live demo"></iframe>
       <div class="offline" id="offline">
         <b>Live demo</b>
-        <span>Start the app on this computer and the demo loads here.</span>
-        <code>cd output &amp;&amp; npm start</code>
+        <span id="offline-msg">Start the app on this computer and the demo loads here.</span>
+        <code id="offline-cmd">cd output &amp;&amp; npm start</code>
       </div>
     </div>
   </div>
@@ -563,14 +563,23 @@ function fit(){
   document.documentElement.style.setProperty('--s',Math.min(innerWidth/1920,innerHeight/1080));
 }
 
-// La demo solo se carga en su slide; si la app no está corriendo, se muestra cómo levantarla
+// La demo solo se carga en su slide. Abierta en local usa la app de localhost:4321;
+// publicada (Vercel) usa la app del mismo sitio. Si no responde, se muestra el aviso.
+const ONLINE=/^https?:$/.test(location.protocol)&&!['localhost','127.0.0.1','[::1]'].includes(location.hostname);
+const APP=ONLINE?location.origin:'http://localhost:4321';
+if(ONLINE){
+  document.getElementById('demo-host').textContent=location.host;
+  document.getElementById('offline-msg').textContent="The app didn't answer. Check the connection and come back to this slide.";
+  document.getElementById('offline-cmd').remove();
+}
 async function demo(f,on){
   const off=document.getElementById('offline');
   if(!on){ if(f.getAttribute('src')!=='about:blank') f.setAttribute('src','about:blank'); return; }
+  const src=APP+f.dataset.path;
   try{
-    await fetch('http://localhost:4321/api/estado',{mode:'no-cors',cache:'no-store'});
+    await fetch(APP+'/api/estado',{mode:'no-cors',cache:'no-store'});
     off.classList.remove('on');
-    if(f.getAttribute('src')!==f.dataset.src) f.setAttribute('src',f.dataset.src);
+    if(f.getAttribute('src')!==src) f.setAttribute('src',src);
   }catch{
     off.classList.add('on');
   }
@@ -605,7 +614,7 @@ feed.addEventListener('click',()=>{ setSound(!soundOn); setReel(curReel); });
 function go(i){
   cur=Math.max(0,Math.min(slides.length-1,i));
   slides.forEach((s,j)=>s.classList.toggle('on',j===cur));
-  slides.forEach((s,j)=>s.querySelectorAll('iframe[data-src]').forEach(f=>demo(f,j===cur)));
+  slides.forEach((s,j)=>s.querySelectorAll('iframe[data-path]').forEach(f=>demo(f,j===cur)));
   // El reel visible arranca al llegar a Infinita; al salir se pausa y vuelve a silencio
   if(slides[cur]===feedSlide){ setReel(curReel); } else { setSound(false); setReel(curReel); }
   document.getElementById('count').textContent=`${cur+1} / ${slides.length}`;

@@ -3,6 +3,8 @@
 /*
 !api
 !output
+# La presentación se copia a output/public/presentation-v3 en el build (vercel.json).
+!presentation-v3
 !rules
 !vercel.json
 !package.json

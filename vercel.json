@@ -2,7 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "npm ci",
+  "buildCommand": "rm -rf output/public/presentation-v3 && cp -R presentation-v3 output/public/presentation-v3",
   "outputDirectory": "output/public",
+  "redirects": [
+    { "source": "/presentation-v3", "destination": "/presentation-v3/", "permanent": false }
+  ],
   "functions": {
     "api/*.mjs": {
       "includeFiles": "rules/**",

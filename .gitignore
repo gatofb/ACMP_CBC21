@@ -7,3 +7,6 @@ input/**/*.pdf
 
 # Dependencias de las funciones de Vercel (se instalan con npm ci en la raíz).
 /node_modules/
+
+# Copia que arma el build de Vercel; la fuente es presentation-v3/.
+/output/public/presentation-v3/
