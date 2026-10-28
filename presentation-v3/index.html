@@ -170,10 +170,39 @@ h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
 .feed{height:100%;overflow-y:scroll;scroll-snap-type:y mandatory;overscroll-behavior:contain;border-radius:48px;background:#111;scrollbar-width:none;cursor:pointer}
 .feed::-webkit-scrollbar{display:none}
 .reel{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always}
-.reel video{display:block;width:100%;height:100%;object-fit:cover}
-.cap{position:absolute;left:0;right:0;bottom:0;padding:70px 30px 28px;background:linear-gradient(transparent,rgba(14,18,34,.88));color:#fff;font-family:var(--fs);font-size:28px;font-weight:700;line-height:1.2;pointer-events:none}
-.cap span{display:block;margin-bottom:6px;font-family:var(--fb);font-size:15px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
-.snd{position:absolute;top:30px;right:30px;padding:7px 16px;border-radius:999px;background:rgba(14,18,34,.7);color:#fff;font-size:16px;font-weight:700;pointer-events:none}
+.reel video{display:block;width:100%;object-fit:cover}
+/* Interfaz estilo reels (íconos genéricos, sin marca ni números de interacción) */
+.screen{position:relative;height:100%;border-radius:48px;overflow:hidden;background:#111}
+.screen .feed{border-radius:0}
+.ig-top{position:absolute;top:0;left:0;right:0;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:30px 26px 40px;background:linear-gradient(rgba(0,0,0,.45),transparent);color:#fff;pointer-events:none}
+.ig-top b{font-family:var(--fs);font-size:27px;font-weight:700}
+.ig-top svg{width:30px;height:30px}
+.ig-nav{position:absolute;left:0;right:0;bottom:0;z-index:2;display:flex;justify-content:space-around;align-items:center;height:70px;padding-bottom:6px;background:#0b0d14;color:#fff;pointer-events:none}
+.ig-nav svg{width:28px;height:28px}
+.ig-nav .me{width:28px;height:28px;border-radius:50%;background:var(--orange);border:2px solid #fff}
+.reel video{height:calc(100% - 70px)}
+.bar-t{position:absolute;left:0;right:0;bottom:70px;height:3px;background:rgba(255,255,255,.25);z-index:1}
+.bar-t i{display:block;height:100%;width:0;background:#fff}
+.acts{position:absolute;right:14px;bottom:98px;z-index:1;display:flex;flex-direction:column;align-items:center;gap:22px;color:#fff}
+.acts button{all:unset;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;font-size:13px;font-weight:700;filter:drop-shadow(0 1px 3px rgba(0,0,0,.5))}
+.acts svg{width:32px;height:32px;transition:transform .15s}
+.acts button:active svg{transform:scale(.85)}
+.acts .like.on svg{fill:#ff3b5c;stroke:#ff3b5c;animation:pop .35s}
+.acts .save.on svg{fill:#fff}
+@keyframes pop{40%{transform:scale(1.3)}}
+.disc{width:34px;height:34px;border-radius:9px;border:2px solid #fff;background:var(--orange) url(logo-acmp-white.svg) center/26px no-repeat;animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.meta{position:absolute;left:0;right:0;bottom:70px;z-index:0;padding:90px 74px 20px 20px;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;pointer-events:none}
+.who{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:17px;font-weight:700}
+.av{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--orange);font-family:var(--fs);font-size:22px;font-weight:900;line-height:1;box-shadow:0 0 0 2px #fff}
+.who em{font-style:normal;padding:4px 12px;border:1.5px solid rgba(255,255,255,.85);border-radius:8px;font-size:14px}
+.meta .t{font-family:var(--fs);font-size:24px;font-weight:700;line-height:1.2;margin-bottom:6px}
+.meta .tags{font-size:16px;color:rgba(255,255,255,.85);margin-bottom:10px}
+.meta .tags span{color:#fff;font-weight:700}
+.aud{display:flex;align-items:center;gap:8px;font-size:15px;color:rgba(255,255,255,.9);white-space:nowrap;overflow:hidden}
+.aud svg{flex:none;width:16px;height:16px}
+.snd{z-index:3}
+.snd{position:absolute;top:84px;right:26px;padding:7px 16px;border-radius:999px;background:rgba(14,18,34,.7);color:#fff;font-size:16px;font-weight:700;pointer-events:none}
 .snd.on{background:var(--orange)}
 .pager{position:absolute;top:50%;right:-34px;display:flex;flex-direction:column;gap:10px;transform:translateY(-50%)}
 .pager i{width:10px;height:10px;border-radius:5px;background:var(--gray-200);transition:height .2s,background .2s}
@@ -460,12 +489,16 @@ body.idle{cursor:none}
     </div>
     <div class="phone-col">
       <div class="phone">
+        <div class="screen">
+        <div class="ig-top" aria-hidden="true"><b>Reels</b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 8.5A1.5 1.5 0 0 1 4.5 7h2.8L9 4.5h6L16.7 7h2.8A1.5 1.5 0 0 1 21 8.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z"/><circle cx="12" cy="13" r="3.8"/></svg></div>
         <div class="feed" id="feed">
-          <div class="reel"><video src="reels/weber-durkheim-dialogo.mp4" poster="reels/weber-durkheim-dialogo.jpg" muted loop playsinline preload="metadata"></video><p class="cap"><span>Sociology</span>Weber or Durkheim?</p></div>
-          <div class="reel"><video src="reels/true-valid.mp4" poster="reels/true-valid.jpg" muted loop playsinline preload="metadata"></video><p class="cap"><span>IPC</span>True isn't valid</p></div>
-          <div class="reel"><video src="reels/state-government.mp4" poster="reels/state-government.jpg" muted loop playsinline preload="metadata"></video><p class="cap"><span>ICSE</span>State ≠ government</p></div>
+          <div class="reel"><video src="reels/weber-durkheim-dialogo.mp4" poster="reels/weber-durkheim-dialogo.jpg" muted loop playsinline preload="metadata"></video><div class="bar-t"><i></i></div><div class="meta"><div class="who"><span class="av">∞</span>infinita<em>Follow</em></div><p class="t">Weber or Durkheim?</p><p class="tags"><span>#Sociology</span> #UBAXXI #CBC</p><p class="aud"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>Original audio · Academia Comunica</p></div><div class="acts"><button class="like" aria-label="Like"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-9.3-9.2C1.6 8.4 3.4 4.5 7.2 4.5c2.1 0 3.6 1.2 4.8 2.9 1.2-1.7 2.7-2.9 4.8-2.9 3.8 0 5.6 3.9 4.5 6.8-1.8 4.6-9.3 9.2-9.3 9.2z"/></svg></button><button aria-label="Explain it back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.5L3.5 20.5l1.4-4.6A8.4 8.4 0 1 1 20.5 11.6z"/></svg>Explain</button><button aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21.5 3 10 13.5M21.5 3l-7 18-4.5-7.5L2.5 9z"/></svg></button><button class="save" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M18.5 21 12 16.5 5.5 21V4.5a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 1.5 1.5z"/></svg></button><span class="disc"></span></div></div>
+          <div class="reel"><video src="reels/true-valid.mp4" poster="reels/true-valid.jpg" muted loop playsinline preload="metadata"></video><div class="bar-t"><i></i></div><div class="meta"><div class="who"><span class="av">∞</span>infinita<em>Follow</em></div><p class="t">True isn't valid</p><p class="tags"><span>#IPC</span> #Logic #UBAXXI</p><p class="aud"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>Original audio · Academia Comunica</p></div><div class="acts"><button class="like" aria-label="Like"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-9.3-9.2C1.6 8.4 3.4 4.5 7.2 4.5c2.1 0 3.6 1.2 4.8 2.9 1.2-1.7 2.7-2.9 4.8-2.9 3.8 0 5.6 3.9 4.5 6.8-1.8 4.6-9.3 9.2-9.3 9.2z"/></svg></button><button aria-label="Explain it back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.5L3.5 20.5l1.4-4.6A8.4 8.4 0 1 1 20.5 11.6z"/></svg>Explain</button><button aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21.5 3 10 13.5M21.5 3l-7 18-4.5-7.5L2.5 9z"/></svg></button><button class="save" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M18.5 21 12 16.5 5.5 21V4.5a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 1.5 1.5z"/></svg></button><span class="disc"></span></div></div>
+          <div class="reel"><video src="reels/state-government.mp4" poster="reels/state-government.jpg" muted loop playsinline preload="metadata"></video><div class="bar-t"><i></i></div><div class="meta"><div class="who"><span class="av">∞</span>infinita<em>Follow</em></div><p class="t">State ≠ government</p><p class="tags"><span>#ICSE</span> #UBAXXI #CBC</p><p class="aud"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>Original audio · Academia Comunica</p></div><div class="acts"><button class="like" aria-label="Like"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20.5s-7.5-4.6-9.3-9.2C1.6 8.4 3.4 4.5 7.2 4.5c2.1 0 3.6 1.2 4.8 2.9 1.2-1.7 2.7-2.9 4.8-2.9 3.8 0 5.6 3.9 4.5 6.8-1.8 4.6-9.3 9.2-9.3 9.2z"/></svg></button><button aria-label="Explain it back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M20.5 11.6a8.4 8.4 0 0 1-12.3 7.5L3.5 20.5l1.4-4.6A8.4 8.4 0 1 1 20.5 11.6z"/></svg>Explain</button><button aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21.5 3 10 13.5M21.5 3l-7 18-4.5-7.5L2.5 9z"/></svg></button><button class="save" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M18.5 21 12 16.5 5.5 21V4.5a1.5 1.5 0 0 1 1.5-1.5h10a1.5 1.5 0 0 1 1.5 1.5z"/></svg></button><span class="disc"></span></div></div>
         </div>
+        <div class="ig-nav" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.5-4.5"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 8v8M8 12h8"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm3 7v6l5-3z"/></svg><span class="me"></span></div>
         <span class="snd" id="snd">Sound off</span>
+        </div>
         <div class="pager" id="pager"><i class="on"></i><i></i><i></i></div>
       </div>
       <p class="hint">The first reels, already made · scroll for the next one</p>
@@ -620,6 +653,16 @@ feed.addEventListener('scroll',()=>{
   scrollT=setTimeout(()=>{ const i=Math.round(feed.scrollTop/feed.clientHeight); if(i!==curReel) setReel(i); },90);
 });
 feed.addEventListener('click',()=>{ setSound(!soundOn); setReel(curReel); });
+// Botones del reel: like y guardar se marcan; no cambian el sonido
+feed.querySelectorAll('.acts button').forEach(b=>b.addEventListener('click',e=>{
+  e.stopPropagation();
+  if(b.matches('.like,.save')) b.classList.toggle('on');
+}));
+// Barra de avance del video, como en los reels
+reelVids.forEach(v=>v.addEventListener('timeupdate',()=>{
+  const bar=v.parentElement.querySelector('.bar-t i');
+  if(bar&&v.duration) bar.style.width=(v.currentTime/v.duration*100)+'%';
+}));
 
 function go(i){
   cur=Math.max(0,Math.min(slides.length-1,i));
