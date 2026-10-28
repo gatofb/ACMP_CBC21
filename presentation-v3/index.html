@@ -145,12 +145,17 @@ h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
 .jobs i{font-style:normal;color:rgba(255,255,255,.85)}
 
 /* Demo */
-.demo{display:grid;grid-template-columns:520px 1fr;gap:64px;flex:1;min-height:0;align-items:stretch}
-.flow{list-style:none;padding:0;display:flex;flex-direction:column;gap:30px}
+.demo{display:grid;grid-template-columns:620px 1fr;gap:56px;flex:1;min-height:0;align-items:stretch}
+.demo-left{display:flex;flex-direction:column;gap:24px;min-height:0}
+.flow{list-style:none;padding:0;display:flex;flex-direction:column;gap:20px}
 .flow li{display:flex;gap:22px;align-items:flex-start}
 .flow .num{flex:none;width:52px;height:52px;font-size:22px;border-radius:14px}
 .flow b{display:block;font-family:var(--fs);font-size:30px;margin-bottom:4px}
 .flow span{font-size:22px;line-height:1.4;color:rgba(255,255,255,.75)}
+.qr{margin-top:auto;display:flex;align-items:center;gap:26px;padding:16px 24px 16px 16px;border-radius:22px;background:var(--navy-700)}
+.qr img{flex:none;width:144px;height:144px;object-fit:contain;padding:8px;border-radius:14px;background:#fff}
+.qr b{display:block;font-family:var(--fs);font-size:30px;margin-bottom:8px}
+.qr span{font-size:21px;line-height:1.4;color:rgba(255,255,255,.75)}
 .browser{position:relative;display:flex;flex-direction:column;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 40px 80px rgba(0,0,0,.35)}
 .browser .bar{flex:none;display:flex;align-items:center;gap:10px;height:50px;padding:0 20px;background:#e9eaef}
 .browser .bar i{width:14px;height:14px;border-radius:50%;background:#c9ccd6}
@@ -429,12 +434,18 @@ body.idle{cursor:none}
     <h2>Let's <span class="kw">try</span> it</h2>
   </div>
   <div class="demo">
+    <div class="demo-left">
     <ol class="flow">
       <li><span class="num">1</span><p><b>Diagnostic</b><span>Real format, no clock, no feedback. Confidence after each answer.</span></p></li>
       <li><span class="num">2</span><p><b>The map</b><span>Every idea in four states: mastered, fragile, gap, blind spot.</span></p></li>
       <li><span class="num">3</span><p><b>Explain</b><span>Typed or spoken. The tutor deduces your answer.</span></p></li>
       <li><span class="num">4</span><p><b>Feedback</b><span>What's missing, and your own explanation rewritten clearer.</span></p></li>
     </ol>
+    <div class="qr">
+      <img src="qr-demo.png" alt="QR code to acmp-cbc21.vercel.app">
+      <p><b>Try it on your phone</b><span>acmp-cbc21.vercel.app</span></p>
+    </div>
+    </div>
     <div class="browser">
       <div class="bar"><i></i><i></i><i></i><span id="demo-host">localhost:4321</span></div>
       <iframe data-path="/#/abogacia/icse" title="PrepTest live demo"></iframe>
