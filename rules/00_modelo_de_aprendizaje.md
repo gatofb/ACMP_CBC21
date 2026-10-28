@@ -8,7 +8,7 @@ No somos otra plataforma de contenidos. El campus de UBA XXI ya tiene videos, gu
 2. ¿Qué tiene que practicar antes del examen?
 3. ¿Qué tan preparado está para aprobar o promocionar?
 
-Este documento define la lógica. La app (en `output/`) la implementa, no la inventa.
+Este documento define la lógica. La app (en `output/`) la implementa, no la inventa. Las decisiones que llevaron hasta acá, con quién las tomó y por qué, están en [02_registro_de_decisiones.md](02_registro_de_decisiones.md).
 
 ---
 
@@ -119,31 +119,29 @@ El plan se arma solo, ordenado por **prioridad = peso en el examen × tamaño de
 - **Después del video**, se vuelve a la misma afirmación con una pregunta distinta. La que falló no se repite tal cual.
 - Sesiones cortas: 3 a 5 afirmaciones por vez, 20 a 25 minutos.
 
-### Etapa 3 · Ejercitar: elegir y explicar
+### Etapa 3 · Ejercitar: Explainer Mode
 
 Esta es la diferencia con cualquier banco de preguntas. **La explicación es el ejercicio.** El examen ya pregunta el "porque"; nosotros entrenamos exactamente eso.
 
+En la práctica **no hay opciones para elegir**: el alumno explica y la IA deduce qué habría marcado. Explicar sin ver las opciones obliga a recordar la idea, no a reconocerla, y no deja adivinar. El diagnóstico y los simulacros siguen en el formato real del examen.
+
+**Qué ve el alumno**
+- **Verdadero/falso:** solo el enunciado, sin las cuatro opciones "Es verdadero, porque…".
+- **Combinadas:** el enunciado y las afirmaciones A a D, sin la grilla de combinaciones (E a H).
+
 **Flujo de cada pregunta**
-1. **Elige** la opción.
-2. **Marca la seguridad**: seguro / dudo / adiviné.
-3. **Explica**, con un límite de largo y con sus palabras, sin copiar la opción:
-   - V/F: *¿por qué es verdadera o falsa, según el autor?*
-   - Combinada: una línea por cada afirmación: *¿por qué la descartás o la elegís?*
-   - Siempre: *¿cuál era la opción más tentadora y por qué está mal?*
-4. Recibe el **feedback** (etapa 4).
+1. **Marca la seguridad**: seguro / dudo / adiviné.
+2. **Explica** con sus palabras, **escrito o dictado**:
+   - Verdadero/falso: *¿es verdadero o falso? ¿por qué, según el autor?*
+   - Combinadas: *¿cuáles de estas afirmaciones son correctas? ¿por qué?*
+   - El dictado se transcribe con Whisper en la misma máquina (el audio no sale de la computadora), y el texto queda en la caja para corregirlo antes de mandarlo.
+3. Recibe el **feedback** (etapa 4).
+4. Puede **explicarlo de nuevo** con lo que aprendió, hasta tres veces por pregunta. En el mapa cuenta el primer intento, como en el examen.
 
-**Cuándo la explicación es obligatoria**
-- Siempre en puntos ciegos y lagunas.
-- Siempre la primera vez que aparece una afirmación.
-- Optativa en las dominadas: ahí premiamos la velocidad, como en el examen.
-- Respuesta correcta con explicación vacía o incorrecta: **cuenta como frágil, no como dominada**.
-
-**Variantes de ejercicio** (de menor a mayor exigencia)
-1. **Reconocer**: elegir la opción, como en el examen.
-2. **Separar**: en una combinada, V/F por cada afirmación.
-3. **Explicar**: el porqué, con sus palabras.
-4. **Reformular**: la misma afirmación con otras palabras o invertida. Así comprobamos que no memorizó la frase.
-5. **Armar la trampa**: *"Escribí una opción falsa que parezca verdadera."* Solo puede armar una trampa quien entendió la idea. Es el nivel más alto.
+**Variantes de ejercicio para sumar más adelante** (de menor a mayor exigencia)
+1. **Explicar**: el porqué, con sus palabras (lo que hace hoy el Explainer Mode).
+2. **Reformular**: la misma afirmación con otras palabras o invertida. Así comprobamos que no memorizó la frase.
+3. **Armar la trampa**: *"Escribí una opción falsa que parezca verdadera."* Solo puede armar una trampa quien entendió la idea. Es el nivel más alto.
 
 **Cuándo vuelve cada afirmación (repaso espaciado)**
 - Si falló: vuelve en la misma sesión con otra pregunta, al día siguiente y a los 3 días.
@@ -153,30 +151,35 @@ Esta es la diferencia con cualquier banco de preguntas. **La explicación es el 
 
 ### Etapa 4 · Evaluación y feedback de la IA
 
-**Dos notas separadas, siempre**
-- **Respuesta**: la letra está bien o mal. Es objetiva y sale de la clave.
-- **Comprensión**: qué tan buena es la explicación, de 0 a 3.
+**Dos resultados separados, siempre**
+- **Qué habría marcado**: la IA lee la explicación como si fuera la respuesta y deduce la letra de la grilla. En las combinadas, juzga cada afirmación según lo que dijo (verdadera, falsa o no la mencionó). Si con lo que dijo no se puede decidir, no le regala la letra. La letra se compara con la clave: eso es objetivo.
+- **Claridad**: cuatro chequeos, cada uno se cumple o no.
 
-| Puntaje | Qué significa |
+| Chequeo | Se cumple cuando… |
 |---|---|
-| **0** | Vacía, copia la opción o contradice al autor. |
-| **1** | Veredicto correcto, pero el motivo es vago o no es el del autor. |
-| **2** | Motivo correcto y atribuido al autor. |
-| **3** | Lo anterior **y además** explica por qué la opción tentadora está mal. |
+| **Dice qué responde** | Se entiende si es verdadero o falso, o qué afirmaciones da por correctas. |
+| **Da el motivo del autor** | Da un motivo, y es el que sostiene el autor según la ficha. |
+| **Usa bien los conceptos** | Usa los conceptos con precisión, sin confundir conceptos vecinos. |
+| **Se entiende sin ambigüedad** | Alguien que no sabe del tema lo entendería; no se contradice ni deja dos lecturas. |
+
+Con 3 o 4 chequeos la explicación cuenta como clara. Para el mapa: letra correcta, seguro y clara es **dominado**; letra correcta sin seguridad o poco clara es **frágil**; letra incorrecta (o imposible de deducir) con seguridad es **punto ciego**, y sin seguridad es **laguna**.
 
 **Estructura del feedback** (siempre en este orden, corto y para leer en el celular)
-1. **Qué hiciste bien**: una línea concreta, no "¡muy bien!".
-2. **Dónde estuvo el error**: qué tipo de error fue ("Confundiste gobierno con régimen").
-3. **El razonamiento correcto**: 2 o 3 líneas, apoyadas en la afirmación del autor.
-4. **Para reforzar**: el link al recurso de UBA XXI, si es punto ciego o laguna.
-5. **Comprobación**: una pregunta nueva sobre la misma afirmación, en el momento.
+1. **Qué habría marcado**: "Con tu explicación marcabas la C" y si es la correcta, con la parte de su explicación que lleva a esa letra.
+2. **Claridad**: los cuatro chequeos.
+3. **Lo que explicaste bien**: una línea concreta, no "¡muy bien!".
+4. **Qué te faltó**: qué confundió o qué agregar, con el tipo de error ("Confundiste gobierno con régimen").
+5. **El razonamiento correcto**: 2 o 3 líneas, apoyadas en la afirmación del autor.
+6. **Así lo explicarías más claro**: su misma explicación reescrita bien, en primera persona y con su estilo.
+7. **Para reforzar**: la pregunta guía y el recurso de UBA XXI.
+8. **Así estaba en el examen**: las opciones reales, con la letra que se deduce de su explicación y la correcta.
 
 **Reglas para la IA**
-- **No muestra la respuesta antes de que el alumno explique.** Si se equivoca, primero le da **una pista** ("Fijate qué dice Povse sobre lo que permanece cuando cambia el gobierno") y una segunda oportunidad. Recién después le muestra la respuesta.
 - Evalúa contra la ficha de la afirmación. Si la explicación es razonable pero no es lo que dice el autor, lo marca con claridad: *"Puede tener sentido, pero en el examen cuenta lo que dice Romero."*
 - No inventa citas, capítulos, páginas ni videos. Si algo no está en la ficha, no existe.
-- Habla como un tutor rioplatense, cercano y directo. Corrige el razonamiento, no a la persona.
-- Ortografía y redacción no se corrigen (el examen es de opción múltiple), salvo que impidan entender la idea.
+- En las explicaciones dictadas no penaliza muletillas, repeticiones ni errores de transcripción en nombres propios: evalúa la idea.
+- Habla como un tutor rioplatense, de vos y en segunda persona, cercano y directo. Corrige el razonamiento, no a la persona.
+- Ortografía y redacción no se corrigen, salvo que impidan entender la idea. La claridad sí: es lo que se califica.
 
 ---
 
@@ -225,7 +228,7 @@ El circuito es `input/` (exámenes) → `rules/` (fichas y reglas) → `output/`
 | **Cátedras** | Cada cátedra tiene su propio banco y su bibliografía. El MVP va con **una cátedra por materia** (en ICSE, Pedrosa: es la de 1er y 2do parcial y la que tiene más material). |
 | **Derechos** | Los exámenes son de la UBA y están recopilados por terceros. Los usamos como referencia y para armar preguntas propias. No republicamos los PDF. |
 | **Nombre** | El programa se llama "UBA XXI" (sin S). Además, usar "UBA" en la marca de un producto pago puede traer problemas con la Universidad. Conviene revisarlo antes de diseñar la marca. |
-| **Fricción** | Escribir explicaciones en el celular cansa. Podríamos aceptar audio, con transcripción, como alternativa. |
+| **Fricción** | Escribir explicaciones en el celular cansa. Resuelto en local con el dictado (Whisper en la máquina). Para la app publicada hay que decidir dónde se transcribe. |
 | **Claves erróneas** | Si una clave de Arrimo está mal, la IA "corrige" al alumno con algo falso. Cada clave se valida antes de entrar al banco. |
 
 ## 7. Cómo validamos con alumnos reales

@@ -1,0 +1,473 @@
+{
+  "archivo": "Final_2021_J.pdf",
+  "materia": "Sociología (14)",
+  "catedra": "A · Bustos",
+  "instancia": "Final",
+  "fecha": "2021-11-26",
+  "periodo": "Final 11/2021",
+  "turno": "2do turno",
+  "tema": 3,
+  "fuente_clave": "marcas",
+  "consignas": [
+    {
+      "n": 1,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la respuesta correcta. Para Facio y Fries, el concepto de “género” nos permite:",
+      "opciones": {
+        "A": "… Pensar lo femenino y lo masculino como determinaciones biológicas.",
+        "B": "… Entender el género a partir de la genitalidad.",
+        "C": "… Visibilizar solamente el proceso de construcción sociohistórico de lo femenino.",
+        "D": "… Sostener una mirada que beneficia a las mujeres.",
+        "E": "… Comprender la construcción social de la mujer y el varón."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 2,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que corresponda. Según Althusser, las “relaciones sociales de producción” se reproducen mediante:",
+      "opciones": {
+        "A": "… la coacción que ejercen los hechos sociales.",
+        "B": "… el accionar microfísico del poder.",
+        "C": "… la ideología dominante.",
+        "D": "… el poder “amorfo” del Estado.",
+        "E": "… la opacidad ideológica."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 3,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones son verdaderas (V) y cuáles falsas (F). Según Heller, el proceso de homogeneización es…",
+      "opciones": {
+        "A": "… el proceso que desarrolla el individuo que subordina su “particularidad” en favor de la “genericidad” en una relación consciente con el “nosotros”.",
+        "B": "… el proceso que supone la suspensión momentánea de toda actividad particular para centrar toda la atención en aquellas tareas que lo vinculan con el “nosotros”.",
+        "C": "… el proceso que genera la función inhibidora de la moral.",
+        "D": "… el proceso que todo individuo desarrolla desde el momento de su nacimiento para lograr la “reproducción del particular”.",
+        "E": "… el proceso que comienza cuando el individuo se adapta a las normas sociales."
+      },
+      "clave": {
+        "A": "V",
+        "B": "V",
+        "C": "F",
+        "D": "F",
+        "E": "F"
+      }
+    },
+    {
+      "n": 4,
+      "puntos": null,
+      "tipo": "relacionar",
+      "enunciado": "Coloque el nombre de un concepto junto a la definición que le corresponda. Conceptos: Capitalismo moderno (I), Ideología (II), Superestructura (III), Carácter concurrente de las ideologías (IV), Microespacios (V).",
+      "autores": [
+        "Capitalismo moderno",
+        "Ideología",
+        "Superestructura",
+        "Carácter concurrente de las ideologías",
+        "Microespacios"
+      ],
+      "pares": [
+        {
+          "concepto": "El único orden social en el cual puede prosperar el Estado racional moderno apoyado en una burocracia especializada y en un derecho racional, formalista y calculable.",
+          "autor": "Capitalismo moderno"
+        },
+        {
+          "concepto": "La estructura de toda sociedad está constituida por niveles, uno de los cuales tiene una instancia jurídico política y otra ideológica.",
+          "autor": "Superestructura"
+        },
+        {
+          "concepto": "Representaciones que parten de una determinada realidad, pero crean una conciencia parcial y fragmentaria.",
+          "autor": "Ideología"
+        },
+        {
+          "concepto": "Espacios que permiten la vigilancia individualizada y la jerarquización de los individuos y las conductas.",
+          "autor": "Microespacios"
+        },
+        {
+          "concepto": "Los sistemas de representaciones tienen rasgos comunes pero se encuentran enfrentados ya que expresan antagonismos dentro de la sociedad.",
+          "autor": "Carácter concurrente de las ideologías"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones de Heller y Berger & Luckmann son verdaderas (V) y cuáles falsas (F).",
+      "opciones": {
+        "A": "Según Heller, cuando la particularidad somete a lo específico se anteponen las necesidades individuales frente a los intereses y las necesidades de la integración social.",
+        "B": "Según Berger y Luckmann, la socialización es un proceso que inicia con el nacimiento del individuo y finaliza en su edad adulta.",
+        "C": "Según Berger y Luckmann, la vida cotidiana es el conjunto de actividades en que se reproducen las personas y al mismo tiempo las estructuras socioeconómicas.",
+        "D": "Según Berger y Luckmann, un mundo institucional se experimenta como realidad objetiva, tiene una historia que antecede al nacimiento del individuo y no es accesible a su memoria biográfica.",
+        "E": "Según Heller, es necesario desarrollar una capacidad mental que poseen todos los individuos, la cual permite vincular la biografía con la historia."
+      },
+      "clave": {
+        "A": "V",
+        "B": "F",
+        "C": "F",
+        "D": "V",
+        "E": "F"
+      }
+    },
+    {
+      "n": 6,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Complete marcando con una cruz (X) la respuesta correcta. ¿Cuál de las siguientes opciones corresponde a lo que Weber entiende como “dominación carismática”?",
+      "opciones": {
+        "A": "Es una dominación de tipo religioso.",
+        "B": "Son las cualidades extraordinarias de los cuadros burocráticos que sostienen una dominación.",
+        "C": "Es la dominación de un líder elegido por la voluntad mayoritaria de la población.",
+        "D": "Es la dominación sancionada por la costumbre y el paso del tiempo.",
+        "E": "La cualidad de una personalidad que pasa por extraordinaria constituye a alguien como líder."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 7,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la opción correcta. Según Wright Mills, la “imaginación sociológica” es la capacidad…:",
+      "opciones": {
+        "A": "… sistemática de pasar de una dimensión temporal a otra, del pasado al presente y viceversa.",
+        "B": "… que solo poseen los sociólogos, ya que requiere una formación profesional.",
+        "C": "… biológica que se desarrolla en los individuos que tienen la predisposición de vincular la biografía con la historia.",
+        "D": "… de pasar de las características más impersonales a las más íntimas del yo humano, y de ver la relación entre ambas cosas.",
+        "E": "… de observar y explicar las diversas inquietudes privadas que transcurren en un tiempo determinado."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 8,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Marque cuáles afirmaciones son verdaderas (V) y cuáles falsas (F). Para Maffía, el “feminismo” nos ha permitido…",
+      "opciones": {
+        "A": "… comprender que las categorías de género son igualitarias e incluyentes.",
+        "B": "… comprender la idea de la construcción social de la mujer.",
+        "C": "… justificar biológicamente la sumisión de la mujer.",
+        "D": "… comprender la distinción entre sexo y género.",
+        "E": "… explicar la subordinación de la mujer a partir de las diferencias biológicas."
+      },
+      "clave": {
+        "A": "F",
+        "B": "V",
+        "C": "F",
+        "D": "V",
+        "E": "F"
+      }
+    },
+    {
+      "n": 9,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la opción correcta. Entre las reflexiones de Agnes Heller respecto de la vida cotidiana y las propuestas conceptuales de Berger y Luckmann existen coincidencias porque…",
+      "opciones": {
+        "A": "…para todos estos autores la reproducción de las condiciones de la vida individual se da en un ambiente social determinado.",
+        "B": "… el tipo de racionalidad de las acciones constituye un elemento central en ambos textos.",
+        "C": "… todos parten para su análisis del concepto de “extrañación”.",
+        "D": "… en ambos casos parten de entender al individuo solamente como un organismo biológico.",
+        "E": "… las relaciones sociales de producción constituyen el único elemento determinante de la vida cotidiana."
+      },
+      "clave": "A"
+    },
+    {
+      "n": 10,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la opción correcta. Según Berger y Luckmann, el proceso de objetivación es…",
+      "opciones": {
+        "A": "… el momento en el que se internaliza al otro generalizado y finaliza la socialización primaria.",
+        "B": "… la coacción y la presión que ejercen las figuras sociales sobre el individuo.",
+        "C": "… la etapa última de aprendizaje de la socialización secundaria.",
+        "D": "…la metodología de investigación que estudia los fenómenos sociales como “cosas”, externas y objetivas.",
+        "E": "… el momento en el que los productos externalizados de la actividad humana alcanzan el carácter de objetividad."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 11,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la opción correcta. Según V. Marqués, la idea de “construcción social del varón” nos permite ver:",
+      "opciones": {
+        "A": "que la masculinidad se define naturalmente.",
+        "B": "que la masculinidad y la femineidad son semejantes.",
+        "C": "que lo masculino completa la existencia de la mujer.",
+        "D": "que la masculinidad se expresa tanto en el ejercicio de la fuerza como de la vulnerabilidad.",
+        "E": "que la masculinidad dominante es represiva para hombres y mujeres."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 12,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la opción correcta. Según Althusser, la conformación de los sujetos se da a través de…",
+      "opciones": {
+        "A": "… el modo de producción.",
+        "B": "… la interpelación ideológica.",
+        "C": "… los hechos sociales que los coercionan.",
+        "D": "… las acciones sociales intersubjetivas.",
+        "E": "… los aparatos represivos del estado."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 13,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Marque cuáles afirmaciones acerca de las diferencias entre Althusser y Foucault con respecto a la “construcción del sujeto moderno” son verdaderas (V) o falsas (F).",
+      "opciones": {
+        "A": "Para Althusser es resultado de la reproducción llevada adelante por los Aparatos Ideológicos de Estado y para Foucault de la vigilancia en espacios cerrados y artificiales.",
+        "B": "Para Althusser es resultado de la ideología dominante y para Foucault de las ideologías subalternas.",
+        "C": "Para Althusser es resultado de la interpelación ideológica, mientras que para Foucault es resultado de las tecnologías disciplinarias.",
+        "D": "Para Althusser es resultado de un proceso económico, para Foucault es resultado de una serie de procedimientos judiciales.",
+        "E": "Para Althusser se produce a nivel de la infraestructura, para Foucault es al nivel de la biopolítica."
+      },
+      "clave": {
+        "A": "V",
+        "B": "F",
+        "C": "V",
+        "D": "F",
+        "E": "F"
+      }
+    },
+    {
+      "n": 14,
+      "puntos": null,
+      "tipo": "relacionar",
+      "enunciado": "Coloque el nombre de un autor junto al concepto que le corresponda. Autores: Althusser - Marqués - Lefebvre - Foucault - Weber – Heller – Durkheim.",
+      "autores": [
+        "Althusser",
+        "Marqués",
+        "Lefebvre",
+        "Foucault",
+        "Weber",
+        "Heller",
+        "Durkheim"
+      ],
+      "pares": [
+        {
+          "concepto": "Poder microfísico",
+          "autor": "Foucault"
+        },
+        {
+          "concepto": "Interpelación",
+          "autor": "Althusser"
+        },
+        {
+          "concepto": "Acción tradicional con arreglo a fines",
+          "autor": "Weber"
+        },
+        {
+          "concepto": "Natural / Normal",
+          "autor": "Marqués"
+        },
+        {
+          "concepto": "Praxis revolucionaria",
+          "autor": "Lefebvre"
+        },
+        {
+          "concepto": "Corrientes sociales",
+          "autor": "Durkheim"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Establezca cuáles son verdaderas (V) y cuáles son falsas (F). Foucault plantea que las técnicas de disciplinamiento se enfocan sobre:",
+      "opciones": {
+        "A": "La conciencia colectiva.",
+        "B": "La regulación de las leyes biológicas que atraviesan a la población.",
+        "C": "Las mentalidades predominantes en una sociedad determinada.",
+        "D": "La vigilancia en espacios cerrados y artificiales.",
+        "E": "Los individuos considerados cuerpos dóciles."
+      },
+      "clave": {
+        "A": "F",
+        "B": "F",
+        "C": "F",
+        "D": "V",
+        "E": "V"
+      }
+    },
+    {
+      "n": 16,
+      "puntos": null,
+      "tipo": "relacionar",
+      "enunciado": "Coloque los nombres de los autores junto a los conceptos que les corresponden. Autores: Berger & Luckmann - Heller – Mills – Marx –Marqués - Elías",
+      "autores": [
+        "Berger & Luckmann",
+        "Heller",
+        "Mills",
+        "Marx",
+        "Marqués",
+        "Elías"
+      ],
+      "pares": [
+        {
+          "concepto": "Extrañación",
+          "autor": "Heller"
+        },
+        {
+          "concepto": "Institucionalización",
+          "autor": "Berger & Luckmann"
+        },
+        {
+          "concepto": "Desnaturalización",
+          "autor": "Marqués"
+        },
+        {
+          "concepto": "Biografía",
+          "autor": "Mills"
+        },
+        {
+          "concepto": "Modo de producción",
+          "autor": "Marx"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción que completa la frase correctamente. Según Weber, el concepto de “acción social con arreglo a valores” se caracteriza por…",
+      "opciones": {
+        "A": "… ser una acción orientada para lograr un resultado específico.",
+        "B": "… ser una conducta guiada por las emociones y los sentimientos actuales.",
+        "C": "… ser una conducta motivada por la creencia consciente en determinado valor.",
+        "D": "… ser una acción orientada por hábitos conscientes de la cotidianidad.",
+        "E": "… ser un comportamiento basado en las costumbres de una sociedad."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 18,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción correcta. ¿Cuál de las siguientes afirmaciones se corresponde con el pensamiento de Karl Marx?",
+      "opciones": {
+        "A": "En el intercambio de mercancías el valor de uso deja de tener importancia.",
+        "B": "El individuo deja de vincularse con la naturaleza porque produce manufacturas.",
+        "C": "El desarrollo de las fuerzas productivas depende de la disponibilidad de recursos naturales, pues la naturaleza es la fuente de la riqueza.",
+        "D": "La categoría económica más simple como, por ejemplo, el valor de cambio, supone una población que produce en determinadas relaciones de producción.",
+        "E": "La ganancia capitalista se convierte en un medio para solucionar la pobreza."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 19,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Complete la proposición correcta con una cruz (X). Según Weber, se puede afirmar que existe una “acción social” en la medida en que…",
+      "opciones": {
+        "A": "… el grupo logre una socialización eficaz de sus miembros.",
+        "B": "… exista la probabilidad de que los individuos puedan dar sentido a su acción en función de lo que se espera de ellos y de lo que esperan de los otros.",
+        "C": "… las clases sociales interactúen por su posición respecto de los medios de producción.",
+        "D": "… el grupo logre imponer sobre los individuos sus maneras de hacer, pensar o sentir.",
+        "E": "… dos individuos se encuentren cara a cara e interactúen voluntariamente."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 20,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción correcta. Según Heller, la “heterogeneidad” de la vida cotidiana hace referencia a:",
+      "opciones": {
+        "A": "La diversidad de enfoques teóricos que es necesario tener en cuenta para hacer un análisis de la vida cotidiana de las sociedades actuales.",
+        "B": "La diversidad de conceptos que vamos adquiriendo a lo largo de nuestro paso por el ámbito de la vida cotidiana.",
+        "C": "La diversidad de variables históricas, políticas, económicas, etcétera que determinan la vida cotidiana de las personas.",
+        "D": "La diversidad de actividades y habilidades que desarrollamos en el ámbito de la vida cotidiana.",
+        "E": "La diversidad de perspectivas culturales presentes en la vida cotidiana."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 21,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque la opción correcta con una cruz (X). Marx critica a los economistas clásicos porque…:",
+      "opciones": {
+        "A": "no incorporan en su análisis el ámbito del consumo.",
+        "B": "no incorporan en su análisis el concepto de mercado internacional.",
+        "C": "no incorporan en su análisis la renta de la tierra.",
+        "D": "no incorporan en su análisis la esfera de la producción a escala mundial.",
+        "E": "no incorporan en su análisis el carácter histórico de las categorías económicas."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 22,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque la opción correcta con una cruz (X). ¿Qué tienen en común el concepto de “poder de Estado” en Althusser y de “dominación” en Weber?",
+      "opciones": {
+        "A": "En ambos casos la dominación se ejerce desde el Estado.",
+        "B": "En ambos casos el objetivo de la dominación es económico.",
+        "C": "En ambos casos la dominación pretende conseguir legitimidad.",
+        "D": "En ambos casos la dominación es ejercida por la clase social dominante.",
+        "E": "En ambos casos la dominación es disciplinaria y al mismo tiempo biopolítica."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 23,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) cuál de las siguientes proposiciones sobre la ideología es propia de la perspectiva de Marx según H. Lefebvre.",
+      "opciones": {
+        "A": "La ideología determina los hechos sociales, pues es externa, general y coactiva.",
+        "B": "Las prácticas vinculadas al biopoder son necesariamente ideológicas.",
+        "C": "Las ideologías implican abstracciones no científicas.",
+        "D": "La ideología retorna hacia la política a través de la mística y la religión.",
+        "E": "Las ideologías representan el más alto grado de pensamiento filosófico de las sociedades."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 24,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones son verdaderas (V) y cuáles falsas (F) siguiendo el texto de S. Lifszyc.",
+      "opciones": {
+        "A": "El capitalismo es un modo de producción en donde existe extracción de plusvalía.",
+        "B": "En el capitalismo lo único que no es considerado mercancía es la fuerza de trabajo.",
+        "C": "En el capitalismo el trabajador asalariado no es dueño de los medios sociales de producción, solo posee su fuerza de trabajo.",
+        "D": "Las leyes y estatutos constitucionales son lo que originan las relaciones de producción capitalistas.",
+        "E": "En el capitalismo las condiciones laborales son similares a la esclavitud, pues no existe la libertad formal."
+      },
+      "clave": {
+        "A": "V",
+        "B": "F",
+        "C": "V",
+        "D": "F",
+        "E": "F"
+      }
+    },
+    {
+      "n": 25,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la afirmación que complete correctamente la proposición. Para Duby un rasgo de las ideologías es ser globalizantes, porque…",
+      "opciones": {
+        "A": "… son representaciones construidas por el estado para dominar.",
+        "B": "… se presentan como sistemas completos que ofrecen una visión total del mundo.",
+        "C": "… son un conjunto de intereses que aglutinan a la burguesía mundial.",
+        "D": "… se superponen con varios sistemas de representación antagónicos.",
+        "E": "… se ocultan ciertos aspectos de la realidad para servir mejor a ciertos intereses."
+      },
+      "clave": "B"
+    }
+  ],
+  "dudas": [
+    "consigna 4: no es autor–concepto sino concepto–definición; la tabla trae los números romanos (I–V) y se reemplazaron por el nombre del concepto que les asigna la consigna.",
+    "consigna 10: el examen rotula las opciones a, a, b, c, d; se reletraron A–E en orden. La X está en la quinta fila (rotulada \"d.\"), que es la E."
+  ]
+}

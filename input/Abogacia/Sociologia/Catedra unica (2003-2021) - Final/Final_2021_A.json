@@ -1,0 +1,477 @@
+{
+  "archivo": "Final_2021_A.pdf",
+  "materia": "Sociología (14)",
+  "catedra": "única",
+  "instancia": "Final",
+  "fecha": "2021-07-12",
+  "periodo": "Final 07/2021",
+  "turno": null,
+  "tema": null,
+  "fuente_clave": "campus",
+  "consignas": [
+    {
+      "n": 1,
+      "puntos": 0.4,
+      "tipo": "relacionar",
+      "enunciado": "Coloque los nombres de los autores junto a los conceptos que les corresponden.",
+      "autores": [
+        "Marx",
+        "Elías",
+        "Durkheim",
+        "Mills",
+        "Heller"
+      ],
+      "pares": [
+        {
+          "concepto": "Trabajo no remunerado",
+          "autor": "Marx"
+        },
+        {
+          "concepto": "Figuras sociales",
+          "autor": "Elías"
+        },
+        {
+          "concepto": "Corrientes de opinión",
+          "autor": "Durkheim"
+        },
+        {
+          "concepto": "Imaginación sociológica",
+          "autor": "Mills"
+        },
+        {
+          "concepto": "Pragmatismo",
+          "autor": "Heller"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que corresponda. ¿Cuál de las siguientes afirmaciones corresponde a lo que Weber conceptualiza como “tipo ideal de dominación”?",
+      "opciones": {
+        "A": "Es un conjunto de modos típicos de comportamiento accesibles a la comprensión.",
+        "B": "Es la dominación que se basa en la hegemonía ideológica.",
+        "C": "Es un promedio de creencias que se hace entre distintos tipos de dominación.",
+        "D": "Es la dominación que mejor se ajusta a las características de un pueblo.",
+        "E": "Es una dominación que se basa en principios claramente establecidos."
+      },
+      "clave": "A"
+    },
+    {
+      "n": 3,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que corresponda. Para Duby, un rasgo de las ideologías es ser “concurrentes” porque…:",
+      "opciones": {
+        "A": "expresan oposiciones que responden a varios niveles de la cultura.",
+        "B": "se superponen con varios sistemas de representación idénticos.",
+        "C": "ocultan ciertos aspectos de la realidad para servir mejor a unos intereses particulares.",
+        "D": "reflejan los intereses de la clase propietaria.",
+        "E": "se presentan como sistemas ideológicos completos, también denominados globlalizantes."
+      },
+      "clave": "A"
+    },
+    {
+      "n": 4,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "¿Cuál de las siguientes características corresponde al concepto de “acción social con arreglo a valores”, según Weber?",
+      "opciones": {
+        "A": "Se caracteriza por ser un comportamiento basado en las costumbres de una sociedad.",
+        "B": "Se caracteriza por ser una conducta guiada por las emociones y los sentimientos actuales.",
+        "C": "Se caracteriza por ser una acción orientada por hábitos conscientes de la cotidianidad.",
+        "D": "Se caracteriza por ser una conducta motivada por la creencia de que encarna un valor.",
+        "E": "Se caracteriza por ser una acción orientada para lograr un resultado específico."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 5,
+      "puntos": 0.4,
+      "tipo": "vf_items",
+      "enunciado": "Señale cuáles de las siguientes afirmaciones sobre las diferencias entre Althusser y Foucault acerca del poder son verdaderas y cuáles son falsas.",
+      "opciones": {
+        "A": "Para Foucault la dominación es biopolítica y para Althusser es anatomopolítica.",
+        "B": "Para Foucault la dominación se impone por la fuerza y para Althusser por vía de la legitimidad.",
+        "C": "Foucault descarta la concepción del poder como algo meramente represivo, y Althusser subraya la combinación de coerción física y reproducción ideológica.",
+        "D": "Foucault analiza una multiplicidad de poderes y Althusser se centra en el poder del Estado y sus Aparatos.",
+        "E": "Para Foucault la dominación se puede pensar como un conjunto de relaciones de poder y para Althusser como un sistema de gobierno."
+      },
+      "clave": {
+        "A": "F",
+        "B": "F",
+        "C": "V",
+        "D": "V",
+        "E": "F"
+      }
+    },
+    {
+      "n": 6,
+      "puntos": 0.4,
+      "tipo": "vf_items",
+      "enunciado": "Las siguientes afirmaciones relacionan conceptos de A. Heller con conceptos de Berger & Luckmann. Señale cuáles son verdaderas y cuáles son falsas.",
+      "opciones": {
+        "A": "Berger & Luckmann entienden la sociedad a partir del concepto de “instituciones”, mientras que Heller la piensa a partir del concepto de “estructura socioeconómica”.",
+        "B": "El concepto de “ser específico” en Heller y el de “institución” en Berger & Luckmann son semejantes porque ambos remiten a un conjunto de normas y de roles típicos que impone cada sociedad.",
+        "C": "El concepto de “externalización” de Berger & Luckmann se asemeja al de “homogeneización” en Heller, porque ambos hacen referencia a cómo se diferencian las percepciones de las relaciones sociales en la vida cotidiana.",
+        "D": "En referencia al proceso por el cual las personas se convierten en seres sociales, el concepto de “socialización” en Berger & Luckmann es similar al proceso de “maduración” en Heller.",
+        "E": "El concepto de “habituación” de Berger & Luckmann es similar al de “regimiento de la vida” en Heller, porque ambos explican por qué en una sociedad todos los individuos actúan de la misma manera."
+      },
+      "clave": {
+        "A": "V",
+        "B": "F",
+        "C": "F",
+        "D": "V",
+        "E": "F"
+      }
+    },
+    {
+      "n": 7,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes preguntas se responde afirmativamente a partir del pensamiento de Karl Marx.",
+      "opciones": {
+        "A": "¿Toda producción se basa en el interés de conseguir una ganancia dineraria?",
+        "B": "¿El individuo se vincula con la sociedad por medio de acciones orientadas por la conducta de otros?",
+        "C": "¿Se corresponden las relaciones de producción predominantes en una sociedad con cierto desarrollo de las fuerzas productivas?",
+        "D": "¿Son las relaciones sociales de producción el resultado de decisiones personales?",
+        "E": "¿Es el dinero la fuente real de todas las relaciones de producción?"
+      },
+      "clave": "C"
+    },
+    {
+      "n": 8,
+      "puntos": 0.4,
+      "tipo": "vf_items",
+      "enunciado": "Indique si las siguientes proposiciones son correctas o incorrectas de acuerdo con el texto de S. Lifszyc.",
+      "opciones": {
+        "A": "Los empresarios capitalistas obtienen sus ganancias gracias a su racionalidad superior.",
+        "B": "Las relaciones sociales de producción determinan la forma general del modo de producción.",
+        "C": "Las relaciones sociales de producción están vinculadas al tipo de propiedad predominante.",
+        "D": "El trabajo es tratado como una mercancía más en las relaciones capitalistas.",
+        "E": "Los sectores asalariados, en el capitalismo, son dueños de los medios de producción."
+      },
+      "clave": {
+        "A": "F",
+        "B": "V",
+        "C": "V",
+        "D": "V",
+        "E": "F"
+      }
+    },
+    {
+      "n": 9,
+      "puntos": 0.4,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones son verdaderas y cuáles falsas. Según expone Maffía, la “heteronormatividad” constituye a las personas partiendo de:",
+      "opciones": {
+        "A": "Una matriz homosexual.",
+        "B": "Las categorías dicotómicas \"varón real\" y \"varón desviado\".",
+        "C": "Conceptos exhaustivos y excluyentes.",
+        "D": "El género planteado en términos binarios.",
+        "E": "Las sexualidades múltiples."
+      },
+      "clave": {
+        "A": "F",
+        "B": "F",
+        "C": "V",
+        "D": "V",
+        "E": "F"
+      }
+    },
+    {
+      "n": 10,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Seleccione la opción correcta. Según Wright Mills, quien desarrolla la “imaginación sociológica” puede:",
+      "opciones": {
+        "A": "Comprender que puede tener mejores posibilidades en la vida si logra relacionarse con los individuos que se hallan en sus mismas circunstancias.",
+        "B": "Incorporar a su vida cotidiana los logros concretos que desarrolló la sociología a lo largo de su acumulación de conocimientos.",
+        "C": "Obtener recapitulaciones válidas de lo que ocurre en su entorno y en sí mismo, comprendiendo la íntima conexión existente entre los cambios a nivel de la estructura social, y la vida, posibilidades y trayectoria de cada hombre y mujer.",
+        "D": "Comprender las motivaciones psicológicas que impulsan a los demás actores sociales, y a sí mismo, a actuar de determinada manera.",
+        "E": "Proyectarse a sí mismo en una vida cotidiana más original y creativa, distinguiéndose de los demás individuos."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 11,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que corresponda. La noción de “dominación” en Weber es diferente de la noción de poder en Althusser porque para Weber…:",
+      "opciones": {
+        "A": "la dominación subyace en el aparato burocrático y los estatutos legales.",
+        "B": "la dominación existe en cualquier situación en la que un grupo de personas logra imponer un mandato a otro.",
+        "C": "la dominación se sostiene en la estructura económica de la sociedad.",
+        "D": "la dominación supone la reproducción de las relaciones sociales de producción.",
+        "E": "la dominación se sostiene en el mero uso de la fuerza ."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 12,
+      "puntos": 0.4,
+      "tipo": "vf_items",
+      "enunciado": "Marque cuáles afirmaciones son verdaderas y cuáles falsas. Foucault plantea que, a pesar de su aparente fracaso, el sistema penal carcelario persiste porque:",
+      "opciones": {
+        "A": "La existencia del delincuente justifica mecanismos de control sobre la población.",
+        "B": "La delincuencia encubre la falta de legitimidad de un orden social.",
+        "C": "Las fallas en el proceso de socialización producen actitudes que tienden a infringir las leyes.",
+        "D": "La delincuencia tiene una utilidad económica.",
+        "E": "La anomia social genera conductas desviadas como la delincuencia."
+      },
+      "clave": {
+        "A": "V",
+        "B": "F",
+        "C": "F",
+        "D": "V",
+        "E": "F"
+      }
+    },
+    {
+      "n": 13,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Seleccione la afirmación correcta. Según Lefebvre, para Marx la ideología…",
+      "opciones": {
+        "A": "… se presenta advirtiendo que la realidad debe buscarse en sus causas ocultas.",
+        "B": "… es una fantasía que no se conecta en ningún aspecto con la realidad.",
+        "C": "… es la manera de comprender el mundo que genera la experiencia de cada persona, que crea así su representación particular de la vida cotidiana.",
+        "D": "… posee un carácter doble: limitado por intereses particulares, por un lado, y general y especulativo, por otro.",
+        "E": "… es una forma sutil de reflexión filosófica."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 14,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que corresponda. Para Facio y Fries, la mirada desde el “feminismo” nos permite:",
+      "opciones": {
+        "A": "Entender el género a partir de la genitalidad.",
+        "B": "Comprender la construcción social de la mujer y el varón",
+        "C": "Visibilizar solamente el proceso de construcción sociohistórico de lo femenino.",
+        "D": "Pensar lo femenino y lo masculino como determinaciones biológicas.",
+        "E": "Sostener una mirada que beneficia únicamente a las mujeres."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 15,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "La \"interpelación ideológica\", según Althusser, se entiende a partir de dos elementos. Indique la opción correcta:",
+      "opciones": {
+        "A": "la concepción de sujeto y la materialidad ideológica.",
+        "B": "el concepto de \"individuo\" y la estructura económica.",
+        "C": "la ideología dominante y el concepto de Estado.",
+        "D": "la ideología dominante y el modo de producción.",
+        "E": "la concepción de sujeto y la ideología dominante."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 16,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Seleccione la opción que corresponda. Según Elías, las instituciones deben ser entendidas como…",
+      "opciones": {
+        "A": "una relación desigual en la cual se imponen las normas sobre los individuos",
+        "B": "un entramado de dependencias recíprocas entre los individuos",
+        "C": "las figuras sociales que rodean al “yo” individual",
+        "D": "la institucionalización de los hechos sociales",
+        "E": "la posición jerárquica que ocupan los individuos en el entramado social"
+      },
+      "clave": "B"
+    },
+    {
+      "n": 17,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que corresponda. Según Marqués, la idea de “la construcción social del varón” nos permite ver:",
+      "opciones": {
+        "A": "que lo femenino y lo masculino refieren a la condición de haber nacido hombre o mujer.",
+        "B": "que la masculinidad dominante ejerce coacción también sobre el varón.",
+        "C": "que la masculinidad expresa las potencialidades del varón.",
+        "D": "que lo masculino está determinado por el sexo.",
+        "E": "que lo masculino completa la identidad de la mujer."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 18,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Indique cuál de las siguientes opciones es correcta. Al afirmar que lo social no es natural, Vicent Marques coincide con el concepto de “imaginación sociológica” de Wright Mills porque…",
+      "opciones": {
+        "A": "… sabe que la gente no sabe nada de sociología y solo piensa en términos emocionales, políticos o económicos.",
+        "B": "… explica diferentes circunstancias individuales en un contexto histórico y social.",
+        "C": "… entiende que con la imaginación es posible representarse la vida de otras personas.",
+        "D": "… la gente tiene representaciones imaginarias de sus relaciones reales de existencia.",
+        "E": "… la vida humana es misteriosa y debemos imaginarla."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 19,
+      "puntos": 0.4,
+      "tipo": "relacionar",
+      "enunciado": "Coloque el nombre de un concepto junto a la definición que le corresponda.",
+      "autores": [
+        "Carácter estabilizante de la ideología",
+        "Praxis social",
+        "Construcción social del varón",
+        "Dominación tradicional",
+        "Espacios disciplinarios"
+      ],
+      "pares": [
+        {
+          "concepto": "Los sistemas de representaciones proponen preservar las ventajas del orden vigente o proponen otro como el orden definitivo.",
+          "autor": "Carácter estabilizante de la ideología"
+        },
+        {
+          "concepto": "En estructuras sociales y modos de producción, genera representaciones que hacen que aumente o disminuya la falta de transparencia de una sociedad.",
+          "autor": "Praxis social"
+        },
+        {
+          "concepto": "Concepto que permite ver que la masculinidad dominante es represiva para hombres y mujeres.",
+          "autor": "Construcción social del varón"
+        },
+        {
+          "concepto": "Relación social que involucra mandatos fundados en la santidad de las ordenaciones y el poder de mando heredado de tiempos lejanos.",
+          "autor": "Dominación tradicional"
+        },
+        {
+          "concepto": "Permiten la vigilancia y la jerarquización de los individuos y las conductas.",
+          "autor": "Espacios disciplinarios"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "puntos": 0.4,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones son verdaderas y cuáles falsas. Según Heller, la “vida cotidiana” es:",
+      "opciones": {
+        "A": "el ámbito donde se produce la reproducción social y la autorreproducción de los individuos",
+        "B": "el ámbito en el que participa el hombre entero.",
+        "C": "el ámbito en el que las personas nos desarrollamos libremente como seres particulares",
+        "D": "el ámbito en el que desarrollamos todas nuestras capacidades en su máxima expresión.",
+        "E": "el ámbito desde el que podemos superar la cosificación del lenguaje y la plena conciencia"
+      },
+      "clave": {
+        "A": "V",
+        "B": "V",
+        "C": "F",
+        "D": "F",
+        "E": "F"
+      }
+    },
+    {
+      "n": 21,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la afirmación correcta. Según Berger y Luckmann, el concepto de “socialización” permite comprender…",
+      "opciones": {
+        "A": "la particularidad de cada individuo a pesar de las coacciones sociales",
+        "B": "la manera en que la sociedad se reproduce en la subjetividad de cada uno de los miembros que la conforman",
+        "C": "el proceso mediante el cual los individuos se unen detrás de un objetivo común",
+        "D": "el sentido que los individuos le imprimen a sus acciones",
+        "E": "cómo los individuos se asocian y van consensuando un mundo de normas compartidas"
+      },
+      "clave": "B"
+    },
+    {
+      "n": 22,
+      "puntos": 0.4,
+      "tipo": "relacionar",
+      "enunciado": "Coloque el nombre de un autor junto al concepto que le corresponda.",
+      "autores": [
+        "Weber",
+        "Mills",
+        "Althusser",
+        "Durkheim",
+        "Heller",
+        "Foucault",
+        "Marx"
+      ],
+      "pares": [
+        {
+          "concepto": "Dominación carismática",
+          "autor": "Weber"
+        },
+        {
+          "concepto": "Imaginación sociológica",
+          "autor": "Mills"
+        },
+        {
+          "concepto": "Ideología en general",
+          "autor": "Althusser"
+        },
+        {
+          "concepto": "Hecho social",
+          "autor": "Durkheim"
+        },
+        {
+          "concepto": "Homogeneización",
+          "autor": "Heller"
+        },
+        {
+          "concepto": "Anatomopolítica",
+          "autor": "Foucault"
+        },
+        {
+          "concepto": "Fuerza de trabajo",
+          "autor": "Marx"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Seleccione la opción correcta. Según Heller, la “objetivación” se refiere a:",
+      "opciones": {
+        "A": "La perspectiva con la que cada hombre percibe y analiza su relación con los otros distintos a él.",
+        "B": "La forma en que se manifiesta la dualidad entre particularidad y especificidad.",
+        "C": "Toda actividad social que se presenta exterior al individuo y que posee un significado construido socialmente.",
+        "D": "El conjunto de objetos presentes en el ámbito de nuestra vida cotidiana gracias a los cuales desarrollamos la reproducción del particular.",
+        "E": "El conjunto instituciones en las que participa el Ser Particular en el desarrollo de su vida cotidiana."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 24,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la afirmación correcta. El concepto de “hecho social” en Durkheim permite comprender que...",
+      "opciones": {
+        "A": "...la realidad social es independiente de la voluntad de los individuos.",
+        "B": "...los individuos obran en función de su propia voluntad.",
+        "C": "...las relaciones sociales deben interpretarse a partir de la intencionalidad de los individuos.",
+        "D": "...los fenómenos sociales se pueden explicar desde la conducta del individuo.",
+        "E": "...los individuos son preexistentes y explican la estructura de los grupos sociales."
+      },
+      "clave": "A"
+    },
+    {
+      "n": 25,
+      "puntos": 0.4,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que corresponda. Según Althusser, las “relaciones sociales de producción” se reproducen mediante:",
+      "opciones": {
+        "A": "la acción conjunta de la sociedad.",
+        "B": "el poder “amorfo” del Estado.",
+        "C": "la ideología dominante.",
+        "D": "la distribución de los bienes materiales.",
+        "E": "el accionar microfísico del poder."
+      },
+      "clave": "C"
+    }
+  ],
+  "dudas": [
+    "relacionar (consignas 1, 19, 22): la impresión solo muestra la opción elegida en cada desplegable, no la lista completa; `autores` se armó con las respuestas correctas.",
+    "consigna 19: es de concepto–definición (\"Coloque el nombre de un concepto junto a la definición…\"); en `pares`, `concepto` lleva la definición y `autor` el concepto que le corresponde.",
+    "consigna 8: pide marcar \"Correcta\"/\"Incorrecta\" en vez de verdadero/falso; en `clave` se cargó Correcta = V e Incorrecta = F."
+  ]
+}

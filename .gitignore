@@ -1,3 +1,6 @@
 input/_sin_clasificar/
 __pycache__/
 .DS_Store
+
+# Los PDF de exámenes no se suben: el repo es público y no republicamos los exámenes.
+input/**/*.pdf

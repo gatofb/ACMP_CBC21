@@ -1,0 +1,39 @@
+# Carreras y materias que muestra la app.
+# `reglas` es la carpeta de la cátedra dentro de rules/ (con banco_preguntas.yaml y fichas_afirmacion.yaml).
+# Una materia sin `reglas` aparece como "Próximamente".
+
+carreras:
+  - id: abogacia
+    nombre: Abogacía
+    descripcion: Las seis materias del CBC que se cursan por UBA XXI.
+    materias:
+      - id: ipc
+        sigla: IPC
+        nombre: Introducción al Pensamiento Científico
+        codigo: 40
+      - id: icse
+        sigla: ICSE
+        nombre: Introducción al Conocimiento de la Sociedad y el Estado
+        codigo: 24
+        catedra: Pedrosa
+        instancia: 1er parcial
+        reglas: ICSE/Pedrosa
+      - id: sociologia
+        sigla: Sociología
+        nombre: Sociología
+        codigo: 14
+        catedra: A · Bustos
+        instancia: Final
+        reglas: Sociologia/Bustos
+      - id: ciencia-politica
+        sigla: Ciencia Política
+        nombre: Ciencia Política
+        codigo: 22
+      - id: ddhh
+        sigla: DDHH
+        nombre: Derechos Humanos y Derecho Constitucional
+        codigo: 50
+      - id: derecho-privado
+        sigla: Derecho Privado
+        nombre: Principios Generales de Derecho Privado
+        codigo: 89

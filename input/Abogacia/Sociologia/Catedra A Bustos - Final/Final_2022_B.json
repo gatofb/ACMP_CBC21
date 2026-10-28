@@ -1,0 +1,367 @@
+{
+  "archivo": "Final_2022_B.pdf",
+  "materia": "Sociología (14)",
+  "catedra": "A · Bustos",
+  "instancia": "Final",
+  "fecha": "2022-02-17",
+  "periodo": "Final 02/2022",
+  "turno": "3er turno",
+  "tema": 5,
+  "fuente_clave": "marcas",
+  "consignas": [
+    {
+      "n": 1,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Complete la frase con la opción correcta. El concepto de “Ideología” en Althusser da cuenta de la articulación entre…",
+      "opciones": {
+        "A": "… la formación social capitalista y el Estado.",
+        "B": "… la plusvalía y el salario.",
+        "C": "… el orden social y la estructura económica.",
+        "D": "… el orden social y la producción de la subjetividad.",
+        "E": "… las relaciones de producción y las fuerzas productivas."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 2,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la opción correcta. ¿Cómo se ejerce el tipo puro de “dominación legal-racional”, según Weber?",
+      "opciones": {
+        "A": "Se ejerce según la interpretación que cada funcionario haga de las leyes y reglamentos.",
+        "B": "Se ejerce por medio de un sistema penal.",
+        "C": "Se ejerce según los principios que marca la tradición.",
+        "D": "Se ejerce por medio de la coerción física.",
+        "E": "Se ejerce implementando la obediencia a las reglas estatuidas y no a las personas por derecho propio."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 3,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque la opción que complete la frase correctamente. “Según Fries y Facio, la teoría de las relaciones de género nos permite comprender que…",
+      "opciones": {
+        "A": "… el género es una construcción social histórica y el sexo pertenece al orden de la naturaleza.”",
+        "B": "… el género se constituye de modo natural, y por lo tanto inmodificable.”",
+        "C": "… el derecho no está atravesado por la ideología patriarcal.”",
+        "D": "… el sexo y el género son construídos, y por lo tanto son mutables.”",
+        "E": "… la identidad heterosexual, en tanto que identidad de género, es determinada por la genitalidad.”"
+      },
+      "clave": "D"
+    },
+    {
+      "n": 4,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción correcta. ¿Cuál de las siguientes características corresponde al concepto de “hecho social”, según Durkheim?",
+      "opciones": {
+        "A": "Su existencia se deriva de las acciones y manifestaciones individuales.",
+        "B": "Son acciones, pensamientos o sentimientos individuales orientados hacia lo colectivo.",
+        "C": "Son maneras de hacer y de pensar constituidas como una conciencia colectiva que condiciona la voluntad individual.",
+        "D": "Son acciones personales que se definen por su orientación dentro de un grupo.",
+        "E": "Son formas de actuar que tienen su origen en las voluntades individuales."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 5,
+      "puntos": null,
+      "tipo": "relacionar",
+      "enunciado": "Coloque el nombre de un concepto junto a la definición que le corresponda. Conceptos: Dominación legítima (I) – Estructura especular de la ideología (II) – Ideologías concurrentes (III) – Dominación carismática (IV) – Biopolítica (V).",
+      "autores": ["Dominación legítima", "Estructura especular de la ideología", "Ideologías concurrentes", "Dominación carismática", "Biopolítica"],
+      "pares": [
+        {"concepto": "La probabilidad de obtener obediencia a un mandato con contenido específico.", "autor": "Dominación legítima"},
+        {"concepto": "El sujeto se reconoce a través de la interpelación de un Sujeto.", "autor": "Estructura especular de la ideología"},
+        {"concepto": "Ideologías que se disputan la preeminencia en una sociedad.", "autor": "Ideologías concurrentes"},
+        {"concepto": "Dominación basada en las características personales de una persona.", "autor": "Dominación carismática"},
+        {"concepto": "Regulación de las leyes que atraviesan a una población.", "autor": "Biopolítica"}
+      ]
+    },
+    {
+      "n": 6,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones son verdaderas (V) y cuáles falsas (F). Para Maffía, el “feminismo” ha asumido distintos posicionamientos a lo largo de las últimas décadas del Siglo XX:",
+      "opciones": {
+        "A": "En los años setenta la lucha es por la igualdad.",
+        "B": "En los años setenta no se cuestionan las jerarquías.",
+        "C": "En los años ochenta la lucha es por la diferencia.",
+        "D": "En los años ochenta se cuestionan las categorías dicotómicas.",
+        "E": "En los años noventa no se cuestionan las categorías dicotómicas."
+      },
+      "clave": {"A": "V", "B": "F", "C": "V", "D": "F", "E": "F"}
+    },
+    {
+      "n": 7,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Seleccione con una cruz (X) la opción correcta. Según Mills, “el nuestro es un tiempo de malestar e indiferencia porque…",
+      "opciones": {
+        "A": "… la explotación a la que estamos sometidos no nos permite desarrollar todas las potencialidades de nuestro ser social”.",
+        "B": "… muchas veces hay solo el desalentado sentimiento de que nada marcha bien”.",
+        "C": "… el carácter cosificador del lenguaje nos impide generar una relación consciente con la genericidad, con el nosotros”.",
+        "D": "… al estar centrados en su yo individua, los sujetos no logran percibir lo que tienen en común con sus pares”.",
+        "E": "… se vive atravesado por diversas estructuras de poder que modelan en nosotros una personalidad temerosa, siempre dominada, siempre vigilada”."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 8,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) cuál de las siguientes afirmaciones corresponde a algunas de las tesis de Althusser sobre la “ideología”.",
+      "opciones": {
+        "A": "La ideología es la representación que el individuo se hace de forma transparente de las condiciones materiales.",
+        "B": "La ideología es la concepción del mundo que representa la relación del sujeto con su objeto.",
+        "C": "La ideología tiene existencia material.",
+        "D": "La ideología es la interpretación que hace cada individuo de sus condiciones reales de existencia.",
+        "E": "La ideología es la representación de la relación entre el individuo y el Estado."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 9,
+      "puntos": null,
+      "tipo": "relacionar",
+      "enunciado": "Coloque el nombre de un autor junto al concepto que le corresponda. Autores: Marx – Elías – Weber – Heller – Mills.",
+      "autores": ["Marx", "Elías", "Weber", "Heller", "Mills"],
+      "pares": [
+        {"concepto": "Regimiento de la vida", "autor": "Heller"},
+        {"concepto": "Modelo egocéntrico", "autor": "Elías"},
+        {"concepto": "Modo de producción", "autor": "Marx"},
+        {"concepto": "Acción afectiva", "autor": "Weber"},
+        {"concepto": "Inquietud privada", "autor": "Mills"}
+      ]
+    },
+    {
+      "n": 10,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Indique con una cruz (X) cuál de las siguientes afirmaciones se corresponde con el pensamiento de Karl Marx.",
+      "opciones": {
+        "A": "En toda sociedad la producción se basa en el interés de conseguir una ganancia.",
+        "B": "Dado que la naturaleza provee todos los bienes primarios, ella misma es la fuente última de toda riqueza material.",
+        "C": "El individuo se vincula con la sociedad por intermedio de sus acciones, orientadas por la conducta de los demás.",
+        "D": "El dinero es el origen real de todas las relaciones de producción.",
+        "E": "El desarrollo de las fuerzas productivas de una sociedad se articula con las relaciones de producción predominantes."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 11,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción correcta. ¿A qué se refiere Heller cuando habla de la “muda copresencia”?",
+      "opciones": {
+        "A": "A las dificultades en la comunicación entre las personas causadas por la cosificación del lenguaje.",
+        "B": "A la convivencia de diversas corrientes teóricas que no se comunican entre sí.",
+        "C": "A la imposibilidad de percibir el permanente conflicto entre la particularidad y la especificidad.",
+        "D": "A la existencia simultánea, permanente y sin antagonismos de dos dimensiones al interior de cada persona: la particularidad y la especificidad.",
+        "E": "A la participación del individuo en diversidad de ámbitos y espacios sociales."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 12,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque la opción correcta con una cruz (X). Según V. Marqués, la ideología de la “complementariedad” supone que:",
+      "opciones": {
+        "A": "la masculinidad es completa si es represiva.",
+        "B": "la masculinidad es una construcción natural e inmutable.",
+        "C": "el varón se completa con la existencia de la mujer.",
+        "D": "la masculinidad se expresa en el ejercicio de la fuerza.",
+        "E": "la masculinidad implica el rol subordinado y complementario del varón."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 13,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción que corresponda. Según Berger y Luckmann, ¿de qué manera surge el orden social?:",
+      "opciones": {
+        "A": "Deriva de datos biológicos en sus manifestaciones empíricas.",
+        "B": "Es producto del contrato social, de delegar el poder soberano al Estado.",
+        "C": "Es una producción humana constante, en el curso de su continua externalización.",
+        "D": "Es el resultado de la suma de las voluntades individuales.",
+        "E": "Forma parte de la naturaleza de las cosas y deriva de las leyes de la naturaleza."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 14,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Establezca cuáles son verdaderas (V) y cuáles son falsas (F). Entre las propuestas conceptuales de Berger & Luckmann y la reflexión de Agnes Heller sobre la vida cotidiana existen coincidencias porque…",
+      "opciones": {
+        "A": "Todos parten para su análisis del concepto de “extrañación",
+        "B": "La tesis marxista que explica la vida social a partir de las relaciones sociales de producción es el punto de partida de ambos textos.",
+        "C": "Entienden que la biología es lo que determina al individuo.",
+        "D": "Para todos estos autores la reproducción de las condiciones de la vida individual se da en un ambiente social determinado.",
+        "E": "En ambas perspectivas el orden social se mantiene en base a conductas habituales que no requieren reflexión."
+      },
+      "clave": {"A": "F", "B": "F", "C": "F", "D": "V", "E": "V"}
+    },
+    {
+      "n": 15,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones son verdaderas (V) y cuáles falsas (F). Según Heller, la moral tiene dos funciones:",
+      "opciones": {
+        "A": "Transformadora, porque nos lleva a actuar más allá de nosotros mismos, más allá del “ser particular”, para conectarnos con la “especificidad”.",
+        "B": "Evaluadora, porque nos permite distinguir lo que está bien de lo que está mal.",
+        "C": "Pacificadora, porque nos otorga herramientas para superar los conflictos inherentes a toda vida en sociedad.",
+        "D": "Inhibidora, porque nos impide hacer y decir cosas que atenten contra la vida en sociedad.",
+        "E": "Revolucionaria, porque nos permite destruir las estructuras sociales."
+      },
+      "clave": {"A": "V", "B": "F", "C": "F", "D": "V", "E": "F"}
+    },
+    {
+      "n": 16,
+      "puntos": null,
+      "tipo": "relacionar",
+      "enunciado": "Coloque el nombre de un autor junto al concepto que le corresponda. Autores: Wright Mills - Heller - Durkheim - Elías - Lefebvre - Marx.",
+      "autores": ["Wright Mills", "Heller", "Durkheim", "Elías", "Lefebvre", "Marx"],
+      "pares": [
+        {"concepto": "Trabajo no remunerado", "autor": "Marx"},
+        {"concepto": "Imaginación sociológica", "autor": "Wright Mills"},
+        {"concepto": "Figuras sociales", "autor": "Elías"},
+        {"concepto": "Pragmatismo", "autor": "Heller"},
+        {"concepto": "Praxis revolucionaria", "autor": "Lefebvre"},
+        {"concepto": "Corrientes de opinión", "autor": "Durkheim"}
+      ]
+    },
+    {
+      "n": 17,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción correcta. Según Wright Mills, la distinción entre “inquietudes” y “problemas”:",
+      "opciones": {
+        "A": "Es un instrumento esencial para las corrientes sociológicas “objetivistas” que consideran al individuo sometido a los designios sociales.",
+        "B": "Permite diferenciar las dificultades que enfrentan los individuos, como entidad biográfica, en su ámbito personal o familiar respecto a los que les plantean la vida en sociedad.",
+        "C": "Es una distinción absurda e irrelevante, porque la esfera privada y la esfera pública están siempre relacionadas y no se diferencian.",
+        "D": "Refiere por un lado al carácter de un individuo y sus relaciones con los otros y, por otro lado, a la organización de muchos ambientes dentro de las instituciones de una sociedad.",
+        "E": "Es un instrumento esencial para las corrientes sociológicas “comprensivistas” que hacen foco en las acciones y motivaciones de los individuos."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 18,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque la opción correcta con una cruz (X). Para V. Marques, como para Ch. Wright Mills, las personas atraviesan diferentes situaciones en la vida…",
+      "opciones": {
+        "A": "… y responden a ellas según sus ideologías particulares.",
+        "B": "… en contextos sociales e históricos que las definen y que no siempre son evidentes para ellas.",
+        "C": "… según la influencia de la realidad socioeconómica.",
+        "D": "… según el nivel educativo que hayan alcanzado.",
+        "E": "… en contextos en los cuales los valores y los principios morales no cambian históricamente, y por eso las orientan."
+      },
+      "clave": "B"
+    },
+    {
+      "n": 19,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la afirmación que complete correctamente la proposición. La noción de “poder” en Weber es diferente de la noción de poder en Althusser porque para Weber…",
+      "opciones": {
+        "A": "… el poder tiene su base en la propiedad de los medios de producción.",
+        "B": "…. el poder requiere de la existencia de la legalidad.",
+        "C": "… el poder puede tener fuentes muy diversas.",
+        "D": "… el poder requiere de la fuerza represiva ejercida por quien domine.",
+        "E": "… la base del poder es ideológica."
+      },
+      "clave": "C"
+    },
+    {
+      "n": 20,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Marque cuáles afirmaciones acerca de las diferencias entre Althusser y Foucault sobre la concepción del estado y del poder son verdaderas (V) y cuáles falsas (F).",
+      "opciones": {
+        "A": "Para Althusser el Estado garantiza la reproducción de las relaciones de producción, y para Foucault las creencias en la legitimidad del orden.",
+        "B": "Althusser destaca el papel represivo e ideológico del poder, mientras que Foucault analiza el poder por fuera del Estado, donde se ejerce concretamente sobre las personas.",
+        "C": "Para Althusser el Estado representa a la clase dominante, para Foucault representa a todos los ciudadanos por igual.",
+        "D": "Para Althusser el poder desciende desde el Estado hacia la sociedad, para Foucault el poder va desde abajo hacia arriba.",
+        "E": "Para Althusser el Estado actúa por medio de los Aparatos Ideológicos, y para Foucault lo hace a través de los Aparatos Represivos."
+      },
+      "clave": {"A": "F", "B": "V", "C": "F", "D": "V", "E": "F"}
+    },
+    {
+      "n": 21,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Indique cuáles afirmaciones son verdaderas (V) y cuáles falsas (F). La diferencia entre Althusser y Foucault con respecto a la “construcción de sujeto moderno” es que:",
+      "opciones": {
+        "A": "Para Althusser es resultado de las ideologías globalizantes y para Foucault de la soberanía.",
+        "B": "Para Althusser el sujeto está sujetado ideológicamente, para Foucault es construido por las tecnologías del poder.",
+        "C": "Para Althusser es resultado de la superestructura, para Foucault de la infraestructura.",
+        "D": "Para Althusser es resultado de la interpelación ideológica, para Foucault de las modernas técnicas disciplinarias.",
+        "E": "Para Althusser es resultado de la ideología, para Foucault de la biopolítica."
+      },
+      "clave": {"A": "F", "B": "V", "C": "F", "D": "V", "E": "F"}
+    },
+    {
+      "n": 22,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque la afirmación correcta con una cruz (X). El concepto de “hecho social” en Durkheim, permite comprender que…:",
+      "opciones": {
+        "A": "… las relaciones sociales deben interpretarse a partir de la intencionalidad de los individuos.",
+        "B": "… los individuos obran en función de su propia voluntad.",
+        "C": "… los fenómenos sociales se pueden explicar desde la conducta del individuo.",
+        "D": "… la realidad social es independiente de la voluntad de los individuos.",
+        "E": "… los individuos son preexistentes y explican la estructura de los grupos sociales."
+      },
+      "clave": "D"
+    },
+    {
+      "n": 23,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) la opción que completa la frase correctamente. Según Lefebvre, las ideologías…:",
+      "opciones": {
+        "A": "… constituyen la mejor descripción posible de la realidad social.",
+        "B": "… instalan representaciones a partir de lo que imponen los sectores politizados.",
+        "C": "… están desconectadas por completo de las relaciones sociales de producción.",
+        "D": "… son verdaderas porque las producen los intelectuales más prominentes de una época.",
+        "E": "… están limitadas por intereses particulares, pero se presentan como verdades generales."
+      },
+      "clave": "E"
+    },
+    {
+      "n": 24,
+      "puntos": null,
+      "tipo": "vf_items",
+      "enunciado": "Indique si es verdadero (V) o falso (F) que Heller y Berger & Luckmann coinciden en las siguientes afirmaciones:",
+      "opciones": {
+        "A": "La organización biológica determina el comportamiento social.",
+        "B": "Hay elementos que distinguen al ser humano de otras especies animales.",
+        "C": "Las relaciones sociales de producción constituyen el único elemento determinante de la vida cotidiana",
+        "D": "Es importante identificar mediante qué procesos sociales las personas están en relación permanente con la sociedad en la que viven.",
+        "E": "La sociedad se desarrolla en condiciones históricas aleatorias y excepcionales, por lo cual no es posible identificar regularidades."
+      },
+      "clave": {"A": "F", "B": "V", "C": "F", "D": "V", "E": "F"}
+    },
+    {
+      "n": 25,
+      "puntos": null,
+      "tipo": "simple",
+      "enunciado": "Marque con una cruz (X) cuál de las siguientes características corresponden al concepto de “acción social con arreglo a valores” de Weber",
+      "opciones": {
+        "A": "Se caracteriza por ser una acción guiada por las emociones y los sentimientos actuales.",
+        "B": "Se caracteriza por ser una acción orientada para lograr un resultado específico.",
+        "C": "Se caracteriza por ser una acción orientada por hábitos conscientes de la cotidianeidad.",
+        "D": "Se caracteriza por ser un comportamiento basado en las costumbres de una sociedad.",
+        "E": "Se caracteriza por ser una conducta motivada por la creencia consciente en determinado valor."
+      },
+      "clave": "E"
+    }
+  ],
+  "dudas": [
+    "consigna 16: el autor de «Corrientes de opinión» está escrito «Durkherim» en el examen; se cargó como «Durkheim», que es el de la lista."
+  ]
+}

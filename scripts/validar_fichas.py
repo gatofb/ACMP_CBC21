@@ -56,7 +56,7 @@ def main():
             "ficha": f,
             "veces": sum(q["veces_tomada"] for q in qs),
             "cuatrimestres": sorted({c for q in qs for c in q["cuatrimestres"]}),
-            "puntos": max(q["puntos"] for q in qs),
+            "puntos": max(q["puntos"] or 0 for q in qs),
         })
     filas.sort(key=lambda r: (-len(r["cuatrimestres"]), -r["veces"], r["ficha"]["eje"], r["ficha"]["id"]))
 
