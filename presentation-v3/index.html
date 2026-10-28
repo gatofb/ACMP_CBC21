@@ -145,27 +145,17 @@ h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
 .jobs i{font-style:normal;color:rgba(255,255,255,.85)}
 
 /* Demo */
-.demo{display:grid;grid-template-columns:620px 1fr;gap:56px;flex:1;min-height:0;align-items:stretch}
-.demo-left{display:flex;flex-direction:column;gap:24px;min-height:0}
-.flow{list-style:none;padding:0;display:flex;flex-direction:column;gap:20px}
-.flow li{display:flex;gap:22px;align-items:flex-start}
-.flow .num{flex:none;width:52px;height:52px;font-size:22px;border-radius:14px}
-.flow b{display:block;font-family:var(--fs);font-size:30px;margin-bottom:4px}
-.flow span{font-size:22px;line-height:1.4;color:rgba(255,255,255,.75)}
-.qr{margin-top:auto;display:flex;align-items:center;gap:26px;padding:16px 24px 16px 16px;border-radius:22px;background:var(--navy-700)}
-.qr img{flex:none;width:144px;height:144px;object-fit:contain;padding:8px;border-radius:14px;background:#fff}
-.qr b{display:block;font-family:var(--fs);font-size:30px;margin-bottom:8px}
-.qr span{font-size:21px;line-height:1.4;color:rgba(255,255,255,.75)}
-.browser{position:relative;display:flex;flex-direction:column;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 40px 80px rgba(0,0,0,.35)}
-.browser .bar{flex:none;display:flex;align-items:center;gap:10px;height:50px;padding:0 20px;background:#e9eaef}
-.browser .bar i{width:14px;height:14px;border-radius:50%;background:#c9ccd6}
-.browser .bar span{margin-left:16px;padding:6px 18px;border-radius:999px;background:#fff;font-size:17px;color:var(--gray-700)}
-.browser iframe{flex:1;width:100%;border:0;background:var(--gray)}
-.offline{position:absolute;inset:50px 0 0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:18px;background:var(--gray);color:var(--navy);text-align:center;padding:60px}
-.offline.on{display:flex}
-.offline b{font-family:var(--fs);font-size:40px}
-.offline span{font-size:23px;color:var(--gray-700);max-width:640px;line-height:1.45}
-.offline code{padding:10px 20px;border-radius:12px;background:var(--navy);color:#fff;font-size:20px}
+.demo{display:grid;grid-template-columns:1fr 600px;gap:90px;flex:1;min-height:0;align-items:center}
+.flow{list-style:none;padding:0;display:flex;flex-direction:column;gap:34px}
+.flow li{display:flex;gap:26px;align-items:flex-start}
+.flow .num{flex:none;width:60px;height:60px;font-size:26px;border-radius:16px}
+.flow b{display:block;font-family:var(--fs);font-size:36px;margin-bottom:6px}
+.flow span{font-size:26px;line-height:1.4;color:rgba(255,255,255,.75)}
+.scan{display:flex;flex-direction:column;align-items:center;gap:14px;padding:36px 36px 34px;border-radius:32px;background:#fff;color:var(--navy);text-align:center;box-shadow:0 40px 80px rgba(0,0,0,.35)}
+.scan img{width:440px;height:440px;object-fit:contain}
+.scan b{font-family:var(--fs);font-size:40px;font-weight:700}
+.scan b span{color:var(--orange)}
+.scan>span{font-size:24px;color:var(--gray-700)}
 
 /* Infinita */
 .inf{display:grid;grid-template-columns:1fr 560px;gap:90px;flex:1;min-height:0;align-items:center}
@@ -253,8 +243,6 @@ body.idle{cursor:none}
   html,body{height:auto;overflow:visible;background:none}
   .slide{position:relative;left:0;top:0;display:flex!important;transform:none;animation:none;break-after:page}
   .ui,.progress,.notes-panel{display:none!important}
-  .browser iframe{display:none}
-  .offline{display:flex}
 }
 @media (prefers-reduced-motion:reduce){ .slide.on{animation:none} }
 </style>
@@ -434,29 +422,19 @@ body.idle{cursor:none}
     <h2>Let's <span class="kw">try</span> it</h2>
   </div>
   <div class="demo">
-    <div class="demo-left">
     <ol class="flow">
       <li><span class="num">1</span><p><b>Diagnostic</b><span>Real format, no clock, no feedback. Confidence after each answer.</span></p></li>
       <li><span class="num">2</span><p><b>The map</b><span>Every idea in four states: mastered, fragile, gap, blind spot.</span></p></li>
       <li><span class="num">3</span><p><b>Explain</b><span>Typed or spoken. The tutor deduces your answer.</span></p></li>
       <li><span class="num">4</span><p><b>Feedback</b><span>What's missing, and your own explanation rewritten clearer.</span></p></li>
     </ol>
-    <div class="qr">
+    <div class="scan">
       <img src="qr-demo.png" alt="QR code to acmp-cbc21.vercel.app">
-      <p><b>Try it on your phone</b><span>acmp-cbc21.vercel.app</span></p>
-    </div>
-    </div>
-    <div class="browser">
-      <div class="bar"><i></i><i></i><i></i><span id="demo-host">localhost:4321</span></div>
-      <iframe data-path="/#/abogacia/icse" title="PrepTest live demo"></iframe>
-      <div class="offline" id="offline">
-        <b>Live demo</b>
-        <span id="offline-msg">Start the app on this computer and the demo loads here.</span>
-        <code id="offline-cmd">cd output &amp;&amp; npm start</code>
-      </div>
+      <b>Scan to <span>try it</span></b>
+      <span>acmp-cbc21.vercel.app</span>
     </div>
   </div>
-  <div class="notes">Do one ICSE question in the diagnostic with the confidence buttons, open the map, then one question in Explainer mode, ideally dictated. The Quick Demo has 4 questions if time is short.</div>
+  <div class="notes">Ask everyone to scan the QR and start the diagnostic on their phone. Do one ICSE question in the diagnostic with the confidence buttons, open the map, then one question in Explainer mode, ideally dictated. The Quick Demo has 4 questions if time is short.</div>
 </section>
 
 <!-- 11 · One more thing -->
@@ -617,28 +595,6 @@ function fit(){
   document.documentElement.style.setProperty('--s',Math.min(innerWidth/1920,innerHeight/1080));
 }
 
-// La demo solo se carga en su slide. Abierta en local usa la app de localhost:4321;
-// publicada (Vercel) usa la app del mismo sitio. Si no responde, se muestra el aviso.
-const ONLINE=/^https?:$/.test(location.protocol)&&!['localhost','127.0.0.1','[::1]'].includes(location.hostname);
-const APP=ONLINE?location.origin:'http://localhost:4321';
-if(ONLINE){
-  document.getElementById('demo-host').textContent=location.host;
-  document.getElementById('offline-msg').textContent="The app didn't answer. Check the connection and come back to this slide.";
-  document.getElementById('offline-cmd').remove();
-}
-async function demo(f,on){
-  const off=document.getElementById('offline');
-  if(!on){ if(f.getAttribute('src')!=='about:blank') f.setAttribute('src','about:blank'); return; }
-  const src=APP+f.dataset.path;
-  try{
-    await fetch(APP+'/api/estado',{mode:'no-cors',cache:'no-store'});
-    off.classList.remove('on');
-    if(f.getAttribute('src')!==src) f.setAttribute('src',src);
-  }catch{
-    off.classList.add('on');
-  }
-}
-
 // Infinita: un reel por vez; el scroll adentro del teléfono pasa al siguiente
 const feed=document.getElementById('feed');
 const reelVids=[...feed.querySelectorAll('video')];
@@ -668,7 +624,6 @@ feed.addEventListener('click',()=>{ setSound(!soundOn); setReel(curReel); });
 function go(i){
   cur=Math.max(0,Math.min(slides.length-1,i));
   slides.forEach((s,j)=>s.classList.toggle('on',j===cur));
-  slides.forEach((s,j)=>s.querySelectorAll('iframe[data-path]').forEach(f=>demo(f,j===cur)));
   // El reel visible arranca al llegar a Infinita; al salir se pausa y vuelve a silencio
   if(slides[cur]===feedSlide){ setReel(curReel); } else { setSound(false); setReel(curReel); }
   document.getElementById('count').textContent=`${cur+1} / ${slides.length}`;
