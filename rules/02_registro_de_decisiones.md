@@ -45,7 +45,8 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-032](#d-032) | 2026-10-28 | En la versión online dicta el navegador; Whisper queda para local | Vigente |
 | [D-033](#d-033) | 2026-10-28 | Las preguntas de IPC no mencionan la grilla de resolución del examen en papel | Vigente |
 | [D-034](#d-034) | 2026-10-28 | La app es bilingüe: español e inglés, con las preguntas traducidas | Vigente |
-| [D-035](#d-035) | 2026-10-28 | La Home se simplifica con la idea de la presentación, el video y PostHog | Vigente |
+| [D-035](#d-035) | 2026-10-28 | La Home se simplifica con la idea de la presentación, el video y PostHog | Reemplazada por D-036 (lo de PostHog sigue) |
+| [D-036](#d-036) | 2026-10-28 | Home más directa: hero con una muestra del Explainer, tres pasos y un bloque naranja | Vigente |
 
 ---
 
@@ -371,7 +372,7 @@ Gastón pidió pasar todo a inglés para que la app sea bilingüe, menos la pres
 - **Pendiente:** la traducción es un borrador hecho con IA; falta que alguien la revise, sobre todo los términos de cada autor.
 
 ### D-035
-**La Home se simplifica con la idea de la presentación, el video y PostHog** · 2026-10-28 · Gastón · Vigente
+**La Home se simplifica con la idea de la presentación, el video y PostHog** · 2026-10-28 · Gastón · Reemplazada por D-036 (lo de PostHog sigue)
 
 Gastón pidió simplificar la Home a partir de la presentación, con algunas cosas que expliquen qué es la app, y sumar su video "How it works".
 
@@ -379,3 +380,16 @@ Gastón pidió simplificar la Home a partir de la presentación, con algunas cos
 - **Sale:** el paso "Preparar" (los videos del campus todavía no están asignados) y la grilla de "Qué tiene de distinto".
 - **El video:** va en `output/public/video/como-funciona-en.mp4` con su imagen de portada. Está en inglés; en español se avisa debajo. Si el archivo no está, la sección no se muestra.
 - **PostHog:** como toda página que sale a producción, `index.html` lleva el snippet entre `<!-- acmp:posthog -->` y `<!-- /acmp:posthog -->`.
+
+### D-036
+**Home más directa: hero con una muestra del Explainer, tres pasos y un bloque naranja** · 2026-10-28 · Gastón · Vigente
+
+Reemplaza a D-035 (menos lo de PostHog, que sigue). Gastón pidió una Home más simple, directa y con más impacto. Quedan tres bloques:
+
+- **Hero en dos columnas:** el principio en grande ("Si lo podés explicar, lo entendés"), una línea de qué hace la app, el botón "Elegí tu materia →" y tres cifras que salen del banco (preguntas, ideas y materias). A la derecha, una tarjeta navy con una muestra del Explainer Mode armada con una pregunta real de ICSE: la pregunta, la explicación del alumno, lo que habría marcado, la claridad y cómo queda en el mapa. Así se entiende la app sin leer.
+- **Cómo funciona:** tres pasos de una línea (diagnóstico, explicás, feedback).
+- **Bloque naranja al final:** las mismas ideas vuelven con otras palabras, con el dato de cuántas preguntas y cuántas ideas hay, y el botón otra vez. Es el uso del naranja que pide la marca: bloque entero solo para el CTA grande.
+- **El video** se abre en una ventana desde "Mirá cómo funciona"; el botón solo aparece si `output/public/video/como-funciona-en.mp4` existe.
+- **Con una sola carrera**, el botón lleva directo a sus materias.
+- **Entrada animada** del hero, que arranca recién cuando el navegador dibuja: en una vista previa o una captura el contenido se ve igual.
+- **Salen:** los cuatro estados del mapa, la banda navy y la frase de cierre.

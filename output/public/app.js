@@ -214,60 +214,78 @@ function avisoIa() {
   return "";
 }
 
-// El video de la Home está en inglés; en español se avisa debajo.
+// El video de la Home está en inglés; en español se avisa debajo. Se abre en una ventana desde el
+// botón "Mirá cómo funciona", que solo aparece si el archivo existe.
 const VIDEO = { mp4: "video/como-funciona-en.mp4", poster: "video/como-funciona-en.webp" };
+let hayVideo = null;
+const videoDisponible = () => (hayVideo ??= fetch(VIDEO.mp4, { method: "HEAD" }).then((r) => r.ok).catch(() => false));
+
+// Una muestra del Explainer Mode (una pregunta real de ICSE) para que se entienda la app de un vistazo.
+function muestraHtml() {
+  return `<div class="muestra entra" style="--d:3" role="img" aria-label="${esc(t("muestra_alt"))}">
+    <p class="eyebrow">Explainer Mode</p>
+    <p class="muestra-pregunta">${esc(t("muestra_pregunta"))}</p>
+    <p class="muestra-burbuja">${esc(t("muestra_explicacion"))}</p>
+    <p class="muestra-veredicto"><i aria-hidden="true">✓</i>${esc(t("muestra_veredicto"))}</p>
+    <p class="muestra-claridad"><span></span><span></span><span></span><span></span>${esc(t("muestra_claridad"))}</p>
+    <span class="muestra-chip">${esc(t("muestra_mapa"))}</span>
+  </div>`;
+}
 
 function landing() {
   const disponibles = estado.catalogo.flatMap((c) => c.materias.filter((m) => m.disponible));
-  const apariciones = disponibles.reduce((n, m) => n + m.apariciones, 0);
-  const ideas = disponibles.reduce((n, m) => n + m.fichas, 0);
+  const suma = (campo) => disponibles.reduce((n, m) => n + m[campo], 0);
+  // Con una sola carrera, el botón lleva directo a sus materias.
+  const destino = estado.catalogo.length === 1 ? `#/${estado.catalogo[0].id}` : "#/carreras";
+  const boton = (clase = "") => `<a class="btn grande ${clase}" href="${destino}">${t("cta_materia")}</a>`;
   app.innerHTML = `
     <section class="hero">
-      <p class="eyebrow">${t("hero_eyebrow")}</p>
-      <h1>${t("hero_titulo")}</h1>
-      <p class="sub">${t("hero_sub")}</p>
-      <div class="acciones">
-        <a class="btn" href="#/carreras">${t("cta_carrera")}</a>
-        <a class="btn secundario" href="#como-funciona" data-ancla>${t("cta_video")}</a>
+      <div>
+        <p class="eyebrow entra" style="--d:0">${t("hero_eyebrow")}</p>
+        <h1 class="entra" style="--d:1">${t("hero_titulo")}</h1>
+        <p class="sub entra" style="--d:2">${t("hero_sub")}</p>
+        <div class="acciones entra" style="--d:3">
+          ${boton()}
+          <button class="btn secundario grande" type="button" data-video hidden>▶ ${t("cta_video")}</button>
+        </div>
+        <ul class="cifras entra" style="--d:4">
+          ${t("cifras", suma("preguntas"), suma("fichas"), disponibles.length)
+            .map(([n, texto]) => `<li><b>${n}</b><span>${texto}</span></li>`).join("")}
+        </ul>
       </div>
+      ${muestraHtml()}
     </section>
 
-    <section id="como-funciona" class="seccion">
-      <p class="eyebrow">${t("video_eyebrow")}</p>
-      <h2>${t("video_titulo")}</h2>
-      <video class="video" controls playsinline preload="metadata" poster="${VIDEO.poster}">
-        <source src="${VIDEO.mp4}" type="video/mp4">
-      </video>
-      ${t("video_nota") ? `<p class="chico">${t("video_nota")}</p>` : ""}
-    </section>
-
-    <section class="seccion" id="pasos">
-      <p class="eyebrow">${t("pasos_eyebrow")}</p>
+    <section class="seccion">
       <h2>${t("pasos_titulo")}</h2>
       <ol class="pasos">
-        ${t("pasos").map(([titulo, texto], i) => `<li class="tarjeta"><span class="numero">${i + 1}</span><h3>${titulo}</h3><p>${texto}</p></li>`).join("")}
+        ${t("pasos").map(([titulo, texto], i) => `<li><span class="numero">${i + 1}</span><h3>${titulo}</h3><p>${texto}</p></li>`).join("")}
       </ol>
-      <p class="estados-intro">${t("estados_intro")}</p>
-      ${leyendaHtml({ conSinVer: false })}
     </section>
 
-    <section class="banda">
-      <p class="eyebrow">${t("banda_eyebrow")}</p>
-      <p class="cita">${t("banda_cita")}</p>
-      <p>${t("banda_texto", apariciones, ideas)}</p>
+    <section class="cta-naranja">
+      <h2>${t("cta_titulo")}</h2>
+      <p>${t("cta_texto", suma("apariciones"), suma("fichas"))}</p>
+      ${boton("blanco")}
     </section>
 
-    <section class="seccion cierre">
-      <p class="cita-cierre">${t("cierre")}</p>
-      <div class="acciones"><a class="btn" href="#/carreras">${t("cta_carrera")}</a></div>
-    </section>`;
-  // Si el video no está (o no carga), la sección no se muestra y "Cómo funciona" lleva a los pasos.
-  const seccionVideo = document.getElementById("como-funciona");
-  seccionVideo.querySelector("source").addEventListener("error", () => {
-    seccionVideo.hidden = true;
-    seccionVideo.id = "";
-    document.getElementById("pasos").id = "como-funciona";
-  });
+    <dialog class="dialogo-video" aria-label="${t("cta_video")}">
+      <button class="cerrar" type="button" data-cerrar aria-label="${t("cerrar")}">×</button>
+      <video controls playsinline preload="none" poster="${VIDEO.poster}"><source src="${VIDEO.mp4}" type="video/mp4"></video>
+      ${t("video_nota") ? `<p>${t("video_nota")}</p>` : ""}
+    </dialog>`;
+
+  // La entrada se anima recién cuando el navegador dibuja: si no dibuja (una vista previa, una captura),
+  // el contenido se ve igual, sin quedar invisible.
+  requestAnimationFrame(() => app.querySelector(".hero")?.classList.add("animar"));
+  const dialogo = app.querySelector(".dialogo-video");
+  const video = dialogo.querySelector("video");
+  const abrir = app.querySelector("[data-video]");
+  videoDisponible().then((ok) => { abrir.hidden = !ok; });
+  abrir.addEventListener("click", () => { dialogo.showModal(); video.play().catch(() => {}); });
+  dialogo.addEventListener("close", () => video.pause());
+  // Se cierra con la cruz, con Escape o tocando afuera del video.
+  dialogo.addEventListener("click", (e) => { if (e.target === dialogo || e.target.closest("[data-cerrar]")) dialogo.close(); });
   estado.redibujar = landing;
 }
 
@@ -848,6 +866,7 @@ async function mostrar() {
   const [carreraId, materiaId] = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   estado.sesion = null;
   window.scrollTo(0, 0);
+  app.classList.toggle("ancho", !carreraId);
   if (!carreraId) return landing();
   if (carreraId === "carreras") return verCarreras();
   const carrera = estado.catalogo.find((c) => c.id === carreraId);
