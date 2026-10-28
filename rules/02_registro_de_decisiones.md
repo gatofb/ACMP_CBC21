@@ -43,6 +43,7 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-030](#d-030) | 2026-10-28 | En el Explainer Mode se muestran las opciones cuando la pregunta no se contesta sin ellas | Vigente |
 | [D-031](#d-031) | 2026-10-28 | La marca se escribe "Academia Comunica", sin "de Mai Pistiner", en la presentación y la app | Vigente |
 | [D-032](#d-032) | 2026-10-28 | En la versión online dicta el navegador; Whisper queda para local | Vigente |
+| [D-033](#d-033) | 2026-10-28 | Las preguntas de IPC no mencionan la grilla de resolución del examen en papel | Vigente |
 
 ---
 
@@ -318,7 +319,7 @@ En la tarjeta del diagnóstico, al lado de "Hacer el diagnóstico", hay un botó
 
 Gastón probó una pregunta de IPC ("Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del punto de vista…") y no se podía contestar: el Explainer ocultaba las opciones.
 
-- **Cuáles:** las preguntas simples cuyo enunciado se refiere a las opciones: "cuál de las siguientes / de ellos", "qué premisa", "las siguientes afirmaciones, características, proposiciones…", "las opciones presentadas". Las de relacionar no entran. Hoy son 21 preguntas de Sociología y 29 de IPC. ICSE no tiene.
+- **Cuáles:** las preguntas simples cuyo enunciado se refiere a las opciones: "cuál de las siguientes / de ellos", "qué premisa", "las siguientes afirmaciones, características, proposiciones…". Las de relacionar no entran. Hoy son 21 preguntas de Sociología y 27 de IPC. ICSE no tiene.
 - **Cómo:** se muestran las opciones para elegir una y la consigna dice "Elegí una opción y explicá por qué es la correcta". Se corrige la opción elegida, no la que deduce la IA. La IA evalúa si la explicación sostiene esa elección y califica la claridad igual que siempre.
 - **Lo demás no cambia:** en las otras preguntas el alumno sigue explicando sin ver las opciones (etapa 3 de [00_modelo_de_aprendizaje.md](00_modelo_de_aprendizaje.md)).
 
@@ -343,3 +344,13 @@ En la nube y en Vercel no hay Whisper (D-026, D-028). Gastón pidió sumar dicta
 - **Cómo anda:** muestra lo que va entendiendo y suma cada frase al cuadro; el alumno la corrige antes de enviar. Si el navegador corta por un silencio, sigue escuchando hasta que el alumno toca Terminar. En Android escucha frase por frase, porque en modo continuo repite frases.
 - **Sin el glosario de autores:** el dictado del navegador no acepta la lista de nombres que se le pasa a Whisper, así que puede escribir mal algún apellido.
 - **Pendiente:** probarlo en Vercel con un micrófono, en Chrome y en Safari del celular. En local se probó la lógica con un reconocedor simulado.
+
+### D-033
+**Las preguntas de IPC no mencionan la grilla de resolución del examen en papel** · 2026-10-28 · Gastón · Vigente
+
+Los exámenes de IPC se contestan en una grilla de papel, y 102 versiones de preguntas decían cómo anotar la respuesta ("Seleccioná una opción y escribí el número en la grilla de resolución", "Escriba "V" o "F" donde dice "A"…"). En la app no hay grilla: Gastón pidió sacarlas.
+
+- **Dónde:** `scripts/armar_banco.py` limpia el enunciado que ve el alumno al armar el banco, así no vuelve al regenerarlo. El agrupado y los ids siguen saliendo del enunciado original: las fichas y los mapas de los alumnos no cambian.
+- **Cómo:** la oración que solo dice cómo anotar se saca. Si dice algo más, queda esa parte: "Seleccione dos opciones.", "Seleccione la opción que justifica su respuesta.". Si la pregunta está en la oración, se reescribe: "Escribí el número correspondiente al silogismo inductivo donde dice "S"…" pasa a "¿Cuál es el silogismo inductivo?". También se saca la etiqueta "(casillero "HF")" al final de la pregunta.
+- **Efecto en D-030:** "las opciones presentadas" solo aparecía en esas instrucciones, así que se sacó de la regla. Las dos preguntas que la usaban ("Identifique la hipótesis auxiliar / la consecuencia observacional del caso del ejercicio 1") se explican con palabras, como las demás de hipótesis.
+- ICSE y Sociología no tenían estas instrucciones: sus bancos quedan iguales.

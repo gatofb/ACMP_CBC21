@@ -8,7 +8,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'A. Comenzamos la Unidad 1 caracterizando los argumentos. Atendiendo a esto, determiná si el siguiente
-      fragmento es un argumento. Escribí "SI" o "NO" donde dice "A" en la grilla de resolución.
+      fragmento es un argumento.
 
       Si un mamut tenía mucho pelo, entonces vivía en un ambiente frío. El mamut colombino no vivía en ambientes
       fríos y, por lo tanto, no tenía mucho pelo.'
@@ -44,12 +44,12 @@
   - 1C 2025
   versiones:
   - enunciado: 'A. Comenzamos la Unidad 1 caracterizando los argumentos. Atendiendo a esto, determiná si el siguiente
-      fragmento es un argumento. Escribí "SI" o "NO" donde dice "A" en la grilla de resolución.
+      fragmento es un argumento.
 
       Si un mamut tenía mucho pelo, entonces vivía en un ambiente frío. El mamut colombino no vivía en ambientes
       fríos y, por lo tanto, no tenía mucho pelo.
 
-      B. Seleccioná la opción que justifica tu respuesta y escribí el número donde dice "B" en la grilla de resolución.'
+      B. Seleccioná la opción que justifica tu respuesta.'
     opciones:
       A: porque es un enunciado.
       B: porque la conclusión es verdadera.
@@ -83,8 +83,7 @@
   cuatrimestres:
   - 1C 2025
   versiones:
-  - enunciado: 'Dado el siguiente argumento, indicá cuáles son sus premisas. Seleccioná dos opciones y escribí los
-      números en la grilla de resolución.
+  - enunciado: 'Dado el siguiente argumento, indicá cuáles son sus premisas. Seleccioná dos opciones.
 
       El tiranosaurio rex tenía dientes que medían hasta 30 cm de largo. Por otro lado, los del megalodón medían
       hasta 18 cm de largo. Por consiguiente, los carnívoros prehistóricos tenían mordidas letales.'
@@ -130,8 +129,7 @@
 
       - Los dinosaurios eran animales vertebrados.
 
-      Determiná cuál de los siguientes enunciados complejos es verdadero. Seleccioná una opción y escribí el número
-      en la grilla de resolución.'
+      Determiná cuál de los siguientes enunciados complejos es verdadero.'
     opciones:
       A: Los dinosaurios no tenían extremidades verticales pero eran animales vertebrados.
       B: Si los dinosaurios tenían extremidades verticales, eran animales vertebrados.
@@ -180,8 +178,7 @@
   - 1C 2025
   versiones:
   - enunciado: Al estudiar los enunciados, los distinguimos por su alcance. Dados los siguientes cuatro enunciados
-      determiná cuál de ellos es un enunciado universal. Seleccioná una opción y escribí el número en la grilla
-      de resolución.
+      determiná cuál de ellos es un enunciado universal.
     opciones:
       A: El 80% de los tuátaras que nacen son machos.
       B: Todos los tuátaras son reptiles.
@@ -213,8 +210,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'Los enunciados se clasifican según su alcance y ello determina sus condiciones de verdad. Dado el
-      siguiente enunciado determiná en qué situación resultaría falso. Seleccioná una opción y escribí el número
-      en la grilla de resolución.
+      siguiente enunciado determiná en qué situación resultaría falso.
 
       Todos los ictiosaurios son carnívoros.'
     opciones:
@@ -249,8 +245,7 @@
   - 1C 2025
   versiones:
   - enunciado: Otro modo de clasificar los enunciados es agruparlos en tautologías, contradicciones o contingencias.
-      Identificá cuál de los siguientes enunciados es una tautología. Seleccioná una opción y escribí el número
-      en la grilla de resolución.
+      Identificá cuál de los siguientes enunciados es una tautología.
     opciones:
       A: Los dinosaurios eran animales terrestres y no eran animales terrestres.
       B: Si los dinosaurios eran animales terrestres entonces eran animales terrestres.
@@ -297,9 +292,7 @@
       enunciados, determiná qué conclusión se infiere de modo válido.
 
       Si los mamuts tienen espaldas rectas, entonces aparecen con espaldas rectas en las pinturas rupestres. Pero
-      los mamuts no aparecen con espaldas rectas en las pinturas rupestres.
-
-      Seleccioná una opción y escribí el número en la grilla de resolución.'
+      los mamuts no aparecen con espaldas rectas en las pinturas rupestres.'
     opciones:
       A: Los mamuts no aparecen en las pinturas rupestres.
       B: Los mamuts tienen espaldas rectas.
@@ -336,8 +329,7 @@
   cuatrimestres:
   - 1C 2025
   versiones:
-  - enunciado: Determiná cuál de los siguientes argumentos es inválido. Seleccioná una opción y escribí el número
-      en la grilla de resolución.
+  - enunciado: Determiná cuál de los siguientes argumentos es inválido.
     opciones:
       A: Si el león de las cavernas caza herbívoros, entonces vive en el bosque. No es cierto que el león de las
         cavernas viva en el bosque. Por lo tanto, no caza herbívoros.
@@ -387,8 +379,7 @@
       ..............................................................
 
       Seleccioná cuáles de los siguientes enunciados corresponden respectivamente a la premisa faltante y a la conclusión,
-      de modo tal que resulte un argumento inductivo por analogía. Escribí en la grilla de resolución la opción
-      seleccionada como premisa donde dice "P" y la opción seleccionada como conclusión donde dice "C".
+      de modo tal que resulte un argumento inductivo por analogía.
 
       P (premisa faltante):'
     opciones:
@@ -439,8 +430,7 @@
       ..............................................................
 
       Seleccioná cuáles de los siguientes enunciados corresponden respectivamente a la premisa faltante y a la conclusión,
-      de modo tal que resulte un argumento inductivo por analogía. Escribí en la grilla de resolución la opción
-      seleccionada como premisa donde dice "P" y la opción seleccionada como conclusión donde dice "C".
+      de modo tal que resulte un argumento inductivo por analogía.
 
       C (conclusión):'
     opciones:
@@ -481,8 +471,7 @@
   versiones:
   - enunciado: 'Tras clasificar los distintos tipos de argumentos inductivos establecimos criterios específicos
       para su evaluación. Atendiendo a esto, determiná qué premisa sirve para fortalecer el siguiente argumento
-      inductivo sin que deje de ser un argumento inductivo por enumeración incompleta. Seleccioná una opción y escribí
-      el número en la grilla de resolución.
+      inductivo sin que deje de ser un argumento inductivo por enumeración incompleta.
 
       El mamut y el rinoceronte lanudo, al igual que el mastodonte, eran depredadores. Por lo tanto, es probable
       que todos los animales grandes de la Edad de Hielo fueran depredadores, dado que el mamut, el rinoceronte
@@ -527,8 +516,7 @@
 
       - Los dinosaurios tenían extremidades verticales.
 
-      Determiná cuál de los siguientes enunciados complejos es verdadero. Seleccioná una opción y escribí el número
-      en la grilla de resolución.'
+      Determiná cuál de los siguientes enunciados complejos es verdadero.'
     opciones:
       A: Si los dinosaurios tenían extremidades verticales, eran animales vertebrados.
       B: Los dinosaurios no tenían extremidades verticales pero eran animales vertebrados.
@@ -577,7 +565,7 @@
   - 1C 2026
   versiones:
   - enunciado: 'Determiná si el siguiente enunciado es verdadero (V) o falso (F) según la teoría de la selección
-      natural de Darwin. Escribí "V" o "F" donde dice "A" en la grilla de resolución.
+      natural de Darwin.
 
       Los organismos son idénticos a sus progenitores.'
     opciones:
@@ -610,7 +598,7 @@
 
       Los organismos son idénticos a sus progenitores.
 
-      Seleccioná la opción que justifica tu respuesta y escribí el número donde dice "B" en la grilla de resolución.'
+      Seleccioná la opción que justifica tu respuesta.'
     opciones:
       A: La preservación de las especies exige que la descendencia sea idéntica a los ancestros.
       B: La evolución hace que cada generación sea ligeramente más compleja que la anterior.
@@ -639,8 +627,7 @@
   - 1C 2026
   versiones:
   - enunciado: 'Leé el siguiente enunciado y determiná cuál de las siguientes opciones explica el fenómeno a partir
-      de la teoría de la selección natural de Darwin. Seleccioná una opción y escribí el número en la grilla de
-      resolución.
+      de la teoría de la selección natural de Darwin.
 
       Los perros son capaces de digerir la mayoría de los alimentos que consumen los humanos, a diferencia de otros
       cánidos como los lobos o los chacales.'
@@ -685,8 +672,7 @@
   - 1C 2026
   - 2C 2026
   versiones:
-  - enunciado: Determiná cuál de los siguientes fragmentos es un argumento. Seleccioná una opción y escribí el número
-      en la grilla de resolución.
+  - enunciado: Determiná cuál de los siguientes fragmentos es un argumento.
     opciones:
       A: En primer lugar, la base de la organización social de los mapuches es el lof, formado por familias con
         antepasados comunes. En segundo lugar, en tiempos de conflicto, varios lof se unen para formar un rehue
@@ -720,8 +706,7 @@
       cuatrimestre: 1C 2026
       tema: 1
       consigna: 3
-  - enunciado: Determiná cuál de los siguientes fragmentos es un argumento. Seleccioná una opción y escribí el número
-      en la grilla de resolución.
+  - enunciado: Determiná cuál de los siguientes fragmentos es un argumento.
     opciones:
       A: El sistema urinario está formado por los riñones, los uréteres, la vejiga y la uretra. El sistema digestivo
         está formado por el tracto gastrointestinal, el hígado, el páncreas y la vesícula biliar. El sistema circulatorio
@@ -761,7 +746,7 @@
   - 1C 2026
   versiones:
   - enunciado: 'Dado el siguiente argumento, indicá cuáles son los enunciados que cumplen el rol de premisas. Seleccioná
-      dos opciones y escribí los números en la grilla de resolución.
+      dos opciones.
 
       Si los kollas hacen ofrendas a la naturaleza y practican el trueque, entonces mantienen el principio de reciprocidad
       característico de las culturas pre-hispánicas. Puesto que los kollas hacen ofrendas a la naturaleza y practican
@@ -806,8 +791,7 @@
 
       - Los tehuelches eran nómades.
 
-      Determiná cuál de los siguientes enunciados complejos es VERDADERO. Seleccioná una opción y escribí el número
-      en la grilla de resolución.'
+      Determiná cuál de los siguientes enunciados complejos es VERDADERO.'
     opciones:
       A: Si los tehuelches eran nómades, tenían viviendas fáciles de transportar
       B: Los tehuelches eran nómades, pero no tenían viviendas fáciles de transportar.
@@ -852,8 +836,7 @@
   cuatrimestres:
   - 1C 2026
   versiones:
-  - enunciado: 'Completá el siguiente enunciado para que sea una tautología. Seleccioná una opción y escribí el
-      número en la grilla de resolución.
+  - enunciado: 'Completá el siguiente enunciado para que sea una tautología.
 
       Los tehuelches tenían una estructura social horizontal...'
     opciones:
@@ -894,9 +877,7 @@
   - enunciado: 'Dados los siguientes enunciados, determiná qué conclusión se infiere de modo válido.
 
       Los aztecas rendían culto a una única deidad o eran politeístas. Pero no es cierto que rindieran culto a una
-      única deidad.
-
-      Seleccioná una opción y escribí el número en la grilla de resolución.'
+      única deidad.'
     opciones:
       A: Los aztecas rendían culto a una única deidad y eran politeístas.
       B: Los aztecas no eran politeístas.
@@ -940,8 +921,7 @@
       5. Si el pueblo toba tiene su propia lengua originaria, la lengua toba puede expresar una oración compleja
       en una sola palabra. [*]
 
-      Determiná cuál es la justificación para la línea marcada con asterisco [*]. Seleccioná una opción y escribí
-      el número en la grilla de resolución.'
+      Determiná cuál es la justificación para la línea marcada con asterisco [*].'
     opciones:
       A: Silogismo disyuntivo, 1 y 2
       B: Silogismo hipotético, 1 y 2
@@ -974,8 +954,7 @@
   - 2C 2026
   versiones:
   - enunciado: Dados los siguientes argumentos, determiná cuál de ellos es un argumento inductivo por analogía (A)
-      y cuál es un silogismo inductivo (S). Escribí el número correspondiente al argumento inductivo por analogía
-      donde dice "A" en la grilla de resolución.
+      y cuál es un silogismo inductivo (S). ¿Cuál es el argumento inductivo por analogía?
     opciones:
       A: Todos los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales
         tradicionales. La comunidad mapuche ha mantenido su lengua ancestral. Por lo tanto, la comunidad mapuche
@@ -1015,8 +994,7 @@
       tema: 1
       consigna: 9A
   - enunciado: Dados los siguientes argumentos, determiná cuál de ellos es un argumento inductivo por analogía (A)
-      y cuál es un silogismo inductivo (S). Escribí el número correspondiente al argumento inductivo por analogía
-      donde dice "A" en la grilla de resolución.
+      y cuál es un silogismo inductivo (S). ¿Cuál es el argumento inductivo por analogía?
     opciones:
       A: El pulmón izquierdo de la paciente está envuelto por la membrana pleural, dado que los pulmones de la paciente
         son sanos y que todos los pulmones sanos están envueltos en esa membrana.
@@ -1056,8 +1034,7 @@
   - 2C 2026
   versiones:
   - enunciado: Dados los siguientes argumentos, determiná cuál de ellos es un argumento inductivo por analogía (A)
-      y cuál es un silogismo inductivo (S). Escribí el número correspondiente al silogismo inductivo donde dice
-      "S" en la grilla de resolución.
+      y cuál es un silogismo inductivo (S). ¿Cuál es el silogismo inductivo?
     opciones:
       A: Todos los pueblos originarios que mantuvieron sus lenguas ancestrales conservaron también prácticas rituales
         tradicionales. La comunidad mapuche ha mantenido su lengua ancestral. Por lo tanto, la comunidad mapuche
@@ -1097,8 +1074,7 @@
       tema: 1
       consigna: 9S
   - enunciado: Dados los siguientes argumentos, determiná cuál de ellos es un argumento inductivo por analogía (A)
-      y cuál es un silogismo inductivo (S). Escribí el número correspondiente al silogismo inductivo donde dice
-      "S" en la grilla de resolución.
+      y cuál es un silogismo inductivo (S). ¿Cuál es el silogismo inductivo?
     opciones:
       A: El pulmón izquierdo de la paciente está envuelto por la membrana pleural, dado que los pulmones de la paciente
         son sanos y que todos los pulmones sanos están envueltos en esa membrana.
@@ -1137,8 +1113,7 @@
   - 1C 2026
   versiones:
   - enunciado: 'Determiná qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser
-      un argumento inductivo por enumeración incompleta. Seleccioná una opción y escribí el número en la grilla
-      de resolución.
+      un argumento inductivo por enumeración incompleta.
 
       Los qom y los wichís, al igual que los aymaras, mantuvieron sus lenguas ancestrales. Por lo tanto, es probable
       que todos los pueblos originarios de América del Sur hayan mantenido sus lenguas ancestrales, dado que los
@@ -1171,7 +1146,7 @@
   - 2C 2026
   versiones:
   - enunciado: 'Determiná si el siguiente enunciado es verdadero (V) o falso (F) según la teoría de la selección
-      natural de Darwin. Escribí "V" o "F" donde dice "A" en la grilla de resolución.
+      natural de Darwin.
 
       Todos los rasgos de los organismos se mantienen invariables de generación en generación.'
     opciones:
@@ -1203,7 +1178,7 @@
 
       Todos los rasgos de los organismos se mantienen invariables de generación en generación.
 
-      Seleccioná la opción que justifica tu respuesta y escribí el número donde dice "B" en la grilla de resolución.'
+      Seleccioná la opción que justifica tu respuesta.'
     opciones:
       A: Los rasgos de los organismos aumentan las chances de supervivencia y reproducción, y perduran en el tiempo.
       B: Surgen variaciones por una necesidad adaptativa, como resultado del uso o desuso de ciertos órganos.
@@ -1231,8 +1206,7 @@
   - 2C 2026
   versiones:
   - enunciado: 'Leé el siguiente enunciado y determiná cuál de las siguientes opciones explica el fenómeno a partir
-      de la teoría de la selección natural de Darwin. Seleccioná una opción y escribí el número en la grilla de
-      resolución.
+      de la teoría de la selección natural de Darwin.
 
       Los pingüinos presentan alas cortas y rígidas, lo que les permite nadar con gran eficacia.'
     opciones:
@@ -1273,7 +1247,7 @@
   - 2C 2026
   versiones:
   - enunciado: 'Dado el siguiente argumento, indicá cuáles son los enunciados que cumplen el rol de premisas. Seleccioná
-      dos opciones y escribí los números en la grilla de resolución.
+      dos opciones.
 
       Las neuronas tienen una función especializada, debido a que las neuronas son células y todas las células tienen
       una función especializada.'
@@ -1313,8 +1287,7 @@
 
       - Estas dendritas reciben información de otras neuronas.
 
-      Determiná cuál de los siguientes enunciados complejos es VERDADERO. Seleccioná una opción y escribí el número
-      en la grilla de resolución.'
+      Determiná cuál de los siguientes enunciados complejos es VERDADERO.'
     opciones:
       A: Si esta neurona tiene dendritas, entonces estas dendritas reciben información de otras neuronas.
       B: Esta neurona no tiene dendritas aunque estas dendritas reciban información de otras neuronas.
@@ -1362,8 +1335,7 @@
   cuatrimestres:
   - 2C 2026
   versiones:
-  - enunciado: 'Completá el siguiente enunciado para que sea una tautología. Seleccioná una opción y escribí el
-      número en la grilla de resolución.
+  - enunciado: 'Completá el siguiente enunciado para que sea una tautología.
 
       Las neuronas son células que tienen núcleo...'
     opciones:
@@ -1405,9 +1377,7 @@
   - enunciado: 'Dados los siguientes enunciados, determiná qué conclusión se infiere de modo válido.
 
       Si las personas emitiésemos luz a través de nuestros poros, entonces seríamos capaces de iluminar una habitación
-      oscura con nuestra piel. Pero no podemos iluminar una habitación solo con nuestra piel.
-
-      Seleccioná una opción y escribí el número en la grilla de resolución.'
+      oscura con nuestra piel. Pero no podemos iluminar una habitación solo con nuestra piel.'
     opciones:
       A: Las personas seríamos capaces de iluminar una habitación oscura con nuestra piel.
       B: Si las personas no emitimos luz a través de nuestros poros, entonces no podemos iluminar una habitación
@@ -1451,8 +1421,7 @@
 
       5. La bilis se almacena en la vesícula biliar. [Modus ponens, 2 y 4]
 
-      Determiná cuál es la premisa faltante en la línea marcada con asterisco [*]. Seleccioná una opción y escribí
-      el número en la grilla de resolución.'
+      Determiná cuál es la premisa faltante en la línea marcada con asterisco [*].'
     opciones:
       A: La bilis es producida por el páncreas.
       B: La bilis no es producida por el páncreas.
@@ -1481,8 +1450,7 @@
   - 2C 2026
   versiones:
   - enunciado: 'Determiná qué premisa sirve para fortalecer el siguiente argumento inductivo sin que deje de ser
-      un argumento inductivo por enumeración incompleta. Seleccioná una opción y escribí el número en la grilla
-      de resolución.
+      un argumento inductivo por enumeración incompleta.
 
       El estómago, el intestino delgado y el esófago son órganos del tracto digestivo humano y tienen paredes recubiertas
       de tejido muscular liso. Por lo tanto, todos los órganos del tracto digestivo humano tienen paredes recubiertas
@@ -1516,8 +1484,7 @@
   cuatrimestres:
   - 1C 2025
   versiones:
-  - enunciado: 'A. Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Escriba el número
-      de la opción seleccionada en el casillero "1 A" de la grilla de resolución.
+  - enunciado: 'A. Dado el siguiente caso de investigación, identifique la hipótesis fundamental.
 
       ¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos
       genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores
@@ -1567,8 +1534,7 @@
   cuatrimestres:
   - 1C 2025
   versiones:
-  - enunciado: 'A. Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Escriba el número
-      de la opción seleccionada en el casillero "1 A" de la grilla de resolución.
+  - enunciado: 'A. Dado el siguiente caso de investigación, identifique la hipótesis fundamental.
 
       ¿La ficción nos vuelve más empáticos? El estudio de las emociones tiene una larga historia; distintos aspectos
       genéticos, culturales, psicológicos y sociales fueron objeto de innumerables estudios científicos. Los investigadores
@@ -1585,7 +1551,7 @@
       a los iniciales para el grupo que había leído los textos de ficción que para el grupo que no.
 
       B. Indique por qué el enunciado que eligió como hipótesis fundamental puede funcionar como tal en este caso
-      de investigación. Escriba el número de la opción seleccionada en el casillero "1 B" de la grilla de resolución.'
+      de investigación.'
     opciones:
       A: Porque es un enunciado general que cuenta con apoyo empírico independiente y que es indispensable para
         deducir la consecuencia observacional.
@@ -1619,9 +1585,7 @@
   cuatrimestres:
   - 1C 2025
   versiones:
-  - enunciado: 'Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1. Lea las opciones presentadas
-      en la parte "A", seleccione la opción correcta y escriba en la grilla de resolución el número de la opción
-      seleccionada.
+  - enunciado: 'Identifique la hipótesis auxiliar del caso presentado en el ejercicio 1.
 
       Caso del ejercicio 1:
 
@@ -1670,8 +1634,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir
-      de la teoría de la selección natural de Darwin. Escriba en la grilla de resolución el número de la opción
-      seleccionada.
+      de la teoría de la selección natural de Darwin.
 
       Los búhos tienen una visión muy potente.'
     opciones:
@@ -1710,7 +1673,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'A. Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición
-      del falsacionismo. Escriba "Sí" o "No" en el casillero "4 A" de la grilla de resolución.
+      del falsacionismo.
 
       Las rectas paralelas nunca se tocan.'
     opciones:
@@ -1747,12 +1710,11 @@
   - 1C 2025
   versiones:
   - enunciado: 'A. Determine si el siguiente enunciado pertenece al ámbito de la ciencia empírica según la posición
-      del falsacionismo. Escriba "Sí" o "No" en el casillero "4 A" de la grilla de resolución.
+      del falsacionismo.
 
       Las rectas paralelas nunca se tocan.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número en el casillero "4 B" de la grilla
-      de resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: porque no tiene falsadores potenciales.
       B: porque está confirmado.
@@ -1790,9 +1752,7 @@
   versiones:
   - enunciado: 'Dado el explanandum: Este pez puso huevas en el río.
 
-      Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva. Escriba en la
-      grilla de resolución el número de la opción seleccionada como ley donde dice "L" y el número de la opción
-      seleccionada como condición antecedente donde dice "CA".
+      Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.
 
       L (ley):'
     opciones:
@@ -1834,9 +1794,7 @@
   versiones:
   - enunciado: 'Dado el explanandum: Este pez puso huevas en el río.
 
-      Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva. Escriba en la
-      grilla de resolución el número de la opción seleccionada como ley donde dice "L" y el número de la opción
-      seleccionada como condición antecedente donde dice "CA".
+      Complete la siguiente explicación de modo que resulte una explicación nomológico deductiva.
 
       CA (condición antecedente):'
     opciones:
@@ -1877,7 +1835,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'Complete la siguiente oración de modo que el enunciado resulte correcto según la epistemología de
-      Kuhn. Seleccione una opción y escriba el número en la grilla de resolución.
+      Kuhn.
 
       Las anomalías en la ciencia normal son...'
     opciones:
@@ -1913,7 +1871,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'Lea el siguiente caso y determine de qué tipo de manifestación del androcentrismo y el sexismo en
-      ciencia se trata. Seleccione una opción y escriba el número en la grilla de resolución.
+      ciencia se trata.
 
       Sophie Germain (1776-1831) fue una brillante matemática francesa. Su trabajo incluye un inicio de solución
       al último teorema de Fermat, un detallado estudio sobre las reglas matemáticas que guían el comportamiento
@@ -1961,8 +1919,7 @@
   - 1C 2025
   versiones:
   - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por la teoría feminista del
-      punto de vista y, a la vez, rechazada por el empirismo feminista. Seleccione una opción y escriba el número
-      en la grilla de resolución.
+      punto de vista y, a la vez, rechazada por el empirismo feminista.
     opciones:
       A: Las mujeres no poseen una perspectiva unificada por el hecho de ser mujeres.
       B: Solo la perspectiva de las mujeres permite mostrar que las desigualdades de género no son naturales sino
@@ -2002,8 +1959,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'Lea la siguiente caracterización de un proyecto de investigación y decida si el practicismo daría
-      prioridad al financiamiento del mismo y por qué. Seleccione una opción y escriba el número en la grilla de
-      resolución.
+      prioridad al financiamiento del mismo y por qué.
 
       Un equipo de investigadores del Instituto de Agrobiotecnología del Litoral (IAL), dependiente del CONICET
       y la Universidad Nacional del Litoral, en colaboración con el Ministerio de Ciencia, Tecnología e Innovación,
@@ -2058,8 +2014,7 @@
       Conclusión: Es correcto invertir recursos públicos en investigar gusanos gigantes en ecosistemas subterráneos.
 
       Seleccione cuál de los siguientes enunciados es la premisa valorativa implícita necesaria para que se siga
-      el juicio evaluativo establecido en la conclusión. Seleccione una opción y escriba el número en la grilla
-      de resolución.'
+      el juicio evaluativo establecido en la conclusión.'
     opciones:
       A: Es correcto investigar especies desconocidas si esto ayuda a conocer mejor la vida en el planeta.
       B: Es correcto invertir recursos públicos para comprender mejor la biodiversidad y la evolución de especies
@@ -2097,9 +2052,7 @@
   cuatrimestres:
   - 1C 2025
   versiones:
-  - enunciado: 'Identifique la consecuencia observacional del caso presentado en el ejercicio 1. Lea las opciones
-      presentadas en la parte "A", seleccione la opción correcta y escriba en la grilla de resolución el número
-      de la opción seleccionada.
+  - enunciado: 'Identifique la consecuencia observacional del caso presentado en el ejercicio 1.
 
       Caso del ejercicio 1:
 
@@ -2149,7 +2102,7 @@
   - 1C 2025
   versiones:
   - enunciado: 'Lea el siguiente enunciado y determine cuál de las siguientes opciones explica el fenómeno a partir
-      de la teoría de Lamarck. Escriba en la grilla de resolución el número de la opción seleccionada.
+      de la teoría de Lamarck.
 
       Los búhos tienen una visión muy potente.'
     opciones:
@@ -2189,8 +2142,7 @@
   cuatrimestres:
   - Final 12/2024
   versiones:
-  - enunciado: 'Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión. Seleccione
-      una opción y escriba el número en la grilla de resolución.
+  - enunciado: 'Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión.
 
       Podemos inferir que si se queman combustibles fósiles, aumenta la temperatura. En primer lugar, si se queman
       combustibles fósiles, crece la emisión de gases de efecto invernadero. En segundo lugar, si crece la emisión
@@ -2244,8 +2196,7 @@
   cuatrimestres:
   - Final 12/2024
   versiones:
-  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba "D" o "I"
-      en el casillero "A" de la grilla de resolución.
+  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I).
 
       Argumento del ejercicio 1: Podemos inferir que si se queman combustibles fósiles, aumenta la temperatura.
       En primer lugar, si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero. En segundo
@@ -2279,15 +2230,13 @@
   cuatrimestres:
   - Final 12/2024
   versiones:
-  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba "D" o "I"
-      en el casillero "A" de la grilla de resolución.
+  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I).
 
       Argumento del ejercicio 1: Podemos inferir que si se queman combustibles fósiles, aumenta la temperatura.
       En primer lugar, si se queman combustibles fósiles, crece la emisión de gases de efecto invernadero. En segundo
       lugar, si crece la emisión de gases de efecto invernadero, aumenta la temperatura.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número en el casillero "B" de la grilla de
-      resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque las premisas ofrecen un apoyo parcial a la conclusión.
       B: Porque las premisas son verdaderas.
@@ -2320,8 +2269,7 @@
   - Final 07/2026
   - Final 12/2024
   versiones:
-  - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis compartida por Darwin y Lamarck. Seleccione
-      una opción y escriba el número en la grilla de resolución.
+  - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis compartida por Darwin y Lamarck.
     opciones:
       A: Las especies fueron creadas con sus rasgos actuales y no se modifican a lo largo del tiempo.
       B: Los rasgos de las especies se van modificando a lo largo del tiempo, lo que posibilita el surgimiento de
@@ -2344,8 +2292,7 @@
       cuatrimestre: Final 12/2024
       tema: 1
       consigna: 3
-  - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis compartida por Darwin y Lamarck. Seleccione
-      una opción y escriba el número en la grilla de resolución.
+  - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis compartida por Darwin y Lamarck.
     opciones:
       A: Las variaciones de rasgos únicamente surgen como respuesta al ambiente en el que se vive.
       B: Las distintas especies evolucionan en una escala de complejidad creciente que tiende al progreso.
@@ -2384,8 +2331,7 @@
       Determine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la
       afirmación que caracteriza correctamente la explicación construida.
 
-      A. Identifique el explanandum. Seleccione una opción y escriba el número en el casillero "A" de la grilla
-      de resolución.'
+      A. Identifique el explanandum.'
     opciones:
       A: El Caribe sufre la proliferación de algas nocivas pero no sufre la migración de especies.
       B: El Caribe sufre la proliferación de algas nocivas y el blanqueamiento de corales.
@@ -2424,8 +2370,7 @@
       Determine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la
       afirmación que caracteriza correctamente la explicación construida.
 
-      B. ¿Qué tipo de explicación es y por qué? Seleccione una opción y escriba el número en el casillero "B" de
-      la grilla de resolución.'
+      B. ¿Qué tipo de explicación es y por qué?'
     opciones:
       A: Es una explicación nomológico-deductiva porque su explanandum es una ley universal.
       B: Es una explicación estadístico-inductiva porque el explanandum es una ley probabilística.
@@ -2458,8 +2403,6 @@
   - Final 12/2024
   versiones:
   - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la hipótesis auxiliar.
-      Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice
-      "HF" y el número de la opción seleccionada como hipótesis auxiliar donde dice "HA".
 
       ¿Todo tiempo pasado fue mejor? Según Terence Mitchell y Leigh Thompson cuando recordamos el pasado, nuestro
       cerebro tiende a suavizar los aspectos negativos y a resaltar los positivos de modo creciente a medida que
@@ -2473,7 +2416,7 @@
       aspectos negativos y cuanto menor es el puntaje, menor importancia le dan a esos aspectos. En los cuestionarios
       se registró mayor puntaje en la etapa 1 que en la 2 y 3.
 
-      ¿Cuál es la hipótesis fundamental? (casillero "HF")'
+      ¿Cuál es la hipótesis fundamental?'
     opciones:
       A: Se registrará mayor puntaje en el cuestionario PANAS en la etapa 3 que en la 1 y 2.
       B: Los recuerdos de las vacaciones se evalúan en tres etapas.
@@ -2507,8 +2450,6 @@
   - Final 12/2024
   versiones:
   - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la hipótesis auxiliar.
-      Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice
-      "HF" y el número de la opción seleccionada como hipótesis auxiliar donde dice "HA".
 
       ¿Todo tiempo pasado fue mejor? Según Terence Mitchell y Leigh Thompson cuando recordamos el pasado, nuestro
       cerebro tiende a suavizar los aspectos negativos y a resaltar los positivos de modo creciente a medida que
@@ -2522,7 +2463,7 @@
       aspectos negativos y cuanto menor es el puntaje, menor importancia le dan a esos aspectos. En los cuestionarios
       se registró mayor puntaje en la etapa 1 que en la 2 y 3.
 
-      ¿Cuál es la hipótesis auxiliar? (casillero "HA")'
+      ¿Cuál es la hipótesis auxiliar?'
     opciones:
       A: Se registrará mayor puntaje en el cuestionario PANAS en la etapa 3 que en la 1 y 2.
       B: Los recuerdos de las vacaciones se evalúan en tres etapas.
@@ -2557,8 +2498,7 @@
   - Final 12/2024
   versiones:
   - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis compartida por el empirismo lógico,
-      representado por Hempel, y el falsacionismo de Popper. Seleccione una opción y escriba el número en la grilla
-      de resolución.
+      representado por Hempel, y el falsacionismo de Popper.
     opciones:
       A: La creación de nuevas hipótesis involucra factores que no pueden ser reconstruidos lógicamente.
       B: La justificación de las hipótesis se realiza únicamente a través de argumentos deductivos.
@@ -2584,8 +2524,7 @@
       tema: 1
       consigna: 6
   - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis compartida por el empirismo lógico,
-      representado por Hempel, y el falsacionismo de Popper. Seleccione una opción y escriba el número en la grilla
-      de resolución.
+      representado por Hempel, y el falsacionismo de Popper.
     opciones:
       A: Todo enunciado no científico debe calificarse como sin sentido.
       B: Cuando la contrastación no es favorable, la hipótesis es refutada.
@@ -2616,7 +2555,6 @@
   - Final 12/2024
   versiones:
   - enunciado: 'Determine si el siguiente enunciado es verdadero o falso y por qué según la epistemología de Kuhn.
-      Seleccione una opción y escriba el número en la grilla de resolución.
 
       Durante el período pre-científico, la comunidad científica trabaja bajo varios paradigmas simultáneamente.'
     opciones:
@@ -2645,7 +2583,7 @@
   - Final 12/2024
   versiones:
   - enunciado: 'A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del
-      punto de vista. Escriba "V" o "F" donde dice "A" en la grilla de resolución.
+      punto de vista.
 
       La inclusión de las perspectivas de las mujeres en los estudios de género favorece la detección de las desigualdades.'
     opciones:
@@ -2674,11 +2612,11 @@
   - Final 12/2024
   versiones:
   - enunciado: 'A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del
-      punto de vista. Escriba "V" o "F" donde dice "A" en la grilla de resolución.
+      punto de vista.
 
       La inclusión de las perspectivas de las mujeres en los estudios de género favorece la detección de las desigualdades.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número donde dice "B" en la grilla de resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: La detección de las desigualdades de género está garantizada por el uso del método científico en los estudios
         de género.
@@ -2712,8 +2650,7 @@
   - Final 12/2024
   versiones:
   - enunciado: 'Lea el siguiente fragmento periodístico. Teniendo en cuenta los debates sobre ética científica,
-      determine cuál de las opciones es más representativa de la postura cientificista. Seleccione una opción y
-      escriba el número en la grilla de resolución.
+      determine cuál de las opciones es más representativa de la postura cientificista.
 
       Diversas investigaciones en neurociencia han demostrado que cuando las personas son expuestas a recompensas
       impredecibles sus niveles de dopamina, un neurotransmisor clave relacionado con el placer y la motivación,
@@ -2773,8 +2710,7 @@
   - Final 12/2024
   versiones:
   - enunciado: 'A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso
-      que se relata a continuación. Seleccione una opción y escriba el número en el casillero "A" de la grilla de
-      resolución.
+      que se relata a continuación.
 
       ExxonMobil, una de las mayores compañías petroleras del mundo, ha estado en el centro de una controversia
       debido a su conocimiento y manejo de la información relacionada con el cambio climático. Un reciente análisis
@@ -2816,8 +2752,7 @@
   - Final 12/2024
   versiones:
   - enunciado: 'A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso
-      que se relata a continuación. Seleccione una opción y escriba el número en el casillero "A" de la grilla de
-      resolución.
+      que se relata a continuación.
 
       ExxonMobil, una de las mayores compañías petroleras del mundo, ha estado en el centro de una controversia
       debido a su conocimiento y manejo de la información relacionada con el cambio climático. Un reciente análisis
@@ -2830,8 +2765,7 @@
       más prolífico fue el Dr. Patrick J. Michaels, miembro del Cato Institute, que recibe aproximadamente el 40%
       de su financiación de la industria petrolera.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número en el casillero "B" de la grilla de
-      resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque la comunidad científica no tiene acceso a las bases de datos empleadas por los científicos para
         hacer sus modelos.
@@ -2863,8 +2797,7 @@
   cuatrimestres:
   - Final 02/2025
   versiones:
-  - enunciado: 'Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión. Seleccione
-      una opción y escriba el número en la grilla de resolución.
+  - enunciado: 'Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión.
 
       Si se están derritiendo los glaciares de los polos, entonces aumenta el nivel del mar en Argentina. Se sigue
       que aumenta el nivel del mar en Argentina, debido a que se están derritiendo los glaciares de los polos.'
@@ -2916,8 +2849,7 @@
   cuatrimestres:
   - Final 02/2025
   versiones:
-  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba "D" o "I"
-      en el casillero "A" de la grilla de resolución.
+  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I).
 
       Argumento del ejercicio 1: Si se están derritiendo los glaciares de los polos, entonces aumenta el nivel del
       mar en Argentina. Se sigue que aumenta el nivel del mar en Argentina, debido a que se están derritiendo los
@@ -2951,15 +2883,13 @@
   cuatrimestres:
   - Final 02/2025
   versiones:
-  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba "D" o "I"
-      en el casillero "A" de la grilla de resolución.
+  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I).
 
       Argumento del ejercicio 1: Si se están derritiendo los glaciares de los polos, entonces aumenta el nivel del
       mar en Argentina. Se sigue que aumenta el nivel del mar en Argentina, debido a que se están derritiendo los
       glaciares de los polos.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número en el casillero "B" de la grilla de
-      resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque las premisas ofrecen un apoyo parcial a la conclusión.
       B: Porque las premisas establecen de modo concluyente la conclusión.
@@ -2991,8 +2921,7 @@
   cuatrimestres:
   - Final 02/2025
   versiones:
-  - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis rechazada por Darwin y Lamarck. Seleccione
-      una opción y escriba el número en la grilla de resolución.
+  - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis rechazada por Darwin y Lamarck.
     opciones:
       A: La adaptación de los organismos se explica por selección natural.
       B: Todas las especies proceden de uno o de unos pocos ancestros en común.
@@ -3035,8 +2964,7 @@
       Determine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la
       afirmación que caracteriza correctamente la explicación construida.
 
-      A. Identifique el explanandum. Seleccione una opción y escriba el número en el casillero "A" de la grilla
-      de resolución.'
+      A. Identifique el explanandum.'
     opciones:
       A: El ecosistema del Chaco argentino sufre cambios significativos en el ciclo del agua, del carbono y del
         nitrógeno.
@@ -3084,8 +3012,7 @@
       Determine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la
       afirmación que caracteriza correctamente la explicación construida.
 
-      B. ¿Qué tipo de explicación es y por qué? Seleccione una opción y escriba el número en el casillero "B" de
-      la grilla de resolución.'
+      B. ¿Qué tipo de explicación es y por qué?'
     opciones:
       A: Es una explicación nomológico-deductiva porque su explanandum es una ley universal.
       B: Es una explicación nomológico-deductiva porque solo contiene leyes universales en su explanans y el explanandum
@@ -3124,8 +3051,6 @@
   - Final 02/2025
   versiones:
   - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la hipótesis auxiliar.
-      Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice
-      "HF" y el número de la opción seleccionada como hipótesis auxiliar donde dice "HA".
 
       Para adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de
       aquellas en lenguas extranjeras. Investigadores de la Escuela de Estudios Superiores en Ciencias Sociales
@@ -3141,7 +3066,7 @@
       20 succiones por minuto cuando la grabación cambiaba de ruso a francés, mientras que en el primer grupo no
       se observaron variaciones de ritmo significativas.
 
-      ¿Cuál es la hipótesis fundamental? (casillero "HF")'
+      ¿Cuál es la hipótesis fundamental?'
     opciones:
       A: La capacidad de distinguir proferencias en la lengua materna de proferencias en lenguas extranjeras está
         presente en los bebés a una edad muy temprana.
@@ -3177,8 +3102,6 @@
   - Final 02/2025
   versiones:
   - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la hipótesis auxiliar.
-      Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental donde dice
-      "HF" y el número de la opción seleccionada como hipótesis auxiliar donde dice "HA".
 
       Para adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de
       aquellas en lenguas extranjeras. Investigadores de la Escuela de Estudios Superiores en Ciencias Sociales
@@ -3194,7 +3117,7 @@
       20 succiones por minuto cuando la grabación cambiaba de ruso a francés, mientras que en el primer grupo no
       se observaron variaciones de ritmo significativas.
 
-      ¿Cuál es la hipótesis auxiliar? (casillero "HA")'
+      ¿Cuál es la hipótesis auxiliar?'
     opciones:
       A: La capacidad de distinguir proferencias en la lengua materna de proferencias en lenguas extranjeras está
         presente en los bebés a una edad muy temprana.
@@ -3229,8 +3152,7 @@
   - Final 02/2025
   versiones:
   - enunciado: Indique cuál de las siguientes afirmaciones expresa una tesis sostenida por el falsacionismo de Popper,
-      pero rechazada por el empirismo lógico representado por Hempel. Seleccione una opción y escriba el número
-      en la grilla de resolución.
+      pero rechazada por el empirismo lógico representado por Hempel.
     opciones:
       A: La ciencia progresa aproximándose a la verdad.
       B: La ciencia progresa mediante la justificación inductiva de sus hipótesis, que se van complejizando y extendiendo
@@ -3269,7 +3191,6 @@
   - Final 02/2025
   versiones:
   - enunciado: 'Determine si el siguiente enunciado es verdadero o falso y por qué según la epistemología de Kuhn.
-      Seleccione una opción y escriba el número en la grilla de resolución.
 
       El período de crisis sobreviene en cuanto aparece una anomalía.'
     opciones:
@@ -3308,7 +3229,7 @@
   - Final 02/2025
   versiones:
   - enunciado: 'A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del
-      punto de vista. Escriba "V" o "F" donde dice "A" en la grilla de resolución.
+      punto de vista.
 
       En el estudio de las desigualdades de género, las perspectivas de las mujeres y de los varones pueden alcanzar
       profundidades semejantes.'
@@ -3347,12 +3268,12 @@
   - Final 02/2025
   versiones:
   - enunciado: 'A. Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del
-      punto de vista. Escriba "V" o "F" donde dice "A" en la grilla de resolución.
+      punto de vista.
 
       En el estudio de las desigualdades de género, las perspectivas de las mujeres y de los varones pueden alcanzar
       profundidades semejantes.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número donde dice "B" en la grilla de resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: La profundidad de los estudios está en función de los valores personales y no del grupo al que se pertenece.
       B: El punto de vista de las mujeres como grupo desfavorecido revela regularidades fundamentales mientras que
@@ -3393,8 +3314,7 @@
   - Final 02/2025
   versiones:
   - enunciado: 'Lea el siguiente fragmento periodístico. Teniendo en cuenta los debates sobre ética científica,
-      determine cuál de las opciones es más representativa de la postura anticientificista. Seleccione una opción
-      y escriba el número en la grilla de resolución.
+      determine cuál de las opciones es más representativa de la postura anticientificista.
 
       En 2013, en Estados Unidos, se lanzó la Iniciativa BRAIN, un proyecto científico cuyo objetivo es acelerar
       el desarrollo y la aplicación de tecnologías avanzadas para estudiar el cerebro. Su misión principal es desarrollar
@@ -3454,8 +3374,7 @@
   - Final 02/2025
   versiones:
   - enunciado: 'A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso
-      que se relata a continuación. Seleccione una opción y escriba el número en el casillero "A" de la grilla de
-      resolución.
+      que se relata a continuación.
 
       Wei-Hock Soon es conocido por sus estudios que desafiaron el consenso científico sobre el cambio climático,
       argumentando que el calentamiento global se debía principalmente a la actividad solar, y no a las emisiones
@@ -3501,8 +3420,7 @@
   - Final 02/2025
   versiones:
   - enunciado: 'A. Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso
-      que se relata a continuación. Seleccione una opción y escriba el número en el casillero "A" de la grilla de
-      resolución.
+      que se relata a continuación.
 
       Wei-Hock Soon es conocido por sus estudios que desafiaron el consenso científico sobre el cambio climático,
       argumentando que el calentamiento global se debía principalmente a la actividad solar, y no a las emisiones
@@ -3514,8 +3432,7 @@
       una gran empresa de energía. Si bien no se trata de un delito, causó un fuerte polémica el hecho de que Soon
       no hubiera declarado esta fuente de financiamiento en sus publicaciones académicas.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número en el casillero "B" de la grilla de
-      resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque las revistas académicas tenían incentivos para publicar los artículos que contradecían el consenso
         científico.
@@ -3552,8 +3469,7 @@
   cuatrimestres:
   - Final 02/2025
   versiones:
-  - enunciado: 'Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión. Seleccione
-      una opción y escriba el número en la grilla de resolución.
+  - enunciado: 'Dado el siguiente argumento, determine cuáles son las premisas y cuál es la conclusión.
 
       Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar y están en riesgo de sufrir
       inundaciones. Luego, Argentina está en riesgo de sufrir inundaciones, pues tiene progresivos aumentos del
@@ -3610,8 +3526,7 @@
   cuatrimestres:
   - Final 02/2025
   versiones:
-  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba "D" o "I"
-      en el casillero "A" de la grilla de resolución.
+  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I).
 
       Argumento del ejercicio 1: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar
       y están en riesgo de sufrir inundaciones. Luego, Argentina está en riesgo de sufrir inundaciones, pues tiene
@@ -3645,15 +3560,13 @@
   cuatrimestres:
   - Final 02/2025
   versiones:
-  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I). Escriba "D" o "I"
-      en el casillero "A" de la grilla de resolución.
+  - enunciado: 'A. Determine si el argumento del ejercicio 1 es deductivo (D) o inductivo (I).
 
       Argumento del ejercicio 1: Países Bajos, India y Bangladesh tienen progresivos aumentos del nivel del mar
       y están en riesgo de sufrir inundaciones. Luego, Argentina está en riesgo de sufrir inundaciones, pues tiene
       progresivos aumentos del nivel del mar.
 
-      B. Seleccione la opción que justifica su respuesta y escriba el número en el casillero "B" de la grilla de
-      resolución.'
+      B. Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque es imposible que tanto las premisas como la conclusión sean verdaderas.
       B: Porque la verdad de las premisas garantiza la verdad de la conclusión.
@@ -3686,8 +3599,7 @@
   - Final 02/2025
   versiones:
   - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la consecuencia
-      observacional. Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental
-      donde dice "HF" y el número de la opción seleccionada como consecuencia observacional donde dice "CO".
+      observacional.
 
       Para adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de
       aquellas en lenguas extranjeras. Investigadores de la Escuela de Estudios Superiores en Ciencias Sociales
@@ -3703,7 +3615,7 @@
       20 succiones por minuto cuando la grabación cambiaba de ruso a francés, mientras que en el primer grupo no
       se observaron variaciones de ritmo significativas.
 
-      ¿Cuál es la hipótesis fundamental? (casillero "HF")'
+      ¿Cuál es la hipótesis fundamental?'
     opciones:
       A: Los chupetes tienen sensores que registran el cambio de lengua en las grabaciones.
       B: Habrá una aceleración del ritmo de succión similar en los bebés del segundo grupo y en los bebés del primer
@@ -3740,8 +3652,7 @@
   - Final 02/2025
   versiones:
   - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental y la consecuencia
-      observacional. Escriba en la grilla de resolución el número de la opción seleccionada como hipótesis fundamental
-      donde dice "HF" y el número de la opción seleccionada como consecuencia observacional donde dice "CO".
+      observacional.
 
       Para adquirir nuestra lengua materna, debemos ser capaces de distinguir las proferencias en esa lengua de
       aquellas en lenguas extranjeras. Investigadores de la Escuela de Estudios Superiores en Ciencias Sociales
@@ -3757,7 +3668,7 @@
       20 succiones por minuto cuando la grabación cambiaba de ruso a francés, mientras que en el primer grupo no
       se observaron variaciones de ritmo significativas.
 
-      ¿Cuál es la consecuencia observacional? (casillero "CO")'
+      ¿Cuál es la consecuencia observacional?'
     opciones:
       A: Los chupetes tienen sensores que registran el cambio de lengua en las grabaciones.
       B: Habrá una aceleración del ritmo de succión similar en los bebés del segundo grupo y en los bebés del primer
@@ -3794,7 +3705,7 @@
   - Final 07/2026
   versiones:
   - enunciado: 'Dado el siguiente argumento, indique cuáles son los enunciados que cumplen el rol de premisas. Seleccione
-      dos opciones y escriba los números en la grilla de resolución.
+      dos opciones.
 
       Si Brasil es el país con más copas del mundo ganadas, entonces ganó 5 mundiales. En efecto, si es el país
       con más copas del mundo ganadas, entonces es el único que ganó en 4 continentes. Y si Brasil es el único país
@@ -3830,8 +3741,7 @@
   - Final 07/2026
   versiones:
   - enunciado: 'Determine si el argumento del ejercicio 1 es deductivo (D), inductivo por analogía (A), inductivo
-      por enumeración incompleta (E) o silogismo inductivo (S). Escriba "D", "A", "E" o "S" en el casillero "A"
-      de la grilla de resolución.
+      por enumeración incompleta (E) o silogismo inductivo (S).
 
       Argumento del ejercicio 1: Si Brasil es el país con más copas del mundo ganadas, entonces ganó 5 mundiales.
       En efecto, si es el país con más copas del mundo ganadas, entonces es el único que ganó en 4 continentes.
@@ -3875,7 +3785,7 @@
       En efecto, si es el país con más copas del mundo ganadas, entonces es el único que ganó en 4 continentes.
       Y si Brasil es el único país que ganó en 4 continentes, entonces ganó 5 mundiales.
 
-      Seleccione la opción que justifica su respuesta y escriba el número en el casillero "B" de la grilla de resolución.'
+      Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque se parte de un enunciado estadístico o probabilístico y un caso del cual se infiere que responde
         a lo establecido por la generalización estadística.
@@ -3920,8 +3830,7 @@
       Determine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la
       afirmación que caracteriza correctamente la explicación construida.
 
-      Identifique el explanandum. Seleccione una opción y escriba el número en el casillero "A" de la grilla de
-      resolución.'
+      Identifique el explanandum.'
     opciones:
       A: Si Francia termina primera en su grupo, entonces clasifica a los dieciseisavos de final.
       B: Todo seleccionado que clasifica a los dieciseisavos de final terminó primero en su grupo.
@@ -3959,8 +3868,7 @@
       Determine qué explanandum se puede inferir con la ley y la condición antecedente brindadas y seleccione la
       afirmación que caracteriza correctamente la explicación construida.
 
-      ¿Qué tipo de explicación es y por qué? Seleccione una opción y escriba el número en el casillero "B" de la
-      grilla de resolución.'
+      ¿Qué tipo de explicación es y por qué?'
     opciones:
       A: Es una explicación nomológico-deductiva porque su explanandum es una ley probabilística.
       B: Es una explicación estadístico-inductiva porque el explanandum es una ley probabilística.
@@ -3992,8 +3900,7 @@
   cuatrimestres:
   - Final 07/2026
   versiones:
-  - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental. Escriba el número
-      de la opción seleccionada como hipótesis fundamental donde dice "HF" en la grilla de resolución.
+  - enunciado: 'Dado el siguiente caso de investigación, identifique la hipótesis fundamental.
 
       La capacidad de las plantas para percibir su entorno y responder a él resulta fundamental para su supervivencia.
       Son conocidas, por ejemplo, las respuestas de las plantas a la luz. Dado que la mayoría de las plantas que
@@ -4049,8 +3956,7 @@
       del zumbido emiten vibraciones sonoras similares. Pasados los 3 minutos, extrajeron el néctar de las flores
       y utilizaron un refractómetro digital para medir la concentración de azúcar en el néctar.
 
-      ¿Qué consecuencia observacional se infiere en este caso? Escriba el número de la opción seleccionada como
-      consecuencia observacional donde dice "CO" en la grilla de resolución.'
+      ¿Qué consecuencia observacional se infiere en este caso?'
     opciones:
       A: Las plantas de Oenothera drummondii aumentan la concentración de azúcar en su néctar al detectar el zumbido
         de las abejas.
@@ -4079,7 +3985,6 @@
   - Final 07/2026
   versiones:
   - enunciado: 'Determine si el siguiente enunciado es verdadero o falso y por qué según la epistemología de Kuhn.
-      Seleccione una opción y escriba el número en la grilla de resolución.
 
       Ante la aparición de anomalías, la comunidad científica abandona inmediatamente el paradigma vigente e inicia
       la búsqueda de uno nuevo.'
@@ -4117,7 +4022,7 @@
   - Final 07/2026
   versiones:
   - enunciado: 'Determine si el siguiente enunciado es verdadero (V) o falso (F) según la teoría feminista del punto
-      de vista. Escriba "V" o "F" donde dice "A" en la grilla de resolución.
+      de vista.
 
       La situación social de las mujeres, en tanto grupo desfavorecido, les proporciona un acceso epistémicamente
       privilegiado a los objetos de conocimiento social y político.'
@@ -4152,7 +4057,7 @@
       La situación social de las mujeres, en tanto grupo desfavorecido, les proporciona un acceso epistémicamente
       privilegiado a los objetos de conocimiento social y político.
 
-      Seleccione la opción que justifica su respuesta y escriba el número donde dice "B" en la grilla de resolución.'
+      Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque la participación de sujetos con distintas posiciones sociales, incluidas las mujeres, favorece la
         objetividad al permitir que los sesgos individuales sean sometidos a crítica dentro de una comunidad científica
@@ -4196,8 +4101,7 @@
       local. En una reunión del comité científico, una investigadora con una postura cientificista interviene en
       la discusión.
 
-      ¿Qué sostendría esta investigadora desde su perspectiva cientificista? Seleccione una opción y escriba el
-      número en la grilla de resolución.'
+      ¿Qué sostendría esta investigadora desde su perspectiva cientificista?'
     opciones:
       A: Defendería la postura de que deben destinarse los recursos exclusivamente a desarrollar innovaciones tecnológicas
         que sirvan a una pesca sustentable, lo que promovería el desarrollo social y económico del país en el corto
@@ -4233,8 +4137,7 @@
   - Final 07/2026
   versiones:
   - enunciado: 'Indique qué tipo de problema relevante para la integridad científica se ve reflejado en el caso
-      que se relata a continuación. Seleccione una opción y escriba el número en el casillero "A" de la grilla de
-      resolución.
+      que se relata a continuación.
 
       En febrero de 1998, el médico Andrew Wakefield publicó una investigación preliminar en la revista The Lancet
       que sugería un vínculo causal entre la vacuna triple viral (sarampión, paperas y rubéola) y el autismo. Allí
@@ -4284,7 +4187,7 @@
       Años más tarde, The Lancet retiró el artículo de su revista argumentando que las conclusiones del estudio
       eran falsas.
 
-      Seleccione la opción que justifica su respuesta y escriba el número en el casillero "B" de la grilla de resolución.'
+      Seleccione la opción que justifica su respuesta.'
     opciones:
       A: Porque la exigencia de publicar artículos en revistas prestigiosas incentiva a quienes investigan a recurrir
         a mecanismos fraudulentos para desarrollar sus investigaciones.

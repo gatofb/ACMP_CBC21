@@ -57,6 +57,35 @@ def pedido(enunciado):
     # La primera oración: lo que se pregunta ("Identifique la hipótesis auxiliar…"). Si dos consignas
     # comparten un caso largo pero piden otra cosa, esto las separa.
     return norm(re.split(r"[.?:\n]", sin_instruccion(enunciado).strip(), maxsplit=1)[0])
+
+
+# Los exámenes de IPC se contestan en una grilla de papel ("escriba el número en el casillero 'A'
+# de la grilla de resolución"). En la app no hay grilla: esas oraciones se sacan del enunciado que
+# ve el alumno. Solo cambia el texto; el agrupado y el id siguen saliendo del enunciado original.
+ORACION_DE_GRILLA = re.compile(r"( *)([^ .?!\n][^.?!\n]*?(?:grilla|casillero)[^.?!\n]*[.?!]?)", re.I)
+
+
+def sin_grilla(enunciado):
+    def reemplazo(m):
+        espacio, o = m.groups()
+        # Lo que se pregunta está en la oración: "Escribí el número correspondiente al silogismo
+        # inductivo donde dice 'S'…" -> "¿Cuál es el silogismo inductivo?"
+        r = re.match(r"Escrib\w* el número correspondiente (a la|al) (.+?) (?:donde dice|en el casillero)", o)
+        if r:
+            return f"{espacio}¿Cuál es {'la' if r.group(1) == 'a la' else 'el'} {r.group(2)}?"
+        # "Seleccione dos opciones y escriba los números…" -> "Seleccione dos opciones."
+        r = re.match(r"(Seleccion\w* (?:dos opciones|la opción que justifica \w+ respuesta)) y escrib", o)
+        if r:
+            return f"{espacio}{r.group(1)}."
+        # El resto es solo cómo anotar la respuesta ("Escriba 'V' o 'F' donde dice 'A'…").
+        return ""
+    e = re.sub(r'\s*\(casillero "[^"]*"\)', "", enunciado)  # "¿Cuál es la hipótesis fundamental? (casillero "HF")"
+    e = ORACION_DE_GRILLA.sub(reemplazo, e)
+    if e == enunciado:
+        return enunciado
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(l.rstrip() for l in e.split("\n"))).strip()
+
+
 LETRAS = "ABCDEFGHIJKLMNOP"
 
 
@@ -221,7 +250,7 @@ def main():
                     or [norm(o) for h in c.get("huecos", []) for o in h["opciones"]]
                 v = next((v for v in g["versiones"] if v["_firma"] == firma), None)
                 if v is None:
-                    v = {"_firma": firma, "enunciado": c["enunciado"], "opciones": c["opciones"],
+                    v = {"_firma": firma, "enunciado": sin_grilla(c["enunciado"]), "opciones": c["opciones"],
                          "clave": c.get("clave"), "correctas": correctas(c), "apariciones": []}
                     if c.get("huecos"):
                         v["huecos"] = c["huecos"]
