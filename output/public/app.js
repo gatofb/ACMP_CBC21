@@ -214,8 +214,8 @@ function avisoIa() {
   return "";
 }
 
-// El video de la Home está en inglés; en español se avisa debajo. Se abre en una ventana desde el
-// botón "Mirá cómo funciona", que solo aparece si el archivo existe.
+// El video de la Home está en inglés; en español se avisa debajo. Va debajo de "Cómo funciona" y el
+// botón "Mirá cómo funciona" del hero lleva hasta él. Los dos aparecen solo si el archivo existe.
 const VIDEO = { mp4: "video/como-funciona-en.mp4", poster: "video/como-funciona-en.webp" };
 let hayVideo = null;
 const videoDisponible = () => (hayVideo ??= fetch(VIDEO.mp4, { method: "HEAD" }).then((r) => r.ok).catch(() => false));
@@ -246,7 +246,7 @@ function landing() {
         <p class="sub entra" style="--d:2">${t("hero_sub")}</p>
         <div class="acciones entra" style="--d:3">
           ${boton()}
-          <button class="btn secundario grande" type="button" data-video hidden>▶ ${t("cta_video")}</button>
+          <a class="btn secundario grande" href="#video" data-ancla data-video hidden>▶ ${t("cta_video")}</a>
         </div>
         <ul class="cifras entra" style="--d:4">
           ${t("cifras", suma("preguntas"), suma("fichas"), disponibles.length)
@@ -256,11 +256,17 @@ function landing() {
       ${muestraHtml()}
     </section>
 
-    <section class="seccion">
+    <section class="seccion como-funciona">
       <h2>${t("pasos_titulo")}</h2>
+      <div class="como-funciona-cuerpo">
       <ol class="pasos">
         ${t("pasos").map(([titulo, texto], i) => `<li><span class="numero">${i + 1}</span><h3>${titulo}</h3><p>${texto}</p></li>`).join("")}
       </ol>
+      <div class="video-bloque" id="video" data-video hidden>
+        <video controls playsinline preload="metadata" poster="${VIDEO.poster}"><source src="${VIDEO.mp4}" type="video/mp4"></video>
+        ${t("video_nota") ? `<p class="chico">${t("video_nota")}</p>` : ""}
+      </div>
+      </div>
     </section>
 
     <section class="cta-naranja">
@@ -268,24 +274,16 @@ function landing() {
       <p>${t("cta_texto", suma("apariciones"), suma("fichas"))}</p>
       ${boton("blanco")}
     </section>
-
-    <dialog class="dialogo-video" aria-label="${t("cta_video")}">
-      <button class="cerrar" type="button" data-cerrar aria-label="${t("cerrar")}">×</button>
-      <video controls playsinline preload="none" poster="${VIDEO.poster}"><source src="${VIDEO.mp4}" type="video/mp4"></video>
-      ${t("video_nota") ? `<p>${t("video_nota")}</p>` : ""}
-    </dialog>`;
+`;
 
   // La entrada se anima recién cuando el navegador dibuja: si no dibuja (una vista previa, una captura),
   // el contenido se ve igual, sin quedar invisible.
   requestAnimationFrame(() => app.querySelector(".hero")?.classList.add("animar"));
-  const dialogo = app.querySelector(".dialogo-video");
-  const video = dialogo.querySelector("video");
-  const abrir = app.querySelector("[data-video]");
-  videoDisponible().then((ok) => { abrir.hidden = !ok; });
-  abrir.addEventListener("click", () => { dialogo.showModal(); video.play().catch(() => {}); });
-  dialogo.addEventListener("close", () => video.pause());
-  // Se cierra con la cruz, con Escape o tocando afuera del video.
-  dialogo.addEventListener("click", (e) => { if (e.target === dialogo || e.target.closest("[data-cerrar]")) dialogo.close(); });
+  // Con el video, los pasos van en una columna y el video (vertical) al lado.
+  videoDisponible().then((ok) => {
+    app.querySelectorAll("[data-video]").forEach((el) => { el.hidden = !ok; });
+    app.querySelector(".como-funciona")?.classList.toggle("con-video", ok);
+  });
   estado.redibujar = landing;
 }
 

@@ -46,7 +46,8 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-033](#d-033) | 2026-10-28 | Las preguntas de IPC no mencionan la grilla de resolución del examen en papel | Vigente |
 | [D-034](#d-034) | 2026-10-28 | La app es bilingüe: español e inglés, con las preguntas traducidas | Vigente |
 | [D-035](#d-035) | 2026-10-28 | La Home se simplifica con la idea de la presentación, el video y PostHog | Reemplazada por D-036 (lo de PostHog sigue) |
-| [D-036](#d-036) | 2026-10-28 | Home más directa: hero con una muestra del Explainer, tres pasos y un bloque naranja | Vigente |
+| [D-036](#d-036) | 2026-10-28 | Home más directa: hero con una muestra del Explainer, tres pasos y un bloque naranja | Vigente (el video, ver D-037) |
+| [D-037](#d-037) | 2026-10-28 | El video "How it works" va en "Cómo funciona", al lado de los pasos | Vigente |
 
 ---
 
@@ -393,3 +394,13 @@ Reemplaza a D-035 (menos lo de PostHog, que sigue). Gastón pidió una Home más
 - **Con una sola carrera**, el botón lleva directo a sus materias.
 - **Entrada animada** del hero, que arranca recién cuando el navegador dibuja: en una vista previa o una captura el contenido se ve igual.
 - **Salen:** los cuatro estados del mapa, la banda navy y la frase de cierre.
+
+### D-037
+**El video "How it works" va en "Cómo funciona", al lado de los pasos** · 2026-10-28 · Gastón · Vigente
+
+Cambia lo del video de D-036 (que se abría en una ventana). Gastón pidió el video debajo de "Cómo funciona" y eligió la versión con audio, que se reproduce al tocarla.
+
+- **El archivo:** `V1-preptest-how-it-works-en.mp4` de la carpeta de Drive de Gastón (2:03, vertical 4:5, en inglés), comprimido a 720×900 y 3,5 MB (era 10,7 MB) con `faststart` para que arranque sin bajarlo entero. Queda en `output/public/video/como-funciona-en.mp4`. La portada es el cuadro del segundo 30 ("How PrepTest works"), en WebP.
+- **Dónde:** como es vertical, en pantallas anchas va a la derecha de los tres pasos, que pasan a una columna; en el celular, debajo de los pasos. El botón "Mirá cómo funciona" del hero baja hasta el video.
+- **Si el archivo no está**, no aparecen ni el video ni el botón, y los pasos quedan en fila.
+- En español se avisa debajo que el video está en inglés. Hay otra versión sin audio en la misma carpeta; no se usa.

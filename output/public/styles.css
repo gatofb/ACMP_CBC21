@@ -299,15 +299,19 @@ main.ancho { max-width: 1100px; padding-top: 12px; }
 .cta-naranja .btn { margin-top: 28px; background: var(--blanco); color: var(--naranja-700); box-shadow: 0 10px 28px rgba(150, 40, 0, .25); }
 .cta-naranja .btn:hover { background: var(--navy); color: var(--blanco); }
 
-/* Video en una ventana */
-.dialogo-video { width: min(960px, 92vw); padding: 0; border: 0; background: transparent; overflow: visible; }
-.dialogo-video::backdrop { background: rgba(34, 43, 73, .78); }
-.dialogo-video video { display: block; width: 100%; border-radius: 16px; background: #000; }
-.dialogo-video p { margin: 10px 0 0; color: #dfe1ee; font-size: 14px; text-align: center; }
-.dialogo-video .cerrar {
-  position: absolute; top: -44px; right: 0; width: 36px; height: 36px; border: 0; border-radius: 50%;
-  background: var(--blanco); color: var(--navy); font-size: 22px; line-height: 1; cursor: pointer;
+/* Video de "Cómo funciona": es vertical (4:5), va al lado de los pasos */
+.video-bloque video {
+  display: block; width: 100%; aspect-ratio: 4 / 5; border-radius: 20px; background: var(--navy); object-fit: cover;
+  box-shadow: 0 24px 60px rgba(34, 43, 73, .22), 0 8px 18px rgba(34, 43, 73, .12);
 }
+.video-bloque p { margin: 10px 0 0; text-align: center; }
+.video-bloque { scroll-margin-top: 84px; }
+.con-video .como-funciona-cuerpo {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 400px); gap: 32px; align-items: center; margin-top: 20px;
+}
+.con-video .pasos { grid-template-columns: 1fr; margin: 0; }
+.con-video .pasos li { display: grid; grid-template-columns: auto 1fr; column-gap: 20px; align-items: start; }
+.con-video .pasos .numero { grid-row: span 2; margin: 0; }
 
 /* Entrada escalonada */
 @keyframes entra { from { opacity: 0; transform: translateY(12px); } }
@@ -320,6 +324,8 @@ main.ancho { max-width: 1100px; padding-top: 12px; }
   .muestra { max-width: 480px; }
 }
 @media (max-width: 720px) {
+  .con-video .como-funciona-cuerpo { grid-template-columns: 1fr; }
+  .video-bloque { max-width: 420px; margin: 0 auto; width: 100%; }
   .pasos { grid-template-columns: 1fr; }
   .pasos li { display: grid; grid-template-columns: auto 1fr; column-gap: 16px; padding: 20px; }
   .pasos .numero { grid-row: span 2; font-size: 38px; margin: 0; }
