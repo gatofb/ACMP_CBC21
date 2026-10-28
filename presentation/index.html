@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrepTest · If you can explain it</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@500,700,900&display=swap" rel="stylesheet">
+<style>
+/* Academia Comunica de Mai Pistiner: tokens del design system */
+:root{
+  --orange:#f74604; --orange-700:#c93702; --orange-100:#ffe5d9;
+  --navy:#222b49; --navy-700:#181f37; --navy-300:#4a5275;
+  --cyan:#38b6ff;
+  --gray:#f2f2f2; --gray-200:#e6e6e6; --gray-700:#4a4a4a; --muted:#8a8fa3;
+  --white:#fff;
+  --ok:#1f9d6b; --gap:#f5a524;
+  --fd:'Poppins',system-ui,sans-serif;          /* H1 */
+  --fs:'Satoshi','Poppins',system-ui,sans-serif; /* H2, H3 */
+  --fb:'Inter',system-ui,sans-serif;            /* texto */
+  --s:1;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden;background:#0e1222;font-family:var(--fb);-webkit-font-smoothing:antialiased}
+h1,h2,h3,p,ul,ol{margin:0}
+.kw{color:var(--orange);font-weight:700}
+
+/* ---------- Lienzo 1920×1080 escalado a la ventana ---------- */
+.slide{position:absolute;left:50%;top:50%;width:1920px;height:1080px;display:none;flex-direction:column;padding:110px 140px 120px;background:var(--gray);color:var(--navy);overflow:hidden;transform:translate(-50%,-50%) scale(var(--s))}
+.slide.on{display:flex;animation:in .42s cubic-bezier(.2,.7,.2,1)}
+@keyframes in{from{opacity:0}to{opacity:1}}
+.slide.white{background:var(--white)}
+.slide.inv{background:var(--navy);color:#fff}
+.slide.acc{background:var(--orange);color:#fff}
+.slide.center{justify-content:center}
+.sfoot{position:absolute;left:140px;right:140px;bottom:48px;display:flex;justify-content:space-between;align-items:center;font-size:20px;color:var(--muted)}
+.sfoot img{height:34px}
+.inv .sfoot,.acc .sfoot{color:rgba(255,255,255,.6)}
+.inv .sfoot img,.acc .sfoot img{filter:brightness(0) invert(1)}
+.notes{display:none}
+
+/* ---------- Tipografía ---------- */
+.eyebrow{font-family:var(--fs);font-size:22px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
+.acc .eyebrow{color:rgba(255,255,255,.85)}
+h1{font-family:var(--fd);font-size:104px;font-weight:600;line-height:1.04;letter-spacing:-.02em}
+h2{font-family:var(--fs);font-size:68px;font-weight:700;line-height:1.08;letter-spacing:-.01em}
+h3{font-family:var(--fs);font-size:34px;font-weight:700;line-height:1.2}
+.lead{font-size:30px;line-height:1.45;color:var(--gray-700);max-width:1180px}
+.inv .lead{color:rgba(255,255,255,.8)}
+.acc .kw{color:var(--navy)}
+.head{display:flex;flex-direction:column;gap:22px;margin-bottom:56px}
+.small{font-size:19px;line-height:1.4;color:var(--muted)}
+.inv .small{color:rgba(255,255,255,.55)}
+
+/* ---------- Piezas comunes ---------- */
+.grow{flex:1;min-height:0}
+.card{padding:40px;border:1px solid var(--gray-200);border-radius:28px;background:#fff}
+.inv .card{background:var(--navy-700);border-color:rgba(255,255,255,.08)}
+.card h3{margin:22px 0 12px}
+.card p{font-size:24px;line-height:1.45;color:var(--gray-700)}
+.inv .card p{color:rgba(255,255,255,.75)}
+.num{width:60px;height:60px;display:grid;place-items:center;border-radius:18px;background:var(--orange-100);color:var(--orange);font-family:var(--fs);font-size:26px;font-weight:900}
+.inv .num{background:rgba(247,70,4,.16)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:32px}
+.note{margin-top:40px;padding:26px 34px;border-radius:20px;background:var(--orange-100);font-size:26px;line-height:1.45}
+.note b{color:var(--orange-700)}
+.inv .note{background:rgba(247,70,4,.14);color:#fff}
+.inv .note b{color:var(--orange)}
+.tag{display:inline-block;padding:8px 18px;border-radius:999px;background:var(--orange-100);color:var(--orange-700);font-size:20px;font-weight:700}
+.inv .tag{background:rgba(247,70,4,.18);color:var(--orange)}
+
+/* Portada */
+.cover{justify-content:space-between;padding:96px 140px}
+.cover .logo{height:70px;align-self:flex-start}
+.cover h1{max-width:1500px;margin:28px 0 34px}
+.cover .lead{max-width:1100px}
+.cover .meta{display:flex;gap:40px;font-size:22px;color:rgba(255,255,255,.55)}
+
+/* Estadísticas */
+.stat{display:flex;flex-direction:column;gap:14px;padding:40px;border-radius:28px;background:var(--gray)}
+.stat b{font-family:var(--fs);font-size:96px;font-weight:900;line-height:1;color:var(--orange);letter-spacing:-.02em}
+.stat p{font-size:25px;line-height:1.42}
+.stat .src{margin-top:auto;padding-top:10px;font-size:18px;color:var(--muted)}
+.inv .stat{background:var(--navy-700)}
+.inv .stat p{color:rgba(255,255,255,.85)}
+
+/* Desierto */
+.desert{position:relative;margin:0 -140px}
+.desert svg{display:block;width:100%;height:auto}
+.desert-cap{display:grid;grid-template-columns:1fr 1fr;gap:60px;margin-top:34px}
+.desert-cap div{display:flex;gap:22px;align-items:flex-start}
+.desert-cap i{flex:none;margin-top:10px;width:56px;height:0;border-top:6px dotted var(--orange)}
+.desert-cap i.dash{border-top:4px dashed rgba(255,255,255,.55)}
+.desert-cap b{display:block;font-family:var(--fs);font-size:32px;margin-bottom:6px}
+.desert-cap span{font-size:24px;line-height:1.45;color:rgba(255,255,255,.75)}
+
+/* Escalera de aprendizaje */
+.ladder{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;align-items:end;flex:1;min-height:0}
+.rung{display:flex;flex-direction:column;gap:12px}
+.rung .bar{border-radius:20px 20px 6px 6px;background:var(--orange-100)}
+.rung:nth-child(1) .bar{height:70px}
+.rung:nth-child(2) .bar{height:130px}
+.rung:nth-child(3) .bar{height:200px;background:#ffc7ad}
+.rung:nth-child(4) .bar{height:280px;background:var(--orange)}
+.rung .lvl{font-size:18px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+.rung b{font-family:var(--fs);font-size:36px;line-height:1.1}
+.rung .what{font-size:23px;line-height:1.4;color:var(--gray-700)}
+.rung .so{font-size:22px;line-height:1.4;font-weight:600}
+.rung:nth-child(4) .so{color:var(--orange-700)}
+.brackets{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-bottom:22px}
+.brk{padding-top:12px;border-top:3px solid var(--gray-200);font-size:19px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.brk.a{grid-column:1/3}
+.brk.b{grid-column:4/5;border-color:var(--orange);color:var(--orange)}
+.axis{display:flex;align-items:center;gap:18px;margin-top:26px;font-size:19px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.axis i{position:relative;flex:1;height:3px;background:linear-gradient(90deg,var(--gray-200),var(--orange))}
+.axis i::after{content:"";position:absolute;right:-2px;top:50%;width:14px;height:14px;border-top:3px solid var(--orange);border-right:3px solid var(--orange);transform:translateY(-50%) rotate(45deg)}
+.axis .hi{color:var(--orange)}
+
+/* Cita grande */
+.quote{font-family:var(--fd);font-size:120px;font-weight:700;line-height:1.04;letter-spacing:-.02em;max-width:1560px;margin:30px 0 44px}
+.acc .lead{color:rgba(255,255,255,.9);max-width:1150px}
+
+/* UBA */
+.uba{display:grid;grid-template-columns:1fr 1fr;gap:80px;flex:1;min-height:0}
+.uba .lead{font-size:28px}
+.subjects{display:flex;flex-direction:column;gap:16px;margin-top:40px}
+.subj{display:flex;align-items:center;justify-content:space-between;padding:22px 28px;border-radius:20px;background:var(--gray);font-size:24px}
+.subj b{font-family:var(--fs);font-size:28px}
+.subj small{display:block;font-size:19px;color:var(--muted)}
+.pill{padding:6px 16px;border-radius:999px;font-size:17px;font-weight:700;white-space:nowrap}
+.pill.live{background:#dff3ea;color:var(--ok)}
+.pill.wip{background:#fdf0d8;color:#a86a00}
+.facts{display:flex;flex-direction:column;gap:18px}
+.fact{display:grid;grid-template-columns:230px 1fr;gap:28px;align-items:center;padding:24px 30px;border-radius:22px;background:var(--navy);color:#fff}
+.fact b{font-family:var(--fs);font-size:54px;font-weight:900;color:var(--orange);line-height:1}
+.fact span{font-size:23px;line-height:1.4;color:rgba(255,255,255,.85)}
+.types{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.types span{padding:10px 20px;border-radius:999px;border:1.5px solid var(--gray-200);background:#fff;font-size:20px;font-weight:600}
+.facts-h{font-size:19px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* Principios */
+.princ{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.princ .card{padding:32px 34px}
+.princ .card h3{margin:18px 0 10px;font-size:30px}
+.princ .card p{font-size:22px}
+.loop{display:flex;align-items:center;gap:16px;margin-top:34px;font-size:22px;font-weight:600;color:var(--gray-700)}
+.loop .st{padding:12px 24px;border-radius:999px;background:var(--navy);color:#fff}
+.loop .ar{width:16px;height:16px;border-top:3px solid var(--orange);border-right:3px solid var(--orange);transform:rotate(45deg)}
+.loop .back{margin-left:10px;color:var(--muted);font-weight:500}
+
+/* Demo */
+.demo{display:grid;grid-template-columns:560px 1fr;gap:64px;flex:1;min-height:0;align-items:stretch}
+.flow{list-style:none;padding:0;display:flex;flex-direction:column;gap:26px}
+.flow li{display:flex;gap:22px;align-items:flex-start}
+.flow .num{flex:none;width:52px;height:52px;font-size:22px;border-radius:14px}
+.flow b{display:block;font-family:var(--fs);font-size:28px;margin-bottom:4px}
+.flow span{font-size:21px;line-height:1.4;color:rgba(255,255,255,.75)}
+.matrix{display:grid;grid-template-columns:auto 1fr 1fr;gap:6px;margin-top:34px;font-size:18px}
+.matrix div{padding:10px 14px;border-radius:10px;background:var(--navy-700);color:rgba(255,255,255,.6)}
+.matrix .c{display:flex;align-items:center;gap:10px;color:#fff;font-weight:600}
+.matrix .c i{width:14px;height:14px;border-radius:50%}
+.matrix .h{background:none;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:15px}
+.browser{position:relative;display:flex;flex-direction:column;border-radius:22px;overflow:hidden;background:#fff;box-shadow:0 40px 80px rgba(0,0,0,.35)}
+.browser .bar{flex:none;display:flex;align-items:center;gap:10px;height:50px;padding:0 20px;background:#e9eaef}
+.browser .bar i{width:14px;height:14px;border-radius:50%;background:#c9ccd6}
+.browser .bar span{margin-left:16px;padding:6px 18px;border-radius:999px;background:#fff;font-size:17px;color:var(--gray-700)}
+.browser iframe{flex:1;width:100%;border:0;background:var(--gray)}
+.offline{position:absolute;inset:50px 0 0;display:none;flex-direction:column;align-items:center;justify-content:center;gap:18px;background:var(--gray);color:var(--navy);text-align:center;padding:60px}
+.offline.on{display:flex}
+.offline b{font-family:var(--fs);font-size:40px}
+.offline span{font-size:23px;color:var(--gray-700);max-width:640px;line-height:1.45}
+.offline code{padding:10px 20px;border-radius:12px;background:var(--navy);color:#fff;font-size:20px}
+
+/* Atajo vs entrenador */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.side{padding:42px 46px;border-radius:28px}
+.side.a{background:var(--gray)}
+.side.b{background:var(--navy);color:#fff}
+.side .lbl{font-size:19px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.side.b .lbl{color:var(--orange)}
+.side h3{margin:10px 0 24px;font-size:42px}
+.side ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:16px}
+.side li{position:relative;padding-left:30px;font-size:26px;line-height:1.4}
+.side li::before{content:"";position:absolute;left:0;top:14px;width:11px;height:11px;border-radius:50%;background:#a6abbf}
+.side.a li{color:var(--gray-700)}
+.side.b li::before{background:var(--orange)}
+
+/* Infinita */
+.inf{display:grid;grid-template-columns:1fr 520px;gap:90px;flex:1;min-height:0;align-items:center}
+.inf .head{margin-bottom:44px}
+.points{list-style:none;padding:0;display:flex;flex-direction:column;gap:30px}
+.points li{display:flex;gap:24px;align-items:flex-start}
+.points .num{flex:none}
+.points b{display:block;font-family:var(--fs);font-size:30px;margin-bottom:6px}
+.points span{font-size:23px;line-height:1.45;color:var(--gray-700)}
+.phone{position:relative;justify-self:center;width:400px;height:800px;padding:16px;border-radius:64px;background:var(--navy-700);box-shadow:0 40px 70px rgba(14,18,34,.3)}
+.screen{position:relative;height:100%;border-radius:50px;overflow:hidden;background:var(--navy)}
+.feed{position:absolute;inset:0;display:flex;flex-direction:column;animation:feed 9s cubic-bezier(.6,0,.2,1) infinite}
+@keyframes feed{0%,28%{transform:translateY(0)}36%,64%{transform:translateY(-100%)}72%,100%{transform:translateY(-200%)}}
+.reel{flex:none;height:100%;display:flex;flex-direction:column;justify-content:flex-end;gap:16px;padding:40px 34px 46px;color:#fff}
+.reel .topic{font-size:15px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
+.reel b{font-family:var(--fs);font-size:40px;line-height:1.1}
+.reel p{font-size:19px;line-height:1.45;color:rgba(255,255,255,.8)}
+.reel .ask{align-self:flex-start;margin-top:10px;padding:12px 22px;border-radius:999px;background:var(--orange);font-size:17px;font-weight:700}
+.reel.alt{background:var(--navy-300)}
+.reel .meter{display:flex;gap:6px;margin-top:4px}
+.reel .meter i{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.2)}
+.reel .meter i.on{background:var(--orange)}
+.reel .waves{position:absolute;top:60px;left:34px;width:120px;opacity:.25}
+.concept{position:absolute;top:-18px;right:-30px;z-index:2;padding:10px 20px;border-radius:999px;background:#fff;color:var(--navy);font-size:17px;font-weight:700;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+
+/* Próximos pasos: universidades */
+.road{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.leg{position:relative;display:flex;flex-direction:column;gap:12px;padding:32px;border-radius:24px;background:var(--gray)}
+.leg::after{content:"";position:absolute;top:50%;right:-23px;z-index:1;width:20px;height:20px;border-top:5px solid var(--orange);border-right:5px solid var(--orange);transform:translateY(-50%) rotate(45deg)}
+.leg:last-child::after{display:none}
+.leg .when{font-size:18px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.leg b{font-family:var(--fs);font-size:30px;line-height:1.2}
+.leg span{font-size:21px;line-height:1.45;color:var(--gray-700)}
+.leg.now{background:var(--navy);color:#fff}
+.leg.now span{color:rgba(255,255,255,.75)}
+.engine{display:grid;grid-template-columns:1fr 60px 1fr 60px 1fr;align-items:center;margin-top:46px}
+.engine .box{padding:24px 30px;border-radius:20px;border:1.5px solid var(--gray-200);background:#fff}
+.engine .box b{display:block;font-family:var(--fs);font-size:26px}
+.engine .box span{font-size:20px;color:var(--gray-700)}
+.engine .ar{justify-self:center;width:22px;height:22px;border-top:5px solid var(--orange);border-right:5px solid var(--orange);transform:rotate(45deg)}
+
+/* Empresas */
+.corp{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.cycle{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cyc{position:relative;padding:30px;border-radius:24px;background:var(--gray)}
+.cyc b{display:block;margin:14px 0 8px;font-family:var(--fs);font-size:30px}
+.cyc span{font-size:21px;line-height:1.4;color:var(--gray-700)}
+.cyc .num{width:52px;height:52px;font-size:22px;border-radius:14px}
+.cyc:last-child{background:var(--navy);color:#fff}
+.cyc:last-child span{color:rgba(255,255,255,.75)}
+.uses{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px;align-items:center}
+.uses .lbl{font-size:19px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:8px}
+.uses span{padding:12px 24px;border-radius:999px;border:1.5px solid var(--gray-200);font-size:22px;font-weight:600}
+
+/* Cierre */
+.close h1{max-width:1500px;margin:28px 0 40px;color:#fff}
+.close .logo{height:64px;margin-top:70px;align-self:flex-start}
+
+/* Fuentes */
+.sources{list-style:none;padding:0;display:flex;flex-direction:column;gap:20px;max-width:1500px}
+.sources li{display:grid;grid-template-columns:280px 1fr;gap:30px;font-size:22px;line-height:1.45;padding-bottom:20px;border-bottom:1px solid var(--gray-200)}
+.sources b{font-family:var(--fs);font-size:22px}
+.sources span{color:var(--gray-700)}
+
+/* ---------- Navegación ---------- */
+.ui{position:fixed;z-index:10;display:flex;align-items:center;gap:10px;font:600 14px var(--fb);transition:opacity .3s}
+.ui.bot{bottom:14px;right:16px}
+body.idle .ui{opacity:0;pointer-events:none}
+body.idle{cursor:none}
+.ui button{display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 16px;border:0;border-radius:999px;background:rgba(14,18,34,.62);color:#fff;font:inherit;cursor:pointer;backdrop-filter:blur(8px)}
+.ui button:hover{background:rgba(14,18,34,.85)}
+.ui .count{min-width:64px;justify-content:center;color:rgba(255,255,255,.8);background:rgba(0,0,0,.25)}
+.progress{position:fixed;z-index:10;top:0;left:0;height:4px;background:var(--orange);transition:width .3s}
+.notes-panel{position:fixed;z-index:11;left:16px;right:16px;bottom:64px;display:none;max-width:980px;margin:0 auto;padding:20px 26px;border-radius:16px;background:rgba(14,18,34,.92);color:#fff;font-size:17px;line-height:1.55;backdrop-filter:blur(10px)}
+.notes-panel.on{display:block}
+.notes-panel small{display:block;margin-bottom:6px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
+
+@media print{
+  @page{size:1920px 1080px;margin:0}
+  html,body{height:auto;overflow:visible;background:none}
+  .slide{position:relative;left:0;top:0;display:flex!important;transform:none;animation:none;break-after:page}
+  .ui,.progress,.notes-panel{display:none!important}
+  .feed{animation:none}
+  .browser iframe{display:none}
+  .offline{display:flex}
+}
+@media (prefers-reduced-motion:reduce){
+  .slide.on{animation:none}
+  .feed{animation:none}
+}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<!-- 0 · Portada -->
+<section class="slide inv cover">
+  <img class="logo" src="logo-acmp-white.svg" alt="Academia Comunica de Mai Pistiner">
+  <div>
+    <p class="eyebrow">PrepTest · UBA XXI</p>
+    <h1>If you can explain it, you <span class="kw">understand</span> it.</h1>
+    <p class="lead">An AI tutor that turns studying into explaining. We started with the entry year at the University of Buenos Aires.</p>
+  </div>
+  <div class="meta"><span>Academia Comunica de Mai Pistiner</span><span>October 2026</span></div>
+  <div class="notes">Open with the principle. Everything that follows is a way of getting people to explain what they know, because that's the only honest test of whether they know it.</div>
+</section>
+
+<!-- 1 · El problema -->
+<section class="slide">
+  <div class="head">
+    <p class="eyebrow">The problem</p>
+    <h2>Students confuse feeling ready with being <span class="kw">ready</span></h2>
+  </div>
+  <div class="grid3">
+    <div class="card">
+      <div class="num">1</div>
+      <h3>Hours aren't learning</h3>
+      <p>Rereading, highlighting and watching videos feel productive. They're among the least effective ways to study.</p>
+    </div>
+    <div class="card">
+      <div class="num">2</div>
+      <h3>Recognizing isn't knowing</h3>
+      <p>Seeing the right answer and thinking "I knew that" is not the same as being able to produce it on your own.</p>
+    </div>
+    <div class="card">
+      <div class="num">3</div>
+      <h3>Blind spots stay hidden</h3>
+      <p>The most dangerous gap is what you're sure you know and don't. You'll never review it, because you think it's done.</p>
+    </div>
+  </div>
+  <p class="note">The exam doesn't ask what you saw. It asks <b>why</b>.</p>
+  <div class="notes">Students put in the hours. The problem is that the methods that feel best (rereading, highlighting, rewatching) build familiarity, not knowledge. And the gaps they're confident about never get reviewed.</div>
+</section>
+
+<!-- 2 · El problema de usar IA -->
+<section class="slide white">
+  <div class="head">
+    <p class="eyebrow">The problem with using AI</p>
+    <h2>AI made the shortcut <span class="kw">free</span></h2>
+    <p class="lead">Students turned to AI to study faster. Now it answers for them, and the effort that builds memory goes away.</p>
+  </div>
+  <div class="grid3">
+    <div class="stat">
+      <b>92%</b>
+      <p>of UK undergraduates use AI tools, up from 66% a year earlier.</p>
+      <span class="src">HEPI Student Generative AI Survey, 2025</span>
+    </div>
+    <div class="stat">
+      <b>−17%</b>
+      <p>on the exam for students who practiced with plain ChatGPT, once it was taken away, compared with students who never had it.</p>
+      <span class="src">Bastani et al., PNAS, 2025</span>
+    </div>
+    <div class="stat">
+      <b>83%</b>
+      <p>of people who wrote with ChatGPT couldn't quote a sentence from the essay they had just written.</p>
+      <span class="src">MIT Media Lab, 2025 (preprint)</span>
+    </div>
+  </div>
+  <p class="note">In the same PNAS study, a tutor with guardrails that <b>didn't hand over answers</b> removed the harm.</p>
+  <div class="notes">The usual fix for bad studying is now AI, and it makes the problem worse: it does the part that creates learning. The key line is the last one. The issue isn't AI itself, it's AI with no guardrails, and that's where we come in.</div>
+</section>
+
+<!-- 3 · La analogía del desierto -->
+<section class="slide inv">
+  <div class="head" style="margin-bottom:10px">
+    <p class="eyebrow">An analogy</p>
+    <h2>Learning is crossing a <span class="kw">desert</span></h2>
+  </div>
+  <div class="desert" aria-hidden="true">
+    <svg viewBox="0 0 1920 430">
+      <path d="M0 300 C 240 230, 460 280, 700 245 S 1100 195, 1340 235 S 1700 210, 1920 245 L1920 430 L0 430Z" fill="#2b3456"/>
+      <path d="M0 360 C 300 310, 560 370, 900 330 S 1420 300, 1920 345 L1920 430 L0 430Z" fill="#323c63"/>
+      <path d="M270 345 Q 960 -40 1650 312" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="4" stroke-dasharray="14 14"/>
+      <path d="M270 345 C 520 290, 700 370, 960 325 S 1440 290, 1650 312" fill="none" stroke="#f74604" stroke-width="11" stroke-linecap="round" stroke-dasharray="1 26"/>
+      <circle cx="270" cy="345" r="16" fill="#fff"/>
+      <circle cx="1650" cy="312" r="16" fill="#f74604"/>
+      <line x1="1650" y1="312" x2="1650" y2="232" stroke="#fff" stroke-width="4"/>
+      <path d="M1650 232 L1702 248 L1650 264Z" fill="#f74604"/>
+      <text x="270" y="400" text-anchor="middle" fill="rgba(255,255,255,.7)" font-family="Inter" font-size="24" font-weight="600">Not knowing</text>
+      <text x="1650" y="370" text-anchor="middle" fill="#fff" font-family="Inter" font-size="24" font-weight="600">Knowing</text>
+      <text x="960" y="128" text-anchor="middle" fill="rgba(255,255,255,.6)" font-family="Inter" font-size="22" font-weight="600" letter-spacing="3">THE SHORTCUT</text>
+    </svg>
+  </div>
+  <div class="desert-cap">
+    <div><i></i><p><b>The crossing</b><span>Slow and tiring, and it's what changes you. Every step you take yourself stays with you.</span></p></div>
+    <div><i class="dash"></i><p><b>The shortcut</b><span>You get there on time but you never crossed. You spend the hours and keep nothing.</span></p></div>
+  </div>
+  <p class="note">AI shouldn't carry you across. It should <b>walk next to you</b>.</p>
+  <div class="notes">If someone flies you over the desert, you arrive but you can't cross it again on your own. Skipping the effort doesn't save time: you spend the time and keep nothing. The role we want for AI is a guide that walks with you.</div>
+</section>
+
+<!-- 4 · Tipos de aprendizaje -->
+<section class="slide white">
+  <div class="head" style="margin-bottom:40px">
+    <p class="eyebrow">Types of learning</p>
+    <h2>Not all studying is <span class="kw">learning</span></h2>
+  </div>
+  <div class="brackets"><div class="brk a">Where most study tools stop</div><div class="brk b">Where PrepTest works</div></div>
+  <div class="ladder">
+    <div class="rung"><div class="bar"></div><span class="lvl">Passive</span><b>Consume</b><span class="what">Read, reread, highlight, watch.</span><span class="so">Feels easy. Fades fast.</span></div>
+    <div class="rung"><div class="bar"></div><span class="lvl">Recognition</span><b>Pick</b><span class="what">Choose the right option from a list.</span><span class="so">You can spot it, not produce it.</span></div>
+    <div class="rung"><div class="bar"></div><span class="lvl">Retrieval</span><b>Recall</b><span class="what">Bring it back from memory, with no cues.</span><span class="so">Testing yourself makes it stick.</span></div>
+    <div class="rung"><div class="bar"></div><span class="lvl">Generative</span><b>Explain</b><span class="what">Say why, in your own words.</span><span class="so">Shows exactly what you don't get.</span></div>
+  </div>
+  <div class="axis"><span>Less effort</span><i></i><span class="hi">More effort, more stays</span></div>
+  <p class="small" style="margin-top:22px">Dunlosky et al., 2013 · Roediger &amp; Karpicke, 2006 · Chi et al., 1994</p>
+  <div class="notes">Learning science has a clear ranking. Rereading and highlighting rate low. Practice testing (retrieval) rates high. Self-explanation goes further: it forces you to connect the idea and shows the exact gap. Most study apps live at recognition. We built for explanation.</div>
+</section>
+
+<!-- 5 · Si no lo puedo explicar, no lo sé -->
+<section class="slide acc center">
+  <p class="eyebrow">Our principle</p>
+  <p class="quote">If I can't explain it, I don't <span class="kw">know</span> it.</p>
+  <p class="lead">Explaining forces you to retrieve the idea, connect it and put it in order. It's the most honest test there is, and anyone can take it.</p>
+  <div class="notes">This is the same idea behind the Feynman technique. Pause here. Everything in the product comes from this sentence.</div>
+</section>
+
+<!-- 6 · UBA -->
+<section class="slide white">
+  <div class="uba">
+    <div>
+      <div class="head" style="margin-bottom:30px">
+        <p class="eyebrow">Where we start</p>
+        <h2>A prep test for <span class="kw">university</span></h2>
+      </div>
+      <p class="lead">Every degree at the University of Buenos Aires starts with the CBC, its entry year, which many students take remotely through UBA XXI. We started with Law.</p>
+      <div class="subjects">
+        <div class="subj"><p><b>ICSE</b><small>Society and the State · Pedrosa</small></p><span class="pill live">Live</span></div>
+        <div class="subj"><p><b>Sociology</b><small>Cátedra A · Bustos</small></p><span class="pill live">Live</span></div>
+        <div class="subj"><p><b>IPC</b><small>Scientific Thinking · Buacar</small></p><span class="pill wip">In progress</span></div>
+      </div>
+    </div>
+    <div class="facts">
+      <p class="facts-h">What the exam really tests</p>
+      <div class="fact"><b>18 · 90′</b><span>Multiple-choice questions in an hour and a half.</span></div>
+      <div class="fact"><b>0</b><span>Partial credit. One wrong option in a combined answer zeroes the whole question.</span></div>
+      <div class="fact"><b>90 → 64</b><span>Questions vs. distinct ideas in five ICSE exams (2024–2026). The same ideas come back, reworded.</span></div>
+      <div class="types"><span>True/false + why</span><span>Combined options</span><span>"According to [author]…"</span></div>
+      <p class="note" style="margin-top:10px">Memorizing answers doesn't work. <b>Understanding the idea</b> does.</p>
+    </div>
+  </div>
+  <div class="notes">Why the CBC: huge volume, high stakes, and an exam that punishes almost-knowing. We read the real exams before building anything: the "versions" of an exam are the same questions shuffled, and ideas repeat across years. So we teach the idea, not the question.</div>
+</section>
+
+<!-- 7 · Principios de la solución -->
+<section class="slide">
+  <div class="head" style="margin-bottom:40px">
+    <p class="eyebrow">Principles of the solution</p>
+    <h2>Built on six <span class="kw">principles</span></h2>
+  </div>
+  <div class="princ">
+    <div class="card"><div class="num">1</div><h3>Training, not more content</h3><p>UBA XXI already has videos and guides. We tell you which one to watch, down to the minute.</p></div>
+    <div class="card"><div class="num">2</div><h3>The unit is the idea</h3><p>We teach claims ("According to Romero…"), not chapters. Questions, videos and your score all hang from them.</p></div>
+    <div class="card"><div class="num">3</div><h3>Confidence finds blind spots</h3><p>After every answer: sure, unsure or guessed. Sure and wrong is a blind spot, and it goes first.</p></div>
+    <div class="card"><div class="num">4</div><h3>Explain, don't pick</h3><p>Practice has no options. You explain, typed or spoken, and the tutor works out what you'd have marked.</p></div>
+    <div class="card"><div class="num">5</div><h3>Check against the source</h3><p>The tutor grades against the author's text, not general knowledge. It never invents quotes or facts.</p></div>
+    <div class="card"><div class="num">6</div><h3>Readiness as a range</h3><p>"Today you're between 5 and 6.5." Plus what would get you to a 7, the grade that exempts you from the final.</p></div>
+  </div>
+  <div class="loop"><span class="st">Map</span><i class="ar"></i><span class="st">Prepare</span><i class="ar"></i><span class="st">Practice</span><i class="ar"></i><span class="st">Feedback</span><span class="back">→ the map updates, and the cycle starts again</span></div>
+  <div class="notes">Six decisions that make this different from a question bank. The most important are 3 and 4: we measure confidence to find blind spots, and in practice there are no options to pick from, so you can't guess or just recognize.</div>
+</section>
+
+<!-- 8 · Demo -->
+<section class="slide inv">
+  <div class="head" style="margin-bottom:40px">
+    <p class="eyebrow">Demo</p>
+    <h2>Let's <span class="kw">try</span> it</h2>
+  </div>
+  <div class="demo">
+    <div>
+      <ol class="flow">
+        <li><span class="num">1</span><p><b>Diagnostic</b><span>18 questions in the real format. No clock, no feedback. Confidence after each one.</span></p></li>
+        <li><span class="num">2</span><p><b>The map</b><span>Every idea in one of four states, ordered by exam weight × gap.</span></p></li>
+        <li><span class="num">3</span><p><b>Explainer mode</b><span>Explain it typed or spoken. The tutor deduces your answer.</span></p></li>
+        <li><span class="num">4</span><p><b>Feedback</b><span>What you got, what's missing, and your own explanation rewritten clearer.</span></p></li>
+      </ol>
+      <div class="matrix">
+        <div class="h"></div><div class="h">Sure</div><div class="h">Unsure</div>
+        <div class="h">Right</div><div class="c"><i style="background:var(--ok)"></i>Mastered</div><div class="c"><i style="background:var(--cyan)"></i>Fragile</div>
+        <div class="h">Wrong</div><div class="c"><i style="background:var(--orange)"></i>Blind spot</div><div class="c"><i style="background:var(--gap)"></i>Gap</div>
+      </div>
+    </div>
+    <div class="browser">
+      <div class="bar"><i></i><i></i><i></i><span>localhost:4321</span></div>
+      <iframe data-src="http://localhost:4321/#/abogacia/icse" title="PrepTest live demo"></iframe>
+      <div class="offline" id="offline">
+        <b>Live demo</b>
+        <span>Start the app on this computer and the demo loads here.</span>
+        <code>cd "/Users/gastonfb/Dev_Apps/MaiPistinerTool/CBC Preptest/output" &amp;&amp; npm start</code>
+      </div>
+    </div>
+  </div>
+  <div class="notes">Walk through one ICSE diagnostic question with the confidence buttons, open the map, then do one question in Explainer mode, ideally dictated. Arrow keys still move slides once you click outside the app.</div>
+</section>
+
+<!-- 9 · Por qué este camino: AI enablement -->
+<section class="slide white">
+  <div class="head" style="margin-bottom:44px">
+    <p class="eyebrow">Why this path · AI enablement</p>
+    <h2>AI that makes you <span class="kw">think</span></h2>
+    <p class="lead">We're not against AI. The same model that can write your essay can be the most patient, toughest tutor you've ever had. It depends on the role you give it.</p>
+  </div>
+  <div class="vs">
+    <div class="side a">
+      <span class="lbl">AI as a shortcut</span>
+      <h3>It answers for you</h3>
+      <ul><li>You ask, it answers</li><li>It does the thinking</li><li>Feels productive, nothing stays</li><li>You end up depending on it</li></ul>
+    </div>
+    <div class="side b">
+      <span class="lbl">AI as a coach</span>
+      <h3>It makes you answer</h3>
+      <ul><li>You explain, it pushes back</li><li>It finds exactly what's missing</li><li>The effort stays where learning happens</li><li>You end up needing it less</li></ul>
+    </div>
+  </div>
+  <p class="note">AI enablement isn't teaching people to prompt. It's teaching them to <b>learn with AI</b>, and that skill carries over to everything else.</p>
+  <div class="notes">This is why we went this way. AI enablement usually means "use these tools to go faster". We think the deeper skill is using AI to understand faster without skipping the understanding. That works for students and for any team.</div>
+</section>
+
+<!-- 10 · And one more thing -->
+<section class="slide inv center">
+  <h1 style="font-size:120px">And one more <span class="kw">thing</span>…</h1>
+  <div class="notes">Pause. Let it land.</div>
+</section>
+
+<!-- 10b · Infinita -->
+<section class="slide white">
+  <div class="inf">
+    <div>
+      <div class="head">
+        <p class="eyebrow">Infinita</p>
+        <h2>A feed that <span class="kw">teaches</span></h2>
+        <p class="lead">Students already scroll for hours. Infinita turns that habit into review: an endless social feed of quick concepts, built from each student's own map.</p>
+      </div>
+      <ul class="points">
+        <li><span class="num">1</span><p><b>One idea, fifteen seconds</b><span>Each post is one claim from the exam, told short and well.</span></p></li>
+        <li><span class="num">2</span><p><b>Your blind spots show up more</b><span>Your map sets the order of the feed, not an algorithm chasing attention.</span></p></li>
+        <li><span class="num">3</span><p><b>Every few posts, explain it back</b><span>Scrolling becomes recall, not just watching.</span></p></li>
+      </ul>
+    </div>
+    <div class="phone" aria-hidden="true">
+      <span class="concept">Concept</span>
+      <div class="screen">
+        <div class="feed">
+          <div class="reel">
+            <span class="topic">ICSE · Romero</span>
+            <b>1975: the Rodrigazo</b>
+            <p>A run on the dollar, runaway inflation and indexation. An economic crisis the government couldn't control.</p>
+            <div class="meter"><i class="on"></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="reel alt">
+            <span class="topic">ICSE · Blind spot</span>
+            <b>Government ≠ regime</b>
+            <p>A new government doesn't mean a new regime. The rules of access to power can stay the same.</p>
+            <div class="meter"><i class="on"></i><i class="on"></i><i></i><i></i></div>
+          </div>
+          <div class="reel">
+            <span class="topic">Your turn</span>
+            <b>Why wasn't 1983 just a change of government?</b>
+            <p>Explain it in one sentence.</p>
+            <span class="ask">Explain it back</span>
+            <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="notes">Infinita is a concept, not built yet. Same engine, different format: the map decides what you see, and the feed asks you to explain things back. It competes for the time students already spend scrolling.</div>
+</section>
+
+<!-- 11 · Próximos pasos: universidades -->
+<section class="slide white">
+  <div class="head" style="margin-bottom:48px">
+    <p class="eyebrow">Next steps</p>
+    <h2>A companion for every university <span class="kw">exam</span></h2>
+  </div>
+  <div class="road">
+    <div class="leg now"><span class="when">Now</span><b>Law at UBA XXI</b><span>ICSE and Sociology live, IPC on the way.</span></div>
+    <div class="leg"><span class="when">Next</span><b>The whole CBC</b><span>All six Law subjects, then the entry year for every degree.</span></div>
+    <div class="leg"><span class="when">Then</span><b>Other universities</b><span>Entry exams, midterms and finals with their own exam banks.</span></div>
+    <div class="leg"><span class="when">Later</span><b>Any high-stakes exam</b><span>Licensing, certifications, admissions. The method doesn't change.</span></div>
+  </div>
+  <div class="engine">
+    <div class="box"><b>Real exams</b><span>What actually gets asked</span></div><i class="ar"></i>
+    <div class="box"><b>Ideas and rules</b><span>Claims, sources, typical errors</span></div><i class="ar"></i>
+    <div class="box"><b>The tutor</b><span>Map, explain, feedback</span></div>
+  </div>
+  <p class="note">Adding a subject means adding exams and ideas, <b>not rebuilding the product</b>.</p>
+  <div class="notes">The engine is three folders: exams in, ideas and rules in the middle, the app on the other side. Each new subject is content work, not engineering. That's what makes it a companion for every exam.</div>
+</section>
+
+<!-- 12 · Próximos pasos: empresas -->
+<section class="slide inv">
+  <div class="head" style="margin-bottom:48px">
+    <p class="eyebrow">Next steps · In company</p>
+    <h2>Millions of hours in training. Are we actually <span class="kw">learning</span>?</h2>
+  </div>
+  <div class="grid2">
+    <div class="stat"><b>$102.8B</b><p>spent on corporate training in the US in 2025.</p><span class="src">Training Magazine, 2025 Training Industry Report</span></div>
+    <div class="stat"><b>40 h</b><p>of training per employee per year, on average.</p><span class="src">Training Magazine, 2025 Training Industry Report</span></div>
+  </div>
+  <p class="note">Most of it is measured by completion: did you watch it, did you click "next". <b>Not by whether anyone can explain it.</b></p>
+  <div class="notes">Mandatory training, onboarding, compliance: companies count completions. A course with a 98% completion rate tells you nothing about what people kept. The same question we ask students applies here: can you explain it?</div>
+</section>
+
+<!-- 13 · El modelo en empresas -->
+<section class="slide white">
+  <div class="head" style="margin-bottom:48px">
+    <p class="eyebrow">The model, beyond exams</p>
+    <h2>Learning you can <span class="kw">prove</span></h2>
+    <p class="lead">The same loop works for teams: a way to learn, absorb and relearn the concepts a company runs on.</p>
+  </div>
+  <div class="cycle">
+    <div class="cyc"><div class="num">1</div><b>Map</b><span>Find what people think they know but don't.</span></div>
+    <div class="cyc"><div class="num">2</div><b>Point</b><span>Send them to the exact resource the company already has.</span></div>
+    <div class="cyc"><div class="num">3</div><b>Explain</b><span>In their own words, written or spoken, checked against the company's source.</span></div>
+    <div class="cyc"><div class="num">4</div><b>Relearn</b><span>Blind spots come back until they close and stay closed.</span></div>
+  </div>
+  <div class="uses"><span class="lbl">Where it fits</span><span>Onboarding</span><span>Compliance</span><span>Product knowledge</span><span>Sales enablement</span><span>Leadership programs</span></div>
+  <p class="note">Measure understanding, <b>not attendance</b>.</p>
+  <div class="notes">For companies, the source isn't an author, it's the company's own policy, product or playbook. The tutor checks explanations against it. HR gets a map of what the team actually understands, not a completion report. This fits naturally with the Academia's in-company programs.</div>
+</section>
+
+<!-- 14 · Cierre -->
+<section class="slide inv center close">
+  <p class="eyebrow">PrepTest</p>
+  <h1>If you can explain it, you <span class="kw">understand</span> it.</h1>
+  <p class="lead">Thank you.</p>
+  <img class="logo" src="logo-acmp-white.svg" alt="Academia Comunica de Mai Pistiner">
+  <div class="notes">Close on the principle. Open for questions.</div>
+</section>
+
+<!-- 15 · Fuentes -->
+<section class="slide">
+  <div class="head" style="margin-bottom:40px">
+    <p class="eyebrow">Appendix</p>
+    <h2><span class="kw">Sources</span></h2>
+  </div>
+  <ul class="sources">
+    <li><b>HEPI, 2025</b><span>Freeman, J. Student Generative AI Survey 2025. Higher Education Policy Institute, Policy Note 61. 1,041 UK undergraduates.</span></li>
+    <li><b>Bastani et al., 2025</b><span>Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS 122(26). Figures from the study's preprint.</span></li>
+    <li><b>MIT Media Lab, 2025</b><span>Kosmyna, N. et al. Your Brain on ChatGPT. Preprint, not peer reviewed. 54 participants.</span></li>
+    <li><b>Learning research</b><span>Dunlosky et al. (2013), Improving students' learning with effective learning techniques · Roediger &amp; Karpicke (2006), the testing effect · Chi et al. (1994), self-explanation.</span></li>
+    <li><b>Training Magazine, 2025</b><span>2025 Training Industry Report. US organizations with 100+ employees.</span></li>
+    <li><b>UBA XXI exams</b><span>Our analysis of five ICSE exams, Cátedra Pedrosa, 2024–2026.</span></li>
+  </ul>
+</section>
+
+<div class="notes-panel" id="notesPanel"><small>Speaker notes</small><span id="notesText"></span></div>
+<div class="ui bot">
+  <button id="prev" aria-label="Previous">←</button>
+  <button class="count" id="count">1 / 1</button>
+  <button id="next" aria-label="Next">→</button>
+  <button id="notesBtn" aria-label="Speaker notes">Notes</button>
+  <button id="fs" aria-label="Full screen">⤢</button>
+</div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+let cur=0;
+
+// Pie con logo y número en todas menos la portada, el "one more thing" y el cierre
+slides.forEach((s,i)=>{
+  if(i===0||s.classList.contains('center')) return;
+  const logo=s.classList.contains('inv')||s.classList.contains('acc')?'logo-acmp-white.svg':'logo-acmp-primary.svg';
+  s.insertAdjacentHTML('beforeend',`<div class="sfoot"><img src="${logo}" alt="" style="filter:none"><span>PrepTest · ${i+1}</span></div>`);
+});
+
+function fit(){
+  document.documentElement.style.setProperty('--s',Math.min(innerWidth/1920,innerHeight/1080));
+}
+
+// La demo solo se carga en su slide; si la app no está corriendo, se muestra cómo levantarla
+async function demo(f,on){
+  const off=document.getElementById('offline');
+  if(!on){ if(f.getAttribute('src')!=='about:blank') f.setAttribute('src','about:blank'); return; }
+  try{
+    await fetch('http://localhost:4321/api/estado',{mode:'no-cors',cache:'no-store'});
+    off.classList.remove('on');
+    if(f.getAttribute('src')!==f.dataset.src) f.setAttribute('src',f.dataset.src);
+  }catch{
+    off.classList.add('on');
+  }
+}
+
+function go(i){
+  cur=Math.max(0,Math.min(slides.length-1,i));
+  slides.forEach((s,j)=>s.classList.toggle('on',j===cur));
+  slides.forEach((s,j)=>s.querySelectorAll('iframe[data-src]').forEach(f=>demo(f,j===cur)));
+  document.getElementById('count').textContent=`${cur+1} / ${slides.length}`;
+  document.getElementById('progress').style.width=((cur+1)/slides.length*100)+'%';
+  const n=slides[cur].querySelector('.notes');
+  document.getElementById('notesText').textContent=n?n.textContent:'No notes for this slide.';
+  history.replaceState(null,'','#'+(cur+1));
+}
+function toggleNotes(){document.getElementById('notesPanel').classList.toggle('on');}
+function toggleFs(){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.();}
+
+addEventListener('resize',fit);
+addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();go(cur+1);}
+  if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();go(cur-1);}
+  if(e.key==='Home') go(0);
+  if(e.key==='End') go(slides.length-1);
+  if(e.key==='f'||e.key==='F') toggleFs();
+  if(e.key==='n'||e.key==='N') toggleNotes();
+});
+document.getElementById('prev').onclick=()=>go(cur-1);
+document.getElementById('next').onclick=()=>go(cur+1);
+document.getElementById('notesBtn').onclick=toggleNotes;
+document.getElementById('fs').onclick=toggleFs;
+// Deslizar en pantallas táctiles
+let x0=null;
+addEventListener('touchstart',e=>{x0=e.touches[0].clientX;},{passive:true});
+addEventListener('touchend',e=>{if(x0===null) return; const dx=e.changedTouches[0].clientX-x0; if(Math.abs(dx)>50) go(cur+(dx<0?1:-1)); x0=null;});
+
+// Los botones se esconden cuando el mouse queda quieto
+let idleT;
+function wake(){document.body.classList.remove('idle');clearTimeout(idleT);idleT=setTimeout(()=>document.body.classList.add('idle'),2500);}
+addEventListener('mousemove',wake);
+
+fit();
+wake();
+go((parseInt(location.hash.slice(1))||1)-1);
+</script>
+</body>
+</html>
