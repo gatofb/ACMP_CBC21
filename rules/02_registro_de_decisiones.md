@@ -51,8 +51,9 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-038](#d-038) | 2026-10-28 | La Home termina con un link a la presentación del proyecto | Vigente |
 | [D-039](#d-039) | 2026-10-28 | Las preguntas que piden "la opción que justifica tu respuesta" también muestran las opciones | Vigente |
 | [D-040](#d-040) | 2026-10-29 | MCP de PrepTest: la app pone la estructura y el razonamiento lo hace el Claude del alumno | Vigente |
-| [D-041](#d-041) | 2026-10-29 | Dos planes en la Home: gratis por el MCP o 10 USD/mes con la app, y una página MCP con el instructivo | Vigente |
+| [D-041](#d-041) | 2026-10-29 | Dos planes en la Home: gratis por el MCP o 10 USD/mes con la app, y una página MCP con el instructivo | Vigente (el precio, ver D-043) |
 | [D-042](#d-042) | 2026-10-29 | MCP en línea en /mcp: se agrega como conector en Claude, ChatGPT, Gemini o Grok, con códigos de sesión y de mapa | Vigente |
+| [D-043](#d-043) | 2026-10-29 | El plan pago cuesta 27 USD por materia: un año de acceso y hasta 100 prácticas | Vigente |
 
 ---
 
@@ -439,7 +440,7 @@ Gastón pidió un MCP para elegir carrera y materia y que le dé las preguntas p
 - **Dependencias:** `@modelcontextprotocol/sdk` 1.32.2 y `zod` 4.6.7 en `output/` (la 3 tenía una vulnerabilidad).
 
 ### D-041
-**Dos planes en la Home: gratis por el MCP o 10 USD/mes con la app, y una página MCP con el instructivo** · 2026-10-29 · Gastón · Vigente
+**Dos planes en la Home: gratis por el MCP o 10 USD/mes con la app, y una página MCP con el instructivo** · 2026-10-29 · Gastón · Vigente (el precio, ver D-043)
 
 Gastón pidió las instrucciones del MCP en una página que se llame MCP, y en la Home la opción de usarlo gratis (lleva al instructivo) o pagar 10 USD/mes (lleva a la app).
 
@@ -461,3 +462,12 @@ Gastón quería que el MCP aparezca como conector. Los conectores de los asisten
 - **Logos:** de Lobe Icons (`@lobehub/icons-static-svg` 1.101.0, licencia MIT), en un solo color (navy 300) en `output/public/logos/`. Simple Icons no tiene los de ChatGPT ni Grok.
 - **D-025 sigue:** el tutor de la app no se llama Claude. Nombrar a los asistentes con los que funciona el conector es otra cosa: es para que el alumno sepa dónde agregarlo.
 - **Pendiente:** probarlo agregado como conector en cada asistente; se probó con el cliente del SDK de MCP, por HTTP y por stdio.
+
+### D-043
+**El plan pago cuesta 27 USD por materia: un año de acceso y hasta 100 prácticas** · 2026-10-29 · Gastón · Vigente
+
+Gastón cambió el precio del plan pago: 27 USD por el PrepTest de una materia, con un año de acceso y hasta 100 prácticas. Reemplaza los 10 USD/mes de D-041.
+
+- **Tarjeta de la Home:** "PrepTest completo", 27 USD, "Una materia, con el tutor de PrepTest". Lista: acceso por 1 año, hasta 100 prácticas, explicar con tus palabras con el tutor, y el mapa en la web. Botón "Pagá 27 USD →". En inglés: "Pay 27 USD →", "1 year of access", "Up to 100 practice runs".
+- **Práctica:** cada ronda de preguntas que se empieza en la app (lo que en inglés se dice "practice run").
+- **Todavía no se cobra ni se controla:** el botón sigue entrando a la app, sin pasarela de pago ni cuentas. El año de acceso, la materia elegida y el tope de 100 prácticas se van a poder controlar cuando haya cuentas.

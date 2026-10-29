@@ -70,9 +70,9 @@ export const TEXTOS = {
       cta: "Usalo gratis →",
     },
     plan_pago: {
-      nombre: "PrepTest completo", precio: "10 USD/mes", texto: "La app web con el tutor de PrepTest.",
-      items: ["Explicás con tus palabras, escrito o dictado", "El tutor te dice qué te faltó y qué marcarías", "Tu mapa en la web, en español e inglés"],
-      cta: "Pagá 10 USD/mes →",
+      nombre: "PrepTest completo", precio: "27 USD", texto: "Una materia, con el tutor de PrepTest.",
+      items: ["Acceso por 1 año", "Hasta 100 prácticas", "Explicás con tus palabras, escrito o dictado, y el tutor te dice qué te faltó", "Tu mapa en la web, en español e inglés"],
+      cta: "Pagá 27 USD →",
     },
 
     // Página del MCP
@@ -304,9 +304,9 @@ export const TEXTOS = {
       cta: "Use it free →",
     },
     plan_pago: {
-      nombre: "PrepTest full", precio: "10 USD/month", texto: "The web app with the PrepTest tutor.",
-      items: ["Explain in your own words, typed or spoken", "The tutor shows what's missing and what you'd mark", "Your map on the web, in Spanish and English"],
-      cta: "Pay 10 USD/month →",
+      nombre: "PrepTest full", precio: "27 USD", texto: "One subject, with the PrepTest tutor.",
+      items: ["1 year of access", "Up to 100 practice runs", "Explain in your own words, typed or spoken, and the tutor shows what's missing", "Your map on the web, in Spanish and English"],
+      cta: "Pay 27 USD →",
     },
 
     funciona_con: "Works with",
