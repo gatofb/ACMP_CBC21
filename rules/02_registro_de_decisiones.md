@@ -40,7 +40,7 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-027](#d-027) | 2026-10-28 | Módulo de IPC: Cátedra A · Buacar, con 10 versiones de parciales y finales | Vigente |
 | [D-028](#d-028) | 2026-10-28 | La app también se publica en Vercel, con una función por ruta de la API | Vigente |
 | [D-029](#d-029) | 2026-10-28 | Quick Demo: un diagnóstico de 4 preguntas para probar la app | Vigente |
-| [D-030](#d-030) | 2026-10-28 | En el Explainer Mode se muestran las opciones cuando la pregunta no se contesta sin ellas | Vigente |
+| [D-030](#d-030) | 2026-10-28 | En el Explainer Mode se muestran las opciones cuando la pregunta no se contesta sin ellas | Vigente (ampliada por D-039) |
 | [D-031](#d-031) | 2026-10-28 | La marca se escribe "Academia Comunica", sin "de Mai Pistiner", en la presentación y la app | Vigente |
 | [D-032](#d-032) | 2026-10-28 | En la versión online dicta el navegador; Whisper queda para local | Vigente |
 | [D-033](#d-033) | 2026-10-28 | Las preguntas de IPC no mencionan la grilla de resolución del examen en papel | Vigente |
@@ -49,6 +49,7 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-036](#d-036) | 2026-10-28 | Home más directa: hero con una muestra del Explainer, tres pasos y un bloque naranja | Vigente (el video, ver D-037) |
 | [D-037](#d-037) | 2026-10-28 | El video "How it works" va en "Cómo funciona", al lado de los pasos | Vigente |
 | [D-038](#d-038) | 2026-10-28 | La Home termina con un link a la presentación del proyecto | Vigente |
+| [D-039](#d-039) | 2026-10-28 | Las preguntas que piden "la opción que justifica tu respuesta" también muestran las opciones | Vigente |
 
 ---
 
@@ -413,3 +414,11 @@ Gastón pidió el link a la presentación al final de la Home.
 
 - **Qué:** debajo del bloque naranja, el botón "Ver la presentación del proyecto →" (en inglés, "See the project presentation →") abre `/presentation-v3/` en otra pestaña, así no se pierde la app. En español se avisa que está en inglés.
 - **Dónde está la presentación:** en Vercel, `vercel.json` copia `presentation-v3/` a `output/public/` al publicar. En local, `server.mjs` la sirve desde su carpeta, así el link también anda en `localhost:4321`.
+
+### D-039
+**Las preguntas que piden "la opción que justifica tu respuesta" también muestran las opciones** · 2026-10-28 · Gastón · Vigente
+
+Amplía D-030. Gastón probó una de IPC ("A. Determine si el argumento es deductivo o inductivo… B. Seleccione la opción que justifica su respuesta") y en el Explainer Mode no veía las opciones que la consigna le pedía elegir.
+
+- **Regla:** `PIDE_OPCIONES` en `output/server.mjs` también reconoce "la opción que justifica". Son 14 preguntas de IPC, todas de dos partes (veredicto y justificación). Con eso IPC tiene 41 preguntas que muestran las opciones; Sociología sigue en 21 e ICSE en 0.
+- **No entran** las de Sociología que dicen "Seleccione la opción correcta" o "Marque con una cruz": se contestan bien con palabras. Tampoco las de IPC que piden clasificar el argumento (deductivo, analogía, enumeración, silogismo): las categorías ya están en el enunciado.

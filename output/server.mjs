@@ -94,6 +94,8 @@ const PIDE_OPCIONES = new RegExp([
   String.raw`\bcu[aá]l(es)? de (las|los|estas|estos|ellos|ellas)\b`,
   String.raw`\bqu[eé] (premisa|opci[oó]n|afirmaci[oó]n)\b`,
   String.raw`\b(las|los) siguientes (afirmaciones|opciones|proposiciones|caracter[ií]sticas|alternativas|argumentos|fragmentos|autores|preguntas)\b`,
+  // "B. Seleccioná la opción que justifica tu respuesta" (IPC): la justificación se elige entre las opciones.
+  String.raw`\bopci[oó]n que justifica\b`,
 ].join("|"), "i");
 const pideOpciones = (pregunta, version) =>
   pregunta.tipo === "simple" && !pregunta.relacionar && PIDE_OPCIONES.test(version.enunciado);
