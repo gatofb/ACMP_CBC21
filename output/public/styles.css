@@ -293,6 +293,21 @@ main.ancho { max-width: 1100px; padding-top: 12px; }
 .pasos h3 { font-size: 20px; margin-bottom: 6px; }
 .pasos p { margin: 0; color: var(--gris-700); font-size: 15px; }
 
+/* Planes: gratis por el MCP o la app completa */
+.planes-grilla { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
+.plan { display: flex; flex-direction: column; gap: 6px; padding: 28px 26px; border-radius: 22px; background: var(--blanco); border: 1px solid var(--gris-200); }
+.plan p { margin: 0; }
+.plan-nombre { font: 700 15px var(--display); color: var(--gris-700); }
+.plan-precio { font: 800 clamp(30px, 4vw, 40px)/1.1 var(--display); letter-spacing: -.02em; }
+.plan-texto { color: var(--gris-700); }
+.plan ul { list-style: none; padding: 0; margin: 12px 0 20px; display: grid; gap: 8px; flex: 1; }
+.plan li { display: flex; gap: 10px; font-size: 15px; }
+.plan li::before { content: "✓"; color: var(--naranja); font-weight: 700; }
+.plan .btn { align-self: flex-start; }
+.plan .asistentes { margin: 0 0 18px; }
+.plan.pago { background: var(--navy); border-color: var(--navy); color: var(--blanco); box-shadow: 0 24px 60px rgba(34, 43, 73, .22); }
+.plan.pago .plan-nombre, .plan.pago .plan-texto { color: #c8cbe0; }
+
 /* Bloque naranja del final */
 .cta-naranja { margin: 40px 0 8px; padding: 56px 32px; border-radius: 26px; background: var(--naranja); color: var(--blanco); text-align: center; }
 .cta-naranja h2 { font: 800 clamp(28px, 4.6vw, 44px)/1.1 var(--display); letter-spacing: -.02em; max-width: 18ch; margin: 0 auto 14px; }
@@ -327,6 +342,7 @@ main.ancho { max-width: 1100px; padding-top: 12px; }
   .muestra { max-width: 480px; }
 }
 @media (max-width: 720px) {
+  .planes-grilla { grid-template-columns: 1fr; }
   .con-video .como-funciona-cuerpo { grid-template-columns: 1fr; }
   .video-bloque { max-width: 420px; margin: 0 auto; width: 100%; }
   .pasos { grid-template-columns: 1fr; }
@@ -339,6 +355,39 @@ main.ancho { max-width: 1100px; padding-top: 12px; }
   .cifras { gap: 14px 24px; }
   .cifras b { font-size: 28px; }
 }
+
+/* Página del MCP */
+.asistentes { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0 0 18px; }
+.asistentes .chico { margin-right: 2px; }
+.asistente { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; color: var(--navy-300); }
+.logo-asistente { width: 22px; height: 22px; flex: none; }
+.lista-asistentes { list-style: none; margin: 8px 0 12px; padding: 0; display: grid; gap: 16px; }
+.lista-asistentes li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; align-items: start; }
+.lista-asistentes .logo-asistente { width: 28px; height: 28px; }
+.lista-asistentes p { margin: 2px 0 0; color: var(--gris-700); font-size: 15px; }
+.destacada-mcp { box-shadow: 0 0 0 2px var(--naranja), var(--sombra); }
+.mcp-texto + .frase, .frase + .mcp-texto { margin-top: 8px; }
+.mcp-local summary { cursor: pointer; list-style: none; }
+.mcp-local summary::-webkit-details-marker { display: none; }
+.mcp-local summary h2 { display: inline; }
+.mcp-local summary::after { content: " +"; font: 700 22px var(--display); color: var(--naranja); }
+.mcp-local[open] summary::after { content: " –"; }
+.mcp-local[open] summary { margin-bottom: 10px; }
+.lista-mcp, .pasos-mcp { margin: 8px 0 0; padding-left: 22px; display: grid; gap: 12px; }
+.pasos-mcp > li { min-width: 0; padding-left: 4px; }
+.pasos-mcp p { margin: 0 0 8px; }
+.mcp-texto { margin: 0; color: var(--gris-700); }
+.codigo { position: relative; margin: 0 0 8px; }
+.codigo pre {
+  margin: 0; padding: 14px 92px 14px 16px; border-radius: 12px; background: var(--navy); color: #e4e6f0;
+  white-space: pre-wrap; overflow-wrap: anywhere; font: 13px/1.55 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.codigo .copiar {
+  position: absolute; top: 8px; right: 8px; border: 0; border-radius: 99px; padding: 6px 12px; cursor: pointer;
+  background: rgba(255, 255, 255, .14); color: var(--blanco); font: 600 12px var(--texto);
+}
+.codigo .copiar:hover { background: rgba(255, 255, 255, .26); }
+.frase { font: 600 17px var(--display); margin: 0; }
 
 /* Carreras y materias */
 .grilla-tarjetas { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }

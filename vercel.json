@@ -5,12 +5,22 @@
   "buildCommand": "rm -rf output/public/presentation-v3 && cp -R presentation-v3 output/public/presentation-v3",
   "outputDirectory": "output/public",
   "redirects": [
-    { "source": "/presentation-v3", "destination": "/presentation-v3/", "permanent": false }
+    {
+      "source": "/presentation-v3",
+      "destination": "/presentation-v3/",
+      "permanent": false
+    }
   ],
   "functions": {
     "api/*.mjs": {
       "includeFiles": "rules/**",
       "maxDuration": 60
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/mcp",
+      "destination": "/api/mcp"
+    }
+  ]
 }

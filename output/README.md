@@ -33,6 +33,20 @@ cd "/Users/gastonfb/Dev_Apps/MaiPistinerTool/CBC Preptest/output" && npm run pro
 - **Por tu sesión (modo local):** si no hay clave en `.env`, el servidor llama al CLI `claude` de esta máquina en modo aislado: sin herramientas, sin CLAUDE.md, MCP ni hooks, y sin guardar la sesión. Usa tu suscripción, así que sirve para probar vos; para darle servicio a alumnos hace falta la API.
 - **Por la API:** con `ANTHROPIC_API_KEY` en `.env`. Los pedidos usan el respaldo automático de la API (`fallbacks: "default"`): si el modelo rechaza un pedido, la API lo reintenta con otro modelo.
 
+## Practicar desde un asistente de IA (MCP)
+
+PrepTest también es un servidor MCP: la app pone la estructura (catálogo, preguntas, clave, fichas y el mapa del alumno) y el razonamiento lo hace el asistente de IA de quien lo usa. No llama a la API ni al tutor de la app, así que no gasta sus tokens. Lo que tiene clave se corrige con la clave; las explicaciones con palabras las lee el asistente contra la ficha que le devuelve el MCP. Las instrucciones para alumnos están en la página `#/mcp` de la app.
+
+- **En línea (conector):** `https://acmp-cbc21.vercel.app/mcp`. Se agrega como conector personalizado en Claude, ChatGPT, Gemini o Grok pegando esa dirección; no pide autenticación. Es `output/mcp-http.mjs` (Streamable HTTP, sin estado) y en Vercel lo atiende `api/mcp.mjs`. En local también responde en `http://localhost:4321/mcp`.
+- **Local (stdio):** `output/mcp.mjs`. Además guarda el mapa en `~/.preptest/mapa.json` (otra ruta con `PREPTEST_MAPA`). En Claude Code lo toma de `.mcp.json` al abrir `CBC Preptest`; para todas las carpetas:
+
+```bash
+claude mcp add --scope user preptest -- /opt/homebrew/bin/node "/Users/gastonfb/Dev_Apps/MaiPistinerTool/CBC Preptest/output/mcp.mjs"
+```
+
+- **Las herramientas** están en `output/mcp-servidor.mjs`, compartidas por las dos versiones: `ver_catalogo`, `ver_ideas`, `empezar` (práctica de 5, demo de 4 o diagnóstico de 18), `responder` y `ver_mapa`, y el prompt `practicar`.
+- **Los códigos:** como en línea no hay memoria entre pedidos, cada pregunta trae un código de sesión (unos 70 caracteres) que el asistente pasa en el siguiente `responder`, y al terminar se da el código del mapa de la materia (`ipc:620b3c.34647d…`, 6 caracteres por idea trabajada) para seguir otro día. Los dos llevan una verificación: un código alterado da error.
+
 ## Publicarla en la nube
 
 En la nube la app usa siempre la API: la sesión del CLI es tu suscripción personal y no puede atender a otros alumnos.

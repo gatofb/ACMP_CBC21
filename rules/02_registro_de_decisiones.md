@@ -50,6 +50,9 @@ Qué se decidió en el proyecto, quién lo decidió y por qué. Sirve para no vo
 | [D-037](#d-037) | 2026-10-28 | El video "How it works" va en "Cómo funciona", al lado de los pasos | Vigente |
 | [D-038](#d-038) | 2026-10-28 | La Home termina con un link a la presentación del proyecto | Vigente |
 | [D-039](#d-039) | 2026-10-28 | Las preguntas que piden "la opción que justifica tu respuesta" también muestran las opciones | Vigente |
+| [D-040](#d-040) | 2026-10-29 | MCP de PrepTest: la app pone la estructura y el razonamiento lo hace el Claude del alumno | Vigente |
+| [D-041](#d-041) | 2026-10-29 | Dos planes en la Home: gratis por el MCP o 10 USD/mes con la app, y una página MCP con el instructivo | Vigente |
+| [D-042](#d-042) | 2026-10-29 | MCP en línea en /mcp: se agrega como conector en Claude, ChatGPT, Gemini o Grok, con códigos de sesión y de mapa | Vigente |
 
 ---
 
@@ -422,3 +425,39 @@ Amplía D-030. Gastón probó una de IPC ("A. Determine si el argumento es deduc
 
 - **Regla:** `PIDE_OPCIONES` en `output/server.mjs` también reconoce "la opción que justifica". Son 14 preguntas de IPC, todas de dos partes (veredicto y justificación). Con eso IPC tiene 41 preguntas que muestran las opciones; Sociología sigue en 21 e ICSE en 0.
 - **No entran** las de Sociología que dicen "Seleccione la opción correcta" o "Marque con una cruz": se contestan bien con palabras. Tampoco las de IPC que piden clasificar el argumento (deductivo, analogía, enumeración, silogismo): las categorías ya están en el enunciado.
+
+### D-040
+**MCP de PrepTest: la app pone la estructura y el razonamiento lo hace el Claude del alumno** · 2026-10-29 · Gastón · Vigente
+
+Gastón pidió un MCP para elegir carrera y materia y que le dé las preguntas para contestar de a una, sin usar los tokens de la API. La idea: la app provee la estructura y la lógica corre del lado del usuario.
+
+- **Qué es:** `output/mcp.mjs`, un servidor MCP por stdio. Tools: `ver_catalogo`, `ver_ideas`, `empezar` (práctica, demo o diagnóstico), `responder` y `ver_mapa`, y el prompt `practicar`.
+- **Sin API:** lo que tiene clave se corrige con la clave del examen. Si el alumno explica con sus palabras, su propio Claude deduce qué marcaría y juzga la claridad, manda eso a `responder` y da el feedback con la ficha que le devuelve el MCP. Las reglas del tutor van en las instrucciones del servidor.
+- **Misma lógica que la app:** las preguntas, las sesiones y la corrección pasaron a `output/banco.mjs`, que usan el servidor web y el MCP. El servidor devuelve lo mismo que antes (se comparó la salida de sus rutas).
+- **Como en la app:** práctica con feedback en cada pregunta y primero los puntos ciegos; demo y diagnóstico sin feedback hasta el final. El mapa usa los mismos cuatro estados y se guarda en `~/.preptest/mapa.json`, aparte del mapa del navegador. Se puede usar en inglés.
+- **Registro:** `.mcp.json` en la raíz para Claude Code; los pasos para Claude Desktop están en `output/README.md`.
+- **Dependencias:** `@modelcontextprotocol/sdk` 1.32.2 y `zod` 4.6.7 en `output/` (la 3 tenía una vulnerabilidad).
+
+### D-041
+**Dos planes en la Home: gratis por el MCP o 10 USD/mes con la app, y una página MCP con el instructivo** · 2026-10-29 · Gastón · Vigente
+
+Gastón pidió las instrucciones del MCP en una página que se llame MCP, y en la Home la opción de usarlo gratis (lleva al instructivo) o pagar 10 USD/mes (lleva a la app).
+
+- **Home:** una sección "Planes" entre "Cómo funciona" y el bloque naranja. Gratis (0 USD): desde el asistente de IA de cada uno, con el MCP; botón "Usalo gratis →" a `#/mcp`. PrepTest completo (10 USD/mes): la app con el tutor, el dictado y el mapa en la web; botón "Pagá 10 USD/mes →" a las materias.
+- **No hay cobro:** el botón de pago entra a la app; todavía no hay pasarela de pago ni cuentas.
+- **Página `#/mcp`:** qué se puede hacer, qué hace falta (Node.js 20 y un asistente que acepte MCP), los tres pasos (bajar el repo de GitHub e instalar, sumar el servidor a la configuración MCP del asistente, pedirle "Quiero practicar con PrepTest") con botones para copiar, y las diferencias con la versión paga. En español e inglés.
+- **Sin nombrar a Claude (D-025):** la página habla de "tu asistente de IA"; los pasos sirven para cualquier asistente con MCP.
+- **Depende del repo público:** el paso 1 clona `gatofb/ACMP_CBC21`. Si el repo pasa a privado, hay que cambiar cómo se baja el MCP.
+
+### D-042
+**MCP en línea en /mcp: se agrega como conector en Claude, ChatGPT, Gemini o Grok, con códigos de sesión y de mapa** · 2026-10-29 · Gastón · Vigente
+
+Gastón quería que el MCP aparezca como conector. Los conectores de los asistentes solo aceptan servidores publicados en internet, así que se armó la versión en línea, y pidió que el plan gratis muestre los logos de Gemini, Claude, ChatGPT y Grok.
+
+- **Dirección:** `https://acmp-cbc21.vercel.app/mcp` (Streamable HTTP, sin estado, sin autenticación). `vercel.json` la lleva a `api/mcp.mjs`, que usa `output/mcp-http.mjs`. Si se abre en el navegador, lleva a la página `#/mcp`.
+- **Sin memoria en el servidor:** cada pedido arma su propio servidor. La sesión viaja en un código corto que devuelve cada pregunta (materia, modo, idioma, preguntas, por cuál va, aciertos y mapa) y el mapa en otro código que se da al terminar, para seguir otro día. Los dos tienen un control de 4 caracteres: si se alteran, dan error. Cada idea se nombra con 5 caracteres de su huella; se verificó que no se repiten en ninguna materia.
+- **Una sola lógica:** las herramientas están en `output/mcp-servidor.mjs`, que usan la versión en línea y la local (`output/mcp.mjs`, que además guarda el mapa en la computadora). Reemplaza el diseño de sesión en memoria de D-040.
+- **Página `#/mcp`:** primero la dirección para copiar, después cómo agregarla en cada asistente (con su logo), qué pedirle y el código del mapa. La versión local queda al final, plegada. Los pasos de cada asistente salen de su documentación y de guías de octubre de 2026: en ChatGPT depende del plan y va por la web, en Gemini por ahora es para cuentas personales de Estados Unidos y en Grok puede pedir plan pago. Los menús cambian seguido y la página lo avisa.
+- **Logos:** de Lobe Icons (`@lobehub/icons-static-svg` 1.101.0, licencia MIT), en un solo color (navy 300) en `output/public/logos/`. Simple Icons no tiene los de ChatGPT ni Grok.
+- **D-025 sigue:** el tutor de la app no se llama Claude. Nombrar a los asistentes con los que funciona el conector es otra cosa: es para que el alumno sepa dónde agregarlo.
+- **Pendiente:** probarlo agregado como conector en cada asistente; se probó con el cliente del SDK de MCP, por HTTP y por stdio.

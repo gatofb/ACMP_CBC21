@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "preptest": {
+      "command": "node",
+      "args": ["output/mcp.mjs"]
+    }
+  }
+}

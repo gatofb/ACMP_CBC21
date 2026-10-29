@@ -234,11 +234,32 @@ function muestraHtml() {
   </div>`;
 }
 
+// Con una sola carrera, los botones de la app llevan directo a sus materias.
+const destinoApp = () => (estado.catalogo.length === 1 ? `#/${estado.catalogo[0].id}` : "#/carreras");
+
+// Asistentes de IA que aceptan conectores MCP (logos en public/logos/, de Lobe Icons).
+const ASISTENTES = [["gemini", "Gemini"], ["claude", "Claude"], ["chatgpt", "ChatGPT"], ["grok", "Grok"]];
+const logoHtml = (id, nombre) => `<img class="logo-asistente" src="logos/${id}.svg" alt="${nombre}" width="22" height="22">`;
+const asistentesHtml = () => `<div class="asistentes"><span class="chico">${t("funciona_con")}</span>
+  ${ASISTENTES.map(([id, nombre]) => `<span class="asistente">${logoHtml(id, nombre)}${nombre}</span>`).join("")}</div>`;
+
+// Los dos planes: gratis por el MCP (con el asistente de cada uno) o la app completa con el tutor.
+// No hay cobro integrado: "Pagá" lleva a la app.
+function planHtml(plan, href, clase) {
+  return `<div class="plan ${clase}">
+    <p class="plan-nombre">${plan.nombre}</p>
+    <p class="plan-precio">${plan.precio}</p>
+    <p class="plan-texto">${plan.texto}</p>
+    <ul>${plan.items.map((x) => `<li>${x}</li>`).join("")}</ul>
+    ${clase === "gratis" ? asistentesHtml() : ""}
+    <a class="btn grande${clase === "gratis" ? " secundario" : ""}" href="${href}">${plan.cta}</a>
+  </div>`;
+}
+
 function landing() {
   const disponibles = estado.catalogo.flatMap((c) => c.materias.filter((m) => m.disponible));
   const suma = (campo) => disponibles.reduce((n, m) => n + m[campo], 0);
-  // Con una sola carrera, el botón lleva directo a sus materias.
-  const destino = estado.catalogo.length === 1 ? `#/${estado.catalogo[0].id}` : "#/carreras";
+  const destino = destinoApp();
   const boton = (clase = "") => `<a class="btn grande ${clase}" href="${destino}">${t("cta_materia")}</a>`;
   app.innerHTML = `
     <section class="hero">
@@ -271,6 +292,15 @@ function landing() {
       </div>
     </section>
 
+    <section class="seccion planes">
+      <p class="eyebrow">${t("planes_eyebrow")}</p>
+      <h2>${t("planes_titulo")}</h2>
+      <div class="planes-grilla">
+        ${planHtml(t("plan_gratis"), "#/mcp", "gratis")}
+        ${planHtml(t("plan_pago"), destino, "pago")}
+      </div>
+    </section>
+
     <section class="cta-naranja">
       <h2>${t("cta_titulo")}</h2>
       <p>${t("cta_texto", suma("apariciones"), suma("fichas"))}</p>
@@ -291,6 +321,87 @@ function landing() {
     app.querySelector(".como-funciona")?.classList.toggle("con-video", ok);
   });
   estado.redibujar = landing;
+}
+
+// ---------- MCP: usarlo gratis desde el asistente de IA de cada uno ----------
+
+const MCP_INSTALAR = "git clone https://github.com/gatofb/ACMP_CBC21.git ~/preptest && cd ~/preptest/output && npm install";
+const mcpConfig = (usuario) => `"preptest": {\n  "command": "node",\n  "args": ["/Users/${usuario}/preptest/output/mcp.mjs"]\n}`;
+
+function codigoHtml(texto) {
+  return `<div class="codigo"><pre><code>${esc(texto)}</code></pre>
+    <button type="button" class="copiar" data-copiar="${esc(texto)}">${t("copiar")}</button></div>`;
+}
+
+// Copia el comando. Si el navegador no deja usar el portapapeles, prueba el método viejo y, si
+// tampoco, deja el texto seleccionado para copiarlo con Cmd+C o Ctrl+C.
+async function copiarTexto(boton) {
+  const texto = boton.dataset.copiar;
+  let ok = false;
+  try { await navigator.clipboard.writeText(texto); ok = true; } catch {
+    const area = Object.assign(document.createElement("textarea"), { value: texto });
+    area.style.cssText = "position:fixed;opacity:0";
+    document.body.append(area);
+    area.select();
+    try { ok = document.execCommand("copy"); } catch { /* sin portapapeles */ }
+    area.remove();
+  }
+  if (!ok) {
+    const rango = document.createRange();
+    rango.selectNodeContents(boton.parentElement.querySelector("code"));
+    getSelection().removeAllRanges();
+    getSelection().addRange(rango);
+    return;
+  }
+  boton.textContent = t("copiado");
+  setTimeout(() => { boton.textContent = t("copiar"); }, 1500);
+}
+
+// La dirección del conector en línea (output/mcp-http.mjs, publicado en Vercel).
+const MCP_URL = "https://acmp-cbc21.vercel.app/mcp";
+
+function verMcp() {
+  app.innerHTML = `
+    <p class="eyebrow">${t("mcp_eyebrow")}</p>
+    <h1>${t("mcp_titulo")}</h1>
+    <p class="sub">${t("mcp_sub")}</p>
+    ${asistentesHtml()}
+    <div class="tarjeta destacada-mcp">
+      <h2>${t("mcp_url_titulo")}</h2>
+      ${codigoHtml(MCP_URL)}
+      <p class="mcp-texto">${t("mcp_url_texto")}</p>
+    </div>
+    <div class="tarjeta">
+      <h2>${t("mcp_asistentes_titulo")}</h2>
+      <ul class="lista-asistentes">
+        ${t("mcp_asistentes").map(([id, nombre, pasos]) => `<li>${logoHtml(id, nombre)}<div><b>${nombre}</b><p>${pasos}</p></div></li>`).join("")}
+      </ul>
+      <p class="chico">${t("mcp_menus_nota")}</p>
+    </div>
+    <div class="tarjeta">
+      <h2>${t("mcp_despues_titulo")}</h2>
+      <p class="mcp-texto">${t("mcp_paso3")}</p>
+      <p class="frase">“${t("mcp_paso3_frase")}”</p>
+      <p class="mcp-texto">${t("mcp_mapa_nota")}</p>
+    </div>
+    <div class="tarjeta">
+      <h2>${t("mcp_puede_titulo")}</h2>
+      <ul class="lista-mcp">${t("mcp_puede").map((x) => `<li>${x}</li>`).join("")}</ul>
+    </div>
+    <details class="tarjeta mcp-local">
+      <summary><h2>${t("mcp_local_titulo")}</h2></summary>
+      <p class="mcp-texto">${t("mcp_local_texto")}</p>
+      <ol class="pasos-mcp">
+        <li><p>${t("mcp_paso1")}</p>${codigoHtml(MCP_INSTALAR)}</li>
+        <li><p>${t("mcp_paso2")}</p>${codigoHtml(mcpConfig(idioma === "en" ? "YOUR_USER" : "TU_USUARIO"))}<p class="chico">${t("mcp_paso2_nota")}</p></li>
+      </ol>
+    </details>
+    <div class="tarjeta">
+      <h2>${t("mcp_diferencias_titulo")}</h2>
+      <p class="mcp-texto">${t("mcp_diferencias")}</p>
+      <div class="acciones"><a class="btn secundario" href="${destinoApp()}">${t("mcp_ver_pago")}</a></div>
+    </div>`;
+  estado.redibujar = verMcp;
 }
 
 function verCarreras() {
@@ -887,6 +998,7 @@ async function mostrar() {
   window.scrollTo(0, 0);
   app.classList.toggle("ancho", !carreraId);
   if (!carreraId) return landing();
+  if (carreraId === "mcp") return verMcp();
   if (carreraId === "carreras") return verCarreras();
   const carrera = estado.catalogo.find((c) => c.id === carreraId);
   if (!carrera) return verCarreras();
@@ -934,6 +1046,8 @@ function cambiarIdioma(nuevo) {
 document.addEventListener("click", async (e) => {
   const boton = e.target.closest("[data-idioma]");
   if (boton) return cambiarIdioma(boton.dataset.idioma);
+  const copiar = e.target.closest("[data-copiar]");
+  if (copiar) return copiarTexto(copiar);
   const ancla = e.target.closest("[data-ancla]");
   if (ancla) {
     // Links internos de la landing: no cambian la ruta.
