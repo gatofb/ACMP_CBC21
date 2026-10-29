@@ -536,6 +536,7 @@ function pregunta() {
 
 const CLARIDAD = ["dice_la_respuesta", "da_el_motivo_del_autor", "usa_bien_los_conceptos", "se_entiende_sin_ambiguedad"];
 const MAX_INTENTOS = 3;
+const MIN_EXPLICACION = 10; // caracteres; el servidor pide lo mismo
 
 const MICROFONO = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>`;
 // Dictado del navegador (Chrome, Edge, Safari): se usa cuando el servidor no tiene Whisper, como en la nube.
@@ -575,6 +576,7 @@ function explicar({ previa = null, borrador = null } = {}) {
         <button class="btn" type="submit" disabled>${t("enviar_explicacion")}</button>
         <button class="btn secundario" type="button" data-accion="salir">${t("salir")}</button>
       </div>
+      <p class="chico falta" id="falta" aria-live="polite"></p>
     </form>`;
 
   const form = document.getElementById("form-explicar");
@@ -583,9 +585,22 @@ function explicar({ previa = null, borrador = null } = {}) {
   estado.redibujar = () => explicar({ previa, borrador: caja.value });
   let dictada = false;
   const eleccion = () => form.querySelector("input[name=opcion]:checked")?.value;
-  const listo = () => {
-    boton.disabled = !(caja.value.trim().length >= 10 && (!eligeOpcion || eleccion()) && (intento > 1 || seguridad()));
+  // Lo que falta para poder enviar. Se avisa recién cuando el alumno empezó, para no retarlo de entrada.
+  const aviso = form.querySelector("#falta");
+  let empezo = Boolean(caja.value.trim());
+  const falta = () => {
+    if (caja.value.trim().length < MIN_EXPLICACION) return t("falta_texto", MIN_EXPLICACION);
+    if (eligeOpcion && !eleccion()) return t("falta_opcion");
+    if (intento === 1 && !seguridad()) return t("falta_seguridad");
+    return "";
   };
+  const listo = () => {
+    const motivo = falta();
+    boton.disabled = Boolean(motivo);
+    aviso.textContent = empezo ? motivo : "";
+  };
+  form.addEventListener("input", () => { empezo = true; }, true);
+  form.addEventListener("click", (e) => { if (e.target.closest("[data-seguridad], input")) empezo = true; }, true);
   const seguridad = intento === 1 ? conectarSeguridad(form, listo) : () => previa.seguridad;
   caja.addEventListener("input", listo);
   form.addEventListener("change", listo);

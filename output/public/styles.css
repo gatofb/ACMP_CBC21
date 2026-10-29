@@ -167,6 +167,7 @@ textarea {
 }
 textarea:focus { outline: none; border-color: var(--navy); }
 
+.falta { margin: 10px 0 0; min-height: 1.4em; color: var(--naranja-700); }
 .pista { border-left: 4px solid var(--cyan); background: var(--cyan-100); padding: 14px 16px; border-radius: 10px; margin-bottom: 16px; }
 .pista b { display: block; margin-bottom: 4px; }
 
